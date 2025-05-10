@@ -12,6 +12,62 @@
       "일반"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      40
+    ],
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        9800
+      ]
+    },
+    "via": [
+      [
+        "완도",
+        "원동",
+        "남창",
+        "월송",
+        "해남",
+        "강진",
+        "장흥",
+        "배산",
+        "보성",
+        "예당",
+        "조성",
+        "벌교",
+        "순천",
+        "광양",
+        "동광양(중마)",
+        "부산서부"
+      ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": []
+    }
+  },
+  {
+    "departureTerminalId": "8050",
+    "arrivalTerminalId": "8056",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
       "hour": 13,
       "minute": 50
     },
@@ -30,6 +86,26 @@
         9800
       ]
     },
+    "via": [
+      [
+        "완도",
+        "원동",
+        "남창",
+        "월송",
+        "해남",
+        "강진",
+        "장흥",
+        "배산",
+        "보성",
+        "예당",
+        "조성",
+        "벌교",
+        "순천",
+        "광양",
+        "동광양(중마)",
+        "부산서부"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -65,44 +141,28 @@
         9800
       ]
     },
+    "via": [
+      [
+        "완도",
+        "원동",
+        "남창",
+        "월송",
+        "해남",
+        "강진",
+        "장흥",
+        "배산",
+        "보성",
+        "예당",
+        "조성",
+        "벌교",
+        "순천",
+        "광양",
+        "동광양(중마)",
+        "부산서부"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8050",
-    "arrivalTerminalId": "8056",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        9800
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": []
     }
   }
 ]
