@@ -56,50 +56,6 @@
     ],
     "departureTime": {
       "hour": 11,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        7400
-      ],
-      "초등생": [
-        3700
-      ],
-      "중고생": [
-        5900
-      ]
-    },
-    "via": [
-      [
-        "목포대",
-        "청계",
-        "무안",
-        "광주(유ㆍ스퀘어)"
-      ]
-    ],
-    "pattern": {
-      "type": "specific-day",
-      "days": []
-    }
-  },
-  {
-    "departureTerminalId": "8422",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 11,
       "minute": 17
     },
     "isTemporaryRoute": false,
@@ -436,6 +392,50 @@
     ],
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8422",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
+    },
+    "via": [
+      [
+        "목포대",
+        "청계",
+        "무안",
+        "광주(유ㆍ스퀘어)"
+      ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": []
     }
   }
 ]
