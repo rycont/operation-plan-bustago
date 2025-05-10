@@ -1,24 +1,53 @@
 [
-    {
-        "departureTerminalId": "9409",
-        "arrivalTerminalId": "7084",
-        "durationInMinutes": [0],
-        "operator": ["㈜광신고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
+  {
+    "departureTerminalId": "9409",
+    "arrivalTerminalId": "7084",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광신고속"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      41
+    ],
+    "fare": {
+      "어른": [
+        4700
+      ],
+      "초등생": [
+        2400
+      ],
+      "중고생": [
+        3800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4700],
-            "초등생": [2400],
-            "중고생": [3800]
+        {
+          "name": "운암동"
         },
-        "stops": [["광주(유ㆍ스퀘어)", "운암동", "정읍", "내장사"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "정읍"
+        },
+        {
+          "name": "내장사"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

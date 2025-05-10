@@ -300,69 +300,6 @@
     "departureTerminalId": "2051",
     "arrivalTerminalId": "5071",
     "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        31700
-      ],
-      "초등생": [
-        15900
-      ],
-      "중고생": [
-        25400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "속초"
-        },
-        {
-          "name": "병원"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동해"
-        },
-        {
-          "name": "삼척"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        11
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2051",
-    "arrivalTerminalId": "5071",
-    "durationInMinutes": [
       240
     ],
     "operator": [
@@ -605,7 +542,15 @@
       ]
     ],
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        12,
+        16,
+        17
+      ],
+      "irregularDays": [
+        18
+      ]
     }
   },
   {
@@ -788,6 +733,69 @@
       "type": "specific-day",
       "days": [
         17
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2051",
+    "arrivalTerminalId": "5071",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        31700
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "병원"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동해"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        18
       ]
     }
   }
