@@ -1,46 +1,98 @@
 [
-    {
-        "departureTerminalId": "7017",
-        "arrivalTerminalId": "0006",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [20300],
-            "초등생": [10200],
-            "중고생": [16200]
-        },
-        "stops": [["진안", "봉동", "서울강남"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "7017",
+    "arrivalTerminalId": "0006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "7017",
-        "arrivalTerminalId": "0006",
-        "durationInMinutes": [0],
-        "operator": ["(유)호남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 15
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        20300
+      ],
+      "초등생": [
+        10200
+      ],
+      "중고생": [
+        16200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진안"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [20300],
-            "초등생": [10200],
-            "중고생": [16200]
+        {
+          "name": "봉동"
         },
-        "stops": [["진안", "봉동", "서울강남"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "서울강남"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "7017",
+    "arrivalTerminalId": "0006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        20300
+      ],
+      "초등생": [
+        10200
+      ],
+      "중고생": [
+        16200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진안"
+        },
+        {
+          "name": "봉동"
+        },
+        {
+          "name": "서울강남"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

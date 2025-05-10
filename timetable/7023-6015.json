@@ -1,38 +1,74 @@
 [
-    {
-        "departureTerminalId": "7023",
-        "arrivalTerminalId": "6015",
-        "durationInMinutes": [90],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "7023",
+    "arrivalTerminalId": "6015",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "공통"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      0
+    ],
+    "fare": {
+      "어른": [
+        12700
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오수"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [12700],
-            "초등생": [6400],
-            "중고생": [10200]
+        {
+          "name": "남원"
         },
-        "stops": [
-            [
-                "오수",
-                "남원",
-                "운봉",
-                "인월",
-                "함양",
-                "수등",
-                "생초",
-                "산청",
-                "원지",
-                "마산",
-                "진주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "운봉"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "수등"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "진주"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
