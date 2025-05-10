@@ -1,46 +1,116 @@
 [
-    {
-        "departureTerminalId": "6490",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [240],
-        "operator": ["㈜함양지리산고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [34900],
-            "초등생": [17500],
-            "중고생": [27900]
-        },
-        "stops": [["백무동", "마천", "인월", "함양", "서상", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6490",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "㈜함양지리산고속"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "6490",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [240],
-        "operator": ["㈜함양지리산고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 40
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        34900
+      ],
+      "초등생": [
+        17500
+      ],
+      "중고생": [
+        27900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "백무동"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [34900],
-            "초등생": [17500],
-            "중고생": [27900]
+        {
+          "name": "마천"
         },
-        "stops": [["백무동", "마천", "인월", "함양", "서상", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "인월"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "서상"
+        },
+        {
+          "name": "서울남부"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6490",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "㈜함양지리산고속"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        34900
+      ],
+      "초등생": [
+        17500
+      ],
+      "중고생": [
+        27900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "백무동"
+        },
+        {
+          "name": "마천"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "서상"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

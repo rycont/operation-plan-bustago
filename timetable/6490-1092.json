@@ -1,26 +1,65 @@
 [
-    {
-        "departureTerminalId": "6490",
-        "arrivalTerminalId": "1092",
-        "durationInMinutes": [0],
-        "operator": ["㈜함양지리산고속"],
-        "busClass": ["프리미엄우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
+  {
+    "departureTerminalId": "6490",
+    "arrivalTerminalId": "1092",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜함양지리산고속"
+    ],
+    "busClass": [
+      "프리미엄우등"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21
+    ],
+    "fare": {
+      "어른": [
+        45600
+      ],
+      "초등생": [
+        22800
+      ],
+      "중고생": [
+        36500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "백무동"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [45600],
-            "초등생": [22800],
-            "중고생": [36500]
+        {
+          "name": "마천"
         },
-        "stops": [
-            ["백무동", "마천", "인월", "함양", "서상", "호계동", "안양", "부천"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "인월"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "서상"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "부천"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
