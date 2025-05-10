@@ -1483,5 +1483,51 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1761",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 4,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      31
+    ],
+    "fare": {
+      "어른": [
+        14000
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        9800
+      ]
+    },
+    "via": [
+      [
+        "군포(산본)",
+        "군포(금정역)",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "인천공항",
+        "인천공항(제2터미널)"
+      ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": []
+    }
   }
 ]

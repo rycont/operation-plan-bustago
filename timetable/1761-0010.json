@@ -248,7 +248,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 22
+      "minute": 17
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -278,15 +278,8 @@
       ]
     ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
-      ]
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -303,7 +296,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 52
+      "minute": 47
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -333,15 +326,8 @@
       ]
     ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
-      ]
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -358,7 +344,7 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 32
+      "minute": 27
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -388,15 +374,8 @@
       ]
     ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
-      ]
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -413,7 +392,7 @@
     ],
     "departureTime": {
       "hour": 9,
-      "minute": 12
+      "minute": 7
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -443,15 +422,8 @@
       ]
     ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
-      ]
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -515,7 +487,7 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 7
+      "minute": 2
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -545,15 +517,8 @@
       ]
     ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
-      ]
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -570,7 +535,7 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 42
+      "minute": 37
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -600,15 +565,8 @@
       ]
     ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
-      ]
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -1330,7 +1288,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 17
+      "minute": 22
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -1360,8 +1318,7 @@
       ]
     ],
     "pattern": {
-      "type": "specific-day",
-      "days": []
+      "type": "everyday"
     }
   },
   {
@@ -1378,7 +1335,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 47
+      "minute": 52
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -1408,8 +1365,7 @@
       ]
     ],
     "pattern": {
-      "type": "specific-day",
-      "days": []
+      "type": "everyday"
     }
   },
   {
@@ -1426,7 +1382,7 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 27
+      "minute": 32
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -1456,8 +1412,7 @@
       ]
     ],
     "pattern": {
-      "type": "specific-day",
-      "days": []
+      "type": "everyday"
     }
   },
   {
@@ -1474,6 +1429,53 @@
     ],
     "departureTime": {
       "hour": 9,
+      "minute": 12
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      31
+    ],
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1761",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 10,
       "minute": 7
     },
     "isTemporaryRoute": false,
@@ -1504,8 +1506,7 @@
       ]
     ],
     "pattern": {
-      "type": "specific-day",
-      "days": []
+      "type": "everyday"
     }
   },
   {
@@ -1522,7 +1523,7 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 2
+      "minute": 42
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -1552,56 +1553,7 @@
       ]
     ],
     "pattern": {
-      "type": "specific-day",
-      "days": []
-    }
-  },
-  {
-    "departureTerminalId": "1761",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 37
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      31
-    ],
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
-      ]
-    },
-    "via": [
-      [
-        "수원(동수원)",
-        "한일타운",
-        "인재개발원",
-        "의왕",
-        "호계사거리",
-        "범계역(공항버스)",
-        "관악역(공항)",
-        "김포공항"
-      ]
-    ],
-    "pattern": {
-      "type": "specific-day",
-      "days": []
+      "type": "everyday"
     }
   }
 ]
