@@ -1,24 +1,47 @@
 [
-    {
-        "departureTerminalId": "8247",
-        "arrivalTerminalId": "8022",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "8247",
+    "arrivalTerminalId": "8022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      0
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1050
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대덕"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1050],
-            "중고생": [1500]
-        },
-        "stops": [["대덕", "마량"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "마량"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
