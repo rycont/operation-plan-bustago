@@ -1,112 +1,257 @@
 [
-    {
-        "departureTerminalId": "7423",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["(유)호남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [14700],
-            "초등생": [7400],
-            "중고생": [11800]
-        },
-        "stops": [["익산", "익산원광대", "익산왕궁", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "7423",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "7423",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [14700],
-            "초등생": [7400],
-            "중고생": [11800]
-        },
-        "stops": [["익산", "익산원광대", "익산왕궁", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        14700
+      ],
+      "초등생": [
+        7400
+      ],
+      "중고생": [
+        11800
+      ]
     },
-    {
-        "departureTerminalId": "7423",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["(유)호남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 40
+    "stops": [
+      [
+        {
+          "name": "익산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [14700],
-            "초등생": [7400],
-            "중고생": [11800]
+        {
+          "name": "익산원광대"
         },
-        "stops": [["익산", "익산원광대", "익산왕궁", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "익산왕궁"
+        },
+        {
+          "name": "서울남부"
         }
-    },
-    {
-        "departureTerminalId": "7423",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [14700],
-            "초등생": [7400],
-            "중고생": [11800]
-        },
-        "stops": [["익산", "익산원광대", "익산왕궁", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7423",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [14700],
-            "초등생": [7400],
-            "중고생": [11800]
-        },
-        "stops": [["익산", "익산원광대", "익산왕궁", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "7423",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      41
+    ],
+    "fare": {
+      "어른": [
+        14700
+      ],
+      "초등생": [
+        7400
+      ],
+      "중고생": [
+        11800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "익산"
+        },
+        {
+          "name": "익산원광대"
+        },
+        {
+          "name": "익산왕궁"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7423",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        14700
+      ],
+      "초등생": [
+        7400
+      ],
+      "중고생": [
+        11800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "익산"
+        },
+        {
+          "name": "익산원광대"
+        },
+        {
+          "name": "익산왕궁"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7423",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      41
+    ],
+    "fare": {
+      "어른": [
+        14700
+      ],
+      "초등생": [
+        7400
+      ],
+      "중고생": [
+        11800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "익산"
+        },
+        {
+          "name": "익산원광대"
+        },
+        {
+          "name": "익산왕궁"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7423",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      41
+    ],
+    "fare": {
+      "어른": [
+        14700
+      ],
+      "초등생": [
+        7400
+      ],
+      "중고생": [
+        11800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "익산"
+        },
+        {
+          "name": "익산원광대"
+        },
+        {
+          "name": "익산왕궁"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

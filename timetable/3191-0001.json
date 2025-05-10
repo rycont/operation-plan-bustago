@@ -1,46 +1,98 @@
 [
-    {
-        "departureTerminalId": "3191",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [16300],
-            "초등생": [8200],
-            "중고생": [11400]
-        },
-        "stops": [["세명대", "제천", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "3191",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "3191",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 0
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        16300
+      ],
+      "초등생": [
+        8200
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "세명대"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [16300],
-            "초등생": [8200],
-            "중고생": [11400]
+        {
+          "name": "제천"
         },
-        "stops": [["세명대", "제천", "동서울"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "3191",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        16300
+      ],
+      "초등생": [
+        8200
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "세명대"
+        },
+        {
+          "name": "제천"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
