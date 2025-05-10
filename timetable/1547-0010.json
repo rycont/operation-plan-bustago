@@ -30,6 +30,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -65,6 +77,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -100,6 +124,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -135,6 +171,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -170,6 +218,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -188,7 +248,7 @@
     ],
     "departureTime": {
       "hour": 6,
-      "minute": 50
+      "minute": 55
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -205,16 +265,21 @@
         6000
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
       ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -231,7 +296,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 10
+      "minute": 25
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -248,16 +313,21 @@
         6000
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
       ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -274,7 +344,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 45
+      "minute": 55
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -291,16 +361,21 @@
         6000
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
       ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -317,84 +392,6 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      31
-    ],
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1547",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      31
-    ],
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
-      ]
-    },
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1547",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 9,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -412,16 +409,21 @@
         6000
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
       ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -437,8 +439,8 @@
       "일반"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 10
+      "hour": 9,
+      "minute": 5
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -455,16 +457,116 @@
         6000
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
       ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1547",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      31
+    ],
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": []
+    }
+  },
+  {
+    "departureTerminalId": "1547",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      31
+    ],
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": []
     }
   },
   {
@@ -498,6 +600,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -533,6 +647,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -568,6 +694,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -603,6 +741,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -638,6 +788,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -673,6 +835,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -708,6 +882,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -743,6 +929,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -778,6 +976,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -813,6 +1023,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -848,6 +1070,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -883,6 +1117,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -918,6 +1164,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -953,6 +1211,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -988,6 +1258,18 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1006,7 +1288,7 @@
     ],
     "departureTime": {
       "hour": 6,
-      "minute": 55
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -1023,9 +1305,20 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": []
+      "type": "everyday"
     }
   },
   {
@@ -1042,6 +1335,100 @@
     ],
     "departureTime": {
       "hour": 7,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      31
+    ],
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1547",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      31
+    ],
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1547",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 8,
       "minute": 25
     },
     "isTemporaryRoute": false,
@@ -1059,45 +1446,20 @@
         6000
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": []
-    }
-  },
-  {
-    "departureTerminalId": "1547",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      31
-    ],
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
       ]
-    },
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": []
+      "type": "everyday"
     }
   },
   {
@@ -1113,7 +1475,7 @@
       "일반"
     ],
     "departureTime": {
-      "hour": 8,
+      "hour": 9,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -1131,45 +1493,20 @@
         6000
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": []
-    }
-  },
-  {
-    "departureTerminalId": "1547",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      31
-    ],
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
       ]
-    },
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": []
+      "type": "everyday"
     }
   },
   {
@@ -1186,7 +1523,7 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 15
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -1203,9 +1540,20 @@
         6000
       ]
     },
+    "via": [
+      [
+        "수원(동수원)",
+        "한일타운",
+        "인재개발원",
+        "의왕",
+        "호계사거리",
+        "범계역(공항버스)",
+        "관악역(공항)",
+        "김포공항"
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": []
+      "type": "everyday"
     }
   }
 ]
