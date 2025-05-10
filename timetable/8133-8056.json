@@ -1,39 +1,77 @@
 [
-    {
-        "departureTerminalId": "8133",
-        "arrivalTerminalId": "8056",
-        "durationInMinutes": [67],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 50
+  {
+    "departureTerminalId": "8133",
+    "arrivalTerminalId": "8056",
+    "durationInMinutes": [
+      67
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      0
+    ],
+    "fare": {
+      "어른": [
+        10000
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        8000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남악"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [10000],
-            "초등생": [5000],
-            "중고생": [8000]
+        {
+          "name": "삼호"
         },
-        "stops": [
-            [
-                "남악",
-                "삼호",
-                "독천",
-                "성전",
-                "강진",
-                "장흥",
-                "배산",
-                "보성",
-                "예당",
-                "조성",
-                "벌교",
-                "순천"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "독천"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

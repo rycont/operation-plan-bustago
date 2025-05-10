@@ -1,35 +1,65 @@
 [
-    {
-        "departureTerminalId": "6035",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "6035",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      0
+    ],
+    "fare": {
+      "어른": [
+        5900
+      ],
+      "초등생": [
+        3000
+      ],
+      "중고생": [
+        4700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "화개공용"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5900],
-            "초등생": [3000],
-            "중고생": [4700]
+        {
+          "name": "구례"
         },
-        "stops": [
-            [
-                "화개공용",
-                "구례",
-                "화엄사",
-                "하동",
-                "진교",
-                "부산서부",
-                "진주",
-                "곤양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "화엄사"
+        },
+        {
+          "name": "하동"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "진주"
+        },
+        {
+          "name": "곤양"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

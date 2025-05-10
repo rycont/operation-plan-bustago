@@ -1,24 +1,53 @@
 [
-    {
-        "departureTerminalId": "9428",
-        "arrivalTerminalId": "8050",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
+  {
+    "departureTerminalId": "9428",
+    "arrivalTerminalId": "8050",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
+        {
+          "name": "송정역"
         },
-        "stops": [["광주(유ㆍ스퀘어)", "송정역", "해양치유센터", "완도"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "해양치유센터"
+        },
+        {
+          "name": "완도"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
