@@ -1,90 +1,208 @@
 [
-    {
-        "departureTerminalId": "6001",
-        "arrivalTerminalId": "6266",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["거창", "가조", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6001",
+    "arrivalTerminalId": "6266",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "6001",
-        "arrivalTerminalId": "6266",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["거창", "가조", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      41
+    ],
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
     },
-    {
-        "departureTerminalId": "6001",
-        "arrivalTerminalId": "6266",
-        "durationInMinutes": [10],
-        "operator": ["고려여객(자주)", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "거창"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
+        {
+          "name": "가조"
         },
-        "stops": [["거창", "가조", "고령", "현풍", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "대구서부"
         }
-    },
-    {
-        "departureTerminalId": "6001",
-        "arrivalTerminalId": "6266",
-        "durationInMinutes": [10],
-        "operator": ["고려여객(자주)", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
-        },
-        "stops": [["거창", "가조", "고령", "현풍", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6001",
+    "arrivalTerminalId": "6266",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      41
+    ],
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "거창"
+        },
+        {
+          "name": "가조"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6001",
+    "arrivalTerminalId": "6266",
+    "durationInMinutes": [
+      10
+    ],
+    "operator": [
+      "고려여객(자주)",
+      "천일여객㈜"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "거창"
+        },
+        {
+          "name": "가조"
+        },
+        {
+          "name": "고령"
+        },
+        {
+          "name": "현풍"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6001",
+    "arrivalTerminalId": "6266",
+    "durationInMinutes": [
+      10
+    ],
+    "operator": [
+      "고려여객(자주)",
+      "천일여객㈜"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "거창"
+        },
+        {
+          "name": "가조"
+        },
+        {
+          "name": "고령"
+        },
+        {
+          "name": "현풍"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

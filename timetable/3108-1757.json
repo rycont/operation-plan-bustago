@@ -1,24 +1,59 @@
 [
-    {
-        "departureTerminalId": "3108",
-        "arrivalTerminalId": "1757",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 25
+  {
+    "departureTerminalId": "3108",
+    "arrivalTerminalId": "1757",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      40
+    ],
+    "fare": {
+      "어른": [
+        10400
+      ],
+      "초등생": [
+        5200
+      ],
+      "중고생": [
+        8300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "건국대학교"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [10400],
-            "초등생": [5200],
-            "중고생": [8300]
+        {
+          "name": "충주"
         },
-        "stops": [["건국대학교", "충주", "고천", "호계동", "안양", "부천"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "고천"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "부천"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
