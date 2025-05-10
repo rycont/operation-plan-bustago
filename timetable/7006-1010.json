@@ -1,125 +1,68 @@
 [
-  {
-    "departureTerminalId": "7006",
-    "arrivalTerminalId": "1010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 40
+    {
+        "departureTerminalId": "7006",
+        "arrivalTerminalId": "1010",
+        "durationInMinutes": [0],
+        "operator": ["(주)경기고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [23000],
+            "초등생": [11500],
+            "중고생": [18400]
+        },
+        "stops": [["군산", "성남"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        23000
-      ],
-      "초등생": [
-        11500
-      ],
-      "중고생": [
-        18400
-      ]
+    {
+        "departureTerminalId": "7006",
+        "arrivalTerminalId": "1010",
+        "durationInMinutes": [0],
+        "operator": ["(주)경기고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [23000],
+            "초등생": [11500],
+            "중고생": [18400]
+        },
+        "stops": [["군산", "성남"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "군산",
-        "성남"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "7006",
+        "arrivalTerminalId": "1010",
+        "durationInMinutes": [0],
+        "operator": ["(주)경기고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 19,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [23000],
+            "초등생": [11500],
+            "중고생": [18400]
+        },
+        "stops": [["군산", "성남"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "7006",
-    "arrivalTerminalId": "1010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        23000
-      ],
-      "초등생": [
-        11500
-      ],
-      "중고생": [
-        18400
-      ]
-    },
-    "via": [
-      [
-        "군산",
-        "성남"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7006",
-    "arrivalTerminalId": "1010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        23000
-      ],
-      "초등생": [
-        11500
-      ],
-      "중고생": [
-        18400
-      ]
-    },
-    "via": [
-      [
-        "군산",
-        "성남"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

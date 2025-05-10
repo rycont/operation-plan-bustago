@@ -1,78 +1,40 @@
 [
-  {
-    "departureTerminalId": "4028",
-    "arrivalTerminalId": "4042",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "busClass": [
-      "시외우등",
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28,
-      40
-    ],
-    "fare": {
-      "어른": [
-        0,
-        7100
-      ],
-      "초등생": [
-        0,
-        3600
-      ],
-      "중고생": [
-        0,
-        5700
-      ]
-    },
-    "via": [
-      [
-        "만리포",
-        "소원",
-        "태안",
-        "어송",
-        "서산",
-        "음암",
-        "운산"
-      ],
-      [
-        "만리포",
-        "소원",
-        "태안",
-        "어송",
-        "서산",
-        "음암",
-        "운산",
-        "당진",
-        "기지시",
-        "서울남부"
-      ]
-    ],
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2,
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1,
-        1,
-        1
-      ]
+    {
+        "departureTerminalId": "4028",
+        "arrivalTerminalId": "4042",
+        "durationInMinutes": [0],
+        "operator": ["㈜충남고속", "㈜한양고속"],
+        "busClass": ["시외우등", "일반"],
+        "departureTime": {
+            "hour": 12,
+            "minute": 25
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28, 40],
+        "fare": {
+            "어른": [0, 7100],
+            "초등생": [0, 3600],
+            "중고생": [0, 5700]
+        },
+        "stops": [
+            ["만리포", "소원", "태안", "어송", "서산", "음암", "운산"],
+            [
+                "만리포",
+                "소원",
+                "태안",
+                "어송",
+                "서산",
+                "음암",
+                "운산",
+                "당진",
+                "기지시",
+                "서울남부"
+            ]
+        ],
+        "pattern": {
+            "type": "irregular",
+            "fixedDays": [2, 2, 2, 2],
+            "irregularDays": [1, 1, 1, 1]
+        }
     }
-  }
 ]

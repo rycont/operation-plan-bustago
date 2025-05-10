@@ -1,61 +1,47 @@
 [
-  {
-    "departureTerminalId": "3023",
-    "arrivalTerminalId": "3038",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "서울고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        13600
-      ],
-      "초등생": [
-        6800
-      ],
-      "중고생": [
-        10900
-      ]
-    },
-    "via": [
-      [
-        "단양상진",
-        "단성",
-        "장회",
-        "계란리",
-        "수산",
-        "덕산(제천)",
-        "용바위",
-        "수산리",
-        "탄지리",
-        "살미",
-        "충주",
-        "주덕",
-        "비산",
-        "적곡리",
-        "음성",
-        "보천",
-        "도안",
-        "증평",
-        "청주대정류소",
-        "청주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "3023",
+        "arrivalTerminalId": "3038",
+        "durationInMinutes": [0],
+        "operator": ["서울고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [13600],
+            "초등생": [6800],
+            "중고생": [10900]
+        },
+        "stops": [
+            [
+                "단양상진",
+                "단성",
+                "장회",
+                "계란리",
+                "수산",
+                "덕산(제천)",
+                "용바위",
+                "수산리",
+                "탄지리",
+                "살미",
+                "충주",
+                "주덕",
+                "비산",
+                "적곡리",
+                "음성",
+                "보천",
+                "도안",
+                "증평",
+                "청주대정류소",
+                "청주"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

@@ -1,99 +1,71 @@
 [
-  {
-    "departureTerminalId": "6455",
-    "arrivalTerminalId": "6028",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "신흥여객(자주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 13
+    {
+        "departureTerminalId": "6455",
+        "arrivalTerminalId": "6028",
+        "durationInMinutes": [180],
+        "operator": ["신흥여객(자주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 13
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [18000],
+            "초등생": [9000],
+            "중고생": [14400]
+        },
+        "stops": [
+            [
+                "장승포",
+                "옥포",
+                "고현거제도",
+                "사곡",
+                "통영터미널",
+                "고성",
+                "배둔",
+                "진동",
+                "남마산",
+                "창원"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        18000
-      ],
-      "초등생": [
-        9000
-      ],
-      "중고생": [
-        14400
-      ]
-    },
-    "via": [
-      [
-        "장승포",
-        "옥포",
-        "고현거제도",
-        "사곡",
-        "통영터미널",
-        "고성",
-        "배둔",
-        "진동",
-        "남마산",
-        "창원"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6455",
+        "arrivalTerminalId": "6028",
+        "durationInMinutes": [180],
+        "operator": ["경원여객(자주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 17,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [18000],
+            "초등생": [9000],
+            "중고생": [14400]
+        },
+        "stops": [
+            [
+                "장승포",
+                "옥포",
+                "고현거제도",
+                "사곡",
+                "통영터미널",
+                "고성",
+                "배둔",
+                "진동",
+                "창원"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "6455",
-    "arrivalTerminalId": "6028",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "경원여객(자주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        18000
-      ],
-      "초등생": [
-        9000
-      ],
-      "중고생": [
-        14400
-      ]
-    },
-    "via": [
-      [
-        "장승포",
-        "옥포",
-        "고현거제도",
-        "사곡",
-        "통영터미널",
-        "고성",
-        "배둔",
-        "진동",
-        "창원"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

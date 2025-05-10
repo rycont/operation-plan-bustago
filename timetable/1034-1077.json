@@ -1,50 +1,36 @@
 [
-  {
-    "departureTerminalId": "1034",
-    "arrivalTerminalId": "1077",
-    "durationInMinutes": [
-      25
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        2700
-      ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "via": [
-      [
-        "청평",
-        "가평",
-        "경강",
-        "서천2리",
-        "서천1리",
-        "안보리",
-        "당림리",
-        "강촌",
-        "춘천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "1034",
+        "arrivalTerminalId": "1077",
+        "durationInMinutes": [25],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [2700],
+            "초등생": [1400],
+            "중고생": [2200]
+        },
+        "stops": [
+            [
+                "청평",
+                "가평",
+                "경강",
+                "서천2리",
+                "서천1리",
+                "안보리",
+                "당림리",
+                "강촌",
+                "춘천"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

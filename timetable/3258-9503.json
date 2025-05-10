@@ -1,45 +1,24 @@
 [
-  {
-    "departureTerminalId": "3258",
-    "arrivalTerminalId": "9503",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대성티앤이"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        5500
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        4400
-      ]
-    },
-    "via": [
-      [
-        "영동",
-        "(구)영동",
-        "영동(시장)",
-        "대전복합"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "3258",
+        "arrivalTerminalId": "9503",
+        "durationInMinutes": [0],
+        "operator": ["대성티앤이"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 5
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [5500],
+            "초등생": [2800],
+            "중고생": [4400]
+        },
+        "stops": [["영동", "(구)영동", "영동(시장)", "대전복합"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

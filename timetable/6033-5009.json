@@ -1,131 +1,68 @@
 [
-  {
-    "departureTerminalId": "6033",
-    "arrivalTerminalId": "5009",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전/동일"
-    ],
-    "busClass": [
-      "프리미엄우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 0
+    {
+        "departureTerminalId": "6033",
+        "arrivalTerminalId": "5009",
+        "durationInMinutes": [0],
+        "operator": ["경전/동일"],
+        "busClass": ["프리미엄우등"],
+        "departureTime": {
+            "hour": 8,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [0],
+            "초등생": [0],
+            "중고생": [0]
+        },
+        "stops": [["합천", "고령", "성주", "서울남부"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
+    {
+        "departureTerminalId": "6033",
+        "arrivalTerminalId": "5009",
+        "durationInMinutes": [0],
+        "operator": ["경전/동일"],
+        "busClass": ["프리미엄우등"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [0],
+            "초등생": [0],
+            "중고생": [0]
+        },
+        "stops": [["합천", "고령", "성주", "서울남부"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "합천",
-        "고령",
-        "성주",
-        "서울남부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6033",
+        "arrivalTerminalId": "5009",
+        "durationInMinutes": [0],
+        "operator": ["경전/동일"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 17,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [0],
+            "초등생": [0],
+            "중고생": [0]
+        },
+        "stops": [["합천", "고령", "성주", "서울남부"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "6033",
-    "arrivalTerminalId": "5009",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전/동일"
-    ],
-    "busClass": [
-      "프리미엄우등"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        "합천",
-        "고령",
-        "성주",
-        "서울남부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6033",
-    "arrivalTerminalId": "5009",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전/동일"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        "합천",
-        "고령",
-        "성주",
-        "서울남부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

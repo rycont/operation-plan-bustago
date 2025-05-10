@@ -1,96 +1,50 @@
 [
-  {
-    "departureTerminalId": "2004",
-    "arrivalTerminalId": "2001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 45
+    {
+        "departureTerminalId": "2004",
+        "arrivalTerminalId": "2001",
+        "durationInMinutes": [0],
+        "operator": ["㈜금아여행"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 45
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [1700],
+            "초등생": [900],
+            "중고생": [1400]
+        },
+        "stops": [
+            ["거진", "간성", "속초", "물치", "낙산", "강릉", "동해", "부산동부"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "via": [
-      [
-        "거진",
-        "간성",
-        "속초",
-        "물치",
-        "낙산",
-        "강릉",
-        "동해",
-        "부산동부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "2004",
+        "arrivalTerminalId": "2001",
+        "durationInMinutes": [0],
+        "operator": ["㈜금아여행"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [1700],
+            "초등생": [900],
+            "중고생": [1400]
+        },
+        "stops": [
+            ["거진", "간성", "속초", "병원", "강릉", "동해", "포항", "부산동부"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "2004",
-    "arrivalTerminalId": "2001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "via": [
-      [
-        "거진",
-        "간성",
-        "속초",
-        "병원",
-        "강릉",
-        "동해",
-        "포항",
-        "부산동부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

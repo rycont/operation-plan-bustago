@@ -1,86 +1,46 @@
 [
-  {
-    "departureTerminalId": "6266",
-    "arrivalTerminalId": "9204",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "거창고속㈜"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 0
+    {
+        "departureTerminalId": "6266",
+        "arrivalTerminalId": "9204",
+        "durationInMinutes": [0],
+        "operator": ["거창고속㈜"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [4700],
+            "초등생": [2400],
+            "중고생": [3800]
+        },
+        "stops": [["거창", "가조", "대구서부"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        4700
-      ],
-      "초등생": [
-        2400
-      ],
-      "중고생": [
-        3800
-      ]
-    },
-    "via": [
-      [
-        "거창",
-        "가조",
-        "대구서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6266",
+        "arrivalTerminalId": "9204",
+        "durationInMinutes": [0],
+        "operator": ["거창고속㈜"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [4700],
+            "초등생": [2400],
+            "중고생": [3800]
+        },
+        "stops": [["거창", "가조", "대구서부"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "6266",
-    "arrivalTerminalId": "9204",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "거창고속㈜"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        4700
-      ],
-      "초등생": [
-        2400
-      ],
-      "중고생": [
-        3800
-      ]
-    },
-    "via": [
-      [
-        "거창",
-        "가조",
-        "대구서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

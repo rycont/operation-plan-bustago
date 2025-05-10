@@ -1,50 +1,36 @@
 [
-  {
-    "departureTerminalId": "8046",
-    "arrivalTerminalId": "8247",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        12000
-      ],
-      "초등생": [
-        6000
-      ],
-      "중고생": [
-        9600
-      ]
-    },
-    "via": [
-      [
-        "영산포",
-        "신북",
-        "영암",
-        "옴천",
-        "병영",
-        "장흥",
-        "용산",
-        "대덕",
-        "회진"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8046",
+        "arrivalTerminalId": "8247",
+        "durationInMinutes": [0],
+        "operator": ["금호고속(주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 13,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [12000],
+            "초등생": [6000],
+            "중고생": [9600]
+        },
+        "stops": [
+            [
+                "영산포",
+                "신북",
+                "영암",
+                "옴천",
+                "병영",
+                "장흥",
+                "용산",
+                "대덕",
+                "회진"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

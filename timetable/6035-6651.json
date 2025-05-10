@@ -1,55 +1,41 @@
 [
-  {
-    "departureTerminalId": "6035",
-    "arrivalTerminalId": "6651",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "부산,영화"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        1350
-      ],
-      "초등생": [
-        700
-      ],
-      "중고생": [
-        1100
-      ]
-    },
-    "via": [
-      [
-        "화개공용",
-        "농어촌",
-        "동방천",
-        "악양",
-        "단천",
-        "소대축",
-        "의신",
-        "평사리",
-        "용두",
-        "개치",
-        "흥룡(신지)",
-        "병원앞",
-        "전도",
-        "시내기본"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6035",
+        "arrivalTerminalId": "6651",
+        "durationInMinutes": [0],
+        "operator": ["부산,영화"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [1350],
+            "초등생": [700],
+            "중고생": [1100]
+        },
+        "stops": [
+            [
+                "화개공용",
+                "농어촌",
+                "동방천",
+                "악양",
+                "단천",
+                "소대축",
+                "의신",
+                "평사리",
+                "용두",
+                "개치",
+                "흥룡(신지)",
+                "병원앞",
+                "전도",
+                "시내기본"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

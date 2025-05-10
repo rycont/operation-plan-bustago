@@ -1,86 +1,46 @@
 [
-  {
-    "departureTerminalId": "4003",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 20
+    {
+        "departureTerminalId": "4003",
+        "arrivalTerminalId": "1015",
+        "durationInMinutes": [100],
+        "operator": ["대원고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 13,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [14300],
+            "초등생": [7200],
+            "중고생": [11400]
+        },
+        "stops": [["부여", "공주", "안산"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        14300
-      ],
-      "초등생": [
-        7200
-      ],
-      "중고생": [
-        11400
-      ]
-    },
-    "via": [
-      [
-        "부여",
-        "공주",
-        "안산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "4003",
+        "arrivalTerminalId": "1015",
+        "durationInMinutes": [100],
+        "operator": ["대원고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 20,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [14300],
+            "초등생": [7200],
+            "중고생": [11400]
+        },
+        "stops": [["부여", "공주", "안산"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "4003",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        14300
-      ],
-      "초등생": [
-        7200
-      ],
-      "중고생": [
-        11400
-      ]
-    },
-    "via": [
-      [
-        "부여",
-        "공주",
-        "안산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

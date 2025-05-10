@@ -1,92 +1,46 @@
 [
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "5161",
-    "durationInMinutes": [
-      30
-    ],
-    "operator": [
-      "㈜금아리무진"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 10
+    {
+        "departureTerminalId": "5007",
+        "arrivalTerminalId": "5161",
+        "durationInMinutes": [30],
+        "operator": ["㈜금아리무진"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 19,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [4400],
+            "초등생": [2200],
+            "중고생": [4000]
+        },
+        "stops": [["신도청", "영천", "경주", "불국사", "입실", "울산"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        4400
-      ],
-      "초등생": [
-        2200
-      ],
-      "중고생": [
-        4000
-      ]
-    },
-    "via": [
-      [
-        "신도청",
-        "영천",
-        "경주",
-        "불국사",
-        "입실",
-        "울산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "5007",
+        "arrivalTerminalId": "5161",
+        "durationInMinutes": [30],
+        "operator": ["㈜금아여행"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 21,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [3400],
+            "초등생": [1700],
+            "중고생": [3100]
+        },
+        "stops": [["포항", "경주", "불국사", "입실", "모화", "울산"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "5161",
-    "durationInMinutes": [
-      30
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        3400
-      ],
-      "초등생": [
-        1700
-      ],
-      "중고생": [
-        3100
-      ]
-    },
-    "via": [
-      [
-        "포항",
-        "경주",
-        "불국사",
-        "입실",
-        "모화",
-        "울산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

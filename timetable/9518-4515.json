@@ -1,59 +1,26 @@
 [
-  {
-    "departureTerminalId": "9518",
-    "arrivalTerminalId": "4515",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "시외우등",
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        14600,
-        19000
-      ],
-      "초등생": [
-        7300,
-        9500
-      ],
-      "중고생": [
-        11700,
-        15200
-      ]
-    },
-    "via": [
-      [
-        "관저정류소",
-        "보령(도마)"
-      ]
-    ],
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2,
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1,
-        1,
-        1
-      ]
+    {
+        "departureTerminalId": "9518",
+        "arrivalTerminalId": "4515",
+        "durationInMinutes": [0],
+        "operator": ["공통"],
+        "busClass": ["시외우등", "일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [14600, 19000],
+            "초등생": [7300, 9500],
+            "중고생": [11700, 15200]
+        },
+        "stops": [["관저정류소", "보령(도마)"]],
+        "pattern": {
+            "type": "irregular",
+            "fixedDays": [2, 2, 2, 2],
+            "irregularDays": [1, 1, 1, 1]
+        }
     }
-  }
 ]

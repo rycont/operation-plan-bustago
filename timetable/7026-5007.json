@@ -1,90 +1,46 @@
 [
-  {
-    "departureTerminalId": "7026",
-    "arrivalTerminalId": "5007",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전북고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 5
+    {
+        "departureTerminalId": "7026",
+        "arrivalTerminalId": "5007",
+        "durationInMinutes": [0],
+        "operator": ["㈜전북고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 8,
+            "minute": 5
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [31700],
+            "초등생": [15900],
+            "중고생": [25400]
+        },
+        "stops": [["군산", "익산", "전주", "경주", "포항"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        31700
-      ],
-      "초등생": [
-        15900
-      ],
-      "중고생": [
-        25400
-      ]
-    },
-    "via": [
-      [
-        "군산",
-        "익산",
-        "전주",
-        "경주",
-        "포항"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "7026",
+        "arrivalTerminalId": "5007",
+        "durationInMinutes": [0],
+        "operator": ["㈜전북고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [31700],
+            "초등생": [15900],
+            "중고생": [25400]
+        },
+        "stops": [["군산", "익산", "전주", "경주", "포항"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "7026",
-    "arrivalTerminalId": "5007",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전북고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        31700
-      ],
-      "초등생": [
-        15900
-      ],
-      "중고생": [
-        25400
-      ]
-    },
-    "via": [
-      [
-        "군산",
-        "익산",
-        "전주",
-        "경주",
-        "포항"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

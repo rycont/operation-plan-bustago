@@ -1,68 +1,29 @@
 [
-  {
-    "departureTerminalId": "7023",
-    "arrivalTerminalId": "8003",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        5500
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        4400
-      ]
-    },
-    "via": [
-      [
-        "오수",
-        "남원",
-        "곡성",
-        "구례",
-        "괴목",
-        "순천",
-        "여천",
-        "여수"
-      ],
-      [
-        "오수",
-        "남원",
-        "곡성",
-        "구례",
-        "화엄사"
-      ]
-    ],
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2,
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1,
-        1,
-        1
-      ]
+    {
+        "departureTerminalId": "7023",
+        "arrivalTerminalId": "8003",
+        "durationInMinutes": [50],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [5500],
+            "초등생": [2800],
+            "중고생": [4400]
+        },
+        "stops": [
+            ["오수", "남원", "곡성", "구례", "괴목", "순천", "여천", "여수"],
+            ["오수", "남원", "곡성", "구례", "화엄사"]
+        ],
+        "pattern": {
+            "type": "irregular",
+            "fixedDays": [2, 2, 2, 2],
+            "irregularDays": [1, 1, 1, 1]
+        }
     }
-  }
 ]

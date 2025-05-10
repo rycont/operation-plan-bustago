@@ -1,43 +1,24 @@
 [
-  {
-    "departureTerminalId": "2036",
-    "arrivalTerminalId": "2006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        5100
-      ],
-      "초등생": [
-        2600
-      ],
-      "중고생": [
-        4100
-      ]
-    },
-    "via": [
-      [
-        "진부",
-        "내면"
-      ]
-    ],
-    "pattern": {
-      "type": "unknown"
+    {
+        "departureTerminalId": "2036",
+        "arrivalTerminalId": "2006",
+        "durationInMinutes": [0],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [45],
+        "fare": {
+            "어른": [5100],
+            "초등생": [2600],
+            "중고생": [4100]
+        },
+        "stops": [["진부", "내면"]],
+        "pattern": {
+            "type": "unknown"
+        }
     }
-  }
 ]

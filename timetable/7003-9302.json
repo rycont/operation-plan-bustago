@@ -1,43 +1,24 @@
 [
-  {
-    "departureTerminalId": "7003",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        27300
-      ],
-      "초등생": [
-        13700
-      ],
-      "중고생": [
-        21800
-      ]
-    },
-    "via": [
-      [
-        "고창",
-        "인천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "7003",
+        "arrivalTerminalId": "9302",
+        "durationInMinutes": [0],
+        "operator": ["(주)경기고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 8,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [27300],
+            "초등생": [13700],
+            "중고생": [21800]
+        },
+        "stops": [["고창", "인천"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

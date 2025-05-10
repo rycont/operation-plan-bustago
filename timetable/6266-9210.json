@@ -1,92 +1,46 @@
 [
-  {
-    "departureTerminalId": "6266",
-    "arrivalTerminalId": "9210",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "고려여객(자주)",
-      "천일여객㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 35
+    {
+        "departureTerminalId": "6266",
+        "arrivalTerminalId": "9210",
+        "durationInMinutes": [0],
+        "operator": ["고려여객(자주)", "천일여객㈜"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 35
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [8200],
+            "초등생": [4100],
+            "중고생": [6600]
+        },
+        "stops": [["거창", "가조", "고령", "현풍", "부산서부"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        8200
-      ],
-      "초등생": [
-        4100
-      ],
-      "중고생": [
-        6600
-      ]
-    },
-    "via": [
-      [
-        "거창",
-        "가조",
-        "고령",
-        "현풍",
-        "부산서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6266",
+        "arrivalTerminalId": "9210",
+        "durationInMinutes": [0],
+        "operator": ["고려여객(자주)", "천일여객㈜"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 16,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [8200],
+            "초등생": [4100],
+            "중고생": [6600]
+        },
+        "stops": [["거창", "가조", "고령", "현풍", "부산서부"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "6266",
-    "arrivalTerminalId": "9210",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "고려여객(자주)",
-      "천일여객㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        8200
-      ],
-      "초등생": [
-        4100
-      ],
-      "중고생": [
-        6600
-      ]
-    },
-    "via": [
-      [
-        "거창",
-        "가조",
-        "고령",
-        "현풍",
-        "부산서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

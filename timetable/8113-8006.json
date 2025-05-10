@@ -1,94 +1,50 @@
 [
-  {
-    "departureTerminalId": "8113",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "오동운수"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 32
+    {
+        "departureTerminalId": "8113",
+        "arrivalTerminalId": "8006",
+        "durationInMinutes": [0],
+        "operator": ["오동운수"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 32
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [5400],
+            "초등생": [2700],
+            "중고생": [4300]
+        },
+        "stops": [
+            ["덕양", "순천역", "순천", "순천북부", "광양", "중마동", "제철"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        5400
-      ],
-      "초등생": [
-        2700
-      ],
-      "중고생": [
-        4300
-      ]
-    },
-    "via": [
-      [
-        "덕양",
-        "순천역",
-        "순천",
-        "순천북부",
-        "광양",
-        "중마동",
-        "제철"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8113",
+        "arrivalTerminalId": "8006",
+        "durationInMinutes": [0],
+        "operator": ["오동운수"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 16,
+            "minute": 13
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [5400],
+            "초등생": [2700],
+            "중고생": [4300]
+        },
+        "stops": [
+            ["덕양", "순천역", "순천", "순천북부", "광양", "중마동", "제철"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "8113",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "오동운수"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 13
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        5400
-      ],
-      "초등생": [
-        2700
-      ],
-      "중고생": [
-        4300
-      ]
-    },
-    "via": [
-      [
-        "덕양",
-        "순천역",
-        "순천",
-        "순천북부",
-        "광양",
-        "중마동",
-        "제철"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

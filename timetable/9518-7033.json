@@ -1,54 +1,40 @@
 [
-  {
-    "departureTerminalId": "9518",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 28
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        6700
-      ],
-      "초등생": [
-        3400
-      ],
-      "중고생": [
-        5400
-      ]
-    },
-    "via": [
-      [
-        "관저정류소",
-        "양정",
-        "연산",
-        "인터넷고",
-        "논산",
-        "은진",
-        "연무대",
-        "신촌",
-        "황화",
-        "여산",
-        "금마",
-        "삼례",
-        "전주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "9518",
+        "arrivalTerminalId": "7033",
+        "durationInMinutes": [0],
+        "operator": ["(유)호남고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 16,
+            "minute": 28
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [6700],
+            "초등생": [3400],
+            "중고생": [5400]
+        },
+        "stops": [
+            [
+                "관저정류소",
+                "양정",
+                "연산",
+                "인터넷고",
+                "논산",
+                "은진",
+                "연무대",
+                "신촌",
+                "황화",
+                "여산",
+                "금마",
+                "삼례",
+                "전주"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

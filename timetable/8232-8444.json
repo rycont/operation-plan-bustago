@@ -1,143 +1,101 @@
 [
-  {
-    "departureTerminalId": "8232",
-    "arrivalTerminalId": "8444",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 0
+    {
+        "departureTerminalId": "8232",
+        "arrivalTerminalId": "8444",
+        "durationInMinutes": [50],
+        "operator": ["금호고속(주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 8,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [40],
+        "fare": {
+            "어른": [5500],
+            "초등생": [2800],
+            "중고생": [4400]
+        },
+        "stops": [
+            [
+                "당목",
+                "약산",
+                "고금",
+                "마량",
+                "가우도",
+                "강진",
+                "광주진월동",
+                "광주(유ㆍ스퀘어)"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        5500
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        4400
-      ]
+    {
+        "departureTerminalId": "8232",
+        "arrivalTerminalId": "8444",
+        "durationInMinutes": [50],
+        "operator": ["금호고속(주)"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [6600],
+            "초등생": [3300],
+            "중고생": [5300]
+        },
+        "stops": [
+            [
+                "당목",
+                "약산",
+                "고금",
+                "마량",
+                "가우도",
+                "강진",
+                "광주진월동",
+                "광주(유ㆍ스퀘어)"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "당목",
-        "약산",
-        "고금",
-        "마량",
-        "가우도",
-        "강진",
-        "광주진월동",
-        "광주(유ㆍ스퀘어)"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8232",
+        "arrivalTerminalId": "8444",
+        "durationInMinutes": [50],
+        "operator": ["금호고속(주)"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [6600],
+            "초등생": [3300],
+            "중고생": [5300]
+        },
+        "stops": [
+            [
+                "당목",
+                "약산",
+                "고금",
+                "마량",
+                "가우도",
+                "강진",
+                "광주진월동",
+                "광주(유ㆍ스퀘어)"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "8232",
-    "arrivalTerminalId": "8444",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        6600
-      ],
-      "초등생": [
-        3300
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "via": [
-      [
-        "당목",
-        "약산",
-        "고금",
-        "마량",
-        "가우도",
-        "강진",
-        "광주진월동",
-        "광주(유ㆍ스퀘어)"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8232",
-    "arrivalTerminalId": "8444",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        6600
-      ],
-      "초등생": [
-        3300
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "via": [
-      [
-        "당목",
-        "약산",
-        "고금",
-        "마량",
-        "가우도",
-        "강진",
-        "광주진월동",
-        "광주(유ㆍ스퀘어)"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

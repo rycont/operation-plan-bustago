@@ -1,177 +1,91 @@
 [
-  {
-    "departureTerminalId": "9601",
-    "arrivalTerminalId": "2051",
-    "durationInMinutes": [
-      270
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
+    {
+        "departureTerminalId": "9601",
+        "arrivalTerminalId": "2051",
+        "durationInMinutes": [270],
+        "operator": ["㈜금아여행"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 8,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [42500],
+            "초등생": [21300],
+            "중고생": [34000]
+        },
+        "stops": [["울산", "동해", "강릉"]],
+        "pattern": {
+            "type": "specific-day",
+            "days": []
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        42500
-      ],
-      "초등생": [
-        21300
-      ],
-      "중고생": [
-        34000
-      ]
+    {
+        "departureTerminalId": "9601",
+        "arrivalTerminalId": "2051",
+        "durationInMinutes": [340],
+        "operator": ["㈜아성고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 45
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [42500],
+            "초등생": [21300],
+            "중고생": [34000]
+        },
+        "stops": [["울산", "포항", "울진", "삼척", "동해", "강릉"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "울산",
-        "동해",
-        "강릉"
-      ]
-    ],
-    "pattern": {
-      "type": "specific-day",
-      "days": []
+    {
+        "departureTerminalId": "9601",
+        "arrivalTerminalId": "2051",
+        "durationInMinutes": [340],
+        "operator": ["㈜아성고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 13,
+            "minute": 50
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [42500],
+            "초등생": [21300],
+            "중고생": [34000]
+        },
+        "stops": [["울산", "포항", "울진", "삼척", "동해", "강릉"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "9601",
+        "arrivalTerminalId": "2051",
+        "durationInMinutes": [270],
+        "operator": ["강원여객"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [42500],
+            "초등생": [21300],
+            "중고생": [34000]
+        },
+        "stops": [["울산", "동해", "강릉"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "9601",
-    "arrivalTerminalId": "2051",
-    "durationInMinutes": [
-      340
-    ],
-    "operator": [
-      "㈜아성고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        42500
-      ],
-      "초등생": [
-        21300
-      ],
-      "중고생": [
-        34000
-      ]
-    },
-    "via": [
-      [
-        "울산",
-        "포항",
-        "울진",
-        "삼척",
-        "동해",
-        "강릉"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9601",
-    "arrivalTerminalId": "2051",
-    "durationInMinutes": [
-      340
-    ],
-    "operator": [
-      "㈜아성고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        42500
-      ],
-      "초등생": [
-        21300
-      ],
-      "중고생": [
-        34000
-      ]
-    },
-    "via": [
-      [
-        "울산",
-        "포항",
-        "울진",
-        "삼척",
-        "동해",
-        "강릉"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9601",
-    "arrivalTerminalId": "2051",
-    "durationInMinutes": [
-      270
-    ],
-    "operator": [
-      "강원여객"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        42500
-      ],
-      "초등생": [
-        21300
-      ],
-      "중고생": [
-        34000
-      ]
-    },
-    "via": [
-      [
-        "울산",
-        "동해",
-        "강릉"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

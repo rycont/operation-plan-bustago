@@ -1,52 +1,38 @@
 [
-  {
-    "departureTerminalId": "7023",
-    "arrivalTerminalId": "6010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        20200
-      ],
-      "초등생": [
-        10100
-      ],
-      "중고생": [
-        16100
-      ]
-    },
-    "via": [
-      [
-        "오수",
-        "남원",
-        "운봉",
-        "인월",
-        "함양",
-        "수등",
-        "생초",
-        "산청",
-        "원지",
-        "마산",
-        "진주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "7023",
+        "arrivalTerminalId": "6010",
+        "durationInMinutes": [0],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [20200],
+            "초등생": [10100],
+            "중고생": [16100]
+        },
+        "stops": [
+            [
+                "오수",
+                "남원",
+                "운봉",
+                "인월",
+                "함양",
+                "수등",
+                "생초",
+                "산청",
+                "원지",
+                "마산",
+                "진주"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

@@ -1,179 +1,90 @@
 [
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "4292",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "㈜삼흥고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 50
+    {
+        "departureTerminalId": "1012",
+        "arrivalTerminalId": "4292",
+        "durationInMinutes": [100],
+        "operator": ["㈜삼흥고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 6,
+            "minute": 50
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [40],
+        "fare": {
+            "어른": [11200],
+            "초등생": [5600],
+            "중고생": [9000]
+        },
+        "stops": [["수원터미널", "오산", "세종청사", "세종시", "공주", "부여"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        11200
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        9000
-      ]
+    {
+        "departureTerminalId": "1012",
+        "arrivalTerminalId": "4292",
+        "durationInMinutes": [85],
+        "operator": ["㈜금남고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [14500],
+            "초등생": [7300],
+            "중고생": [11600]
+        },
+        "stops": [["수원터미널", "세종청사", "세종시", "전주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "수원터미널",
-        "오산",
-        "세종청사",
-        "세종시",
-        "공주",
-        "부여"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "1012",
+        "arrivalTerminalId": "4292",
+        "durationInMinutes": [100],
+        "operator": ["㈜삼흥고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 17,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [14500],
+            "초등생": [7300],
+            "중고생": [11600]
+        },
+        "stops": [["수원터미널", "오산", "세종청사", "세종시", "공주", "부여"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "1012",
+        "arrivalTerminalId": "4292",
+        "durationInMinutes": [100],
+        "operator": ["㈜삼흥고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 20,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [14500],
+            "초등생": [7300],
+            "중고생": [11600]
+        },
+        "stops": [["수원터미널", "오산", "세종청사", "세종시", "공주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "4292",
-    "durationInMinutes": [
-      85
-    ],
-    "operator": [
-      "㈜금남고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        14500
-      ],
-      "초등생": [
-        7300
-      ],
-      "중고생": [
-        11600
-      ]
-    },
-    "via": [
-      [
-        "수원터미널",
-        "세종청사",
-        "세종시",
-        "전주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "4292",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "㈜삼흥고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        14500
-      ],
-      "초등생": [
-        7300
-      ],
-      "중고생": [
-        11600
-      ]
-    },
-    "via": [
-      [
-        "수원터미널",
-        "오산",
-        "세종청사",
-        "세종시",
-        "공주",
-        "부여"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "4292",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "㈜삼흥고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        14500
-      ],
-      "초등생": [
-        7300
-      ],
-      "중고생": [
-        11600
-      ]
-    },
-    "via": [
-      [
-        "수원터미널",
-        "오산",
-        "세종청사",
-        "세종시",
-        "공주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

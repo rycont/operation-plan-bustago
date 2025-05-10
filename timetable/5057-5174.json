@@ -1,96 +1,50 @@
 [
-  {
-    "departureTerminalId": "5057",
-    "arrivalTerminalId": "5174",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 15
+    {
+        "departureTerminalId": "5057",
+        "arrivalTerminalId": "5174",
+        "durationInMinutes": [0],
+        "operator": ["경북고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 15
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [8400],
+            "초등생": [4200],
+            "중고생": [7600]
+        },
+        "stops": [
+            ["임동", "진보", "방전", "입암", "영양", "일월", "문암", "수비"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        8400
-      ],
-      "초등생": [
-        4200
-      ],
-      "중고생": [
-        7600
-      ]
-    },
-    "via": [
-      [
-        "임동",
-        "진보",
-        "방전",
-        "입암",
-        "영양",
-        "일월",
-        "문암",
-        "수비"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "5057",
+        "arrivalTerminalId": "5174",
+        "durationInMinutes": [0],
+        "operator": ["경북고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 18,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [8400],
+            "초등생": [4200],
+            "중고생": [7600]
+        },
+        "stops": [
+            ["임동", "진보", "방전", "입암", "영양", "일월", "문암", "수비"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "5057",
-    "arrivalTerminalId": "5174",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        8400
-      ],
-      "초등생": [
-        4200
-      ],
-      "중고생": [
-        7600
-      ]
-    },
-    "via": [
-      [
-        "임동",
-        "진보",
-        "방전",
-        "입암",
-        "영양",
-        "일월",
-        "문암",
-        "수비"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

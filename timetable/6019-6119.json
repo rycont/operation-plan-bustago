@@ -1,46 +1,24 @@
 [
-  {
-    "departureTerminalId": "6019",
-    "arrivalTerminalId": "6119",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        3300
-      ],
-      "초등생": [
-        1700
-      ],
-      "중고생": [
-        2600
-      ]
-    },
-    "via": [
-      [
-        "의령",
-        "정곡",
-        "적곡",
-        "석무",
-        "함안"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6019",
+        "arrivalTerminalId": "6119",
+        "durationInMinutes": [0],
+        "operator": ["경전_동일"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [3300],
+            "초등생": [1700],
+            "중고생": [2600]
+        },
+        "stops": [["의령", "정곡", "적곡", "석무", "함안"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

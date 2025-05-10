@@ -1,52 +1,38 @@
 [
-  {
-    "departureTerminalId": "2671",
-    "arrivalTerminalId": "5147",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아리무진"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        23800
-      ],
-      "초등생": [
-        11900
-      ],
-      "중고생": [
-        19000
-      ]
-    },
-    "via": [
-      [
-        "속초",
-        "낙산",
-        "아산병원앞",
-        "강릉",
-        "동해",
-        "삼척",
-        "울진",
-        "영덕",
-        "강구",
-        "포항",
-        "동대구"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "2671",
+        "arrivalTerminalId": "5147",
+        "durationInMinutes": [0],
+        "operator": ["㈜금아리무진"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [23800],
+            "초등생": [11900],
+            "중고생": [19000]
+        },
+        "stops": [
+            [
+                "속초",
+                "낙산",
+                "아산병원앞",
+                "강릉",
+                "동해",
+                "삼척",
+                "울진",
+                "영덕",
+                "강구",
+                "포항",
+                "동대구"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

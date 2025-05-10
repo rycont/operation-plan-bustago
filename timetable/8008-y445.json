@@ -1,43 +1,24 @@
 [
-  {
-    "departureTerminalId": "8008",
-    "arrivalTerminalId": "y445",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        3100
-      ],
-      "초등생": [
-        1500
-      ],
-      "중고생": [
-        2550
-      ]
-    },
-    "via": [
-      [
-        "나로도",
-        "도화(완)"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8008",
+        "arrivalTerminalId": "y445",
+        "durationInMinutes": [0],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [3100],
+            "초등생": [1500],
+            "중고생": [2550]
+        },
+        "stops": [["나로도", "도화(완)"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

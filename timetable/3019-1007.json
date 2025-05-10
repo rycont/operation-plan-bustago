@@ -1,88 +1,46 @@
 [
-  {
-    "departureTerminalId": "3019",
-    "arrivalTerminalId": "1007",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 50
+    {
+        "departureTerminalId": "3019",
+        "arrivalTerminalId": "1007",
+        "durationInMinutes": [0],
+        "operator": ["친선고속㈜"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 50
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [12600],
+            "초등생": [6300],
+            "중고생": [8800]
+        },
+        "stops": [["제천", "감곡", "안양", "부천"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        12600
-      ],
-      "초등생": [
-        6300
-      ],
-      "중고생": [
-        8800
-      ]
-    },
-    "via": [
-      [
-        "제천",
-        "감곡",
-        "안양",
-        "부천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "3019",
+        "arrivalTerminalId": "1007",
+        "durationInMinutes": [0],
+        "operator": ["친선고속㈜"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [12600],
+            "초등생": [6300],
+            "중고생": [8800]
+        },
+        "stops": [["제천", "감곡", "안양", "부천"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "3019",
-    "arrivalTerminalId": "1007",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        12600
-      ],
-      "초등생": [
-        6300
-      ],
-      "중고생": [
-        8800
-      ]
-    },
-    "via": [
-      [
-        "제천",
-        "감곡",
-        "안양",
-        "부천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

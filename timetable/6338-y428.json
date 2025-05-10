@@ -1,43 +1,24 @@
 [
-  {
-    "departureTerminalId": "6338",
-    "arrivalTerminalId": "y428",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        3700
-      ],
-      "초등생": [
-        1900
-      ],
-      "중고생": [
-        3000
-      ]
-    },
-    "via": [
-      [
-        "남해사거리",
-        "선구사촌"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6338",
+        "arrivalTerminalId": "y428",
+        "durationInMinutes": [0],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [3700],
+            "초등생": [1900],
+            "중고생": [3000]
+        },
+        "stops": [["남해사거리", "선구사촌"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

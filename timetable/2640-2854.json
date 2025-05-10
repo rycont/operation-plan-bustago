@@ -1,43 +1,24 @@
 [
-  {
-    "departureTerminalId": "2640",
-    "arrivalTerminalId": "2854",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "태흥운수"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        1800
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "via": [
-      [
-        "사창리",
-        "감성마을"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "2640",
+        "arrivalTerminalId": "2854",
+        "durationInMinutes": [0],
+        "operator": ["태흥운수"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [1800],
+            "초등생": [900],
+            "중고생": [1400]
+        },
+        "stops": [["사창리", "감성마을"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

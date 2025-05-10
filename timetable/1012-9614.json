@@ -1,90 +1,46 @@
 [
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
+    {
+        "departureTerminalId": "1012",
+        "arrivalTerminalId": "9614",
+        "durationInMinutes": [0],
+        "operator": ["(주)경기고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 9,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [34000],
+            "초등생": [17000],
+            "중고생": [27200]
+        },
+        "stops": [["부천", "서수원", "수원터미널", "오산", "울산신복", "울산"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        34000
-      ],
-      "초등생": [
-        17000
-      ],
-      "중고생": [
-        27200
-      ]
-    },
-    "via": [
-      [
-        "부천",
-        "서수원",
-        "수원터미널",
-        "오산",
-        "울산신복",
-        "울산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "1012",
+        "arrivalTerminalId": "9614",
+        "durationInMinutes": [260],
+        "operator": ["(주)경기고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [34000],
+            "초등생": [17000],
+            "중고생": [27200]
+        },
+        "stops": [["수원터미널", "오산", "울산신복", "울산"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      260
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        34000
-      ],
-      "초등생": [
-        17000
-      ],
-      "중고생": [
-        27200
-      ]
-    },
-    "via": [
-      [
-        "수원터미널",
-        "오산",
-        "울산신복",
-        "울산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

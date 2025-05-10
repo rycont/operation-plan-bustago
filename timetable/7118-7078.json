@@ -1,45 +1,24 @@
 [
-  {
-    "departureTerminalId": "7118",
-    "arrivalTerminalId": "7078",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전북고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        8300
-      ],
-      "초등생": [
-        4200
-      ],
-      "중고생": [
-        6600
-      ]
-    },
-    "via": [
-      [
-        "무주안성",
-        "적상",
-        "무주",
-        "구천동"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "7118",
+        "arrivalTerminalId": "7078",
+        "durationInMinutes": [0],
+        "operator": ["㈜전북고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 13,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [8300],
+            "초등생": [4200],
+            "중고생": [6600]
+        },
+        "stops": [["무주안성", "적상", "무주", "구천동"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

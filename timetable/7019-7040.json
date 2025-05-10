@@ -1,136 +1,82 @@
 [
-  {
-    "departureTerminalId": "7019",
-    "arrivalTerminalId": "7040",
-    "durationInMinutes": [
-      20
-    ],
-    "operator": [
-      "㈜전주고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 55
+    {
+        "departureTerminalId": "7019",
+        "arrivalTerminalId": "7040",
+        "durationInMinutes": [20],
+        "operator": ["㈜전주고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [3000],
+            "초등생": [1500],
+            "중고생": [2400]
+        },
+        "stops": [["삼례", "금마", "여산"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        3000
-      ],
-      "초등생": [
-        1500
-      ],
-      "중고생": [
-        2400
-      ]
+    {
+        "departureTerminalId": "7019",
+        "arrivalTerminalId": "7040",
+        "durationInMinutes": [20],
+        "operator": ["(유)호남고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 13,
+            "minute": 52
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [3000],
+            "초등생": [1500],
+            "중고생": [2400]
+        },
+        "stops": [
+            [
+                "삼례",
+                "금마",
+                "여산",
+                "황하",
+                "신촌",
+                "연무대",
+                "은진",
+                "논산",
+                "양정",
+                "연산",
+                "대전서부"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "삼례",
-        "금마",
-        "여산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "7019",
+        "arrivalTerminalId": "7040",
+        "durationInMinutes": [20],
+        "operator": ["㈜금남고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [3000],
+            "초등생": [1500],
+            "중고생": [2400]
+        },
+        "stops": [["삼례", "금마", "여산"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "7019",
-    "arrivalTerminalId": "7040",
-    "durationInMinutes": [
-      20
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 52
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        3000
-      ],
-      "초등생": [
-        1500
-      ],
-      "중고생": [
-        2400
-      ]
-    },
-    "via": [
-      [
-        "삼례",
-        "금마",
-        "여산",
-        "황하",
-        "신촌",
-        "연무대",
-        "은진",
-        "논산",
-        "양정",
-        "연산",
-        "대전서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7019",
-    "arrivalTerminalId": "7040",
-    "durationInMinutes": [
-      20
-    ],
-    "operator": [
-      "㈜금남고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        3000
-      ],
-      "초등생": [
-        1500
-      ],
-      "중고생": [
-        2400
-      ]
-    },
-    "via": [
-      [
-        "삼례",
-        "금마",
-        "여산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

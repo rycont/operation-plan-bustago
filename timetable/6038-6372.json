@@ -1,0 +1,30 @@
+[
+    {
+        "departureTerminalId": "6042",
+        "arrivalTerminalId": "6372",
+        "durationInMinutes": [0],
+        "operator": ["경원여객(자주)", "경전_동일"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [4300],
+            "초등생": [2200],
+            "중고생": [3400]
+        },
+        "stops": [
+            ["진주(경원)", "경상대(칠암)", "남양"],
+            ["진주(경전)", "경상대(칠암)", "남양"],
+            ["진주", "경상대(칠암)", "남양"]
+        ],
+        "pattern": {
+            "type": "irregular",
+            "fixedDays": [2, 2, 2, 2, 2, 2],
+            "irregularDays": [1, 1, 1, 1, 1, 1]
+        }
+    }
+]

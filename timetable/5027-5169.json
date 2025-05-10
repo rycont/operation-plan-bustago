@@ -1,160 +1,118 @@
 [
-  {
-    "departureTerminalId": "5027",
-    "arrivalTerminalId": "5169",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 40
+    {
+        "departureTerminalId": "5027",
+        "arrivalTerminalId": "5169",
+        "durationInMinutes": [0],
+        "operator": ["경북고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [1700],
+            "초등생": [900],
+            "중고생": [1500]
+        },
+        "stops": [
+            [
+                "춘양",
+                "법전",
+                "봉화",
+                "부대앞",
+                "상운",
+                "원천",
+                "옹천",
+                "안기동",
+                "안동봉화축협건너",
+                "태화오거리",
+                "안동",
+                "대구북부"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1500
-      ]
+    {
+        "departureTerminalId": "5027",
+        "arrivalTerminalId": "5169",
+        "durationInMinutes": [0],
+        "operator": ["진안고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 9,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [1700],
+            "초등생": [900],
+            "중고생": [1500]
+        },
+        "stops": [
+            [
+                "울진",
+                "춘양",
+                "봉화",
+                "상운",
+                "안동",
+                "신도청",
+                "예천삼거리",
+                "예천",
+                "점촌",
+                "상주",
+                "구미"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "춘양",
-        "법전",
-        "봉화",
-        "부대앞",
-        "상운",
-        "원천",
-        "옹천",
-        "안기동",
-        "안동봉화축협건너",
-        "태화오거리",
-        "안동",
-        "대구북부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "5027",
+        "arrivalTerminalId": "5169",
+        "durationInMinutes": [0],
+        "operator": ["경북고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 20,
+            "minute": 50
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [1700],
+            "초등생": [900],
+            "중고생": [1500]
+        },
+        "stops": [
+            [
+                "태백",
+                "육송정",
+                "광업소",
+                "대현",
+                "황평",
+                "현동",
+                "춘양",
+                "법전",
+                "봉화",
+                "부대",
+                "상운",
+                "원천",
+                "옹천",
+                "안기동",
+                "안동봉화축협건너",
+                "안동(태화)",
+                "안동",
+                "대구북부"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "5027",
-    "arrivalTerminalId": "5169",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1500
-      ]
-    },
-    "via": [
-      [
-        "울진",
-        "춘양",
-        "봉화",
-        "상운",
-        "안동",
-        "신도청",
-        "예천삼거리",
-        "예천",
-        "점촌",
-        "상주",
-        "구미"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5027",
-    "arrivalTerminalId": "5169",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1500
-      ]
-    },
-    "via": [
-      [
-        "태백",
-        "육송정",
-        "광업소",
-        "대현",
-        "황평",
-        "현동",
-        "춘양",
-        "법전",
-        "봉화",
-        "부대",
-        "상운",
-        "원천",
-        "옹천",
-        "안기동",
-        "안동봉화축협건너",
-        "안동(태화)",
-        "안동",
-        "대구북부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

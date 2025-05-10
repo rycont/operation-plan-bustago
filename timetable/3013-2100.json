@@ -1,55 +1,41 @@
 [
-  {
-    "departureTerminalId": "3013",
-    "arrivalTerminalId": "2100",
-    "durationInMinutes": [
-      105
-    ],
-    "operator": [
-      "서울고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 48
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        11100
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        8900
-      ]
-    },
-    "via": [
-      [
-        "증평",
-        "도안",
-        "보천",
-        "음성",
-        "비산",
-        "주덕",
-        "충주",
-        "목행",
-        "엄정",
-        "목계",
-        "야동",
-        "귀래",
-        "흥업",
-        "원주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "3013",
+        "arrivalTerminalId": "2100",
+        "durationInMinutes": [105],
+        "operator": ["서울고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 48
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [11100],
+            "초등생": [5600],
+            "중고생": [8900]
+        },
+        "stops": [
+            [
+                "증평",
+                "도안",
+                "보천",
+                "음성",
+                "비산",
+                "주덕",
+                "충주",
+                "목행",
+                "엄정",
+                "목계",
+                "야동",
+                "귀래",
+                "흥업",
+                "원주"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

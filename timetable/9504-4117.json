@@ -1,50 +1,36 @@
 [
-  {
-    "departureTerminalId": "9504",
-    "arrivalTerminalId": "4117",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        9700
-      ],
-      "초등생": [
-        4900
-      ],
-      "중고생": [
-        7800
-      ]
-    },
-    "via": [
-      [
-        "대전서부",
-        "유성시외",
-        "대전청사(선사유적)",
-        "내포",
-        "홍성",
-        "갈산",
-        "고북",
-        "해미",
-        "서산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "9504",
+        "arrivalTerminalId": "4117",
+        "durationInMinutes": [0],
+        "operator": ["㈜충남고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 19,
+            "minute": 15
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [45],
+        "fare": {
+            "어른": [9700],
+            "초등생": [4900],
+            "중고생": [7800]
+        },
+        "stops": [
+            [
+                "대전서부",
+                "유성시외",
+                "대전청사(선사유적)",
+                "내포",
+                "홍성",
+                "갈산",
+                "고북",
+                "해미",
+                "서산"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

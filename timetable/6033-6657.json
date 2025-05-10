@@ -1,48 +1,26 @@
 [
-  {
-    "departureTerminalId": "6033",
-    "arrivalTerminalId": "6657",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        7100
-      ],
-      "초등생": [
-        3600
-      ],
-      "중고생": [
-        5700
-      ]
-    },
-    "via": [
-      [
-        "합천",
-        "칠곡",
-        "가례",
-        "의령",
-        "정암",
-        "월촌(창원시)",
-        "부산서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6033",
+        "arrivalTerminalId": "6657",
+        "durationInMinutes": [0],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 19,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [45],
+        "fare": {
+            "어른": [7100],
+            "초등생": [3600],
+            "중고생": [5700]
+        },
+        "stops": [
+            ["합천", "칠곡", "가례", "의령", "정암", "월촌(창원시)", "부산서부"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

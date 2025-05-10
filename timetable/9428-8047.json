@@ -1,51 +1,37 @@
 [
-  {
-    "departureTerminalId": "9428",
-    "arrivalTerminalId": "8047",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜광우고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        5100
-      ]
-    },
-    "via": [
-      [
-        "광주(유ㆍ스퀘어)",
-        "송정역",
-        "나주",
-        "영산포",
-        "신북",
-        "영암",
-        "구림(전남)",
-        "독천",
-        "삼호",
-        "목포"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "9428",
+        "arrivalTerminalId": "8047",
+        "durationInMinutes": [0],
+        "operator": ["㈜광우고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 12,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [6400],
+            "초등생": [3200],
+            "중고생": [5100]
+        },
+        "stops": [
+            [
+                "광주(유ㆍ스퀘어)",
+                "송정역",
+                "나주",
+                "영산포",
+                "신북",
+                "영암",
+                "구림(전남)",
+                "독천",
+                "삼호",
+                "목포"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

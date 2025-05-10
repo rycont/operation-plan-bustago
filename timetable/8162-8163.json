@@ -1,86 +1,46 @@
 [
-  {
-    "departureTerminalId": "8162",
-    "arrivalTerminalId": "8163",
-    "durationInMinutes": [
-      5
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 10
+    {
+        "departureTerminalId": "8162",
+        "arrivalTerminalId": "8163",
+        "durationInMinutes": [5],
+        "operator": ["금호고속(주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [1700],
+            "초등생": [900],
+            "중고생": [1400]
+        },
+        "stops": [["산정", "송호리", "땅끝"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "via": [
-      [
-        "산정",
-        "송호리",
-        "땅끝"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8162",
+        "arrivalTerminalId": "8163",
+        "durationInMinutes": [5],
+        "operator": ["금호고속(주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [1700],
+            "초등생": [900],
+            "중고생": [1400]
+        },
+        "stops": [["산정", "송호리", "땅끝"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "8162",
-    "arrivalTerminalId": "8163",
-    "durationInMinutes": [
-      5
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "via": [
-      [
-        "산정",
-        "송호리",
-        "땅끝"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

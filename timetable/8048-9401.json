@@ -1,44 +1,24 @@
 [
-  {
-    "departureTerminalId": "8048",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        3600
-      ],
-      "초등생": [
-        1800
-      ],
-      "중고생": [
-        2900
-      ]
-    },
-    "via": [
-      [
-        "옥과",
-        "문화동",
-        "광주(유ㆍ스퀘어)"
-      ]
-    ],
-    "pattern": {
-      "type": "unknown"
+    {
+        "departureTerminalId": "8048",
+        "arrivalTerminalId": "9401",
+        "durationInMinutes": [0],
+        "operator": ["금호고속(주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [45],
+        "fare": {
+            "어른": [3600],
+            "초등생": [1800],
+            "중고생": [2900]
+        },
+        "stops": [["옥과", "문화동", "광주(유ㆍ스퀘어)"]],
+        "pattern": {
+            "type": "unknown"
+        }
     }
-  }
 ]

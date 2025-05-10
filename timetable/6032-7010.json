@@ -1,222 +1,112 @@
 [
-  {
-    "departureTerminalId": "6032",
-    "arrivalTerminalId": "7010",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "대한여객(자주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 25
+    {
+        "departureTerminalId": "6032",
+        "arrivalTerminalId": "7010",
+        "durationInMinutes": [50],
+        "operator": ["대한여객(자주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 9,
+            "minute": 25
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [6700],
+            "초등생": [3400],
+            "중고생": [5400]
+        },
+        "stops": [["함양", "인월", "운봉", "남원", "전주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        6700
-      ],
-      "초등생": [
-        3400
-      ],
-      "중고생": [
-        5400
-      ]
+    {
+        "departureTerminalId": "6032",
+        "arrivalTerminalId": "7010",
+        "durationInMinutes": [50],
+        "operator": ["㈜전북고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [6700],
+            "초등생": [3400],
+            "중고생": [5400]
+        },
+        "stops": [["함양", "인월", "운봉", "남원", "전주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "함양",
-        "인월",
-        "운봉",
-        "남원",
-        "전주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6032",
+        "arrivalTerminalId": "7010",
+        "durationInMinutes": [50],
+        "operator": ["㈜동광고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 22
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [5100],
+            "초등생": [2600],
+            "중고생": [4100]
+        },
+        "stops": [["함양", "인월", "남원", "광주(유ㆍ스퀘어)"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "6032",
+        "arrivalTerminalId": "7010",
+        "durationInMinutes": [50],
+        "operator": ["㈜전북고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [6700],
+            "초등생": [3400],
+            "중고생": [5400]
+        },
+        "stops": [["함양", "인월", "운봉", "남원", "전주"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "6032",
+        "arrivalTerminalId": "7010",
+        "durationInMinutes": [50],
+        "operator": ["㈜동광고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 19,
+            "minute": 5
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [5100],
+            "초등생": [2600],
+            "중고생": [4100]
+        },
+        "stops": [["함양", "인월", "남원", "순창", "담양", "광주(유ㆍ스퀘어)"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "6032",
-    "arrivalTerminalId": "7010",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "㈜전북고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        6700
-      ],
-      "초등생": [
-        3400
-      ],
-      "중고생": [
-        5400
-      ]
-    },
-    "via": [
-      [
-        "함양",
-        "인월",
-        "운봉",
-        "남원",
-        "전주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6032",
-    "arrivalTerminalId": "7010",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "㈜동광고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 22
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        5100
-      ],
-      "초등생": [
-        2600
-      ],
-      "중고생": [
-        4100
-      ]
-    },
-    "via": [
-      [
-        "함양",
-        "인월",
-        "남원",
-        "광주(유ㆍ스퀘어)"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6032",
-    "arrivalTerminalId": "7010",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "㈜전북고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        6700
-      ],
-      "초등생": [
-        3400
-      ],
-      "중고생": [
-        5400
-      ]
-    },
-    "via": [
-      [
-        "함양",
-        "인월",
-        "운봉",
-        "남원",
-        "전주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6032",
-    "arrivalTerminalId": "7010",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "㈜동광고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        5100
-      ],
-      "초등생": [
-        2600
-      ],
-      "중고생": [
-        4100
-      ]
-    },
-    "via": [
-      [
-        "함양",
-        "인월",
-        "남원",
-        "순창",
-        "담양",
-        "광주(유ㆍ스퀘어)"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

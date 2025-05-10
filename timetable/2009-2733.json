@@ -1,116 +1,88 @@
 [
-  {
-    "departureTerminalId": "2009",
-    "arrivalTerminalId": "2733",
-    "durationInMinutes": [
-      15
-    ],
-    "operator": [
-      "영암,화성"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
+    {
+        "departureTerminalId": "2009",
+        "arrivalTerminalId": "2733",
+        "durationInMinutes": [15],
+        "operator": ["영암,화성"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 17,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [2000],
+            "초등생": [1000],
+            "중고생": [1600]
+        },
+        "stops": [
+            [
+                "도계",
+                "마교",
+                "늑구",
+                "하고사리",
+                "발리",
+                "마차역",
+                "감나무골",
+                "안의리",
+                "신기",
+                "천기",
+                "상정",
+                "하정",
+                "상거노",
+                "하장입구",
+                "미로",
+                "도경",
+                "삼척",
+                "동해공영",
+                "강릉"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        2000
-      ],
-      "초등생": [
-        1000
-      ],
-      "중고생": [
-        1600
-      ]
-    },
-    "via": [
-      [
-        "도계",
-        "마교",
-        "늑구",
-        "하고사리",
-        "발리",
-        "마차역",
-        "감나무골",
-        "안의리",
-        "신기",
-        "천기",
-        "상정",
-        "하정",
-        "상거노",
-        "하장입구",
-        "미로",
-        "도경",
-        "삼척",
-        "동해공영",
-        "강릉"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "2009",
+        "arrivalTerminalId": "2733",
+        "durationInMinutes": [15],
+        "operator": ["영암,화성"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 20,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [2000],
+            "초등생": [1000],
+            "중고생": [1600]
+        },
+        "stops": [
+            [
+                "도계",
+                "마교",
+                "늑구",
+                "하고사리",
+                "발리",
+                "마차역",
+                "감나무골",
+                "안의리",
+                "신기",
+                "천기",
+                "상정",
+                "하정",
+                "상거노",
+                "하장입구",
+                "미로",
+                "도경",
+                "삼척"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "2009",
-    "arrivalTerminalId": "2733",
-    "durationInMinutes": [
-      15
-    ],
-    "operator": [
-      "영암,화성"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        2000
-      ],
-      "초등생": [
-        1000
-      ],
-      "중고생": [
-        1600
-      ]
-    },
-    "via": [
-      [
-        "도계",
-        "마교",
-        "늑구",
-        "하고사리",
-        "발리",
-        "마차역",
-        "감나무골",
-        "안의리",
-        "신기",
-        "천기",
-        "상정",
-        "하정",
-        "상거노",
-        "하장입구",
-        "미로",
-        "도경",
-        "삼척"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

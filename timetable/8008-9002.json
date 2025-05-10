@@ -1,52 +1,38 @@
 [
-  {
-    "departureTerminalId": "8008",
-    "arrivalTerminalId": "9002",
-    "durationInMinutes": [
-      245
-    ],
-    "operator": [
-      "㈜동방고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        36800
-      ],
-      "초등생": [
-        18400
-      ],
-      "중고생": [
-        29400
-      ]
-    },
-    "via": [
-      [
-        "나로도",
-        "백양",
-        "남성(고흥군)",
-        "도화",
-        "포두",
-        "고흥",
-        "과역",
-        "벌교",
-        "순천",
-        "섬진강환승(상행)",
-        "부산서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8008",
+        "arrivalTerminalId": "9002",
+        "durationInMinutes": [245],
+        "operator": ["㈜동방고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 8,
+            "minute": 15
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [36800],
+            "초등생": [18400],
+            "중고생": [29400]
+        },
+        "stops": [
+            [
+                "나로도",
+                "백양",
+                "남성(고흥군)",
+                "도화",
+                "포두",
+                "고흥",
+                "과역",
+                "벌교",
+                "순천",
+                "섬진강환승(상행)",
+                "부산서부"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

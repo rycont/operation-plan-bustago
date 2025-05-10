@@ -1,48 +1,34 @@
 [
-  {
-    "departureTerminalId": "8345",
-    "arrivalTerminalId": "9002",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜동방고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        "녹동",
-        "고흥",
-        "과역",
-        "벌교",
-        "순천",
-        "섬진강환승(하행)",
-        "부산서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8345",
+        "arrivalTerminalId": "9002",
+        "durationInMinutes": [0],
+        "operator": ["㈜동방고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 13,
+            "minute": 5
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [0],
+            "초등생": [0],
+            "중고생": [0]
+        },
+        "stops": [
+            [
+                "녹동",
+                "고흥",
+                "과역",
+                "벌교",
+                "순천",
+                "섬진강환승(하행)",
+                "부산서부"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

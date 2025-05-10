@@ -1,45 +1,24 @@
 [
-  {
-    "departureTerminalId": "1039",
-    "arrivalTerminalId": "1022",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        2900
-      ],
-      "초등생": [
-        1500
-      ],
-      "중고생": [
-        2000
-      ]
-    },
-    "via": [
-      [
-        "죽산",
-        "일죽",
-        "가남",
-        "여주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "1039",
+        "arrivalTerminalId": "1022",
+        "durationInMinutes": [0],
+        "operator": ["(주)경기고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [2900],
+            "초등생": [1500],
+            "중고생": [2000]
+        },
+        "stops": [["죽산", "일죽", "가남", "여주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

@@ -1,98 +1,70 @@
 [
-  {
-    "departureTerminalId": "8461",
-    "arrivalTerminalId": "8061",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 45
+    {
+        "departureTerminalId": "8461",
+        "arrivalTerminalId": "8061",
+        "durationInMinutes": [0],
+        "operator": ["금호고속(주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 9,
+            "minute": 45
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [45],
+        "fare": {
+            "어른": [10600],
+            "초등생": [5300],
+            "중고생": [8500]
+        },
+        "stops": [
+            [
+                "임자(대광)",
+                "임자(진리)",
+                "지도",
+                "해제",
+                "망운",
+                "현경",
+                "무안",
+                "함평",
+                "광주(유ㆍ스퀘어)"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        10600
-      ],
-      "초등생": [
-        5300
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "via": [
-      [
-        "임자(대광)",
-        "임자(진리)",
-        "지도",
-        "해제",
-        "망운",
-        "현경",
-        "무안",
-        "함평",
-        "광주(유ㆍ스퀘어)"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8461",
+        "arrivalTerminalId": "8061",
+        "durationInMinutes": [0],
+        "operator": ["금호고속(주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 15
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [45],
+        "fare": {
+            "어른": [10600],
+            "초등생": [5300],
+            "중고생": [8500]
+        },
+        "stops": [
+            [
+                "임자(대광)",
+                "임자(진리)",
+                "지도",
+                "해제",
+                "망운",
+                "현경",
+                "무안",
+                "함평",
+                "광주(유ㆍ스퀘어)"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "8461",
-    "arrivalTerminalId": "8061",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        10600
-      ],
-      "초등생": [
-        5300
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "via": [
-      [
-        "임자(대광)",
-        "임자(진리)",
-        "지도",
-        "해제",
-        "망운",
-        "현경",
-        "무안",
-        "함평",
-        "광주(유ㆍ스퀘어)"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

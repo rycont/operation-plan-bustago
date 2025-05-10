@@ -1,43 +1,24 @@
 [
-  {
-    "departureTerminalId": "5359",
-    "arrivalTerminalId": "5318",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        "점촌북부",
-        "가곡"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "5359",
+        "arrivalTerminalId": "5318",
+        "durationInMinutes": [0],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [0],
+            "초등생": [0],
+            "중고생": [0]
+        },
+        "stops": [["점촌북부", "가곡"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

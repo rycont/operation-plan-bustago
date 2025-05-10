@@ -1,94 +1,66 @@
 [
-  {
-    "departureTerminalId": "3102",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      200
-    ],
-    "operator": [
-      "서울고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 30
+    {
+        "departureTerminalId": "3102",
+        "arrivalTerminalId": "8006",
+        "durationInMinutes": [200],
+        "operator": ["서울고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 9,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [28000],
+            "초등생": [14000],
+            "중고생": [22400]
+        },
+        "stops": [
+            [
+                "청주",
+                "청주사창",
+                "남청주",
+                "순천",
+                "광양",
+                "동광양(중마)",
+                "여수"
+            ]
+        ],
+        "pattern": {
+            "type": "unknown"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        28000
-      ],
-      "초등생": [
-        14000
-      ],
-      "중고생": [
-        22400
-      ]
-    },
-    "via": [
-      [
-        "청주",
-        "청주사창",
-        "남청주",
-        "순천",
-        "광양",
-        "동광양(중마)",
-        "여수"
-      ]
-    ],
-    "pattern": {
-      "type": "unknown"
+    {
+        "departureTerminalId": "3102",
+        "arrivalTerminalId": "8006",
+        "durationInMinutes": [200],
+        "operator": ["금호고속(주)"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [28000],
+            "초등생": [14000],
+            "중고생": [22400]
+        },
+        "stops": [
+            [
+                "청주",
+                "청주사창",
+                "남청주",
+                "순천",
+                "광양",
+                "동광양(중마)",
+                "여수"
+            ]
+        ],
+        "pattern": {
+            "type": "unknown"
+        }
     }
-  },
-  {
-    "departureTerminalId": "3102",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      200
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        28000
-      ],
-      "초등생": [
-        14000
-      ],
-      "중고생": [
-        22400
-      ]
-    },
-    "via": [
-      [
-        "청주",
-        "청주사창",
-        "남청주",
-        "순천",
-        "광양",
-        "동광양(중마)",
-        "여수"
-      ]
-    ],
-    "pattern": {
-      "type": "unknown"
-    }
-  }
 ]

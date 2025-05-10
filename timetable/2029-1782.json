@@ -1,94 +1,66 @@
 [
-  {
-    "departureTerminalId": "2029",
-    "arrivalTerminalId": "1782",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금강고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 55
+    {
+        "departureTerminalId": "2029",
+        "arrivalTerminalId": "1782",
+        "durationInMinutes": [0],
+        "operator": ["㈜금강고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [19400],
+            "초등생": [9700],
+            "중고생": [15500]
+        },
+        "stops": [
+            [
+                "속초",
+                "백담사입구",
+                "원통",
+                "인제",
+                "신남",
+                "홍천",
+                "고양종합터미널"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        19400
-      ],
-      "초등생": [
-        9700
-      ],
-      "중고생": [
-        15500
-      ]
-    },
-    "via": [
-      [
-        "속초",
-        "백담사입구",
-        "원통",
-        "인제",
-        "신남",
-        "홍천",
-        "고양종합터미널"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "2029",
+        "arrivalTerminalId": "1782",
+        "durationInMinutes": [0],
+        "operator": ["㈜금강고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 18,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [19400],
+            "초등생": [9700],
+            "중고생": [15500]
+        },
+        "stops": [
+            [
+                "속초",
+                "백담사입구",
+                "원통",
+                "인제",
+                "신남",
+                "홍천",
+                "고양종합터미널"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "2029",
-    "arrivalTerminalId": "1782",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금강고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        19400
-      ],
-      "초등생": [
-        9700
-      ],
-      "중고생": [
-        15500
-      ]
-    },
-    "via": [
-      [
-        "속초",
-        "백담사입구",
-        "원통",
-        "인제",
-        "신남",
-        "홍천",
-        "고양종합터미널"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

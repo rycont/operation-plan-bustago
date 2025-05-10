@@ -1,88 +1,46 @@
 [
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "3272",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 40
+    {
+        "departureTerminalId": "1012",
+        "arrivalTerminalId": "3272",
+        "durationInMinutes": [0],
+        "operator": ["친선고속㈜"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 18,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [12600],
+            "초등생": [6300],
+            "중고생": [8800]
+        },
+        "stops": [["수원터미널", "우만동", "교통대학", "충주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        12600
-      ],
-      "초등생": [
-        6300
-      ],
-      "중고생": [
-        8800
-      ]
-    },
-    "via": [
-      [
-        "수원터미널",
-        "우만동",
-        "교통대학",
-        "충주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "1012",
+        "arrivalTerminalId": "3272",
+        "durationInMinutes": [0],
+        "operator": ["친선고속㈜"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 19,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [12600],
+            "초등생": [6300],
+            "중고생": [8800]
+        },
+        "stops": [["수원터미널", "우만동", "교통대학", "충주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "3272",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        12600
-      ],
-      "초등생": [
-        6300
-      ],
-      "중고생": [
-        8800
-      ]
-    },
-    "via": [
-      [
-        "수원터미널",
-        "우만동",
-        "교통대학",
-        "충주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

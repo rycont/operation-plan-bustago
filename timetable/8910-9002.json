@@ -1,90 +1,50 @@
 [
-  {
-    "departureTerminalId": "8910",
-    "arrivalTerminalId": "9002",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "프리미엄우등"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 35
+    {
+        "departureTerminalId": "8910",
+        "arrivalTerminalId": "9002",
+        "durationInMinutes": [0],
+        "operator": ["금호고속(주)"],
+        "busClass": ["프리미엄우등"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 35
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [23800],
+            "초등생": [11900],
+            "중고생": [19000]
+        },
+        "stops": [
+            ["완도", "해남", "순천신대지구(CGV)", "동광양(중마)", "부산서부"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        23800
-      ],
-      "초등생": [
-        11900
-      ],
-      "중고생": [
-        19000
-      ]
-    },
-    "via": [
-      [
-        "완도",
-        "해남",
-        "순천신대지구(CGV)",
-        "동광양(중마)",
-        "부산서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8910",
+        "arrivalTerminalId": "9002",
+        "durationInMinutes": [0],
+        "operator": ["금호고속(주)"],
+        "busClass": ["프리미엄우등"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [23800],
+            "초등생": [11900],
+            "중고생": [19000]
+        },
+        "stops": [
+            ["완도", "해남", "순천신대지구(CGV)", "동광양(중마)", "부산서부"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "8910",
-    "arrivalTerminalId": "9002",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "프리미엄우등"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        23800
-      ],
-      "초등생": [
-        11900
-      ],
-      "중고생": [
-        19000
-      ]
-    },
-    "via": [
-      [
-        "완도",
-        "해남",
-        "순천신대지구(CGV)",
-        "동광양(중마)",
-        "부산서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

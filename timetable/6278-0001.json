@@ -1,134 +1,68 @@
 [
-  {
-    "departureTerminalId": "6278",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜함양지리산고속"
-    ],
-    "busClass": [
-      "프리미엄우등"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 5
+    {
+        "departureTerminalId": "6278",
+        "arrivalTerminalId": "0001",
+        "durationInMinutes": [0],
+        "operator": ["㈜함양지리산고속"],
+        "busClass": ["프리미엄우등"],
+        "departureTime": {
+            "hour": 6,
+            "minute": 5
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [38000],
+            "초등생": [19000],
+            "중고생": [30400]
+        },
+        "stops": [["함양", "수동", "안의", "서상", "동서울"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        38000
-      ],
-      "초등생": [
-        19000
-      ],
-      "중고생": [
-        30400
-      ]
+    {
+        "departureTerminalId": "6278",
+        "arrivalTerminalId": "0001",
+        "durationInMinutes": [0],
+        "operator": ["㈜함양지리산고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 8,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [29000],
+            "초등생": [14500],
+            "중고생": [23200]
+        },
+        "stops": [["함양", "수동", "안의", "서상", "동서울"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "함양",
-        "수동",
-        "안의",
-        "서상",
-        "동서울"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6278",
+        "arrivalTerminalId": "0001",
+        "durationInMinutes": [0],
+        "operator": ["㈜함양지리산고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 13,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [29000],
+            "초등생": [14500],
+            "중고생": [23200]
+        },
+        "stops": [["함양", "수동", "안의", "서상", "동서울"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "6278",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜함양지리산고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        29000
-      ],
-      "초등생": [
-        14500
-      ],
-      "중고생": [
-        23200
-      ]
-    },
-    "via": [
-      [
-        "함양",
-        "수동",
-        "안의",
-        "서상",
-        "동서울"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6278",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜함양지리산고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        29000
-      ],
-      "초등생": [
-        14500
-      ],
-      "중고생": [
-        23200
-      ]
-    },
-    "via": [
-      [
-        "함양",
-        "수동",
-        "안의",
-        "서상",
-        "동서울"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

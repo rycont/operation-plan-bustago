@@ -1,44 +1,24 @@
 [
-  {
-    "departureTerminalId": "1013",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        18200
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        14600
-      ]
-    },
-    "via": [
-      [
-        "부천",
-        "시흥",
-        "전주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "1013",
+        "arrivalTerminalId": "7033",
+        "durationInMinutes": [0],
+        "operator": ["(유)호남고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [40],
+        "fare": {
+            "어른": [18200],
+            "초등생": [9100],
+            "중고생": [14600]
+        },
+        "stops": [["부천", "시흥", "전주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

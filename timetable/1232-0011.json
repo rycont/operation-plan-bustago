@@ -1,208 +1,152 @@
 [
-  {
-    "departureTerminalId": "1232",
-    "arrivalTerminalId": "0011",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 50
+    {
+        "departureTerminalId": "1232",
+        "arrivalTerminalId": "0011",
+        "durationInMinutes": [0],
+        "operator": ["(주)경기고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 6,
+            "minute": 50
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [40],
+        "fare": {
+            "어른": [7200],
+            "초등생": [3600],
+            "중고생": [5000]
+        },
+        "stops": [
+            [
+                "동아방송대",
+                "안성",
+                "안성시민회관",
+                "한경대",
+                "중앙대",
+                "대림동산",
+                "공도",
+                "풍림아파트(안성)",
+                "가천대",
+                "장지역",
+                "가락시장",
+                "잠실역",
+                "동서울"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        7200
-      ],
-      "초등생": [
-        3600
-      ],
-      "중고생": [
-        5000
-      ]
+    {
+        "departureTerminalId": "1232",
+        "arrivalTerminalId": "0011",
+        "durationInMinutes": [0],
+        "operator": ["대원고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [40],
+        "fare": {
+            "어른": [7200],
+            "초등생": [3600],
+            "중고생": [5000]
+        },
+        "stops": [
+            [
+                "동아방송대",
+                "안성",
+                "안성시민회관",
+                "한경대",
+                "중앙대",
+                "대림동산",
+                "공도",
+                "풍림아파트(안성)",
+                "가천대",
+                "장지역",
+                "가락시장",
+                "잠실역",
+                "동서울"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "동아방송대",
-        "안성",
-        "안성시민회관",
-        "한경대",
-        "중앙대",
-        "대림동산",
-        "공도",
-        "풍림아파트(안성)",
-        "가천대",
-        "장지역",
-        "가락시장",
-        "잠실역",
-        "동서울"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "1232",
+        "arrivalTerminalId": "0011",
+        "durationInMinutes": [0],
+        "operator": ["(주)경기고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [40],
+        "fare": {
+            "어른": [7200],
+            "초등생": [3600],
+            "중고생": [5000]
+        },
+        "stops": [
+            [
+                "동아방송대",
+                "안성",
+                "중앙대",
+                "대림동산",
+                "공도",
+                "풍림아파트(안성)",
+                "가천대",
+                "장지역",
+                "가락시장",
+                "잠실역",
+                "동서울"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "1232",
+        "arrivalTerminalId": "0011",
+        "durationInMinutes": [0],
+        "operator": ["대원고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 18,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [40],
+        "fare": {
+            "어른": [7200],
+            "초등생": [3600],
+            "중고생": [5000]
+        },
+        "stops": [
+            [
+                "동아방송대",
+                "안성",
+                "안성시민회관",
+                "한경대",
+                "중앙대",
+                "대림동산",
+                "공도",
+                "풍림아파트(안성)",
+                "가천대",
+                "장지역",
+                "가락시장",
+                "잠실역",
+                "동서울"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "1232",
-    "arrivalTerminalId": "0011",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        7200
-      ],
-      "초등생": [
-        3600
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "via": [
-      [
-        "동아방송대",
-        "안성",
-        "안성시민회관",
-        "한경대",
-        "중앙대",
-        "대림동산",
-        "공도",
-        "풍림아파트(안성)",
-        "가천대",
-        "장지역",
-        "가락시장",
-        "잠실역",
-        "동서울"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1232",
-    "arrivalTerminalId": "0011",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        7200
-      ],
-      "초등생": [
-        3600
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "via": [
-      [
-        "동아방송대",
-        "안성",
-        "중앙대",
-        "대림동산",
-        "공도",
-        "풍림아파트(안성)",
-        "가천대",
-        "장지역",
-        "가락시장",
-        "잠실역",
-        "동서울"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1232",
-    "arrivalTerminalId": "0011",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        7200
-      ],
-      "초등생": [
-        3600
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "via": [
-      [
-        "동아방송대",
-        "안성",
-        "안성시민회관",
-        "한경대",
-        "중앙대",
-        "대림동산",
-        "공도",
-        "풍림아파트(안성)",
-        "가천대",
-        "장지역",
-        "가락시장",
-        "잠실역",
-        "동서울"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

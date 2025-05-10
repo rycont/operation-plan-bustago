@@ -1,92 +1,46 @@
 [
-  {
-    "departureTerminalId": "1396",
-    "arrivalTerminalId": "3019",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 40
+    {
+        "departureTerminalId": "1396",
+        "arrivalTerminalId": "3019",
+        "durationInMinutes": [0],
+        "operator": ["대원고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [3200],
+            "초등생": [1600],
+            "중고생": [2200]
+        },
+        "stops": [["아미리", "가남", "이황리", "장호원공용", "감곡", "충주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        3200
-      ],
-      "초등생": [
-        1600
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "via": [
-      [
-        "아미리",
-        "가남",
-        "이황리",
-        "장호원공용",
-        "감곡",
-        "충주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "1396",
+        "arrivalTerminalId": "3019",
+        "durationInMinutes": [0],
+        "operator": ["대원고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [3200],
+            "초등생": [1600],
+            "중고생": [2200]
+        },
+        "stops": [["아미리", "가남", "이황리", "장호원공용", "감곡", "충주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "1396",
-    "arrivalTerminalId": "3019",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        3200
-      ],
-      "초등생": [
-        1600
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "via": [
-      [
-        "아미리",
-        "가남",
-        "이황리",
-        "장호원공용",
-        "감곡",
-        "충주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

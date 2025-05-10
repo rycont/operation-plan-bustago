@@ -1,247 +1,159 @@
 [
-  {
-    "departureTerminalId": "8034",
-    "arrivalTerminalId": "8018",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 35
+    {
+        "departureTerminalId": "8034",
+        "arrivalTerminalId": "8018",
+        "durationInMinutes": [0],
+        "operator": ["금호고속(주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 35
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [40],
+        "fare": {
+            "어른": [2100],
+            "초등생": [1100],
+            "중고생": [1700]
+        },
+        "stops": [
+            [
+                "목포",
+                "삼호",
+                "독천",
+                "성전",
+                "강진",
+                "장흥",
+                "배산",
+                "보성",
+                "예당",
+                "조성",
+                "벌교",
+                "순천",
+                "광양",
+                "동광양(중마)",
+                "부산서부"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        2100
-      ],
-      "초등생": [
-        1100
-      ],
-      "중고생": [
-        1700
-      ]
+    {
+        "departureTerminalId": "8034",
+        "arrivalTerminalId": "8018",
+        "durationInMinutes": [5],
+        "operator": ["금호고속(주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [2100],
+            "초등생": [1100],
+            "중고생": [1700]
+        },
+        "stops": [
+            ["삼호", "독천", "해남", "도암", "월송", "남창", "원동", "완도"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "목포",
-        "삼호",
-        "독천",
-        "성전",
-        "강진",
-        "장흥",
-        "배산",
-        "보성",
-        "예당",
-        "조성",
-        "벌교",
-        "순천",
-        "광양",
-        "동광양(중마)",
-        "부산서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8034",
+        "arrivalTerminalId": "8018",
+        "durationInMinutes": [0],
+        "operator": ["㈜광우고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 12,
+            "minute": 25
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [2100],
+            "초등생": [1100],
+            "중고생": [1700]
+        },
+        "stops": [
+            [
+                "삼호",
+                "독천",
+                "구림",
+                "영암",
+                "신북",
+                "영산포",
+                "나주",
+                "광주(유ㆍ스퀘어)"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "8034",
+        "arrivalTerminalId": "8018",
+        "durationInMinutes": [5],
+        "operator": ["금호고속(주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 18,
+            "minute": 25
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [2100],
+            "초등생": [1100],
+            "중고생": [1700]
+        },
+        "stops": [
+            ["삼호", "독천", "해남", "도암", "월송", "남창", "원동", "완도"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "8034",
+        "arrivalTerminalId": "8018",
+        "durationInMinutes": [5],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 39
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [2000],
+            "초등생": [1000],
+            "중고생": [1600]
+        },
+        "stops": [
+            [
+                "삼호",
+                "독천",
+                "송정",
+                "화소",
+                "아천",
+                "구림",
+                "평리",
+                "월산",
+                "오산",
+                "군부대",
+                "영암"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "8034",
-    "arrivalTerminalId": "8018",
-    "durationInMinutes": [
-      5
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        2100
-      ],
-      "초등생": [
-        1100
-      ],
-      "중고생": [
-        1700
-      ]
-    },
-    "via": [
-      [
-        "삼호",
-        "독천",
-        "해남",
-        "도암",
-        "월송",
-        "남창",
-        "원동",
-        "완도"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8034",
-    "arrivalTerminalId": "8018",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜광우고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        2100
-      ],
-      "초등생": [
-        1100
-      ],
-      "중고생": [
-        1700
-      ]
-    },
-    "via": [
-      [
-        "삼호",
-        "독천",
-        "구림",
-        "영암",
-        "신북",
-        "영산포",
-        "나주",
-        "광주(유ㆍ스퀘어)"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8034",
-    "arrivalTerminalId": "8018",
-    "durationInMinutes": [
-      5
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        2100
-      ],
-      "초등생": [
-        1100
-      ],
-      "중고생": [
-        1700
-      ]
-    },
-    "via": [
-      [
-        "삼호",
-        "독천",
-        "해남",
-        "도암",
-        "월송",
-        "남창",
-        "원동",
-        "완도"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8034",
-    "arrivalTerminalId": "8018",
-    "durationInMinutes": [
-      5
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 39
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        2000
-      ],
-      "초등생": [
-        1000
-      ],
-      "중고생": [
-        1600
-      ]
-    },
-    "via": [
-      [
-        "삼호",
-        "독천",
-        "송정",
-        "화소",
-        "아천",
-        "구림",
-        "평리",
-        "월산",
-        "오산",
-        "군부대",
-        "영암"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

@@ -1,142 +1,72 @@
 [
-  {
-    "departureTerminalId": "4096",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
+    {
+        "departureTerminalId": "4096",
+        "arrivalTerminalId": "9302",
+        "durationInMinutes": [0],
+        "operator": ["㈜충남고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 9,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [18100],
+            "초등생": [9100],
+            "중고생": [14500]
+        },
+        "stops": [
+            ["청양", "운곡", "신양", "임성동", "예산", "신례원", "신창", "인천"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        18100
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        14500
-      ]
+    {
+        "departureTerminalId": "4096",
+        "arrivalTerminalId": "9302",
+        "durationInMinutes": [0],
+        "operator": ["㈜충남고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 12,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [18100],
+            "초등생": [9100],
+            "중고생": [14500]
+        },
+        "stops": [
+            ["청양", "운곡", "신양", "임성동", "예산", "신례원", "신창", "인천"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "청양",
-        "운곡",
-        "신양",
-        "임성동",
-        "예산",
-        "신례원",
-        "신창",
-        "인천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "4096",
+        "arrivalTerminalId": "9302",
+        "durationInMinutes": [0],
+        "operator": ["㈜충남고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 18,
+            "minute": 45
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [18100],
+            "초등생": [9100],
+            "중고생": [14500]
+        },
+        "stops": [["부여", "청양", "운곡", "신양", "예산", "신례원", "인천"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "4096",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        18100
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        14500
-      ]
-    },
-    "via": [
-      [
-        "청양",
-        "운곡",
-        "신양",
-        "임성동",
-        "예산",
-        "신례원",
-        "신창",
-        "인천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4096",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        18100
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        14500
-      ]
-    },
-    "via": [
-      [
-        "부여",
-        "청양",
-        "운곡",
-        "신양",
-        "예산",
-        "신례원",
-        "인천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

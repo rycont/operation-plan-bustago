@@ -1,47 +1,24 @@
 [
-  {
-    "departureTerminalId": "5160",
-    "arrivalTerminalId": "9601",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아리무진"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        6200
-      ],
-      "초등생": [
-        3100
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "via": [
-      [
-        "신도청",
-        "영천",
-        "경주",
-        "불국사",
-        "입실",
-        "울산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "5160",
+        "arrivalTerminalId": "9601",
+        "durationInMinutes": [0],
+        "operator": ["㈜금아리무진"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 19,
+            "minute": 25
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [6200],
+            "초등생": [3100],
+            "중고생": [5000]
+        },
+        "stops": [["신도청", "영천", "경주", "불국사", "입실", "울산"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

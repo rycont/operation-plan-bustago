@@ -1,49 +1,35 @@
 [
-  {
-    "departureTerminalId": "6035",
-    "arrivalTerminalId": "8138",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "부산,영화"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        3200
-      ],
-      "초등생": [
-        1600
-      ],
-      "중고생": [
-        2600
-      ]
-    },
-    "via": [
-      [
-        "화개공용",
-        "구례",
-        "화엄사",
-        "하동",
-        "진교",
-        "부산서부",
-        "진주",
-        "곤양"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6035",
+        "arrivalTerminalId": "8138",
+        "durationInMinutes": [0],
+        "operator": ["부산,영화"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [3200],
+            "초등생": [1600],
+            "중고생": [2600]
+        },
+        "stops": [
+            [
+                "화개공용",
+                "구례",
+                "화엄사",
+                "하동",
+                "진교",
+                "부산서부",
+                "진주",
+                "곤양"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

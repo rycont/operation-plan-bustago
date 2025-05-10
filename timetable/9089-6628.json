@@ -1,88 +1,46 @@
 [
-  {
-    "departureTerminalId": "9089",
-    "arrivalTerminalId": "6628",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "동아여객"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 15
+    {
+        "departureTerminalId": "9089",
+        "arrivalTerminalId": "6628",
+        "durationInMinutes": [0],
+        "operator": ["동아여객"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 6,
+            "minute": 15
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [4500],
+            "초등생": [2300],
+            "중고생": [3600]
+        },
+        "stops": [["부산(하단)", "웅동", "웅천", "진해"]],
+        "pattern": {
+            "type": "unknown"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3600
-      ]
-    },
-    "via": [
-      [
-        "부산(하단)",
-        "웅동",
-        "웅천",
-        "진해"
-      ]
-    ],
-    "pattern": {
-      "type": "unknown"
+    {
+        "departureTerminalId": "9089",
+        "arrivalTerminalId": "6628",
+        "durationInMinutes": [0],
+        "operator": ["동아여객"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 5
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [4500],
+            "초등생": [2300],
+            "중고생": [3600]
+        },
+        "stops": [["부산(하단)", "웅동", "웅천", "진해"]],
+        "pattern": {
+            "type": "unknown"
+        }
     }
-  },
-  {
-    "departureTerminalId": "9089",
-    "arrivalTerminalId": "6628",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "동아여객"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3600
-      ]
-    },
-    "via": [
-      [
-        "부산(하단)",
-        "웅동",
-        "웅천",
-        "진해"
-      ]
-    ],
-    "pattern": {
-      "type": "unknown"
-    }
-  }
 ]

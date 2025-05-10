@@ -1,0 +1,63 @@
+[
+    {
+        "departureTerminalId": "6039",
+        "arrivalTerminalId": "6035",
+        "durationInMinutes": [0],
+        "operator": ["영화여객(자주)"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 18,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [9300],
+            "초등생": [4700],
+            "중고생": [7400]
+        },
+        "stops": [
+            [
+                "진주부산교통",
+                "경상대(칠암)",
+                "진주(개양)",
+                "진교",
+                "전도",
+                "하동",
+                "악양",
+                "화개공용",
+                "쌍계사",
+                "의신"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "6048",
+        "arrivalTerminalId": "6035",
+        "durationInMinutes": [0],
+        "operator": ["경원여객(자주)", "경전_동일"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [1600, 1700],
+            "초등생": [800, 850],
+            "중고생": [1300, 1400]
+        },
+        "stops": [
+            ["진주(경원)", "경상대(칠암)", "화개공용"],
+            ["진주(경전)", "경상대(칠암)", "화개공용"],
+            ["진주", "경상대(칠암)", "화개공용"]
+        ],
+        "pattern": {
+            "type": "unknown"
+        }
+    }
+]

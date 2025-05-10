@@ -1,54 +1,40 @@
 [
-  {
-    "departureTerminalId": "5069",
-    "arrivalTerminalId": "5147",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜아성고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        "울진",
-        "평해",
-        "후포",
-        "영해",
-        "영덕",
-        "강구",
-        "포항",
-        "경주",
-        "오산",
-        "수원터미널",
-        "서수원",
-        "안산",
-        "인천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "5069",
+        "arrivalTerminalId": "5147",
+        "durationInMinutes": [0],
+        "operator": ["㈜아성고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 9,
+            "minute": 50
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [0],
+            "초등생": [0],
+            "중고생": [0]
+        },
+        "stops": [
+            [
+                "울진",
+                "평해",
+                "후포",
+                "영해",
+                "영덕",
+                "강구",
+                "포항",
+                "경주",
+                "오산",
+                "수원터미널",
+                "서수원",
+                "안산",
+                "인천"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

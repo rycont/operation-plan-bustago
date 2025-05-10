@@ -1,45 +1,24 @@
 [
-  {
-    "departureTerminalId": "6017",
-    "arrivalTerminalId": "9503",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "거창고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13800
-      ],
-      "초등생": [
-        6900
-      ],
-      "중고생": [
-        11000
-      ]
-    },
-    "via": [
-      [
-        "거창",
-        "안의",
-        "함양",
-        "대전복합"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6017",
+        "arrivalTerminalId": "9503",
+        "durationInMinutes": [0],
+        "operator": ["거창고속㈜"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 50
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [13800],
+            "초등생": [6900],
+            "중고생": [11000]
+        },
+        "stops": [["거창", "안의", "함양", "대전복합"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

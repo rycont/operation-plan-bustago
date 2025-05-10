@@ -1,220 +1,112 @@
 [
-  {
-    "departureTerminalId": "8069",
-    "arrivalTerminalId": "6414",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 5
+    {
+        "departureTerminalId": "8069",
+        "arrivalTerminalId": "6414",
+        "durationInMinutes": [0],
+        "operator": ["경전_동일"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 9,
+            "minute": 5
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [10600],
+            "초등생": [5300],
+            "중고생": [8500]
+        },
+        "stops": [["순천", "순천북부", "광양", "진교", "진주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        10600
-      ],
-      "초등생": [
-        5300
-      ],
-      "중고생": [
-        8500
-      ]
+    {
+        "departureTerminalId": "8069",
+        "arrivalTerminalId": "6414",
+        "durationInMinutes": [75],
+        "operator": ["부산교통㈜"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 35
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [8200],
+            "초등생": [4100],
+            "중고생": [6600]
+        },
+        "stops": [["순천", "순천북부", "진교", "진주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "순천",
-        "순천북부",
-        "광양",
-        "진교",
-        "진주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "8069",
+        "arrivalTerminalId": "6414",
+        "durationInMinutes": [0],
+        "operator": ["경전_동일"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 35
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [10600],
+            "초등생": [5300],
+            "중고생": [8500]
+        },
+        "stops": [["순천", "순천북부", "광양", "진교", "진주"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "8069",
+        "arrivalTerminalId": "6414",
+        "durationInMinutes": [75],
+        "operator": ["부산교통㈜"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 19,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [8200],
+            "초등생": [4100],
+            "중고생": [6600]
+        },
+        "stops": [["순천", "순천북부", "진교", "진주"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "8069",
+        "arrivalTerminalId": "6414",
+        "durationInMinutes": [0],
+        "operator": ["경전_동일"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 19,
+            "minute": 45
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [10600],
+            "초등생": [5300],
+            "중고생": [8500]
+        },
+        "stops": [["순천", "순천북부", "광양", "진교", "진주"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "8069",
-    "arrivalTerminalId": "6414",
-    "durationInMinutes": [
-      75
-    ],
-    "operator": [
-      "부산교통㈜"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        8200
-      ],
-      "초등생": [
-        4100
-      ],
-      "중고생": [
-        6600
-      ]
-    },
-    "via": [
-      [
-        "순천",
-        "순천북부",
-        "진교",
-        "진주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8069",
-    "arrivalTerminalId": "6414",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        10600
-      ],
-      "초등생": [
-        5300
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "via": [
-      [
-        "순천",
-        "순천북부",
-        "광양",
-        "진교",
-        "진주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8069",
-    "arrivalTerminalId": "6414",
-    "durationInMinutes": [
-      75
-    ],
-    "operator": [
-      "부산교통㈜"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        8200
-      ],
-      "초등생": [
-        4100
-      ],
-      "중고생": [
-        6600
-      ]
-    },
-    "via": [
-      [
-        "순천",
-        "순천북부",
-        "진교",
-        "진주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8069",
-    "arrivalTerminalId": "6414",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        10600
-      ],
-      "초등생": [
-        5300
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "via": [
-      [
-        "순천",
-        "순천북부",
-        "광양",
-        "진교",
-        "진주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

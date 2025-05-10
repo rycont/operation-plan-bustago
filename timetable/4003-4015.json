@@ -1,45 +1,24 @@
 [
-  {
-    "departureTerminalId": "4003",
-    "arrivalTerminalId": "4015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜한양고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 7
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        6900
-      ],
-      "초등생": [
-        3500
-      ],
-      "중고생": [
-        5500
-      ]
-    },
-    "via": [
-      [
-        "공주",
-        "예산",
-        "내포",
-        "홍성"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "4003",
+        "arrivalTerminalId": "4015",
+        "durationInMinutes": [0],
+        "operator": ["㈜한양고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 7
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [6900],
+            "초등생": [3500],
+            "중고생": [5500]
+        },
+        "stops": [["공주", "예산", "내포", "홍성"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

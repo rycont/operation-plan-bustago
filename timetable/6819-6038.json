@@ -1,92 +1,64 @@
 [
-  {
-    "departureTerminalId": "6819",
-    "arrivalTerminalId": "6039",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "부산교통㈜"
-    ],
-    "busClass": [
-      "심야고속"
-    ],
-    "departureTime": {
-      "hour": 0,
-      "minute": 10
+    {
+        "departureTerminalId": "6819",
+        "arrivalTerminalId": "6039",
+        "durationInMinutes": [0],
+        "operator": ["부산교통㈜"],
+        "busClass": ["심야고속"],
+        "departureTime": {
+            "hour": 0,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [9100],
+            "초등생": [4600],
+            "중고생": [7300]
+        },
+        "stops": [
+            [
+                "정우상가",
+                "창원(앞)정류소",
+                "마산",
+                "진주(개양)",
+                "경상대(칠암)",
+                "진주부산교통"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        9100
-      ],
-      "초등생": [
-        4600
-      ],
-      "중고생": [
-        7300
-      ]
-    },
-    "via": [
-      [
-        "정우상가",
-        "창원(앞)정류소",
-        "마산",
-        "진주(개양)",
-        "경상대(칠암)",
-        "진주부산교통"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6819",
+        "arrivalTerminalId": "6039",
+        "durationInMinutes": [0],
+        "operator": ["대한여객(자주)"],
+        "busClass": ["심야고속"],
+        "departureTime": {
+            "hour": 22,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [9100],
+            "초등생": [4600],
+            "중고생": [7300]
+        },
+        "stops": [
+            [
+                "정우상가",
+                "창원(앞)정류소",
+                "마산",
+                "진주(개양)",
+                "경상대(칠암)",
+                "진주부산교통"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "6819",
-    "arrivalTerminalId": "6039",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대한여객(자주)"
-    ],
-    "busClass": [
-      "심야고속"
-    ],
-    "departureTime": {
-      "hour": 22,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        9100
-      ],
-      "초등생": [
-        4600
-      ],
-      "중고생": [
-        7300
-      ]
-    },
-    "via": [
-      [
-        "정우상가",
-        "창원(앞)정류소",
-        "마산",
-        "진주(개양)",
-        "경상대(칠암)",
-        "진주부산교통"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

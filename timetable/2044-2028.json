@@ -1,516 +1,286 @@
 [
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금강고속",
-      "강원고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 5
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["㈜금강고속", "강원고속㈜"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 9,
+            "minute": 5
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [9600],
+            "초등생": [4800],
+            "중고생": [7700]
+        },
+        "stops": [["춘천", "홍천", "횡성", "원주", "대구북부", "대구서부"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        9600
-      ],
-      "초등생": [
-        4800
-      ],
-      "중고생": [
-        7700
-      ]
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["㈜천마고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [8700],
+            "초등생": [4400],
+            "중고생": [7000]
+        },
+        "stops": [
+            ["춘천", "홍천", "공근", "횡성", "우산동", "원주", "경주", "포항"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "춘천",
-        "홍천",
-        "횡성",
-        "원주",
-        "대구북부",
-        "대구서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["㈜천마고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [9600],
+            "초등생": [4800],
+            "중고생": [7700]
+        },
+        "stops": [["춘천", "홍천", "공근", "횡성", "우산동", "원주", "울산"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["㈜금강고속", "강원고속㈜"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 12,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [9600],
+            "초등생": [4800],
+            "중고생": [7700]
+        },
+        "stops": [["춘천", "홍천", "횡성", "원주", "대구북부", "대구서부"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["㈜금강고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 12,
+            "minute": 55
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [7400],
+            "초등생": [3700],
+            "중고생": [5900]
+        },
+        "stops": [
+            [
+                "속초",
+                "백담사입구",
+                "원통",
+                "인제",
+                "홍천",
+                "횡성",
+                "우산동",
+                "원주",
+                "유성시외",
+                "전주"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["㈜금강고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 13,
+            "minute": 35
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [7400],
+            "초등생": [3700],
+            "중고생": [5900]
+        },
+        "stops": [
+            [
+                "속초",
+                "백담사입구",
+                "원통",
+                "인제",
+                "홍천",
+                "횡성",
+                "우산동",
+                "원주",
+                "대전복합"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["㈜금강고속"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [41],
+        "fare": {
+            "어른": [7400],
+            "초등생": [3700],
+            "중고생": [5900]
+        },
+        "stops": [
+            [
+                "속초",
+                "백담사입구",
+                "원통",
+                "인제",
+                "홍천",
+                "횡성",
+                "우산동",
+                "원주",
+                "유성시외",
+                "전주"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["대원고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 45
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [9600],
+            "초등생": [4800],
+            "중고생": [7700]
+        },
+        "stops": [["춘천", "홍천", "횡성", "원주", "대구북부", "대구서부"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["대원고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 17,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [9600],
+            "초등생": [4800],
+            "중고생": [7700]
+        },
+        "stops": [["춘천", "홍천", "횡성", "원주", "대구북부", "대구서부"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["㈜천마고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 17,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [9600],
+            "초등생": [4800],
+            "중고생": [7700]
+        },
+        "stops": [["춘천", "홍천", "공근", "횡성", "우산동", "원주", "울산"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "2044",
+        "arrivalTerminalId": "2028",
+        "durationInMinutes": [0],
+        "operator": ["㈜천마고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 17,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [8700],
+            "초등생": [4400],
+            "중고생": [7000]
+        },
+        "stops": [
+            ["춘천", "홍천", "공근", "횡성", "우산동", "원주", "경주", "포항"]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜천마고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        8700
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        7000
-      ]
-    },
-    "via": [
-      [
-        "춘천",
-        "홍천",
-        "공근",
-        "횡성",
-        "우산동",
-        "원주",
-        "경주",
-        "포항"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜천마고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        9600
-      ],
-      "초등생": [
-        4800
-      ],
-      "중고생": [
-        7700
-      ]
-    },
-    "via": [
-      [
-        "춘천",
-        "홍천",
-        "공근",
-        "횡성",
-        "우산동",
-        "원주",
-        "울산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금강고속",
-      "강원고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        9600
-      ],
-      "초등생": [
-        4800
-      ],
-      "중고생": [
-        7700
-      ]
-    },
-    "via": [
-      [
-        "춘천",
-        "홍천",
-        "횡성",
-        "원주",
-        "대구북부",
-        "대구서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금강고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        7400
-      ],
-      "초등생": [
-        3700
-      ],
-      "중고생": [
-        5900
-      ]
-    },
-    "via": [
-      [
-        "속초",
-        "백담사입구",
-        "원통",
-        "인제",
-        "홍천",
-        "횡성",
-        "우산동",
-        "원주",
-        "유성시외",
-        "전주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금강고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        7400
-      ],
-      "초등생": [
-        3700
-      ],
-      "중고생": [
-        5900
-      ]
-    },
-    "via": [
-      [
-        "속초",
-        "백담사입구",
-        "원통",
-        "인제",
-        "홍천",
-        "횡성",
-        "우산동",
-        "원주",
-        "대전복합"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금강고속"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
-    "fare": {
-      "어른": [
-        7400
-      ],
-      "초등생": [
-        3700
-      ],
-      "중고생": [
-        5900
-      ]
-    },
-    "via": [
-      [
-        "속초",
-        "백담사입구",
-        "원통",
-        "인제",
-        "홍천",
-        "횡성",
-        "우산동",
-        "원주",
-        "유성시외",
-        "전주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        9600
-      ],
-      "초등생": [
-        4800
-      ],
-      "중고생": [
-        7700
-      ]
-    },
-    "via": [
-      [
-        "춘천",
-        "홍천",
-        "횡성",
-        "원주",
-        "대구북부",
-        "대구서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        9600
-      ],
-      "초등생": [
-        4800
-      ],
-      "중고생": [
-        7700
-      ]
-    },
-    "via": [
-      [
-        "춘천",
-        "홍천",
-        "횡성",
-        "원주",
-        "대구북부",
-        "대구서부"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜천마고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        9600
-      ],
-      "초등생": [
-        4800
-      ],
-      "중고생": [
-        7700
-      ]
-    },
-    "via": [
-      [
-        "춘천",
-        "홍천",
-        "공근",
-        "횡성",
-        "우산동",
-        "원주",
-        "울산"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2044",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜천마고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        8700
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        7000
-      ]
-    },
-    "via": [
-      [
-        "춘천",
-        "홍천",
-        "공근",
-        "횡성",
-        "우산동",
-        "원주",
-        "경주",
-        "포항"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

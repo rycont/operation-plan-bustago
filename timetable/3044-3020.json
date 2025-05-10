@@ -1,51 +1,37 @@
 [
-  {
-    "departureTerminalId": "3044",
-    "arrivalTerminalId": "3020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        20000
-      ],
-      "초등생": [
-        10000
-      ],
-      "중고생": [
-        16000
-      ]
-    },
-    "via": [
-      [
-        "영춘",
-        "별방",
-        "쌍용",
-        "제천",
-        "목행",
-        "충주",
-        "음성",
-        "증평",
-        "청주대정류소",
-        "청주"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "3044",
+        "arrivalTerminalId": "3020",
+        "durationInMinutes": [0],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 12,
+            "minute": 45
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [20000],
+            "초등생": [10000],
+            "중고생": [16000]
+        },
+        "stops": [
+            [
+                "영춘",
+                "별방",
+                "쌍용",
+                "제천",
+                "목행",
+                "충주",
+                "음성",
+                "증평",
+                "청주대정류소",
+                "청주"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

@@ -1,43 +1,24 @@
 [
-  {
-    "departureTerminalId": "6021",
-    "arrivalTerminalId": "6406",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        3200
-      ],
-      "초등생": [
-        1600
-      ],
-      "중고생": [
-        2600
-      ]
-    },
-    "via": [
-      [
-        "진교",
-        "갈사"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "6021",
+        "arrivalTerminalId": "6406",
+        "durationInMinutes": [0],
+        "operator": ["공통"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 59
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [0],
+        "fare": {
+            "어른": [3200],
+            "초등생": [1600],
+            "중고생": [2600]
+        },
+        "stops": [["진교", "갈사"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  }
 ]

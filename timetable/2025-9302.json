@@ -1,218 +1,113 @@
 [
-  {
-    "departureTerminalId": "2025",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "프리미엄우등"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 30
+    {
+        "departureTerminalId": "2025",
+        "arrivalTerminalId": "9302",
+        "durationInMinutes": [160],
+        "operator": ["(주)경기고속"],
+        "busClass": ["프리미엄우등"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [33200],
+            "초등생": [16600],
+            "중고생": [23200]
+        },
+        "stops": [["태백", "고한사북공영", "영월", "인천"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        33200
-      ],
-      "초등생": [
-        16600
-      ],
-      "중고생": [
-        23200
-      ]
+    {
+        "departureTerminalId": "2025",
+        "arrivalTerminalId": "9302",
+        "durationInMinutes": [160],
+        "operator": ["(주)경기고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [25500],
+            "초등생": [12800],
+            "중고생": [20400]
+        },
+        "stops": [["태백", "고한사북공영", "영월", "인천"]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        "태백",
-        "고한사북공영",
-        "영월",
-        "인천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "2025",
+        "arrivalTerminalId": "9302",
+        "durationInMinutes": [160],
+        "operator": ["(주)경기고속"],
+        "busClass": ["프리미엄우등"],
+        "departureTime": {
+            "hour": 13,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [33200],
+            "초등생": [16600],
+            "중고생": [23200]
+        },
+        "stops": [["태백", "고한사북공영", "영월", "인천"]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "2025",
+        "arrivalTerminalId": "9302",
+        "durationInMinutes": [160],
+        "operator": ["(주)경기고속"],
+        "busClass": ["시외우등"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 50
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [25500],
+            "초등생": [12800],
+            "중고생": [20400]
+        },
+        "stops": [["태백", "고한사북공영", "영월", "인천"]],
+        "pattern": {
+            "type": "specific-day",
+            "days": []
+        }
+    },
+    {
+        "departureTerminalId": "2025",
+        "arrivalTerminalId": "9302",
+        "durationInMinutes": [160],
+        "operator": ["(주)경기고속"],
+        "busClass": ["프리미엄우등"],
+        "departureTime": {
+            "hour": 18,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [33200],
+            "초등생": [16600],
+            "중고생": [23200]
+        },
+        "stops": [["태백", "고한사북공영", "영월", "인천"]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "2025",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        25500
-      ],
-      "초등생": [
-        12800
-      ],
-      "중고생": [
-        20400
-      ]
-    },
-    "via": [
-      [
-        "태백",
-        "고한사북공영",
-        "영월",
-        "인천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2025",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "프리미엄우등"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        33200
-      ],
-      "초등생": [
-        16600
-      ],
-      "중고생": [
-        23200
-      ]
-    },
-    "via": [
-      [
-        "태백",
-        "고한사북공영",
-        "영월",
-        "인천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2025",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        25500
-      ],
-      "초등생": [
-        12800
-      ],
-      "중고생": [
-        20400
-      ]
-    },
-    "via": [
-      [
-        "태백",
-        "고한사북공영",
-        "영월",
-        "인천"
-      ]
-    ],
-    "pattern": {
-      "type": "specific-day",
-      "days": []
-    }
-  },
-  {
-    "departureTerminalId": "2025",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "프리미엄우등"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        33200
-      ],
-      "초등생": [
-        16600
-      ],
-      "중고생": [
-        23200
-      ]
-    },
-    "via": [
-      [
-        "태백",
-        "고한사북공영",
-        "영월",
-        "인천"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

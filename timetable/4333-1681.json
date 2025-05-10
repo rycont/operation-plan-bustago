@@ -1,96 +1,68 @@
 [
-  {
-    "departureTerminalId": "4333",
-    "arrivalTerminalId": "1681",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 0
+    {
+        "departureTerminalId": "4333",
+        "arrivalTerminalId": "1681",
+        "durationInMinutes": [0],
+        "operator": ["합자회사 경남여객"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [40],
+        "fare": {
+            "어른": [8500],
+            "초등생": [4300],
+            "중고생": [6800]
+        },
+        "stops": [
+            [
+                "아산(온양)",
+                "천안",
+                "신갈(용인)",
+                "기흥역(분당선)",
+                "강남대",
+                "용인대",
+                "명지대",
+                "용인"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6800
-      ]
-    },
-    "via": [
-      [
-        "아산(온양)",
-        "천안",
-        "신갈(용인)",
-        "기흥역(분당선)",
-        "강남대",
-        "용인대",
-        "명지대",
-        "용인"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "4333",
+        "arrivalTerminalId": "1681",
+        "durationInMinutes": [0],
+        "operator": ["합자회사 경남여객"],
+        "busClass": ["일반"],
+        "departureTime": {
+            "hour": 20,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [36],
+        "fare": {
+            "어른": [8500],
+            "초등생": [4300],
+            "중고생": [6800]
+        },
+        "stops": [
+            [
+                "아산(온양)",
+                "천안",
+                "신갈(용인)",
+                "기흥역(분당선)",
+                "강남대",
+                "용인대",
+                "명지대",
+                "용인"
+            ]
+        ],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "4333",
-    "arrivalTerminalId": "1681",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      36
-    ],
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6800
-      ]
-    },
-    "via": [
-      [
-        "아산(온양)",
-        "천안",
-        "신갈(용인)",
-        "기흥역(분당선)",
-        "강남대",
-        "용인대",
-        "명지대",
-        "용인"
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]
