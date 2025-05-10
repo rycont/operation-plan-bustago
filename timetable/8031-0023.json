@@ -1,46 +1,104 @@
 [
-    {
-        "departureTerminalId": "8031",
-        "arrivalTerminalId": "0023",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["우등고속"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [39900],
-            "초등생": [20000],
-            "중고생": [31900]
-        },
-        "stops": [["보성", "벌교", "옥과", "서울(센트럴)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8031",
+    "arrivalTerminalId": "0023",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "busClass": [
+      "우등고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "8031",
-        "arrivalTerminalId": "0023",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["우등고속"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 0
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "보성"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [39900],
-            "초등생": [20000],
-            "중고생": [31900]
+        {
+          "name": "벌교"
         },
-        "stops": [["보성", "벌교", "옥과", "서울(센트럴)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "옥과"
+        },
+        {
+          "name": "서울(센트럴)"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "unknown"
     }
+  },
+  {
+    "departureTerminalId": "8031",
+    "arrivalTerminalId": "0023",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "busClass": [
+      "우등고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "보성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "옥과"
+        },
+        {
+          "name": "서울(센트럴)"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "unknown"
+    }
+  }
 ]
