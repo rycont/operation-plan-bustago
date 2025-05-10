@@ -1,34 +1,62 @@
 [
-    {
-        "departureTerminalId": "6012",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 13
+  {
+    "departureTerminalId": "6012",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 13
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      0
+    ],
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
+        {
+          "name": "창원(남산)"
         },
-        "stops": [
-            [
-                "부산해운대",
-                "창원(남산)",
-                "마산남부",
-                "진동",
-                "배둔",
-                "고성",
-                "통영공용"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "마산남부"
+        },
+        {
+          "name": "진동"
+        },
+        {
+          "name": "배둔"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영공용"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
