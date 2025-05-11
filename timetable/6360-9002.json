@@ -1,209 +1,472 @@
 [
-    {
-        "departureTerminalId": "6360",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [14300],
-            "초등생": [7200],
-            "중고생": [11400]
-        },
-        "stops": [["덕산(산청)", "원지", "진주부산교통", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6360",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "6360",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화", "영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0, 41],
-        "fare": {
-            "어른": [14300],
-            "초등생": [7200],
-            "중고생": [11400]
-        },
-        "stops": [
-            ["덕산(산청)", "원지", "진주부산교통", "부산서부"],
-            [
-                "중산리",
-                "동당",
-                "곡점",
-                "하신",
-                "외공",
-                "점동",
-                "덕산(농협)",
-                "덕산(산청)",
-                "사리",
-                "소리당마을",
-                "백운",
-                "구만",
-                "칠정",
-                "길리",
-                "남사",
-                "단성",
-                "원지",
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "부산서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14300
+      ],
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11400
+      ]
     },
-    {
-        "departureTerminalId": "6360",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화", "영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 45
+    "stops": [
+      [
+        {
+          "name": "덕산(산청)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0, 41],
-        "fare": {
-            "어른": [14300],
-            "초등생": [7200],
-            "중고생": [11400]
+        {
+          "name": "원지"
         },
-        "stops": [
-            ["덕산(산청)", "원지", "진주부산교통", "부산서부"],
-            [
-                "중산리",
-                "동당",
-                "곡점",
-                "하신",
-                "외공",
-                "점동",
-                "덕산(농협)",
-                "덕산(산청)",
-                "사리",
-                "소리당마을",
-                "백운",
-                "구만",
-                "칠정",
-                "길리",
-                "남사",
-                "단성",
-                "원지",
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "부산서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "부산서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "6360",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화", "영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0, 41],
-        "fare": {
-            "어른": [14300],
-            "초등생": [7200],
-            "중고생": [11400]
-        },
-        "stops": [
-            ["덕산(산청)", "원지", "진주부산교통", "부산서부"],
-            [
-                "홍계",
-                "대원사",
-                "대포",
-                "덕산(농협)",
-                "덕산(산청)",
-                "사리",
-                "소리당마을",
-                "백운",
-                "구만",
-                "칠정",
-                "길리",
-                "남사",
-                "단성",
-                "원지",
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "부산서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6360",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화", "영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0, 41],
-        "fare": {
-            "어른": [14300],
-            "초등생": [7200],
-            "중고생": [11400]
-        },
-        "stops": [
-            ["덕산(산청)", "원지", "진주부산교통", "부산서부"],
-            [
-                "중산리",
-                "동당",
-                "곡점",
-                "하신",
-                "외공",
-                "점동",
-                "덕산(농협)",
-                "덕산(산청)",
-                "사리",
-                "소리당마을",
-                "백운",
-                "구만",
-                "칠정",
-                "길리",
-                "남사",
-                "단성",
-                "원지",
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "부산서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "606360900201",
+    "pattern": {
+      "type": "unknown"
     }
+  },
+  {
+    "departureTerminalId": "6360",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14300
+      ],
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "중산리"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "덕산(농협)"
+        },
+        {
+          "name": "덕산(산청)"
+        },
+        {
+          "name": "사리"
+        },
+        {
+          "name": "소리당마을"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606687900202",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6360",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14300
+      ],
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "중산리"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "덕산(농협)"
+        },
+        {
+          "name": "덕산(산청)"
+        },
+        {
+          "name": "사리"
+        },
+        {
+          "name": "소리당마을"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606687900202",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6360",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14300
+      ],
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "홍계"
+        },
+        {
+          "name": "대원사"
+        },
+        {
+          "name": "대포"
+        },
+        {
+          "name": "덕산(농협)"
+        },
+        {
+          "name": "덕산(산청)"
+        },
+        {
+          "name": "사리"
+        },
+        {
+          "name": "소리당마을"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606233900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6360",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14300
+      ],
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "중산리"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "덕산(농협)"
+        },
+        {
+          "name": "덕산(산청)"
+        },
+        {
+          "name": "사리"
+        },
+        {
+          "name": "소리당마을"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606687900202",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

@@ -1,189 +1,434 @@
 [
-    {
-        "departureTerminalId": "9518",
-        "arrivalTerminalId": "4024",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [18800],
-            "초등생": [9400],
-            "중고생": [15000]
-        },
-        "stops": [["대전서부", "도마동", "관저정류소", "보령"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "9518",
-        "arrivalTerminalId": "4024",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [14500],
-            "초등생": [7300],
-            "중고생": [11600]
-        },
-        "stops": [
-            [
-                "관저정류소",
-                "양정",
-                "연산",
-                "인터넷고",
-                "부적",
-                "논산",
-                "십자가",
-                "부여",
-                "규암",
-                "구룡(부여)",
-                "내산",
-                "외산",
-                "도화담",
-                "성주",
-                "보령"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18800
+      ],
+      "초등생": [
+        9400
+      ],
+      "중고생": [
+        15000
+      ]
     },
-    {
-        "departureTerminalId": "9518",
-        "arrivalTerminalId": "4024",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 40
+    "stops": [
+      [
+        {
+          "name": "대전서부"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [18800],
-            "초등생": [9400],
-            "중고생": [15000]
+        {
+          "name": "도마동"
         },
-        "stops": [["대전서부", "도마동", "관저정류소", "보령"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "보령"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "9518",
-        "arrivalTerminalId": "4024",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [14500],
-            "초등생": [7300],
-            "중고생": [11600]
-        },
-        "stops": [
-            [
-                "관저정류소",
-                "양정",
-                "연산",
-                "인터넷고",
-                "부적",
-                "논산",
-                "십자가",
-                "부여",
-                "규암",
-                "구룡(부여)",
-                "내산",
-                "외산",
-                "도화담",
-                "성주",
-                "보령"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9518",
-        "arrivalTerminalId": "4024",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [14500],
-            "초등생": [7300],
-            "중고생": [11600]
-        },
-        "stops": [
-            [
-                "관저정류소",
-                "양정",
-                "연산",
-                "인터넷고",
-                "부적",
-                "논산",
-                "십자가",
-                "부여",
-                "규암",
-                "구룡(부여)",
-                "내산",
-                "외산",
-                "도화담",
-                "웅천",
-                "성주",
-                "보령"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9518",
-        "arrivalTerminalId": "4024",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [18800],
-            "초등생": [9400],
-            "중고생": [15000]
-        },
-        "stops": [["대전서부", "도마동", "관저정류소", "보령"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "959504402409",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14500
+      ],
+      "초등생": [
+        7300
+      ],
+      "중고생": [
+        11600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "연산"
+        },
+        {
+          "name": "인터넷고"
+        },
+        {
+          "name": "부적"
+        },
+        {
+          "name": "논산"
+        },
+        {
+          "name": "십자가"
+        },
+        {
+          "name": "부여"
+        },
+        {
+          "name": "규암"
+        },
+        {
+          "name": "구룡(부여)"
+        },
+        {
+          "name": "내산"
+        },
+        {
+          "name": "외산"
+        },
+        {
+          "name": "도화담"
+        },
+        {
+          "name": "성주"
+        },
+        {
+          "name": "보령"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959518402401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18800
+      ],
+      "초등생": [
+        9400
+      ],
+      "중고생": [
+        15000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대전서부"
+        },
+        {
+          "name": "도마동"
+        },
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "보령"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959504402409",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14500
+      ],
+      "초등생": [
+        7300
+      ],
+      "중고생": [
+        11600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "연산"
+        },
+        {
+          "name": "인터넷고"
+        },
+        {
+          "name": "부적"
+        },
+        {
+          "name": "논산"
+        },
+        {
+          "name": "십자가"
+        },
+        {
+          "name": "부여"
+        },
+        {
+          "name": "규암"
+        },
+        {
+          "name": "구룡(부여)"
+        },
+        {
+          "name": "내산"
+        },
+        {
+          "name": "외산"
+        },
+        {
+          "name": "도화담"
+        },
+        {
+          "name": "성주"
+        },
+        {
+          "name": "보령"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959518402401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14500
+      ],
+      "초등생": [
+        7300
+      ],
+      "중고생": [
+        11600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "연산"
+        },
+        {
+          "name": "인터넷고"
+        },
+        {
+          "name": "부적"
+        },
+        {
+          "name": "논산"
+        },
+        {
+          "name": "십자가"
+        },
+        {
+          "name": "부여"
+        },
+        {
+          "name": "규암"
+        },
+        {
+          "name": "구룡(부여)"
+        },
+        {
+          "name": "내산"
+        },
+        {
+          "name": "외산"
+        },
+        {
+          "name": "도화담"
+        },
+        {
+          "name": "웅천"
+        },
+        {
+          "name": "성주"
+        },
+        {
+          "name": "보령"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959518402407",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18800
+      ],
+      "초등생": [
+        9400
+      ],
+      "중고생": [
+        15000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대전서부"
+        },
+        {
+          "name": "도마동"
+        },
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "보령"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959504402409",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
