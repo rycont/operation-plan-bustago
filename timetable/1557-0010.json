@@ -1,142 +1,294 @@
 [
-    {
-        "departureTerminalId": "1557",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 4,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [6600],
-            "초등생": [3300],
-            "중고생": [4600]
-        },
-        "stops": [
-            [
-                "대원여객차고지",
-                "신도브래뉴아파트",
-                "의정부부대찌개거리",
-                "의정부역",
-                "우체국",
-                "범골입구",
-                "의정부시청",
-                "흥선브라운스톤아파트",
-                "송추계곡느티나무",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1557",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 4,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "1557",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [6600],
-            "초등생": [3300],
-            "중고생": [4600]
-        },
-        "stops": [
-            [
-                "대원여객차고지",
-                "신도브래뉴아파트",
-                "의정부부대찌개거리",
-                "의정부역",
-                "우체국",
-                "범골입구",
-                "의정부시청",
-                "흥선브라운스톤아파트",
-                "송추계곡느티나무",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6600
+      ],
+      "초등생": [
+        3300
+      ],
+      "중고생": [
+        4600
+      ]
     },
-    {
-        "departureTerminalId": "1557",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "대원여객차고지"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [6600],
-            "초등생": [3300],
-            "중고생": [4600]
+        {
+          "name": "신도브래뉴아파트"
         },
-        "stops": [
-            [
-                "대원여객차고지",
-                "신도브래뉴아파트",
-                "의정부부대찌개거리",
-                "의정부역",
-                "우체국",
-                "범골입구",
-                "의정부시청",
-                "흥선브라운스톤아파트",
-                "송추계곡느티나무",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "의정부부대찌개거리"
+        },
+        {
+          "name": "의정부역"
+        },
+        {
+          "name": "우체국"
+        },
+        {
+          "name": "범골입구"
+        },
+        {
+          "name": "의정부시청"
+        },
+        {
+          "name": "흥선브라운스톤아파트"
+        },
+        {
+          "name": "송추계곡느티나무"
+        },
+        {
+          "name": "김포공항"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "1557",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [6600],
-            "초등생": [3300],
-            "중고생": [4600]
-        },
-        "stops": [
-            [
-                "대원여객차고지",
-                "신도브래뉴아파트",
-                "의정부부대찌개거리",
-                "의정부역",
-                "우체국",
-                "범골입구",
-                "의정부시청",
-                "흥선브라운스톤아파트",
-                "송추계곡느티나무",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "101557001002",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1557",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6600
+      ],
+      "초등생": [
+        3300
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대원여객차고지"
+        },
+        {
+          "name": "신도브래뉴아파트"
+        },
+        {
+          "name": "의정부부대찌개거리"
+        },
+        {
+          "name": "의정부역"
+        },
+        {
+          "name": "우체국"
+        },
+        {
+          "name": "범골입구"
+        },
+        {
+          "name": "의정부시청"
+        },
+        {
+          "name": "흥선브라운스톤아파트"
+        },
+        {
+          "name": "송추계곡느티나무"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101557001002",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1557",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6600
+      ],
+      "초등생": [
+        3300
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대원여객차고지"
+        },
+        {
+          "name": "신도브래뉴아파트"
+        },
+        {
+          "name": "의정부부대찌개거리"
+        },
+        {
+          "name": "의정부역"
+        },
+        {
+          "name": "우체국"
+        },
+        {
+          "name": "범골입구"
+        },
+        {
+          "name": "의정부시청"
+        },
+        {
+          "name": "흥선브라운스톤아파트"
+        },
+        {
+          "name": "송추계곡느티나무"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101557001002",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1557",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6600
+      ],
+      "초등생": [
+        3300
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대원여객차고지"
+        },
+        {
+          "name": "신도브래뉴아파트"
+        },
+        {
+          "name": "의정부부대찌개거리"
+        },
+        {
+          "name": "의정부역"
+        },
+        {
+          "name": "우체국"
+        },
+        {
+          "name": "범골입구"
+        },
+        {
+          "name": "의정부시청"
+        },
+        {
+          "name": "흥선브라운스톤아파트"
+        },
+        {
+          "name": "송추계곡느티나무"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101557001002",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
