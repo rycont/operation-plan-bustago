@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "4045",
-        "arrivalTerminalId": "4003",
-        "durationInMinutes": [60],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 50
+  {
+    "departureTerminalId": "4045",
+    "arrivalTerminalId": "4003",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7100
+      ],
+      "초등생": [
+        3600
+      ],
+      "중고생": [
+        5700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [7100],
-            "초등생": [3600],
-            "중고생": [5700]
-        },
-        "stops": [["서천", "공주"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "공주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404045400301",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
