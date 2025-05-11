@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "8026",
-        "arrivalTerminalId": "9759",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "8026",
+    "arrivalTerminalId": "9759",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3400
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "문덕"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3400],
-            "초등생": [1700],
-            "중고생": [2700]
-        },
-        "stops": [["문덕", "보성"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "보성"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808026975901",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

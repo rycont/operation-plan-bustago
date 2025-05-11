@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "3044",
-        "arrivalTerminalId": "3002",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 20
+  {
+    "departureTerminalId": "3044",
+    "arrivalTerminalId": "3002",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영춘"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["영춘", "구인사"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "구인사"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303044300201",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

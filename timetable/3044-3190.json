@@ -1,37 +1,75 @@
 [
-    {
-        "departureTerminalId": "3044",
-        "arrivalTerminalId": "3190",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 45
+  {
+    "departureTerminalId": "3044",
+    "arrivalTerminalId": "3190",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1500
+      ],
+      "초등생": [
+        800
+      ],
+      "중고생": [
+        1200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영춘"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1500],
-            "초등생": [800],
-            "중고생": [1200]
+        {
+          "name": "별방"
         },
-        "stops": [
-            [
-                "영춘",
-                "별방",
-                "쌍용",
-                "제천",
-                "목행",
-                "충주",
-                "음성",
-                "증평",
-                "청주대정류소",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "쌍용"
+        },
+        {
+          "name": "제천"
+        },
+        {
+          "name": "목행"
+        },
+        {
+          "name": "충주"
+        },
+        {
+          "name": "음성"
+        },
+        {
+          "name": "증평"
+        },
+        {
+          "name": "청주대정류소"
+        },
+        {
+          "name": "청주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303044301501",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
