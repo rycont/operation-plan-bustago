@@ -1,26 +1,66 @@
 [
-    {
-        "departureTerminalId": "6019",
-        "arrivalTerminalId": "6779",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 10
+  {
+    "departureTerminalId": "6019",
+    "arrivalTerminalId": "6779",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2400
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "의령"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [2400],
-            "초등생": [1200],
-            "중고생": [1900]
+        {
+          "name": "정암"
         },
-        "stops": [
-            ["의령", "정암", "월촌", "죽산(함안군)", "군북", "삼봉", "함안"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "월촌"
+        },
+        {
+          "name": "죽산(함안군)"
+        },
+        {
+          "name": "군북"
+        },
+        {
+          "name": "삼봉"
+        },
+        {
+          "name": "함안"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606019603105",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

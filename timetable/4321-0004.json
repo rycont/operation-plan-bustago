@@ -1,266 +1,698 @@
 [
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 43
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 43
     },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 53
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
     },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 53
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
+        {
+          "name": "엄사"
         },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "unknown"
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 53
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "unknown"
-        }
-    },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 13
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 43
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 3
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 23
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 13
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 23
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 43
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4321",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["㈜중부고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 33
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["계룡금암", "엄사", "남선", "동학사삼거리", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 13
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 3
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 23
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 13
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 23
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4321",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜중부고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 33
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "계룡금암"
+        },
+        {
+          "name": "엄사"
+        },
+        {
+          "name": "남선"
+        },
+        {
+          "name": "동학사삼거리"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404310000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

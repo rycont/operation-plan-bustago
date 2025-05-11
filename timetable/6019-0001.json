@@ -1,68 +1,185 @@
 [
-    {
-        "departureTerminalId": "6019",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [290],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["의령", "신반", "적교", "이방", "현풍", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6019",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      290
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 35
     },
-    {
-        "departureTerminalId": "6019",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [290],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["의령", "신반", "적교", "이방", "현풍", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
     },
-    {
-        "departureTerminalId": "6019",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [290],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "의령"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
+        {
+          "name": "신반"
         },
-        "stops": [["의령", "신반", "적교", "이방", "현풍", "동서울"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "적교"
+        },
+        {
+          "name": "이방"
+        },
+        {
+          "name": "현풍"
+        },
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606019000101",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6019",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      290
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "의령"
+        },
+        {
+          "name": "신반"
+        },
+        {
+          "name": "적교"
+        },
+        {
+          "name": "이방"
+        },
+        {
+          "name": "현풍"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606019000101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6019",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      290
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "의령"
+        },
+        {
+          "name": "신반"
+        },
+        {
+          "name": "적교"
+        },
+        {
+          "name": "이방"
+        },
+        {
+          "name": "현풍"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606019000101",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

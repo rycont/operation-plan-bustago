@@ -1,95 +1,185 @@
 [
-    {
-        "departureTerminalId": "7019",
-        "arrivalTerminalId": "7106",
-        "durationInMinutes": [0],
-        "operator": ["(유)호남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [31],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "삼례",
-                "우석대",
-                "삼봉지구",
-                "둔산공원",
-                "서울(대학생)",
-                "서울남부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "7019",
+    "arrivalTerminalId": "7106",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "7019",
-        "arrivalTerminalId": "7106",
-        "durationInMinutes": [0],
-        "operator": ["(유)호남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "삼례",
-                "우석대",
-                "삼봉지구",
-                "둔산공원",
-                "서울(대학생)",
-                "서울남부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
     },
-    {
-        "departureTerminalId": "7019",
-        "arrivalTerminalId": "7106",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 40
+    "stops": [
+      [
+        {
+          "name": "삼례"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
+        {
+          "name": "우석대"
         },
-        "stops": [
-            [
-                "삼례",
-                "우석대",
-                "삼봉지구",
-                "둔산공원",
-                "서울(대학생)",
-                "서울남부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "삼봉지구"
+        },
+        {
+          "name": "둔산공원"
+        },
+        {
+          "name": "서울(대학생)"
+        },
+        {
+          "name": "서울남부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        31
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707019000402",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "7019",
+    "arrivalTerminalId": "7106",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼례"
+        },
+        {
+          "name": "우석대"
+        },
+        {
+          "name": "삼봉지구"
+        },
+        {
+          "name": "둔산공원"
+        },
+        {
+          "name": "서울(대학생)"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707019000402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7019",
+    "arrivalTerminalId": "7106",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼례"
+        },
+        {
+          "name": "우석대"
+        },
+        {
+          "name": "삼봉지구"
+        },
+        {
+          "name": "둔산공원"
+        },
+        {
+          "name": "서울(대학생)"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707019000402",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
