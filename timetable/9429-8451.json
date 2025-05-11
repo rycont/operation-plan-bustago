@@ -1,38 +1,78 @@
 [
-    {
-        "departureTerminalId": "9429",
-        "arrivalTerminalId": "8451",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 12
+  {
+    "departureTerminalId": "9429",
+    "arrivalTerminalId": "8451",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 12
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17700
+      ],
+      "초등생": [
+        8900
+      ],
+      "중고생": [
+        14200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "소태"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [17700],
-            "초등생": [8900],
-            "중고생": [14200]
+        {
+          "name": "화순"
         },
-        "stops": [
-            [
-                "소태",
-                "화순",
-                "곡천",
-                "벌교",
-                "과역",
-                "고흥",
-                "포두",
-                "도화",
-                "남성(고흥군)",
-                "백양",
-                "나로도"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "포두"
+        },
+        {
+          "name": "도화"
+        },
+        {
+          "name": "남성(고흥군)"
+        },
+        {
+          "name": "백양"
+        },
+        {
+          "name": "나로도"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949429800801",
+    "pattern": {
+      "type": "unknown"
     }
+  }
 ]

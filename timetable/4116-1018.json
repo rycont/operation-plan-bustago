@@ -1,342 +1,712 @@
 [
-    {
-        "departureTerminalId": "4116",
-        "arrivalTerminalId": "1018",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속", "㈜한양고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 2
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13600],
-            "초등생": [6800],
-            "중고생": [10900]
-        },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "당진",
-                "기지시",
-                "광명",
-                "안양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "4116",
+    "arrivalTerminalId": "1018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 2
     },
-    {
-        "departureTerminalId": "4116",
-        "arrivalTerminalId": "1018",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속", "㈜한양고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 32
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [10500],
-            "초등생": [5300],
-            "중고생": [8400]
-        },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "당진",
-                "기지시",
-                "광명",
-                "안양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13600
+      ],
+      "초등생": [
+        6800
+      ],
+      "중고생": [
+        10900
+      ]
     },
-    {
-        "departureTerminalId": "4116",
-        "arrivalTerminalId": "1018",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속", "㈜한양고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 2
+    "stops": [
+      [
+        {
+          "name": "태안"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13600],
-            "초등생": [6800],
-            "중고생": [10900]
+        {
+          "name": "어송"
         },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "당진",
-                "기지시",
-                "광명",
-                "안양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "광명"
+        },
+        {
+          "name": "안양"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "4116",
-        "arrivalTerminalId": "1018",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속", "㈜한양고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 2
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13600],
-            "초등생": [6800],
-            "중고생": [10900]
-        },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "당진",
-                "기지시",
-                "광명",
-                "안양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4116",
-        "arrivalTerminalId": "1018",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속", "㈜한양고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 32
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [10500],
-            "초등생": [5300],
-            "중고생": [8400]
-        },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "당진",
-                "기지시",
-                "광명",
-                "안양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4116",
-        "arrivalTerminalId": "1018",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속", "㈜한양고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 2
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13600],
-            "초등생": [6800],
-            "중고생": [10900]
-        },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "당진",
-                "기지시",
-                "광명",
-                "안양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4116",
-        "arrivalTerminalId": "1018",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속", "㈜한양고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 2
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13600],
-            "초등생": [6800],
-            "중고생": [10900]
-        },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "당진",
-                "기지시",
-                "광명",
-                "안양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4116",
-        "arrivalTerminalId": "1018",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속", "㈜한양고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 32
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [10500],
-            "초등생": [5300],
-            "중고생": [8400]
-        },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "당진",
-                "기지시",
-                "광명",
-                "안양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4116",
-        "arrivalTerminalId": "1018",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속", "㈜한양고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 52
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13600],
-            "초등생": [6800],
-            "중고생": [10900]
-        },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "당진",
-                "기지시",
-                "광명",
-                "안양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4116",
-        "arrivalTerminalId": "1018",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속", "㈜한양고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 37
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13600],
-            "초등생": [6800],
-            "중고생": [10900]
-        },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "당진",
-                "기지시",
-                "광명",
-                "안양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "404021101804",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "4116",
+    "arrivalTerminalId": "1018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 32
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10500
+      ],
+      "초등생": [
+        5300
+      ],
+      "중고생": [
+        8400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "광명"
+        },
+        {
+          "name": "안양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404021101804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4116",
+    "arrivalTerminalId": "1018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 2
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13600
+      ],
+      "초등생": [
+        6800
+      ],
+      "중고생": [
+        10900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "광명"
+        },
+        {
+          "name": "안양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4116",
+    "arrivalTerminalId": "1018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 2
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13600
+      ],
+      "초등생": [
+        6800
+      ],
+      "중고생": [
+        10900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "광명"
+        },
+        {
+          "name": "안양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4116",
+    "arrivalTerminalId": "1018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 32
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10500
+      ],
+      "초등생": [
+        5300
+      ],
+      "중고생": [
+        8400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "광명"
+        },
+        {
+          "name": "안양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404021101804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4116",
+    "arrivalTerminalId": "1018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 2
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13600
+      ],
+      "초등생": [
+        6800
+      ],
+      "중고생": [
+        10900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "광명"
+        },
+        {
+          "name": "안양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4116",
+    "arrivalTerminalId": "1018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 2
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13600
+      ],
+      "초등생": [
+        6800
+      ],
+      "중고생": [
+        10900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "광명"
+        },
+        {
+          "name": "안양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4116",
+    "arrivalTerminalId": "1018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 32
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10500
+      ],
+      "초등생": [
+        5300
+      ],
+      "중고생": [
+        8400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "광명"
+        },
+        {
+          "name": "안양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404021101804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4116",
+    "arrivalTerminalId": "1018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 52
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13600
+      ],
+      "초등생": [
+        6800
+      ],
+      "중고생": [
+        10900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "광명"
+        },
+        {
+          "name": "안양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4116",
+    "arrivalTerminalId": "1018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 37
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13600
+      ],
+      "초등생": [
+        6800
+      ],
+      "중고생": [
+        10900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "광명"
+        },
+        {
+          "name": "안양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101804",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
