@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         13000
@@ -28,6 +22,25 @@
       ],
       "중고생": [
         10400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남원북부"
+        },
+        {
+          "name": "무주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
       ]
     },
     "pattern": {
