@@ -1,68 +1,176 @@
 [
-    {
-        "departureTerminalId": "7018",
-        "arrivalTerminalId": "8137",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [4500],
-            "초등생": [2300],
-            "중고생": [3600]
-        },
-        "stops": [["부안", "비득치", "변산욕장", "변산", "격포"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "7018",
+    "arrivalTerminalId": "8137",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 35
     },
-    {
-        "departureTerminalId": "7018",
-        "arrivalTerminalId": "8137",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [4500],
-            "초등생": [2300],
-            "중고생": [3600]
-        },
-        "stops": [["부안", "비득치", "변산욕장", "변산", "격포"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3600
+      ]
     },
-    {
-        "departureTerminalId": "7018",
-        "arrivalTerminalId": "8137",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 35
+    "stops": [
+      [
+        {
+          "name": "부안"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [4500],
-            "초등생": [2300],
-            "중고생": [3600]
+        {
+          "name": "비득치"
         },
-        "stops": [["부안", "비득치", "변산욕장", "변산", "격포"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "변산욕장"
+        },
+        {
+          "name": "변산"
+        },
+        {
+          "name": "격포"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707018813704",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "7018",
+    "arrivalTerminalId": "8137",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부안"
+        },
+        {
+          "name": "비득치"
+        },
+        {
+          "name": "변산욕장"
+        },
+        {
+          "name": "변산"
+        },
+        {
+          "name": "격포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707018813704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7018",
+    "arrivalTerminalId": "8137",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부안"
+        },
+        {
+          "name": "비득치"
+        },
+        {
+          "name": "변산욕장"
+        },
+        {
+          "name": "변산"
+        },
+        {
+          "name": "격포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707018813704",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
