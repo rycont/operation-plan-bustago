@@ -1,24 +1,53 @@
 [
-    {
-        "departureTerminalId": "4046",
-        "arrivalTerminalId": "7366",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 20
+  {
+    "departureTerminalId": "4046",
+    "arrivalTerminalId": "7366",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "금산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1800]
+        {
+          "name": "부리"
         },
-        "stops": [["금산", "부리", "가당리(무주군)", "무주"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "가당리(무주군)"
+        },
+        {
+          "name": "무주"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
