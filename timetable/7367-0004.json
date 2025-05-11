@@ -1,24 +1,60 @@
 [
-    {
-        "departureTerminalId": "7367",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [175],
-        "operator": ["㈜전북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 15
+  {
+    "departureTerminalId": "7367",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      175
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25100
+      ],
+      "초등생": [
+        12600
+      ],
+      "중고생": [
+        20100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구천동"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [25100],
-            "초등생": [12600],
-            "중고생": [20100]
+        {
+          "name": "무주리조트"
         },
-        "stops": [["구천동", "무주리조트", "설천", "무주", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "설천"
+        },
+        {
+          "name": "무주"
+        },
+        {
+          "name": "서울남부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707078000401",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

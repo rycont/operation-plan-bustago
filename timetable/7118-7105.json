@@ -1,277 +1,642 @@
 [
-    {
-        "departureTerminalId": "7118",
-        "arrivalTerminalId": "7105",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [850],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "무주안성",
-                "계북",
-                "장계",
-                "계남",
-                "장수",
-                "번암",
-                "남원",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "7118",
+    "arrivalTerminalId": "7105",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "7118",
-        "arrivalTerminalId": "7105",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [850],
-            "중고생": [1400]
-        },
-        "stops": [["무주안성", "계북", "장계", "천천", "진안", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
     },
-    {
-        "departureTerminalId": "7118",
-        "arrivalTerminalId": "7105",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "무주안성"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [850],
-            "중고생": [1400]
+        {
+          "name": "계북"
         },
-        "stops": [
-            [
-                "무주안성",
-                "계북",
-                "장계",
-                "계남",
-                "장수",
-                "번암",
-                "남원",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "장계"
+        },
+        {
+          "name": "계남"
+        },
+        {
+          "name": "장수"
+        },
+        {
+          "name": "번암"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "7118",
-        "arrivalTerminalId": "7105",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [850],
-            "중고생": [1400]
-        },
-        "stops": [["무주안성", "계북", "장계", "천천", "진안", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7118",
-        "arrivalTerminalId": "7105",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [850],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "무주안성",
-                "계북",
-                "장계",
-                "계남",
-                "장수",
-                "번암",
-                "남원",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7118",
-        "arrivalTerminalId": "7105",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [850],
-            "중고생": [1400]
-        },
-        "stops": [["무주안성", "계북", "장계", "천천", "진안", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7118",
-        "arrivalTerminalId": "7105",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [850],
-            "중고생": [1400]
-        },
-        "stops": [["무주안성", "계북", "장계", "천천", "진안", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7118",
-        "arrivalTerminalId": "7105",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [850],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "무주안성",
-                "계북",
-                "장계",
-                "계남",
-                "장수",
-                "번암",
-                "남원",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7118",
-        "arrivalTerminalId": "7105",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [850],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "무주안성",
-                "계북",
-                "장계",
-                "계남",
-                "장수",
-                "번암",
-                "남원",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7118",
-        "arrivalTerminalId": "7105",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [850],
-            "중고생": [1400]
-        },
-        "stops": [["무주안성", "계북", "장계", "천천", "진안", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "707118940101",
+    "pattern": {
+      "type": "unknown"
     }
+  },
+  {
+    "departureTerminalId": "7118",
+    "arrivalTerminalId": "7105",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무주안성"
+        },
+        {
+          "name": "계북"
+        },
+        {
+          "name": "장계"
+        },
+        {
+          "name": "천천"
+        },
+        {
+          "name": "진안"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707118703301",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "7118",
+    "arrivalTerminalId": "7105",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무주안성"
+        },
+        {
+          "name": "계북"
+        },
+        {
+          "name": "장계"
+        },
+        {
+          "name": "계남"
+        },
+        {
+          "name": "장수"
+        },
+        {
+          "name": "번암"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707118940101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "7118",
+    "arrivalTerminalId": "7105",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무주안성"
+        },
+        {
+          "name": "계북"
+        },
+        {
+          "name": "장계"
+        },
+        {
+          "name": "천천"
+        },
+        {
+          "name": "진안"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707118703301",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "7118",
+    "arrivalTerminalId": "7105",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무주안성"
+        },
+        {
+          "name": "계북"
+        },
+        {
+          "name": "장계"
+        },
+        {
+          "name": "계남"
+        },
+        {
+          "name": "장수"
+        },
+        {
+          "name": "번암"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707118940101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "7118",
+    "arrivalTerminalId": "7105",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무주안성"
+        },
+        {
+          "name": "계북"
+        },
+        {
+          "name": "장계"
+        },
+        {
+          "name": "천천"
+        },
+        {
+          "name": "진안"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707118703301",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "7118",
+    "arrivalTerminalId": "7105",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무주안성"
+        },
+        {
+          "name": "계북"
+        },
+        {
+          "name": "장계"
+        },
+        {
+          "name": "천천"
+        },
+        {
+          "name": "진안"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707118703301",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "7118",
+    "arrivalTerminalId": "7105",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무주안성"
+        },
+        {
+          "name": "계북"
+        },
+        {
+          "name": "장계"
+        },
+        {
+          "name": "계남"
+        },
+        {
+          "name": "장수"
+        },
+        {
+          "name": "번암"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707118940101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "7118",
+    "arrivalTerminalId": "7105",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무주안성"
+        },
+        {
+          "name": "계북"
+        },
+        {
+          "name": "장계"
+        },
+        {
+          "name": "계남"
+        },
+        {
+          "name": "장수"
+        },
+        {
+          "name": "번암"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707118940101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "7118",
+    "arrivalTerminalId": "7105",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무주안성"
+        },
+        {
+          "name": "계북"
+        },
+        {
+          "name": "장계"
+        },
+        {
+          "name": "천천"
+        },
+        {
+          "name": "진안"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707118703301",
+    "pattern": {
+      "type": "unknown"
+    }
+  }
 ]

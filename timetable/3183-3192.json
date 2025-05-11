@@ -8,17 +8,11 @@
     "operator": [
       "서울고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 8,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3800
@@ -30,8 +24,43 @@
         3000
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "미원"
+        },
+        {
+          "name": "청천"
+        },
+        {
+          "name": "화양동"
+        },
+        {
+          "name": "자연학습원"
+        },
+        {
+          "name": "송면"
+        },
+        {
+          "name": "이평"
+        },
+        {
+          "name": "옥양동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303183320101",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]
