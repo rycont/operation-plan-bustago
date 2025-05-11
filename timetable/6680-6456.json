@@ -1,90 +1,222 @@
 [
-    {
-        "departureTerminalId": "6680",
-        "arrivalTerminalId": "6456",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["진주부산교통", "진주역", "사천공항", "우주항공청"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6680",
+    "arrivalTerminalId": "6456",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "6680",
-        "arrivalTerminalId": "6456",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["진주부산교통", "진주역", "사천공항", "우주항공청"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
     },
-    {
-        "departureTerminalId": "6680",
-        "arrivalTerminalId": "6456",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 10
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
+        {
+          "name": "진주역"
         },
-        "stops": [["진주부산교통", "진주역", "사천공항", "우주항공청"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "사천공항"
+        },
+        {
+          "name": "우주항공청"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "6680",
-        "arrivalTerminalId": "6456",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["진주부산교통", "진주역", "사천공항", "우주항공청"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "606039691801",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6680",
+    "arrivalTerminalId": "6456",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "진주역"
+        },
+        {
+          "name": "사천공항"
+        },
+        {
+          "name": "우주항공청"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039691801",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6680",
+    "arrivalTerminalId": "6456",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "진주역"
+        },
+        {
+          "name": "사천공항"
+        },
+        {
+          "name": "우주항공청"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039691801",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6680",
+    "arrivalTerminalId": "6456",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "진주역"
+        },
+        {
+          "name": "사천공항"
+        },
+        {
+          "name": "우주항공청"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039691801",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

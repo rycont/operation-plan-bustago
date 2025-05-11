@@ -1,24 +1,60 @@
 [
-    {
-        "departureTerminalId": "8162",
-        "arrivalTerminalId": "8018",
-        "durationInMinutes": [65],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 30
+  {
+    "departureTerminalId": "8162",
+    "arrivalTerminalId": "8018",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "산정"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [9800],
-            "초등생": [4900],
-            "중고생": [7800]
+        {
+          "name": "해남"
         },
-        "stops": [["산정", "해남", "독천", "삼호", "목포"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "독천"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "목포"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808162802401",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
