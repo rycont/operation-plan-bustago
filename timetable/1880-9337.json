@@ -1,74 +1,154 @@
 [
-    {
-        "departureTerminalId": "1880",
-        "arrivalTerminalId": "9337",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 23
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [12800],
-            "초등생": [6400],
-            "중고생": [10200]
-        },
-        "stops": [
-            [
-                "안중",
-                "향남터미널",
-                "우미린2차",
-                "융건릉사거리",
-                "신일해피트리2차",
-                "화성에듀시티파라곤",
-                "봉담중심상가",
-                "봉담국민체육센터",
-                "화성세무서",
-                "인천공항",
-                "인천공항(제2터미널)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1880",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 23
     },
-    {
-        "departureTerminalId": "1880",
-        "arrivalTerminalId": "9337",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 43
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안중"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [12800],
-            "초등생": [6400],
-            "중고생": [10200]
+        {
+          "name": "향남터미널"
         },
-        "stops": [
-            [
-                "안중",
-                "향남터미널",
-                "우미린2차",
-                "융건릉사거리",
-                "신일해피트리2차",
-                "화성에듀시티파라곤",
-                "봉담중심상가",
-                "봉담국민체육센터",
-                "화성세무서",
-                "인천공항",
-                "인천공항(제2터미널)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "우미린2차"
+        },
+        {
+          "name": "융건릉사거리"
+        },
+        {
+          "name": "신일해피트리2차"
+        },
+        {
+          "name": "화성에듀시티파라곤"
+        },
+        {
+          "name": "봉담중심상가"
+        },
+        {
+          "name": "봉담국민체육센터"
+        },
+        {
+          "name": "화성세무서"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101052933704",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1880",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안중"
+        },
+        {
+          "name": "향남터미널"
+        },
+        {
+          "name": "우미린2차"
+        },
+        {
+          "name": "융건릉사거리"
+        },
+        {
+          "name": "신일해피트리2차"
+        },
+        {
+          "name": "화성에듀시티파라곤"
+        },
+        {
+          "name": "봉담중심상가"
+        },
+        {
+          "name": "봉담국민체육센터"
+        },
+        {
+          "name": "화성세무서"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101052933704",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

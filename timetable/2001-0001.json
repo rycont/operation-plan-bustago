@@ -8,17 +8,11 @@
     "operator": [
       "㈜금강고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 8,
       "minute": 0
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         23400
@@ -40,6 +34,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202001000102",
     "pattern": {
       "type": "everyday"
     }
@@ -53,17 +57,11 @@
     "operator": [
       "㈜금강고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 8,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
     "fare": {
       "어른": [
         23400
@@ -85,10 +83,20 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202001000102",
     "pattern": {
       "type": "specific-day",
       "days": [
-        12
+        1
       ]
     }
   }

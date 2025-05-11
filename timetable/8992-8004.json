@@ -1,110 +1,230 @@
 [
-    {
-        "departureTerminalId": "8992",
-        "arrivalTerminalId": "8004",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4600],
-            "초등생": [2300],
-            "중고생": [3700]
-        },
-        "stops": [
-            [
-                "나로도",
-                "백양",
-                "남성(고흥군)",
-                "도화",
-                "포두",
-                "고흥",
-                "과역",
-                "벌교",
-                "순천",
-                "섬진강환승(상행)",
-                "부산서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8992",
+    "arrivalTerminalId": "8004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 50
     },
-    {
-        "departureTerminalId": "8992",
-        "arrivalTerminalId": "8004",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3700],
-            "초등생": [1900],
-            "중고생": [3000]
-        },
-        "stops": [
-            [
-                "나로도",
-                "백양",
-                "남성(고흥군)",
-                "도화",
-                "포두",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4600
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3700
+      ]
     },
-    {
-        "departureTerminalId": "8992",
-        "arrivalTerminalId": "8004",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 40
+    "stops": [
+      [
+        {
+          "name": "나로도"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3700],
-            "초등생": [1900],
-            "중고생": [3000]
+        {
+          "name": "백양"
         },
-        "stops": [
-            [
-                "나로도",
-                "백양",
-                "포두",
-                "고흥",
-                "과역",
-                "벌교",
-                "순천",
-                "여천",
-                "여수"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "남성(고흥군)"
+        },
+        {
+          "name": "도화"
+        },
+        {
+          "name": "포두"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "섬진강환승(상행)"
+        },
+        {
+          "name": "부산서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808008900202",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8992",
+    "arrivalTerminalId": "8004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3700
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나로도"
+        },
+        {
+          "name": "백양"
+        },
+        {
+          "name": "남성(고흥군)"
+        },
+        {
+          "name": "도화"
+        },
+        {
+          "name": "포두"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808008940102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8992",
+    "arrivalTerminalId": "8004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3700
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나로도"
+        },
+        {
+          "name": "백양"
+        },
+        {
+          "name": "포두"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808008804101",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
