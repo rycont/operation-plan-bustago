@@ -1,216 +1,468 @@
 [
-    {
-        "departureTerminalId": "8132",
-        "arrivalTerminalId": "9408",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [8300],
-            "초등생": [4200],
-            "중고생": [6600]
-        },
-        "stops": [["배산", "장평", "소태역", "학동", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8132",
+    "arrivalTerminalId": "9408",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "8132",
-        "arrivalTerminalId": "9408",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [8300],
-            "초등생": [4200],
-            "중고생": [6600]
-        },
-        "stops": [
-            [
-                "배산",
-                "장평",
-                "봉림",
-                "청풍",
-                "능주",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8300
+      ],
+      "초등생": [
+        4200
+      ],
+      "중고생": [
+        6600
+      ]
     },
-    {
-        "departureTerminalId": "8132",
-        "arrivalTerminalId": "9408",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "배산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [8300],
-            "초등생": [4200],
-            "중고생": [6600]
+        {
+          "name": "장평"
         },
-        "stops": [
-            [
-                "배산",
-                "장평",
-                "봉림",
-                "청풍",
-                "능주",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "8132",
-        "arrivalTerminalId": "9408",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [8300],
-            "초등생": [4200],
-            "중고생": [6600]
-        },
-        "stops": [
-            [
-                "배산",
-                "장평",
-                "봉림",
-                "청풍",
-                "능주",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8132",
-        "arrivalTerminalId": "9408",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [8300],
-            "초등생": [4200],
-            "중고생": [6600]
-        },
-        "stops": [["배산", "장평", "소태역", "학동", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8132",
-        "arrivalTerminalId": "9408",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [8300],
-            "초등생": [4200],
-            "중고생": [6600]
-        },
-        "stops": [
-            [
-                "배산",
-                "장평",
-                "봉림",
-                "청풍",
-                "능주",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8132",
-        "arrivalTerminalId": "9408",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [8300],
-            "초등생": [4200],
-            "중고생": [6600]
-        },
-        "stops": [
-            [
-                "배산",
-                "장평",
-                "봉림",
-                "청풍",
-                "능주",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "808132940101",
+    "pattern": {
+      "type": "unknown"
     }
+  },
+  {
+    "departureTerminalId": "8132",
+    "arrivalTerminalId": "9408",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8300
+      ],
+      "초등생": [
+        4200
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "배산"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "봉림"
+        },
+        {
+          "name": "청풍"
+        },
+        {
+          "name": "능주"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808132940102",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "8132",
+    "arrivalTerminalId": "9408",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8300
+      ],
+      "초등생": [
+        4200
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "배산"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "봉림"
+        },
+        {
+          "name": "청풍"
+        },
+        {
+          "name": "능주"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808132940102",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "8132",
+    "arrivalTerminalId": "9408",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8300
+      ],
+      "초등생": [
+        4200
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "배산"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "봉림"
+        },
+        {
+          "name": "청풍"
+        },
+        {
+          "name": "능주"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808132940102",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "8132",
+    "arrivalTerminalId": "9408",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8300
+      ],
+      "초등생": [
+        4200
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "배산"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808132940101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "8132",
+    "arrivalTerminalId": "9408",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8300
+      ],
+      "초등생": [
+        4200
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "배산"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "봉림"
+        },
+        {
+          "name": "청풍"
+        },
+        {
+          "name": "능주"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808132940102",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "8132",
+    "arrivalTerminalId": "9408",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8300
+      ],
+      "초등생": [
+        4200
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "배산"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "봉림"
+        },
+        {
+          "name": "청풍"
+        },
+        {
+          "name": "능주"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808132940102",
+    "pattern": {
+      "type": "unknown"
+    }
+  }
 ]

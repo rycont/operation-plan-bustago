@@ -8,17 +8,11 @@
     "operator": [
       "(유)호남고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 17,
       "minute": 13
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
     "fare": {
       "어른": [
         2600
@@ -30,6 +24,38 @@
         2100
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "논산"
+        },
+        {
+          "name": "전주"
+        },
+        {
+          "name": "황화"
+        },
+        {
+          "name": "여산"
+        },
+        {
+          "name": "금마"
+        },
+        {
+          "name": "삼례"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404023701901",
     "pattern": {
       "type": "everyday"
     }

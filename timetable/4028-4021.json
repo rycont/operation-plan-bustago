@@ -9,30 +9,19 @@
       "㈜충남고속",
       "㈜한양고속"
     ],
-    "busClass": [
-      "시외우등",
-      "일반"
-    ],
     "departureTime": {
       "hour": 12,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28,
-      40
-    ],
     "fare": {
       "어른": [
-        0,
         2500
       ],
       "초등생": [
-        0,
         1300
       ],
       "중고생": [
-        0,
         2000
       ]
     },
@@ -59,7 +48,49 @@
         {
           "name": "운산"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
       ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404028404201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4028",
+    "arrivalTerminalId": "4021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
       [
         {
           "name": "만리포"
@@ -93,6 +124,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404028000411",
     "pattern": {
       "type": "everyday"
     }

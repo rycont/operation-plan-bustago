@@ -1,68 +1,176 @@
 [
-    {
-        "departureTerminalId": "8054",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜광신고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3600],
-            "초등생": [1800],
-            "중고생": [2900]
-        },
-        "stops": [["장성", "장성댐", "신흥", "월산", "고창"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8054",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광신고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "8054",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜광신고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3600],
-            "초등생": [1800],
-            "중고생": [2900]
-        },
-        "stops": [["장성", "장성댐", "신흥", "월산", "고창"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3600
+      ],
+      "초등생": [
+        1800
+      ],
+      "중고생": [
+        2900
+      ]
     },
-    {
-        "departureTerminalId": "8054",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜광신고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 45
+    "stops": [
+      [
+        {
+          "name": "장성"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3600],
-            "초등생": [1800],
-            "중고생": [2900]
+        {
+          "name": "장성댐"
         },
-        "stops": [["장성", "장성댐", "신흥", "월산", "고창"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "신흥"
+        },
+        {
+          "name": "월산"
+        },
+        {
+          "name": "고창"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808054700302",
+    "pattern": {
+      "type": "unknown"
     }
+  },
+  {
+    "departureTerminalId": "8054",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광신고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3600
+      ],
+      "초등생": [
+        1800
+      ],
+      "중고생": [
+        2900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장성"
+        },
+        {
+          "name": "장성댐"
+        },
+        {
+          "name": "신흥"
+        },
+        {
+          "name": "월산"
+        },
+        {
+          "name": "고창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808054700302",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "8054",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광신고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3600
+      ],
+      "초등생": [
+        1800
+      ],
+      "중고생": [
+        2900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장성"
+        },
+        {
+          "name": "장성댐"
+        },
+        {
+          "name": "신흥"
+        },
+        {
+          "name": "월산"
+        },
+        {
+          "name": "고창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808054700302",
+    "pattern": {
+      "type": "unknown"
+    }
+  }
 ]
