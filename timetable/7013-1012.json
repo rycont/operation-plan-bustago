@@ -8,17 +8,11 @@
     "operator": [
       "㈜전북고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 11,
       "minute": 55
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         22800
@@ -30,6 +24,35 @@
         18200
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "군산"
+        },
+        {
+          "name": "대야"
+        },
+        {
+          "name": "익산"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "수원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707006101201",
     "pattern": {
       "type": "everyday"
     }
