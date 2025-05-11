@@ -8,17 +8,11 @@
     "operator": [
       "부산,영화"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         2800
@@ -56,7 +50,48 @@
         {
           "name": "곤양"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
       ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606035900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6035",
+    "arrivalTerminalId": "6030",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2800
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
       [
         {
           "name": "화개공용"
@@ -66,6 +101,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606035603001",
     "pattern": {
       "type": "everyday"
     }

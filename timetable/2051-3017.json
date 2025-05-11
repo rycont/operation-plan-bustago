@@ -8,17 +8,11 @@
     "operator": [
       "강원여객"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 8,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         21400
@@ -43,51 +37,16 @@
         }
       ]
     ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2051",
-    "arrivalTerminalId": "3017",
-    "durationInMinutes": [
-      130
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        21400
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
       ],
-      "초등생": [
-        10700
-      ],
-      "중고생": [
-        17100
+      "busClass": [
+        "시외우등"
       ]
     },
-    "stops": [
-      [
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "충주"
-        }
-      ]
-    ],
+    "routeId": "202051301703",
     "pattern": {
       "type": "everyday"
     }
@@ -101,17 +60,11 @@
     "operator": [
       "강원여객"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 14,
       "minute": 50
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         21400
@@ -136,6 +89,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202051301703",
     "pattern": {
       "type": "everyday"
     }
@@ -149,17 +112,11 @@
     "operator": [
       "(주)경기고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
-      "hour": 18,
-      "minute": 30
+      "hour": 12,
+      "minute": 0
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         21400
@@ -181,6 +138,65 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202051301702",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2051",
+    "arrivalTerminalId": "3017",
+    "durationInMinutes": [
+      130
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21400
+      ],
+      "초등생": [
+        10700
+      ],
+      "중고생": [
+        17100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202051301702",
     "pattern": {
       "type": "everyday"
     }
