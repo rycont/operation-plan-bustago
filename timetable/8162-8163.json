@@ -1,46 +1,106 @@
 [
-    {
-        "departureTerminalId": "8162",
-        "arrivalTerminalId": "8163",
-        "durationInMinutes": [5],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["산정", "송호리", "땅끝"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8162",
+    "arrivalTerminalId": "8163",
+    "durationInMinutes": [
+      5
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "8162",
-        "arrivalTerminalId": "8163",
-        "durationInMinutes": [5],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 20
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "산정"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
+        {
+          "name": "송호리"
         },
-        "stops": [["산정", "송호리", "땅끝"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "땅끝"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808162816401",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8162",
+    "arrivalTerminalId": "8163",
+    "durationInMinutes": [
+      5
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "산정"
+        },
+        {
+          "name": "송호리"
+        },
+        {
+          "name": "땅끝"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808162816401",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

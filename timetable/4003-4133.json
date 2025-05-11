@@ -1,200 +1,500 @@
 [
-    {
-        "departureTerminalId": "4003",
-        "arrivalTerminalId": "4133",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1800]
-        },
-        "stops": [["공주", "이인", "공주KTX", "탄천", "부여"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "4133",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 20
     },
-    {
-        "departureTerminalId": "4003",
-        "arrivalTerminalId": "4133",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1800]
-        },
-        "stops": [["공주", "이인", "탄천", "부여"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
     },
-    {
-        "departureTerminalId": "4003",
-        "arrivalTerminalId": "4133",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 50
+    "stops": [
+      [
+        {
+          "name": "공주"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1800]
+        {
+          "name": "이인"
         },
-        "stops": [["공주", "이인", "탄천", "부여"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "공주KTX"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "4003",
-        "arrivalTerminalId": "4133",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1800]
-        },
-        "stops": [["공주", "이인", "탄천", "부여"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4003",
-        "arrivalTerminalId": "4133",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 38
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1800]
-        },
-        "stops": [["공주", "이인", "탄천", "부여"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4003",
-        "arrivalTerminalId": "4133",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1800]
-        },
-        "stops": [["공주", "이인", "탄천", "부여"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4003",
-        "arrivalTerminalId": "4133",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1800]
-        },
-        "stops": [["공주", "이인", "탄천", "부여"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4003",
-        "arrivalTerminalId": "4133",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1800]
-        },
-        "stops": [["공주", "이인", "탄천", "부여"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "4003",
-        "arrivalTerminalId": "4133",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1800]
-        },
-        "stops": [["공주", "이인", "탄천", "부여"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "404003400805",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "4133",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "공주"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404003400806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "4133",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "공주"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404003400806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "4133",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "공주"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404003400806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "4133",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 38
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "공주"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404003400806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "4133",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "공주"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404003400806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "4133",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "공주"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404003400806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "4133",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "공주"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404003400806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "4133",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "공주"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404003400806",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

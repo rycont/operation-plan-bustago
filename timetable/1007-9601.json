@@ -8,17 +8,11 @@
     "operator": [
       "(주)경기고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 7,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         42100
@@ -30,6 +24,38 @@
         33700
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "서수원"
+        },
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007960106",
     "pattern": {
       "type": "everyday"
     }

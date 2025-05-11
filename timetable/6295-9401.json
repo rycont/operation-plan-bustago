@@ -8,17 +8,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 8,
       "minute": 0
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         25800
@@ -30,44 +24,34 @@
         20600
       ]
     },
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6295",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      210
+    "stops": [
+      [
+        {
+          "name": "김해공항"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
     ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "프리미엄심야우등"
-    ],
-    "departureTime": {
-      "hour": 22,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        40200
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
       ],
-      "초등생": [
-        20100
-      ],
-      "중고생": [
-        32200
+      "busClass": [
+        "시외우등"
       ]
     },
+    "routeId": "606295940103",
     "pattern": {
-      "type": "specific-day",
-      "days": []
+      "type": "everyday"
     }
   }
 ]
