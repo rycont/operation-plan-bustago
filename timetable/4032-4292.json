@@ -1,40 +1,80 @@
 [
-    {
-        "departureTerminalId": "4032",
-        "arrivalTerminalId": "4292",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 30
+  {
+    "departureTerminalId": "4032",
+    "arrivalTerminalId": "4292",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11100],
-            "초등생": [5600],
-            "중고생": [8900]
+        {
+          "name": "어송"
         },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "음암",
-                "운산",
-                "구룡(서산)",
-                "당진",
-                "기지시",
-                "신평",
-                "합덕",
-                "세종시",
-                "유성시외",
-                "대전복합"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡(서산)"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "합덕"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "대전복합"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
