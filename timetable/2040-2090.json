@@ -1,200 +1,461 @@
 [
-    {
-        "departureTerminalId": "2040",
-        "arrivalTerminalId": "2090",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 13
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
-        },
-        "stops": [["평창", "미탄", "백운", "정선"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2040",
+    "arrivalTerminalId": "2090",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 13
     },
-    {
-        "departureTerminalId": "2040",
-        "arrivalTerminalId": "2090",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 56
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
-        },
-        "stops": [["평창", "미탄", "백운", "정선"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
     },
-    {
-        "departureTerminalId": "2040",
-        "arrivalTerminalId": "2090",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 6
+    "stops": [
+      [
+        {
+          "name": "평창"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
+        {
+          "name": "미탄"
         },
-        "stops": [["평창", "미탄", "백운", "정선"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "백운"
+        },
+        {
+          "name": "정선"
         }
-    },
-    {
-        "departureTerminalId": "2040",
-        "arrivalTerminalId": "2090",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 21
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
-        },
-        "stops": [["평창", "미탄", "백운", "정선"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2040",
-        "arrivalTerminalId": "2090",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 46
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
-        },
-        "stops": [["평창", "미탄", "백운", "정선"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2040",
-        "arrivalTerminalId": "2090",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
-        },
-        "stops": [["평창", "미탄", "백운", "정선"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2040",
-        "arrivalTerminalId": "2090",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 6
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
-        },
-        "stops": [["평창", "미탄", "백운", "정선"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2040",
-        "arrivalTerminalId": "2090",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 6
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
-        },
-        "stops": [["평창", "미탄", "백운", "정선"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2040",
-        "arrivalTerminalId": "2090",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 31
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1500]
-        },
-        "stops": [["평창", "미탄", "백운", "정선"]],
-        "pattern": {
-            "type": "everyday"
-        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2040",
+    "arrivalTerminalId": "2090",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 56
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평창"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "정선"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2040",
+    "arrivalTerminalId": "2090",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 6
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평창"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "정선"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2040",
+    "arrivalTerminalId": "2090",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 21
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평창"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "정선"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2040",
+    "arrivalTerminalId": "2090",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 46
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평창"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "정선"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2040",
+    "arrivalTerminalId": "2090",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평창"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "정선"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2040",
+    "arrivalTerminalId": "2090",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 6
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평창"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "정선"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2040",
+    "arrivalTerminalId": "2090",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 6
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평창"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "정선"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2040",
+    "arrivalTerminalId": "2090",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 31
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평창"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "정선"
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
