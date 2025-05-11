@@ -1,236 +1,587 @@
 [
-    {
-        "departureTerminalId": "1286",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 4,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["성남세이브존", "모란", "야탑역", "이매", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
+  {
+    "departureTerminalId": "1286",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 4,
+      "minute": 45
     },
-    {
-        "departureTerminalId": "1286",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["성남세이브존", "모란", "야탑역", "이매", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
     },
-    {
-        "departureTerminalId": "1286",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 5
+    "stops": [
+      [
+        {
+          "name": "성남세이브존"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
+        {
+          "name": "모란"
         },
-        "stops": [
-            ["성남세이브존", "모란", "야탑역", "이매", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
+        {
+          "name": "야탑역"
+        },
+        {
+          "name": "이매"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "1286",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["성남세이브존", "모란", "야탑역", "이매", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
-    },
-    {
-        "departureTerminalId": "1286",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["성남세이브존", "모란", "야탑역", "이매", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
-    },
-    {
-        "departureTerminalId": "1286",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["성남세이브존", "모란", "야탑역", "이매", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
-    },
-    {
-        "departureTerminalId": "1286",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["성남세이브존", "모란", "야탑역", "이매", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
-    },
-    {
-        "departureTerminalId": "1286",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["성남세이브존", "모란", "야탑역", "이매", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
-    },
-    {
-        "departureTerminalId": "1286",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["성남세이브존", "모란", "야탑역", "이매", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
+    "routeId": "101211001001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3
+      ]
     }
+  },
+  {
+    "departureTerminalId": "1286",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남세이브존"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "야탑역"
+        },
+        {
+          "name": "이매"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101211001001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1286",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남세이브존"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "야탑역"
+        },
+        {
+          "name": "이매"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101211001001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1286",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남세이브존"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "야탑역"
+        },
+        {
+          "name": "이매"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101211001001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1286",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남세이브존"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "야탑역"
+        },
+        {
+          "name": "이매"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101211001001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1286",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남세이브존"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "야탑역"
+        },
+        {
+          "name": "이매"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101211001001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1286",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남세이브존"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "야탑역"
+        },
+        {
+          "name": "이매"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101211001001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1286",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남세이브존"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "야탑역"
+        },
+        {
+          "name": "이매"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101211001001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1286",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남세이브존"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "야탑역"
+        },
+        {
+          "name": "이매"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101211001001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3
+      ]
+    }
+  }
 ]
