@@ -1,35 +1,65 @@
 [
-    {
-        "departureTerminalId": "8246",
-        "arrivalTerminalId": "8034",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 45
+  {
+    "departureTerminalId": "8246",
+    "arrivalTerminalId": "8034",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        11400
+      ],
+      "초등생": [
+        5700
+      ],
+      "중고생": [
+        9100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "쏠비치진도"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11400],
-            "초등생": [5700],
-            "중고생": [9100]
+        {
+          "name": "진도"
         },
-        "stops": [
-            [
-                "쏠비치진도",
-                "진도",
-                "녹진",
-                "우수영",
-                "삼호",
-                "남악",
-                "송정역",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "송정역"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

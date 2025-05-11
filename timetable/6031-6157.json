@@ -1,24 +1,56 @@
 [
-    {
-        "departureTerminalId": "6031",
-        "arrivalTerminalId": "6157",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
+  {
+    "departureTerminalId": "6031",
+    "arrivalTerminalId": "6157",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      41
+    ],
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함안"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
+        {
+          "name": "우시장"
         },
-        "stops": [["함안", "우시장", "삼봉", "군북", "진주(남흥)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "삼봉"
+        },
+        {
+          "name": "군북"
+        },
+        {
+          "name": "진주(남흥)"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
