@@ -1,24 +1,56 @@
 [
-    {
-        "departureTerminalId": "7053",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["㈜함양지리산고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 40
+  {
+    "departureTerminalId": "7053",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜함양지리산고속"
+    ],
+    "busClass": [
+      "시외우등"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        35300
+      ],
+      "초등생": [
+        17700
+      ],
+      "중고생": [
+        28200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "노고단(성삼재)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [35300],
-            "초등생": [17700],
-            "중고생": [28200]
+        {
+          "name": "뱀사골"
         },
-        "stops": [["노고단(성삼재)", "뱀사골", "인월", "함양", "동서울"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "인월"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

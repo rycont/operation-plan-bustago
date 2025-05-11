@@ -1,47 +1,101 @@
 [
-    {
-        "departureTerminalId": "1232",
-        "arrivalTerminalId": "4032",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 0
+  {
+    "departureTerminalId": "1232",
+    "arrivalTerminalId": "4032",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "busClass": [
+      "일반"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      40
+    ],
+    "fare": {
+      "어른": [
+        11400
+      ],
+      "초등생": [
+        5700
+      ],
+      "중고생": [
+        8000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안성"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [11400],
-            "초등생": [5700],
-            "중고생": [8000]
+        {
+          "name": "중앙대"
         },
-        "stops": [
-            [
-                "안성",
-                "중앙대",
-                "대림동산",
-                "공도",
-                "풍림아파트(안성)",
-                "천안",
-                "봉강교(서부휴게소)",
-                "아산(온양)",
-                "신창",
-                "신례원",
-                "합덕",
-                "신평",
-                "기지시",
-                "당진",
-                "구룡",
-                "운산",
-                "음암",
-                "서산",
-                "어송",
-                "태안"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "대림동산"
+        },
+        {
+          "name": "공도"
+        },
+        {
+          "name": "풍림아파트(안성)"
+        },
+        {
+          "name": "천안"
+        },
+        {
+          "name": "봉강교(서부휴게소)"
+        },
+        {
+          "name": "아산(온양)"
+        },
+        {
+          "name": "신창"
+        },
+        {
+          "name": "신례원"
+        },
+        {
+          "name": "합덕"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "태안"
         }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
