@@ -1,686 +1,1414 @@
 [
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 42
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 42
     },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 17
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
     },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 5
+    "stops": [
+      [
+        {
+          "name": "녹동"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
+        {
+          "name": "고흥"
         },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 28
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 43
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "나로도",
-                "백양",
-                "남성(고흥군)",
-                "도화",
-                "포두",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 48
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 17
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 43
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜동방고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 13
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 32
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8029",
-        "arrivalTerminalId": "8244",
-        "durationInMinutes": [0],
-        "operator": ["㈜광우고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 21,
-            "minute": 4
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
-        },
-        "stops": [
-            [
-                "녹동",
-                "고흥",
-                "과역",
-                "벌교",
-                "곡천",
-                "화순",
-                "소태역",
-                "학동",
-                "광주(유ㆍ스퀘어)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 17
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940112",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940112",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808011940112",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 28
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나로도"
+        },
+        {
+          "name": "백양"
+        },
+        {
+          "name": "남성(고흥군)"
+        },
+        {
+          "name": "도화"
+        },
+        {
+          "name": "포두"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808008940102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808011940112",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 48
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 17
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808011940112",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940112",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940112",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808011940112",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 13
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 32
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8029",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 4
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
