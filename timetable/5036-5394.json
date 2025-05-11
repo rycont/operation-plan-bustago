@@ -1,68 +1,136 @@
 [
-    {
-        "departureTerminalId": "5036",
-        "arrivalTerminalId": "5394",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [13400],
-            "초등생": [6700],
-            "중고생": [12100]
-        },
-        "stops": [
-            [
-                "고령",
-                "성주",
-                "상주",
-                "점촌",
-                "예천",
-                "예천삼거리",
-                "신도청",
-                "안동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5036",
+    "arrivalTerminalId": "5394",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "5036",
-        "arrivalTerminalId": "5394",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 40
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13400
+      ],
+      "초등생": [
+        6700
+      ],
+      "중고생": [
+        12100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고령"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [13400],
-            "초등생": [6700],
-            "중고생": [12100]
+        {
+          "name": "성주"
         },
-        "stops": [
-            [
-                "고령",
-                "성주",
-                "상주",
-                "점촌",
-                "예천",
-                "예천삼거리",
-                "신도청",
-                "안동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "상주"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "예천삼거리"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505009504301",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5036",
+    "arrivalTerminalId": "5394",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13400
+      ],
+      "초등생": [
+        6700
+      ],
+      "중고생": [
+        12100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고령"
+        },
+        {
+          "name": "성주"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "예천삼거리"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505009504301",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

@@ -1,69 +1,167 @@
 [
-    {
-        "departureTerminalId": "5036",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["경전/동일"],
-        "busClass": ["프리미엄우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [34100],
-            "초등생": [17100],
-            "중고생": [27300]
-        },
-        "stops": [["합천", "고령", "성주", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5036",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전/동일"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "5036",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["경전/동일"],
-        "busClass": ["프리미엄우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [34100],
-            "초등생": [17100],
-            "중고생": [27300]
-        },
-        "stops": [["합천", "고령", "성주", "서울남부"]],
-        "pattern": {
-            "type": "specific-day",
-            "days": []
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        34100
+      ],
+      "초등생": [
+        17100
+      ],
+      "중고생": [
+        27300
+      ]
     },
-    {
-        "departureTerminalId": "5036",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["경전/동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 0
+    "stops": [
+      [
+        {
+          "name": "합천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [27100],
-            "초등생": [13600],
-            "중고생": [21700]
+        {
+          "name": "고령"
         },
-        "stops": [["합천", "고령", "성주", "서울남부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "성주"
+        },
+        {
+          "name": "서울남부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "606033000401",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5036",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전/동일"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27100
+      ],
+      "초등생": [
+        13600
+      ],
+      "중고생": [
+        21700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "합천"
+        },
+        {
+          "name": "고령"
+        },
+        {
+          "name": "성주"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606033000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5036",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전/동일"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        34100
+      ],
+      "초등생": [
+        17100
+      ],
+      "중고생": [
+        27300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "합천"
+        },
+        {
+          "name": "고령"
+        },
+        {
+          "name": "성주"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "606033000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

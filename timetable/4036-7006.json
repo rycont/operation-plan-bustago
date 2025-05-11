@@ -1,46 +1,130 @@
 [
-    {
-        "departureTerminalId": "4036",
-        "arrivalTerminalId": "7006",
-        "durationInMinutes": [110],
-        "operator": ["㈜충남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13200],
-            "초등생": [6600],
-            "중고생": [10600]
-        },
-        "stops": [["태안", "어송", "서산", "해미", "고북", "보령", "군산"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "4036",
+    "arrivalTerminalId": "7006",
+    "durationInMinutes": [
+      110
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "4036",
-        "arrivalTerminalId": "7006",
-        "durationInMinutes": [110],
-        "operator": ["㈜충남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 50
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13200
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        10600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13200],
-            "초등생": [6600],
-            "중고생": [10600]
+        {
+          "name": "어송"
         },
-        "stops": [["태안", "어송", "서산", "해미", "고북", "보령", "군산"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "서산"
+        },
+        {
+          "name": "해미"
+        },
+        {
+          "name": "고북"
+        },
+        {
+          "name": "보령"
+        },
+        {
+          "name": "군산"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021700602",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "4036",
+    "arrivalTerminalId": "7006",
+    "durationInMinutes": [
+      110
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13200
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        10600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "해미"
+        },
+        {
+          "name": "고북"
+        },
+        {
+          "name": "보령"
+        },
+        {
+          "name": "군산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021700602",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
