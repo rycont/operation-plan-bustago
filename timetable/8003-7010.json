@@ -8,17 +8,11 @@
     "operator": [
       "(유)호남고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 9,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         2800
@@ -30,6 +24,29 @@
         2200
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "곡성"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808003703301",
     "pattern": {
       "type": "everyday"
     }
