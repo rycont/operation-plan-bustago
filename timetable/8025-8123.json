@@ -1,24 +1,57 @@
 [
-    {
-        "departureTerminalId": "8025",
-        "arrivalTerminalId": "8123",
-        "durationInMinutes": [18],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 0
+  {
+    "departureTerminalId": "8025",
+    "arrivalTerminalId": "8123",
+    "durationInMinutes": [
+      18
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [1800],
-            "초등생": [900],
-            "중고생": [1400]
+        {
+          "name": "함평"
         },
-        "stops": [["광주(유ㆍ스퀘어)", "함평", "무안", "무안공항"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "무안"
+        },
+        {
+          "name": "무안공항"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401812304",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

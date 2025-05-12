@@ -1,42 +1,90 @@
 [
-    {
-        "departureTerminalId": "8159",
-        "arrivalTerminalId": "8001",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 50
+  {
+    "departureTerminalId": "8159",
+    "arrivalTerminalId": "8001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹진"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
+        {
+          "name": "우수영"
         },
-        "stops": [
-            [
-                "녹진",
-                "우수영",
-                "옥동",
-                "남리",
-                "해남",
-                "강진",
-                "장흥",
-                "배산",
-                "보성",
-                "예당",
-                "조성",
-                "벌교",
-                "순천",
-                "광양",
-                "부산사상"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "옥동"
+        },
+        {
+          "name": "남리"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "부산사상"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808159902101",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

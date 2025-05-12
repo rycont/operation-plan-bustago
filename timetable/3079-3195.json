@@ -1,488 +1,1156 @@
 [
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "충북대병원",
-                "청주",
-                "석소",
-                "서울남부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 25
     },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["속리산", "상판", "보은", "안내", "옥천", "대전복합"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
     },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 25
+    "stops": [
+      [
+        {
+          "name": "속리산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
+        {
+          "name": "상판"
         },
-        "stops": [["속리산", "상판", "보은", "청주", "센트럴시티"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "충북대병원"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "석소"
+        },
+        {
+          "name": "서울남부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "충북대병원",
-                "청주",
-                "석소",
-                "서울남부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "충북대병원",
-                "청주",
-                "안산"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["속리산", "상판", "보은", "안내", "옥천", "대전복합"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["서울고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "충북대병원",
-                "청주",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["속리산", "상판", "보은", "안내", "옥천", "대전복합"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "청주",
-                "신갈영덕",
-                "영통입구",
-                "아주대",
-                "수원터미널"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["속리산", "상판", "보은", "청주", "센트럴시티"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["공통", "새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0, 28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "청주"
-            ],
-            ["속리산", "상판", "보은", "안내", "옥천", "대전복합"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2, 2, 2, 2],
-            "irregularDays": [1, 1, 1, 1]
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["서울고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "미원",
-                "남청주",
-                "충북대병원",
-                "청주",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["서울고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "충북대병원",
-                "청주",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["속리산", "상판", "보은", "안내", "옥천", "대전복합"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "3195",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "청주",
-                "신갈영덕",
-                "영통입구",
-                "아주대",
-                "수원터미널"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "303079000403",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "안내"
+        },
+        {
+          "name": "옥천"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079950301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "센트럴시티"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079000601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "충북대병원"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "석소"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303079000403",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "충북대병원"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079101503",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "안내"
+        },
+        {
+          "name": "옥천"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079950301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "서울고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "충북대병원"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303079000103",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "안내"
+        },
+        {
+          "name": "옥천"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079950301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "신갈영덕"
+        },
+        {
+          "name": "영통입구"
+        },
+        {
+          "name": "아주대"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079101203",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "센트럴시티"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079000601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079301502",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "안내"
+        },
+        {
+          "name": "옥천"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079950301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "서울고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "충북대병원"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303079000104",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079301502",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "서울고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "충북대병원"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303079000103",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "안내"
+        },
+        {
+          "name": "옥천"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079950301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "3195",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "신갈영덕"
+        },
+        {
+          "name": "영통입구"
+        },
+        {
+          "name": "아주대"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079101203",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

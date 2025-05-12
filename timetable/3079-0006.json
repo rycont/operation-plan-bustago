@@ -1,90 +1,228 @@
 [
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "0006",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19900],
-            "초등생": [10000],
-            "중고생": [15900]
-        },
-        "stops": [["속리산", "상판", "보은", "청주", "센트럴시티"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "0006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 25
     },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "0006",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19900],
-            "초등생": [10000],
-            "중고생": [15900]
-        },
-        "stops": [["속리산", "보은", "청주", "센트럴시티"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19900
+      ],
+      "초등생": [
+        10000
+      ],
+      "중고생": [
+        15900
+      ]
     },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "0006",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "속리산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19900],
-            "초등생": [10000],
-            "중고생": [15900]
+        {
+          "name": "상판"
         },
-        "stops": [["속리산", "상판", "보은", "청주", "센트럴시티"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "보은"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "센트럴시티"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "0006",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19900],
-            "초등생": [10000],
-            "중고생": [15900]
-        },
-        "stops": [["속리산", "보은", "청주", "센트럴시티"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "303079000601",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "0006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19900
+      ],
+      "초등생": [
+        10000
+      ],
+      "중고생": [
+        15900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "센트럴시티"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079000603",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "0006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19900
+      ],
+      "초등생": [
+        10000
+      ],
+      "중고생": [
+        15900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "센트럴시티"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079000601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "0006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19900
+      ],
+      "초등생": [
+        10000
+      ],
+      "중고생": [
+        15900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "센트럴시티"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079000603",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

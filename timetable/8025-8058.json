@@ -1,36 +1,72 @@
 [
-    {
-        "departureTerminalId": "8025",
-        "arrivalTerminalId": "8058",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 20
+  {
+    "departureTerminalId": "8025",
+    "arrivalTerminalId": "8058",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
+        {
+          "name": "함평"
         },
-        "stops": [
-            [
-                "광주(유ㆍ스퀘어)",
-                "함평",
-                "무안",
-                "현경",
-                "망운",
-                "해제",
-                "지도",
-                "임자(진리)",
-                "임자(대광)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "무안"
+        },
+        {
+          "name": "현경"
+        },
+        {
+          "name": "망운"
+        },
+        {
+          "name": "해제"
+        },
+        {
+          "name": "지도"
+        },
+        {
+          "name": "임자(진리)"
+        },
+        {
+          "name": "임자(대광)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401846104",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
