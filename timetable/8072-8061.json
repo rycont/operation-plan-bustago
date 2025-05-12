@@ -1,90 +1,228 @@
 [
-    {
-        "departureTerminalId": "8072",
-        "arrivalTerminalId": "8061",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 46
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3100],
-            "초등생": [1600],
-            "중고생": [2500]
-        },
-        "stops": [["현경", "무안", "함평", "우산동(하남)", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8072",
+    "arrivalTerminalId": "8061",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 46
     },
-    {
-        "departureTerminalId": "8072",
-        "arrivalTerminalId": "8061",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 16
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3100],
-            "초등생": [1600],
-            "중고생": [2500]
-        },
-        "stops": [["현경", "무안", "함평", "우산동(하남)", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3100
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2500
+      ]
     },
-    {
-        "departureTerminalId": "8072",
-        "arrivalTerminalId": "8061",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 41
+    "stops": [
+      [
+        {
+          "name": "현경"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3100],
-            "초등생": [1600],
-            "중고생": [2500]
+        {
+          "name": "무안"
         },
-        "stops": [["현경", "무안", "함평", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "함평"
+        },
+        {
+          "name": "우산동(하남)"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "8072",
-        "arrivalTerminalId": "8061",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 41
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3100],
-            "초등생": [1600],
-            "중고생": [2500]
-        },
-        "stops": [["현경", "무안", "함평", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "808072940104",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8072",
+    "arrivalTerminalId": "8061",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 16
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3100
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "현경"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "우산동(하남)"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808072940104",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8072",
+    "arrivalTerminalId": "8061",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 41
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3100
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "현경"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808072940102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8072",
+    "arrivalTerminalId": "8061",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 41
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3100
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "현경"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808072940102",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
