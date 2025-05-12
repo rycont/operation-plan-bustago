@@ -1,46 +1,118 @@
 [
-    {
-        "departureTerminalId": "3065",
-        "arrivalTerminalId": "1245",
-        "durationInMinutes": [0],
-        "operator": ["경일여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
-        },
-        "stops": [["진천", "충북혁신도시", "대소", "죽전", "서울남부"]],
-        "pattern": {
-            "type": "unknown"
-        }
+  {
+    "departureTerminalId": "3065",
+    "arrivalTerminalId": "1245",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
     },
-    {
-        "departureTerminalId": "3065",
-        "arrivalTerminalId": "1245",
-        "durationInMinutes": [0],
-        "operator": ["경일여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 20
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
+        {
+          "name": "충북혁신도시"
         },
-        "stops": [["진천", "충북혁신도시", "대소", "죽전", "서울남부"]],
-        "pattern": {
-            "type": "unknown"
+        {
+          "name": "대소"
+        },
+        {
+          "name": "죽전"
+        },
+        {
+          "name": "서울남부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303014000405",
+    "pattern": {
+      "type": "unknown"
     }
+  },
+  {
+    "departureTerminalId": "3065",
+    "arrivalTerminalId": "1245",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진천"
+        },
+        {
+          "name": "충북혁신도시"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "죽전"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303014000405",
+    "pattern": {
+      "type": "unknown"
+    }
+  }
 ]
