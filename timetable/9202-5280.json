@@ -1,72 +1,185 @@
 [
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5280",
-        "durationInMinutes": [92],
-        "operator": ["경북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [10500],
-            "초등생": [5300],
-            "중고생": [9500]
-        },
-        "stops": [
-            ["대구북부", "서대구역", "꽃동산", "영주", "봉화", "법전", "춘양"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5280",
+    "durationInMinutes": [
+      92
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5280",
-        "durationInMinutes": [92],
-        "operator": ["경북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [10500],
-            "초등생": [5300],
-            "중고생": [9500]
-        },
-        "stops": [
-            ["대구북부", "서대구역", "꽃동산", "영주", "봉화", "법전", "춘양"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10500
+      ],
+      "초등생": [
+        5300
+      ],
+      "중고생": [
+        9500
+      ]
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5280",
-        "durationInMinutes": [92],
-        "operator": ["경북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "대구북부"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [10500],
-            "초등생": [5300],
-            "중고생": [9500]
+        {
+          "name": "서대구역"
         },
-        "stops": [["대구북부", "서대구역", "꽃동산", "영주"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "꽃동산"
+        },
+        {
+          "name": "영주"
+        },
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "법전"
+        },
+        {
+          "name": "춘양"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202506702",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5280",
+    "durationInMinutes": [
+      92
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10500
+      ],
+      "초등생": [
+        5300
+      ],
+      "중고생": [
+        9500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "꽃동산"
+        },
+        {
+          "name": "영주"
+        },
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "법전"
+        },
+        {
+          "name": "춘양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202506702",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5280",
+    "durationInMinutes": [
+      92
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10500
+      ],
+      "초등생": [
+        5300
+      ],
+      "중고생": [
+        9500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "꽃동산"
+        },
+        {
+          "name": "영주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202504602",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

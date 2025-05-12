@@ -1,112 +1,292 @@
 [
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2019",
-        "durationInMinutes": [300],
-        "operator": ["경북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [42700],
-            "초등생": [21400],
-            "중고생": [34200]
-        },
-        "stops": [["대구북부", "강릉", "양양", "낙산", "속초"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2019",
-        "durationInMinutes": [300],
-        "operator": ["경북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [42700],
-            "초등생": [21400],
-            "중고생": [34200]
-        },
-        "stops": [["대구북부", "강릉", "양양", "낙산", "속초"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42700
+      ],
+      "초등생": [
+        21400
+      ],
+      "중고생": [
+        34200
+      ]
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2019",
-        "durationInMinutes": [300],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "대구북부"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [42700],
-            "초등생": [21400],
-            "중고생": [34200]
+        {
+          "name": "강릉"
         },
-        "stops": [["대구북부", "강릉", "양양", "낙산", "속초"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "양양"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "속초"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2019",
-        "durationInMinutes": [300],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [42700],
-            "초등생": [21400],
-            "중고생": [34200]
-        },
-        "stops": [["대구북부", "강릉", "양양", "낙산", "속초"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2019",
-        "durationInMinutes": [300],
-        "operator": ["경북고속"],
-        "busClass": ["심야우등1"],
-        "departureTime": {
-            "hour": 22,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [51200],
-            "초등생": [25600],
-            "중고생": [41000]
-        },
-        "stops": [["대구북부", "강릉", "양양", "낙산", "속초"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "929202201902",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42700
+      ],
+      "초등생": [
+        21400
+      ],
+      "중고생": [
+        34200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202201902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42700
+      ],
+      "초등생": [
+        21400
+      ],
+      "중고생": [
+        34200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202201902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42700
+      ],
+      "초등생": [
+        21400
+      ],
+      "중고생": [
+        34200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202201902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        51200
+      ],
+      "초등생": [
+        25600
+      ],
+      "중고생": [
+        41000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "929202201902",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

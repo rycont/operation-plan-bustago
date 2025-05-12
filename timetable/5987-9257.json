@@ -1,98 +1,234 @@
 [
-    {
-        "departureTerminalId": "5987",
-        "arrivalTerminalId": "9257",
-        "durationInMinutes": [0],
-        "operator": ["구미공항리무진"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [10000],
-            "초등생": [6000],
-            "중고생": [10000]
-        },
-        "stops": [
-            ["김천부곡(공항)", "구미", "구미공단", "구미주공", "대구공항"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5987",
+    "arrivalTerminalId": "9257",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "구미공항리무진"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 50
     },
-    {
-        "departureTerminalId": "5987",
-        "arrivalTerminalId": "9257",
-        "durationInMinutes": [0],
-        "operator": ["구미공항리무진"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [10000],
-            "초등생": [6000],
-            "중고생": [10000]
-        },
-        "stops": [
-            ["김천부곡(공항)", "구미", "구미공단", "구미주공", "대구공항"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10000
+      ],
+      "초등생": [
+        6000
+      ],
+      "중고생": [
+        10000
+      ]
     },
-    {
-        "departureTerminalId": "5987",
-        "arrivalTerminalId": "9257",
-        "durationInMinutes": [0],
-        "operator": ["구미공항리무진"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "김천부곡(공항)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [10000],
-            "초등생": [6000],
-            "중고생": [10000]
+        {
+          "name": "구미"
         },
-        "stops": [
-            ["김천부곡(공항)", "구미", "구미공단", "구미주공", "대구공항"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "대구공항"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "5987",
-        "arrivalTerminalId": "9257",
-        "durationInMinutes": [0],
-        "operator": ["구미공항리무진"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [10000],
-            "초등생": [6000],
-            "중고생": [10000]
-        },
-        "stops": [
-            ["김천부곡(공항)", "구미", "구미공단", "구미주공", "대구공항"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "505987925701",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5987",
+    "arrivalTerminalId": "9257",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "구미공항리무진"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10000
+      ],
+      "초등생": [
+        6000
+      ],
+      "중고생": [
+        10000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "김천부곡(공항)"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "대구공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505987925701",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5987",
+    "arrivalTerminalId": "9257",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "구미공항리무진"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10000
+      ],
+      "초등생": [
+        6000
+      ],
+      "중고생": [
+        10000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "김천부곡(공항)"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "대구공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505987925701",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5987",
+    "arrivalTerminalId": "9257",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "구미공항리무진"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10000
+      ],
+      "초등생": [
+        6000
+      ],
+      "중고생": [
+        10000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "김천부곡(공항)"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "대구공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505987925701",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
