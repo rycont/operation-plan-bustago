@@ -1,46 +1,118 @@
 [
-    {
-        "departureTerminalId": "6919",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [20200],
-            "초등생": [10100],
-            "중고생": [16200]
-        },
-        "stops": [["삼천포", "항공청(경전)", "사천", "합천", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6919",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 15
     },
-    {
-        "departureTerminalId": "6919",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 35
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20200
+      ],
+      "초등생": [
+        10100
+      ],
+      "중고생": [
+        16200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [20200],
-            "초등생": [10100],
-            "중고생": [16200]
+        {
+          "name": "항공청(경전)"
         },
-        "stops": [["삼천포", "항공청(경전)", "사천", "합천", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "사천"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606016920405",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6919",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20200
+      ],
+      "초등생": [
+        10100
+      ],
+      "중고생": [
+        16200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "항공청(경전)"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606016920405",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

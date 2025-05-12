@@ -1,134 +1,317 @@
 [
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [240],
-        "operator": ["㈜아성고속", "㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [33400],
-            "초등생": [16700],
-            "중고생": [23400]
-        },
-        "stops": [["포항", "경주", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "㈜아성고속",
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [240],
-        "operator": ["㈜아성고속", "㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [33400],
-            "초등생": [16700],
-            "중고생": [23400]
-        },
-        "stops": [["포항", "경주", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33400
+      ],
+      "초등생": [
+        16700
+      ],
+      "중고생": [
+        23400
+      ]
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [240],
-        "operator": ["㈜아성고속", "㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "포항"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [33400],
-            "초등생": [16700],
-            "중고생": [23400]
+        {
+          "name": "경주"
         },
-        "stops": [["포항", "경주", "동서울"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [240],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [33400],
-            "초등생": [16700],
-            "중고생": [23400]
-        },
-        "stops": [["포항", "경주", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [240],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [33400],
-            "초등생": [16700],
-            "중고생": [23400]
-        },
-        "stops": [["포항", "경주", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [240],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [33400],
-            "초등생": [16700],
-            "중고생": [23400]
-        },
-        "stops": [["포항", "경주", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "505071000102",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "㈜아성고속",
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33400
+      ],
+      "초등생": [
+        16700
+      ],
+      "중고생": [
+        23400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071000102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "㈜아성고속",
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33400
+      ],
+      "초등생": [
+        16700
+      ],
+      "중고생": [
+        23400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071000102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33400
+      ],
+      "초등생": [
+        16700
+      ],
+      "중고생": [
+        23400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071000102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33400
+      ],
+      "초등생": [
+        16700
+      ],
+      "중고생": [
+        23400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071000102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33400
+      ],
+      "초등생": [
+        16700
+      ],
+      "중고생": [
+        23400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071000102",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
