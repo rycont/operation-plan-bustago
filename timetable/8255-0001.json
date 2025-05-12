@@ -3,22 +3,17 @@
     "departureTerminalId": "8255",
     "arrivalTerminalId": "0001",
     "durationInMinutes": [
-      250
+      250,
+      260
     ],
     "operator": [
       "㈜함양지리산고속"
-    ],
-    "busClass": [
-      "시외우등"
     ],
     "departureTime": {
       "hour": 17,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         38000
@@ -49,6 +44,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808255000102",
     "pattern": {
       "type": "everyday"
     }
