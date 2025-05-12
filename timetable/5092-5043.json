@@ -8,17 +8,11 @@
     "operator": [
       "진안고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 7,
       "minute": 5
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -46,6 +40,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -59,17 +63,11 @@
     "operator": [
       "진안고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 7,
       "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         3000
@@ -97,6 +95,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505046900105",
     "pattern": {
       "type": "everyday"
     }
@@ -110,17 +118,11 @@
     "operator": [
       "진안고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 7,
       "minute": 55
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -148,6 +150,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -159,47 +171,25 @@
       0
     ],
     "operator": [
-      "경북고속",
-      "대성티앤이"
-    ],
-    "busClass": [
-      "일반"
+      "경북고속"
     ],
     "departureTime": {
       "hour": 8,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0,
-      41
-    ],
     "fare": {
       "어른": [
-        2300,
         3000
       ],
       "초등생": [
-        1200,
         1500
       ],
       "중고생": [
-        1800,
         2400
       ]
     },
     "stops": [
-      [
-        {
-          "name": "옹천"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "부산동부"
-        }
-      ],
       [
         {
           "name": "춘양"
@@ -239,6 +229,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505067920204",
     "pattern": {
       "type": "everyday"
     }
@@ -252,17 +252,63 @@
     "operator": [
       "대성티앤이"
     ],
-    "busClass": [
-      "일반"
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "옹천"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092900101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5092",
+    "arrivalTerminalId": "5043",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성티앤이"
     ],
     "departureTime": {
       "hour": 9,
       "minute": 15
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         2300
@@ -287,6 +333,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092900101",
     "pattern": {
       "type": "everyday"
     }
@@ -300,17 +356,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 9,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -338,6 +388,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -346,26 +406,74 @@
     "departureTerminalId": "5092",
     "arrivalTerminalId": "5043",
     "durationInMinutes": [
-      0,
       30
     ],
     "operator": [
-      "경북고속",
       "대성티앤이"
-    ],
-    "busClass": [
-      "시외우등",
-      "일반"
     ],
     "departureTime": {
       "hour": 9,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0,
-      28
+    "fare": {
+      "어른": [
+        3000
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "제천"
+        },
+        {
+          "name": "영주"
+        },
+        {
+          "name": "옹천"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303011900104",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5092",
+    "arrivalTerminalId": "5043",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
     "fare": {
       "어른": [
         3000
@@ -388,25 +496,18 @@
         {
           "name": "대구북부"
         }
-      ],
-      [
-        {
-          "name": "제천"
-        },
-        {
-          "name": "영주"
-        },
-        {
-          "name": "옹천"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "부산동부"
-        }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920202",
     "pattern": {
       "type": "everyday"
     }
@@ -419,20 +520,12 @@
     ],
     "operator": [
       "경북고속"
-    ],
-    "busClass": [
-      "시외우등",
-      "일반"
     ],
     "departureTime": {
       "hour": 10,
       "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0,
-      28
-    ],
     "fare": {
       "어른": [
         3000
@@ -458,22 +551,18 @@
         {
           "name": "부산동부"
         }
-      ],
-      [
-        {
-          "name": "옹천"
-        },
-        {
-          "name": "안기동"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "대구북부"
-        }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505046900105",
     "pattern": {
       "type": "everyday"
     }
@@ -487,17 +576,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
-      "hour": 11,
-      "minute": 25
+      "hour": 10,
+      "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -525,6 +608,71 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5092",
+    "arrivalTerminalId": "5043",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3000
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "옹천"
+        },
+        {
+          "name": "안기동"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "대구북부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -538,17 +686,11 @@
     "operator": [
       "진안고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 11,
       "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         3000
@@ -576,6 +718,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505046900105",
     "pattern": {
       "type": "everyday"
     }
@@ -589,17 +741,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 12,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -627,6 +773,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -640,17 +796,11 @@
     "operator": [
       "대성티앤이"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 12,
       "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         2300
@@ -675,6 +825,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092900101",
     "pattern": {
       "type": "everyday"
     }
@@ -687,18 +847,12 @@
     ],
     "operator": [
       "대성티앤이"
-    ],
-    "busClass": [
-      "시외우등"
     ],
     "departureTime": {
       "hour": 12,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         3000
@@ -729,6 +883,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303011900104",
     "pattern": {
       "type": "everyday"
     }
@@ -742,17 +906,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 14,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -780,6 +938,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -793,17 +961,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 14,
       "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         3000
@@ -831,6 +993,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505046900105",
     "pattern": {
       "type": "everyday"
     }
@@ -843,18 +1015,12 @@
     ],
     "operator": [
       "경북고속"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 14,
       "minute": 50
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -882,6 +1048,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -895,17 +1071,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 15,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -933,6 +1103,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -946,17 +1126,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 15,
       "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         3000
@@ -987,6 +1161,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303011900104",
     "pattern": {
       "type": "everyday"
     }
@@ -1000,17 +1184,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 16,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -1038,6 +1216,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -1051,17 +1239,11 @@
     "operator": [
       "진안고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 16,
       "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         3000
@@ -1089,6 +1271,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505046900105",
     "pattern": {
       "type": "everyday"
     }
@@ -1102,17 +1294,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 16,
       "minute": 55
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -1140,6 +1326,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -1153,17 +1349,11 @@
     "operator": [
       "대성티앤이"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 18,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         2300
@@ -1188,6 +1378,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092900101",
     "pattern": {
       "type": "everyday"
     }
@@ -1200,18 +1400,12 @@
     ],
     "operator": [
       "경북고속"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 19,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -1239,6 +1433,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -1251,18 +1455,12 @@
     ],
     "operator": [
       "경북고속"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 19,
       "minute": 55
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -1290,6 +1488,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -1303,17 +1511,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 20,
       "minute": 5
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         3000
@@ -1341,6 +1543,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505046900105",
     "pattern": {
       "type": "everyday"
     }
@@ -1354,17 +1566,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 20,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -1392,6 +1598,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
@@ -1405,17 +1621,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 21,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
     "fare": {
       "어른": [
         3000
@@ -1485,6 +1695,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202039920208",
     "pattern": {
       "type": "everyday"
     }
@@ -1498,17 +1718,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 21,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -1536,6 +1750,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505092920201",
     "pattern": {
       "type": "everyday"
     }
