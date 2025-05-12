@@ -1,68 +1,170 @@
 [
-    {
-        "departureTerminalId": "5079",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [0],
-        "operator": ["경북고속", "금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 38
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [24200],
-            "초등생": [12100],
-            "중고생": [19400]
-        },
-        "stops": [["구미", "구미공단", "구미주공", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5079",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속",
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 38
     },
-    {
-        "departureTerminalId": "5079",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [0],
-        "operator": ["경북고속", "금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 8
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [24200],
-            "초등생": [12100],
-            "중고생": [19400]
-        },
-        "stops": [["구미", "구미공단", "구미주공", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24200
+      ],
+      "초등생": [
+        12100
+      ],
+      "중고생": [
+        19400
+      ]
     },
-    {
-        "departureTerminalId": "5079",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [0],
-        "operator": ["경북고속", "금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 38
+    "stops": [
+      [
+        {
+          "name": "구미"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [24200],
-            "초등생": [12100],
-            "중고생": [19400]
+        {
+          "name": "구미공단"
         },
-        "stops": [["구미", "구미공단", "구미주공", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505011940101",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5079",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속",
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 8
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24200
+      ],
+      "초등생": [
+        12100
+      ],
+      "중고생": [
+        19400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구미"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505011940101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5079",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속",
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 38
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24200
+      ],
+      "초등생": [
+        12100
+      ],
+      "중고생": [
+        19400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구미"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505011940101",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
