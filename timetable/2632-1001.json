@@ -1,402 +1,946 @@
 [
-    {
-        "departureTerminalId": "2632",
-        "arrivalTerminalId": "1001",
-        "durationInMinutes": [0],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 53
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [7400],
-            "초등생": [3700],
-            "중고생": [5900]
-        },
-        "stops": [
-            [
-                "화천",
-                "원천(시외)",
-                "달거리",
-                "서오지리",
-                "어리고개",
-                "현지사",
-                "지촌",
-                "사북면사",
-                "신포중학교",
-                "상호아파트",
-                "원평리",
-                "현대아파트",
-                "두미르아파트",
-                "소양로배터",
-                "춘천역",
-                "춘천",
-                "강촌",
-                "당림리",
-                "안보리",
-                "서천1리",
-                "서천2리",
-                "가평",
-                "청평",
-                "대성리",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2632",
+    "arrivalTerminalId": "1001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 53
     },
-    {
-        "departureTerminalId": "2632",
-        "arrivalTerminalId": "1001",
-        "durationInMinutes": [0],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 23
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [7400],
-            "초등생": [3700],
-            "중고생": [5900]
-        },
-        "stops": [
-            [
-                "화천",
-                "원천(시외)",
-                "달거리",
-                "서오지리",
-                "어리고개",
-                "현지사",
-                "지촌",
-                "사북면사",
-                "신포중학교",
-                "상호아파트",
-                "원평리",
-                "현대아파트",
-                "두미르아파트",
-                "소양로배터",
-                "춘천역",
-                "춘천",
-                "강촌",
-                "당림리",
-                "안보리",
-                "서천1리",
-                "서천2리",
-                "가평",
-                "청평",
-                "대성리",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
     },
-    {
-        "departureTerminalId": "2632",
-        "arrivalTerminalId": "1001",
-        "durationInMinutes": [0],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 23
+    "stops": [
+      [
+        {
+          "name": "화천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [7400],
-            "초등생": [3700],
-            "중고생": [5900]
+        {
+          "name": "원천(시외)"
         },
-        "stops": [
-            [
-                "화천",
-                "원천(시외)",
-                "달거리",
-                "서오지리",
-                "어리고개",
-                "현지사",
-                "지촌",
-                "사북면사",
-                "신포중학교",
-                "상호아파트",
-                "원평리",
-                "현대아파트",
-                "두미르아파트",
-                "소양로배터",
-                "춘천역",
-                "춘천",
-                "강촌",
-                "당림리",
-                "안보리",
-                "서천1리",
-                "서천2리",
-                "가평",
-                "청평",
-                "대성리",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "달거리"
+        },
+        {
+          "name": "서오지리"
+        },
+        {
+          "name": "어리고개"
+        },
+        {
+          "name": "현지사"
+        },
+        {
+          "name": "지촌"
+        },
+        {
+          "name": "사북면사"
+        },
+        {
+          "name": "신포중학교"
+        },
+        {
+          "name": "상호아파트"
+        },
+        {
+          "name": "원평리"
+        },
+        {
+          "name": "현대아파트"
+        },
+        {
+          "name": "두미르아파트"
+        },
+        {
+          "name": "소양로배터"
+        },
+        {
+          "name": "춘천역"
+        },
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "당림리"
+        },
+        {
+          "name": "안보리"
+        },
+        {
+          "name": "서천1리"
+        },
+        {
+          "name": "서천2리"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "2632",
-        "arrivalTerminalId": "1001",
-        "durationInMinutes": [0],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 23
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [7400],
-            "초등생": [3700],
-            "중고생": [5900]
-        },
-        "stops": [
-            [
-                "화천",
-                "원천(시외)",
-                "달거리",
-                "서오지리",
-                "어리고개",
-                "현지사",
-                "지촌",
-                "사북면사",
-                "신포중학교",
-                "상호아파트",
-                "원평리",
-                "현대아파트",
-                "두미르아파트",
-                "소양로배터",
-                "춘천역",
-                "춘천",
-                "강촌",
-                "당림리",
-                "안보리",
-                "서천1리",
-                "서천2리",
-                "가평",
-                "청평",
-                "대성리",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2632",
-        "arrivalTerminalId": "1001",
-        "durationInMinutes": [0],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 23
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [7400],
-            "초등생": [3700],
-            "중고생": [5900]
-        },
-        "stops": [
-            [
-                "화천",
-                "원천(시외)",
-                "달거리",
-                "서오지리",
-                "어리고개",
-                "현지사",
-                "지촌",
-                "사북면사",
-                "신포중학교",
-                "상호아파트",
-                "원평리",
-                "현대아파트",
-                "두미르아파트",
-                "소양로배터",
-                "춘천역",
-                "춘천",
-                "강촌",
-                "당림리",
-                "안보리",
-                "서천1리",
-                "서천2리",
-                "가평",
-                "청평",
-                "대성리",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2632",
-        "arrivalTerminalId": "1001",
-        "durationInMinutes": [0],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 23
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [7400],
-            "초등생": [3700],
-            "중고생": [5900]
-        },
-        "stops": [
-            [
-                "화천",
-                "원천(시외)",
-                "달거리",
-                "서오지리",
-                "어리고개",
-                "현지사",
-                "지촌",
-                "사북면사",
-                "신포중학교",
-                "상호아파트",
-                "원평리",
-                "현대아파트",
-                "두미르아파트",
-                "소양로배터",
-                "춘천역",
-                "춘천",
-                "강촌",
-                "당림리",
-                "안보리",
-                "서천1리",
-                "서천2리",
-                "가평",
-                "청평",
-                "대성리",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2632",
-        "arrivalTerminalId": "1001",
-        "durationInMinutes": [0],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 33
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [7400],
-            "초등생": [3700],
-            "중고생": [5900]
-        },
-        "stops": [
-            [
-                "화천",
-                "원천(시외)",
-                "달거리",
-                "서오지리",
-                "어리고개",
-                "현지사",
-                "지촌",
-                "사북면사",
-                "신포중학교",
-                "상호아파트",
-                "원평리",
-                "현대아파트",
-                "두미르아파트",
-                "소양로배터",
-                "춘천역",
-                "춘천",
-                "강촌",
-                "당림리",
-                "안보리",
-                "서천1리",
-                "서천2리",
-                "가평",
-                "청평",
-                "대성리",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2632",
-        "arrivalTerminalId": "1001",
-        "durationInMinutes": [0],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 43
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [7400],
-            "초등생": [3700],
-            "중고생": [5900]
-        },
-        "stops": [
-            [
-                "화천",
-                "원천(시외)",
-                "달거리",
-                "서오지리",
-                "어리고개",
-                "현지사",
-                "지촌",
-                "사북면사",
-                "신포중학교",
-                "상호아파트",
-                "원평리",
-                "현대아파트",
-                "두미르아파트",
-                "소양로배터",
-                "춘천역",
-                "춘천",
-                "강촌",
-                "당림리",
-                "안보리",
-                "서천1리",
-                "서천2리",
-                "가평",
-                "청평",
-                "대성리",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "202045000108",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2632",
+    "arrivalTerminalId": "1001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 23
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "화천"
+        },
+        {
+          "name": "원천(시외)"
+        },
+        {
+          "name": "달거리"
+        },
+        {
+          "name": "서오지리"
+        },
+        {
+          "name": "어리고개"
+        },
+        {
+          "name": "현지사"
+        },
+        {
+          "name": "지촌"
+        },
+        {
+          "name": "사북면사"
+        },
+        {
+          "name": "신포중학교"
+        },
+        {
+          "name": "상호아파트"
+        },
+        {
+          "name": "원평리"
+        },
+        {
+          "name": "현대아파트"
+        },
+        {
+          "name": "두미르아파트"
+        },
+        {
+          "name": "소양로배터"
+        },
+        {
+          "name": "춘천역"
+        },
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "당림리"
+        },
+        {
+          "name": "안보리"
+        },
+        {
+          "name": "서천1리"
+        },
+        {
+          "name": "서천2리"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202045000108",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2632",
+    "arrivalTerminalId": "1001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 23
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "화천"
+        },
+        {
+          "name": "원천(시외)"
+        },
+        {
+          "name": "달거리"
+        },
+        {
+          "name": "서오지리"
+        },
+        {
+          "name": "어리고개"
+        },
+        {
+          "name": "현지사"
+        },
+        {
+          "name": "지촌"
+        },
+        {
+          "name": "사북면사"
+        },
+        {
+          "name": "신포중학교"
+        },
+        {
+          "name": "상호아파트"
+        },
+        {
+          "name": "원평리"
+        },
+        {
+          "name": "현대아파트"
+        },
+        {
+          "name": "두미르아파트"
+        },
+        {
+          "name": "소양로배터"
+        },
+        {
+          "name": "춘천역"
+        },
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "당림리"
+        },
+        {
+          "name": "안보리"
+        },
+        {
+          "name": "서천1리"
+        },
+        {
+          "name": "서천2리"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202045000108",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2632",
+    "arrivalTerminalId": "1001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 23
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "화천"
+        },
+        {
+          "name": "원천(시외)"
+        },
+        {
+          "name": "달거리"
+        },
+        {
+          "name": "서오지리"
+        },
+        {
+          "name": "어리고개"
+        },
+        {
+          "name": "현지사"
+        },
+        {
+          "name": "지촌"
+        },
+        {
+          "name": "사북면사"
+        },
+        {
+          "name": "신포중학교"
+        },
+        {
+          "name": "상호아파트"
+        },
+        {
+          "name": "원평리"
+        },
+        {
+          "name": "현대아파트"
+        },
+        {
+          "name": "두미르아파트"
+        },
+        {
+          "name": "소양로배터"
+        },
+        {
+          "name": "춘천역"
+        },
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "당림리"
+        },
+        {
+          "name": "안보리"
+        },
+        {
+          "name": "서천1리"
+        },
+        {
+          "name": "서천2리"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202045000108",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2632",
+    "arrivalTerminalId": "1001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 23
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "화천"
+        },
+        {
+          "name": "원천(시외)"
+        },
+        {
+          "name": "달거리"
+        },
+        {
+          "name": "서오지리"
+        },
+        {
+          "name": "어리고개"
+        },
+        {
+          "name": "현지사"
+        },
+        {
+          "name": "지촌"
+        },
+        {
+          "name": "사북면사"
+        },
+        {
+          "name": "신포중학교"
+        },
+        {
+          "name": "상호아파트"
+        },
+        {
+          "name": "원평리"
+        },
+        {
+          "name": "현대아파트"
+        },
+        {
+          "name": "두미르아파트"
+        },
+        {
+          "name": "소양로배터"
+        },
+        {
+          "name": "춘천역"
+        },
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "당림리"
+        },
+        {
+          "name": "안보리"
+        },
+        {
+          "name": "서천1리"
+        },
+        {
+          "name": "서천2리"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202045000108",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2632",
+    "arrivalTerminalId": "1001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 23
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "화천"
+        },
+        {
+          "name": "원천(시외)"
+        },
+        {
+          "name": "달거리"
+        },
+        {
+          "name": "서오지리"
+        },
+        {
+          "name": "어리고개"
+        },
+        {
+          "name": "현지사"
+        },
+        {
+          "name": "지촌"
+        },
+        {
+          "name": "사북면사"
+        },
+        {
+          "name": "신포중학교"
+        },
+        {
+          "name": "상호아파트"
+        },
+        {
+          "name": "원평리"
+        },
+        {
+          "name": "현대아파트"
+        },
+        {
+          "name": "두미르아파트"
+        },
+        {
+          "name": "소양로배터"
+        },
+        {
+          "name": "춘천역"
+        },
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "당림리"
+        },
+        {
+          "name": "안보리"
+        },
+        {
+          "name": "서천1리"
+        },
+        {
+          "name": "서천2리"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202045000108",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2632",
+    "arrivalTerminalId": "1001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 33
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "화천"
+        },
+        {
+          "name": "원천(시외)"
+        },
+        {
+          "name": "달거리"
+        },
+        {
+          "name": "서오지리"
+        },
+        {
+          "name": "어리고개"
+        },
+        {
+          "name": "현지사"
+        },
+        {
+          "name": "지촌"
+        },
+        {
+          "name": "사북면사"
+        },
+        {
+          "name": "신포중학교"
+        },
+        {
+          "name": "상호아파트"
+        },
+        {
+          "name": "원평리"
+        },
+        {
+          "name": "현대아파트"
+        },
+        {
+          "name": "두미르아파트"
+        },
+        {
+          "name": "소양로배터"
+        },
+        {
+          "name": "춘천역"
+        },
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "당림리"
+        },
+        {
+          "name": "안보리"
+        },
+        {
+          "name": "서천1리"
+        },
+        {
+          "name": "서천2리"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202045000108",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2632",
+    "arrivalTerminalId": "1001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "화천"
+        },
+        {
+          "name": "원천(시외)"
+        },
+        {
+          "name": "달거리"
+        },
+        {
+          "name": "서오지리"
+        },
+        {
+          "name": "어리고개"
+        },
+        {
+          "name": "현지사"
+        },
+        {
+          "name": "지촌"
+        },
+        {
+          "name": "사북면사"
+        },
+        {
+          "name": "신포중학교"
+        },
+        {
+          "name": "상호아파트"
+        },
+        {
+          "name": "원평리"
+        },
+        {
+          "name": "현대아파트"
+        },
+        {
+          "name": "두미르아파트"
+        },
+        {
+          "name": "소양로배터"
+        },
+        {
+          "name": "춘천역"
+        },
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "당림리"
+        },
+        {
+          "name": "안보리"
+        },
+        {
+          "name": "서천1리"
+        },
+        {
+          "name": "서천2리"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202045000108",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
