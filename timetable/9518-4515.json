@@ -1,26 +1,100 @@
 [
-    {
-        "departureTerminalId": "9518",
-        "arrivalTerminalId": "4515",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["시외우등", "일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4515",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19000
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        15200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [14600, 19000],
-            "초등생": [7300, 9500],
-            "중고생": [11700, 15200]
-        },
-        "stops": [["관저정류소", "보령(도마)"]],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2, 2, 2, 2],
-            "irregularDays": [1, 1, 1, 1]
+        {
+          "name": "보령(도마)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959518451502",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4515",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14600
+      ],
+      "초등생": [
+        7300
+      ],
+      "중고생": [
+        11700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "보령(도마)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959518451501",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

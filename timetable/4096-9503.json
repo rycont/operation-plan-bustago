@@ -1,60 +1,136 @@
 [
-    {
-        "departureTerminalId": "4096",
-        "arrivalTerminalId": "9503",
-        "durationInMinutes": [70],
-        "operator": ["㈜충남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [10600],
-            "초등생": [5300],
-            "중고생": [8500]
-        },
-        "stops": [["홍성", "내포", "예산", "신양", "대전복합"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "4096",
+    "arrivalTerminalId": "9503",
+    "durationInMinutes": [
+      70
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 20
     },
-    {
-        "departureTerminalId": "4096",
-        "arrivalTerminalId": "9503",
-        "durationInMinutes": [54],
-        "operator": ["㈜충남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 15
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10600
+      ],
+      "초등생": [
+        5300
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "홍성"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
+        {
+          "name": "내포"
         },
-        "stops": [
-            [
-                "태안",
-                "어송",
-                "서산",
-                "해미",
-                "고북",
-                "갈산",
-                "홍성",
-                "내포",
-                "예산",
-                "신양",
-                "대전복합"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "예산"
+        },
+        {
+          "name": "신양"
+        },
+        {
+          "name": "대전복합"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404090950303",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "4096",
+    "arrivalTerminalId": "9503",
+    "durationInMinutes": [
+      54
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "해미"
+        },
+        {
+          "name": "고북"
+        },
+        {
+          "name": "갈산"
+        },
+        {
+          "name": "홍성"
+        },
+        {
+          "name": "내포"
+        },
+        {
+          "name": "예산"
+        },
+        {
+          "name": "신양"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021950302",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
