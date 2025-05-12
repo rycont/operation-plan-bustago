@@ -1,90 +1,198 @@
 [
-    {
-        "departureTerminalId": "2640",
-        "arrivalTerminalId": "2855",
-        "durationInMinutes": [0],
-        "operator": ["태흥운수"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1200],
-            "초등생": [600],
-            "중고생": [960]
-        },
-        "stops": [["사창리", "삼일리"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "2855",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "태흥운수"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "2640",
-        "arrivalTerminalId": "2855",
-        "durationInMinutes": [0],
-        "operator": ["태흥운수"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1200],
-            "초등생": [600],
-            "중고생": [960]
-        },
-        "stops": [["사창리", "삼일리"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1200
+      ],
+      "초등생": [
+        600
+      ],
+      "중고생": [
+        960
+      ]
     },
-    {
-        "departureTerminalId": "2640",
-        "arrivalTerminalId": "2855",
-        "durationInMinutes": [0],
-        "operator": ["태흥운수"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 50
+    "stops": [
+      [
+        {
+          "name": "사창리"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1200],
-            "초등생": [600],
-            "중고생": [960]
-        },
-        "stops": [["사창리", "삼일리"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "삼일리"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "2640",
-        "arrivalTerminalId": "2855",
-        "durationInMinutes": [0],
-        "operator": ["태흥운수"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1200],
-            "초등생": [600],
-            "중고생": [960]
-        },
-        "stops": [["사창리", "삼일리"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "202640285501",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "2855",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "태흥운수"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1200
+      ],
+      "초등생": [
+        600
+      ],
+      "중고생": [
+        960
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "삼일리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640285501",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "2855",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "태흥운수"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1200
+      ],
+      "초등생": [
+        600
+      ],
+      "중고생": [
+        960
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "삼일리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640285501",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "2855",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "태흥운수"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1200
+      ],
+      "초등생": [
+        600
+      ],
+      "중고생": [
+        960
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "삼일리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640285501",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

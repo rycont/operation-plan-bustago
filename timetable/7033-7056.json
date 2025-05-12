@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         6000
@@ -30,6 +24,29 @@
         4800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "남노송동"
+        },
+        {
+          "name": "청웅"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707033705601",
     "pattern": {
       "type": "everyday"
     }

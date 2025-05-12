@@ -1,68 +1,149 @@
 [
-    {
-        "departureTerminalId": "2640",
-        "arrivalTerminalId": "2853",
-        "durationInMinutes": [0],
-        "operator": ["태흥운수"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2000],
-            "초등생": [1000],
-            "중고생": [1600]
-        },
-        "stops": [["사창리", "다목리(시내)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "2853",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "태흥운수"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "2640",
-        "arrivalTerminalId": "2853",
-        "durationInMinutes": [0],
-        "operator": ["태흥운수"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2000],
-            "초등생": [1000],
-            "중고생": [1600]
-        },
-        "stops": [["사창리", "다목리(시내)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2000
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1600
+      ]
     },
-    {
-        "departureTerminalId": "2640",
-        "arrivalTerminalId": "2853",
-        "durationInMinutes": [0],
-        "operator": ["태흥운수"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "사창리"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2000],
-            "초등생": [1000],
-            "중고생": [1600]
-        },
-        "stops": [["사창리", "다목리(시내)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "다목리(시내)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640285301",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "2853",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "태흥운수"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2000
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "다목리(시내)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640285301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "2853",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "태흥운수"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2000
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "다목리(시내)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640285301",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

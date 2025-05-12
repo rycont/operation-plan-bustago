@@ -1,90 +1,234 @@
 [
-    {
-        "departureTerminalId": "6044",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11700],
-            "초등생": [5900],
-            "중고생": [9400]
-        },
-        "stops": [["대구서부", "창녕", "영산", "부곡", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6044",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 15
     },
-    {
-        "departureTerminalId": "6044",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [0],
-        "operator": ["천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11700],
-            "초등생": [5900],
-            "중고생": [9400]
-        },
-        "stops": [["대구서부", "창녕", "영산", "부곡", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11700
+      ],
+      "초등생": [
+        5900
+      ],
+      "중고생": [
+        9400
+      ]
     },
-    {
-        "departureTerminalId": "6044",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 15
+    "stops": [
+      [
+        {
+          "name": "대구서부"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11700],
-            "초등생": [5900],
-            "중고생": [9400]
+        {
+          "name": "창녕"
         },
-        "stops": [["대구서부", "창녕", "영산", "부곡", "김해"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "영산"
+        },
+        {
+          "name": "부곡"
+        },
+        {
+          "name": "김해"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "6044",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [0],
-        "operator": ["천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11700],
-            "초등생": [5900],
-            "중고생": [9400]
-        },
-        "stops": [["대구서부", "창녕", "영산", "부곡", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "929204600601",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6044",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11700
+      ],
+      "초등생": [
+        5900
+      ],
+      "중고생": [
+        9400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "영산"
+        },
+        {
+          "name": "부곡"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929204600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6044",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11700
+      ],
+      "초등생": [
+        5900
+      ],
+      "중고생": [
+        9400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "영산"
+        },
+        {
+          "name": "부곡"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929204600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6044",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11700
+      ],
+      "초등생": [
+        5900
+      ],
+      "중고생": [
+        9400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "영산"
+        },
+        {
+          "name": "부곡"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929204600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
