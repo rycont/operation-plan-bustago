@@ -1,36 +1,72 @@
 [
-    {
-        "departureTerminalId": "8046",
-        "arrivalTerminalId": "8245",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 55
+  {
+    "departureTerminalId": "8046",
+    "arrivalTerminalId": "8245",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9200
+      ],
+      "초등생": [
+        4600
+      ],
+      "중고생": [
+        7400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영산포"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [9200],
-            "초등생": [4600],
-            "중고생": [7400]
+        {
+          "name": "신북"
         },
-        "stops": [
-            [
-                "영산포",
-                "신북",
-                "영암",
-                "옴천",
-                "병영",
-                "장흥",
-                "용산",
-                "대덕",
-                "회진"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "영암"
+        },
+        {
+          "name": "옴천"
+        },
+        {
+          "name": "병영"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "용산"
+        },
+        {
+          "name": "대덕"
+        },
+        {
+          "name": "회진"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808046806702",
+    "pattern": {
+      "type": "unknown"
     }
+  }
 ]
