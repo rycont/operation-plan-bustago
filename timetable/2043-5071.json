@@ -1,46 +1,124 @@
 [
-    {
-        "departureTerminalId": "2043",
-        "arrivalTerminalId": "5071",
-        "durationInMinutes": [0],
-        "operator": ["영암고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [21800],
-            "초등생": [10900],
-            "중고생": [17400]
-        },
-        "stops": [["고한사북공영", "태백", "호산", "울진", "포항", "부산동부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2043",
+    "arrivalTerminalId": "5071",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 45
     },
-    {
-        "departureTerminalId": "2043",
-        "arrivalTerminalId": "5071",
-        "durationInMinutes": [0],
-        "operator": ["영암고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 35
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고한사북공영"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [21800],
-            "초등생": [10900],
-            "중고생": [17400]
+        {
+          "name": "태백"
         },
-        "stops": [["고한사북공영", "태백", "호산", "울진", "포항", "부산동부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "호산"
+        },
+        {
+          "name": "울진"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202049900101",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2043",
+    "arrivalTerminalId": "5071",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "호산"
+        },
+        {
+          "name": "울진"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202049900101",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

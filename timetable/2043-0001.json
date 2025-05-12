@@ -1,178 +1,490 @@
 [
-    {
-        "departureTerminalId": "2043",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["동해상사고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 56
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [32600],
-            "초등생": [16300],
-            "중고생": [26100]
-        },
-        "stops": [["호산", "임원", "장호", "삼척", "동해공영", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2043",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 56
     },
-    {
-        "departureTerminalId": "2043",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["프리미엄우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [39100],
-            "초등생": [19600],
-            "중고생": [31300]
-        },
-        "stops": [["울진", "죽변", "부구", "호산", "임원", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32600
+      ],
+      "초등생": [
+        16300
+      ],
+      "중고생": [
+        26100
+      ]
     },
-    {
-        "departureTerminalId": "2043",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["프리미엄우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 10
+    "stops": [
+      [
+        {
+          "name": "호산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [39100],
-            "초등생": [19600],
-            "중고생": [31300]
+        {
+          "name": "임원"
         },
-        "stops": [["울진", "죽변", "부구", "호산", "임원", "동서울"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "장호"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "2043",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [32600],
-            "초등생": [16300],
-            "중고생": [26100]
-        },
-        "stops": [["울진", "죽변", "부구", "호산", "임원", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2043",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["동해상사고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 46
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [32600],
-            "초등생": [16300],
-            "중고생": [26100]
-        },
-        "stops": [["호산", "임원", "장호", "삼척", "동해공영", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2043",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["동해상사고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 56
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [32600],
-            "초등생": [16300],
-            "중고생": [26100]
-        },
-        "stops": [["호산", "임원", "장호", "삼척", "동해공영", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2043",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 53
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [32600],
-            "초등생": [16300],
-            "중고생": [26100]
-        },
-        "stops": [["울진", "죽변", "부구", "호산", "임원", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2043",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["동해상사고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [32600],
-            "초등생": [16300],
-            "중고생": [26100]
-        },
-        "stops": [["호산", "임원", "장호", "삼척", "동해공영", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "202043000103",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2043",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39100
+      ],
+      "초등생": [
+        19600
+      ],
+      "중고생": [
+        31300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울진"
+        },
+        {
+          "name": "죽변"
+        },
+        {
+          "name": "부구"
+        },
+        {
+          "name": "호산"
+        },
+        {
+          "name": "임원"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "505054000101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2043",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39100
+      ],
+      "초등생": [
+        19600
+      ],
+      "중고생": [
+        31300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울진"
+        },
+        {
+          "name": "죽변"
+        },
+        {
+          "name": "부구"
+        },
+        {
+          "name": "호산"
+        },
+        {
+          "name": "임원"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "505054000101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2043",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32600
+      ],
+      "초등생": [
+        16300
+      ],
+      "중고생": [
+        26100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울진"
+        },
+        {
+          "name": "죽변"
+        },
+        {
+          "name": "부구"
+        },
+        {
+          "name": "호산"
+        },
+        {
+          "name": "임원"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505054000101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2043",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 46
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32600
+      ],
+      "초등생": [
+        16300
+      ],
+      "중고생": [
+        26100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "호산"
+        },
+        {
+          "name": "임원"
+        },
+        {
+          "name": "장호"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202043000103",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2043",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 56
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32600
+      ],
+      "초등생": [
+        16300
+      ],
+      "중고생": [
+        26100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "호산"
+        },
+        {
+          "name": "임원"
+        },
+        {
+          "name": "장호"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202043000103",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2043",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32600
+      ],
+      "초등생": [
+        16300
+      ],
+      "중고생": [
+        26100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울진"
+        },
+        {
+          "name": "죽변"
+        },
+        {
+          "name": "부구"
+        },
+        {
+          "name": "호산"
+        },
+        {
+          "name": "임원"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505054000101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2043",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32600
+      ],
+      "초등생": [
+        16300
+      ],
+      "중고생": [
+        26100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "호산"
+        },
+        {
+          "name": "임원"
+        },
+        {
+          "name": "장호"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202043000103",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
