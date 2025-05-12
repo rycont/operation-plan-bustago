@@ -1,372 +1,812 @@
 [
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 1
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
-        },
-        "stops": [
-            ["속초", "물치", "낙산", "아산병원앞", "강릉", "동해공영", "울산"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 1
     },
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [7200]
-        },
-        "stops": [
-            [
-                "속초",
-                "물치",
-                "낙산",
-                "양양",
-                "손양",
-                "하조대",
-                "인구",
-                "남애",
-                "주문진",
-                "아산병원앞",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
     },
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 44
+    "stops": [
+      [
+        {
+          "name": "속초"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [7200]
+        {
+          "name": "물치"
         },
-        "stops": [
-            [
-                "속초",
-                "물치",
-                "낙산",
-                "양양",
-                "손양",
-                "하조대",
-                "인구",
-                "남애",
-                "주문진",
-                "아산병원앞",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "아산병원앞"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "울산"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 56
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [7200]
-        },
-        "stops": [
-            [
-                "속초",
-                "물치",
-                "낙산",
-                "양양",
-                "손양",
-                "하조대",
-                "인구",
-                "남애",
-                "주문진",
-                "아산병원앞",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 2
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [7200]
-        },
-        "stops": [
-            [
-                "속초",
-                "물치",
-                "낙산",
-                "양양",
-                "손양",
-                "하조대",
-                "인구",
-                "남애",
-                "주문진",
-                "아산병원앞",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 57
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [7200]
-        },
-        "stops": [
-            [
-                "속초",
-                "물치",
-                "낙산",
-                "양양",
-                "손양",
-                "하조대",
-                "인구",
-                "남애",
-                "주문진",
-                "아산병원앞",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 52
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [["속초", "물치", "낙산", "강릉", "포항", "부산동부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 17
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [7200]
-        },
-        "stops": [
-            [
-                "속초",
-                "물치",
-                "낙산",
-                "양양",
-                "손양",
-                "하조대",
-                "인구",
-                "남애",
-                "주문진",
-                "아산병원앞",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 37
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [7200]
-        },
-        "stops": [
-            [
-                "속초",
-                "물치",
-                "낙산",
-                "양양",
-                "손양",
-                "하조대",
-                "인구",
-                "남애",
-                "주문진",
-                "아산병원앞",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 47
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [7200]
-        },
-        "stops": [
-            [
-                "속초",
-                "물치",
-                "낙산",
-                "양양",
-                "손양",
-                "하조대",
-                "인구",
-                "남애",
-                "주문진",
-                "아산병원앞",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2112",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 58
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [7200]
-        },
-        "stops": [
-            [
-                "속초",
-                "물치",
-                "낙산",
-                "양양",
-                "손양",
-                "하조대",
-                "인구",
-                "남애",
-                "주문진",
-                "아산병원앞",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "202019960101",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "손양"
+        },
+        {
+          "name": "하조대"
+        },
+        {
+          "name": "인구"
+        },
+        {
+          "name": "남애"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "아산병원앞"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019205116",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 44
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "손양"
+        },
+        {
+          "name": "하조대"
+        },
+        {
+          "name": "인구"
+        },
+        {
+          "name": "남애"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "아산병원앞"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28,
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019205116",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 56
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "손양"
+        },
+        {
+          "name": "하조대"
+        },
+        {
+          "name": "인구"
+        },
+        {
+          "name": "남애"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "아산병원앞"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019205116",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 2
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "손양"
+        },
+        {
+          "name": "하조대"
+        },
+        {
+          "name": "인구"
+        },
+        {
+          "name": "남애"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "아산병원앞"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019205116",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 57
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "손양"
+        },
+        {
+          "name": "하조대"
+        },
+        {
+          "name": "인구"
+        },
+        {
+          "name": "남애"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "아산병원앞"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019205116",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 52
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019900129",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 17
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "손양"
+        },
+        {
+          "name": "하조대"
+        },
+        {
+          "name": "인구"
+        },
+        {
+          "name": "남애"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "아산병원앞"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019205116",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 37
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "손양"
+        },
+        {
+          "name": "하조대"
+        },
+        {
+          "name": "인구"
+        },
+        {
+          "name": "남애"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "아산병원앞"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019205116",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 47
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "손양"
+        },
+        {
+          "name": "하조대"
+        },
+        {
+          "name": "인구"
+        },
+        {
+          "name": "남애"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "아산병원앞"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019205116",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2112",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 58
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "손양"
+        },
+        {
+          "name": "하조대"
+        },
+        {
+          "name": "인구"
+        },
+        {
+          "name": "남애"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "아산병원앞"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019205116",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

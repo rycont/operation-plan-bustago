@@ -1,177 +1,367 @@
 [
-    {
-        "departureTerminalId": "2893",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [36],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 44
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3800],
-            "초등생": [1900],
-            "중고생": [3000]
-        },
-        "stops": [
-            [
-                "정선",
-                "나전",
-                "여량",
-                "하늘공원",
-                "임계",
-                "고단",
-                "송현리",
-                "삽당령",
-                "왕산",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2893",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      36
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 44
     },
-    {
-        "departureTerminalId": "2893",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [36],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 34
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3800],
-            "초등생": [1900],
-            "중고생": [3000]
-        },
-        "stops": [
-            [
-                "정선",
-                "나전",
-                "여량",
-                "하늘공원",
-                "임계",
-                "고단",
-                "송현리",
-                "삽당령",
-                "왕산",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3800
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
     },
-    {
-        "departureTerminalId": "2893",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [36],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 4
+    "stops": [
+      [
+        {
+          "name": "정선"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [3800],
-            "초등생": [1900],
-            "중고생": [3000]
+        {
+          "name": "나전"
         },
-        "stops": [
-            [
-                "정선",
-                "나전",
-                "여량",
-                "하늘공원",
-                "임계",
-                "고단",
-                "송현리",
-                "삽당령",
-                "왕산",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "여량"
+        },
+        {
+          "name": "하늘공원"
+        },
+        {
+          "name": "임계"
+        },
+        {
+          "name": "고단"
+        },
+        {
+          "name": "송현리"
+        },
+        {
+          "name": "삽당령"
+        },
+        {
+          "name": "왕산"
+        },
+        {
+          "name": "강릉"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "2893",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [36],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 24
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [3800],
-            "초등생": [1900],
-            "중고생": [3000]
-        },
-        "stops": [
-            [
-                "정선",
-                "나전",
-                "여량",
-                "하늘공원",
-                "임계",
-                "고단",
-                "송현리",
-                "삽당령",
-                "왕산",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2893",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [36],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 14
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [3800],
-            "초등생": [1900],
-            "중고생": [3000]
-        },
-        "stops": [
-            [
-                "정선",
-                "나전",
-                "여량",
-                "하늘공원",
-                "임계",
-                "고단",
-                "송현리",
-                "삽당령",
-                "왕산",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "202033205101",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2893",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      36
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 34
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3800
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "정선"
+        },
+        {
+          "name": "나전"
+        },
+        {
+          "name": "여량"
+        },
+        {
+          "name": "하늘공원"
+        },
+        {
+          "name": "임계"
+        },
+        {
+          "name": "고단"
+        },
+        {
+          "name": "송현리"
+        },
+        {
+          "name": "삽당령"
+        },
+        {
+          "name": "왕산"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202033205101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2893",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      36
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 4
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3800
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "정선"
+        },
+        {
+          "name": "나전"
+        },
+        {
+          "name": "여량"
+        },
+        {
+          "name": "하늘공원"
+        },
+        {
+          "name": "임계"
+        },
+        {
+          "name": "고단"
+        },
+        {
+          "name": "송현리"
+        },
+        {
+          "name": "삽당령"
+        },
+        {
+          "name": "왕산"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202033205101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2893",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      36
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 24
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3800
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "정선"
+        },
+        {
+          "name": "나전"
+        },
+        {
+          "name": "여량"
+        },
+        {
+          "name": "하늘공원"
+        },
+        {
+          "name": "임계"
+        },
+        {
+          "name": "고단"
+        },
+        {
+          "name": "송현리"
+        },
+        {
+          "name": "삽당령"
+        },
+        {
+          "name": "왕산"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202033205101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2893",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      36
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 14
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3800
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "정선"
+        },
+        {
+          "name": "나전"
+        },
+        {
+          "name": "여량"
+        },
+        {
+          "name": "하늘공원"
+        },
+        {
+          "name": "임계"
+        },
+        {
+          "name": "고단"
+        },
+        {
+          "name": "송현리"
+        },
+        {
+          "name": "삽당령"
+        },
+        {
+          "name": "왕산"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202033205101",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

@@ -1,134 +1,368 @@
 [
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "6018",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["심야우등1"],
-        "departureTime": {
-            "hour": 0,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [48600],
-            "초등생": [24300],
-            "중고생": [38900]
-        },
-        "stops": [["안산", "수원", "오산", "김해장유(경남)", "김해", "양산"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "6018",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 0,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "6018",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [40500],
-            "초등생": [20300],
-            "중고생": [32400]
-        },
-        "stops": [["안산", "수원", "오산", "김해장유(경남)", "김해", "양산"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        48600
+      ],
+      "초등생": [
+        24300
+      ],
+      "중고생": [
+        38900
+      ]
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "6018",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "안산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [40500],
-            "초등생": [20300],
-            "중고생": [32400]
+        {
+          "name": "수원"
         },
-        "stops": [["안산", "수원", "오산", "김해장유(경남)", "김해", "양산"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "오산"
+        },
+        {
+          "name": "김해장유(경남)"
+        },
+        {
+          "name": "김해"
+        },
+        {
+          "name": "양산"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "6018",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [40500],
-            "초등생": [20300],
-            "중고생": [32400]
-        },
-        "stops": [["안산", "수원", "오산", "김해장유(경남)", "김해", "양산"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "6018",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [40500],
-            "초등생": [20300],
-            "중고생": [32400]
-        },
-        "stops": [["안산", "수원", "오산", "김해장유(경남)", "김해", "양산"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "6018",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [40500],
-            "초등생": [20300],
-            "중고생": [32400]
-        },
-        "stops": [["안산", "수원", "오산", "김해장유(경남)", "김해", "양산"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "101015601802",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "6018",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        40500
+      ],
+      "초등생": [
+        20300
+      ],
+      "중고생": [
+        32400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "김해장유(경남)"
+        },
+        {
+          "name": "김해"
+        },
+        {
+          "name": "양산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101015601802",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "6018",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        40500
+      ],
+      "초등생": [
+        20300
+      ],
+      "중고생": [
+        32400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "김해장유(경남)"
+        },
+        {
+          "name": "김해"
+        },
+        {
+          "name": "양산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101015601802",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "6018",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        40500
+      ],
+      "초등생": [
+        20300
+      ],
+      "중고생": [
+        32400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "김해장유(경남)"
+        },
+        {
+          "name": "김해"
+        },
+        {
+          "name": "양산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101015601802",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "6018",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        40500
+      ],
+      "초등생": [
+        20300
+      ],
+      "중고생": [
+        32400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "김해장유(경남)"
+        },
+        {
+          "name": "김해"
+        },
+        {
+          "name": "양산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101015601802",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "6018",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        40500
+      ],
+      "초등생": [
+        20300
+      ],
+      "중고생": [
+        32400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "김해장유(경남)"
+        },
+        {
+          "name": "김해"
+        },
+        {
+          "name": "양산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101015601802",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
