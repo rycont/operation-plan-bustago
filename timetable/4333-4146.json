@@ -1,138 +1,282 @@
 [
-    {
-        "departureTerminalId": "4333",
-        "arrivalTerminalId": "4146",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [14200],
-            "초등생": [7100],
-            "중고생": [11400]
-        },
-        "stops": [
-            [
-                "천안",
-                "쌍용동",
-                "봉강교(서부휴게소)",
-                "아산(온양)",
-                "서산",
-                "어송",
-                "태안",
-                "소원",
-                "만리포"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "4333",
+    "arrivalTerminalId": "4146",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 35
     },
-    {
-        "departureTerminalId": "4333",
-        "arrivalTerminalId": "4146",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [14200],
-            "초등생": [7100],
-            "중고생": [11400]
-        },
-        "stops": [
-            [
-                "천안",
-                "쌍용동",
-                "봉강교(서부휴게소)",
-                "아산(온양)",
-                "서산",
-                "어송",
-                "태안",
-                "소원",
-                "만리포"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14200
+      ],
+      "초등생": [
+        7100
+      ],
+      "중고생": [
+        11400
+      ]
     },
-    {
-        "departureTerminalId": "4333",
-        "arrivalTerminalId": "4146",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 35
+    "stops": [
+      [
+        {
+          "name": "천안"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [14200],
-            "초등생": [7100],
-            "중고생": [11400]
+        {
+          "name": "쌍용동"
         },
-        "stops": [
-            [
-                "천안",
-                "쌍용동",
-                "봉강교(서부휴게소)",
-                "아산(온양)",
-                "서산",
-                "어송",
-                "태안",
-                "소원",
-                "만리포"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "봉강교(서부휴게소)"
+        },
+        {
+          "name": "아산(온양)"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "태안"
+        },
+        {
+          "name": "소원"
+        },
+        {
+          "name": "만리포"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "4333",
-        "arrivalTerminalId": "4146",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [14200],
-            "초등생": [7100],
-            "중고생": [11400]
-        },
-        "stops": [
-            [
-                "천안",
-                "쌍용동",
-                "봉강교(서부휴게소)",
-                "아산(온양)",
-                "서산",
-                "어송",
-                "태안",
-                "소원",
-                "만리포"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "404019402804",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "4333",
+    "arrivalTerminalId": "4146",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14200
+      ],
+      "초등생": [
+        7100
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "천안"
+        },
+        {
+          "name": "쌍용동"
+        },
+        {
+          "name": "봉강교(서부휴게소)"
+        },
+        {
+          "name": "아산(온양)"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "태안"
+        },
+        {
+          "name": "소원"
+        },
+        {
+          "name": "만리포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404019402804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4333",
+    "arrivalTerminalId": "4146",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14200
+      ],
+      "초등생": [
+        7100
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "천안"
+        },
+        {
+          "name": "쌍용동"
+        },
+        {
+          "name": "봉강교(서부휴게소)"
+        },
+        {
+          "name": "아산(온양)"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "태안"
+        },
+        {
+          "name": "소원"
+        },
+        {
+          "name": "만리포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404019402804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4333",
+    "arrivalTerminalId": "4146",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14200
+      ],
+      "초등생": [
+        7100
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "천안"
+        },
+        {
+          "name": "쌍용동"
+        },
+        {
+          "name": "봉강교(서부휴게소)"
+        },
+        {
+          "name": "아산(온양)"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "태안"
+        },
+        {
+          "name": "소원"
+        },
+        {
+          "name": "만리포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404019402804",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

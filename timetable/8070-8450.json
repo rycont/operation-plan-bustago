@@ -8,17 +8,11 @@
     "operator": [
       "㈜동방고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 14,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         19300
@@ -70,8 +64,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808070800802",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]
