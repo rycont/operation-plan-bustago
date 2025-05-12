@@ -8,29 +8,19 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "시외우등",
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
-        6200,
         7400
       ],
       "초등생": [
-        3100,
         3700
       ],
       "중고생": [
-        4300,
         5200
       ]
     },
@@ -57,7 +47,48 @@
         {
           "name": "음성"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
       ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101022301001",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1022",
+    "arrivalTerminalId": "3010",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6200
+      ],
+      "초등생": [
+        3100
+      ],
+      "중고생": [
+        4300
+      ]
+    },
+    "stops": [
       [
         {
           "name": "가남"
@@ -85,6 +116,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101022300101",
     "pattern": {
       "type": "unknown"
     }

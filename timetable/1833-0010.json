@@ -1,287 +1,569 @@
 [
-    {
-        "departureTerminalId": "1833",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 4,
-            "minute": 38
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [6800]
-        },
-        "stops": [
-            [
-                "동탄(자이파밀리에)",
-                "동탄(호수부영3차)",
-                "동탄역(롯데캐슬)",
-                "동탄(라마다호텔)",
-                "동탄(다은마을)",
-                "동탄(예당마을)",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
+  {
+    "departureTerminalId": "1833",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 4,
+      "minute": 38
     },
-    {
-        "departureTerminalId": "1833",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [6800]
-        },
-        "stops": [
-            [
-                "오산",
-                "오산대역후문",
-                "죽미마을입구",
-                "롯데시네마병점상가",
-                "동탄(예당마을)",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        6800
+      ]
     },
-    {
-        "departureTerminalId": "1833",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 40
+    "stops": [
+      [
+        {
+          "name": "동탄(자이파밀리에)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [6800]
+        {
+          "name": "동탄(호수부영3차)"
         },
-        "stops": [
-            [
-                "동탄(자이파밀리에)",
-                "동탄(호수부영3차)",
-                "동탄역(롯데캐슬)",
-                "동탄(라마다호텔)",
-                "동탄(다은마을)",
-                "동탄(예당마을)",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "unknown"
+        {
+          "name": "동탄역(롯데캐슬)"
+        },
+        {
+          "name": "동탄(라마다호텔)"
+        },
+        {
+          "name": "동탄(다은마을)"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "김포공항"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "1833",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [6800]
-        },
-        "stops": [
-            [
-                "동탄(자이파밀리에)",
-                "동탄(호수부영3차)",
-                "동탄역(롯데캐슬)",
-                "동탄(라마다호텔)",
-                "동탄(다은마을)",
-                "동탄(예당마을)",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
-    },
-    {
-        "departureTerminalId": "1833",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [6800]
-        },
-        "stops": [
-            [
-                "오산",
-                "오산대역후문",
-                "죽미마을입구",
-                "롯데시네마병점상가",
-                "동탄(예당마을)",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1833",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [6800]
-        },
-        "stops": [
-            [
-                "동탄(자이파밀리에)",
-                "동탄(호수부영3차)",
-                "동탄역(롯데캐슬)",
-                "동탄(라마다호텔)",
-                "동탄(다은마을)",
-                "동탄(예당마을)",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
-    },
-    {
-        "departureTerminalId": "1833",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [6800]
-        },
-        "stops": [
-            [
-                "동탄(자이파밀리에)",
-                "동탄(호수부영3차)",
-                "동탄역(롯데캐슬)",
-                "동탄(라마다호텔)",
-                "동탄(다은마을)",
-                "동탄(예당마을)",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
-    },
-    {
-        "departureTerminalId": "1833",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [6800]
-        },
-        "stops": [
-            [
-                "오산",
-                "오산대역후문",
-                "죽미마을입구",
-                "롯데시네마병점상가",
-                "동탄(예당마을)",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1833",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [6800]
-        },
-        "stops": [
-            [
-                "동탄(자이파밀리에)",
-                "동탄(호수부영3차)",
-                "동탄역(롯데캐슬)",
-                "동탄(라마다호텔)",
-                "동탄(다은마을)",
-                "동탄(예당마을)",
-                "김포공항"
-            ]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
+    "routeId": "10b145001002",
+    "pattern": {
+      "type": "unknown"
     }
+  },
+  {
+    "departureTerminalId": "1833",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        6800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오산"
+        },
+        {
+          "name": "오산대역후문"
+        },
+        {
+          "name": "죽미마을입구"
+        },
+        {
+          "name": "롯데시네마병점상가"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101023001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1833",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        6800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동탄(자이파밀리에)"
+        },
+        {
+          "name": "동탄(호수부영3차)"
+        },
+        {
+          "name": "동탄역(롯데캐슬)"
+        },
+        {
+          "name": "동탄(라마다호텔)"
+        },
+        {
+          "name": "동탄(다은마을)"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "10b145001002",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1833",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        6800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동탄(자이파밀리에)"
+        },
+        {
+          "name": "동탄(호수부영3차)"
+        },
+        {
+          "name": "동탄역(롯데캐슬)"
+        },
+        {
+          "name": "동탄(라마다호텔)"
+        },
+        {
+          "name": "동탄(다은마을)"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "10b145001002",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1833",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        6800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오산"
+        },
+        {
+          "name": "오산대역후문"
+        },
+        {
+          "name": "죽미마을입구"
+        },
+        {
+          "name": "롯데시네마병점상가"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101023001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1833",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        6800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동탄(자이파밀리에)"
+        },
+        {
+          "name": "동탄(호수부영3차)"
+        },
+        {
+          "name": "동탄역(롯데캐슬)"
+        },
+        {
+          "name": "동탄(라마다호텔)"
+        },
+        {
+          "name": "동탄(다은마을)"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "10b145001002",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1833",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        6800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동탄(자이파밀리에)"
+        },
+        {
+          "name": "동탄(호수부영3차)"
+        },
+        {
+          "name": "동탄역(롯데캐슬)"
+        },
+        {
+          "name": "동탄(라마다호텔)"
+        },
+        {
+          "name": "동탄(다은마을)"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "10b145001002",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1833",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        6800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오산"
+        },
+        {
+          "name": "오산대역후문"
+        },
+        {
+          "name": "죽미마을입구"
+        },
+        {
+          "name": "롯데시네마병점상가"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101023001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1833",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        6800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동탄(자이파밀리에)"
+        },
+        {
+          "name": "동탄(호수부영3차)"
+        },
+        {
+          "name": "동탄역(롯데캐슬)"
+        },
+        {
+          "name": "동탄(라마다호텔)"
+        },
+        {
+          "name": "동탄(다은마을)"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "10b145001002",
+    "pattern": {
+      "type": "unknown"
+    }
+  }
 ]

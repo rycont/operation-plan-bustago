@@ -1,46 +1,124 @@
 [
-    {
-        "departureTerminalId": "5047",
-        "arrivalTerminalId": "5079",
-        "durationInMinutes": [0],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11600],
-            "초등생": [5800],
-            "중고생": [10400]
-        },
-        "stops": [["영천", "하양", "대구대", "구미주공", "구미공단", "구미"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5047",
+    "arrivalTerminalId": "5079",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "5047",
-        "arrivalTerminalId": "5079",
-        "durationInMinutes": [0],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 30
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11600
+      ],
+      "초등생": [
+        5800
+      ],
+      "중고생": [
+        10400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11600],
-            "초등생": [5800],
-            "중고생": [10400]
+        {
+          "name": "하양"
         },
-        "stops": [["영천", "하양", "대구대", "구미주공", "구미공단", "구미"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "대구대"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505047501105",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5047",
+    "arrivalTerminalId": "5079",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11600
+      ],
+      "초등생": [
+        5800
+      ],
+      "중고생": [
+        10400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영천"
+        },
+        {
+          "name": "하양"
+        },
+        {
+          "name": "대구대"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505047501105",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

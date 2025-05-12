@@ -8,17 +8,11 @@
     "operator": [
       "㈜금남고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 16,
       "minute": 15
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         10200
@@ -30,6 +24,35 @@
         8200
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "연무"
+        },
+        {
+          "name": "은진"
+        },
+        {
+          "name": "논산"
+        },
+        {
+          "name": "부여"
+        },
+        {
+          "name": "서천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404313404502",
     "pattern": {
       "type": "everyday"
     }
