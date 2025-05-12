@@ -1,24 +1,57 @@
 [
-    {
-        "departureTerminalId": "1784",
-        "arrivalTerminalId": "3046",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "1784",
+    "arrivalTerminalId": "3046",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "두원공대"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1700]
+        {
+          "name": "광혜원"
         },
-        "stops": [["두원공대", "광혜원", "이월", "진천"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "이월"
+        },
+        {
+          "name": "진천"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101784301401",
+    "pattern": {
+      "type": "unknown"
     }
+  }
 ]

@@ -1,60 +1,127 @@
 [
-    {
-        "departureTerminalId": "4004",
-        "arrivalTerminalId": "4020",
-        "durationInMinutes": [40],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3000],
-            "초등생": [1500],
-            "중고생": [2400]
-        },
-        "stops": [
-            [
-                "광천",
-                "장곡",
-                "옥계",
-                "청양",
-                "주정",
-                "정산",
-                "우성",
-                "공주",
-                "공암",
-                "유성시외",
-                "대전서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "4004",
+    "arrivalTerminalId": "4020",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "4004",
-        "arrivalTerminalId": "4020",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3000
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3000],
-            "초등생": [1500],
-            "중고생": [2400]
+        {
+          "name": "장곡"
         },
-        "stops": [["광천", "청양"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "옥계"
+        },
+        {
+          "name": "청양"
+        },
+        {
+          "name": "주정"
+        },
+        {
+          "name": "정산"
+        },
+        {
+          "name": "우성"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "공암"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "대전서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404004950401",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "4004",
+    "arrivalTerminalId": "4020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3000
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광천"
+        },
+        {
+          "name": "청양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404004402001",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

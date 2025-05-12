@@ -8,17 +8,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 17,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         6600
@@ -61,8 +55,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031900308",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]

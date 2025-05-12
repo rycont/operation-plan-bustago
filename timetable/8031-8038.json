@@ -8,17 +8,11 @@
     "operator": [
       "㈜광우고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 8,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         7900
@@ -61,8 +55,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031804104",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -73,18 +77,12 @@
     ],
     "operator": [
       "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 9,
       "minute": 5
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         7900
@@ -115,8 +113,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031803801",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -127,18 +135,12 @@
     ],
     "operator": [
       "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 10,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         7900
@@ -169,32 +171,34 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031803801",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
     "departureTerminalId": "8031",
     "arrivalTerminalId": "8038",
     "durationInMinutes": [
-      0,
-      80
+      0
     ],
     "operator": [
       "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 12,
       "minute": 15
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0,
-      40
-    ],
     "fare": {
       "어른": [
         7900
@@ -253,7 +257,48 @@
         {
           "name": "부산서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
       ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808024900206",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8031",
+    "arrivalTerminalId": "8038",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        6300
+      ]
+    },
+    "stops": [
       [
         {
           "name": "보성"
@@ -281,8 +326,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031900305",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -294,17 +349,11 @@
     "operator": [
       "㈜광우고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 13,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         7900
@@ -347,8 +396,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031804104",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -360,17 +419,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 14,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         7900
@@ -401,32 +454,34 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031803801",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
     "departureTerminalId": "8031",
     "arrivalTerminalId": "8038",
     "durationInMinutes": [
-      0,
       80
     ],
     "operator": [
       "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 15,
       "minute": 55
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0,
-      40
-    ],
     "fare": {
       "어른": [
         7900
@@ -464,7 +519,48 @@
         {
           "name": "부산"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
       ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031900305",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "8031",
+    "arrivalTerminalId": "8038",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        6300
+      ]
+    },
+    "stops": [
       [
         {
           "name": "완도"
@@ -516,6 +612,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808050900209",
     "pattern": {
       "type": "everyday"
     }
@@ -529,17 +635,11 @@
     "operator": [
       "㈜광우고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 16,
       "minute": 45
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         7900
@@ -582,8 +682,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031804104",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -595,18 +705,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 17,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0,
-      40
-    ],
     "fare": {
       "어른": [
         7900
@@ -647,7 +750,48 @@
         {
           "name": "부산"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
       ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031900308",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "8031",
+    "arrivalTerminalId": "8038",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        6300
+      ]
+    },
+    "stops": [
       [
         {
           "name": "완도"
@@ -699,6 +843,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808050900209",
     "pattern": {
       "type": "everyday"
     }
@@ -712,17 +866,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 18,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         7900
@@ -753,8 +901,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031803801",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -766,17 +924,11 @@
     "operator": [
       "㈜광우고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 19,
       "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         7900
@@ -819,8 +971,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808031804104",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -832,17 +994,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 9,
       "minute": 45
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
     "fare": {
       "어른": [
         7900
@@ -906,6 +1062,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808050900209",
     "pattern": {
       "type": "unknown"
     }
