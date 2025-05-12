@@ -1,146 +1,386 @@
 [
-    {
-        "departureTerminalId": "2036",
-        "arrivalTerminalId": "2150",
-        "durationInMinutes": [48],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4300],
-            "초등생": [2200],
-            "중고생": [3400]
-        },
-        "stops": [
-            ["강릉", "횡계공용", "진부", "장평", "둔내", "우산동", "원주"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2036",
+    "arrivalTerminalId": "2150",
+    "durationInMinutes": [
+      48
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "2036",
-        "arrivalTerminalId": "2150",
-        "durationInMinutes": [48],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4300],
-            "초등생": [2200],
-            "중고생": [3400]
-        },
-        "stops": [
-            ["강릉", "횡계공용", "진부", "장평", "둔내", "우산동", "원주"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4300
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3400
+      ]
     },
-    {
-        "departureTerminalId": "2036",
-        "arrivalTerminalId": "2150",
-        "durationInMinutes": [48],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 50
+    "stops": [
+      [
+        {
+          "name": "강릉"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4300],
-            "초등생": [2200],
-            "중고생": [3400]
+        {
+          "name": "횡계공용"
         },
-        "stops": [
-            ["강릉", "횡계공용", "진부", "장평", "둔내", "우산동", "원주"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진부"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "둔내"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "2036",
-        "arrivalTerminalId": "2150",
-        "durationInMinutes": [48],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4300],
-            "초등생": [2200],
-            "중고생": [3400]
-        },
-        "stops": [
-            ["강릉", "횡계공용", "진부", "장평", "둔내", "우산동", "원주"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2036",
-        "arrivalTerminalId": "2150",
-        "durationInMinutes": [48],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4300],
-            "초등생": [2200],
-            "중고생": [3400]
-        },
-        "stops": [
-            ["강릉", "횡계공용", "진부", "장평", "둔내", "우산동", "원주"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2036",
-        "arrivalTerminalId": "2150",
-        "durationInMinutes": [48],
-        "operator": ["강원여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [4300],
-            "초등생": [2200],
-            "중고생": [3400]
-        },
-        "stops": [
-            ["강릉", "횡계공용", "진부", "장평", "둔내", "우산동", "원주"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "202051202806",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2036",
+    "arrivalTerminalId": "2150",
+    "durationInMinutes": [
+      48
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4300
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "횡계공용"
+        },
+        {
+          "name": "진부"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "둔내"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202051202806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2036",
+    "arrivalTerminalId": "2150",
+    "durationInMinutes": [
+      48
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4300
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "횡계공용"
+        },
+        {
+          "name": "진부"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "둔내"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202051202806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2036",
+    "arrivalTerminalId": "2150",
+    "durationInMinutes": [
+      48
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4300
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "횡계공용"
+        },
+        {
+          "name": "진부"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "둔내"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202051202806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2036",
+    "arrivalTerminalId": "2150",
+    "durationInMinutes": [
+      48
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4300
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "횡계공용"
+        },
+        {
+          "name": "진부"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "둔내"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202051202806",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2036",
+    "arrivalTerminalId": "2150",
+    "durationInMinutes": [
+      48
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4300
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "횡계공용"
+        },
+        {
+          "name": "진부"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "둔내"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202051202806",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

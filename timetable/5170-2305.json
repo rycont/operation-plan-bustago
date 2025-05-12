@@ -8,17 +8,11 @@
     "operator": [
       "경북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 15,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         7100
@@ -30,8 +24,55 @@
         6400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "법전"
+        },
+        {
+          "name": "춘양"
+        },
+        {
+          "name": "현동"
+        },
+        {
+          "name": "황평"
+        },
+        {
+          "name": "대현"
+        },
+        {
+          "name": "광업소"
+        },
+        {
+          "name": "육송정"
+        },
+        {
+          "name": "동점"
+        },
+        {
+          "name": "구문소"
+        },
+        {
+          "name": "장성"
+        },
+        {
+          "name": "태백"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505170203902",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]
