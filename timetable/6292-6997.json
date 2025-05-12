@@ -8,17 +8,11 @@
     "operator": [
       "거제현대고속㈜"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 11,
       "minute": 15
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         15400
@@ -30,8 +24,49 @@
         12300
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "옥포"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "사천공항"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진주남중"
+        },
+        {
+          "name": "진주(경원)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606292604202",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]

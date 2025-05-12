@@ -1,61 +1,136 @@
 [
-    {
-        "departureTerminalId": "6455",
-        "arrivalTerminalId": "6070",
-        "durationInMinutes": [55],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6500],
-            "초등생": [3300],
-            "중고생": [5200]
-        },
-        "stops": [
-            [
-                "장승포",
-                "옥포",
-                "고현거제도",
-                "사곡",
-                "무전동",
-                "통영터미널",
-                "고성",
-                "배둔",
-                "진동",
-                "남마산"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6455",
+    "arrivalTerminalId": "6070",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 50
     },
-    {
-        "departureTerminalId": "6455",
-        "arrivalTerminalId": "6070",
-        "durationInMinutes": [55],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 30
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6500
+      ],
+      "초등생": [
+        3300
+      ],
+      "중고생": [
+        5200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장승포"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6500],
-            "초등생": [3300],
-            "중고생": [5200]
+        {
+          "name": "옥포"
         },
-        "stops": [
-            ["장승포", "옥포", "고현거제도", "사곡", "무전동", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "사곡"
+        },
+        {
+          "name": "무전동"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "배둔"
+        },
+        {
+          "name": "진동"
+        },
+        {
+          "name": "남마산"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606455600901",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6455",
+    "arrivalTerminalId": "6070",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6500
+      ],
+      "초등생": [
+        3300
+      ],
+      "중고생": [
+        5200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장승포"
+        },
+        {
+          "name": "옥포"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "사곡"
+        },
+        {
+          "name": "무전동"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606455602903",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
