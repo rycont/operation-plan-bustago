@@ -8,74 +8,11 @@
     "operator": [
       "친선고속㈜"
     ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        8000
-      ],
-      "초등생": [
-        4000
-      ],
-      "중고생": [
-        6400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "괴산"
-        },
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "교통대학"
-        },
-        {
-          "name": "감곡"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3019",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 9,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         11300
@@ -106,8 +43,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303019101502",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -118,75 +65,12 @@
     ],
     "operator": [
       "친선고속㈜"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
-    "fare": {
-      "어른": [
-        8000
-      ],
-      "초등생": [
-        4000
-      ],
-      "중고생": [
-        6400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "괴산"
-        },
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "교통대학"
-        },
-        {
-          "name": "감곡"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3019",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
     ],
     "departureTime": {
       "hour": 15,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         11300
@@ -217,8 +101,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303019101502",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -230,17 +124,11 @@
     "operator": [
       "친선고속㈜"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
-      "hour": 18,
+      "hour": 9,
       "minute": 5
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      40
-    ],
     "fare": {
       "어른": [
         8000
@@ -274,6 +162,138 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303001930201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3019",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8000
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        6400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "괴산"
+        },
+        {
+          "name": "건국대학교"
+        },
+        {
+          "name": "교통대학"
+        },
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303001930201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3019",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8000
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        6400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "괴산"
+        },
+        {
+          "name": "건국대학교"
+        },
+        {
+          "name": "교통대학"
+        },
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303001930201",
     "pattern": {
       "type": "everyday"
     }

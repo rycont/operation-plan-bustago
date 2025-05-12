@@ -8,17 +8,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 7,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         10900
@@ -30,8 +24,46 @@
         8700
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "신북"
+        },
+        {
+          "name": "영암"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "월송"
+        },
+        {
+          "name": "남창"
+        },
+        {
+          "name": "원동"
+        },
+        {
+          "name": "완도"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808040805001",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -42,18 +74,12 @@
     ],
     "operator": [
       "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 13,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         10900
@@ -65,41 +91,44 @@
         8700
       ]
     },
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8040",
-    "arrivalTerminalId": "8010",
-    "durationInMinutes": [
-      0
+    "stops": [
+      [
+        {
+          "name": "신북"
+        },
+        {
+          "name": "영암"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "월송"
+        },
+        {
+          "name": "남창"
+        },
+        {
+          "name": "원동"
+        },
+        {
+          "name": "완도"
+        }
+      ]
     ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        10900
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
       ],
-      "초등생": [
-        5500
-      ],
-      "중고생": [
-        8700
+      "busClass": [
+        "일반"
       ]
     },
+    "routeId": "808040805001",
     "pattern": {
       "type": "unknown"
     }

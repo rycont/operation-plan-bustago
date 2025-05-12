@@ -1,811 +1,2135 @@
 [
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
     },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [20],
-        "operator": ["친선고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 25
+    "stops": [
+      [
+        {
+          "name": "감곡"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1600]
+        {
+          "name": "장호원공용"
         },
-        "stops": [["장호원공용", "가남", "아미리", "우만동", "수원터미널"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [20],
-        "operator": ["친선고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1600]
-        },
-        "stops": [["장호원공용", "가남", "아미리", "우만동", "수원터미널"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [20],
-        "operator": ["친선고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1600]
-        },
-        "stops": [["장호원공용", "가남", "아미리", "안산"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [20],
-        "operator": ["(주)경기고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["장호원공용", "이황리", "가남", "아미리", "우만동", "수원터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [20],
-        "operator": ["친선고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1600]
-        },
-        "stops": [["장호원공용", "가남", "아미리", "우만동", "수원터미널"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [20],
-        "operator": ["친선고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2300],
-            "초등생": [1200],
-            "중고생": [1600]
-        },
-        "stops": [
-            ["장호원공용", "가남", "아미리", "안산"],
-            ["장호원공용", "가남", "아미리", "우만동", "수원터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [20],
-        "operator": ["(주)경기고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["장호원공용", "이황리", "가남", "아미리", "우만동", "수원터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속", "대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
-    },
-    {
-        "departureTerminalId": "1030",
-        "arrivalTerminalId": "1022",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [1900],
-            "초등생": [1000],
-            "중고생": [1300]
-        },
-        "stops": [
-            ["감곡", "장호원공용", "이황리", "여주태평리", "아미리", "동서울"]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
     }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      20
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101030101201",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      20
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101030101201",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      20
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101030101502",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      20
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101030101202",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      20
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101030101201",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      20
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101030101201",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      20
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101030101502",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      20
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101030101202",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1030",
+    "arrivalTerminalId": "1022",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "여주태평리"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  }
 ]
