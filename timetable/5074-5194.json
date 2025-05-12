@@ -1,116 +1,313 @@
 [
-    {
-        "departureTerminalId": "5074",
-        "arrivalTerminalId": "5194",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 37
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3400],
-            "초등생": [1700],
-            "중고생": [3100]
-        },
-        "stops": [
-            ["점촌", "함창", "양정", "상주", "경북대상주", "대구공항", "동대구"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5074",
+    "arrivalTerminalId": "5194",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 37
     },
-    {
-        "departureTerminalId": "5074",
-        "arrivalTerminalId": "5194",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3400],
-            "초등생": [1700],
-            "중고생": [3100]
-        },
-        "stops": [["점촌", "함창", "양정", "상주", "경북대상주", "대구북부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3400
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        3100
+      ]
     },
-    {
-        "departureTerminalId": "5074",
-        "arrivalTerminalId": "5194",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 5
+    "stops": [
+      [
+        {
+          "name": "점촌"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3400],
-            "초등생": [1700],
-            "중고생": [3100]
+        {
+          "name": "함창"
         },
-        "stops": [["점촌", "함창", "양정", "상주", "경북대상주", "대구북부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "양정"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "대구공항"
+        },
+        {
+          "name": "동대구"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "5074",
-        "arrivalTerminalId": "5194",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 37
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3400],
-            "초등생": [1700],
-            "중고생": [3100]
-        },
-        "stops": [
-            ["점촌", "함창", "양정", "상주", "경북대상주", "대구공항", "동대구"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5074",
-        "arrivalTerminalId": "5194",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3400],
-            "초등생": [1700],
-            "중고생": [3100]
-        },
-        "stops": [["점촌", "함창", "양정", "상주", "경북대상주", "대구북부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "505060920106",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5074",
+    "arrivalTerminalId": "5194",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3400
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        3100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "함창"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "대구북부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505060920201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5074",
+    "arrivalTerminalId": "5194",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3400
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        3100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "함창"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "대구북부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505060920201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5074",
+    "arrivalTerminalId": "5194",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 37
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3400
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        3100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "함창"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "대구공항"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505060920106",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5074",
+    "arrivalTerminalId": "5194",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3400
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        3100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "함창"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "대구북부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505060920201",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

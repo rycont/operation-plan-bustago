@@ -1,90 +1,216 @@
 [
-    {
-        "departureTerminalId": "4018",
-        "arrivalTerminalId": "7006",
-        "durationInMinutes": [0],
-        "operator": ["㈜전주고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["장항", "군산", "익산", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "4018",
+    "arrivalTerminalId": "7006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전주고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "4018",
-        "arrivalTerminalId": "7006",
-        "durationInMinutes": [0],
-        "operator": ["㈜전주고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["장항", "군산", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
     },
-    {
-        "departureTerminalId": "4018",
-        "arrivalTerminalId": "7006",
-        "durationInMinutes": [0],
-        "operator": ["㈜전주고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 5
+    "stops": [
+      [
+        {
+          "name": "장항"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
+        {
+          "name": "군산"
         },
-        "stops": [["장항", "군산", "전주"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "익산"
+        },
+        {
+          "name": "전주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "4018",
-        "arrivalTerminalId": "7006",
-        "durationInMinutes": [0],
-        "operator": ["㈜전주고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [1700],
-            "초등생": [900],
-            "중고생": [1400]
-        },
-        "stops": [["장항", "군산", "익산", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "404018703301",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "4018",
+    "arrivalTerminalId": "7006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전주고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장항"
+        },
+        {
+          "name": "군산"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404018703302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4018",
+    "arrivalTerminalId": "7006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전주고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장항"
+        },
+        {
+          "name": "군산"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404018703302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4018",
+    "arrivalTerminalId": "7006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전주고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장항"
+        },
+        {
+          "name": "군산"
+        },
+        {
+          "name": "익산"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404018703301",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
