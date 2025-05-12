@@ -1,188 +1,451 @@
 [
-    {
-        "departureTerminalId": "1060",
-        "arrivalTerminalId": "1757",
-        "durationInMinutes": [0],
-        "operator": ["㈜한양고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
-        },
-        "stops": [
-            [
-                "안양역",
-                "호계동",
-                "고천",
-                "세종청사",
-                "세종시",
-                "대전청사(선사유적)",
-                "대전복합"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1060",
+    "arrivalTerminalId": "1757",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "1060",
-        "arrivalTerminalId": "1757",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
-        },
-        "stops": [["안양역", "호계동", "고천", "청주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
     },
-    {
-        "departureTerminalId": "1060",
-        "arrivalTerminalId": "1757",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "안양역"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
+        {
+          "name": "호계동"
         },
-        "stops": [["안양역", "호계동", "고천", "대전복합"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "고천"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "대전청사(선사유적)"
+        },
+        {
+          "name": "대전복합"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "1060",
-        "arrivalTerminalId": "1757",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
-        },
-        "stops": [["안양역", "호계동", "고천", "청주"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1060",
-        "arrivalTerminalId": "1757",
-        "durationInMinutes": [0],
-        "operator": ["㈜한양고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
-        },
-        "stops": [["안양역", "호계동", "고천", "대전복합"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1060",
-        "arrivalTerminalId": "1757",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
-        },
-        "stops": [["안양역", "호계동", "고천", "청주"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1060",
-        "arrivalTerminalId": "1757",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
-        },
-        "stops": [["안양역", "호계동", "고천", "대전복합"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1060",
-        "arrivalTerminalId": "1757",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
-        },
-        "stops": [["안양역", "호계동", "고천", "청주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "101060950306",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1060",
+    "arrivalTerminalId": "1757",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안양역"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101060301505",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1060",
+    "arrivalTerminalId": "1757",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안양역"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101060950307",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1060",
+    "arrivalTerminalId": "1757",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안양역"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101060301505",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1060",
+    "arrivalTerminalId": "1757",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안양역"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101060950307",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1060",
+    "arrivalTerminalId": "1757",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안양역"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101060301505",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1060",
+    "arrivalTerminalId": "1757",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안양역"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101060950307",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1060",
+    "arrivalTerminalId": "1757",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안양역"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101060301505",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
