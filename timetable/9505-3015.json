@@ -1,50 +1,118 @@
 [
-    {
-        "departureTerminalId": "9505",
-        "arrivalTerminalId": "3015",
-        "durationInMinutes": [0],
-        "operator": ["서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [5200],
-            "초등생": [2600],
-            "중고생": [4200]
-        },
-        "stops": [
-            ["유성시외", "대전청사(선사유적)", "북대전IC", "남청주", "청주"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9505",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "서울고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 35
     },
-    {
-        "departureTerminalId": "9505",
-        "arrivalTerminalId": "3015",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 0
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        4200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "유성시외"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [5200],
-            "초등생": [2600],
-            "중고생": [4200]
+        {
+          "name": "대전청사(선사유적)"
         },
-        "stops": [
-            ["유성시외", "대전청사(선사유적)", "북대전IC", "남청주", "청주"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "북대전IC"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959502301503",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9505",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        4200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "대전청사(선사유적)"
+        },
+        {
+          "name": "북대전IC"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959502301503",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

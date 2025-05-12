@@ -10,17 +10,11 @@
       "㈜중부고속",
       "㈜한양고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 18,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         18900
@@ -32,6 +26,35 @@
         15100
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "대전청사(선사유적)"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "부천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959502100703",
     "pattern": {
       "type": "everyday"
     }

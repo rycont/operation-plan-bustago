@@ -1,50 +1,136 @@
 [
-    {
-        "departureTerminalId": "2047",
-        "arrivalTerminalId": "5007",
-        "durationInMinutes": [0],
-        "operator": ["㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [29700],
-            "초등생": [14900],
-            "중고생": [23800]
-        },
-        "stops": [
-            ["춘천", "홍천", "공근", "횡성", "우산동", "원주", "경주", "포항"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2047",
+    "arrivalTerminalId": "5007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 45
     },
-    {
-        "departureTerminalId": "2047",
-        "arrivalTerminalId": "5007",
-        "durationInMinutes": [0],
-        "operator": ["㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 5
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29700
+      ],
+      "초등생": [
+        14900
+      ],
+      "중고생": [
+        23800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "춘천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [29700],
-            "초등생": [14900],
-            "중고생": [23800]
+        {
+          "name": "홍천"
         },
-        "stops": [
-            ["춘천", "홍천", "공근", "횡성", "우산동", "원주", "경주", "포항"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "공근"
+        },
+        {
+          "name": "횡성"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "포항"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202037507104",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2047",
+    "arrivalTerminalId": "5007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29700
+      ],
+      "초등생": [
+        14900
+      ],
+      "중고생": [
+        23800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "홍천"
+        },
+        {
+          "name": "공근"
+        },
+        {
+          "name": "횡성"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "포항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202037507104",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
