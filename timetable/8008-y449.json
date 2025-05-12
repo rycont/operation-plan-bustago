@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "8008",
-        "arrivalTerminalId": "y449",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "8008",
+    "arrivalTerminalId": "y449",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2000
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나로도"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2000],
-            "초등생": [1000],
-            "중고생": [1600]
-        },
-        "stops": [["나로도", "고흥(직행)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "고흥(직행)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808008y44901",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
