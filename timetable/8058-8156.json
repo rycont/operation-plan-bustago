@@ -8,17 +8,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 14,
       "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         7200
@@ -30,8 +24,49 @@
         5800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "지도"
+        },
+        {
+          "name": "해제"
+        },
+        {
+          "name": "망운"
+        },
+        {
+          "name": "현경"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "함사거리"
+        },
+        {
+          "name": "다시"
+        },
+        {
+          "name": "나주"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808058940105",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]

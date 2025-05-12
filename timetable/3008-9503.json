@@ -8,17 +8,11 @@
     "operator": [
       "대성티앤이"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 10,
       "minute": 0
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         5500
@@ -30,8 +24,34 @@
         4400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "영동"
+        },
+        {
+          "name": "(구)영동"
+        },
+        {
+          "name": "영동(시장)"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303008950301",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]
