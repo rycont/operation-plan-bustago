@@ -1,98 +1,226 @@
 [
-    {
-        "departureTerminalId": "2039",
-        "arrivalTerminalId": "2735",
-        "durationInMinutes": [40],
-        "operator": ["영암,화성"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3400],
-            "초등생": [1700],
-            "중고생": [2700]
-        },
-        "stops": [
-            [
-                "태백",
-                "통리",
-                "도계",
-                "심포",
-                "나한정",
-                "흥전",
-                "마교",
-                "늑구",
-                "하고사리",
-                "발리",
-                "마차역",
-                "감나무골",
-                "안의리",
-                "신기",
-                "천기",
-                "상정",
-                "하정",
-                "상거노",
-                "하장입구",
-                "미로",
-                "도경",
-                "삼척",
-                "동해공영",
-                "강릉"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2039",
+    "arrivalTerminalId": "2735",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "영암,화성"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "2039",
-        "arrivalTerminalId": "2735",
-        "durationInMinutes": [40],
-        "operator": ["영암,화성"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 50
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3400
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태백"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3400],
-            "초등생": [1700],
-            "중고생": [2700]
+        {
+          "name": "통리"
         },
-        "stops": [
-            [
-                "태백",
-                "통리",
-                "도계",
-                "심포",
-                "나한정",
-                "흥전",
-                "마교",
-                "늑구",
-                "하고사리",
-                "발리",
-                "마차역",
-                "감나무골",
-                "안의리",
-                "신기",
-                "천기",
-                "상정",
-                "하정",
-                "상거노",
-                "하장입구",
-                "미로",
-                "도경",
-                "삼척"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "도계"
+        },
+        {
+          "name": "심포"
+        },
+        {
+          "name": "나한정"
+        },
+        {
+          "name": "흥전"
+        },
+        {
+          "name": "마교"
+        },
+        {
+          "name": "늑구"
+        },
+        {
+          "name": "하고사리"
+        },
+        {
+          "name": "발리"
+        },
+        {
+          "name": "마차역"
+        },
+        {
+          "name": "감나무골"
+        },
+        {
+          "name": "안의리"
+        },
+        {
+          "name": "신기"
+        },
+        {
+          "name": "천기"
+        },
+        {
+          "name": "상정"
+        },
+        {
+          "name": "하정"
+        },
+        {
+          "name": "상거노"
+        },
+        {
+          "name": "하장입구"
+        },
+        {
+          "name": "미로"
+        },
+        {
+          "name": "도경"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "강릉"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202039205103",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2039",
+    "arrivalTerminalId": "2735",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "영암,화성"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3400
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태백"
+        },
+        {
+          "name": "통리"
+        },
+        {
+          "name": "도계"
+        },
+        {
+          "name": "심포"
+        },
+        {
+          "name": "나한정"
+        },
+        {
+          "name": "흥전"
+        },
+        {
+          "name": "마교"
+        },
+        {
+          "name": "늑구"
+        },
+        {
+          "name": "하고사리"
+        },
+        {
+          "name": "발리"
+        },
+        {
+          "name": "마차역"
+        },
+        {
+          "name": "감나무골"
+        },
+        {
+          "name": "안의리"
+        },
+        {
+          "name": "신기"
+        },
+        {
+          "name": "천기"
+        },
+        {
+          "name": "상정"
+        },
+        {
+          "name": "하정"
+        },
+        {
+          "name": "상거노"
+        },
+        {
+          "name": "하장입구"
+        },
+        {
+          "name": "미로"
+        },
+        {
+          "name": "도경"
+        },
+        {
+          "name": "삼척"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202039201502",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

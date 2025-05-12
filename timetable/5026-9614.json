@@ -8,17 +8,11 @@
     "operator": [
       "대성티앤이"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 10,
       "minute": 15
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
     "fare": {
       "어른": [
         24600
@@ -30,6 +24,44 @@
         19700
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "충주"
+        },
+        {
+          "name": "문경"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "태화"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303017960101",
     "pattern": {
       "type": "everyday"
     }
