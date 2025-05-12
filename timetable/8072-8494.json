@@ -1,70 +1,142 @@
 [
-    {
-        "departureTerminalId": "8072",
-        "arrivalTerminalId": "8494",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6300],
-            "초등생": [3200],
-            "중고생": [5000]
-        },
-        "stops": [
-            [
-                "현경",
-                "망운",
-                "해제",
-                "지도",
-                "증도대교입구",
-                "증동리",
-                "증도짱둥어다리",
-                "장고리",
-                "우전리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8072",
+    "arrivalTerminalId": "8494",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 20
     },
-    {
-        "departureTerminalId": "8072",
-        "arrivalTerminalId": "8494",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 55
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6300
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "현경"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6300],
-            "초등생": [3200],
-            "중고생": [5000]
+        {
+          "name": "망운"
         },
-        "stops": [
-            [
-                "현경",
-                "망운",
-                "해제",
-                "지도",
-                "증도대교입구",
-                "증동리",
-                "증도짱둥어다리",
-                "장고리",
-                "우전리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "해제"
+        },
+        {
+          "name": "지도"
+        },
+        {
+          "name": "증도대교입구"
+        },
+        {
+          "name": "증동리"
+        },
+        {
+          "name": "증도짱둥어다리"
+        },
+        {
+          "name": "장고리"
+        },
+        {
+          "name": "우전리"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808072808701",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8072",
+    "arrivalTerminalId": "8494",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6300
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "현경"
+        },
+        {
+          "name": "망운"
+        },
+        {
+          "name": "해제"
+        },
+        {
+          "name": "지도"
+        },
+        {
+          "name": "증도대교입구"
+        },
+        {
+          "name": "증동리"
+        },
+        {
+          "name": "증도짱둥어다리"
+        },
+        {
+          "name": "장고리"
+        },
+        {
+          "name": "우전리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808072808701",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

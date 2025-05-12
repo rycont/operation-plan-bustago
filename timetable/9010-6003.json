@@ -1,288 +1,717 @@
 [
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [10700],
-            "초등생": [5400],
-            "중고생": [8600]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10700
+      ],
+      "초등생": [
+        5400
+      ],
+      "중고생": [
+        8600
+      ]
     },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 0
+    "stops": [
+      [
+        {
+          "name": "부산동부"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
+        {
+          "name": "부산동래"
         },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9010",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 21,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13900],
-            "초등생": [7000],
-            "중고생": [11100]
-        },
-        "stops": [["부산동부", "부산동래", "고현거제도", "통영"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001602901",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
