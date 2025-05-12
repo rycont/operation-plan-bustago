@@ -8,17 +8,11 @@
     "operator": [
       "서울고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 16,
       "minute": 45
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         4700
@@ -30,6 +24,38 @@
         3800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "청주"
+        },
+        {
+          "name": "청주사창"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "보은"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303015309401",
     "pattern": {
       "type": "everyday"
     }

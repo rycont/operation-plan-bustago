@@ -8,17 +8,11 @@
     "operator": [
       "강원여객"
     ],
-    "busClass": [
-      "프리미엄우등"
-    ],
     "departureTime": {
       "hour": 6,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
     "fare": {
       "어른": [
         44700
@@ -30,6 +24,38 @@
         35800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항T2"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "202015933701",
     "pattern": {
       "type": "everyday"
     }
