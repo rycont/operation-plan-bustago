@@ -1,178 +1,448 @@
 [
-    {
-        "departureTerminalId": "7037",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜대한고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2900],
-            "초등생": [1500],
-            "중고생": [2300]
-        },
-        "stops": [["해리", "고창", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "7037",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜대한고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "7037",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜대한고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2900],
-            "초등생": [1500],
-            "중고생": [2300]
-        },
-        "stops": [["해리", "무장", "고창", "흥덕", "정읍", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2900
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2300
+      ]
     },
-    {
-        "departureTerminalId": "7037",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜대한고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "해리"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2900],
-            "초등생": [1500],
-            "중고생": [2300]
+        {
+          "name": "고창"
         },
-        "stops": [["해리", "무장", "고창", "흥덕", "정읍", "전주"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "전주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "7037",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2900],
-            "초등생": [1500],
-            "중고생": [2300]
-        },
-        "stops": [["해리", "무장", "고창", "흥덕", "정읍", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7037",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜대한고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2900],
-            "초등생": [1500],
-            "중고생": [2300]
-        },
-        "stops": [["해리", "고창", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7037",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜대한고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2900],
-            "초등생": [1500],
-            "중고생": [2300]
-        },
-        "stops": [["해리", "고창", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7037",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜대한고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2900],
-            "초등생": [1500],
-            "중고생": [2300]
-        },
-        "stops": [["해리", "무장", "고창", "흥덕", "정읍"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7037",
-        "arrivalTerminalId": "7003",
-        "durationInMinutes": [0],
-        "operator": ["㈜대한고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2900],
-            "초등생": [1500],
-            "중고생": [2300]
-        },
-        "stops": [["해리", "고창"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "707037703302",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "7037",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜대한고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2900
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "해리"
+        },
+        {
+          "name": "무장"
+        },
+        {
+          "name": "고창"
+        },
+        {
+          "name": "흥덕"
+        },
+        {
+          "name": "정읍"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707037703301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7037",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜대한고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2900
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "해리"
+        },
+        {
+          "name": "무장"
+        },
+        {
+          "name": "고창"
+        },
+        {
+          "name": "흥덕"
+        },
+        {
+          "name": "정읍"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707037703301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7037",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2900
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "해리"
+        },
+        {
+          "name": "무장"
+        },
+        {
+          "name": "고창"
+        },
+        {
+          "name": "흥덕"
+        },
+        {
+          "name": "정읍"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707037703301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7037",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜대한고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2900
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "해리"
+        },
+        {
+          "name": "고창"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707037703302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7037",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜대한고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2900
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "해리"
+        },
+        {
+          "name": "고창"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707037703302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7037",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜대한고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2900
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "해리"
+        },
+        {
+          "name": "무장"
+        },
+        {
+          "name": "고창"
+        },
+        {
+          "name": "흥덕"
+        },
+        {
+          "name": "정읍"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707037708401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7037",
+    "arrivalTerminalId": "7003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜대한고속"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2900
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "해리"
+        },
+        {
+          "name": "고창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707037700301",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
