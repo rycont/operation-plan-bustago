@@ -1,134 +1,350 @@
 [
-    {
-        "departureTerminalId": "1226",
-        "arrivalTerminalId": "9201",
-        "durationInMinutes": [210],
-        "operator": ["경북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
-        },
-        "stops": [["용인", "기흥역정류소", "신갈(용인)", "구미", "동대구"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1226",
+    "arrivalTerminalId": "9201",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "1226",
-        "arrivalTerminalId": "9201",
-        "durationInMinutes": [210],
-        "operator": ["경북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
-        },
-        "stops": [["용인", "기흥역정류소", "신갈(용인)", "구미", "동대구"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
     },
-    {
-        "departureTerminalId": "1226",
-        "arrivalTerminalId": "9201",
-        "durationInMinutes": [210],
-        "operator": ["경북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "용인"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
+        {
+          "name": "기흥역정류소"
         },
-        "stops": [["용인", "기흥역정류소", "신갈(용인)", "구미", "동대구"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "1226",
-        "arrivalTerminalId": "9201",
-        "durationInMinutes": [210],
-        "operator": ["경북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
-        },
-        "stops": [["용인", "기흥역정류소", "신갈(용인)", "구미", "동대구"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1226",
-        "arrivalTerminalId": "9201",
-        "durationInMinutes": [210],
-        "operator": ["경북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
-        },
-        "stops": [["용인", "기흥역정류소", "신갈(용인)", "구미", "동대구"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1226",
-        "arrivalTerminalId": "9201",
-        "durationInMinutes": [210],
-        "operator": ["경북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
-        },
-        "stops": [["용인", "기흥역정류소", "신갈(용인)", "구미", "동대구"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "101025920102",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1226",
+    "arrivalTerminalId": "9201",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025920102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1226",
+    "arrivalTerminalId": "9201",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025920102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1226",
+    "arrivalTerminalId": "9201",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025920102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1226",
+    "arrivalTerminalId": "9201",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025920102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1226",
+    "arrivalTerminalId": "9201",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025920102",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
