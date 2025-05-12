@@ -1,38 +1,78 @@
 [
-    {
-        "departureTerminalId": "7019",
-        "arrivalTerminalId": "4061",
-        "durationInMinutes": [40],
-        "operator": ["(유)호남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 52
+  {
+    "departureTerminalId": "7019",
+    "arrivalTerminalId": "4061",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 52
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4900
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        3900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼례"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [4900],
-            "초등생": [2500],
-            "중고생": [3900]
+        {
+          "name": "금마"
         },
-        "stops": [
-            [
-                "삼례",
-                "금마",
-                "여산",
-                "황하",
-                "신촌",
-                "연무대",
-                "은진",
-                "논산",
-                "양정",
-                "연산",
-                "대전서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "여산"
+        },
+        {
+          "name": "황하"
+        },
+        {
+          "name": "신촌"
+        },
+        {
+          "name": "연무대"
+        },
+        {
+          "name": "은진"
+        },
+        {
+          "name": "논산"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "연산"
+        },
+        {
+          "name": "대전서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707019950402",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
