@@ -1,68 +1,176 @@
 [
-    {
-        "departureTerminalId": "8025",
-        "arrivalTerminalId": "1007",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [39800],
-            "초등생": [19900],
-            "중고생": [31800]
-        },
-        "stops": [["무안", "함평", "영광", "인천", "부천"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8025",
+    "arrivalTerminalId": "1007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "8025",
-        "arrivalTerminalId": "1007",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [39800],
-            "초등생": [19900],
-            "중고생": [31800]
-        },
-        "stops": [["무안", "함평", "영광", "인천", "부천"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39800
+      ],
+      "초등생": [
+        19900
+      ],
+      "중고생": [
+        31800
+      ]
     },
-    {
-        "departureTerminalId": "8025",
-        "arrivalTerminalId": "1007",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 0
+    "stops": [
+      [
+        {
+          "name": "무안"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [39800],
-            "초등생": [19900],
-            "중고생": [31800]
+        {
+          "name": "함평"
         },
-        "stops": [["무안", "함평", "영광", "인천", "부천"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "영광"
+        },
+        {
+          "name": "인천"
+        },
+        {
+          "name": "부천"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808025100702",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8025",
+    "arrivalTerminalId": "1007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39800
+      ],
+      "초등생": [
+        19900
+      ],
+      "중고생": [
+        31800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무안"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "영광"
+        },
+        {
+          "name": "인천"
+        },
+        {
+          "name": "부천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808025100701",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8025",
+    "arrivalTerminalId": "1007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39800
+      ],
+      "초등생": [
+        19900
+      ],
+      "중고생": [
+        31800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "무안"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "영광"
+        },
+        {
+          "name": "인천"
+        },
+        {
+          "name": "부천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808025100701",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
