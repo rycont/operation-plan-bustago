@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "1108",
-        "arrivalTerminalId": "1746",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "1108",
+    "arrivalTerminalId": "1746",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5100
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "일죽"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5100],
-            "초등생": [2600],
-            "중고생": [3600]
-        },
-        "stops": [["일죽", "천서"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "천서"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101108174601",
+    "pattern": {
+      "type": "unknown"
     }
+  }
 ]

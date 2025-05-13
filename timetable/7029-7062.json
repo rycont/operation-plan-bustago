@@ -8,17 +8,11 @@
     "operator": [
       "전북여객(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 13,
       "minute": 15
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         8400
@@ -30,6 +24,41 @@
         6700
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "장계"
+        },
+        {
+          "name": "계북"
+        },
+        {
+          "name": "무주안성"
+        },
+        {
+          "name": "적상"
+        },
+        {
+          "name": "무주"
+        },
+        {
+          "name": "설천"
+        },
+        {
+          "name": "구천동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707029707801",
     "pattern": {
       "type": "everyday"
     }
