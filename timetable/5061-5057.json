@@ -1,104 +1,212 @@
 [
-    {
-        "departureTerminalId": "5061",
-        "arrivalTerminalId": "5057",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 23
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8000],
-            "초등생": [4000],
-            "중고생": [7200]
-        },
-        "stops": [
-            [
-                "주왕산",
-                "청송",
-                "진보",
-                "임동",
-                "안동대",
-                "용상",
-                "안동초교",
-                "안동",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5061",
+    "arrivalTerminalId": "5057",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 23
     },
-    {
-        "departureTerminalId": "5061",
-        "arrivalTerminalId": "5057",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 8
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8000],
-            "초등생": [4000],
-            "중고생": [7200]
-        },
-        "stops": [
-            [
-                "주왕산",
-                "청송",
-                "진보",
-                "임동",
-                "안동대",
-                "용상",
-                "안동초교",
-                "안동",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8000
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        7200
+      ]
     },
-    {
-        "departureTerminalId": "5061",
-        "arrivalTerminalId": "5057",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 40
+    "stops": [
+      [
+        {
+          "name": "주왕산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8000],
-            "초등생": [4000],
-            "중고생": [7200]
+        {
+          "name": "청송"
         },
-        "stops": [
-            [
-                "주왕산",
-                "청송",
-                "진보",
-                "임동",
-                "안동대",
-                "용상",
-                "안동초교",
-                "안동",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진보"
+        },
+        {
+          "name": "임동"
+        },
+        {
+          "name": "안동대"
+        },
+        {
+          "name": "용상"
+        },
+        {
+          "name": "안동초교"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505061000102",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5061",
+    "arrivalTerminalId": "5057",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 8
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8000
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "주왕산"
+        },
+        {
+          "name": "청송"
+        },
+        {
+          "name": "진보"
+        },
+        {
+          "name": "임동"
+        },
+        {
+          "name": "안동대"
+        },
+        {
+          "name": "용상"
+        },
+        {
+          "name": "안동초교"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505061000102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5061",
+    "arrivalTerminalId": "5057",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8000
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "주왕산"
+        },
+        {
+          "name": "청송"
+        },
+        {
+          "name": "진보"
+        },
+        {
+          "name": "임동"
+        },
+        {
+          "name": "안동대"
+        },
+        {
+          "name": "용상"
+        },
+        {
+          "name": "안동초교"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505061000102",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
