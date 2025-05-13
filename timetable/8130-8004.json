@@ -8,17 +8,11 @@
     "operator": [
       "㈜광우고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 19,
       "minute": 5
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         5000
@@ -30,6 +24,35 @@
         4000
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "녹동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808130801101",
     "pattern": {
       "type": "everyday"
     }

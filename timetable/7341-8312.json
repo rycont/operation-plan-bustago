@@ -8,17 +8,11 @@
     "operator": [
       "㈜전북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 7,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         13100
@@ -30,8 +24,40 @@
         10500
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "효자동"
+        },
+        {
+          "name": "흥덕"
+        },
+        {
+          "name": "고창"
+        },
+        {
+          "name": "무장"
+        },
+        {
+          "name": "공음"
+        },
+        {
+          "name": "법성포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707341831201",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]

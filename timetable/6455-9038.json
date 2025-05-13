@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "6455",
-        "arrivalTerminalId": "9038",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "6455",
+    "arrivalTerminalId": "9038",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        22600
+      ],
+      "초등생": [
+        11300
+      ],
+      "중고생": [
+        18100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장승포"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [22600],
-            "초등생": [11300],
-            "중고생": [18100]
-        },
-        "stops": [["장승포", "덕계"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "덕계"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606455903801",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

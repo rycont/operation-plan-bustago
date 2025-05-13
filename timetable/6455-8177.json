@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "6455",
-        "arrivalTerminalId": "8177",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "6455",
+    "arrivalTerminalId": "8177",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23400
+      ],
+      "초등생": [
+        11700
+      ],
+      "중고생": [
+        18700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "장승포"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [23400],
-            "초등생": [11700],
-            "중고생": [18700]
-        },
-        "stops": [["장승포", "서창"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "서창"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606455817701",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

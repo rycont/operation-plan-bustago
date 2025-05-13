@@ -1,68 +1,158 @@
 [
-    {
-        "departureTerminalId": "5011",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
-        },
-        "stops": [["구미", "동대구", "고현거제도"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 45
     },
-    {
-        "departureTerminalId": "5011",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
-        },
-        "stops": [["구미", "동대구", "고현거제도"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
     },
-    {
-        "departureTerminalId": "5011",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "구미"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
+        {
+          "name": "동대구"
         },
-        "stops": [["구미", "동대구", "고현거제도"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "고현거제도"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505011600301",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "고현거제도"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505011600301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "고현거제도"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505011600301",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

@@ -1,146 +1,350 @@
 [
-    {
-        "departureTerminalId": "6349",
-        "arrivalTerminalId": "9303",
-        "durationInMinutes": [0],
-        "operator": ["대성티앤이"],
-        "busClass": ["심야고속"],
-        "departureTime": {
-            "hour": 0,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [50900],
-            "초등생": [25500],
-            "중고생": [40700]
-        },
-        "stops": [
-            ["고현거제도", "통영터미널", "개양", "인천공항", "인천공항T2"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6349",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성티앤이"
+    ],
+    "departureTime": {
+      "hour": 0,
+      "minute": 15
     },
-    {
-        "departureTerminalId": "6349",
-        "arrivalTerminalId": "9303",
-        "durationInMinutes": [0],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["심야고속"],
-        "departureTime": {
-            "hour": 1,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [50900],
-            "초등생": [25500],
-            "중고생": [40700]
-        },
-        "stops": [
-            ["고현거제도", "통영터미널", "개양", "인천공항", "인천공항T2"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        50900
+      ],
+      "초등생": [
+        25500
+      ],
+      "중고생": [
+        40700
+      ]
     },
-    {
-        "departureTerminalId": "6349",
-        "arrivalTerminalId": "9303",
-        "durationInMinutes": [0],
-        "operator": ["대성티앤이"],
-        "busClass": ["심야고속"],
-        "departureTime": {
-            "hour": 3,
-            "minute": 15
+    "stops": [
+      [
+        {
+          "name": "고현거제도"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [50900],
-            "초등생": [25500],
-            "중고생": [40700]
+        {
+          "name": "통영터미널"
         },
-        "stops": [
-            ["고현거제도", "통영터미널", "개양", "인천공항", "인천공항T2"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "개양"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항T2"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야고속"
+      ]
     },
-    {
-        "departureTerminalId": "6349",
-        "arrivalTerminalId": "9303",
-        "durationInMinutes": [0],
-        "operator": ["대성티앤이"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 5,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [42400],
-            "초등생": [21200],
-            "중고생": [33900]
-        },
-        "stops": [
-            ["고현거제도", "통영터미널", "개양", "인천공항", "인천공항T2"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6349",
-        "arrivalTerminalId": "9303",
-        "durationInMinutes": [0],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [42400],
-            "초등생": [21200],
-            "중고생": [33900]
-        },
-        "stops": [
-            ["고현거제도", "통영터미널", "개양", "인천공항", "인천공항T2"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6349",
-        "arrivalTerminalId": "9303",
-        "durationInMinutes": [0],
-        "operator": ["대성티앤이"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [42400],
-            "초등생": [21200],
-            "중고생": [33900]
-        },
-        "stops": [
-            ["고현거제도", "통영터미널", "개양", "인천공항", "인천공항T2"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "606003933701",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6349",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 1,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        50900
+      ],
+      "초등생": [
+        25500
+      ],
+      "중고생": [
+        40700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "개양"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항T2"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야고속"
+      ]
+    },
+    "routeId": "606003933701",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6349",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성티앤이"
+    ],
+    "departureTime": {
+      "hour": 3,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        50900
+      ],
+      "초등생": [
+        25500
+      ],
+      "중고생": [
+        40700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "개양"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항T2"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야고속"
+      ]
+    },
+    "routeId": "606003933701",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6349",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성티앤이"
+    ],
+    "departureTime": {
+      "hour": 5,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42400
+      ],
+      "초등생": [
+        21200
+      ],
+      "중고생": [
+        33900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "개양"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항T2"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606003933701",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6349",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42400
+      ],
+      "초등생": [
+        21200
+      ],
+      "중고생": [
+        33900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "개양"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항T2"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606003933701",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6349",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성티앤이"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42400
+      ],
+      "초등생": [
+        21200
+      ],
+      "중고생": [
+        33900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "개양"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항T2"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606003933701",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

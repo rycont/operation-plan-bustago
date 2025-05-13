@@ -8,17 +8,11 @@
     "operator": [
       "㈜전북고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 10,
       "minute": 55
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         10400
@@ -30,8 +24,40 @@
         8300
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "효자동"
+        },
+        {
+          "name": "정읍"
+        },
+        {
+          "name": "흥덕"
+        },
+        {
+          "name": "고창"
+        },
+        {
+          "name": "무장"
+        },
+        {
+          "name": "해리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707341703701",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]
