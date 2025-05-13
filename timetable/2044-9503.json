@@ -1,36 +1,72 @@
 [
-    {
-        "departureTerminalId": "2044",
-        "arrivalTerminalId": "9503",
-        "durationInMinutes": [0],
-        "operator": ["㈜금강고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 35
+  {
+    "departureTerminalId": "2044",
+    "arrivalTerminalId": "9503",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21100
+      ],
+      "초등생": [
+        10600
+      ],
+      "중고생": [
+        16900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [21100],
-            "초등생": [10600],
-            "중고생": [16900]
+        {
+          "name": "백담사입구"
         },
-        "stops": [
-            [
-                "속초",
-                "백담사입구",
-                "원통",
-                "인제",
-                "홍천",
-                "횡성",
-                "우산동",
-                "원주",
-                "대전복합"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "원통"
+        },
+        {
+          "name": "인제"
+        },
+        {
+          "name": "홍천"
+        },
+        {
+          "name": "횡성"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
+        },
+        {
+          "name": "대전복합"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019950306",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
