@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 50
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         0
@@ -169,8 +163,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404153z79201",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]

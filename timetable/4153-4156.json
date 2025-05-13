@@ -1,24 +1,63 @@
 [
-    {
-        "departureTerminalId": "4153",
-        "arrivalTerminalId": "4156",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 50
+  {
+    "departureTerminalId": "4153",
+    "arrivalTerminalId": "4156",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼흥고속"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
+        {
+          "name": "탕정LCD"
         },
-        "stops": [["삼흥고속", "탕정LCD", "서울", "천안3공단", "신갈", "죽전"]],
-        "pattern": {
-            "type": "unknown"
+        {
+          "name": "서울"
+        },
+        {
+          "name": "천안3공단"
+        },
+        {
+          "name": "신갈"
+        },
+        {
+          "name": "죽전"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404153z70301",
+    "pattern": {
+      "type": "unknown"
     }
+  }
 ]
