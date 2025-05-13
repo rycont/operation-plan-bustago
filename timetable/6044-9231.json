@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 58
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         1900
@@ -30,6 +24,47 @@
         1500
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "무솔"
+        },
+        {
+          "name": "십이리"
+        },
+        {
+          "name": "성산"
+        },
+        {
+          "name": "대견"
+        },
+        {
+          "name": "한정"
+        },
+        {
+          "name": "차천"
+        },
+        {
+          "name": "현풍"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606044920401",
     "pattern": {
       "type": "everyday"
     }

@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         2000
@@ -30,6 +24,26 @@
         1600
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "진교"
+        },
+        {
+          "name": "신방촌"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606021638401",
     "pattern": {
       "type": "everyday"
     }

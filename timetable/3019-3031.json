@@ -8,17 +8,11 @@
     "operator": [
       "(주)경기.대원고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 16,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3500
@@ -55,8 +49,18 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303019301103",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]

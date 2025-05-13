@@ -1,202 +1,410 @@
 [
-    {
-        "departureTerminalId": "1043",
-        "arrivalTerminalId": "b134",
-        "durationInMinutes": [0],
-        "operator": ["합자회사 경남여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 38
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [44],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "수원터미널",
-                "아주대",
-                "영통입구",
-                "신갈영덕",
-                "오천",
-                "오천리더웰아파트",
-                "이천"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1043",
+    "arrivalTerminalId": "b134",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 38
     },
-    {
-        "departureTerminalId": "1043",
-        "arrivalTerminalId": "b134",
-        "durationInMinutes": [0],
-        "operator": ["합자회사 경남여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 18
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [44],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "수원터미널",
-                "아주대",
-                "영통입구",
-                "신갈영덕",
-                "오천",
-                "오천리더웰아파트",
-                "이천",
-                "여주대",
-                "여주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2200
+      ]
     },
-    {
-        "departureTerminalId": "1043",
-        "arrivalTerminalId": "b134",
-        "durationInMinutes": [0],
-        "operator": ["합자회사 경남여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 38
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [44],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2200]
+        {
+          "name": "아주대"
         },
-        "stops": [
-            [
-                "수원터미널",
-                "아주대",
-                "영통입구",
-                "신갈영덕",
-                "오천",
-                "오천리더웰아파트",
-                "이천",
-                "여주대",
-                "여주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "영통입구"
+        },
+        {
+          "name": "신갈영덕"
+        },
+        {
+          "name": "오천"
+        },
+        {
+          "name": "오천리더웰아파트"
+        },
+        {
+          "name": "이천"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "1043",
-        "arrivalTerminalId": "b134",
-        "durationInMinutes": [0],
-        "operator": ["합자회사 경남여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 8
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [44],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "수원터미널",
-                "아주대",
-                "영통입구",
-                "신갈영덕",
-                "오천",
-                "오천리더웰아파트",
-                "이천",
-                "여주대",
-                "여주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1043",
-        "arrivalTerminalId": "b134",
-        "durationInMinutes": [0],
-        "operator": ["합자회사 경남여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 8
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [44],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "수원터미널",
-                "아주대",
-                "영통입구",
-                "신갈영덕",
-                "오천",
-                "오천리더웰아파트",
-                "이천"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1043",
-        "arrivalTerminalId": "b134",
-        "durationInMinutes": [0],
-        "operator": ["합자회사 경남여객"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 8
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [44],
-        "fare": {
-            "어른": [3200],
-            "초등생": [1600],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "수원터미널",
-                "아주대",
-                "영통입구",
-                "신갈영덕",
-                "오천",
-                "오천리더웰아파트",
-                "이천",
-                "여주대",
-                "여주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "101012102803",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1043",
+    "arrivalTerminalId": "b134",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 18
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "아주대"
+        },
+        {
+          "name": "영통입구"
+        },
+        {
+          "name": "신갈영덕"
+        },
+        {
+          "name": "오천"
+        },
+        {
+          "name": "오천리더웰아파트"
+        },
+        {
+          "name": "이천"
+        },
+        {
+          "name": "여주대"
+        },
+        {
+          "name": "여주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101012102103",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1043",
+    "arrivalTerminalId": "b134",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 38
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "아주대"
+        },
+        {
+          "name": "영통입구"
+        },
+        {
+          "name": "신갈영덕"
+        },
+        {
+          "name": "오천"
+        },
+        {
+          "name": "오천리더웰아파트"
+        },
+        {
+          "name": "이천"
+        },
+        {
+          "name": "여주대"
+        },
+        {
+          "name": "여주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101012102103",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1043",
+    "arrivalTerminalId": "b134",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 8
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "아주대"
+        },
+        {
+          "name": "영통입구"
+        },
+        {
+          "name": "신갈영덕"
+        },
+        {
+          "name": "오천"
+        },
+        {
+          "name": "오천리더웰아파트"
+        },
+        {
+          "name": "이천"
+        },
+        {
+          "name": "여주대"
+        },
+        {
+          "name": "여주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101012102103",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1043",
+    "arrivalTerminalId": "b134",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 8
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "아주대"
+        },
+        {
+          "name": "영통입구"
+        },
+        {
+          "name": "신갈영덕"
+        },
+        {
+          "name": "오천"
+        },
+        {
+          "name": "오천리더웰아파트"
+        },
+        {
+          "name": "이천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101012102803",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1043",
+    "arrivalTerminalId": "b134",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 8
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "아주대"
+        },
+        {
+          "name": "영통입구"
+        },
+        {
+          "name": "신갈영덕"
+        },
+        {
+          "name": "오천"
+        },
+        {
+          "name": "오천리더웰아파트"
+        },
+        {
+          "name": "이천"
+        },
+        {
+          "name": "여주대"
+        },
+        {
+          "name": "여주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101012102103",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

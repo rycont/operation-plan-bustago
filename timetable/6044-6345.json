@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 58
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         2000
@@ -30,6 +24,44 @@
         1600
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "계성"
+        },
+        {
+          "name": "명리"
+        },
+        {
+          "name": "영산"
+        },
+        {
+          "name": "도천"
+        },
+        {
+          "name": "송진"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "마산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606044601001",
     "pattern": {
       "type": "everyday"
     }

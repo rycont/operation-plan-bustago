@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         6700
@@ -30,6 +24,29 @@
         5400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "덕진"
+        },
+        {
+          "name": "연산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707033404901",
     "pattern": {
       "type": "everyday"
     }
