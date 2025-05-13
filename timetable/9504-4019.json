@@ -8,17 +8,11 @@
     "operator": [
       "㈜금남고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 6,
       "minute": 55
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
     "fare": {
       "어른": [
         6000
@@ -30,6 +24,29 @@
         4800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "대전서부"
+        },
+        {
+          "name": "대전청사(선사유적)"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959504401907",
     "pattern": {
       "type": "everyday"
     }

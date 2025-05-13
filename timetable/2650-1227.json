@@ -1,104 +1,212 @@
 [
-    {
-        "departureTerminalId": "2650",
-        "arrivalTerminalId": "1227",
-        "durationInMinutes": [50],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6200],
-            "초등생": [3100],
-            "중고생": [5000]
-        },
-        "stops": [
-            [
-                "다목리",
-                "명월리",
-                "사창리",
-                "광덕",
-                "도평리",
-                "이동",
-                "일동",
-                "내촌",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2650",
+    "arrivalTerminalId": "1227",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "2650",
-        "arrivalTerminalId": "1227",
-        "durationInMinutes": [50],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6200],
-            "초등생": [3100],
-            "중고생": [5000]
-        },
-        "stops": [
-            [
-                "다목리",
-                "명월리",
-                "사창리",
-                "광덕",
-                "도평리",
-                "이동",
-                "일동",
-                "내촌",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6200
+      ],
+      "초등생": [
+        3100
+      ],
+      "중고생": [
+        5000
+      ]
     },
-    {
-        "departureTerminalId": "2650",
-        "arrivalTerminalId": "1227",
-        "durationInMinutes": [50],
-        "operator": ["강원고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "다목리"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6200],
-            "초등생": [3100],
-            "중고생": [5000]
+        {
+          "name": "명월리"
         },
-        "stops": [
-            [
-                "다목리",
-                "명월리",
-                "사창리",
-                "광덕",
-                "도평리",
-                "이동",
-                "일동",
-                "내촌",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "광덕"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "이동"
+        },
+        {
+          "name": "일동"
+        },
+        {
+          "name": "내촌"
+        },
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202650000101",
+    "pattern": {
+      "type": "unknown"
     }
+  },
+  {
+    "departureTerminalId": "2650",
+    "arrivalTerminalId": "1227",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6200
+      ],
+      "초등생": [
+        3100
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "다목리"
+        },
+        {
+          "name": "명월리"
+        },
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "광덕"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "이동"
+        },
+        {
+          "name": "일동"
+        },
+        {
+          "name": "내촌"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202650000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "2650",
+    "arrivalTerminalId": "1227",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6200
+      ],
+      "초등생": [
+        3100
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "다목리"
+        },
+        {
+          "name": "명월리"
+        },
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "광덕"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "이동"
+        },
+        {
+          "name": "일동"
+        },
+        {
+          "name": "내촌"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202650000101",
+    "pattern": {
+      "type": "unknown"
+    }
+  }
 ]

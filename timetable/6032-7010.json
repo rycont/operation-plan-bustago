@@ -1,112 +1,292 @@
 [
-    {
-        "departureTerminalId": "6032",
-        "arrivalTerminalId": "7010",
-        "durationInMinutes": [50],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6700],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [["함양", "인월", "운봉", "남원", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "7010",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 25
     },
-    {
-        "departureTerminalId": "6032",
-        "arrivalTerminalId": "7010",
-        "durationInMinutes": [50],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6700],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [["함양", "인월", "운봉", "남원", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
     },
-    {
-        "departureTerminalId": "6032",
-        "arrivalTerminalId": "7010",
-        "durationInMinutes": [50],
-        "operator": ["㈜동광고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 22
+    "stops": [
+      [
+        {
+          "name": "함양"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5100],
-            "초등생": [2600],
-            "중고생": [4100]
+        {
+          "name": "인월"
         },
-        "stops": [["함양", "인월", "남원", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "운봉"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "전주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "6032",
-        "arrivalTerminalId": "7010",
-        "durationInMinutes": [50],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6700],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [["함양", "인월", "운봉", "남원", "전주"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6032",
-        "arrivalTerminalId": "7010",
-        "durationInMinutes": [50],
-        "operator": ["㈜동광고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5100],
-            "초등생": [2600],
-            "중고생": [4100]
-        },
-        "stops": [["함양", "인월", "남원", "순창", "담양", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "606032703302",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "7010",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "운봉"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032703302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "7010",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "㈜동광고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 22
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5100
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        4100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032940102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "7010",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "운봉"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032703302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "7010",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "㈜동광고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5100
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        4100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "순창"
+        },
+        {
+          "name": "담양"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032940101",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

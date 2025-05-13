@@ -1,112 +1,277 @@
 [
-    {
-        "departureTerminalId": "9614",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [120],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [15100],
-            "초등생": [7600],
-            "중고생": [12100]
-        },
-        "stops": [["울산", "울산신복", "고현거제도", "통영터미널"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9614",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "9614",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [120],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19700],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["울산", "울산신복", "고현거제도", "통영터미널"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15100
+      ],
+      "초등생": [
+        7600
+      ],
+      "중고생": [
+        12100
+      ]
     },
-    {
-        "departureTerminalId": "9614",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [120],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 50
+    "stops": [
+      [
+        {
+          "name": "울산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19700],
-            "초등생": [9900],
-            "중고생": [15800]
+        {
+          "name": "울산신복"
         },
-        "stops": [["울산", "울산신복", "고현거제도", "통영터미널"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "9614",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [120],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19700],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["울산", "울산신복", "고현거제도", "통영터미널"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9614",
-        "arrivalTerminalId": "6003",
-        "durationInMinutes": [120],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [15100],
-            "초등생": [7600],
-            "중고생": [12100]
-        },
-        "stops": [["울산", "울산신복", "고현거제도", "통영터미널"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "969601602902",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9614",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19700
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "969601602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9614",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19700
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "969601602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9614",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19700
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "969601602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9614",
+    "arrivalTerminalId": "6003",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15100
+      ],
+      "초등생": [
+        7600
+      ],
+      "중고생": [
+        12100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "969601602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

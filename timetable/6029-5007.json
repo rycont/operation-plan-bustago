@@ -1,68 +1,167 @@
 [
-    {
-        "departureTerminalId": "6029",
-        "arrivalTerminalId": "5007",
-        "durationInMinutes": [0],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [25500],
-            "초등생": [12800],
-            "중고생": [20400]
-        },
-        "stops": [["통영터미널", "고현거제도", "경주", "포항"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6029",
+    "arrivalTerminalId": "5007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "6029",
-        "arrivalTerminalId": "5007",
-        "durationInMinutes": [0],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [25500],
-            "초등생": [12800],
-            "중고생": [20400]
-        },
-        "stops": [["통영터미널", "고현거제도", "경주", "포항"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25500
+      ],
+      "초등생": [
+        12800
+      ],
+      "중고생": [
+        20400
+      ]
     },
-    {
-        "departureTerminalId": "6029",
-        "arrivalTerminalId": "5007",
-        "durationInMinutes": [0],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "통영터미널"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [25500],
-            "초등생": [12800],
-            "중고생": [20400]
+        {
+          "name": "고현거제도"
         },
-        "stops": [["통영터미널", "고현거제도", "경주", "포항"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "경주"
+        },
+        {
+          "name": "포항"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606029507102",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6029",
+    "arrivalTerminalId": "5007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25500
+      ],
+      "초등생": [
+        12800
+      ],
+      "중고생": [
+        20400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "포항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606029507102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6029",
+    "arrivalTerminalId": "5007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25500
+      ],
+      "초등생": [
+        12800
+      ],
+      "중고생": [
+        20400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "포항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606029507102",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

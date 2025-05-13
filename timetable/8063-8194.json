@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "8063",
-        "arrivalTerminalId": "8194",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "8063",
+    "arrivalTerminalId": "8194",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "해제"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1800],
-            "초등생": [1000],
-            "중고생": [1400]
-        },
-        "stops": [["해제", "검문소"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "검문소"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808063819401",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

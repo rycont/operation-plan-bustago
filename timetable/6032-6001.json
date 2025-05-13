@@ -8,17 +8,11 @@
     "operator": [
       "거창고속㈜"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 7,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         4000
@@ -30,6 +24,29 @@
         3200
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032920401",
     "pattern": {
       "type": "everyday"
     }
@@ -42,18 +59,12 @@
     ],
     "operator": [
       "거창고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
     ],
     "departureTime": {
       "hour": 8,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         4000
@@ -65,6 +76,26 @@
         3200
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032600101",
     "pattern": {
       "type": "everyday"
     }
@@ -78,17 +109,11 @@
     "operator": [
       "거창고속㈜"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 9,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -100,6 +125,29 @@
         2400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032920401",
     "pattern": {
       "type": "everyday"
     }
@@ -112,18 +160,12 @@
     ],
     "operator": [
       "거창고속㈜"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 9,
       "minute": 35
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -135,6 +177,29 @@
         2400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032920401",
     "pattern": {
       "type": "everyday"
     }
@@ -147,19 +212,12 @@
     ],
     "operator": [
       "거창고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
     ],
     "departureTime": {
       "hour": 10,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0,
-      28
-    ],
     "fare": {
       "어른": [
         4000
@@ -171,20 +229,34 @@
         3200
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2,
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1,
-        1,
-        1
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "안의"
+        },
+        {
+          "name": "서울남부"
+        }
       ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032000401",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
@@ -196,17 +268,60 @@
     "operator": [
       "거창고속㈜"
     ],
-    "busClass": [
-      "시외우등"
+    "departureTime": {
+      "hour": 10,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4000
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032600101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      29
+    ],
+    "operator": [
+      "거창고속㈜"
     ],
     "departureTime": {
       "hour": 11,
       "minute": 5
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         4000
@@ -218,6 +333,29 @@
         3200
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032920401",
     "pattern": {
       "type": "everyday"
     }
@@ -230,18 +368,12 @@
     ],
     "operator": [
       "거창고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
     ],
     "departureTime": {
       "hour": 11,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         4000
@@ -253,6 +385,32 @@
         3200
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "안의"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032000401",
     "pattern": {
       "type": "everyday"
     }
@@ -265,18 +423,12 @@
     ],
     "operator": [
       "거창고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
     ],
     "departureTime": {
       "hour": 12,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         4000
@@ -288,6 +440,26 @@
         3200
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032600101",
     "pattern": {
       "type": "everyday"
     }
@@ -301,17 +473,11 @@
     "operator": [
       "거창고속㈜"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 13,
       "minute": 37
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -323,6 +489,29 @@
         2400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032920401",
     "pattern": {
       "type": "everyday"
     }
@@ -336,17 +525,11 @@
     "operator": [
       "㈜동광고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 13,
       "minute": 45
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -358,6 +541,29 @@
         2400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032920401",
     "pattern": {
       "type": "everyday"
     }
@@ -370,19 +576,12 @@
     ],
     "operator": [
       "거창고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
     ],
     "departureTime": {
       "hour": 14,
       "minute": 50
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0,
-      28
-    ],
     "fare": {
       "어른": [
         4000
@@ -394,53 +593,32 @@
         3200
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2,
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1,
-        1,
-        1
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "안의"
+        },
+        {
+          "name": "서울남부"
+        }
       ]
-    }
-  },
-  {
-    "departureTerminalId": "6032",
-    "arrivalTerminalId": "6001",
-    "durationInMinutes": [
-      29
     ],
-    "operator": [
-      "거창고속㈜"
-    ],
-    "busClass": [
-      "시외우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
-    "fare": {
-      "어른": [
-        4000
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
       ],
-      "초등생": [
-        2000
-      ],
-      "중고생": [
-        3200
+      "busClass": [
+        "시외우등"
       ]
     },
+    "routeId": "606032000401",
     "pattern": {
       "type": "everyday"
     }
@@ -454,17 +632,112 @@
     "operator": [
       "거창고속㈜"
     ],
-    "busClass": [
-      "일반"
+    "departureTime": {
+      "hour": 14,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4000
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032600101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      29
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4000
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      29
+    ],
+    "operator": [
+      "거창고속㈜"
     ],
     "departureTime": {
       "hour": 15,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -476,6 +749,26 @@
         2400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032600101",
     "pattern": {
       "type": "everyday"
     }
@@ -489,17 +782,11 @@
     "operator": [
       "대한여객(자주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 16,
       "minute": 50
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -511,6 +798,29 @@
         2400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "안의"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032600102",
     "pattern": {
       "type": "everyday"
     }
@@ -523,18 +833,12 @@
     ],
     "operator": [
       "거창고속㈜"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 17,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -546,6 +850,26 @@
         2400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032600101",
     "pattern": {
       "type": "everyday"
     }
@@ -558,18 +882,12 @@
     ],
     "operator": [
       "거창고속㈜"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 17,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -581,6 +899,29 @@
         2400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032920401",
     "pattern": {
       "type": "everyday"
     }
@@ -593,18 +934,12 @@
     ],
     "operator": [
       "거창고속㈜"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 18,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -616,6 +951,26 @@
         2400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032600101",
     "pattern": {
       "type": "everyday"
     }
@@ -629,17 +984,11 @@
     "operator": [
       "거창고속㈜"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 19,
       "minute": 55
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         4000
@@ -651,6 +1000,26 @@
         3200
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032600101",
     "pattern": {
       "type": "everyday"
     }
@@ -664,17 +1033,11 @@
     "operator": [
       "거창고속㈜"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 21,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3000
@@ -686,6 +1049,604 @@
         2400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "안의"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032600103",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4000
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4000
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3000
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4000
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4000
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 37
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3000
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4000
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3000
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3000
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606032920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4000
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4000
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606032920402",
     "pattern": {
       "type": "everyday"
     }

@@ -1,116 +1,258 @@
 [
-    {
-        "departureTerminalId": "9401",
-        "arrivalTerminalId": "8444",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [18200],
-            "초등생": [9100],
-            "중고생": [14600]
-        },
-        "stops": [
-            [
-                "광주(유ㆍ스퀘어)",
-                "진월동",
-                "강진",
-                "가우도",
-                "마량",
-                "고금",
-                "약산",
-                "당목"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8444",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "9401",
-        "arrivalTerminalId": "8444",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [14000],
-            "초등생": [7000],
-            "중고생": [11200]
-        },
-        "stops": [
-            ["광주(유ㆍ스퀘어)", "진월동", "강진", "가우도", "마량", "고금"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18200
+      ],
+      "초등생": [
+        9100
+      ],
+      "중고생": [
+        14600
+      ]
     },
-    {
-        "departureTerminalId": "9401",
-        "arrivalTerminalId": "8444",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 10
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [18200],
-            "초등생": [9100],
-            "중고생": [14600]
+        {
+          "name": "진월동"
         },
-        "stops": [
-            [
-                "광주(유ㆍ스퀘어)",
-                "진월동",
-                "강진",
-                "가우도",
-                "마량",
-                "고금",
-                "약산",
-                "당목"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "강진"
+        },
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        },
+        {
+          "name": "약산"
+        },
+        {
+          "name": "당목"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "9401",
-        "arrivalTerminalId": "8444",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [14000],
-            "초등생": [7000],
-            "중고생": [11200]
-        },
-        "stops": [
-            ["광주(유ㆍ스퀘어)", "진월동", "강진", "가우도", "마량", "고금"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "949401823210",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8444",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14000
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "진월동"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401823309",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8444",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18200
+      ],
+      "초등생": [
+        9100
+      ],
+      "중고생": [
+        14600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "진월동"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        },
+        {
+          "name": "약산"
+        },
+        {
+          "name": "당목"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949401823210",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8444",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14000
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "진월동"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401823309",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
