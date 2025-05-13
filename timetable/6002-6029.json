@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "6002",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "6002",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2600
+      ],
+      "초등생": [
+        1300
+      ],
+      "중고생": [
+        2100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고성"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2600],
-            "초등생": [1300],
-            "중고생": [2100]
-        },
-        "stops": [["고성", "통영터미널"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "통영터미널"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606002602901",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
