@@ -8,17 +8,11 @@
     "operator": [
       "대성티앤이"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 7,
       "minute": 50
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
     "fare": {
       "어른": [
         13300
@@ -30,6 +24,47 @@
         10600
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "청주"
+        },
+        {
+          "name": "청주대정류소"
+        },
+        {
+          "name": "청주율량"
+        },
+        {
+          "name": "충주"
+        },
+        {
+          "name": "목행"
+        },
+        {
+          "name": "산척"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "봉양"
+        },
+        {
+          "name": "제천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303015301113",
     "pattern": {
       "type": "everyday"
     }

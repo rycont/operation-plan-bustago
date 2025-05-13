@@ -1,177 +1,367 @@
 [
-    {
-        "departureTerminalId": "2789",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [
-            [
-                "정선",
-                "백운",
-                "미탄",
-                "평창",
-                "방림삼거리",
-                "방림",
-                "운교",
-                "안흥",
-                "새말",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2789",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 45
     },
-    {
-        "departureTerminalId": "2789",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [
-            [
-                "정선",
-                "백운",
-                "미탄",
-                "평창",
-                "방림삼거리",
-                "방림",
-                "운교",
-                "안흥",
-                "새말",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
     },
-    {
-        "departureTerminalId": "2789",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 5
+    "stops": [
+      [
+        {
+          "name": "정선"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
+        {
+          "name": "백운"
         },
-        "stops": [
-            [
-                "정선",
-                "백운",
-                "미탄",
-                "평창",
-                "방림삼거리",
-                "방림",
-                "운교",
-                "안흥",
-                "새말",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "평창"
+        },
+        {
+          "name": "방림삼거리"
+        },
+        {
+          "name": "방림"
+        },
+        {
+          "name": "운교"
+        },
+        {
+          "name": "안흥"
+        },
+        {
+          "name": "새말"
+        },
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "2789",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [
-            [
-                "정선",
-                "백운",
-                "미탄",
-                "평창",
-                "방림삼거리",
-                "방림",
-                "운교",
-                "안흥",
-                "새말",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "2789",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [
-            [
-                "정선",
-                "백운",
-                "미탄",
-                "평창",
-                "방림삼거리",
-                "방림",
-                "운교",
-                "안흥",
-                "새말",
-                "동서울"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "202033000106",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2789",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "정선"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "평창"
+        },
+        {
+          "name": "방림삼거리"
+        },
+        {
+          "name": "방림"
+        },
+        {
+          "name": "운교"
+        },
+        {
+          "name": "안흥"
+        },
+        {
+          "name": "새말"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202033000106",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2789",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "정선"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "평창"
+        },
+        {
+          "name": "방림삼거리"
+        },
+        {
+          "name": "방림"
+        },
+        {
+          "name": "운교"
+        },
+        {
+          "name": "안흥"
+        },
+        {
+          "name": "새말"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202033000106",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2789",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "정선"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "평창"
+        },
+        {
+          "name": "방림삼거리"
+        },
+        {
+          "name": "방림"
+        },
+        {
+          "name": "운교"
+        },
+        {
+          "name": "안흥"
+        },
+        {
+          "name": "새말"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202033000106",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2789",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "정선"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "미탄"
+        },
+        {
+          "name": "평창"
+        },
+        {
+          "name": "방림삼거리"
+        },
+        {
+          "name": "방림"
+        },
+        {
+          "name": "운교"
+        },
+        {
+          "name": "안흥"
+        },
+        {
+          "name": "새말"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202033000106",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
