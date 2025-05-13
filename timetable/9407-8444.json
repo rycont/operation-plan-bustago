@@ -1,94 +1,246 @@
 [
-    {
-        "departureTerminalId": "9407",
-        "arrivalTerminalId": "8444",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [15700],
-            "초등생": [7900],
-            "중고생": [12600]
-        },
-        "stops": [
-            ["광주진월동", "강진", "가우도", "마량", "고금", "약산", "당목"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9407",
+    "arrivalTerminalId": "8444",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 45
     },
-    {
-        "departureTerminalId": "9407",
-        "arrivalTerminalId": "8444",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [13100],
-            "초등생": [6600],
-            "중고생": [10500]
-        },
-        "stops": [["광주진월동", "강진", "가우도", "마량", "고금"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15700
+      ],
+      "초등생": [
+        7900
+      ],
+      "중고생": [
+        12600
+      ]
     },
-    {
-        "departureTerminalId": "9407",
-        "arrivalTerminalId": "8444",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 25
+    "stops": [
+      [
+        {
+          "name": "광주진월동"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [15700],
-            "초등생": [7900],
-            "중고생": [12600]
+        {
+          "name": "강진"
         },
-        "stops": [
-            ["광주진월동", "강진", "가우도", "마량", "고금", "약산", "당목"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        },
+        {
+          "name": "약산"
+        },
+        {
+          "name": "당목"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "9407",
-        "arrivalTerminalId": "8444",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [13100],
-            "초등생": [6600],
-            "중고생": [10500]
-        },
-        "stops": [["광주진월동", "강진", "가우도", "마량", "고금"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "949407823204",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9407",
+    "arrivalTerminalId": "8444",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13100
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        10500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주진월동"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949407823304",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9407",
+    "arrivalTerminalId": "8444",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15700
+      ],
+      "초등생": [
+        7900
+      ],
+      "중고생": [
+        12600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주진월동"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        },
+        {
+          "name": "약산"
+        },
+        {
+          "name": "당목"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949407823204",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9407",
+    "arrivalTerminalId": "8444",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13100
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        10500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주진월동"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949407823304",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

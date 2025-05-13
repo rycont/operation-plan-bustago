@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 58
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         4900
@@ -30,6 +24,29 @@
         3900
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "마산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606044601002",
     "pattern": {
       "type": "everyday"
     }
