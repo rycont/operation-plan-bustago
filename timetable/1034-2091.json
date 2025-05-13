@@ -1,36 +1,72 @@
 [
-    {
-        "departureTerminalId": "1034",
-        "arrivalTerminalId": "2091",
-        "durationInMinutes": [30],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "1034",
+    "arrivalTerminalId": "2091",
+    "durationInMinutes": [
+      30
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청평"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [4100],
-            "초등생": [2100],
-            "중고생": [3300]
+        {
+          "name": "가평"
         },
-        "stops": [
-            [
-                "청평",
-                "가평",
-                "경강",
-                "서천2리",
-                "서천1리",
-                "안보리",
-                "당림리",
-                "강촌",
-                "춘천"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "경강"
+        },
+        {
+          "name": "서천2리"
+        },
+        {
+          "name": "서천1리"
+        },
+        {
+          "name": "안보리"
+        },
+        {
+          "name": "당림리"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "춘천"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101034203701",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
