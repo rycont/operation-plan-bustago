@@ -1,46 +1,118 @@
 [
-    {
-        "departureTerminalId": "8164",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [110],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [20600],
-            "초등생": [10300],
-            "중고생": [16500]
-        },
-        "stops": [["땅끝", "송호리", "산정", "해남", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8164",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      110
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 45
     },
-    {
-        "departureTerminalId": "8164",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [110],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 15
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20600
+      ],
+      "초등생": [
+        10300
+      ],
+      "중고생": [
+        16500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "땅끝"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [20600],
-            "초등생": [10300],
-            "중고생": [16500]
+        {
+          "name": "송호리"
         },
-        "stops": [["땅끝", "송호리", "산정", "해남", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "산정"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808164940104",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8164",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      110
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20600
+      ],
+      "초등생": [
+        10300
+      ],
+      "중고생": [
+        16500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "땅끝"
+        },
+        {
+          "name": "송호리"
+        },
+        {
+          "name": "산정"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808164940104",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
