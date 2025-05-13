@@ -1,172 +1,352 @@
 [
-    {
-        "departureTerminalId": "3258",
-        "arrivalTerminalId": "3015",
-        "durationInMinutes": [0],
-        "operator": ["서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [10300],
-            "초등생": [5200],
-            "중고생": [8200]
-        },
-        "stops": [
-            [
-                "영동",
-                "(구)영동",
-                "영동(시장)",
-                "심천",
-                "옥계리",
-                "이원",
-                "옥천",
-                "청주남부",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "3258",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "서울고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 55
     },
-    {
-        "departureTerminalId": "3258",
-        "arrivalTerminalId": "3015",
-        "durationInMinutes": [0],
-        "operator": ["충북리무진㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [10300],
-            "초등생": [5200],
-            "중고생": [8200]
-        },
-        "stops": [
-            [
-                "영동",
-                "(구)영동",
-                "영동(시장)",
-                "심천",
-                "옥계리",
-                "이원",
-                "옥천",
-                "청주남부",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10300
+      ],
+      "초등생": [
+        5200
+      ],
+      "중고생": [
+        8200
+      ]
     },
-    {
-        "departureTerminalId": "3258",
-        "arrivalTerminalId": "3015",
-        "durationInMinutes": [0],
-        "operator": ["대성티앤이"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 5
+    "stops": [
+      [
+        {
+          "name": "영동"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [10300],
-            "초등생": [5200],
-            "중고생": [8200]
+        {
+          "name": "(구)영동"
         },
-        "stops": [
-            [
-                "영동",
-                "(구)영동",
-                "영동(시장)",
-                "심천",
-                "옥계리",
-                "이원",
-                "옥천",
-                "청주남부",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "영동(시장)"
+        },
+        {
+          "name": "심천"
+        },
+        {
+          "name": "옥계리"
+        },
+        {
+          "name": "이원"
+        },
+        {
+          "name": "옥천"
+        },
+        {
+          "name": "청주남부"
+        },
+        {
+          "name": "청주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "3258",
-        "arrivalTerminalId": "3015",
-        "durationInMinutes": [0],
-        "operator": ["충북리무진㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [10300],
-            "초등생": [5200],
-            "중고생": [8200]
-        },
-        "stops": [
-            [
-                "영동",
-                "(구)영동",
-                "영동(시장)",
-                "심천",
-                "옥계리",
-                "이원",
-                "옥천",
-                "청주남부",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "3258",
-        "arrivalTerminalId": "3015",
-        "durationInMinutes": [0],
-        "operator": ["대성티앤이"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [10300],
-            "초등생": [5200],
-            "중고생": [8200]
-        },
-        "stops": [
-            [
-                "영동",
-                "(구)영동",
-                "영동(시장)",
-                "심천",
-                "옥계리",
-                "이원",
-                "옥천",
-                "청주남부",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "303008301501",
+    "pattern": {
+      "type": "unknown"
     }
+  },
+  {
+    "departureTerminalId": "3258",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "충북리무진㈜"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10300
+      ],
+      "초등생": [
+        5200
+      ],
+      "중고생": [
+        8200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영동"
+        },
+        {
+          "name": "(구)영동"
+        },
+        {
+          "name": "영동(시장)"
+        },
+        {
+          "name": "심천"
+        },
+        {
+          "name": "옥계리"
+        },
+        {
+          "name": "이원"
+        },
+        {
+          "name": "옥천"
+        },
+        {
+          "name": "청주남부"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303008301501",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3258",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성티앤이"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10300
+      ],
+      "초등생": [
+        5200
+      ],
+      "중고생": [
+        8200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영동"
+        },
+        {
+          "name": "(구)영동"
+        },
+        {
+          "name": "영동(시장)"
+        },
+        {
+          "name": "심천"
+        },
+        {
+          "name": "옥계리"
+        },
+        {
+          "name": "이원"
+        },
+        {
+          "name": "옥천"
+        },
+        {
+          "name": "청주남부"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303008301501",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3258",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "충북리무진㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10300
+      ],
+      "초등생": [
+        5200
+      ],
+      "중고생": [
+        8200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영동"
+        },
+        {
+          "name": "(구)영동"
+        },
+        {
+          "name": "영동(시장)"
+        },
+        {
+          "name": "심천"
+        },
+        {
+          "name": "옥계리"
+        },
+        {
+          "name": "이원"
+        },
+        {
+          "name": "옥천"
+        },
+        {
+          "name": "청주남부"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303008301501",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3258",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성티앤이"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10300
+      ],
+      "초등생": [
+        5200
+      ],
+      "중고생": [
+        8200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영동"
+        },
+        {
+          "name": "(구)영동"
+        },
+        {
+          "name": "영동(시장)"
+        },
+        {
+          "name": "심천"
+        },
+        {
+          "name": "옥계리"
+        },
+        {
+          "name": "이원"
+        },
+        {
+          "name": "옥천"
+        },
+        {
+          "name": "청주남부"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303008301501",
+    "pattern": {
+      "type": "unknown"
+    }
+  }
 ]
