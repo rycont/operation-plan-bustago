@@ -1,72 +1,148 @@
 [
-    {
-        "departureTerminalId": "2044",
-        "arrivalTerminalId": "7033",
-        "durationInMinutes": [0],
-        "operator": ["㈜금강고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
-        },
-        "stops": [
-            [
-                "속초",
-                "백담사입구",
-                "원통",
-                "인제",
-                "홍천",
-                "횡성",
-                "우산동",
-                "원주",
-                "유성시외",
-                "전주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2044",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 55
     },
-    {
-        "departureTerminalId": "2044",
-        "arrivalTerminalId": "7033",
-        "durationInMinutes": [0],
-        "operator": ["㈜금강고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 0
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [28300],
-            "초등생": [14200],
-            "중고생": [22600]
+        {
+          "name": "백담사입구"
         },
-        "stops": [
-            [
-                "속초",
-                "백담사입구",
-                "원통",
-                "인제",
-                "홍천",
-                "횡성",
-                "우산동",
-                "원주",
-                "유성시외",
-                "전주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "원통"
+        },
+        {
+          "name": "인제"
+        },
+        {
+          "name": "홍천"
+        },
+        {
+          "name": "횡성"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "전주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019703304",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2044",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28300
+      ],
+      "초등생": [
+        14200
+      ],
+      "중고생": [
+        22600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "백담사입구"
+        },
+        {
+          "name": "원통"
+        },
+        {
+          "name": "인제"
+        },
+        {
+          "name": "홍천"
+        },
+        {
+          "name": "횡성"
+        },
+        {
+          "name": "우산동"
+        },
+        {
+          "name": "원주"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019703304",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
