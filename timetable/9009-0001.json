@@ -1,383 +1,944 @@
 [
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["프리미엄우등", "프리미엄우등(주말)"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [48300, 53700],
-            "초등생": [24200, 26900],
-            "중고생": [38600, 43000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
     },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
+        {
+          "name": "양산"
         },
-        "stops": [["부산해운대(수도권)", "좌천", "동서울"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "동서울"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["프리미엄우등", "프리미엄우등(주말)"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [48300, 53700],
-            "초등생": [24200, 26900],
-            "중고생": [38600, 43000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "좌천", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["심야우등1"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [49600],
-            "초등생": [24800],
-            "중고생": [39700]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["프리미엄우등(주말)"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [53700],
-            "초등생": [26900],
-            "중고생": [43000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "specific-day",
-            "days": []
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "specific-day",
-            "days": []
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["프리미엄우등(주말)"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [53700],
-            "초등생": [26900],
-            "중고생": [43000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "specific-day",
-            "days": []
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "specific-day",
-            "days": []
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "specific-day",
-            "days": []
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "specific-day",
-            "days": []
-        }
-    },
-    {
-        "departureTerminalId": "9009",
-        "arrivalTerminalId": "0001",
-        "durationInMinutes": [300],
-        "operator": ["경남고속뉴부산"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [41300],
-            "초등생": [20700],
-            "중고생": [33000]
-        },
-        "stops": [["부산해운대(수도권)", "양산", "동서울"]],
-        "pattern": {
-            "type": "specific-day",
-            "days": []
-        }
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        48300,
+        53700
+      ],
+      "초등생": [
+        24200,
+        26900
+      ],
+      "중고생": [
+        38600,
+        43000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등",
+        "프리미엄우등(주말)"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "좌천"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000106",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        48300,
+        53700
+      ],
+      "초등생": [
+        24200,
+        26900
+      ],
+      "중고생": [
+        38600,
+        43000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등",
+        "프리미엄우등(주말)"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "좌천"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000106",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        49600
+      ],
+      "초등생": [
+        24800
+      ],
+      "중고생": [
+        39700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        48300,
+        53700
+      ],
+      "초등생": [
+        24200,
+        26900
+      ],
+      "중고생": [
+        38600,
+        43000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등",
+        "프리미엄우등(주말)"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        48300,
+        53700
+      ],
+      "초등생": [
+        24200,
+        26900
+      ],
+      "중고생": [
+        38600,
+        43000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등",
+        "프리미엄우등(주말)"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9009",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41300
+      ],
+      "초등생": [
+        20700
+      ],
+      "중고생": [
+        33000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        6,
+        7
+      ]
+    }
+  }
 ]
