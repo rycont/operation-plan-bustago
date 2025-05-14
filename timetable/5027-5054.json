@@ -1,38 +1,78 @@
 [
-    {
-        "departureTerminalId": "5027",
-        "arrivalTerminalId": "5054",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 35
+  {
+    "departureTerminalId": "5027",
+    "arrivalTerminalId": "5054",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        10000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구미"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [11100],
-            "초등생": [5600],
-            "중고생": [10000]
+        {
+          "name": "상주"
         },
-        "stops": [
-            [
-                "구미",
-                "상주",
-                "점촌",
-                "예천",
-                "예천삼거리",
-                "신도청",
-                "안동",
-                "상운",
-                "봉화",
-                "춘양",
-                "울진"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "예천삼거리"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "상운"
+        },
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "춘양"
+        },
+        {
+          "name": "울진"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505011505401",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
