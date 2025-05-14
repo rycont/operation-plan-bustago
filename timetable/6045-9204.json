@@ -1,288 +1,726 @@
 [
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [["부산서부", "남지", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 55
     },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [["부산서부", "남지", "영산", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
     },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 50
+    "stops": [
+      [
+        {
+          "name": "부산서부"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
+        {
+          "name": "남지"
         },
-        "stops": [["부산서부", "남지", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [["부산서부", "남지", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [["부산서부", "남지", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["천일여객㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [6300],
-            "초등생": [3200],
-            "중고생": [5000]
-        },
-        "stops": [["부산서부", "남지", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [["부산서부", "남지", "영산", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [["부산서부", "남지", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [["부산서부", "남지", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [["부산서부", "남지", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [["부산서부", "남지", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [["부산서부", "남지", "영산", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6045",
-        "arrivalTerminalId": "9204",
-        "durationInMinutes": [0],
-        "operator": ["천일여객㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [6300],
-            "초등생": [3200],
-            "중고생": [5000]
-        },
-        "stops": [["부산서부", "남지", "창녕", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "영산"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6300
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "영산"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "영산"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6045",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6300
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
