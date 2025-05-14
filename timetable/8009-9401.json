@@ -1,139 +1,378 @@
 [
-    {
-        "departureTerminalId": "8009",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [4800]
-        },
-        "stops": [["나주", "나주혁신도시", "광주(유ㆍ스퀘어)", "대구서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8009",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 55
     },
-    {
-        "departureTerminalId": "8009",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 8
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [4300],
-            "초등생": [2200],
-            "중고생": [3400]
-        },
-        "stops": [["나주", "나주혁신도시", "진월동", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        4800
+      ]
     },
-    {
-        "departureTerminalId": "8009",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 15
+    "stops": [
+      [
+        {
+          "name": "나주"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
+        {
+          "name": "나주혁신도시"
         },
-        "stops": [["나주", "나주혁신도시", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "대구서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "8009",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [4800, 5400]
-        },
-        "stops": [
-            ["나주", "나주혁신도시", "광주(유ㆍ스퀘어)"],
-            ["나주", "나주혁신도시", "광주(유ㆍ스퀘어)", "대구서부"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2, 2, 2, 2],
-            "irregularDays": [1, 1, 1, 1]
-        }
-    },
-    {
-        "departureTerminalId": "8009",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [["나주", "나주혁신도시", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8009",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [4300],
-            "초등생": [2200],
-            "중고생": [3400]
-        },
-        "stops": [["나주", "나주혁신도시", "진월동", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "808009920401",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8009",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 8
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4300
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나주"
+        },
+        {
+          "name": "나주혁신도시"
+        },
+        {
+          "name": "진월동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808009940103",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8009",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나주"
+        },
+        {
+          "name": "나주혁신도시"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808009940104",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8009",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        4800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나주"
+        },
+        {
+          "name": "나주혁신도시"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808009920401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8009",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나주"
+        },
+        {
+          "name": "나주혁신도시"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808009940104",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8009",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나주"
+        },
+        {
+          "name": "나주혁신도시"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808009940104",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8009",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4300
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나주"
+        },
+        {
+          "name": "나주혁신도시"
+        },
+        {
+          "name": "진월동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808009940103",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

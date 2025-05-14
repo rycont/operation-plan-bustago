@@ -1,46 +1,106 @@
 [
-    {
-        "departureTerminalId": "7094",
-        "arrivalTerminalId": "7001",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5000],
-            "초등생": [2500],
-            "중고생": [4000]
-        },
-        "stops": [["전주", "남노송동", "강진(전북)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "7094",
+    "arrivalTerminalId": "7001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "7094",
-        "arrivalTerminalId": "7001",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5000
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5000],
-            "초등생": [2500],
-            "중고생": [4000]
+        {
+          "name": "남노송동"
         },
-        "stops": [["전주", "남노송동", "강진(전북)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "강진(전북)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707033700101",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "7094",
+    "arrivalTerminalId": "7001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5000
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "남노송동"
+        },
+        {
+          "name": "강진(전북)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707033700101",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
