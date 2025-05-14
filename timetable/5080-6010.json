@@ -1,90 +1,234 @@
 [
-    {
-        "departureTerminalId": "5080",
-        "arrivalTerminalId": "6010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13800],
-            "초등생": [6900],
-            "중고생": [11000]
-        },
-        "stops": [["구미", "구미공단", "구미주공", "마산", "창원"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5080",
+    "arrivalTerminalId": "6010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 5
     },
-    {
-        "departureTerminalId": "5080",
-        "arrivalTerminalId": "6010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13800],
-            "초등생": [6900],
-            "중고생": [11000]
-        },
-        "stops": [["구미", "구미공단", "구미주공", "마산", "창원"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13800
+      ],
+      "초등생": [
+        6900
+      ],
+      "중고생": [
+        11000
+      ]
     },
-    {
-        "departureTerminalId": "5080",
-        "arrivalTerminalId": "6010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 35
+    "stops": [
+      [
+        {
+          "name": "구미"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13800],
-            "초등생": [6900],
-            "중고생": [11000]
+        {
+          "name": "구미공단"
         },
-        "stops": [["구미", "구미공단", "구미주공", "마산", "창원"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "5080",
-        "arrivalTerminalId": "6010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [13800],
-            "초등생": [6900],
-            "중고생": [11000]
-        },
-        "stops": [["구미", "구미공단", "구미주공", "마산", "창원"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "505011602801",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5080",
+    "arrivalTerminalId": "6010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13800
+      ],
+      "초등생": [
+        6900
+      ],
+      "중고생": [
+        11000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구미"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505011602801",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5080",
+    "arrivalTerminalId": "6010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13800
+      ],
+      "초등생": [
+        6900
+      ],
+      "중고생": [
+        11000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구미"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505011602801",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5080",
+    "arrivalTerminalId": "6010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13800
+      ],
+      "초등생": [
+        6900
+      ],
+      "중고생": [
+        11000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구미"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505011602801",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

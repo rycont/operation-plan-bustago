@@ -8,45 +8,114 @@
     "operator": [
       "영화여객(자주)"
     ],
-    "busClass": [
-      "일반"
+    "departureTime": {
+      "hour": 9,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10300
+      ],
+      "초등생": [
+        5200
+      ],
+      "중고생": [
+        8200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "마산"
+        },
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606010800604",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6010",
+    "arrivalTerminalId": "8019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
     ],
     "departureTime": {
       "hour": 9,
       "minute": 15
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
     "fare": {
       "어른": [
-        10300,
         11300
       ],
       "초등생": [
-        5200,
         5700
       ],
       "중고생": [
-        8200,
         9000
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2,
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1,
-        1,
-        1
+    "stops": [
+      [
+        {
+          "name": "마산"
+        },
+        {
+          "name": "진주"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        }
       ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606010800602",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]

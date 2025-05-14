@@ -1,46 +1,118 @@
 [
-    {
-        "departureTerminalId": "8050",
-        "arrivalTerminalId": "9442",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [23600],
-            "초등생": [11800],
-            "중고생": [18900]
-        },
-        "stops": [["완도", "원동", "해남", "우산동(하남)", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8050",
+    "arrivalTerminalId": "9442",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 35
     },
-    {
-        "departureTerminalId": "8050",
-        "arrivalTerminalId": "9442",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 20
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23600
+      ],
+      "초등생": [
+        11800
+      ],
+      "중고생": [
+        18900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "완도"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [19700],
-            "초등생": [9900],
-            "중고생": [15800]
+        {
+          "name": "원동"
         },
-        "stops": [["완도", "원동", "해남", "우산동(하남)", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "해남"
+        },
+        {
+          "name": "우산동(하남)"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808050940113",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8050",
+    "arrivalTerminalId": "9442",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19700
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "완도"
+        },
+        {
+          "name": "원동"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "우산동(하남)"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808050940113",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

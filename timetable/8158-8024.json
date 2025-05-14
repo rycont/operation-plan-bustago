@@ -1,200 +1,470 @@
 [
-    {
-        "departureTerminalId": "8158",
-        "arrivalTerminalId": "8024",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
-        },
-        "stops": [["녹진", "우수영", "목포"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8158",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 45
     },
-    {
-        "departureTerminalId": "8158",
-        "arrivalTerminalId": "8024",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
-        },
-        "stops": [["녹진", "우수영", "목포"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
     },
-    {
-        "departureTerminalId": "8158",
-        "arrivalTerminalId": "8024",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 15
+    "stops": [
+      [
+        {
+          "name": "녹진"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
+        {
+          "name": "우수영"
         },
-        "stops": [["녹진", "우수영", "목포"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "목포"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "8158",
-        "arrivalTerminalId": "8024",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
-        },
-        "stops": [["녹진", "우수영", "목포"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8158",
-        "arrivalTerminalId": "8024",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
-        },
-        "stops": [["녹진", "우수영", "목포"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8158",
-        "arrivalTerminalId": "8024",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
-        },
-        "stops": [["녹진", "우수영", "목포"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8158",
-        "arrivalTerminalId": "8024",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
-        },
-        "stops": [["녹진", "우수영", "목포"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8158",
-        "arrivalTerminalId": "8024",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [7500],
-            "초등생": [3800],
-            "중고생": [6000]
-        },
-        "stops": [["녹진", "우수영", "목포"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8158",
-        "arrivalTerminalId": "8024",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
-        },
-        "stops": [["녹진", "우수영", "목포"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "808159802401",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8158",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808159802401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8158",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808159802401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8158",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808159802401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8158",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808159802401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8158",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808159802401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8158",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808159802401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8158",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7500
+      ],
+      "초등생": [
+        3800
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808159802401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8158",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808159802401",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
