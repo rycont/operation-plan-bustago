@@ -1,76 +1,160 @@
 [
-    {
-        "departureTerminalId": "3094",
-        "arrivalTerminalId": "1043",
-        "durationInMinutes": [187],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [17400],
-            "초등생": [8700],
-            "중고생": [13900]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "청주",
-                "신갈영덕",
-                "영통입구",
-                "아주대",
-                "수원터미널"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "3094",
+    "arrivalTerminalId": "1043",
+    "durationInMinutes": [
+      187
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "3094",
-        "arrivalTerminalId": "1043",
-        "durationInMinutes": [187],
-        "operator": ["새서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 30
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17400
+      ],
+      "초등생": [
+        8700
+      ],
+      "중고생": [
+        13900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [17400],
-            "초등생": [8700],
-            "중고생": [13900]
+        {
+          "name": "상판"
         },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "청주",
-                "신갈영덕",
-                "영통입구",
-                "아주대",
-                "수원터미널"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "신갈영덕"
+        },
+        {
+          "name": "영통입구"
+        },
+        {
+          "name": "아주대"
+        },
+        {
+          "name": "수원터미널"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079101203",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "3094",
+    "arrivalTerminalId": "1043",
+    "durationInMinutes": [
+      187
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17400
+      ],
+      "초등생": [
+        8700
+      ],
+      "중고생": [
+        13900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "신갈영덕"
+        },
+        {
+          "name": "영통입구"
+        },
+        {
+          "name": "아주대"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303079101203",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

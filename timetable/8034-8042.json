@@ -8,17 +8,11 @@
     "operator": [
       "㈜광우고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 6,
       "minute": 45
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         14400
@@ -30,6 +24,59 @@
         11500
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "독천"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808034804102",
     "pattern": {
       "type": "everyday"
     }
@@ -43,17 +90,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 8,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
     "fare": {
       "어른": [
         14400
@@ -65,6 +106,38 @@
         11500
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808024804112",
     "pattern": {
       "type": "everyday"
     }
@@ -77,18 +150,12 @@
     ],
     "operator": [
       "㈜광우고속"
-    ],
-    "busClass": [
-      "시외우등"
     ],
     "departureTime": {
       "hour": 9,
       "minute": 15
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         18700
@@ -100,6 +167,38 @@
         15000
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808024804112",
     "pattern": {
       "type": "everyday"
     }
@@ -108,53 +207,143 @@
     "departureTerminalId": "8034",
     "arrivalTerminalId": "8042",
     "durationInMinutes": [
-      0,
-      180
+      0
     ],
     "operator": [
       "㈜광우고속"
-    ],
-    "busClass": [
-      "시외우등",
-      "일반"
     ],
     "departureTime": {
       "hour": 12,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0,
-      28
-    ],
     "fare": {
       "어른": [
-        14400,
         18700
       ],
       "초등생": [
-        7200,
         9400
       ],
       "중고생": [
-        11500,
         15000
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2,
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1,
-        1,
-        1
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
       ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808024804112",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8034",
+    "arrivalTerminalId": "8042",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14400
+      ],
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "독천"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808034804102",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
@@ -165,18 +354,12 @@
     ],
     "operator": [
       "㈜광우고속"
-    ],
-    "busClass": [
-      "시외우등"
     ],
     "departureTime": {
       "hour": 14,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         18700
@@ -188,6 +371,38 @@
         15000
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808024804112",
     "pattern": {
       "type": "everyday"
     }
@@ -200,18 +415,12 @@
     ],
     "operator": [
       "㈜광우고속"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 15,
       "minute": 0
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         14400
@@ -223,6 +432,59 @@
         11500
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "독천"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808034804102",
     "pattern": {
       "type": "everyday"
     }
@@ -236,17 +498,11 @@
     "operator": [
       "㈜광우고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 15,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         18700
@@ -258,6 +514,38 @@
         15000
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808024804112",
     "pattern": {
       "type": "everyday"
     }
@@ -271,17 +559,11 @@
     "operator": [
       "㈜광우고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 17,
       "minute": 55
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         14400
@@ -293,6 +575,59 @@
         11500
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "독천"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808034804102",
     "pattern": {
       "type": "everyday"
     }
@@ -306,17 +641,11 @@
     "operator": [
       "㈜광우고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 20,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         18700
@@ -328,6 +657,38 @@
         15000
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808024804112",
     "pattern": {
       "type": "everyday"
     }

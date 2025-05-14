@@ -1,24 +1,57 @@
 [
-    {
-        "departureTerminalId": "7006",
-        "arrivalTerminalId": "9614",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 30
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        38600
+      ],
+      "초등생": [
+        19300
+      ],
+      "중고생": [
+        30900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "군산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [38600],
-            "초등생": [19300],
-            "중고생": [30900]
+        {
+          "name": "익산"
         },
-        "stops": [["군산", "익산", "울산신복", "울산"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707006960101",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

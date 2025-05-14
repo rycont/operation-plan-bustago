@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "3002",
-        "arrivalTerminalId": "3252",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 0
+  {
+    "departureTerminalId": "3002",
+    "arrivalTerminalId": "3252",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3700
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구인사"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3700],
-            "초등생": [1900],
-            "중고생": [2600]
-        },
-        "stops": [["구인사", "사평리"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "사평리"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303002325201",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

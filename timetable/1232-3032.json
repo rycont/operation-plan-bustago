@@ -1,37 +1,75 @@
 [
-    {
-        "departureTerminalId": "1232",
-        "arrivalTerminalId": "3032",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 30
+  {
+    "departureTerminalId": "1232",
+    "arrivalTerminalId": "3032",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        6300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안성"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [6300]
+        {
+          "name": "장호원공용"
         },
-        "stops": [
-            [
-                "안성",
-                "장호원공용",
-                "감곡",
-                "용포",
-                "목계",
-                "엄정",
-                "산척",
-                "백운",
-                "봉양",
-                "제천"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "용포"
+        },
+        {
+          "name": "목계"
+        },
+        {
+          "name": "엄정"
+        },
+        {
+          "name": "산척"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "봉양"
+        },
+        {
+          "name": "제천"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101232301101",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

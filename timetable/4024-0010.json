@@ -9,17 +9,11 @@
       "㈜충남고속",
       "㈜한양고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 7,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         24400
@@ -31,6 +25,38 @@
         19500
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "보령"
+        },
+        {
+          "name": "홍성"
+        },
+        {
+          "name": "내포"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404024933702",
     "pattern": {
       "type": "everyday"
     }

@@ -1,45 +1,99 @@
 [
-    {
-        "departureTerminalId": "5027",
-        "arrivalTerminalId": "5391",
-        "durationInMinutes": [0],
-        "operator": ["경북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 50
+  {
+    "departureTerminalId": "5027",
+    "arrivalTerminalId": "5391",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태백"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
+        {
+          "name": "육송정"
         },
-        "stops": [
-            [
-                "태백",
-                "육송정",
-                "광업소",
-                "대현",
-                "황평",
-                "현동",
-                "춘양",
-                "법전",
-                "봉화",
-                "부대",
-                "상운",
-                "원천",
-                "옹천",
-                "안기동",
-                "안동봉화축협건너",
-                "안동(태화)",
-                "안동",
-                "대구북부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "광업소"
+        },
+        {
+          "name": "대현"
+        },
+        {
+          "name": "황평"
+        },
+        {
+          "name": "현동"
+        },
+        {
+          "name": "춘양"
+        },
+        {
+          "name": "법전"
+        },
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "부대"
+        },
+        {
+          "name": "상운"
+        },
+        {
+          "name": "원천"
+        },
+        {
+          "name": "옹천"
+        },
+        {
+          "name": "안기동"
+        },
+        {
+          "name": "안동봉화축협건너"
+        },
+        {
+          "name": "안동(태화)"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "대구북부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202039920208",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

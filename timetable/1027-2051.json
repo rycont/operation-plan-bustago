@@ -1,68 +1,158 @@
 [
-    {
-        "departureTerminalId": "1027",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [27100],
-            "초등생": [13600],
-            "중고생": [21700]
-        },
-        "stops": [["의정부", "장평", "강릉"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1027",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "1027",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [27100],
-            "초등생": [13600],
-            "중고생": [21700]
-        },
-        "stops": [["의정부", "장평", "강릉"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27100
+      ],
+      "초등생": [
+        13600
+      ],
+      "중고생": [
+        21700
+      ]
     },
-    {
-        "departureTerminalId": "1027",
-        "arrivalTerminalId": "2051",
-        "durationInMinutes": [0],
-        "operator": ["강원여객"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "의정부"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [27100],
-            "초등생": [13600],
-            "중고생": [21700]
+        {
+          "name": "장평"
         },
-        "stops": [["의정부", "장평", "강릉"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "강릉"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101027205106",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1027",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27100
+      ],
+      "초등생": [
+        13600
+      ],
+      "중고생": [
+        21700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "의정부"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101027205106",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1027",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27100
+      ],
+      "초등생": [
+        13600
+      ],
+      "중고생": [
+        21700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "의정부"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101027205106",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

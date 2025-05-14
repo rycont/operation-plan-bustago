@@ -1,90 +1,249 @@
 [
-    {
-        "departureTerminalId": "7006",
-        "arrivalTerminalId": "4010",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [16800],
-            "초등생": [8400],
-            "중고생": [13400]
-        },
-        "stops": [["군산", "보령", "해미", "서산", "어송", "태안"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "4010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 20
     },
-    {
-        "departureTerminalId": "7006",
-        "arrivalTerminalId": "4010",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [16800],
-            "초등생": [8400],
-            "중고생": [13400]
-        },
-        "stops": [["군산", "보령", "고북", "해미", "서산", "어송", "태안"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16800
+      ],
+      "초등생": [
+        8400
+      ],
+      "중고생": [
+        13400
+      ]
     },
-    {
-        "departureTerminalId": "7006",
-        "arrivalTerminalId": "4010",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "군산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [16800],
-            "초등생": [8400],
-            "중고생": [13400]
+        {
+          "name": "보령"
         },
-        "stops": [["군산", "보령", "해미", "서산", "어송", "태안"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "해미"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "태안"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "7006",
-        "arrivalTerminalId": "4010",
-        "durationInMinutes": [0],
-        "operator": ["㈜충남고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [16800],
-            "초등생": [8400],
-            "중고생": [13400]
-        },
-        "stops": [["군산", "보령", "해미", "서산", "어송", "태안"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "707006402102",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "4010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16800
+      ],
+      "초등생": [
+        8400
+      ],
+      "중고생": [
+        13400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "군산"
+        },
+        {
+          "name": "보령"
+        },
+        {
+          "name": "고북"
+        },
+        {
+          "name": "해미"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "태안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707006402101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "4010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16800
+      ],
+      "초등생": [
+        8400
+      ],
+      "중고생": [
+        13400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "군산"
+        },
+        {
+          "name": "보령"
+        },
+        {
+          "name": "해미"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "태안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707006402102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "4010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16800
+      ],
+      "초등생": [
+        8400
+      ],
+      "중고생": [
+        13400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "군산"
+        },
+        {
+          "name": "보령"
+        },
+        {
+          "name": "해미"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "태안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707006402102",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

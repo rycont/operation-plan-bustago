@@ -1,112 +1,307 @@
 [
-    {
-        "departureTerminalId": "7006",
-        "arrivalTerminalId": "3102",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [14900],
-            "초등생": [7500],
-            "중고생": [11900]
-        },
-        "stops": [["군산", "대야", "익산", "유성시외", "남청주", "청주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "3102",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 20
     },
-    {
-        "departureTerminalId": "7006",
-        "arrivalTerminalId": "3102",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [14900],
-            "초등생": [7500],
-            "중고생": [11900]
-        },
-        "stops": [["군산", "대야", "익산", "유성시외", "남청주", "청주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14900
+      ],
+      "초등생": [
+        7500
+      ],
+      "중고생": [
+        11900
+      ]
     },
-    {
-        "departureTerminalId": "7006",
-        "arrivalTerminalId": "3102",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "군산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [14900],
-            "초등생": [7500],
-            "중고생": [11900]
+        {
+          "name": "대야"
         },
-        "stops": [["군산", "대야", "익산", "유성시외", "남청주", "청주"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "익산"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "7006",
-        "arrivalTerminalId": "3102",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [14900],
-            "초등생": [7500],
-            "중고생": [11900]
-        },
-        "stops": [["군산", "대야", "익산", "유성시외", "남청주", "청주"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "7006",
-        "arrivalTerminalId": "3102",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [14900],
-            "초등생": [7500],
-            "중고생": [11900]
-        },
-        "stops": [["군산", "대야", "익산", "유성시외", "남청주", "청주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "707006301502",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "3102",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14900
+      ],
+      "초등생": [
+        7500
+      ],
+      "중고생": [
+        11900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "군산"
+        },
+        {
+          "name": "대야"
+        },
+        {
+          "name": "익산"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707006301502",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "3102",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14900
+      ],
+      "초등생": [
+        7500
+      ],
+      "중고생": [
+        11900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "군산"
+        },
+        {
+          "name": "대야"
+        },
+        {
+          "name": "익산"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707006301502",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "3102",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14900
+      ],
+      "초등생": [
+        7500
+      ],
+      "중고생": [
+        11900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "군산"
+        },
+        {
+          "name": "대야"
+        },
+        {
+          "name": "익산"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707006301502",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "3102",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14900
+      ],
+      "초등생": [
+        7500
+      ],
+      "중고생": [
+        11900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "군산"
+        },
+        {
+          "name": "대야"
+        },
+        {
+          "name": "익산"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707006301502",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

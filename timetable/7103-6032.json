@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         6700
@@ -30,6 +24,26 @@
         5400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "남원북부"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707103603201",
     "pattern": {
       "type": "everyday"
     }

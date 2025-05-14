@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 7,
       "minute": 0
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         2400
@@ -30,6 +24,41 @@
         2000
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "원지"
+        },
+        {
+          "name": "문대"
+        },
+        {
+          "name": "외고"
+        },
+        {
+          "name": "단계"
+        },
+        {
+          "name": "청산"
+        },
+        {
+          "name": "법물"
+        },
+        {
+          "name": "손항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606282617901",
     "pattern": {
       "type": "everyday"
     }

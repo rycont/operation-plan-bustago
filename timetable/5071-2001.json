@@ -1,24 +1,66 @@
 [
-    {
-        "departureTerminalId": "5071",
-        "arrivalTerminalId": "2001",
-        "durationInMinutes": [0],
-        "operator": ["㈜금아여행"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 0
+  {
+    "departureTerminalId": "5071",
+    "arrivalTerminalId": "2001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        43700
+      ],
+      "초등생": [
+        21900
+      ],
+      "중고생": [
+        35000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [43700],
-            "초등생": [21900],
-            "중고생": [35000]
+        {
+          "name": "포항"
         },
-        "stops": [["부산동부", "포항", "울진", "강릉", "속초", "간성", "거진"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "울진"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "속초"
+        },
+        {
+          "name": "간성"
+        },
+        {
+          "name": "거진"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909001200409",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

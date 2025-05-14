@@ -1,46 +1,124 @@
 [
-    {
-        "departureTerminalId": "2025",
-        "arrivalTerminalId": "3011",
-        "durationInMinutes": [40],
-        "operator": ["영암고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
-        },
-        "stops": [["태백", "고한사북공영", "신동", "영월", "제천", "원주"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2025",
+    "arrivalTerminalId": "3011",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 5
     },
-    {
-        "departureTerminalId": "2025",
-        "arrivalTerminalId": "3011",
-        "durationInMinutes": [40],
-        "operator": ["영암고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 15
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태백"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
+        {
+          "name": "고한사북공영"
         },
-        "stops": [["태백", "고한사북공영", "신동", "영월", "제천", "원주"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "신동"
+        },
+        {
+          "name": "영월"
+        },
+        {
+          "name": "제천"
+        },
+        {
+          "name": "원주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202039202803",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2025",
+    "arrivalTerminalId": "3011",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "신동"
+        },
+        {
+          "name": "영월"
+        },
+        {
+          "name": "제천"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202039202803",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

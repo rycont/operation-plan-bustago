@@ -8,17 +8,11 @@
     "operator": [
       "㈜아성고속"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 15,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         36800
@@ -30,6 +24,32 @@
         25800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "성남"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "태화로타리"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101010960104",
     "pattern": {
       "type": "everyday"
     }

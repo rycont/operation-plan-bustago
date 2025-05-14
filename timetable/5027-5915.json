@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         2000
@@ -30,6 +24,26 @@
         1600
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "공단,재산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505027591501",
     "pattern": {
       "type": "everyday"
     }

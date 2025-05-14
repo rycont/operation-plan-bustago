@@ -1,156 +1,401 @@
 [
-    {
-        "departureTerminalId": "8034",
-        "arrivalTerminalId": "8006",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["프리미엄우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [19000],
-            "초등생": [9500],
-            "중고생": [15200]
-        },
-        "stops": [["목포", "남악", "삼호", "광양", "동광양(중마)", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8034",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 50
     },
-    {
-        "departureTerminalId": "8034",
-        "arrivalTerminalId": "8006",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["프리미엄우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [19000],
-            "초등생": [9500],
-            "중고생": [15200]
-        },
-        "stops": [
-            ["진도", "목포", "남악", "삼호", "광양", "동광양(중마)", "부산서부"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19000
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        15200
+      ]
     },
-    {
-        "departureTerminalId": "8034",
-        "arrivalTerminalId": "8006",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 35
+    "stops": [
+      [
+        {
+          "name": "목포"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [11200],
-            "초등생": [5600],
-            "중고생": [9000]
+        {
+          "name": "남악"
         },
-        "stops": [
-            [
-                "목포",
-                "삼호",
-                "독천",
-                "성전",
-                "강진",
-                "장흥",
-                "배산",
-                "보성",
-                "예당",
-                "조성",
-                "벌교",
-                "순천",
-                "광양",
-                "동광양(중마)",
-                "부산서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "부산서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
     },
-    {
-        "departureTerminalId": "8034",
-        "arrivalTerminalId": "8006",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [14600],
-            "초등생": [7300],
-            "중고생": [11700]
-        },
-        "stops": [["목포", "남악", "삼호", "광양", "동광양(중마)", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8034",
-        "arrivalTerminalId": "8006",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [14600],
-            "초등생": [7300],
-            "중고생": [11700]
-        },
-        "stops": [
-            ["진도", "목포", "남악", "삼호", "광양", "동광양(중마)", "부산서부"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "8034",
-        "arrivalTerminalId": "8006",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["프리미엄우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21],
-        "fare": {
-            "어른": [19000],
-            "초등생": [9500],
-            "중고생": [15200]
-        },
-        "stops": [["목포", "남악", "삼호", "광양", "동광양(중마)", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "808024900202",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8034",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19000
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        15200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진도"
+        },
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "808059900203",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8034",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11200
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        9000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "독천"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808024900206",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8034",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14600
+      ],
+      "초등생": [
+        7300
+      ],
+      "중고생": [
+        11700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808024900202",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8034",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14600
+      ],
+      "초등생": [
+        7300
+      ],
+      "중고생": [
+        11700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진도"
+        },
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808059900203",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8034",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19000
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        15200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "808024900202",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

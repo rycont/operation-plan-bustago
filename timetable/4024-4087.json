@@ -8,17 +8,11 @@
     "operator": [
       "㈜충남고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 20,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         5200
@@ -30,6 +24,41 @@
         4200
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "보령"
+        },
+        {
+          "name": "청양"
+        },
+        {
+          "name": "비봉"
+        },
+        {
+          "name": "홍성"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "응봉"
+        },
+        {
+          "name": "예산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404024401503",
     "pattern": {
       "type": "everyday"
     }
