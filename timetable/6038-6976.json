@@ -1,39 +1,81 @@
 [
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6976",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 5
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6976",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        4200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [5200],
-            "초등생": [2600],
-            "중고생": [4200]
+        {
+          "name": "경상대(칠암)"
         },
-        "stops": [
-            [
-                "진주(경원)",
-                "경상대(칠암)",
-                "진주(개양)",
-                "사천",
-                "상리",
-                "부포",
-                "고성",
-                "통영터미널",
-                "사곡",
-                "고현거제도",
-                "옥포",
-                "장승포"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "상리"
+        },
+        {
+          "name": "부포"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "사곡"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "옥포"
+        },
+        {
+          "name": "장승포"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042645503",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

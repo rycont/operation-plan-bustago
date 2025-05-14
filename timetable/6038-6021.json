@@ -1,1179 +1,2680 @@
 [
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 50
     },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일", "영화여객(자주)"],
-        "busClass": ["시외우등", "일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28, 41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "광양",
-                "순천북부",
-                "순천"
-            ],
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동"
-            ]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2, 2, 2, 2],
-            "irregularDays": [1, 1, 1, 1]
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 50
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
+        {
+          "name": "경상대(칠암)"
         },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "마산",
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "동광양(중마)",
-                "광양"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            ["진주", "경상대(칠암)", "진주(개양)", "진교", "순천북부", "순천"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "광양",
-                "순천북부",
-                "순천"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            ["진주", "경상대(칠암)", "진주(개양)", "진교", "순천북부", "순천"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "왕지",
-                "진목",
-                "남해남양",
-                "문의",
-                "문항",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "광양",
-                "순천북부",
-                "순천"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동",
-                "악양",
-                "화개공용",
-                "쌍계사",
-                "의신"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "양포",
-                "술상",
-                "상촌",
-                "대치",
-                "대교",
-                "차면",
-                "대사",
-                "도마",
-                "남해"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6816",
-        "arrivalTerminalId": "6021",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일", "공통", "남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [3300],
-            "초등생": [1700],
-            "중고생": [2600]
-        },
-        "stops": [
-            ["진주(경전)", "경상대(칠암)", "진교"],
-            ["진주(남흥)", "경상대(칠암)", "진교"],
-            ["진주", "경상대(칠암)", "진교"]
-        ],
-        "pattern": {
-            "type": "unknown"
-        }
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "순천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606414803804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039603003",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039603003",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039603003",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "마산"
+        },
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606010800604",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039603003",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039603003",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "순천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606414803805",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039603003",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "순천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606414803804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039603003",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039603003",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "순천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606414803805",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039603003",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "왕지"
+        },
+        {
+          "name": "진목"
+        },
+        {
+          "name": "남해남양"
+        },
+        {
+          "name": "문의"
+        },
+        {
+          "name": "문항"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600705",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "순천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606414803804",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        },
+        {
+          "name": "악양"
+        },
+        {
+          "name": "화개공용"
+        },
+        {
+          "name": "쌍계사"
+        },
+        {
+          "name": "의신"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039682002",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039603003",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "대교"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "남해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600704",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6816",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진교"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606816602101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "6048",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경전)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진교"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606048602101",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진교"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606414602101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6038",
+    "arrivalTerminalId": "6021",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(남흥)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진교"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606038602101",
+    "pattern": {
+      "type": "unknown"
+    }
+  }
 ]

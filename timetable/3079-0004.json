@@ -1,74 +1,154 @@
 [
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19900],
-            "초등생": [10000],
-            "중고생": [15900]
-        },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "충북대병원",
-                "청주",
-                "석소",
-                "서울남부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 25
     },
-    {
-        "departureTerminalId": "3079",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["새서울고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19900
+      ],
+      "초등생": [
+        10000
+      ],
+      "중고생": [
+        15900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19900],
-            "초등생": [10000],
-            "중고생": [15900]
+        {
+          "name": "상판"
         },
-        "stops": [
-            [
-                "속리산",
-                "상판",
-                "보은",
-                "보은북부",
-                "창리",
-                "미원",
-                "남청주",
-                "충북대병원",
-                "청주",
-                "석소",
-                "서울남부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "충북대병원"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "석소"
+        },
+        {
+          "name": "서울남부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303079000403",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "3079",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19900
+      ],
+      "초등생": [
+        10000
+      ],
+      "중고생": [
+        15900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속리산"
+        },
+        {
+          "name": "상판"
+        },
+        {
+          "name": "보은"
+        },
+        {
+          "name": "보은북부"
+        },
+        {
+          "name": "창리"
+        },
+        {
+          "name": "미원"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "충북대병원"
+        },
+        {
+          "name": "청주"
+        },
+        {
+          "name": "석소"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303079000403",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

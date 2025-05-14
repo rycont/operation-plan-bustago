@@ -1,46 +1,112 @@
 [
-    {
-        "departureTerminalId": "1942",
-        "arrivalTerminalId": "9302",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [4800],
-            "초등생": [2400],
-            "중고생": [3400]
-        },
-        "stops": [["평택", "안중", "향남터미널", "인천"]],
-        "pattern": {
-            "type": "unknown"
-        }
+  {
+    "departureTerminalId": "1942",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "1942",
-        "arrivalTerminalId": "9302",
-        "durationInMinutes": [0],
-        "operator": ["대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 50
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4800
+      ],
+      "초등생": [
+        2400
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평택"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [4800],
-            "초등생": [2400],
-            "중고생": [3400]
+        {
+          "name": "안중"
         },
-        "stops": [["평택", "안중", "향남터미널", "인천"]],
-        "pattern": {
-            "type": "unknown"
+        {
+          "name": "향남터미널"
+        },
+        {
+          "name": "인천"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101035930209",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1942",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4800
+      ],
+      "초등생": [
+        2400
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평택"
+        },
+        {
+          "name": "안중"
+        },
+        {
+          "name": "향남터미널"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101035930209",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

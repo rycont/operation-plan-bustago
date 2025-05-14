@@ -1,95 +1,185 @@
 [
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "3015",
-        "durationInMinutes": [0],
-        "operator": ["경원여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [21800],
-            "초등생": [10900],
-            "중고생": [17400]
-        },
-        "stops": [
-            [
-                "고현거제도",
-                "통영터미널",
-                "진주(경원)",
-                "경상대(칠암)",
-                "진주(개양)",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 5
     },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "3015",
-        "durationInMinutes": [0],
-        "operator": ["대성티앤이"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [21800],
-            "초등생": [10900],
-            "중고생": [17400]
-        },
-        "stops": [
-            [
-                "고현거제도",
-                "통영터미널",
-                "진주(경원)",
-                "경상대(칠암)",
-                "진주(개양)",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
     },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "3015",
-        "durationInMinutes": [0],
-        "operator": ["대성티앤이"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 50
+    "stops": [
+      [
+        {
+          "name": "고현거제도"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [21800],
-            "초등생": [10900],
-            "중고생": [17400]
+        {
+          "name": "통영터미널"
         },
-        "stops": [
-            [
-                "고현거제도",
-                "통영터미널",
-                "진주(경원)",
-                "경상대(칠암)",
-                "진주(개양)",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "청주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606003301501",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성티앤이"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606003301501",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성티앤이"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606003301501",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

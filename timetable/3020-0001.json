@@ -58,6 +58,63 @@
       250
     ],
     "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청주대정류소"
+        },
+        {
+          "name": "청주북부터미널"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303020000102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3020",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      250
+    ],
+    "operator": [
       "서울고속"
     ],
     "departureTime": {
@@ -107,7 +164,7 @@
     "departureTerminalId": "3020",
     "arrivalTerminalId": "0001",
     "durationInMinutes": [
-      250
+      0
     ],
     "operator": [
       "서울고속"
@@ -134,9 +191,6 @@
           "name": "청주대정류소"
         },
         {
-          "name": "청주북부터미널"
-        },
-        {
           "name": "동서울"
         }
       ]
@@ -150,15 +204,9 @@
         "시외우등"
       ]
     },
-    "routeId": "303020000102",
+    "routeId": "303020000101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -376,6 +424,63 @@
       250
     ],
     "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청주대정류소"
+        },
+        {
+          "name": "청주북부터미널"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303020000102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3020",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      250
+    ],
+    "operator": [
       "서울고속"
     ],
     "departureTime": {
@@ -480,63 +585,6 @@
       250
     ],
     "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "청주대정류소"
-        },
-        {
-          "name": "청주북부터미널"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303020000102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3020",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "서울고속"
     ],
     "departureTime": {
@@ -561,55 +609,6 @@
           "name": "청주대정류소"
         },
         {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303020000101",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3020",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "청주대정류소"
-        },
-        {
           "name": "청주북부터미널"
         },
         {
@@ -628,12 +627,7 @@
     },
     "routeId": "303020000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   }
 ]

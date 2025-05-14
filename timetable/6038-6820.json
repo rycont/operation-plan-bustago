@@ -1,37 +1,75 @@
 [
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6820",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 20
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6820",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10800
+      ],
+      "초등생": [
+        5400
+      ],
+      "중고생": [
+        8600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [10800],
-            "초등생": [5400],
-            "중고생": [8600]
+        {
+          "name": "경상대(칠암)"
         },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동",
-                "악양",
-                "화개공용",
-                "쌍계사",
-                "의신"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        },
+        {
+          "name": "악양"
+        },
+        {
+          "name": "화개공용"
+        },
+        {
+          "name": "쌍계사"
+        },
+        {
+          "name": "의신"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039682002",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

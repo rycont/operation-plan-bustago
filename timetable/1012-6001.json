@@ -1,90 +1,234 @@
 [
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "6001",
-        "durationInMinutes": [200],
-        "operator": ["거창고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [29500],
-            "초등생": [14800],
-            "중고생": [23600]
-        },
-        "stops": [["인천", "안산", "수원", "함양", "거창"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      200
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "6001",
-        "durationInMinutes": [200],
-        "operator": ["거창고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [29500],
-            "초등생": [14800],
-            "중고생": [23600]
-        },
-        "stops": [["인천", "안산", "수원", "함양", "거창"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29500
+      ],
+      "초등생": [
+        14800
+      ],
+      "중고생": [
+        23600
+      ]
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "6001",
-        "durationInMinutes": [200],
-        "operator": ["거창고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 50
+    "stops": [
+      [
+        {
+          "name": "인천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [29500],
-            "초등생": [14800],
-            "중고생": [23600]
+        {
+          "name": "안산"
         },
-        "stops": [["인천", "안산", "수원", "함양", "거창"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "수원"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "6001",
-        "durationInMinutes": [200],
-        "operator": ["거창고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [29500],
-            "초등생": [14800],
-            "중고생": [23600]
-        },
-        "stops": [["인천", "안산", "수원", "함양", "거창"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "939302600101",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      200
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29500
+      ],
+      "초등생": [
+        14800
+      ],
+      "중고생": [
+        23600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302600101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      200
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29500
+      ],
+      "초등생": [
+        14800
+      ],
+      "중고생": [
+        23600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302600101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "6001",
+    "durationInMinutes": [
+      200
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29500
+      ],
+      "초등생": [
+        14800
+      ],
+      "중고생": [
+        23600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302600101",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

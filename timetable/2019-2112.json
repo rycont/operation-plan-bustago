@@ -465,7 +465,14 @@
     },
     "routeId": "202019205116",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -822,6 +829,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         41
       ],
       "busClass": [
@@ -974,6 +982,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         41
       ],
       "busClass": [
@@ -1126,6 +1135,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         41
       ],
       "busClass": [

@@ -8,17 +8,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "시외우등"
-    ],
     "departureTime": {
       "hour": 17,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         24200
@@ -30,6 +24,35 @@
         19400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "대전복합"
+        },
+        {
+          "name": "대전청사(선사유적)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959503804101",
     "pattern": {
       "type": "everyday"
     }

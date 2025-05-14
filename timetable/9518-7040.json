@@ -1,40 +1,84 @@
 [
-    {
-        "departureTerminalId": "9518",
-        "arrivalTerminalId": "7040",
-        "durationInMinutes": [0],
-        "operator": ["(유)호남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 28
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "7040",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 28
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [6700],
-            "초등생": [3400],
-            "중고생": [5400]
+        {
+          "name": "양정"
         },
-        "stops": [
-            [
-                "관저정류소",
-                "양정",
-                "연산",
-                "인터넷고",
-                "논산",
-                "은진",
-                "연무대",
-                "신촌",
-                "황화",
-                "여산",
-                "금마",
-                "삼례",
-                "전주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "연산"
+        },
+        {
+          "name": "인터넷고"
+        },
+        {
+          "name": "논산"
+        },
+        {
+          "name": "은진"
+        },
+        {
+          "name": "연무대"
+        },
+        {
+          "name": "신촌"
+        },
+        {
+          "name": "황화"
+        },
+        {
+          "name": "여산"
+        },
+        {
+          "name": "금마"
+        },
+        {
+          "name": "삼례"
+        },
+        {
+          "name": "전주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959518703301",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

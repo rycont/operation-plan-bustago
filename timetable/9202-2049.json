@@ -1,200 +1,488 @@
 [
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2049",
-        "durationInMinutes": [170],
-        "operator": ["경북고속", "대성티앤이", "영암고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31800],
-            "초등생": [15900],
-            "중고생": [25400]
-        },
-        "stops": [["대구북부", "태백", "고한사북공영"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2049",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "경북고속",
+      "대성티앤이",
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 20
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2049",
-        "durationInMinutes": [170],
-        "operator": ["경북고속", "대성티앤이", "영암고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31800],
-            "초등생": [15900],
-            "중고생": [25400]
-        },
-        "stops": [["대구북부", "태백", "고한사북공영"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31800
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2049",
-        "durationInMinutes": [170],
-        "operator": ["경북고속", "대성티앤이", "영암고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "대구북부"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31800],
-            "초등생": [15900],
-            "중고생": [25400]
+        {
+          "name": "태백"
         },
-        "stops": [["대구북부", "태백", "고한사북공영"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "고한사북공영"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2049",
-        "durationInMinutes": [170],
-        "operator": ["경북고속", "대성티앤이", "영암고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31800],
-            "초등생": [15900],
-            "중고생": [25400]
-        },
-        "stops": [["대구북부", "태백", "고한사북공영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2049",
-        "durationInMinutes": [170],
-        "operator": ["경북고속", "대성티앤이", "영암고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31800],
-            "초등생": [15900],
-            "중고생": [25400]
-        },
-        "stops": [["대구북부", "태백", "고한사북공영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2049",
-        "durationInMinutes": [170],
-        "operator": ["경북고속", "대성티앤이", "영암고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31800],
-            "초등생": [15900],
-            "중고생": [25400]
-        },
-        "stops": [["대구북부", "태백", "고한사북공영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2049",
-        "durationInMinutes": [170],
-        "operator": ["경북고속", "대성티앤이", "영암고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31800],
-            "초등생": [15900],
-            "중고생": [25400]
-        },
-        "stops": [["대구북부", "태백", "고한사북공영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2049",
-        "durationInMinutes": [170],
-        "operator": ["경북고속", "대성티앤이", "영암고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31800],
-            "초등생": [15900],
-            "중고생": [25400]
-        },
-        "stops": [["대구북부", "태백", "고한사북공영"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "2049",
-        "durationInMinutes": [170],
-        "operator": ["경북고속", "대성티앤이", "영암고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31800],
-            "초등생": [15900],
-            "중고생": [25400]
-        },
-        "stops": [["대구북부", "태백", "고한사북공영"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "929202204901",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2049",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "경북고속",
+      "대성티앤이",
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31800
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202204901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2049",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "경북고속",
+      "대성티앤이",
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31800
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202204901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2049",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "경북고속",
+      "대성티앤이",
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31800
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202204901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2049",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "경북고속",
+      "대성티앤이",
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31800
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202204901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2049",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "경북고속",
+      "대성티앤이",
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31800
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202204901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2049",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "경북고속",
+      "대성티앤이",
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31800
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202204901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2049",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "경북고속",
+      "대성티앤이",
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31800
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202204901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "2049",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "경북고속",
+      "대성티앤이",
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31800
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202204901",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

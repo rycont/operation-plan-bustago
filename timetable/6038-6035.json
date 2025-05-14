@@ -1,63 +1,231 @@
 [
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6035",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9300],
-            "초등생": [4700],
-            "중고생": [7400]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진교",
-                "전도",
-                "하동",
-                "악양",
-                "화개공용",
-                "쌍계사",
-                "의신"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6035",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
     },
-    {
-        "departureTerminalId": "6048",
-        "arrivalTerminalId": "6035",
-        "durationInMinutes": [0],
-        "operator": ["경원여객(자주)", "경전_동일"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9300
+      ],
+      "초등생": [
+        4700
+      ],
+      "중고생": [
+        7400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1600, 1700],
-            "초등생": [800, 850],
-            "중고생": [1300, 1400]
+        {
+          "name": "경상대(칠암)"
         },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "화개공용"],
-            ["진주(경전)", "경상대(칠암)", "화개공용"],
-            ["진주", "경상대(칠암)", "화개공용"]
-        ],
-        "pattern": {
-            "type": "unknown"
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "하동"
+        },
+        {
+          "name": "악양"
+        },
+        {
+          "name": "화개공용"
+        },
+        {
+          "name": "쌍계사"
+        },
+        {
+          "name": "의신"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039682002",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6048",
+    "arrivalTerminalId": "6035",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경전)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "화개공용"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606048603501",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "6816",
+    "arrivalTerminalId": "6035",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1600
+      ],
+      "초등생": [
+        800
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "화개공용"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606816603501",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6035",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "화개공용"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042603501",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

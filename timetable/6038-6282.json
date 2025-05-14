@@ -1,1631 +1,4134 @@
 [
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "서신",
-                "국동",
-                "점동",
-                "외공",
-                "하신",
-                "곡점",
-                "동당",
-                "중산리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["공통", "부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 37
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            ["진주부산교통", "원지", "산청", "생초", "수동", "함양"],
-            ["진주부산교통", "원지", "산청", "양촌"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2, 2, 2, 2],
-            "irregularDays": [1, 1, 1, 1]
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 40
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
+        {
+          "name": "원지"
         },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "문대",
-                "외고",
-                "단계",
-                "청산",
-                "법물",
-                "손항"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "단성"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "서신"
+        },
+        {
+          "name": "국동"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "중산리"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 47
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "관정",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "대포",
-                "덕교",
-                "석남",
-                "명상",
-                "평촌",
-                "대원사",
-                "홍계"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 27
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "서신",
-                "국동",
-                "점동",
-                "외공",
-                "하신",
-                "곡점",
-                "동당",
-                "중산리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "산청",
-                "생초",
-                "수동",
-                "함양",
-                "인월",
-                "운봉",
-                "남원",
-                "전주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "서신",
-                "국동",
-                "점동",
-                "외공",
-                "하신",
-                "곡점",
-                "동당",
-                "중산리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜", "공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 41
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            ["진주부산교통", "원지", "산청", "양촌"],
-            [
-                "진주부산교통",
-                "원지",
-                "산청",
-                "양촌",
-                "생초",
-                "수동",
-                "함양",
-                "거창"
-            ]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2, 2, 2, 2],
-            "irregularDays": [1, 1, 1, 1]
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "산청",
-                "생초",
-                "수동",
-                "함양",
-                "안의",
-                "서상",
-                "장계"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "문대",
-                "외고",
-                "단계",
-                "청산",
-                "월평",
-                "구평",
-                "가회"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "관정",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "대포",
-                "덕교",
-                "석남",
-                "명상",
-                "평촌",
-                "대원사",
-                "홍계"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 43
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 16
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "산청",
-                "생초",
-                "수동",
-                "함양",
-                "인월",
-                "운봉",
-                "남원",
-                "전주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "서신",
-                "국동",
-                "점동",
-                "외공",
-                "하신",
-                "곡점",
-                "동당",
-                "중산리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1000],
-            "초등생": [500],
-            "중고생": [800]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "배양",
-                "도평",
-                "소남",
-                "관정",
-                "남사",
-                "구산",
-                "입석",
-                "용두",
-                "진자",
-                "운리",
-                "청계리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 44
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "관정",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "대포",
-                "덕교",
-                "석남",
-                "명상",
-                "평촌",
-                "대원사",
-                "홍계"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 57
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "문대",
-                "외고",
-                "단계",
-                "청산",
-                "월평",
-                "구평",
-                "가회"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 34
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "서신",
-                "국동",
-                "점동",
-                "외공",
-                "하신",
-                "곡점",
-                "동당",
-                "중산리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 56
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 14
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "산청",
-                "생초",
-                "수동",
-                "함양",
-                "인월",
-                "운봉",
-                "남원",
-                "전주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 38
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "서신",
-                "국동",
-                "점동",
-                "외공",
-                "하신",
-                "곡점",
-                "동당",
-                "중산리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            ["진주부산교통", "원지", "산청", "생초", "수동", "함양", "거창"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화", "부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "관정",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "대포",
-                "덕교",
-                "석남",
-                "명상",
-                "평촌",
-                "대원사",
-                "홍계"
-            ],
-            ["진주부산교통", "원지", "산청", "생초", "수동", "함양"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2, 2, 2, 2],
-            "irregularDays": [1, 1, 1, 1]
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "산청",
-                "생초",
-                "수동",
-                "함양",
-                "안의",
-                "거창"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일", "부산,영화"],
-        "busClass": ["시외우등", "일반", "프리미엄우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0, 21, 28],
-        "fare": {
-            "어른": [0, 2700],
-            "초등생": [0, 1400],
-            "중고생": [0, 2200]
-        },
-        "stops": [
-            ["삼천포", "항공청(경전)", "사천", "진주", "원지", "대전복합"],
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "서신",
-                "국동",
-                "점동",
-                "외공",
-                "하신",
-                "곡점",
-                "동당",
-                "중산리"
-            ]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2, 2, 2, 2],
-            "irregularDays": [1, 1, 1, 1]
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "문대",
-                "외고",
-                "단계",
-                "청산",
-                "월평",
-                "구평",
-                "가회"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "관정",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "대포",
-                "덕교",
-                "석남",
-                "명상",
-                "평촌",
-                "대원사",
-                "홍계"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 33
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 18
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            ["진주부산교통", "원지", "산청", "생초", "수동", "함양", "거창"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "서신",
-                "국동",
-                "점동",
-                "외공",
-                "하신",
-                "곡점",
-                "동당",
-                "중산리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "관정",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "대포",
-                "덕교",
-                "석남",
-                "명상",
-                "평촌",
-                "대원사",
-                "홍계"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 48
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "문대",
-                "외고",
-                "단계",
-                "청산",
-                "월평",
-                "구평",
-                "가회",
-                "장대",
-                "도탐",
-                "두심",
-                "양리",
-                "대병"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜", "공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 45
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            ["진주부산교통", "원지", "산청", "양촌"],
-            ["진주부산교통", "원지", "산청", "양촌", "생초", "수동", "함양"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2, 2, 2, 2],
-            "irregularDays": [1, 1, 1, 1]
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산,영화"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "남사",
-                "길리",
-                "칠정",
-                "구만",
-                "태소",
-                "소리당",
-                "덕산",
-                "원리",
-                "서신",
-                "국동",
-                "점동",
-                "외공",
-                "하신",
-                "곡점",
-                "동당",
-                "중산리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6282",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 21,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2700],
-            "초등생": [1400],
-            "중고생": [2200]
-        },
-        "stops": [["진주부산교통", "원지", "산청", "생초", "수동", "함양"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "606039622201",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 37
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 37
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "양촌"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "문대"
+        },
+        {
+          "name": "외고"
+        },
+        {
+          "name": "단계"
+        },
+        {
+          "name": "청산"
+        },
+        {
+          "name": "법물"
+        },
+        {
+          "name": "손항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039617901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 47
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "관정"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "대포"
+        },
+        {
+          "name": "덕교"
+        },
+        {
+          "name": "석남"
+        },
+        {
+          "name": "명상"
+        },
+        {
+          "name": "평촌"
+        },
+        {
+          "name": "대원사"
+        },
+        {
+          "name": "홍계"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039623302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 27
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "서신"
+        },
+        {
+          "name": "국동"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "중산리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039622201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "운봉"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039703301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "서신"
+        },
+        {
+          "name": "국동"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "중산리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039622201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 41
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "양촌"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600105",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 41
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "양촌"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "안의"
+        },
+        {
+          "name": "서상"
+        },
+        {
+          "name": "장계"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039702901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "문대"
+        },
+        {
+          "name": "외고"
+        },
+        {
+          "name": "단계"
+        },
+        {
+          "name": "청산"
+        },
+        {
+          "name": "월평"
+        },
+        {
+          "name": "구평"
+        },
+        {
+          "name": "가회"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039618301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "관정"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "대포"
+        },
+        {
+          "name": "덕교"
+        },
+        {
+          "name": "석남"
+        },
+        {
+          "name": "명상"
+        },
+        {
+          "name": "평촌"
+        },
+        {
+          "name": "대원사"
+        },
+        {
+          "name": "홍계"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039623302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 16
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "운봉"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039703301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "서신"
+        },
+        {
+          "name": "국동"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "중산리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039622201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1000
+      ],
+      "초등생": [
+        500
+      ],
+      "중고생": [
+        800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "배양"
+        },
+        {
+          "name": "도평"
+        },
+        {
+          "name": "소남"
+        },
+        {
+          "name": "관정"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "구산"
+        },
+        {
+          "name": "입석"
+        },
+        {
+          "name": "용두"
+        },
+        {
+          "name": "진자"
+        },
+        {
+          "name": "운리"
+        },
+        {
+          "name": "청계리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039617203",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 44
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "관정"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "대포"
+        },
+        {
+          "name": "덕교"
+        },
+        {
+          "name": "석남"
+        },
+        {
+          "name": "명상"
+        },
+        {
+          "name": "평촌"
+        },
+        {
+          "name": "대원사"
+        },
+        {
+          "name": "홍계"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039623302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 57
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "문대"
+        },
+        {
+          "name": "외고"
+        },
+        {
+          "name": "단계"
+        },
+        {
+          "name": "청산"
+        },
+        {
+          "name": "월평"
+        },
+        {
+          "name": "구평"
+        },
+        {
+          "name": "가회"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039618301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 34
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "서신"
+        },
+        {
+          "name": "국동"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "중산리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039622201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 56
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 14
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "운봉"
+        },
+        {
+          "name": "남원"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039703301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 38
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "서신"
+        },
+        {
+          "name": "국동"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "중산리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039622201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "관정"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "대포"
+        },
+        {
+          "name": "덕교"
+        },
+        {
+          "name": "석남"
+        },
+        {
+          "name": "명상"
+        },
+        {
+          "name": "평촌"
+        },
+        {
+          "name": "대원사"
+        },
+        {
+          "name": "홍계"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039623302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "안의"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "서신"
+        },
+        {
+          "name": "국동"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "중산리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039622201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "항공청(경전)"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "진주"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21,
+        28
+      ],
+      "busClass": [
+        "시외우등",
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "606016950304",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "문대"
+        },
+        {
+          "name": "외고"
+        },
+        {
+          "name": "단계"
+        },
+        {
+          "name": "청산"
+        },
+        {
+          "name": "월평"
+        },
+        {
+          "name": "구평"
+        },
+        {
+          "name": "가회"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039618301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "관정"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "대포"
+        },
+        {
+          "name": "덕교"
+        },
+        {
+          "name": "석남"
+        },
+        {
+          "name": "명상"
+        },
+        {
+          "name": "평촌"
+        },
+        {
+          "name": "대원사"
+        },
+        {
+          "name": "홍계"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039623302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 33
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 18
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039600102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "서신"
+        },
+        {
+          "name": "국동"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "중산리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039622201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "관정"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "대포"
+        },
+        {
+          "name": "덕교"
+        },
+        {
+          "name": "석남"
+        },
+        {
+          "name": "명상"
+        },
+        {
+          "name": "평촌"
+        },
+        {
+          "name": "대원사"
+        },
+        {
+          "name": "홍계"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039623302",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 48
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "문대"
+        },
+        {
+          "name": "외고"
+        },
+        {
+          "name": "단계"
+        },
+        {
+          "name": "청산"
+        },
+        {
+          "name": "월평"
+        },
+        {
+          "name": "구평"
+        },
+        {
+          "name": "가회"
+        },
+        {
+          "name": "장대"
+        },
+        {
+          "name": "도탐"
+        },
+        {
+          "name": "두심"
+        },
+        {
+          "name": "양리"
+        },
+        {
+          "name": "대병"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039609801",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "양촌"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "양촌"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628002",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "길리"
+        },
+        {
+          "name": "칠정"
+        },
+        {
+          "name": "구만"
+        },
+        {
+          "name": "태소"
+        },
+        {
+          "name": "소리당"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "원리"
+        },
+        {
+          "name": "서신"
+        },
+        {
+          "name": "국동"
+        },
+        {
+          "name": "점동"
+        },
+        {
+          "name": "외공"
+        },
+        {
+          "name": "하신"
+        },
+        {
+          "name": "곡점"
+        },
+        {
+          "name": "동당"
+        },
+        {
+          "name": "중산리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039622201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6282",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "산청"
+        },
+        {
+          "name": "생초"
+        },
+        {
+          "name": "수동"
+        },
+        {
+          "name": "함양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039628001",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

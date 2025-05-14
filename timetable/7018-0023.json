@@ -162,15 +162,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        17000,
         23100
       ],
       "초등생": [
-        8500,
         11600
       ],
       "중고생": [
-        13600,
         18500
       ]
     },
@@ -187,12 +184,10 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        41
+        28
       ],
       "busClass": [
-        "시외우등",
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "707018002301",
@@ -455,8 +450,8 @@
       "(유)호남고속"
     ],
     "departureTime": {
-      "hour": 15,
-      "minute": 10
+      "hour": 14,
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -491,10 +486,7 @@
     },
     "routeId": "707018002301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        4
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -656,55 +648,6 @@
     "departureTime": {
       "hour": 19,
       "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23100
-      ],
-      "초등생": [
-        11600
-      ],
-      "중고생": [
-        18500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부안"
-        },
-        {
-          "name": "강남센트럴"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "707018002301",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7018",
-    "arrivalTerminalId": "0023",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {

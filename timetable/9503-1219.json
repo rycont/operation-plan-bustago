@@ -1,50 +1,124 @@
 [
-    {
-        "departureTerminalId": "9503",
-        "arrivalTerminalId": "1219",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
-        },
-        "stops": [
-            ["대전복합", "풍림아파트", "공도", "대림동산", "중앙대", "안성"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9503",
+    "arrivalTerminalId": "1219",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "9503",
-        "arrivalTerminalId": "1219",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 50
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대전복합"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [8200],
-            "초등생": [4100],
-            "중고생": [6600]
+        {
+          "name": "풍림아파트"
         },
-        "stops": [
-            ["대전복합", "풍림아파트", "공도", "대림동산", "중앙대", "안성"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "공도"
+        },
+        {
+          "name": "대림동산"
+        },
+        {
+          "name": "중앙대"
+        },
+        {
+          "name": "안성"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959503123201",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9503",
+    "arrivalTerminalId": "1219",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8200
+      ],
+      "초등생": [
+        4100
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대전복합"
+        },
+        {
+          "name": "풍림아파트"
+        },
+        {
+          "name": "공도"
+        },
+        {
+          "name": "대림동산"
+        },
+        {
+          "name": "중앙대"
+        },
+        {
+          "name": "안성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959503123201",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

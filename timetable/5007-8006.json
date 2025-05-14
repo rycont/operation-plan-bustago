@@ -1,26 +1,63 @@
 [
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "8006",
-        "durationInMinutes": [220],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 50
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29300
+      ],
+      "초등생": [
+        14700
+      ],
+      "중고생": [
+        23400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [29300],
-            "초등생": [14700],
-            "중고생": [23400]
+        {
+          "name": "경주"
         },
-        "stops": [
-            ["포항", "경주", "부산동부", "부산동래", "동광양(중마)", "광양"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071800604",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

@@ -1,33 +1,63 @@
 [
-    {
-        "departureTerminalId": "9503",
-        "arrivalTerminalId": "2025",
-        "durationInMinutes": [0],
-        "operator": ["영암고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 25
+  {
+    "departureTerminalId": "9503",
+    "arrivalTerminalId": "2025",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24700
+      ],
+      "초등생": [
+        12400
+      ],
+      "중고생": [
+        19800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [24700],
-            "초등생": [12400],
-            "중고생": [19800]
+        {
+          "name": "대전복합"
         },
-        "stops": [
-            [
-                "광주(유ㆍ스퀘어)",
-                "대전복합",
-                "청주",
-                "영월",
-                "고한사북공영",
-                "태백"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "청주"
+        },
+        {
+          "name": "영월"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "태백"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949401203901",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

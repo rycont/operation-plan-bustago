@@ -8,17 +8,11 @@
     "operator": [
       "㈜충남고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 8,
       "minute": 49
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         9700
@@ -30,6 +24,65 @@
         7800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "우성"
+        },
+        {
+          "name": "사곡"
+        },
+        {
+          "name": "신풍"
+        },
+        {
+          "name": "유구"
+        },
+        {
+          "name": "신양"
+        },
+        {
+          "name": "임성동"
+        },
+        {
+          "name": "예산"
+        },
+        {
+          "name": "삽교"
+        },
+        {
+          "name": "내포"
+        },
+        {
+          "name": "덕산"
+        },
+        {
+          "name": "한서대"
+        },
+        {
+          "name": "해미"
+        },
+        {
+          "name": "서산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404292401005",
     "pattern": {
       "type": "everyday"
     }
@@ -43,18 +96,11 @@
     "operator": [
       "㈜충남고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 16,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0,
-      45
-    ],
     "fare": {
       "어른": [
         9700
@@ -66,20 +112,49 @@
         7800
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2,
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1,
-        1,
-        1
+    "stops": [
+      [
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "고속도"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "서산"
+        }
       ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404292401006",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
@@ -91,17 +166,84 @@
     "operator": [
       "㈜충남고속"
     ],
-    "busClass": [
-      "시외우등"
+    "departureTime": {
+      "hour": 16,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대전서부"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "구룡(서산)"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "서산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959504401038",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4292",
+    "arrivalTerminalId": "4010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
     ],
     "departureTime": {
       "hour": 20,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         12600
@@ -113,6 +255,59 @@
         10100
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "대전복합"
+        },
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "합덕"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "태안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959503402108",
     "pattern": {
       "type": "everyday"
     }

@@ -1,82 +1,178 @@
 [
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6589",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [5000],
-            "초등생": [2500],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "곤양",
-                "추동",
-                "원전",
-                "초량",
-                "북천",
-                "남포",
-                "서황",
-                "화정",
-                "양천사",
-                "백토",
-                "정수",
-                "옥종"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6589",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6589",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 0
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5000
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [5000],
-            "초등생": [2500],
-            "중고생": [4000]
+        {
+          "name": "경상대(칠암)"
         },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "곤양",
-                "추동",
-                "원전",
-                "초량",
-                "북천",
-                "남포",
-                "서황",
-                "화정",
-                "양천사",
-                "백토",
-                "정수",
-                "옥종"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "곤양"
+        },
+        {
+          "name": "추동"
+        },
+        {
+          "name": "원전"
+        },
+        {
+          "name": "초량"
+        },
+        {
+          "name": "북천"
+        },
+        {
+          "name": "남포"
+        },
+        {
+          "name": "서황"
+        },
+        {
+          "name": "화정"
+        },
+        {
+          "name": "양천사"
+        },
+        {
+          "name": "백토"
+        },
+        {
+          "name": "정수"
+        },
+        {
+          "name": "옥종"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039659106",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6589",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5000
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "곤양"
+        },
+        {
+          "name": "추동"
+        },
+        {
+          "name": "원전"
+        },
+        {
+          "name": "초량"
+        },
+        {
+          "name": "북천"
+        },
+        {
+          "name": "남포"
+        },
+        {
+          "name": "서황"
+        },
+        {
+          "name": "화정"
+        },
+        {
+          "name": "양천사"
+        },
+        {
+          "name": "백토"
+        },
+        {
+          "name": "정수"
+        },
+        {
+          "name": "옥종"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039659106",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

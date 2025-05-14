@@ -1,442 +1,1092 @@
 [
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "㈜천마고속", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "㈜천마고속",
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "㈜천마고속", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "포항"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
+        {
+          "name": "경주"
         },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "부산(사상)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "㈜천마고속", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "㈜천마고속", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "㈜천마고속", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "㈜천마고속", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "㈜천마고속", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "㈜천마고속", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "㈜천마고속", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "㈜천마고속", "천일여객㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9002",
-        "durationInMinutes": [60],
-        "operator": ["㈜금아여행", "㈜아성고속", "고려여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [["포항", "경주", "부산(사상)"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "㈜천마고속",
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "㈜천마고속",
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "㈜천마고속",
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "㈜천마고속",
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "㈜천마고속",
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "㈜천마고속",
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "㈜천마고속",
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "㈜천마고속",
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "㈜천마고속",
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "㈜금아여행",
+      "㈜아성고속",
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "부산(사상)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071900201",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

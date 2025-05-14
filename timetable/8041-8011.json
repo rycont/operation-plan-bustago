@@ -8,17 +8,11 @@
     "operator": [
       "㈜동방고속"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 5,
       "minute": 50
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      41
-    ],
     "fare": {
       "어른": [
         16300
@@ -30,6 +24,44 @@
         13000
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "여수"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "덕양"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "녹동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808041801102",
     "pattern": {
       "type": "everyday"
     }

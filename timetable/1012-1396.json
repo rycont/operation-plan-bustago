@@ -1,172 +1,352 @@
 [
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "1396",
-        "durationInMinutes": [55],
-        "operator": ["대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [4500],
-            "초등생": [2300],
-            "중고생": [3200]
-        },
-        "stops": [
-            [
-                "수원터미널",
-                "우만동",
-                "아미리",
-                "가남",
-                "이황리",
-                "장호원공용",
-                "감곡",
-                "충주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "1396",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 50
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "1396",
-        "durationInMinutes": [55],
-        "operator": ["친선고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [5400],
-            "초등생": [2700],
-            "중고생": [3800]
-        },
-        "stops": [
-            [
-                "수원터미널",
-                "우만동",
-                "아미리",
-                "가남",
-                "장호원공용",
-                "감곡",
-                "생극",
-                "용원",
-                "주덕",
-                "충주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3200
+      ]
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "1396",
-        "durationInMinutes": [55],
-        "operator": ["친선고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 50
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [5400],
-            "초등생": [2700],
-            "중고생": [4300]
+        {
+          "name": "우만동"
         },
-        "stops": [
-            [
-                "수원터미널",
-                "우만동",
-                "아미리",
-                "가남",
-                "장호원공용",
-                "감곡",
-                "생극",
-                "금왕(무극)",
-                "음성"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "충주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "1396",
-        "durationInMinutes": [55],
-        "operator": ["대원고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [4500],
-            "초등생": [2300],
-            "중고생": [3200]
-        },
-        "stops": [
-            [
-                "수원터미널",
-                "우만동",
-                "아미리",
-                "가남",
-                "이황리",
-                "장호원공용",
-                "감곡",
-                "충주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "1396",
-        "durationInMinutes": [55],
-        "operator": ["친선고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [5400],
-            "초등생": [2700],
-            "중고생": [3800]
-        },
-        "stops": [
-            [
-                "수원터미널",
-                "우만동",
-                "아미리",
-                "가남",
-                "장호원공용",
-                "감곡",
-                "생극",
-                "용원",
-                "주덕",
-                "충주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "101012301712",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "1396",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5400
+      ],
+      "초등생": [
+        2700
+      ],
+      "중고생": [
+        3800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "생극"
+        },
+        {
+          "name": "용원"
+        },
+        {
+          "name": "주덕"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101012301709",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "1396",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5400
+      ],
+      "초등생": [
+        2700
+      ],
+      "중고생": [
+        4300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "생극"
+        },
+        {
+          "name": "금왕(무극)"
+        },
+        {
+          "name": "음성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101012301002",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "1396",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "이황리"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101012301712",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "1396",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5400
+      ],
+      "초등생": [
+        2700
+      ],
+      "중고생": [
+        3800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "아미리"
+        },
+        {
+          "name": "가남"
+        },
+        {
+          "name": "장호원공용"
+        },
+        {
+          "name": "감곡"
+        },
+        {
+          "name": "생극"
+        },
+        {
+          "name": "용원"
+        },
+        {
+          "name": "주덕"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101012301709",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

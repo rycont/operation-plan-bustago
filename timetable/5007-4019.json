@@ -1,24 +1,60 @@
 [
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "4019",
-        "durationInMinutes": [220],
-        "operator": ["㈜아성고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 5
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "㈜아성고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32700
+      ],
+      "초등생": [
+        16400
+      ],
+      "중고생": [
+        26200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [32700],
-            "초등생": [16400],
-            "중고생": [26200]
+        {
+          "name": "경주"
         },
-        "stops": [["포항", "경주", "세종시", "세종청사", "천안"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "천안"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071401901",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

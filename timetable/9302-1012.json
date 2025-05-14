@@ -71,18 +71,7 @@
     },
     "routeId": "939302301403",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -215,7 +204,18 @@
     },
     "routeId": "939302301403",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -447,64 +447,6 @@
     "departureTerminalId": "9302",
     "arrivalTerminalId": "1012",
     "durationInMinutes": [
-      90
-    ],
-    "operator": [
-      "거창고속㈜"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7900
-      ],
-      "초등생": [
-        4000
-      ],
-      "중고생": [
-        6300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "함양"
-        },
-        {
-          "name": "거창"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302600101",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "1012",
-    "durationInMinutes": [
       70
     ],
     "operator": [
@@ -512,8 +454,8 @@
       "친선고속㈜"
     ],
     "departureTime": {
-      "hour": 14,
-      "minute": 20
+      "hour": 12,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -572,6 +514,64 @@
       ]
     },
     "routeId": "939302301403",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "1012",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        6300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "거창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302600101",
     "pattern": {
       "type": "everyday"
     }
@@ -706,18 +706,7 @@
     },
     "routeId": "939302301403",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -935,7 +924,18 @@
     },
     "routeId": "939302301403",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1007,8 +1007,8 @@
       "친선고속㈜"
     ],
     "departureTime": {
-      "hour": 12,
-      "minute": 0
+      "hour": 14,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {

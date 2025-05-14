@@ -1,24 +1,64 @@
 [
-    {
-        "departureTerminalId": "8462",
-        "arrivalTerminalId": "9401",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 59
+  {
+    "departureTerminalId": "8462",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13200
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        10600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전남인재개발원"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [13200],
-            "초등생": [6600],
-            "중고생": [10600]
+        {
+          "name": "강진"
         },
-        "stops": [["전남인재개발원", "강진", "광주진월동", "광주(유ㆍ스퀘어)"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "광주진월동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808462940101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     }
+  }
 ]

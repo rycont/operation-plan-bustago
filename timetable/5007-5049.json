@@ -1,50 +1,130 @@
 [
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "5049",
-        "durationInMinutes": [0],
-        "operator": ["㈜금아리무진"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [21600],
-            "초등생": [10800],
-            "중고생": [19400]
-        },
-        "stops": [
-            ["울산", "울산신복", "경주", "안동", "신도청", "예천", "제천"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "5049",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아리무진"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "5049",
-        "durationInMinutes": [0],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 0
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21600
+      ],
+      "초등생": [
+        10800
+      ],
+      "중고생": [
+        19400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울산"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [21600],
-            "초등생": [10800],
-            "중고생": [19400]
+        {
+          "name": "울산신복"
         },
-        "stops": [
-            ["울산", "울산신복", "경주", "안동", "신도청", "예천", "제천"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "경주"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "제천"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "969601301106",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "5049",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21600
+      ],
+      "초등생": [
+        10800
+      ],
+      "중고생": [
+        19400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "제천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "969601301106",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

@@ -1,389 +1,811 @@
 [
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "도리원",
-                "비안",
-                "안계",
-                "신락",
-                "다인",
-                "풍양",
-                "지보",
-                "신도청",
-                "안동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "도리원",
-                "비안",
-                "안계",
-                "신도청",
-                "안동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [40],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 0
+    "stops": [
+      [
+        {
+          "name": "대구북부"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
+        {
+          "name": "서대구역"
         },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "간동",
-                "우보",
-                "탑리",
-                "가음",
-                "양지",
-                "사미",
-                "빙계",
-                "금천2리",
-                "춘산"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "군위"
+        },
+        {
+          "name": "도리원"
+        },
+        {
+          "name": "비안"
+        },
+        {
+          "name": "안계"
+        },
+        {
+          "name": "신락"
+        },
+        {
+          "name": "다인"
+        },
+        {
+          "name": "풍양"
+        },
+        {
+          "name": "지보"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "도리원",
-                "비안",
-                "안계",
-                "신도청",
-                "안동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "도리원",
-                "비안",
-                "안계",
-                "신도청",
-                "안동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "도리원",
-                "비안",
-                "안계",
-                "신도청",
-                "안동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "도리원",
-                "비안",
-                "안계",
-                "신도청",
-                "안동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "도리원",
-                "비안",
-                "안계",
-                "신락",
-                "다인",
-                "풍양",
-                "지보",
-                "신도청",
-                "안동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [40],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "간동",
-                "우보",
-                "탑리",
-                "가음",
-                "양지",
-                "사미",
-                "빙계",
-                "금천2리",
-                "춘산"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "도리원",
-                "비안",
-                "안계",
-                "신락",
-                "다인",
-                "풍양",
-                "지보",
-                "신도청",
-                "안동"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "9202",
-        "arrivalTerminalId": "5012",
-        "durationInMinutes": [40],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [4400],
-            "초등생": [2200],
-            "중고생": [4000]
-        },
-        "stops": [
-            [
-                "대구북부",
-                "서대구역",
-                "군위",
-                "간동",
-                "우보",
-                "탑리",
-                "가음",
-                "양지",
-                "사미",
-                "빙계",
-                "금천2리",
-                "춘산"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "929202504305",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "군위"
+        },
+        {
+          "name": "도리원"
+        },
+        {
+          "name": "비안"
+        },
+        {
+          "name": "안계"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202504306",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "군위"
+        },
+        {
+          "name": "간동"
+        },
+        {
+          "name": "우보"
+        },
+        {
+          "name": "탑리"
+        },
+        {
+          "name": "가음"
+        },
+        {
+          "name": "양지"
+        },
+        {
+          "name": "사미"
+        },
+        {
+          "name": "빙계"
+        },
+        {
+          "name": "금천2리"
+        },
+        {
+          "name": "춘산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202518307",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "군위"
+        },
+        {
+          "name": "도리원"
+        },
+        {
+          "name": "비안"
+        },
+        {
+          "name": "안계"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202504306",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "군위"
+        },
+        {
+          "name": "도리원"
+        },
+        {
+          "name": "비안"
+        },
+        {
+          "name": "안계"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202504306",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "군위"
+        },
+        {
+          "name": "도리원"
+        },
+        {
+          "name": "비안"
+        },
+        {
+          "name": "안계"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202504306",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "군위"
+        },
+        {
+          "name": "도리원"
+        },
+        {
+          "name": "비안"
+        },
+        {
+          "name": "안계"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202504306",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "군위"
+        },
+        {
+          "name": "도리원"
+        },
+        {
+          "name": "비안"
+        },
+        {
+          "name": "안계"
+        },
+        {
+          "name": "신락"
+        },
+        {
+          "name": "다인"
+        },
+        {
+          "name": "풍양"
+        },
+        {
+          "name": "지보"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202504305",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "군위"
+        },
+        {
+          "name": "간동"
+        },
+        {
+          "name": "우보"
+        },
+        {
+          "name": "탑리"
+        },
+        {
+          "name": "가음"
+        },
+        {
+          "name": "양지"
+        },
+        {
+          "name": "사미"
+        },
+        {
+          "name": "빙계"
+        },
+        {
+          "name": "금천2리"
+        },
+        {
+          "name": "춘산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202518307",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "군위"
+        },
+        {
+          "name": "도리원"
+        },
+        {
+          "name": "비안"
+        },
+        {
+          "name": "안계"
+        },
+        {
+          "name": "신락"
+        },
+        {
+          "name": "다인"
+        },
+        {
+          "name": "풍양"
+        },
+        {
+          "name": "지보"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202504305",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9202",
+    "arrivalTerminalId": "5012",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "서대구역"
+        },
+        {
+          "name": "군위"
+        },
+        {
+          "name": "간동"
+        },
+        {
+          "name": "우보"
+        },
+        {
+          "name": "탑리"
+        },
+        {
+          "name": "가음"
+        },
+        {
+          "name": "양지"
+        },
+        {
+          "name": "사미"
+        },
+        {
+          "name": "빙계"
+        },
+        {
+          "name": "금천2리"
+        },
+        {
+          "name": "춘산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929202518307",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

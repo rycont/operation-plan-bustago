@@ -1,200 +1,497 @@
 [
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [80],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9800],
-            "초등생": [4900],
-            "중고생": [7800]
-        },
-        "stops": [["포항", "경주", "언양", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [80],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9800],
-            "초등생": [4900],
-            "중고생": [7800]
-        },
-        "stops": [["포항", "경주", "언양", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [80],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "포항"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9800],
-            "초등생": [4900],
-            "중고생": [7800]
+        {
+          "name": "경주"
         },
-        "stops": [["포항", "경주", "언양", "김해"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "언양"
+        },
+        {
+          "name": "김해"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [80],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9800],
-            "초등생": [4900],
-            "중고생": [7800]
-        },
-        "stops": [["포항", "경주", "언양", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [80],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9800],
-            "초등생": [4900],
-            "중고생": [7800]
-        },
-        "stops": [["포항", "경주", "언양", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [80],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9800],
-            "초등생": [4900],
-            "중고생": [7800]
-        },
-        "stops": [["포항", "경주", "언양", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [80],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9800],
-            "초등생": [4900],
-            "중고생": [7800]
-        },
-        "stops": [["포항", "경주", "언양", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [80],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9800],
-            "초등생": [4900],
-            "중고생": [7800]
-        },
-        "stops": [["포항", "경주", "언양", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "6006",
-        "durationInMinutes": [80],
-        "operator": ["㈜금아여행"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 21,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9800],
-            "초등생": [4900],
-            "중고생": [7800]
-        },
-        "stops": [["포항", "경주", "언양", "김해"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "505071600601",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "언양"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "언양"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "언양"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "언양"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "언양"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "언양"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "언양"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "언양"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

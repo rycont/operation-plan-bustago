@@ -8,17 +8,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 8,
       "minute": 55
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         13100
@@ -55,8 +49,25 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808010802402",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -67,18 +78,12 @@
     ],
     "operator": [
       "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 14,
       "minute": 45
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         13100
@@ -115,8 +120,25 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808010802402",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -127,18 +149,12 @@
     ],
     "operator": [
       "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
     ],
     "departureTime": {
       "hour": 16,
       "minute": 15
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         13100
@@ -175,6 +191,93 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808010802402",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8010",
+    "arrivalTerminalId": "8133",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13100
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        10500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "완도"
+        },
+        {
+          "name": "원동"
+        },
+        {
+          "name": "남창"
+        },
+        {
+          "name": "월송"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "독천"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808050802406",
     "pattern": {
       "type": "everyday"
     }
@@ -188,90 +291,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        13100
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        10500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "완도"
-        },
-        {
-          "name": "원동"
-        },
-        {
-          "name": "남창"
-        },
-        {
-          "name": "월송"
-        },
-        {
-          "name": "해남"
-        },
-        {
-          "name": "독천"
-        },
-        {
-          "name": "삼호"
-        },
-        {
-          "name": "남악"
-        },
-        {
-          "name": "목포"
-        }
-      ]
-    ],
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        21,
-        22,
-        23,
-        24,
-        25
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8010",
-    "arrivalTerminalId": "8133",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 15,
       "minute": 25
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
     "fare": {
       "어른": [
         13100
@@ -314,15 +338,18 @@
         }
       ]
     ],
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        21,
-        22,
-        23,
-        24,
-        25
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
       ]
+    },
+    "routeId": "808050802406",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]

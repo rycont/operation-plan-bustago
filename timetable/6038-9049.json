@@ -1,64 +1,124 @@
 [
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "9049",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["심야고속"],
-        "departureTime": {
-            "hour": 22,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [13400],
-            "초등생": [6700],
-            "중고생": [10700]
-        },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "부산심야(사상)",
-                "부산심야(서면)",
-                "부산심야(부산역)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "9049",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "9049",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜"],
-        "busClass": ["심야고속"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13400
+      ],
+      "초등생": [
+        6700
+      ],
+      "중고생": [
+        10700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [13400],
-            "초등생": [6700],
-            "중고생": [10700]
+        {
+          "name": "경상대(칠암)"
         },
-        "stops": [
-            [
-                "진주부산교통",
-                "경상대(칠암)",
-                "진주(개양)",
-                "부산심야(사상)",
-                "부산심야(서면)",
-                "부산심야(부산역)"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "부산심야(사상)"
+        },
+        {
+          "name": "부산심야(서면)"
+        },
+        {
+          "name": "부산심야(부산역)"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "심야고속"
+      ]
+    },
+    "routeId": "606039904902",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "9049",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13400
+      ],
+      "초등생": [
+        6700
+      ],
+      "중고생": [
+        10700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "부산심야(사상)"
+        },
+        {
+          "name": "부산심야(서면)"
+        },
+        {
+          "name": "부산심야(부산역)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "심야고속"
+      ]
+    },
+    "routeId": "606039904902",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

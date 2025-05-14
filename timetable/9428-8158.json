@@ -1,35 +1,69 @@
 [
-    {
-        "departureTerminalId": "9428",
-        "arrivalTerminalId": "8158",
-        "durationInMinutes": [0],
-        "operator": ["금호고속(주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 40
+  {
+    "departureTerminalId": "9428",
+    "arrivalTerminalId": "8158",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14900
+      ],
+      "초등생": [
+        7500
+      ],
+      "중고생": [
+        11900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [14900],
-            "초등생": [7500],
-            "중고생": [11900]
+        {
+          "name": "송정역"
         },
-        "stops": [
-            [
-                "광주(유ㆍ스퀘어)",
-                "송정역",
-                "남악",
-                "삼호",
-                "우수영",
-                "녹진",
-                "진도",
-                "쏠비치진도"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "진도"
+        },
+        {
+          "name": "쏠비치진도"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949401824602",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

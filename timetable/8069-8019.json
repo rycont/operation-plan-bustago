@@ -1,68 +1,176 @@
 [
-    {
-        "departureTerminalId": "8069",
-        "arrivalTerminalId": "8019",
-        "durationInMinutes": [0],
-        "operator": ["공동운수협정"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 55
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [3900],
-            "초등생": [2000],
-            "중고생": [3100]
-        },
-        "stops": [["순천", "순천북부", "광양", "동광양(중마)", "광영"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8069",
+    "arrivalTerminalId": "8019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공동운수협정"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 55
     },
-    {
-        "departureTerminalId": "8069",
-        "arrivalTerminalId": "8019",
-        "durationInMinutes": [0],
-        "operator": ["공동운수협정"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 25
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [3900],
-            "초등생": [2000],
-            "중고생": [3100]
-        },
-        "stops": [["순천", "순천북부", "광양", "동광양(중마)", "광영"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3900
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3100
+      ]
     },
-    {
-        "departureTerminalId": "8069",
-        "arrivalTerminalId": "8019",
-        "durationInMinutes": [0],
-        "operator": ["공동운수협정"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 45
+    "stops": [
+      [
+        {
+          "name": "순천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [3900],
-            "초등생": [2000],
-            "중고생": [3100]
+        {
+          "name": "순천북부"
         },
-        "stops": [["순천", "순천북부", "광양", "동광양(중마)", "광영"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광영"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808038812204",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8069",
+    "arrivalTerminalId": "8019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공동운수협정"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3900
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "순천"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808038812204",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8069",
+    "arrivalTerminalId": "8019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공동운수협정"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3900
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "순천"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808038812204",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

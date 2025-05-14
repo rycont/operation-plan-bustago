@@ -1,112 +1,277 @@
 [
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6295",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11500],
-            "초등생": [5800],
-            "중고생": [9200]
-        },
-        "stops": [["진주부산교통", "진주혁신도시", "김해공항", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 20
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6295",
-        "durationInMinutes": [0],
-        "operator": ["신흥여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 22
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [8900],
-            "초등생": [4500],
-            "중고생": [7100]
-        },
-        "stops": [["진주부산교통", "진주혁신도시", "김해공항", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11500
+      ],
+      "초등생": [
+        5800
+      ],
+      "중고생": [
+        9200
+      ]
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6295",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 20
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11500],
-            "초등생": [5800],
-            "중고생": [9200]
+        {
+          "name": "진주혁신도시"
         },
-        "stops": [["진주부산교통", "진주혁신도시", "김해공항", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "김해공항"
+        },
+        {
+          "name": "부산서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6295",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11500],
-            "초등생": [5800],
-            "중고생": [9200]
-        },
-        "stops": [["진주부산교통", "진주혁신도시", "김해공항", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6295",
-        "durationInMinutes": [0],
-        "operator": ["영화여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [11500],
-            "초등생": [5800],
-            "중고생": [9200]
-        },
-        "stops": [["진주부산교통", "진주혁신도시", "김해공항", "부산서부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "606039900202",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "신흥여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 22
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8900
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "진주혁신도시"
+        },
+        {
+          "name": "김해공항"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039900202",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11500
+      ],
+      "초등생": [
+        5800
+      ],
+      "중고생": [
+        9200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "진주혁신도시"
+        },
+        {
+          "name": "김해공항"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606039900202",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11500
+      ],
+      "초등생": [
+        5800
+      ],
+      "중고생": [
+        9200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "진주혁신도시"
+        },
+        {
+          "name": "김해공항"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606039900202",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11500
+      ],
+      "초등생": [
+        5800
+      ],
+      "중고생": [
+        9200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "진주혁신도시"
+        },
+        {
+          "name": "김해공항"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606039900202",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

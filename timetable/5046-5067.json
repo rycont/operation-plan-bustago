@@ -61,6 +61,61 @@
       0
     ],
     "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5700
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영주"
+        },
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "법전"
+        },
+        {
+          "name": "춘양"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505046506703",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5046",
+    "arrivalTerminalId": "5067",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "경북고속"
     ],
     "departureTime": {
@@ -114,72 +169,6 @@
       ]
     },
     "routeId": "929202506702",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3
-      ],
-      "irregularDays": [
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5046",
-    "arrivalTerminalId": "5067",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5700
-      ],
-      "초등생": [
-        2900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "영주"
-        },
-        {
-          "name": "봉화"
-        },
-        {
-          "name": "법전"
-        },
-        {
-          "name": "춘양"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505046506703",
     "pattern": {
       "type": "everyday"
     }
@@ -245,18 +234,7 @@
     },
     "routeId": "929202506702",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3
-      ],
-      "irregularDays": [
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   }
 ]

@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         5000
@@ -30,6 +24,26 @@
         4000
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "양구정중앙"
+        },
+        {
+          "name": "남교"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202071267201",
     "pattern": {
       "type": "everyday"
     }

@@ -1,68 +1,185 @@
 [
-    {
-        "departureTerminalId": "8069",
-        "arrivalTerminalId": "6010",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [11900],
-            "초등생": [6000],
-            "중고생": [9500]
-        },
-        "stops": [["여수", "여천", "순천", "순천북부", "마산", "창원"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "8069",
+    "arrivalTerminalId": "6010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
     },
-    {
-        "departureTerminalId": "8069",
-        "arrivalTerminalId": "6010",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 35
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [11900],
-            "초등생": [6000],
-            "중고생": [9500]
-        },
-        "stops": [["여수", "여천", "순천", "순천북부", "마산", "창원"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11900
+      ],
+      "초등생": [
+        6000
+      ],
+      "중고생": [
+        9500
+      ]
     },
-    {
-        "departureTerminalId": "8069",
-        "arrivalTerminalId": "6010",
-        "durationInMinutes": [0],
-        "operator": ["대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 5
+    "stops": [
+      [
+        {
+          "name": "여수"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [11900],
-            "초등생": [6000],
-            "중고생": [9500]
+        {
+          "name": "여천"
         },
-        "stops": [["여수", "여천", "순천", "순천북부", "마산", "창원"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "순천"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808041602802",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8069",
+    "arrivalTerminalId": "6010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11900
+      ],
+      "초등생": [
+        6000
+      ],
+      "중고생": [
+        9500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "여수"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808041602802",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8069",
+    "arrivalTerminalId": "6010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11900
+      ],
+      "초등생": [
+        6000
+      ],
+      "중고생": [
+        9500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "여수"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808041602802",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

@@ -1,46 +1,109 @@
 [
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "5016",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
-        },
-        "stops": [["진주부산교통", "거창", "김천"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "5016",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 20
     },
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "5016",
-        "durationInMinutes": [0],
-        "operator": ["거창고속㈜"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 30
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [19800],
-            "초등생": [9900],
-            "중고생": [15800]
+        {
+          "name": "거창"
         },
-        "stops": [["진주부산교통", "거창", "김천구미역", "김천"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "김천"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606039501603",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "5016",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거창고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "거창"
+        },
+        {
+          "name": "김천구미역"
+        },
+        {
+          "name": "김천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606039501606",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

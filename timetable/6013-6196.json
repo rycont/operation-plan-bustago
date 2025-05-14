@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         1700
@@ -30,6 +24,41 @@
         1300
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "부곡"
+        },
+        {
+          "name": "인교"
+        },
+        {
+          "name": "초동"
+        },
+        {
+          "name": "신호"
+        },
+        {
+          "name": "검암"
+        },
+        {
+          "name": "모산"
+        },
+        {
+          "name": "수산리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606013305901",
     "pattern": {
       "type": "everyday"
     }

@@ -8,45 +8,93 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "양구정중앙"
+        },
+        {
+          "name": "속초(진부령)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202071201902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2071",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
     ],
     "departureTime": {
       "hour": 23,
       "minute": 59
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
-        0,
         13000
       ],
       "초등생": [
-        0,
         6500
       ],
       "중고생": [
-        0,
         10400
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        2,
-        2,
-        2
-      ],
-      "irregularDays": [
-        1,
-        1,
-        1,
-        1
+    "stops": [
+      [
+        {
+          "name": "양구정중앙"
+        },
+        {
+          "name": "속초"
+        }
       ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202071201901",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]

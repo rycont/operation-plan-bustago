@@ -1,41 +1,87 @@
 [
-    {
-        "departureTerminalId": "6039",
-        "arrivalTerminalId": "6247",
-        "durationInMinutes": [0],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 40
+  {
+    "departureTerminalId": "6039",
+    "arrivalTerminalId": "6247",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1000
+      ],
+      "초등생": [
+        500
+      ],
+      "중고생": [
+        800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [1000],
-            "초등생": [500],
-            "중고생": [800]
+        {
+          "name": "원지"
         },
-        "stops": [
-            [
-                "진주부산교통",
-                "원지",
-                "단성",
-                "배양",
-                "도평",
-                "소남",
-                "관정",
-                "남사",
-                "구산",
-                "입석",
-                "용두",
-                "진자",
-                "운리",
-                "청계리"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "단성"
+        },
+        {
+          "name": "배양"
+        },
+        {
+          "name": "도평"
+        },
+        {
+          "name": "소남"
+        },
+        {
+          "name": "관정"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "구산"
+        },
+        {
+          "name": "입석"
+        },
+        {
+          "name": "용두"
+        },
+        {
+          "name": "진자"
+        },
+        {
+          "name": "운리"
+        },
+        {
+          "name": "청계리"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039617203",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

@@ -1,84 +1,201 @@
 [
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "5007",
-        "durationInMinutes": [270],
-        "operator": ["㈜천마고속"],
-        "busClass": ["심야우등1"],
-        "departureTime": {
-            "hour": 1,
-            "minute": 15
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [37300],
-            "초등생": [18700],
-            "중고생": [29800]
-        },
-        "stops": [["인천", "안산", "수원", "경주", "포항"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "5007",
+    "durationInMinutes": [
+      270
+    ],
+    "operator": [
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 1,
+      "minute": 15
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "5007",
-        "durationInMinutes": [225],
-        "operator": ["㈜아성고속", "㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31100],
-            "초등생": [15600],
-            "중고생": [24900]
-        },
-        "stops": [["서수원", "수원터미널", "오산", "경주", "포항"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        37300
+      ],
+      "초등생": [
+        18700
+      ],
+      "중고생": [
+        29800
+      ]
     },
-    {
-        "departureTerminalId": "1012",
-        "arrivalTerminalId": "5007",
-        "durationInMinutes": [0],
-        "operator": ["㈜아성고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 55
+    "stops": [
+      [
+        {
+          "name": "인천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [31100],
-            "초등생": [15600],
-            "중고생": [24900]
+        {
+          "name": "안산"
         },
-        "stops": [
-            [
-                "인천",
-                "안산",
-                "서수원",
-                "수원터미널",
-                "오산",
-                "경주",
-                "포항",
-                "강구",
-                "영덕",
-                "영해",
-                "후포",
-                "평해",
-                "울진"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "수원"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "포항"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "939302507108",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "5007",
+    "durationInMinutes": [
+      225
+    ],
+    "operator": [
+      "㈜아성고속",
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31100
+      ],
+      "초등생": [
+        15600
+      ],
+      "중고생": [
+        24900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서수원"
+        },
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "포항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101008507102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "5007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜아성고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31100
+      ],
+      "초등생": [
+        15600
+      ],
+      "중고생": [
+        24900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "서수원"
+        },
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "강구"
+        },
+        {
+          "name": "영덕"
+        },
+        {
+          "name": "영해"
+        },
+        {
+          "name": "후포"
+        },
+        {
+          "name": "평해"
+        },
+        {
+          "name": "울진"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302505405",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

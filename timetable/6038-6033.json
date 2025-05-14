@@ -1,276 +1,565 @@
 [
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6033",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8600],
-            "초등생": [4300],
-            "중고생": [6900]
-        },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진주(도동)",
-                "삼가",
-                "합천",
-                "대구서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6033",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8600],
-            "초등생": [4300],
-            "중고생": [6900]
-        },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진주(도동)",
-                "대의",
-                "합천",
-                "대구서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
     },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6033",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 0
+    "stops": [
+      [
+        {
+          "name": "진주"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8600],
-            "초등생": [4300],
-            "중고생": [6900]
+        {
+          "name": "경상대(칠암)"
         },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진주(도동)",
-                "합천",
-                "대구서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진주(도동)"
+        },
+        {
+          "name": "삼가"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6033",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등", "프리미엄우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21, 28],
-        "fare": {
-            "어른": [8600],
-            "초등생": [4300],
-            "중고생": [6900]
-        },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진주(도동)",
-                "합천",
-                "대구서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6033",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8600],
-            "초등생": [4300],
-            "중고생": [6900]
-        },
-        "stops": [["삼천포", "사천", "진주", "합천", "대구서부"]],
-        "pattern": {
-            "type": "specific-day",
-            "days": []
-        }
-    },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6033",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8600],
-            "초등생": [4300],
-            "중고생": [6900]
-        },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진주(도동)",
-                "합천",
-                "대구서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6033",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8600],
-            "초등생": [4300],
-            "중고생": [6900]
-        },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진주(도동)",
-                "삼가",
-                "합천",
-                "대구서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6033",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [8600],
-            "초등생": [4300],
-            "중고생": [6900]
-        },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진주(도동)",
-                "합천",
-                "대구서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6414",
-        "arrivalTerminalId": "6033",
-        "durationInMinutes": [0],
-        "operator": ["경전_동일"],
-        "busClass": ["시외우등", "프리미엄우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21, 28],
-        "fare": {
-            "어른": [8600],
-            "초등생": [4300],
-            "중고생": [6900]
-        },
-        "stops": [
-            [
-                "진주",
-                "경상대(칠암)",
-                "진주(개양)",
-                "진주(도동)",
-                "합천",
-                "대구서부"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "606414920409",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진주(도동)"
+        },
+        {
+          "name": "대의"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606414920415",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진주(도동)"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606414920404",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진주(도동)"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21,
+        28
+      ],
+      "busClass": [
+        "시외우등",
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "606414920404",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "진주"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606016920404",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진주(도동)"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606414920404",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진주(도동)"
+        },
+        {
+          "name": "삼가"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606414920409",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진주(도동)"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606414920404",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6414",
+    "arrivalTerminalId": "6033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진주(도동)"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21,
+        28
+      ],
+      "busClass": [
+        "시외우등",
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "606414920404",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

@@ -8,17 +8,11 @@
     "operator": [
       "금호고속(주)"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 10,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         13000
@@ -30,8 +24,43 @@
         10400
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "신북"
+        },
+        {
+          "name": "영암"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "산정"
+        },
+        {
+          "name": "송호리"
+        },
+        {
+          "name": "땅끝"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808040816401",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]

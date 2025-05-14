@@ -1,478 +1,1179 @@
 [
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 6,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [
-            [
-                "진주(경원)",
-                "경상대(칠암)",
-                "진주(개양)",
-                "사천",
-                "상리",
-                "부포",
-                "고성",
-                "통영터미널",
-                "사곡",
-                "고현거제도",
-                "옥포",
-                "장승포"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
     },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
+        {
+          "name": "경상대(칠암)"
         },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
     },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 5
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [9500],
-            "초등생": [4800],
-            "중고생": [7600]
-        },
-        "stops": [
-            [
-                "진주(경원)",
-                "경상대(칠암)",
-                "진주(개양)",
-                "사천",
-                "고성",
-                "통영터미널"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 17,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 20
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "6042",
-        "arrivalTerminalId": "6029",
-        "durationInMinutes": [0],
-        "operator": ["거제현대고속㈜", "경원여객(자주)", "대한여객(자주)"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 10
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41, 45],
-        "fare": {
-            "어른": [6800],
-            "초등생": [3400],
-            "중고생": [5400]
-        },
-        "stops": [
-            ["진주(경원)", "경상대(칠암)", "진주(개양)", "고성", "통영터미널"]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "상리"
+        },
+        {
+          "name": "부포"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "사곡"
+        },
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "옥포"
+        },
+        {
+          "name": "장승포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042645503",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602903",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "거제현대고속㈜",
+      "경원여객(자주)",
+      "대한여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042602902",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

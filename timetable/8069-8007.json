@@ -1,24 +1,57 @@
 [
-    {
-        "departureTerminalId": "8069",
-        "arrivalTerminalId": "8007",
-        "durationInMinutes": [0],
-        "operator": ["㈜전북고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 45
+  {
+    "departureTerminalId": "8069",
+    "arrivalTerminalId": "8007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "순천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [0],
-            "초등생": [0],
-            "중고생": [0]
+        {
+          "name": "순천북부"
         },
-        "stops": [["순천", "순천북부", "구례", "남원"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "구례"
+        },
+        {
+          "name": "남원"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808038701003",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

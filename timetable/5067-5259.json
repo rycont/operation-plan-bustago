@@ -1,38 +1,78 @@
 [
-    {
-        "departureTerminalId": "5067",
-        "arrivalTerminalId": "5259",
-        "durationInMinutes": [0],
-        "operator": ["진안고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 55
+  {
+    "departureTerminalId": "5067",
+    "arrivalTerminalId": "5259",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        11500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울진"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [12800],
-            "초등생": [6400],
-            "중고생": [11500]
+        {
+          "name": "춘양"
         },
-        "stops": [
-            [
-                "울진",
-                "춘양",
-                "봉화",
-                "상운",
-                "안동",
-                "신도청",
-                "예천삼거리",
-                "예천",
-                "점촌",
-                "상주",
-                "구미"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "상운"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "예천삼거리"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "구미"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505054501102",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

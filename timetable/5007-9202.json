@@ -1,112 +1,267 @@
 [
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9202",
-        "durationInMinutes": [70],
-        "operator": ["㈜아성고속", "㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [8100]
-        },
-        "stops": [["포항", "경주", "대구북부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9202",
+    "durationInMinutes": [
+      70
+    ],
+    "operator": [
+      "㈜아성고속",
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9202",
-        "durationInMinutes": [70],
-        "operator": ["㈜아성고속", "㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [8100]
-        },
-        "stops": [["포항", "경주", "대구북부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        8100
+      ]
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9202",
-        "durationInMinutes": [70],
-        "operator": ["㈜아성고속", "㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 40
+    "stops": [
+      [
+        {
+          "name": "포항"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [8100]
+        {
+          "name": "경주"
         },
-        "stops": [["포항", "경주", "대구북부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "대구북부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9202",
-        "durationInMinutes": [70],
-        "operator": ["㈜아성고속", "㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [8100]
-        },
-        "stops": [["포항", "경주", "대구북부"]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "5007",
-        "arrivalTerminalId": "9202",
-        "durationInMinutes": [70],
-        "operator": ["㈜아성고속", "㈜천마고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 40
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [9000],
-            "초등생": [4500],
-            "중고생": [8100]
-        },
-        "stops": [["포항", "경주", "대구북부"]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "505071920201",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9202",
+    "durationInMinutes": [
+      70
+    ],
+    "operator": [
+      "㈜아성고속",
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        8100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "대구북부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071920201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9202",
+    "durationInMinutes": [
+      70
+    ],
+    "operator": [
+      "㈜아성고속",
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        8100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "대구북부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071920201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9202",
+    "durationInMinutes": [
+      70
+    ],
+    "operator": [
+      "㈜아성고속",
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        8100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "대구북부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071920201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "9202",
+    "durationInMinutes": [
+      70
+    ],
+    "operator": [
+      "㈜아성고속",
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        8100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "대구북부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071920201",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
