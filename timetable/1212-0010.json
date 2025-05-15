@@ -1,236 +1,551 @@
 [
-    {
-        "departureTerminalId": "1212",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 5,
-            "minute": 33
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["오리역", "미금역", "정자역", "수내역", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
+  {
+    "departureTerminalId": "1212",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 5,
+      "minute": 33
     },
-    {
-        "departureTerminalId": "1212",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 13
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["오리역", "미금역", "정자역", "수내역", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
     },
-    {
-        "departureTerminalId": "1212",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 53
+    "stops": [
+      [
+        {
+          "name": "오리역"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
+        {
+          "name": "미금역"
         },
-        "stops": [
-            ["오리역", "미금역", "정자역", "수내역", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
+        {
+          "name": "정자역"
+        },
+        {
+          "name": "수내역"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
     },
-    {
-        "departureTerminalId": "1212",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 53
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["오리역", "미금역", "정자역", "수내역", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
-    },
-    {
-        "departureTerminalId": "1212",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 53
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["오리역", "미금역", "정자역", "수내역", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
-    },
-    {
-        "departureTerminalId": "1212",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 53
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["오리역", "미금역", "정자역", "수내역", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
-    },
-    {
-        "departureTerminalId": "1212",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 16,
-            "minute": 53
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["오리역", "미금역", "정자역", "수내역", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
-    },
-    {
-        "departureTerminalId": "1212",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 53
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["오리역", "미금역", "정자역", "수내역", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
-    },
-    {
-        "departureTerminalId": "1212",
-        "arrivalTerminalId": "0010",
-        "durationInMinutes": [0],
-        "operator": ["(주)경기고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 20,
-            "minute": 53
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [7900],
-            "초등생": [4000],
-            "중고생": [5500]
-        },
-        "stops": [
-            ["오리역", "미금역", "정자역", "수내역", "서현역", "김포공항"]
-        ],
-        "pattern": {
-            "type": "irregular",
-            "fixedDays": [2],
-            "irregularDays": [1]
-        }
+    "routeId": "101215001001",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1212",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 13
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오리역"
+        },
+        {
+          "name": "미금역"
+        },
+        {
+          "name": "정자역"
+        },
+        {
+          "name": "수내역"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101215001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1212",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오리역"
+        },
+        {
+          "name": "미금역"
+        },
+        {
+          "name": "정자역"
+        },
+        {
+          "name": "수내역"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101215001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1212",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오리역"
+        },
+        {
+          "name": "미금역"
+        },
+        {
+          "name": "정자역"
+        },
+        {
+          "name": "수내역"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101215001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1212",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오리역"
+        },
+        {
+          "name": "미금역"
+        },
+        {
+          "name": "정자역"
+        },
+        {
+          "name": "수내역"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101215001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1212",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오리역"
+        },
+        {
+          "name": "미금역"
+        },
+        {
+          "name": "정자역"
+        },
+        {
+          "name": "수내역"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101215001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1212",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오리역"
+        },
+        {
+          "name": "미금역"
+        },
+        {
+          "name": "정자역"
+        },
+        {
+          "name": "수내역"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101215001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1212",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오리역"
+        },
+        {
+          "name": "미금역"
+        },
+        {
+          "name": "정자역"
+        },
+        {
+          "name": "수내역"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101215001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1212",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 53
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        5500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오리역"
+        },
+        {
+          "name": "미금역"
+        },
+        {
+          "name": "정자역"
+        },
+        {
+          "name": "수내역"
+        },
+        {
+          "name": "서현역"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101215001001",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
