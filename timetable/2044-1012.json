@@ -1,57 +1,121 @@
 [
-    {
-        "departureTerminalId": "2044",
-        "arrivalTerminalId": "1012",
-        "durationInMinutes": [0],
-        "operator": ["㈜금강고속"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [15200],
-            "초등생": [7600],
-            "중고생": [12200]
-        },
-        "stops": [["홍천", "우만동", "수원"]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "2044",
+    "arrivalTerminalId": "1012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "2044",
-        "arrivalTerminalId": "1012",
-        "durationInMinutes": [0],
-        "operator": ["㈜금강고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 14,
-            "minute": 55
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15200
+      ],
+      "초등생": [
+        7600
+      ],
+      "중고생": [
+        12200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "홍천"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [11700],
-            "초등생": [5900],
-            "중고생": [9400]
+        {
+          "name": "우만동"
         },
-        "stops": [
-            [
-                "속초",
-                "백담사입구",
-                "원통",
-                "인제",
-                "신남",
-                "홍천",
-                "우만동",
-                "수원터미널"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "수원"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202044101201",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2044",
+    "arrivalTerminalId": "1012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11700
+      ],
+      "초등생": [
+        5900
+      ],
+      "중고생": [
+        9400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "백담사입구"
+        },
+        {
+          "name": "원통"
+        },
+        {
+          "name": "인제"
+        },
+        {
+          "name": "신남"
+        },
+        {
+          "name": "홍천"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019101220",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

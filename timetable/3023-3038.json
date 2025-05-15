@@ -1,47 +1,105 @@
 [
-    {
-        "departureTerminalId": "3023",
-        "arrivalTerminalId": "3038",
-        "durationInMinutes": [0],
-        "operator": ["서울고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 0
+  {
+    "departureTerminalId": "3023",
+    "arrivalTerminalId": "3038",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "서울고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13600
+      ],
+      "초등생": [
+        6800
+      ],
+      "중고생": [
+        10900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "단양상진"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [13600],
-            "초등생": [6800],
-            "중고생": [10900]
+        {
+          "name": "단성"
         },
-        "stops": [
-            [
-                "단양상진",
-                "단성",
-                "장회",
-                "계란리",
-                "수산",
-                "덕산(제천)",
-                "용바위",
-                "수산리",
-                "탄지리",
-                "살미",
-                "충주",
-                "주덕",
-                "비산",
-                "적곡리",
-                "음성",
-                "보천",
-                "도안",
-                "증평",
-                "청주대정류소",
-                "청주"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "장회"
+        },
+        {
+          "name": "계란리"
+        },
+        {
+          "name": "수산"
+        },
+        {
+          "name": "덕산(제천)"
+        },
+        {
+          "name": "용바위"
+        },
+        {
+          "name": "수산리"
+        },
+        {
+          "name": "탄지리"
+        },
+        {
+          "name": "살미"
+        },
+        {
+          "name": "충주"
+        },
+        {
+          "name": "주덕"
+        },
+        {
+          "name": "비산"
+        },
+        {
+          "name": "적곡리"
+        },
+        {
+          "name": "음성"
+        },
+        {
+          "name": "보천"
+        },
+        {
+          "name": "도안"
+        },
+        {
+          "name": "증평"
+        },
+        {
+          "name": "청주대정류소"
+        },
+        {
+          "name": "청주"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303023301502",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]

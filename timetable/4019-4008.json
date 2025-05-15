@@ -1,105 +1,215 @@
 [
-    {
-        "departureTerminalId": "4019",
-        "arrivalTerminalId": "4008",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [7800]
-        },
-        "stops": [
-            [
-                "천안",
-                "인풍",
-                "광정",
-                "석송",
-                "모란",
-                "공주",
-                "봉황(공주시)",
-                "이인",
-                "탄천",
-                "부여"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "4019",
+    "arrivalTerminalId": "4008",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "4019",
-        "arrivalTerminalId": "4008",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 12,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [7800]
-        },
-        "stops": [
-            [
-                "천안",
-                "인풍",
-                "광정",
-                "석송",
-                "모란",
-                "공주",
-                "봉황(공주시)",
-                "이인",
-                "탄천",
-                "부여"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
     },
-    {
-        "departureTerminalId": "4019",
-        "arrivalTerminalId": "4008",
-        "durationInMinutes": [0],
-        "operator": ["㈜삼흥고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 22
+    "stops": [
+      [
+        {
+          "name": "천안"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [40],
-        "fare": {
-            "어른": [9700],
-            "초등생": [4900],
-            "중고생": [7800]
+        {
+          "name": "인풍"
         },
-        "stops": [
-            [
-                "천안",
-                "세종청사",
-                "세종시",
-                "공주",
-                "봉황(공주시)",
-                "이인",
-                "탄천",
-                "부여"
-            ]
-        ],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "광정"
+        },
+        {
+          "name": "석송"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "봉황(공주시)"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404019400808",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "4019",
+    "arrivalTerminalId": "4008",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "천안"
+        },
+        {
+          "name": "인풍"
+        },
+        {
+          "name": "광정"
+        },
+        {
+          "name": "석송"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "봉황(공주시)"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404019400808",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4019",
+    "arrivalTerminalId": "4008",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 22
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9700
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "천안"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "봉황(공주시)"
+        },
+        {
+          "name": "이인"
+        },
+        {
+          "name": "탄천"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404019400815",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]

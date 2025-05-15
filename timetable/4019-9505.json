@@ -1,24 +1,54 @@
 [
-    {
-        "departureTerminalId": "4019",
-        "arrivalTerminalId": "9505",
-        "durationInMinutes": [0],
-        "operator": ["㈜금남고속"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 0
+  {
+    "departureTerminalId": "4019",
+    "arrivalTerminalId": "9505",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6000
+      ],
+      "초등생": [
+        3000
+      ],
+      "중고생": [
+        4800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "천안"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [41],
-        "fare": {
-            "어른": [6000],
-            "초등생": [3000],
-            "중고생": [4800]
+        {
+          "name": "대전청사(선사유적)"
         },
-        "stops": [["천안", "대전청사(선사유적)", "대전서부"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "대전서부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404019950401",
+    "pattern": {
+      "type": "everyday"
     }
+  }
 ]
