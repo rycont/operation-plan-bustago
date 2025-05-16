@@ -54,7 +54,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -112,7 +112,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -170,7 +170,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -228,7 +228,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -286,7 +286,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -301,6 +301,64 @@
     "departureTime": {
       "hour": 12,
       "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3900
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "이동"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "자등리"
+        },
+        {
+          "name": "신수리"
+        },
+        {
+          "name": "와수리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101227202601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1227",
+    "arrivalTerminalId": "2026",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -402,7 +460,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -460,7 +518,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -529,6 +587,64 @@
       ]
     },
     "routeId": "101227255201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1227",
+    "arrivalTerminalId": "2026",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3900
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        3100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "이동"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "자등리"
+        },
+        {
+          "name": "신수리"
+        },
+        {
+          "name": "와수리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101227202601",
     "pattern": {
       "type": "unknown"
     }
@@ -600,7 +716,7 @@
     },
     "routeId": "101227255201",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -658,7 +774,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -728,7 +844,7 @@
     },
     "routeId": "101227255201",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -798,7 +914,7 @@
     },
     "routeId": "101227255201",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -856,7 +972,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -914,7 +1030,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -972,7 +1088,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -1030,123 +1146,7 @@
     },
     "routeId": "101227202601",
     "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "1227",
-    "arrivalTerminalId": "2026",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3900
-      ],
-      "초등생": [
-        2000
-      ],
-      "중고생": [
-        3100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "이동"
-        },
-        {
-          "name": "도평리"
-        },
-        {
-          "name": "자등리"
-        },
-        {
-          "name": "신수리"
-        },
-        {
-          "name": "와수리"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101227202601",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "1227",
-    "arrivalTerminalId": "2026",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3900
-      ],
-      "초등생": [
-        2000
-      ],
-      "중고생": [
-        3100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "이동"
-        },
-        {
-          "name": "도평리"
-        },
-        {
-          "name": "자등리"
-        },
-        {
-          "name": "신수리"
-        },
-        {
-          "name": "와수리"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101227202601",
-    "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   }
 ]
