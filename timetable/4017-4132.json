@@ -8,17 +8,11 @@
     "operator": [
       "공통"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 8,
       "minute": 50
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         3500
@@ -30,8 +24,37 @@
         2800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "유구"
+        },
+        {
+          "name": "송악"
+        },
+        {
+          "name": "온양"
+        },
+        {
+          "name": "아산고속역"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404017401901",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]
