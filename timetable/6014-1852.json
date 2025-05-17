@@ -9,22 +9,19 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 50
+      "hour": 8,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        30300,
-        39400
+        30300
       ],
       "초등생": [
-        15200,
-        19700
+        15200
       ],
       "중고생": [
-        24200,
-        31500
+        24200
       ]
     },
     "stops": [
@@ -46,17 +43,18 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         28
       ],
       "busClass": [
-        "시외우등",
-        "프리미엄우등"
+        "시외우등"
       ]
     },
     "routeId": "606016000407",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   },
   {
@@ -111,7 +109,12 @@
     },
     "routeId": "606016000407",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -166,7 +169,12 @@
     },
     "routeId": "606016000407",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -226,7 +234,12 @@
     },
     "routeId": "606016000407",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -284,7 +297,12 @@
     },
     "routeId": "606016000409",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -297,18 +315,21 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 19,
-      "minute": 10
+      "hour": 7,
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        30300,
         39400
       ],
       "초등생": [
+        15200,
         19700
       ],
       "중고생": [
+        24200,
         31500
       ]
     },
@@ -331,76 +352,17 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "시외우등",
         "프리미엄우등"
       ]
     },
     "routeId": "606016000407",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6014",
-    "arrivalTerminalId": "1852",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        30300
-      ],
-      "초등생": [
-        15200
-      ],
-      "중고생": [
-        24200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "삼천포"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "죽전(경전)"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606016000407",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -624,6 +586,64 @@
     "routeId": "606016000409",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6014",
+    "arrivalTerminalId": "1852",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39400
+      ],
+      "초등생": [
+        19700
+      ],
+      "중고생": [
+        31500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "죽전(경전)"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "606016000407",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5
+      ]
     }
   }
 ]
