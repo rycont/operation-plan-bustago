@@ -68,67 +68,6 @@
       140
     ],
     "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16400
-      ],
-      "초등생": [
-        8200
-      ],
-      "중고생": [
-        11500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "고천"
-        },
-        {
-          "name": "문막"
-        },
-        {
-          "name": "원주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007202802",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
       "(주)경기고속"
     ],
     "departureTime": {
@@ -435,67 +374,6 @@
       140
     ],
     "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16400
-      ],
-      "초등생": [
-        8200
-      ],
-      "중고생": [
-        11500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "고천"
-        },
-        {
-          "name": "문막"
-        },
-        {
-          "name": "원주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007202802",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
       "(주)경기고속"
     ],
     "departureTime": {
@@ -731,6 +609,142 @@
     "routeId": "101007202802",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "2028",
+    "durationInMinutes": [
+      140
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16400
+      ],
+      "초등생": [
+        8200
+      ],
+      "중고생": [
+        11500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "문막"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007202802",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "2028",
+    "durationInMinutes": [
+      140
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16400
+      ],
+      "초등생": [
+        8200
+      ],
+      "중고생": [
+        11500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "문막"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007202802",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   }
 ]
