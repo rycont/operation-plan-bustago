@@ -62,9 +62,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        6,
-        7
+        1
       ]
     }
   },
@@ -544,9 +542,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        6,
-        7
+        1
       ]
     }
   },
@@ -1700,6 +1696,58 @@
       0
     ],
     "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7700
+      ],
+      "초등생": [
+        3900
+      ],
+      "중고생": [
+        6200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "병원"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019205102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2019",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "㈜금아여행"
     ],
     "departureTime": {
@@ -1758,58 +1806,6 @@
       "days": [
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "2019",
-    "arrivalTerminalId": "2051",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원여객"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7700
-      ],
-      "초등생": [
-        3900
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "속초"
-        },
-        {
-          "name": "병원"
-        },
-        {
-          "name": "강릉"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202019205102",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
