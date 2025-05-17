@@ -571,8 +571,8 @@
       "㈜전주고속"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 55
+      "hour": 11,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1488,7 +1488,7 @@
     ],
     "departureTime": {
       "hour": 18,
-      "minute": 50
+      "minute": 45
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1933,6 +1933,136 @@
     "routeId": "707018703302",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7018",
+    "arrivalTerminalId": "7009",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전주고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2800
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부안"
+        },
+        {
+          "name": "김제"
+        },
+        {
+          "name": "서부효자(교육청앞)"
+        },
+        {
+          "name": "완산동"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707018703302",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7018",
+    "arrivalTerminalId": "7009",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전주고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2800
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부안"
+        },
+        {
+          "name": "김제"
+        },
+        {
+          "name": "서부효자(교육청앞)"
+        },
+        {
+          "name": "완산동"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707018703302",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   }
 ]
