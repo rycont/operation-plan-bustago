@@ -9,7 +9,7 @@
       "공통"
     ],
     "departureTime": {
-      "hour": 8,
+      "hour": 10,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -112,7 +112,18 @@
     },
     "routeId": "101039930201",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -170,17 +181,7 @@
     },
     "routeId": "101039930201",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -193,8 +194,8 @@
       "공통"
     ],
     "departureTime": {
-      "hour": 16,
-      "minute": 40
+      "hour": 19,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -309,7 +310,7 @@
       "공통"
     ],
     "departureTime": {
-      "hour": 10,
+      "hour": 8,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -367,8 +368,8 @@
       "공통"
     ],
     "departureTime": {
-      "hour": 19,
-      "minute": 20
+      "hour": 16,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
