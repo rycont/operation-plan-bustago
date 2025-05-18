@@ -149,14 +149,7 @@
     },
     "routeId": "808024940126",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -205,14 +198,7 @@
     },
     "routeId": "808024940102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -876,14 +862,7 @@
     },
     "routeId": "808024940102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -931,6 +910,67 @@
       ]
     },
     "routeId": "808024940102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8024",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "목포대"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808024940153",
     "pattern": {
       "type": "everyday"
     }
@@ -1676,14 +1716,7 @@
     },
     "routeId": "808024940104",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -2387,43 +2420,31 @@
     "departureTerminalId": "8024",
     "arrivalTerminalId": "9401",
     "durationInMinutes": [
-      0
+      68
     ],
     "operator": [
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 14,
-      "minute": 0
+      "hour": 15,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        0
+        9300
       ],
       "초등생": [
-        0
+        4700
       ],
       "중고생": [
-        0
+        7400
       ]
     },
     "stops": [
       [
         {
           "name": "목포"
-        },
-        {
-          "name": "목포대"
-        },
-        {
-          "name": "청계"
-        },
-        {
-          "name": "무안"
-        },
-        {
-          "name": "함평"
         },
         {
           "name": "광주(유ㆍ스퀘어)"
@@ -2433,15 +2454,76 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        45
+        28
       ],
       "busClass": [
-        "일반"
+        "시외우등"
       ]
     },
-    "routeId": "808024940153",
+    "routeId": "808024940102",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8024",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      68
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9300
+      ],
+      "초등생": [
+        4700
+      ],
+      "중고생": [
+        7400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808024940102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        5,
+        6,
+        7
+      ]
     }
   }
 ]
