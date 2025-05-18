@@ -1,25 +1,59 @@
 [
-    {
-        "departureTerminalId": "6687",
-        "arrivalTerminalId": "0004",
-        "durationInMinutes": [0],
-        "operator": ["부산교통㈜", "영화여객(자주)"],
-        "busClass": ["시외우등"],
-        "departureTime": {
-            "hour": 15,
-            "minute": 0
+  {
+    "departureTerminalId": "6687",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜",
+      "영화여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35700
+      ],
+      "초등생": [
+        17900
+      ],
+      "중고생": [
+        28600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "중산리"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [35700],
-            "초등생": [17900],
-            "중고생": [28600]
+        {
+          "name": "덕산(산청)"
         },
-        "stops": [["중산리", "덕산(산청)", "서울남부"]],
-        "pattern": {
-            "type": "specific-day",
-            "days": []
+        {
+          "name": "서울남부"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606687000401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
+  }
 ]
