@@ -767,62 +767,6 @@
       0
     ],
     "operator": [
-      "(주)경기고속",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3100
-      ],
-      "초등생": [
-        1600
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "강릉"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007205104",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "1092",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "대원고속"
     ],
     "departureTime": {
@@ -881,9 +825,10 @@
     "departureTerminalId": "1007",
     "arrivalTerminalId": "1092",
     "durationInMinutes": [
-      35
+      0
     ],
     "operator": [
+      "(주)경기고속",
       "대원고속"
     ],
     "departureTime": {
@@ -914,7 +859,7 @@
           "name": "호계동"
         },
         {
-          "name": "전주"
+          "name": "강릉"
         }
       ]
     ],
@@ -927,14 +872,9 @@
         "시외우등"
       ]
     },
-    "routeId": "101007703301",
+    "routeId": "101007205104",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -2003,6 +1943,61 @@
     ],
     "departureTime": {
       "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3100
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007703301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "1092",
+    "durationInMinutes": [
+      35
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
       "minute": 0
     },
     "isTemporaryRoute": false,
