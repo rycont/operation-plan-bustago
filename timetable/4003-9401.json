@@ -9,6 +9,61 @@
       "금호고속(주)"
     ],
     "departureTime": {
+      "hour": 8,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18600
+      ],
+      "초등생": [
+        9300
+      ],
+      "중고생": [
+        14900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404292940102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      140
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
       "hour": 9,
       "minute": 55
     },
@@ -205,61 +260,6 @@
     "routeId": "404292940102",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4003",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18600
-      ],
-      "초등생": [
-        9300
-      ],
-      "중고생": [
-        14900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "세종시"
-        },
-        {
-          "name": "공주"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "404292940102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
     }
   },
   {
