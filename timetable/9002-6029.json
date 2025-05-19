@@ -2993,7 +2993,7 @@
     ],
     "departureTime": {
       "hour": 20,
-      "minute": 10
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -3040,14 +3040,7 @@
     },
     "routeId": "909002602902",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -3146,67 +3139,6 @@
       ]
     },
     "routeId": "909002602901",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6029",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
-      "거제현대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14900
-      ],
-      "초등생": [
-        7500
-      ],
-      "중고생": [
-        11900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "마산(남부)"
-        },
-        {
-          "name": "진동"
-        },
-        {
-          "name": "배둔"
-        },
-        {
-          "name": "고성"
-        },
-        {
-          "name": "통영(완행)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909002602902",
     "pattern": {
       "type": "everyday"
     }
