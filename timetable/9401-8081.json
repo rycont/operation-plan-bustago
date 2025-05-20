@@ -382,5 +382,73 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8081",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14400
+      ],
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "소태역"
+        },
+        {
+          "name": "보성북문"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "제암산휴양림"
+        },
+        {
+          "name": "율포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949401808112",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2
+      ]
+    }
   }
 ]
