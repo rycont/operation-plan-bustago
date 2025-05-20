@@ -9,250 +9,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 6,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7500
-      ],
-      "초등생": [
-        3800
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "지축역"
-        },
-        {
-          "name": "삼송역"
-        },
-        {
-          "name": "원흥역"
-        },
-        {
-          "name": "도래울마을2,3단지"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "10b106933701",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1778",
-    "arrivalTerminalId": "9303",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7500
-      ],
-      "초등생": [
-        3800
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "지축역"
-        },
-        {
-          "name": "삼송역"
-        },
-        {
-          "name": "원흥역"
-        },
-        {
-          "name": "도래울마을2,3단지"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "10b106933701",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1778",
-    "arrivalTerminalId": "9303",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7500
-      ],
-      "초등생": [
-        3800
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "지축역"
-        },
-        {
-          "name": "삼송역"
-        },
-        {
-          "name": "원흥역"
-        },
-        {
-          "name": "도래울마을2,3단지"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "10b106933701",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1778",
-    "arrivalTerminalId": "9303",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7500
-      ],
-      "초등생": [
-        3800
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "지축역"
-        },
-        {
-          "name": "삼송역"
-        },
-        {
-          "name": "원흥역"
-        },
-        {
-          "name": "도래울마을2,3단지"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "10b106933701",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1778",
-    "arrivalTerminalId": "9303",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 5,
       "minute": 50
     },
@@ -301,7 +57,78 @@
     },
     "routeId": "10b106933701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1778",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7500
+      ],
+      "초등생": [
+        3800
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "지축역"
+        },
+        {
+          "name": "삼송역"
+        },
+        {
+          "name": "원흥역"
+        },
+        {
+          "name": "도래울마을2,3단지"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "10b106933701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -362,7 +189,78 @@
     },
     "routeId": "10b106933701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1778",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7500
+      ],
+      "초등생": [
+        3800
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "지축역"
+        },
+        {
+          "name": "삼송역"
+        },
+        {
+          "name": "원흥역"
+        },
+        {
+          "name": "도래울마을2,3단지"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "10b106933701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -423,7 +321,78 @@
     },
     "routeId": "10b106933701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1778",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7500
+      ],
+      "초등생": [
+        3800
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "지축역"
+        },
+        {
+          "name": "삼송역"
+        },
+        {
+          "name": "원흥역"
+        },
+        {
+          "name": "도래울마을2,3단지"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "10b106933701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -484,7 +453,78 @@
     },
     "routeId": "10b106933701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1778",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7500
+      ],
+      "초등생": [
+        3800
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "지축역"
+        },
+        {
+          "name": "삼송역"
+        },
+        {
+          "name": "원흥역"
+        },
+        {
+          "name": "도래울마을2,3단지"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "10b106933701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6
+      ]
     }
   }
 ]
