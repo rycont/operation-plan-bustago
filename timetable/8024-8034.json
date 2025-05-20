@@ -1057,5 +1057,75 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8024",
+    "arrivalTerminalId": "8034",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "독천"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808024803106",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
+    }
   }
 ]
