@@ -3262,7 +3262,7 @@
     ],
     "departureTime": {
       "hour": 15,
-      "minute": 0
+      "minute": 5
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -3303,10 +3303,7 @@
     },
     "routeId": "707006703304",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -3487,11 +3484,11 @@
       0
     ],
     "operator": [
-      "전북여객(주)"
+      "㈜전주고속"
     ],
     "departureTime": {
       "hour": 15,
-      "minute": 35
+      "minute": 45
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -3532,10 +3529,7 @@
     },
     "routeId": "707006703304",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -3659,64 +3653,6 @@
     ],
     "departureTime": {
       "hour": 16,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "군산"
-        },
-        {
-          "name": "대야"
-        },
-        {
-          "name": "덕진동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "707006703304",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "7006",
-    "arrivalTerminalId": "7013",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전주고속"
-    ],
-    "departureTime": {
-      "hour": 16,
       "minute": 15
     },
     "isTemporaryRoute": false,
@@ -3792,10 +3728,10 @@
           "name": "대야"
         },
         {
-          "name": "익산"
+          "name": "덕진동"
         },
         {
-          "name": "익산역"
+          "name": "전주"
         }
       ]
     ],
@@ -3808,7 +3744,7 @@
         "일반"
       ]
     },
-    "routeId": "707006733701",
+    "routeId": "707006703304",
     "pattern": {
       "type": "everyday"
     }
@@ -3824,7 +3760,7 @@
     ],
     "departureTime": {
       "hour": 16,
-      "minute": 35
+      "minute": 25
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -3847,10 +3783,10 @@
           "name": "대야"
         },
         {
-          "name": "덕진동"
+          "name": "익산"
         },
         {
-          "name": "전주"
+          "name": "익산역"
         }
       ]
     ],
@@ -3863,12 +3799,9 @@
         "일반"
       ]
     },
-    "routeId": "707006703304",
+    "routeId": "707006733701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -3930,6 +3863,61 @@
       0
     ],
     "operator": [
+      "㈜전주고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "군산"
+        },
+        {
+          "name": "대야"
+        },
+        {
+          "name": "덕진동"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707006703304",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "7013",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "공통"
     ],
     "departureTime": {
@@ -3973,64 +3961,6 @@
     "routeId": "707006702601",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7006",
-    "arrivalTerminalId": "7013",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전주고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "군산"
-        },
-        {
-          "name": "대야"
-        },
-        {
-          "name": "덕진동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "707006703304",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
     }
   },
   {
@@ -5817,226 +5747,6 @@
       ]
     },
     "routeId": "707006733701",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7006",
-    "arrivalTerminalId": "7013",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전주고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "군산"
-        },
-        {
-          "name": "대야"
-        },
-        {
-          "name": "덕진동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "707006703304",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7006",
-    "arrivalTerminalId": "7013",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전주고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "군산"
-        },
-        {
-          "name": "대야"
-        },
-        {
-          "name": "덕진동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "707006703304",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7006",
-    "arrivalTerminalId": "7013",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전주고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "군산"
-        },
-        {
-          "name": "대야"
-        },
-        {
-          "name": "덕진동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "707006703304",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7006",
-    "arrivalTerminalId": "7013",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전주고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "군산"
-        },
-        {
-          "name": "대야"
-        },
-        {
-          "name": "덕진동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "707006703304",
     "pattern": {
       "type": "everyday"
     }
