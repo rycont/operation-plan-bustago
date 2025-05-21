@@ -293,7 +293,60 @@
       "type": "specific-day",
       "days": [
         1,
+        3,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8422",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      18
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포대"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        30
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808422802401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        3
       ]
     }
   }
