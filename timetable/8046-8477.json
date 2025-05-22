@@ -1,24 +1,51 @@
 [
-    {
-        "departureTerminalId": "8046",
-        "arrivalTerminalId": "8477",
-        "durationInMinutes": [20],
-        "operator": ["공통"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "8046",
+    "arrivalTerminalId": "8477",
+    "durationInMinutes": [
+      20
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2400
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영산포"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [2400],
-            "초등생": [1200],
-            "중고생": [1900]
-        },
-        "stops": [["영산포", "덕진"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "덕진"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808046847701",
+    "pattern": {
+      "type": "unknown"
     }
+  }
 ]

@@ -1,24 +1,54 @@
 [
-    {
-        "departureTerminalId": "6038",
-        "arrivalTerminalId": "5234",
-        "durationInMinutes": [0],
-        "operator": ["남흥"],
-        "busClass": ["일반"],
-        "departureTime": {
-            "hour": 23,
-            "minute": 59
+  {
+    "departureTerminalId": "6038",
+    "arrivalTerminalId": "5234",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "남흥"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(남흥)"
         },
-        "isTemporaryRoute": false,
-        "seatsAmount": [0],
-        "fare": {
-            "어른": [5800],
-            "초등생": [2900],
-            "중고생": [4600]
+        {
+          "name": "경상대(칠암)"
         },
-        "stops": [["진주(남흥)", "경상대(칠암)", "남양"]],
-        "pattern": {
-            "type": "everyday"
+        {
+          "name": "남양"
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606038523401",
+    "pattern": {
+      "type": "unknown"
     }
+  }
 ]
