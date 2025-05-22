@@ -910,6 +910,86 @@
       "금호고속(주)"
     ],
     "departureTime": {
+      "hour": 18,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4300
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주진월동"
+        },
+        {
+          "name": "나주"
+        },
+        {
+          "name": "영산포"
+        },
+        {
+          "name": "신북"
+        },
+        {
+          "name": "영암"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "월송"
+        },
+        {
+          "name": "남창"
+        },
+        {
+          "name": "원동"
+        },
+        {
+          "name": "완도"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949407805003",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9407",
+    "arrivalTerminalId": "8046",
+    "durationInMinutes": [
+      30
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
       "hour": 20,
       "minute": 15
     },
@@ -1026,86 +1106,6 @@
     "routeId": "949407806202",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9407",
-    "arrivalTerminalId": "8046",
-    "durationInMinutes": [
-      30
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4300
-      ],
-      "초등생": [
-        2200
-      ],
-      "중고생": [
-        3400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주진월동"
-        },
-        {
-          "name": "나주"
-        },
-        {
-          "name": "영산포"
-        },
-        {
-          "name": "신북"
-        },
-        {
-          "name": "영암"
-        },
-        {
-          "name": "성전"
-        },
-        {
-          "name": "해남"
-        },
-        {
-          "name": "월송"
-        },
-        {
-          "name": "남창"
-        },
-        {
-          "name": "원동"
-        },
-        {
-          "name": "완도"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "949407805003",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
     }
   }
 ]
