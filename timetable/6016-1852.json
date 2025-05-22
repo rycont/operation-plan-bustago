@@ -56,7 +56,15 @@
     },
     "routeId": "606016000407",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -285,64 +293,6 @@
     "routeId": "606016000409",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6016",
-    "arrivalTerminalId": "1852",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        43700
-      ],
-      "초등생": [
-        21900
-      ],
-      "중고생": [
-        35000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "삼천포"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "죽전(경전)"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등"
-      ]
-    },
-    "routeId": "606016000407",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
     }
   },
   {
@@ -624,6 +574,64 @@
     "routeId": "606016000409",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6016",
+    "arrivalTerminalId": "1852",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        43700
+      ],
+      "초등생": [
+        21900
+      ],
+      "중고생": [
+        35000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "죽전(경전)"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "606016000407",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5
+      ]
     }
   }
 ]
