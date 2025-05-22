@@ -64,59 +64,6 @@
     ],
     "departureTime": {
       "hour": 6,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        39900
-      ],
-      "초등생": [
-        20000
-      ],
-      "중고생": [
-        31900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337940130",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9337",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      255
-    ],
-    "operator": [
-      "㈜광신고속",
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 6,
       "minute": 25
     },
     "isTemporaryRoute": false,
@@ -1996,6 +1943,68 @@
       255
     ],
     "operator": [
+      "㈜광신고속",
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337940130",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        2,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9337",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      255
+    ],
+    "operator": [
+      "㈜광신고속",
       "금호고속(주)"
     ],
     "departureTime": {
@@ -2097,7 +2106,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        4,
         5,
         6
       ]
@@ -2110,6 +2118,7 @@
       255
     ],
     "operator": [
+      "㈜광신고속",
       "금호고속(주)"
     ],
     "departureTime": {
@@ -2166,6 +2175,7 @@
       255
     ],
     "operator": [
+      "㈜광신고속",
       "금호고속(주)"
     ],
     "departureTime": {
@@ -2210,7 +2220,228 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        4,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9337",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      255
+    ],
+    "operator": [
+      "㈜광신고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337940101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9337",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      255
+    ],
+    "operator": [
+      "㈜광신고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337940101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9337",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      255
+    ],
+    "operator": [
+      "㈜광신고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337940130",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9337",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      255
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337940130",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4
       ]
     }
   }
