@@ -356,13 +356,67 @@
     },
     "routeId": "959503409003",
     "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9505",
+    "arrivalTerminalId": "4090",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12600
+      ],
+      "초등생": [
+        6300
+      ],
+      "중고생": [
+        10100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대전복합"
+        },
+        {
+          "name": "대전청사(선사유적)"
+        },
+        {
+          "name": "예산"
+        },
+        {
+          "name": "내포"
+        },
+        {
+          "name": "홍성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959503409004",
+    "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        7
+        5
       ]
     }
   }
