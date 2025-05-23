@@ -119,13 +119,16 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        27000
+        27000,
+        35200
       ],
       "초등생": [
-        13500
+        13500,
+        17600
       ],
       "중고생": [
-        21600
+        21600,
+        28200
       ]
     },
     "stops": [
@@ -147,6 +150,7 @@
         28
       ],
       "busClass": [
+        "시외우등",
         "일반"
       ]
     },
@@ -434,13 +438,16 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        27000
+        27000,
+        35200
       ],
       "초등생": [
-        13500
+        13500,
+        17600
       ],
       "중고생": [
-        21600
+        21600,
+        28200
       ]
     },
     "stops": [
@@ -462,6 +469,7 @@
         28
       ],
       "busClass": [
+        "시외우등",
         "일반"
       ]
     },
@@ -697,13 +705,16 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        27000
+        27000,
+        35200
       ],
       "초등생": [
-        13500
+        13500,
+        17600
       ],
       "중고생": [
-        21600
+        21600,
+        28200
       ]
     },
     "stops": [
@@ -725,10 +736,63 @@
         28
       ],
       "busClass": [
+        "시외우등",
         "일반"
       ]
     },
     "routeId": "000001203903",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2039",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "화성고속(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35200
+      ],
+      "초등생": [
+        17600
+      ],
+      "중고생": [
+        28200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "태백"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001203901",
     "pattern": {
       "type": "everyday"
     }
@@ -908,13 +972,16 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        27000
+        27000,
+        35200
       ],
       "초등생": [
-        13500
+        13500,
+        17600
       ],
       "중고생": [
-        21600
+        21600,
+        28200
       ]
     },
     "stops": [
@@ -936,6 +1003,7 @@
         28
       ],
       "busClass": [
+        "시외우등",
         "일반"
       ]
     },
@@ -1307,58 +1375,6 @@
       ],
       "busClass": [
         "심야우등1"
-      ]
-    },
-    "routeId": "000001203901",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2039",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "화성고속(주)"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35200
-      ],
-      "초등생": [
-        17600
-      ],
-      "중고생": [
-        28200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "고한사북공영"
-        },
-        {
-          "name": "태백"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
       ]
     },
     "routeId": "000001203901",
