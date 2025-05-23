@@ -8,17 +8,11 @@
     "operator": [
       "강원여객"
     ],
-    "busClass": [
-      "일반"
-    ],
     "departureTime": {
       "hour": 13,
       "minute": 5
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      0
-    ],
     "fare": {
       "어른": [
         12300
@@ -30,8 +24,28 @@
         9800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": "횡성"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202047205101",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]
