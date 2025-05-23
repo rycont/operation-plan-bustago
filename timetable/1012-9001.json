@@ -123,6 +123,65 @@
     "departureTerminalId": "1012",
     "arrivalTerminalId": "9001",
     "durationInMinutes": [
+      270
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        36200
+      ],
+      "초등생": [
+        18100
+      ],
+      "중고생": [
+        29000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101015900101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "9001",
+    "durationInMinutes": [
       255
     ],
     "operator": [
@@ -417,14 +476,75 @@
     "departureTerminalId": "1012",
     "arrivalTerminalId": "9001",
     "durationInMinutes": [
-      270
+      255
     ],
     "operator": [
       "경남고속뉴부산"
     ],
     "departureTime": {
-      "hour": 9,
-      "minute": 20
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        46500
+      ],
+      "초등생": [
+        23300
+      ],
+      "중고생": [
+        37200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "부산해운대(수도권)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄심야우등"
+      ]
+    },
+    "routeId": "101015900901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "9001",
+    "durationInMinutes": [
+      255
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -451,6 +571,9 @@
         },
         {
           "name": "부산동부"
+        },
+        {
+          "name": "부산해운대(수도권)"
         }
       ]
     ],
@@ -463,12 +586,11 @@
         "시외우등"
       ]
     },
-    "routeId": "101015900101",
+    "routeId": "101015900901",
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
-        7
+        5
       ]
     }
   }
