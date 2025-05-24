@@ -107,60 +107,6 @@
       "화성고속(주)"
     ],
     "departureTime": {
-      "hour": 13,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15200
-      ],
-      "초등생": [
-        7600
-      ],
-      "중고생": [
-        12200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안산"
-        },
-        {
-          "name": "원주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101015202801",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1015",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "화성고속(주)"
-    ],
-    "departureTime": {
       "hour": 14,
       "minute": 30
     },
@@ -259,7 +205,7 @@
       "화성고속(주)"
     ],
     "departureTime": {
-      "hour": 18,
+      "hour": 19,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -295,12 +241,7 @@
     },
     "routeId": "101015202801",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -313,7 +254,56 @@
       "화성고속(주)"
     ],
     "departureTime": {
-      "hour": 19,
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15200
+      ],
+      "초등생": [
+        7600
+      ],
+      "중고생": [
+        12200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안산"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101015202801",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1015",
+    "arrivalTerminalId": "2028",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "화성고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
       "minute": 30
     },
     "isTemporaryRoute": false,
