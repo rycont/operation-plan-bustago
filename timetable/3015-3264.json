@@ -101,7 +101,15 @@
     },
     "routeId": "303015000407",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -817,63 +825,6 @@
       "새서울고속"
     ],
     "departureTime": {
-      "hour": 9,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "청주"
-        },
-        {
-          "name": "석소"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303015000407",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3015",
-    "arrivalTerminalId": "3264",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "새서울고속",
-      "서울고속"
-    ],
-    "departureTime": {
       "hour": 10,
       "minute": 10
     },
@@ -978,62 +929,6 @@
       0
     ],
     "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "청주"
-        },
-        {
-          "name": "석소"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303015000407",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3015",
-    "arrivalTerminalId": "3264",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "㈜삼흥고속"
     ],
     "departureTime": {
@@ -1075,59 +970,6 @@
       ]
     },
     "routeId": "303015101002",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3015",
-    "arrivalTerminalId": "3264",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "새서울고속",
-      "서울고속"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "청주"
-        },
-        {
-          "name": "석소"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303015000407",
     "pattern": {
       "type": "everyday"
     }
@@ -2477,7 +2319,15 @@
     },
     "routeId": "303015000406",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -3569,6 +3419,182 @@
     "routeId": "303015000407",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3015",
+    "arrivalTerminalId": "3264",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속",
+      "서울고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청주"
+        },
+        {
+          "name": "석소"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303015000407",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3015",
+    "arrivalTerminalId": "3264",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청주"
+        },
+        {
+          "name": "석소"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303015000407",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3015",
+    "arrivalTerminalId": "3264",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청주"
+        },
+        {
+          "name": "석소"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303015000407",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   }
 ]
