@@ -896,7 +896,12 @@
     },
     "routeId": "000001401904",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1976,7 +1981,12 @@
     },
     "routeId": "000001401904",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -3056,7 +3066,12 @@
     },
     "routeId": "000001401904",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -3230,10 +3245,12 @@
     },
     "routeId": "000001401904",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -3293,10 +3310,12 @@
     },
     "routeId": "000001401904",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -3356,10 +3375,12 @@
     },
     "routeId": "000001401904",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
