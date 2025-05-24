@@ -55,6 +55,58 @@
       0
     ],
     "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6200
+      ],
+      "초등생": [
+        3100
+      ],
+      "중고생": [
+        4300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "이천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "부천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101028100706",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1028",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "대원고속"
     ],
     "departureTime": {
@@ -207,58 +259,6 @@
       "irregularDays": [
         6
       ]
-    }
-  },
-  {
-    "departureTerminalId": "1028",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6200
-      ],
-      "초등생": [
-        3100
-      ],
-      "중고생": [
-        4300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "이천"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "부천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101028100706",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
