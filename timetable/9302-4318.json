@@ -10,7 +10,7 @@
     ],
     "departureTime": {
       "hour": 6,
-      "minute": 40
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -52,9 +52,12 @@
         "시외우등"
       ]
     },
-    "routeId": "939302400810",
+    "routeId": "939302400811",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   },
   {
@@ -331,7 +334,7 @@
     ],
     "departureTime": {
       "hour": 6,
-      "minute": 30
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -373,12 +376,9 @@
         "시외우등"
       ]
     },
-    "routeId": "939302400811",
+    "routeId": "939302400810",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "everyday"
     }
   }
 ]

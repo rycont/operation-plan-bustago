@@ -425,7 +425,17 @@
     },
     "routeId": "505061000102",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
     }
   }
 ]
