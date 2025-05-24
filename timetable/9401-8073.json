@@ -54,7 +54,14 @@
     },
     "routeId": "949401807302",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
     }
   },
   {
@@ -176,7 +183,14 @@
     },
     "routeId": "949401807302",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
     }
   },
   {
@@ -289,7 +303,14 @@
     },
     "routeId": "949401807302",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
     }
   },
   {
@@ -411,7 +432,14 @@
     },
     "routeId": "949401807302",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
     }
   },
   {
@@ -536,7 +564,14 @@
     },
     "routeId": "949401807302",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
     }
   },
   {
@@ -620,6 +655,67 @@
     ],
     "departureTime": {
       "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7300
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "목포대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401842204",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8073",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -664,7 +760,14 @@
     },
     "routeId": "949401807302",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
     }
   },
   {
@@ -726,6 +829,67 @@
     "routeId": "949401802408",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8073",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7300
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "목포대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401842204",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   },
   {
@@ -924,6 +1088,67 @@
     "departureTerminalId": "9401",
     "arrivalTerminalId": "8073",
     "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7300
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "목포대"
+        },
+        {
+          "name": "청계"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401807302",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8073",
+    "durationInMinutes": [
       0
     ],
     "operator": [
@@ -1053,13 +1278,132 @@
     "departureTerminalId": "9401",
     "arrivalTerminalId": "8073",
     "durationInMinutes": [
-      55
+      0
     ],
     "operator": [
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 17,
+      "hour": 7,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7300
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "목포대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401842202",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8073",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7300
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "목포대"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401802408",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8073",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -1102,25 +1446,138 @@
         "일반"
       ]
     },
-    "routeId": "949401842204",
+    "routeId": "949401842202",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
     "departureTerminalId": "9401",
     "arrivalTerminalId": "8073",
     "durationInMinutes": [
-      55
+      0
     ],
     "operator": [
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 18,
+      "hour": 14,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7300
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "목포대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401842202",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8073",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7300
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "목포대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401842202",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8073",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -1163,73 +1620,9 @@
         "일반"
       ]
     },
-    "routeId": "949401842204",
+    "routeId": "949401842202",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "8073",
-    "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7300
-      ],
-      "초등생": [
-        3700
-      ],
-      "중고생": [
-        5800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "함평"
-        },
-        {
-          "name": "무안"
-        },
-        {
-          "name": "목포대"
-        },
-        {
-          "name": "청계"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "949401807302",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "everyday"
     }
   }
 ]

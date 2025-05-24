@@ -488,6 +488,58 @@
     "departureTerminalId": "9204",
     "arrivalTerminalId": "6414",
     "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15900
+      ],
+      "초등생": [
+        8000
+      ],
+      "중고생": [
+        12700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "진주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929204641401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9204",
+    "arrivalTerminalId": "6414",
+    "durationInMinutes": [
       0
     ],
     "operator": [
@@ -539,58 +591,6 @@
       "type": "specific-day",
       "days": [
         6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9204",
-    "arrivalTerminalId": "6414",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15900
-      ],
-      "초등생": [
-        8000
-      ],
-      "중고생": [
-        12700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대구서부"
-        },
-        {
-          "name": "진주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929204641401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
       ]
     }
   }
