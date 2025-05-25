@@ -55,8 +55,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        0,
-        40
+        0
       ],
       "busClass": [
         "일반"
@@ -64,7 +63,17 @@
     },
     "routeId": "404024700602",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
     }
   },
   {
@@ -123,8 +132,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        0,
-        40
+        0
       ],
       "busClass": [
         "일반"
@@ -132,7 +140,17 @@
     },
     "routeId": "404024700602",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
     }
   }
 ]
