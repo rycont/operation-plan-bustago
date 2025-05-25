@@ -698,6 +698,61 @@
       "(주)경기고속"
     ],
     "departureTime": {
+      "hour": 20,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24400
+      ],
+      "초등생": [
+        12200
+      ],
+      "중고생": [
+        17100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영해"
+        },
+        {
+          "name": "영덕"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505048000104",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5043",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
       "hour": 19,
       "minute": 40
     },
@@ -754,72 +809,6 @@
       ]
     },
     "routeId": "505061000102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5043",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        24400
-      ],
-      "초등생": [
-        12200
-      ],
-      "중고생": [
-        17100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "영해"
-        },
-        {
-          "name": "영덕"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505048000104",
     "pattern": {
       "type": "everyday"
     }
