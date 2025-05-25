@@ -152,87 +152,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        32100
-      ],
-      "초등생": [
-        16100
-      ],
-      "중고생": [
-        22500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "안동초교"
-        },
-        {
-          "name": "용상"
-        },
-        {
-          "name": "안동대"
-        },
-        {
-          "name": "임동"
-        },
-        {
-          "name": "진보"
-        },
-        {
-          "name": "청송"
-        },
-        {
-          "name": "주왕산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001506101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "5064",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 14,
       "minute": 0
     },
@@ -435,6 +354,76 @@
       ]
     },
     "routeId": "000001504501",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "5064",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32100
+      ],
+      "초등생": [
+        16100
+      ],
+      "중고생": [
+        22500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "안동초교"
+        },
+        {
+          "name": "용상"
+        },
+        {
+          "name": "안동대"
+        },
+        {
+          "name": "임동"
+        },
+        {
+          "name": "진보"
+        },
+        {
+          "name": "청송"
+        },
+        {
+          "name": "주왕산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001506101",
     "pattern": {
       "type": "everyday"
     }

@@ -9,66 +9,6 @@
       "동해상사고속㈜"
     ],
     "departureTime": {
-      "hour": 6,
-      "minute": 32
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        20300
-      ],
-      "초등생": [
-        10200
-      ],
-      "중고생": [
-        16200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "주문진"
-        },
-        {
-          "name": "주문진해변"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001291401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2914",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
       "hour": 7,
       "minute": 40
     },
@@ -292,8 +232,8 @@
       "동해상사고속㈜"
     ],
     "departureTime": {
-      "hour": 17,
-      "minute": 11
+      "hour": 18,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -334,12 +274,7 @@
     },
     "routeId": "000001291401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -352,8 +287,63 @@
       "동해상사고속㈜"
     ],
     "departureTime": {
-      "hour": 18,
-      "minute": 20
+      "hour": 6,
+      "minute": 32
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20300
+      ],
+      "초등생": [
+        10200
+      ],
+      "중고생": [
+        16200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "주문진해변"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001291401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2914",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 11
     },
     "isTemporaryRoute": false,
     "fare": {
