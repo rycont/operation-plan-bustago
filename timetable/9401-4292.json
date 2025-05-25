@@ -3,6 +3,61 @@
     "departureTerminalId": "9401",
     "arrivalTerminalId": "4292",
     "durationInMinutes": [
+      150
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20600
+      ],
+      "초등생": [
+        10300
+      ],
+      "중고생": [
+        16500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "세종청사"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949401431801",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "4292",
+    "durationInMinutes": [
       0
     ],
     "operator": [
@@ -257,116 +312,6 @@
     "routeId": "949401429202",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "4292",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 33
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        20600
-      ],
-      "초등생": [
-        10300
-      ],
-      "중고생": [
-        16500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "공주"
-        },
-        {
-          "name": "세종시"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "949401429202",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "4292",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        20600
-      ],
-      "초등생": [
-        10300
-      ],
-      "중고생": [
-        16500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "세종시"
-        },
-        {
-          "name": "세종청사"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "949401431801",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
     }
   }
 ]
