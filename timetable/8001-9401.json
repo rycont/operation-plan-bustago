@@ -619,7 +619,7 @@
     "departureTerminalId": "8001",
     "arrivalTerminalId": "9401",
     "durationInMinutes": [
-      80
+      0
     ],
     "operator": [
       "금호고속(주)"
@@ -643,6 +643,9 @@
     "stops": [
       [
         {
+          "name": "전남인재개발원"
+        },
+        {
           "name": "강진"
         },
         {
@@ -656,22 +659,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        40
+        45
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "808001940102",
+    "routeId": "808462940101",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -864,7 +860,7 @@
     "departureTerminalId": "8001",
     "arrivalTerminalId": "9401",
     "durationInMinutes": [
-      0
+      80
     ],
     "operator": [
       "금호고속(주)"
@@ -888,9 +884,6 @@
     "stops": [
       [
         {
-          "name": "전남인재개발원"
-        },
-        {
           "name": "강진"
         },
         {
@@ -904,15 +897,22 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        45
+        40
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "808462940101",
+    "routeId": "808001940102",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
     }
   }
 ]
