@@ -65,25 +65,25 @@
     "departureTerminalId": "1007",
     "arrivalTerminalId": "1757",
     "durationInMinutes": [
-      0
+      50
     ],
     "operator": [
-      "대원고속"
+      "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 30
+      "hour": 6,
+      "minute": 35
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        4200
+        3200
       ],
       "초등생": [
-        2100
+        1600
       ],
       "중고생": [
-        2900
+        2200
       ]
     },
     "stops": [
@@ -95,41 +95,34 @@
           "name": "안양"
         },
         {
-          "name": "호계동"
+          "name": "범계"
         },
         {
           "name": "고천"
         },
         {
-          "name": "문막"
+          "name": "덕평"
         },
         {
-          "name": "원주"
+          "name": "청강대"
+        },
+        {
+          "name": "이천"
         }
       ]
     ],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        40
       ],
       "busClass": [
-        "시외우등"
+        "일반"
       ]
     },
-    "routeId": "101007202802",
+    "routeId": "101007102802",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -506,77 +499,6 @@
     "departureTerminalId": "1007",
     "arrivalTerminalId": "1757",
     "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4200
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        2900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "고천"
-        },
-        {
-          "name": "문막"
-        },
-        {
-          "name": "원주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007202802",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "1757",
-    "durationInMinutes": [
       50
     ],
     "operator": [
@@ -879,25 +801,25 @@
     "departureTerminalId": "1007",
     "arrivalTerminalId": "1757",
     "durationInMinutes": [
-      50
+      0
     ],
     "operator": [
-      "(주)경기고속"
+      "대원고속"
     ],
     "departureTime": {
-      "hour": 6,
-      "minute": 35
+      "hour": 7,
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        3200
+        4200
       ],
       "초등생": [
-        1600
+        2100
       ],
       "중고생": [
-        2200
+        2900
       ]
     },
     "stops": [
@@ -909,32 +831,90 @@
           "name": "안양"
         },
         {
-          "name": "범계"
+          "name": "호계동"
         },
         {
           "name": "고천"
         },
         {
-          "name": "덕평"
+          "name": "문막"
         },
         {
-          "name": "청강대"
-        },
-        {
-          "name": "이천"
+          "name": "원주"
         }
       ]
     ],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        40
+        28
       ],
       "busClass": [
-        "일반"
+        "시외우등"
       ]
     },
-    "routeId": "101007102802",
+    "routeId": "101007202802",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "1757",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4200
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        2900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "문막"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007202802",
     "pattern": {
       "type": "everyday"
     }

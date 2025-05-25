@@ -106,7 +106,12 @@
     },
     "routeId": "939302960104",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        6,
+        7
+      ]
     }
   },
   {
@@ -228,11 +233,11 @@
       300
     ],
     "operator": [
-      "(주)경기고속"
+      "㈜아성고속"
     ],
     "departureTime": {
-      "hour": 15,
-      "minute": 25
+      "hour": 17,
+      "minute": 15
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -273,15 +278,7 @@
     },
     "routeId": "939302960104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -291,11 +288,11 @@
       300
     ],
     "operator": [
-      "㈜아성고속"
+      "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 17,
-      "minute": 15
+      "hour": 15,
+      "minute": 25
     },
     "isTemporaryRoute": false,
     "fare": {
