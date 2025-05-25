@@ -388,7 +388,14 @@
     },
     "routeId": "808041940103",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -508,7 +515,14 @@
     },
     "routeId": "808041940103",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -1484,7 +1498,14 @@
     },
     "routeId": "808041940103",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -1536,7 +1557,14 @@
     },
     "routeId": "808041940103",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -1591,7 +1619,14 @@
     },
     "routeId": "808041940117",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -1643,7 +1678,14 @@
     },
     "routeId": "808041940103",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -1695,7 +1737,14 @@
     },
     "routeId": "808041940103",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -1747,10 +1796,13 @@
     },
     "routeId": "808041940103",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -2227,6 +2279,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         4,
         5,
         6,
