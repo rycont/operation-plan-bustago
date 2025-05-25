@@ -364,5 +364,70 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8024",
+    "arrivalTerminalId": "7093",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜대한고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15400
+      ],
+      "초등생": [
+        7700
+      ],
+      "중고생": [
+        12300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "고창"
+        },
+        {
+          "name": "흥덕"
+        },
+        {
+          "name": "효자(서부)"
+        },
+        {
+          "name": "완산동"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808024703321",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
   }
 ]
