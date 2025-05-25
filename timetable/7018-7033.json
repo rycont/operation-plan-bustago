@@ -559,8 +559,8 @@
       "㈜전주고속"
     ],
     "departureTime": {
-      "hour": 11,
-      "minute": 0
+      "hour": 10,
+      "minute": 55
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -604,11 +604,7 @@
     },
     "routeId": "707018703302",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1328,9 +1324,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        6,
-        7
+        1
       ]
     }
   },
@@ -1791,7 +1785,7 @@
     ],
     "departureTime": {
       "hour": 18,
-      "minute": 45
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1835,11 +1829,7 @@
     },
     "routeId": "707018703302",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -2235,122 +2225,6 @@
       ],
       "busClass": [
         "심야고속"
-      ]
-    },
-    "routeId": "707018703302",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7018",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전주고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6900
-      ],
-      "초등생": [
-        3500
-      ],
-      "중고생": [
-        5500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부안"
-        },
-        {
-          "name": "김제"
-        },
-        {
-          "name": "서부효자(교육청앞)"
-        },
-        {
-          "name": "완산동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "707018703302",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7018",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전주고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6900
-      ],
-      "초등생": [
-        3500
-      ],
-      "중고생": [
-        5500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부안"
-        },
-        {
-          "name": "김제"
-        },
-        {
-          "name": "서부효자(교육청앞)"
-        },
-        {
-          "name": "완산동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
       ]
     },
     "routeId": "707018703302",
