@@ -1409,10 +1409,13 @@
     },
     "routeId": "909002803802",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        4,
+        5
       ]
     }
   },
