@@ -694,5 +694,69 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6032",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "㈜함양지리산고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29300
+      ],
+      "초등생": [
+        14700
+      ],
+      "중고생": [
+        23400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "노고단(성삼재)"
+        },
+        {
+          "name": "달궁"
+        },
+        {
+          "name": "뱀사골"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808255000103",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
+    }
   }
 ]
