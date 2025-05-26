@@ -119,72 +119,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        36500
-      ],
-      "초등생": [
-        18300
-      ],
-      "중고생": [
-        25600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "영월"
-        },
-        {
-          "name": "고한사북공영"
-        },
-        {
-          "name": "태백"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302203903",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "2039",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 17,
       "minute": 50
     },
@@ -297,6 +231,61 @@
     "departureTime": {
       "hour": 13,
       "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        36500
+      ],
+      "초등생": [
+        18300
+      ],
+      "중고생": [
+        25600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "영월"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "태백"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302203903",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "2039",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
