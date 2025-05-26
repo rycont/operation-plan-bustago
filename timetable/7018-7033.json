@@ -1284,7 +1284,7 @@
     ],
     "departureTime": {
       "hour": 15,
-      "minute": 40
+      "minute": 45
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1322,10 +1322,7 @@
     },
     "routeId": "707018703308",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -2228,58 +2225,6 @@
       ]
     },
     "routeId": "707018703302",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7018",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜전주고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6900
-      ],
-      "초등생": [
-        3500
-      ],
-      "중고생": [
-        5500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부안"
-        },
-        {
-          "name": "전주대"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "707018703308",
     "pattern": {
       "type": "everyday"
     }
