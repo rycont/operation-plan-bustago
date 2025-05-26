@@ -3,7 +3,6 @@
     "departureTerminalId": "9001",
     "arrivalTerminalId": "2028",
     "durationInMinutes": [
-      0,
       240
     ],
     "operator": [
@@ -52,14 +51,24 @@
     },
     "routeId": "909001203703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        3,
+        7
+      ]
     }
   },
   {
     "departureTerminalId": "9001",
     "arrivalTerminalId": "2028",
     "durationInMinutes": [
-      0,
       240
     ],
     "operator": [
@@ -111,14 +120,24 @@
     },
     "routeId": "909001203704",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        3,
+        7
+      ]
     }
   },
   {
     "departureTerminalId": "9001",
     "arrivalTerminalId": "2028",
     "durationInMinutes": [
-      0,
       240
     ],
     "operator": [
@@ -167,14 +186,24 @@
     },
     "routeId": "909001203703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        3,
+        7
+      ]
     }
   },
   {
     "departureTerminalId": "9001",
     "arrivalTerminalId": "2028",
     "durationInMinutes": [
-      0,
       240
     ],
     "operator": [
@@ -226,14 +255,24 @@
     },
     "routeId": "909001203704",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        3,
+        7
+      ]
     }
   },
   {
     "departureTerminalId": "9001",
     "arrivalTerminalId": "2028",
     "durationInMinutes": [
-      0,
       240
     ],
     "operator": [
@@ -283,14 +322,24 @@
     },
     "routeId": "909001203703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        3,
+        7
+      ]
     }
   },
   {
     "departureTerminalId": "9001",
     "arrivalTerminalId": "2028",
     "durationInMinutes": [
-      0,
       240
     ],
     "operator": [
@@ -340,7 +389,18 @@
     },
     "routeId": "909001203703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        3,
+        7
+      ]
     }
   }
 ]
