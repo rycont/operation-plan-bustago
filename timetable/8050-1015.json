@@ -9,73 +9,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        48600
-      ],
-      "초등생": [
-        24300
-      ],
-      "중고생": [
-        38900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "완도"
-        },
-        {
-          "name": "원동"
-        },
-        {
-          "name": "해남"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808050930202",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8050",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 15,
       "minute": 30
     },
@@ -133,6 +66,64 @@
         2,
         4
       ]
+    }
+  },
+  {
+    "departureTerminalId": "8050",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        48600
+      ],
+      "초등생": [
+        24300
+      ],
+      "중고생": [
+        38900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "완도"
+        },
+        {
+          "name": "원동"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808050930202",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
