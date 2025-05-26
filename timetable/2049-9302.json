@@ -51,71 +51,16 @@
     },
     "routeId": "202039930202",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2049",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        33500
-      ],
-      "초등생": [
-        16800
-      ],
-      "중고생": [
-        26800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태백"
-        },
-        {
-          "name": "고한사북공영"
-        },
-        {
-          "name": "영월"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202039930202",
-    "pattern": {
       "type": "irregular",
       "fixedDays": [
         1,
         2,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        3,
         4
       ]
     }
@@ -172,7 +117,18 @@
     },
     "routeId": "202039930202",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4
+      ]
     }
   },
   {
@@ -223,6 +179,72 @@
       ],
       "busClass": [
         "프리미엄우등"
+      ]
+    },
+    "routeId": "202039930202",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2049",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33500
+      ],
+      "초등생": [
+        16800
+      ],
+      "중고생": [
+        26800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "영월"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
       ]
     },
     "routeId": "202039930202",
