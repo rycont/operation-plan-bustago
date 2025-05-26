@@ -354,5 +354,69 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "3011",
+    "arrivalTerminalId": "3036",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5700
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "제천"
+        },
+        {
+          "name": "봉양"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "산척"
+        },
+        {
+          "name": "목행"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303011301701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
+    }
   }
 ]
