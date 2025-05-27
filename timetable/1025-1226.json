@@ -60,18 +60,7 @@
     },
     "routeId": "101025401902",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -126,18 +115,7 @@
     },
     "routeId": "101025950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -223,6 +201,67 @@
       "합자회사 경남여객"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025950301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "1226",
+    "durationInMinutes": [
+      31
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
       "hour": 8,
       "minute": 0
     },
@@ -274,18 +313,7 @@
     },
     "routeId": "101025401902",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -340,18 +368,7 @@
     },
     "routeId": "101025950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -406,18 +423,7 @@
     },
     "routeId": "101025950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -481,18 +487,7 @@
     },
     "routeId": "101025401902",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -620,18 +615,7 @@
     },
     "routeId": "101025950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -695,18 +679,7 @@
     },
     "routeId": "101025401902",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -761,18 +734,7 @@
     },
     "routeId": "101025950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -836,17 +798,67 @@
     },
     "routeId": "101025401902",
     "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "1226",
+    "durationInMinutes": [
+      31
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025950301",
+    "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6
       ],
       "irregularDays": [
-        4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -911,18 +923,7 @@
     },
     "routeId": "101025401902",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -977,18 +978,7 @@
     },
     "routeId": "101025950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1125,18 +1115,7 @@
     },
     "routeId": "101025401902",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1191,18 +1170,7 @@
     },
     "routeId": "101025950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1266,18 +1234,7 @@
     },
     "routeId": "101025401902",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1332,18 +1289,7 @@
     },
     "routeId": "101025950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1471,17 +1417,67 @@
     },
     "routeId": "101025950301",
     "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "1226",
+    "durationInMinutes": [
+      31
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025950301",
+    "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6
       ],
       "irregularDays": [
-        4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -1546,18 +1542,7 @@
     },
     "routeId": "101025401902",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1621,18 +1606,7 @@
     },
     "routeId": "101025401902",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1687,201 +1661,7 @@
     },
     "routeId": "101025950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "1226",
-    "durationInMinutes": [
-      31
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "대전복합"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101025950301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "1226",
-    "durationInMinutes": [
-      31
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "대전복합"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101025950301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "1226",
-    "durationInMinutes": [
-      31
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "대전복합"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101025950301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
