@@ -72,18 +72,7 @@
     },
     "routeId": "909002603301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -159,18 +148,7 @@
     },
     "routeId": "909002603301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -249,16 +227,91 @@
     },
     "routeId": "909002603302",
     "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6054",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "경전/동일"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "함안"
+        },
+        {
+          "name": "월촌"
+        },
+        {
+          "name": "정암"
+        },
+        {
+          "name": "의령"
+        },
+        {
+          "name": "가례"
+        },
+        {
+          "name": "칠곡"
+        },
+        {
+          "name": "대의"
+        },
+        {
+          "name": "삼가"
+        },
+        {
+          "name": "쌍백"
+        },
+        {
+          "name": "대양"
+        },
+        {
+          "name": "합천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002603302",
+    "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
         6,
         7
       ],
       "irregularDays": [
-        1,
-        2,
-        4,
         5
       ]
     }
@@ -339,18 +392,7 @@
     },
     "routeId": "909002603302",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -426,18 +468,7 @@
     },
     "routeId": "909002603301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -513,18 +544,7 @@
     },
     "routeId": "909002603301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -603,194 +623,7 @@
     },
     "routeId": "909002603302",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6054",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "경전/동일"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9500
-      ],
-      "초등생": [
-        4800
-      ],
-      "중고생": [
-        7600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "함안"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "의령"
-        },
-        {
-          "name": "가례"
-        },
-        {
-          "name": "칠곡"
-        },
-        {
-          "name": "대의"
-        },
-        {
-          "name": "삼가"
-        },
-        {
-          "name": "쌍백"
-        },
-        {
-          "name": "대양"
-        },
-        {
-          "name": "합천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909002603302",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6054",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "경전/동일"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9500
-      ],
-      "초등생": [
-        4800
-      ],
-      "중고생": [
-        7600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "함안"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "의령"
-        },
-        {
-          "name": "가례"
-        },
-        {
-          "name": "칠곡"
-        },
-        {
-          "name": "대의"
-        },
-        {
-          "name": "삼가"
-        },
-        {
-          "name": "쌍백"
-        },
-        {
-          "name": "대양"
-        },
-        {
-          "name": "합천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909002603302",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -877,6 +710,85 @@
       "irregularDays": [
         5
       ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6054",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "경전/동일"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        7600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "함안"
+        },
+        {
+          "name": "월촌"
+        },
+        {
+          "name": "정암"
+        },
+        {
+          "name": "의령"
+        },
+        {
+          "name": "가례"
+        },
+        {
+          "name": "칠곡"
+        },
+        {
+          "name": "대의"
+        },
+        {
+          "name": "삼가"
+        },
+        {
+          "name": "쌍백"
+        },
+        {
+          "name": "대양"
+        },
+        {
+          "name": "합천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002603302",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
