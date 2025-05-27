@@ -3,72 +3,6 @@
     "departureTerminalId": "2051",
     "arrivalTerminalId": "9001",
     "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        41900
-      ],
-      "초등생": [
-        21000
-      ],
-      "중고생": [
-        33500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202051900109",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        4,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2051",
-    "arrivalTerminalId": "9001",
-    "durationInMinutes": [
       330
     ],
     "operator": [
@@ -130,69 +64,6 @@
     "routeId": "202004900126",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2051",
-    "arrivalTerminalId": "9001",
-    "durationInMinutes": [
-      330
-    ],
-    "operator": [
-      "㈜천마고속"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        41900
-      ],
-      "초등생": [
-        21000
-      ],
-      "중고생": [
-        33500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동해공용"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202051900107",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        4,
-        7
-      ]
     }
   },
   {
@@ -470,6 +341,61 @@
       "㈜금아여행"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41900
+      ],
+      "초등생": [
+        21000
+      ],
+      "중고생": [
+        33500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202051900109",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2051",
+    "arrivalTerminalId": "9001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
       "hour": 9,
       "minute": 20
     },
@@ -508,6 +434,58 @@
       ]
     },
     "routeId": "202051900114",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2051",
+    "arrivalTerminalId": "9001",
+    "durationInMinutes": [
+      330
+    ],
+    "operator": [
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41900
+      ],
+      "초등생": [
+        21000
+      ],
+      "중고생": [
+        33500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동해공용"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202051900107",
     "pattern": {
       "type": "everyday"
     }
