@@ -942,5 +942,65 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8007",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "㈜동광고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9800
+      ],
+      "초등생": [
+        4900
+      ],
+      "중고생": [
+        7800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "문화동"
+        },
+        {
+          "name": "곡성"
+        },
+        {
+          "name": "구례"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401800702",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6
+      ]
+    }
   }
 ]
