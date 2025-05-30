@@ -9,61 +9,6 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19800
-      ],
-      "초등생": [
-        9900
-      ],
-      "중고생": [
-        15800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "고양종합터미널"
-        },
-        {
-          "name": "대전복합"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101782950301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1782",
-    "arrivalTerminalId": "9503",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
       "hour": 8,
       "minute": 50
     },
@@ -102,7 +47,58 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1782",
+    "arrivalTerminalId": "9503",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19800
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고양종합터미널"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101782950301",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         7
       ]
     }
@@ -155,7 +151,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         7
       ]
     }
