@@ -9,262 +9,6 @@
       "합자회사 경남여객"
     ],
     "departureTime": {
-      "hour": 9,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "유성시외"
-        },
-        {
-          "name": "세종시"
-        },
-        {
-          "name": "세종청사"
-        },
-        {
-          "name": "동탄역"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "용인"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "959502102503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4292",
-    "arrivalTerminalId": "1226",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "유성시외"
-        },
-        {
-          "name": "세종시"
-        },
-        {
-          "name": "세종청사"
-        },
-        {
-          "name": "동탄역"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "용인"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "959502102503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4292",
-    "arrivalTerminalId": "1226",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "유성시외"
-        },
-        {
-          "name": "세종시"
-        },
-        {
-          "name": "세종청사"
-        },
-        {
-          "name": "동탄역"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "용인"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "959502102503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4292",
-    "arrivalTerminalId": "1226",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "유성시외"
-        },
-        {
-          "name": "세종시"
-        },
-        {
-          "name": "세종청사"
-        },
-        {
-          "name": "동탄역"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "용인"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "959502102503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4292",
-    "arrivalTerminalId": "1226",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
       "hour": 12,
       "minute": 20
     },
@@ -316,7 +60,15 @@
     },
     "routeId": "959502102503",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        5
+      ]
     }
   },
   {
@@ -380,7 +132,15 @@
     },
     "routeId": "959502102503",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        5
+      ]
     }
   },
   {
@@ -444,7 +204,15 @@
     },
     "routeId": "959502102503",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        5
+      ]
     }
   },
   {
@@ -508,7 +276,307 @@
     },
     "routeId": "959502102503",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4292",
+    "arrivalTerminalId": "1226",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "동탄역"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "용인"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959502102503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        4
+      ],
+      "irregularDays": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4292",
+    "arrivalTerminalId": "1226",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "동탄역"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "용인"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959502102503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        4
+      ],
+      "irregularDays": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4292",
+    "arrivalTerminalId": "1226",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "동탄역"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "용인"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959502102503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        4
+      ],
+      "irregularDays": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4292",
+    "arrivalTerminalId": "1226",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "유성시외"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "동탄역"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "용인"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959502102503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        4
+      ],
+      "irregularDays": [
+        2,
+        5
+      ]
     }
   }
 ]
