@@ -9,6 +9,64 @@
       "해운대고속㈜"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5000
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909007301502",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9007",
+    "arrivalTerminalId": "6018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "해운대고속㈜"
+    ],
+    "departureTime": {
       "hour": 8,
       "minute": 30
     },
@@ -95,6 +153,61 @@
     "routeId": "909007601801",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9007",
+    "arrivalTerminalId": "6018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "해운대고속㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5000
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대"
+        },
+        {
+          "name": "양산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909007601801",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        6
+      ]
     }
   },
   {
@@ -264,168 +377,6 @@
       "해운대고속㈜"
     ],
     "departureTime": {
-      "hour": 20,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3800
-      ],
-      "초등생": [
-        1900
-      ],
-      "중고생": [
-        3000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "양산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007601801",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6018",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5000
-      ],
-      "초등생": [
-        2500
-      ],
-      "중고생": [
-        4000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "양산"
-        },
-        {
-          "name": "청주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909007301502",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6018",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5000
-      ],
-      "초등생": [
-        2500
-      ],
-      "중고생": [
-        4000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "양산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909007601801",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6018",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
       "hour": 19,
       "minute": 20
     },
@@ -469,6 +420,55 @@
       "irregularDays": [
         6
       ]
+    }
+  },
+  {
+    "departureTerminalId": "9007",
+    "arrivalTerminalId": "6018",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "해운대고속㈜"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3800
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대"
+        },
+        {
+          "name": "양산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909007601801",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]

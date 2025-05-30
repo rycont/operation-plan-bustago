@@ -63,16 +63,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -139,16 +130,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -215,16 +197,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -291,16 +264,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -367,16 +331,74 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1807",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7500
       ],
-      "irregularDays": [
-        3,
-        6,
-        7
+      "초등생": [
+        3800
+      ],
+      "중고생": [
+        5300
       ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안중"
+        },
+        {
+          "name": "안중오거리"
+        },
+        {
+          "name": "숙성리"
+        },
+        {
+          "name": "태평아파트"
+        },
+        {
+          "name": "평택"
+        },
+        {
+          "name": "평택대"
+        },
+        {
+          "name": "용이동"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101052000406",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
@@ -443,16 +465,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -519,16 +532,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -595,16 +599,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -671,16 +666,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -695,386 +681,6 @@
     "departureTime": {
       "hour": 14,
       "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7500
-      ],
-      "초등생": [
-        3800
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안중"
-        },
-        {
-          "name": "안중오거리"
-        },
-        {
-          "name": "숙성리"
-        },
-        {
-          "name": "태평아파트"
-        },
-        {
-          "name": "평택"
-        },
-        {
-          "name": "평택대"
-        },
-        {
-          "name": "용이동"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101052000406",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1807",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7500
-      ],
-      "초등생": [
-        3800
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안중"
-        },
-        {
-          "name": "안중오거리"
-        },
-        {
-          "name": "숙성리"
-        },
-        {
-          "name": "태평아파트"
-        },
-        {
-          "name": "평택"
-        },
-        {
-          "name": "평택대"
-        },
-        {
-          "name": "용이동"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101052000406",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1807",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7500
-      ],
-      "초등생": [
-        3800
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안중"
-        },
-        {
-          "name": "안중오거리"
-        },
-        {
-          "name": "숙성리"
-        },
-        {
-          "name": "태평아파트"
-        },
-        {
-          "name": "평택"
-        },
-        {
-          "name": "평택대"
-        },
-        {
-          "name": "용이동"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101052000406",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1807",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7500
-      ],
-      "초등생": [
-        3800
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안중"
-        },
-        {
-          "name": "안중오거리"
-        },
-        {
-          "name": "숙성리"
-        },
-        {
-          "name": "태평아파트"
-        },
-        {
-          "name": "평택"
-        },
-        {
-          "name": "평택대"
-        },
-        {
-          "name": "용이동"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101052000406",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1807",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7500
-      ],
-      "초등생": [
-        3800
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안중"
-        },
-        {
-          "name": "안중오거리"
-        },
-        {
-          "name": "숙성리"
-        },
-        {
-          "name": "태평아파트"
-        },
-        {
-          "name": "평택"
-        },
-        {
-          "name": "평택대"
-        },
-        {
-          "name": "용이동"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101052000406",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1807",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1207,8 +813,276 @@
       "대원고속"
     ],
     "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7500
+      ],
+      "초등생": [
+        3800
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안중"
+        },
+        {
+          "name": "안중오거리"
+        },
+        {
+          "name": "숙성리"
+        },
+        {
+          "name": "태평아파트"
+        },
+        {
+          "name": "평택"
+        },
+        {
+          "name": "평택대"
+        },
+        {
+          "name": "용이동"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101052000406",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1807",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7500
+      ],
+      "초등생": [
+        3800
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안중"
+        },
+        {
+          "name": "안중오거리"
+        },
+        {
+          "name": "숙성리"
+        },
+        {
+          "name": "태평아파트"
+        },
+        {
+          "name": "평택"
+        },
+        {
+          "name": "평택대"
+        },
+        {
+          "name": "용이동"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101052000406",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1807",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7500
+      ],
+      "초등생": [
+        3800
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안중"
+        },
+        {
+          "name": "안중오거리"
+        },
+        {
+          "name": "숙성리"
+        },
+        {
+          "name": "태평아파트"
+        },
+        {
+          "name": "평택"
+        },
+        {
+          "name": "평택대"
+        },
+        {
+          "name": "용이동"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101052000406",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1807",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
       "hour": 19,
       "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7500
+      ],
+      "초등생": [
+        3800
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안중"
+        },
+        {
+          "name": "안중오거리"
+        },
+        {
+          "name": "숙성리"
+        },
+        {
+          "name": "태평아파트"
+        },
+        {
+          "name": "평택"
+        },
+        {
+          "name": "평택대"
+        },
+        {
+          "name": "용이동"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101052000406",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1807",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {

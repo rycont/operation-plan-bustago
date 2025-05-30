@@ -114,7 +114,7 @@
     ],
     "departureTime": {
       "hour": 9,
-      "minute": 20
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -152,11 +152,7 @@
     },
     "routeId": "909007600601",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -170,230 +166,6 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 14,
       "minute": 50
     },
     "isTemporaryRoute": false,
@@ -432,11 +204,163 @@
     },
     "routeId": "909007600601",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "해운대고속㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
       ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909007600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "해운대고속㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909007600601",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9007",
+    "arrivalTerminalId": "6006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "해운대고속㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4100
+      ],
+      "초등생": [
+        2100
+      ],
+      "중고생": [
+        3300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대"
+        },
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909007600601",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
@@ -502,62 +426,6 @@
     ],
     "departureTime": {
       "hour": 17,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 18,
       "minute": 20
     },
     "isTemporaryRoute": false,
@@ -596,11 +464,7 @@
     },
     "routeId": "909007600601",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -613,8 +477,8 @@
       "해운대고속㈜"
     ],
     "departureTime": {
-      "hour": 19,
-      "minute": 0
+      "hour": 18,
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -652,11 +516,7 @@
     },
     "routeId": "909007600601",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -710,538 +570,6 @@
       ]
     },
     "routeId": "909007604302",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4900
-      ],
-      "초등생": [
-        2500
-      ],
-      "중고생": [
-        3900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "심야고속"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9007",
-    "arrivalTerminalId": "6006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4100
-      ],
-      "초등생": [
-        2100
-      ],
-      "중고생": [
-        3300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909007600601",
     "pattern": {
       "type": "everyday"
     }
