@@ -834,6 +834,76 @@
       15
     ],
     "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 3
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "안동초교"
+        },
+        {
+          "name": "용상"
+        },
+        {
+          "name": "안동대"
+        },
+        {
+          "name": "임동"
+        },
+        {
+          "name": "진보"
+        },
+        {
+          "name": "청송"
+        },
+        {
+          "name": "주왕산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001506101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5043",
+    "arrivalTerminalId": "5166",
+    "durationInMinutes": [
+      15
+    ],
+    "operator": [
       "경북고속"
     ],
     "departureTime": {
@@ -1550,76 +1620,6 @@
       ]
     },
     "routeId": "929202504502",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5043",
-    "arrivalTerminalId": "5166",
-    "durationInMinutes": [
-      15
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 3
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "안동초교"
-        },
-        {
-          "name": "용상"
-        },
-        {
-          "name": "안동대"
-        },
-        {
-          "name": "임동"
-        },
-        {
-          "name": "진보"
-        },
-        {
-          "name": "청송"
-        },
-        {
-          "name": "주왕산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001506101",
     "pattern": {
       "type": "everyday"
     }
