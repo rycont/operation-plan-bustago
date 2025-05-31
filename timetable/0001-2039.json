@@ -119,15 +119,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        27000,
         35200
       ],
       "초등생": [
-        13500,
         17600
       ],
       "중고생": [
-        21600,
         28200
       ]
     },
@@ -150,8 +147,7 @@
         28
       ],
       "busClass": [
-        "시외우등",
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "000001203903",
@@ -209,6 +205,63 @@
     "routeId": "000001203901",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2039",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35200
+      ],
+      "초등생": [
+        17600
+      ],
+      "중고생": [
+        28200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "태백"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001203901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -386,15 +439,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        27000,
         35200
       ],
       "초등생": [
-        13500,
         17600
       ],
       "중고생": [
-        21600,
         28200
       ]
     },
@@ -417,8 +467,7 @@
         28
       ],
       "busClass": [
-        "시외우등",
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "000001203903",
@@ -653,15 +702,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        27000,
         35200
       ],
       "초등생": [
-        13500,
         17600
       ],
       "중고생": [
-        21600,
         28200
       ]
     },
@@ -684,8 +730,7 @@
         28
       ],
       "busClass": [
-        "시외우등",
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "000001203903",
@@ -920,15 +965,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        27000,
         35200
       ],
       "초등생": [
-        13500,
         17600
       ],
       "중고생": [
-        21600,
         28200
       ]
     },
@@ -951,8 +993,7 @@
         28
       ],
       "busClass": [
-        "시외우등",
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "000001203903",
@@ -1123,6 +1164,66 @@
     "departureTerminalId": "0001",
     "arrivalTerminalId": "2039",
     "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35200
+      ],
+      "초등생": [
+        17600
+      ],
+      "중고생": [
+        28200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "영월"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "태백"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001203902",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2039",
+    "durationInMinutes": [
       210
     ],
     "operator": [
@@ -1271,113 +1372,6 @@
       ]
     },
     "routeId": "000001203901",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2039",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "영암고속㈜"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35200
-      ],
-      "초등생": [
-        17600
-      ],
-      "중고생": [
-        28200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "고한사북공영"
-        },
-        {
-          "name": "태백"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001203901",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2039",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "영암고속㈜"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35200
-      ],
-      "초등생": [
-        17600
-      ],
-      "중고생": [
-        28200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "영월"
-        },
-        {
-          "name": "고한사북공영"
-        },
-        {
-          "name": "태백"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001203902",
     "pattern": {
       "type": "everyday"
     }
