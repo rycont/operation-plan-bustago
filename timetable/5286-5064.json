@@ -63,7 +63,16 @@
     },
     "routeId": "505286504501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        5
+      ]
     }
   },
   {
@@ -130,7 +139,16 @@
     },
     "routeId": "505286504501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        5
+      ]
     }
   },
   {
@@ -197,7 +215,16 @@
     },
     "routeId": "505286504501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        5
+      ]
     }
   },
   {
@@ -264,7 +291,16 @@
     },
     "routeId": "505286504501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        5
+      ]
     }
   },
   {
@@ -401,7 +437,16 @@
     },
     "routeId": "505286504501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        5
+      ]
     }
   },
   {
@@ -467,6 +512,85 @@
       ]
     },
     "routeId": "505286504501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5286",
+    "arrivalTerminalId": "5064",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 3
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "안동초교"
+        },
+        {
+          "name": "용상"
+        },
+        {
+          "name": "안동대"
+        },
+        {
+          "name": "임동"
+        },
+        {
+          "name": "진보"
+        },
+        {
+          "name": "청송"
+        },
+        {
+          "name": "주왕산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001506101",
     "pattern": {
       "type": "everyday"
     }
@@ -535,7 +659,16 @@
     },
     "routeId": "505286504501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        5
+      ]
     }
   },
   {
@@ -675,7 +808,16 @@
     },
     "routeId": "505286504501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        5
+      ]
     }
   },
   {
@@ -885,7 +1027,16 @@
     },
     "routeId": "505286504501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        5
+      ]
     }
   },
   {
@@ -952,77 +1103,16 @@
     },
     "routeId": "505286504501",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5286",
-    "arrivalTerminalId": "5064",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 3
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6700
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        6,
+        7
       ],
-      "초등생": [
-        3400
-      ],
-      "중고생": [
-        6000
+      "irregularDays": [
+        1,
+        5
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "안동초교"
-        },
-        {
-          "name": "용상"
-        },
-        {
-          "name": "안동대"
-        },
-        {
-          "name": "임동"
-        },
-        {
-          "name": "진보"
-        },
-        {
-          "name": "청송"
-        },
-        {
-          "name": "주왕산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001506101",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
