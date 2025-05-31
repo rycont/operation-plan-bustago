@@ -9,6 +9,69 @@
       "충북리무진㈜"
     ],
     "departureTime": {
+      "hour": 10,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14600
+      ],
+      "초등생": [
+        7300
+      ],
+      "중고생": [
+        11700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안동"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505043301503",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5049",
+    "arrivalTerminalId": "3102",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "충북리무진㈜"
+    ],
+    "departureTime": {
       "hour": 15,
       "minute": 25
     },
@@ -63,66 +126,9 @@
       ],
       "irregularDays": [
         1,
+        3,
         4
       ]
-    }
-  },
-  {
-    "departureTerminalId": "5049",
-    "arrivalTerminalId": "3102",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "충북리무진㈜"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14600
-      ],
-      "초등생": [
-        7300
-      ],
-      "중고생": [
-        11700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안동"
-        },
-        {
-          "name": "예천"
-        },
-        {
-          "name": "경북대상주"
-        },
-        {
-          "name": "남청주"
-        },
-        {
-          "name": "청주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505043301503",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -180,7 +186,12 @@
     },
     "routeId": "505043301503",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   }
 ]
