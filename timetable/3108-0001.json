@@ -9,7 +9,7 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 8,
+      "hour": 7,
       "minute": 0
     },
     "isTemporaryRoute": false,
@@ -30,13 +30,7 @@
           "name": "건국대학교"
         },
         {
-          "name": "주덕"
-        },
-        {
-          "name": "용원"
-        },
-        {
-          "name": "생극"
+          "name": "교통대학"
         },
         {
           "name": "일죽"
@@ -49,17 +43,24 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        0
+        0,
+        40
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "303108000101",
+    "routeId": "303108000103",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
         5,
+        7
+      ],
+      "irregularDays": [
+        4,
         6
       ]
     }
@@ -95,13 +96,7 @@
           "name": "건국대학교"
         },
         {
-          "name": "주덕"
-        },
-        {
-          "name": "용원"
-        },
-        {
-          "name": "생극"
+          "name": "교통대학"
         },
         {
           "name": "일죽"
@@ -114,17 +109,288 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        0
+        0,
+        40
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "303108000101",
+    "routeId": "303108000103",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
         5,
+        7
+      ],
+      "irregularDays": [
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3108",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
+      ],
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        6200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "건국대학교"
+        },
+        {
+          "name": "교통대학"
+        },
+        {
+          "name": "일죽"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0,
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303108000103",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3108",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
+      ],
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        6200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "건국대학교"
+        },
+        {
+          "name": "교통대학"
+        },
+        {
+          "name": "일죽"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0,
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303108000103",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3108",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
+      ],
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        6200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "건국대학교"
+        },
+        {
+          "name": "교통대학"
+        },
+        {
+          "name": "일죽"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0,
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303108000103",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3108",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
+      ],
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        6200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "건국대학교"
+        },
+        {
+          "name": "교통대학"
+        },
+        {
+          "name": "일죽"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0,
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303108000103",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        4,
         6
       ]
     }
@@ -175,10 +441,13 @@
     },
     "routeId": "303108000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         2,
-        3,
+        4,
         5,
         6
       ]
@@ -230,10 +499,13 @@
     },
     "routeId": "303108000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         2,
-        3,
+        4,
         5,
         6
       ]
@@ -285,75 +557,13 @@
     },
     "routeId": "303108000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         2,
-        3,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3108",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "주덕"
-        },
-        {
-          "name": "용원"
-        },
-        {
-          "name": "생극"
-        },
-        {
-          "name": "일죽"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303108000101",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
+        4,
         5,
         6
       ]
@@ -405,10 +615,13 @@
     },
     "routeId": "303108000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         2,
-        3,
+        4,
         5,
         6
       ]
@@ -460,140 +673,13 @@
     },
     "routeId": "303108000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         2,
-        3,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3108",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "주덕"
-        },
-        {
-          "name": "용원"
-        },
-        {
-          "name": "생극"
-        },
-        {
-          "name": "일죽"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303108000101",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3108",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "주덕"
-        },
-        {
-          "name": "용원"
-        },
-        {
-          "name": "생극"
-        },
-        {
-          "name": "일죽"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303108000101",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
+        4,
         5,
         6
       ]
@@ -645,10 +731,13 @@
     },
     "routeId": "303108000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         2,
-        3,
+        4,
         5,
         6
       ]
@@ -700,390 +789,15 @@
     },
     "routeId": "303108000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         2,
-        3,
+        4,
         5,
         6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3108",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "교통대학"
-        },
-        {
-          "name": "일죽"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303108000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        7
-      ],
-      "irregularDays": [
-        3,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3108",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "교통대학"
-        },
-        {
-          "name": "일죽"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303108000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        7
-      ],
-      "irregularDays": [
-        3,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3108",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "교통대학"
-        },
-        {
-          "name": "일죽"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303108000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        7
-      ],
-      "irregularDays": [
-        3,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3108",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "교통대학"
-        },
-        {
-          "name": "일죽"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303108000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        7
-      ],
-      "irregularDays": [
-        3,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3108",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "교통대학"
-        },
-        {
-          "name": "일죽"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303108000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        7
-      ],
-      "irregularDays": [
-        3,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3108",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "건국대학교"
-        },
-        {
-          "name": "교통대학"
-        },
-        {
-          "name": "일죽"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303108000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        7
-      ],
-      "irregularDays": [
-        3,
-        5
       ]
     }
   }
