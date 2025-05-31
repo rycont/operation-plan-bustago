@@ -48,9 +48,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -156,9 +153,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -212,9 +206,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -268,9 +259,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -337,6 +325,59 @@
       "(주)경기고속"
     ],
     "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13200
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        9200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001301701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "3017",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
       "hour": 10,
       "minute": 0
     },
@@ -376,9 +417,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -432,60 +470,8 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "3017",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        9200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "충주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001301701",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -589,9 +575,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -645,9 +628,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -701,9 +681,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -757,9 +734,58 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "3017",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13200
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        9200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001301701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         7
       ]
     }
@@ -865,9 +891,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -973,9 +996,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -1029,9 +1049,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -1085,9 +1102,59 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "3017",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13200
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        9200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001301701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
         7
       ]
     }
@@ -1141,9 +1208,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -1197,9 +1261,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -1253,9 +1314,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
         7
       ]
     }
@@ -1309,9 +1367,58 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "3017",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13200
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        9200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001301701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         7
       ]
     }
@@ -1365,172 +1472,6 @@
       "type": "specific-day",
       "days": [
         1,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "3017",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        9200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "충주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001301701",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "3017",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        9200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "충주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001301701",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "3017",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        9200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "충주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001301701",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
         7
       ]
     }
@@ -1584,8 +1525,6 @@
       "type": "specific-day",
       "days": [
         1,
-        5,
-        6,
         7
       ]
     }
@@ -1597,11 +1536,11 @@
       0
     ],
     "operator": [
-      "(주)경기고속"
+      "대원고속"
     ],
     "departureTime": {
-      "hour": 9,
-      "minute": 30
+      "hour": 10,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1636,11 +1575,15 @@
     },
     "routeId": "000001301701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
-        6,
-        7
+        3,
+        4
+      ],
+      "irregularDays": [
+        2,
+        5
       ]
     }
   },
