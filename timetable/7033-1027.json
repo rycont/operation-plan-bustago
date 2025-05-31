@@ -6,60 +6,11 @@
       190
     ],
     "operator": [
-      "(유)호남고속"
+      "대원고속"
     ],
     "departureTime": {
-      "hour": 13,
+      "hour": 8,
       "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27100
-      ],
-      "초등생": [
-        13600
-      ],
-      "중고생": [
-        21700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "전주"
-        },
-        {
-          "name": "의정부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "707033102701",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7033",
-    "arrivalTerminalId": "1027",
-    "durationInMinutes": [
-      190
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -143,6 +94,60 @@
     },
     "routeId": "707033102701",
     "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7033",
+    "arrivalTerminalId": "1027",
+    "durationInMinutes": [
+      190
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27100
+      ],
+      "초등생": [
+        13600
+      ],
+      "중고생": [
+        21700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "의정부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707033102701",
+    "pattern": {
       "type": "everyday"
     }
   },
@@ -153,11 +158,11 @@
       190
     ],
     "operator": [
-      "대원고속"
+      "(유)호남고속"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 30
+      "hour": 17,
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
