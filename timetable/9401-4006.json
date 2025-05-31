@@ -171,16 +171,13 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        26400,
-        34300
+        26400
       ],
       "초등생": [
-        13200,
-        17200
+        13200
       ],
       "중고생": [
-        21100,
-        27400
+        21100
       ]
     },
     "stops": [
@@ -199,17 +196,20 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         28
       ],
       "busClass": [
-        "시외우등",
-        "프리미엄우등"
+        "시외우등"
       ]
     },
     "routeId": "949401400603",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -275,58 +275,6 @@
     ],
     "departureTime": {
       "hour": 19,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        26400
-      ],
-      "초등생": [
-        13200
-      ],
-      "중고생": [
-        21100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "서산"
-        },
-        {
-          "name": "당진"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "949401400603",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "4006",
-    "durationInMinutes": [
-      185
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 19,
       "minute": 3
     },
     "isTemporaryRoute": false,
@@ -369,6 +317,58 @@
       "days": [
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "4006",
+    "durationInMinutes": [
+      185
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        26400
+      ],
+      "초등생": [
+        13200
+      ],
+      "중고생": [
+        21100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "당진"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949401400603",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
