@@ -143,6 +143,79 @@
       "강원고속㈜"
     ],
     "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "춘천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302203705",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "1092",
+    "durationInMinutes": [
+      30
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
       "hour": 13,
       "minute": 10
     },
@@ -344,73 +417,6 @@
       "강원고속㈜"
     ],
     "departureTime": {
-      "hour": 11,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3300
-      ],
-      "초등생": [
-        1700
-      ],
-      "중고생": [
-        2600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "대성리"
-        },
-        {
-          "name": "청평"
-        },
-        {
-          "name": "가평"
-        },
-        {
-          "name": "강촌"
-        },
-        {
-          "name": "춘천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302203705",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "1092",
-    "durationInMinutes": [
-      30
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
       "hour": 19,
       "minute": 10
     },
@@ -465,7 +471,13 @@
     },
     "routeId": "939302203705",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        5,
+        6,
+        7
+      ]
     }
   }
 ]
