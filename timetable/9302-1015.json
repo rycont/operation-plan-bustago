@@ -445,63 +445,6 @@
     "departureTerminalId": "9302",
     "arrivalTerminalId": "1015",
     "durationInMinutes": [
-      30
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3600
-      ],
-      "초등생": [
-        1800
-      ],
-      "중고생": [
-        2500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "고흥"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302800201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
       0
     ],
     "operator": [
@@ -2818,6 +2761,58 @@
       ]
     },
     "routeId": "939302507108",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      30
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3600
+      ],
+      "초등생": [
+        1800
+      ],
+      "중고생": [
+        2500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "고흥"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302800201",
     "pattern": {
       "type": "everyday"
     }
