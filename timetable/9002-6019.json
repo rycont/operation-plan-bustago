@@ -241,90 +241,6 @@
     ],
     "departureTime": {
       "hour": 11,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10100
-      ],
-      "초등생": [
-        5100
-      ],
-      "중고생": [
-        8100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "함안"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "의령"
-        },
-        {
-          "name": "가례"
-        },
-        {
-          "name": "칠곡"
-        },
-        {
-          "name": "대의"
-        },
-        {
-          "name": "삼가"
-        },
-        {
-          "name": "쌍백"
-        },
-        {
-          "name": "대양"
-        },
-        {
-          "name": "합천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909002603302",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6019",
-    "durationInMinutes": [
-      70
-    ],
-    "operator": [
-      "경전/동일"
-    ],
-    "departureTime": {
-      "hour": 11,
       "minute": 50
     },
     "isTemporaryRoute": false,
@@ -635,7 +551,7 @@
     ],
     "departureTime": {
       "hour": 18,
-      "minute": 10
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -700,12 +616,86 @@
     },
     "routeId": "909002603302",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6019",
+    "durationInMinutes": [
+      70
+    ],
+    "operator": [
+      "경전/동일"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10100
+      ],
+      "초등생": [
+        5100
+      ],
+      "중고생": [
+        8100
       ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "함안"
+        },
+        {
+          "name": "월촌"
+        },
+        {
+          "name": "정암"
+        },
+        {
+          "name": "의령"
+        },
+        {
+          "name": "가례"
+        },
+        {
+          "name": "칠곡"
+        },
+        {
+          "name": "대의"
+        },
+        {
+          "name": "삼가"
+        },
+        {
+          "name": "쌍백"
+        },
+        {
+          "name": "대양"
+        },
+        {
+          "name": "합천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002603302",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
@@ -719,7 +709,7 @@
     ],
     "departureTime": {
       "hour": 18,
-      "minute": 50
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {

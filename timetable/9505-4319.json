@@ -152,12 +152,6 @@
           "name": "대전청사(선사유적)"
         },
         {
-          "name": "신양"
-        },
-        {
-          "name": "예산"
-        },
-        {
           "name": "내포"
         },
         {
@@ -174,14 +168,9 @@
         "시외우등"
       ]
     },
-    "routeId": "959503409005",
+    "routeId": "959503409003",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        4,
-        5,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -316,61 +305,6 @@
       80
     ],
     "operator": [
-      "㈜충남고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11800
-      ],
-      "초등생": [
-        5900
-      ],
-      "중고생": [
-        9400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대전복합"
-        },
-        {
-          "name": "대전청사(선사유적)"
-        },
-        {
-          "name": "내포"
-        },
-        {
-          "name": "홍성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "959503409003",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9505",
-    "arrivalTerminalId": "4319",
-    "durationInMinutes": [
-      80
-    ],
-    "operator": [
       "㈜한양고속"
     ],
     "departureTime": {
@@ -419,14 +353,7 @@
     },
     "routeId": "959503409004",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   }
 ]
