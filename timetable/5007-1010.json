@@ -72,66 +72,6 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 15,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        32100
-      ],
-      "초등생": [
-        16100
-      ],
-      "중고생": [
-        22500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "성남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505071101001",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "1010",
-    "durationInMinutes": [
-      230
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
       "hour": 16,
       "minute": 40
     },
@@ -179,6 +119,58 @@
         2,
         4
       ]
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "1010",
+    "durationInMinutes": [
+      230
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32100
+      ],
+      "초등생": [
+        16100
+      ],
+      "중고생": [
+        22500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "성남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071101001",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
