@@ -6,6 +6,81 @@
       0
     ],
     "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9300
+      ],
+      "초등생": [
+        4700
+      ],
+      "중고생": [
+        7400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "화개공용"
+        },
+        {
+          "name": "하동"
+        },
+        {
+          "name": "구례"
+        },
+        {
+          "name": "화엄사"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606679813801",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6679",
+    "arrivalTerminalId": "6035",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "영화여객(자주)"
     ],
     "departureTime": {
@@ -82,70 +157,6 @@
       "공통"
     ],
     "departureTime": {
-      "hour": 16,
-      "minute": 43
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9300
-      ],
-      "초등생": [
-        4700
-      ],
-      "중고생": [
-        7400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주(개양)"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "전도"
-        },
-        {
-          "name": "화개공용"
-        },
-        {
-          "name": "하동"
-        },
-        {
-          "name": "구례"
-        },
-        {
-          "name": "화엄사"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606679813801",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6679",
-    "arrivalTerminalId": "6035",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
       "hour": 23,
       "minute": 59
     },
@@ -182,7 +193,18 @@
     },
     "routeId": "606679603501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        5
+      ]
     }
   }
 ]
