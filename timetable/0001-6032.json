@@ -653,15 +653,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        41900,
         56700
       ],
       "초등생": [
-        21000,
         22900
       ],
       "중고생": [
-        33500,
         36600
       ]
     },
@@ -696,67 +693,6 @@
     "routeId": "000001626401",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "6032",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜함양지리산고속"
-    ],
-    "departureTime": {
-      "hour": 22,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35200
-      ],
-      "초등생": [
-        17600
-      ],
-      "중고생": [
-        28200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "함양"
-        },
-        {
-          "name": "인월"
-        },
-        {
-          "name": "뱀사골"
-        },
-        {
-          "name": "노고단(성삼재)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야우등1"
-      ]
-    },
-    "routeId": "000001825503",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
     }
   },
   {
@@ -814,12 +750,10 @@
     },
     "routeId": "000001825503",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        4,
         5
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
@@ -945,10 +879,134 @@
     },
     "routeId": "000001825505",
     "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "6032",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜함양지리산고속"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35200
+      ],
+      "초등생": [
+        17600
+      ],
+      "중고생": [
+        28200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "뱀사골"
+        },
+        {
+          "name": "달궁"
+        },
+        {
+          "name": "노고단(성삼재)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "000001825505",
+    "pattern": {
       "type": "specific-day",
       "days": [
-        2,
-        3
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "6032",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜함양지리산고속"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35200
+      ],
+      "초등생": [
+        17600
+      ],
+      "중고생": [
+        28200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "뱀사골"
+        },
+        {
+          "name": "달궁"
+        },
+        {
+          "name": "노고단(성삼재)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "000001825505",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5
       ]
     }
   }
