@@ -9,7 +9,7 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 15,
+      "hour": 8,
       "minute": 42
     },
     "isTemporaryRoute": false,
@@ -54,7 +54,15 @@
     },
     "routeId": "808050930202",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
     }
   },
   {
@@ -67,7 +75,7 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 8,
+      "hour": 15,
       "minute": 42
     },
     "isTemporaryRoute": false,

@@ -62,6 +62,58 @@
     ],
     "departureTime": {
       "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2900
+      ],
+      "초등생": [
+        2000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "양재역"
+        },
+        {
+          "name": "강남역"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101012004501",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "0045",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "용남고속"
+    ],
+    "departureTime": {
+      "hour": 23,
       "minute": 10
     },
     "isTemporaryRoute": false,
@@ -104,58 +156,6 @@
       "days": [
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "0045",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "용남고속"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2900
-      ],
-      "초등생": [
-        2000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "수원터미널"
-        },
-        {
-          "name": "양재역"
-        },
-        {
-          "name": "강남역"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101012004501",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
