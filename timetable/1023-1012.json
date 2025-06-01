@@ -9,7 +9,7 @@
       "㈜삼흥고속"
     ],
     "departureTime": {
-      "hour": 9,
+      "hour": 12,
       "minute": 38
     },
     "isTemporaryRoute": false,
@@ -43,10 +43,10 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        40
       ],
       "busClass": [
-        "시외우등"
+        "일반"
       ]
     },
     "routeId": "404008101202",
@@ -106,7 +106,14 @@
     },
     "routeId": "404008101202",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -119,7 +126,7 @@
       "㈜삼흥고속"
     ],
     "departureTime": {
-      "hour": 12,
+      "hour": 18,
       "minute": 38
     },
     "isTemporaryRoute": false,
@@ -153,15 +160,22 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        40
+        28
       ],
       "busClass": [
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "404008101202",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -174,7 +188,7 @@
       "㈜삼흥고속"
     ],
     "departureTime": {
-      "hour": 18,
+      "hour": 9,
       "minute": 38
     },
     "isTemporaryRoute": false,

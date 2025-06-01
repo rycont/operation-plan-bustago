@@ -621,45 +621,22 @@
         },
         {
           "name": "보성"
-        },
-        {
-          "name": "예당"
-        },
-        {
-          "name": "조성"
-        },
-        {
-          "name": "벌교"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "덕양"
-        },
-        {
-          "name": "여천"
-        },
-        {
-          "name": "여수"
         }
       ]
     ],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        28,
+        41
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "808024804108",
+    "routeId": "808024803106",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1060,78 +1037,9 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3
       ]
-    }
-  },
-  {
-    "departureTerminalId": "8024",
-    "arrivalTerminalId": "8018",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜광우고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3900
-      ],
-      "초등생": [
-        2000
-      ],
-      "중고생": [
-        3100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "목포"
-        },
-        {
-          "name": "삼호"
-        },
-        {
-          "name": "독천"
-        },
-        {
-          "name": "성전"
-        },
-        {
-          "name": "강진"
-        },
-        {
-          "name": "장흥"
-        },
-        {
-          "name": "배산"
-        },
-        {
-          "name": "보성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28,
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808024803106",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -1253,14 +1161,7 @@
     },
     "routeId": "808024806204",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   }
 ]
