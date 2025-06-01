@@ -423,65 +423,6 @@
       "경남고속뉴부산"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        40300
-      ],
-      "초등생": [
-        20200
-      ],
-      "중고생": [
-        32200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101015900101",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1015",
-    "arrivalTerminalId": "9001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경남고속뉴부산"
-    ],
-    "departureTime": {
       "hour": 23,
       "minute": 19
     },
@@ -591,6 +532,65 @@
       "type": "specific-day",
       "days": [
         5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1015",
+    "arrivalTerminalId": "9001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        40300
+      ],
+      "초등생": [
+        20200
+      ],
+      "중고생": [
+        32200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101015900101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
       ]
     }
   }
