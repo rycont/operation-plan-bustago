@@ -910,6 +910,55 @@
     "departureTerminalId": "9401",
     "arrivalTerminalId": "8062",
     "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16900
+      ],
+      "초등생": [
+        8500
+      ],
+      "중고생": [
+        13500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "해남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949401806203",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8062",
+    "durationInMinutes": [
       0
     ],
     "operator": [
@@ -1518,55 +1567,6 @@
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 15,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16900
-      ],
-      "초등생": [
-        8500
-      ],
-      "중고생": [
-        13500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "해남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "949401806203",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "8062",
-    "durationInMinutes": [
-      80
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
       "hour": 14,
       "minute": 10
     },
@@ -1605,9 +1605,11 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -1677,9 +1679,11 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   }
