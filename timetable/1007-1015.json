@@ -58,6 +58,58 @@
     "departureTerminalId": "1007",
     "arrivalTerminalId": "1015",
     "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "㈜광신고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3600
+      ],
+      "초등생": [
+        1800
+      ],
+      "중고생": [
+        2500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007802401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
       40
     ],
     "operator": [
@@ -105,67 +157,6 @@
       ]
     },
     "routeId": "101007102801",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        4
-      ],
-      "irregularDays": [
-        2,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      45
-    ],
-    "operator": [
-      "㈜광신고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3600
-      ],
-      "초등생": [
-        1800
-      ],
-      "중고생": [
-        2500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "목포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007802401",
     "pattern": {
       "type": "everyday"
     }

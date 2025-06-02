@@ -50,5 +50,60 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "7085",
+    "arrivalTerminalId": "9504",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "덕진"
+        },
+        {
+          "name": "대전서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707033950401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
   }
 ]
