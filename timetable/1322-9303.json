@@ -83,14 +83,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        5
-      ],
-      "irregularDays": [
         1,
-        2,
+        3,
+        5,
         6,
         7
+      ],
+      "irregularDays": [
+        2,
+        4
       ]
     }
   },
@@ -181,14 +182,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        5
-      ],
-      "irregularDays": [
         1,
-        2,
+        3,
+        5,
         6,
         7
+      ],
+      "irregularDays": [
+        2,
+        4
       ]
     }
   },
@@ -279,14 +281,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        5
-      ],
-      "irregularDays": [
         1,
-        2,
+        3,
+        5,
         6,
         7
+      ],
+      "irregularDays": [
+        2,
+        4
       ]
     }
   },
@@ -300,7 +303,7 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 13,
+      "hour": 12,
       "minute": 15
     },
     "isTemporaryRoute": false,
@@ -375,7 +378,18 @@
     },
     "routeId": "101841933702",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        4
+      ]
     }
   },
   {
@@ -465,205 +479,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        5
-      ],
-      "irregularDays": [
         1,
-        2,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1322",
-    "arrivalTerminalId": "9303",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 22,
-      "minute": 2
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14600
-      ],
-      "초등생": [
-        7300
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광릉내(진접)"
-        },
-        {
-          "name": "진접센트레빌"
-        },
-        {
-          "name": "정광산호"
-        },
-        {
-          "name": "휴먼시아16단지"
-        },
-        {
-          "name": "오남역"
-        },
-        {
-          "name": "봉현마을(남양주)"
-        },
-        {
-          "name": "내각농협"
-        },
-        {
-          "name": "퇴계원(극동아파트)"
-        },
-        {
-          "name": "별내역"
-        },
-        {
-          "name": "신일유토빌"
-        },
-        {
-          "name": "별내KCC"
-        },
-        {
-          "name": "현대아이파크(별내)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101841933703",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        5
-      ],
-      "irregularDays": [
-        1,
-        2,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1322",
-    "arrivalTerminalId": "9303",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14600
-      ],
-      "초등생": [
-        7300
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광릉내(진접)"
-        },
-        {
-          "name": "진접센트레빌"
-        },
-        {
-          "name": "정광산호"
-        },
-        {
-          "name": "휴먼시아16단지"
-        },
-        {
-          "name": "오남역"
-        },
-        {
-          "name": "봉현마을(남양주)"
-        },
-        {
-          "name": "내각농협"
-        },
-        {
-          "name": "퇴계원(극동아파트)"
-        },
-        {
-          "name": "별내역"
-        },
-        {
-          "name": "신일유토빌"
-        },
-        {
-          "name": "별내KCC"
-        },
-        {
-          "name": "현대아이파크(별내)"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101841933702",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
         3,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        2,
+        4
       ]
     }
   },
@@ -752,14 +576,113 @@
     },
     "routeId": "101841933702",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
-        2,
         3,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1322",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 2
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14600
+      ],
+      "초등생": [
+        7300
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광릉내(진접)"
+        },
+        {
+          "name": "진접센트레빌"
+        },
+        {
+          "name": "정광산호"
+        },
+        {
+          "name": "휴먼시아16단지"
+        },
+        {
+          "name": "오남역"
+        },
+        {
+          "name": "봉현마을(남양주)"
+        },
+        {
+          "name": "내각농협"
+        },
+        {
+          "name": "퇴계원(극동아파트)"
+        },
+        {
+          "name": "별내역"
+        },
+        {
+          "name": "신일유토빌"
+        },
+        {
+          "name": "별내KCC"
+        },
+        {
+          "name": "현대아이파크(별내)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101841933703",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        4
       ]
     }
   }
