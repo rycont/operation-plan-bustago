@@ -51,7 +51,18 @@
     },
     "routeId": "202031201902",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "irregularDays": [
+        4,
+        7
+      ]
     }
   },
   {
@@ -106,7 +117,18 @@
     },
     "routeId": "202031201902",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "irregularDays": [
+        4,
+        7
+      ]
     }
   },
   {
@@ -161,7 +183,18 @@
     },
     "routeId": "202031201902",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "irregularDays": [
+        4,
+        7
+      ]
     }
   },
   {
@@ -242,8 +275,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        5,
-        6
+        5
       ]
     }
   },
@@ -325,8 +357,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        5,
-        6
+        5
       ]
     }
   }
