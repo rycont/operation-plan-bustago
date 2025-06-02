@@ -621,40 +621,20 @@
         },
         {
           "name": "보성"
-        },
-        {
-          "name": "예당"
-        },
-        {
-          "name": "조성"
-        },
-        {
-          "name": "벌교"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "덕양"
-        },
-        {
-          "name": "여천"
-        },
-        {
-          "name": "여수"
         }
       ]
     ],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        28,
+        41
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "808024804108",
+    "routeId": "808024803106",
     "pattern": {
       "type": "everyday"
     }
@@ -1055,75 +1035,10 @@
     },
     "routeId": "808024803102",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8024",
-    "arrivalTerminalId": "8034",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜광우고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1800
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
+      "type": "specific-day",
+      "days": [
+        2
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "목포"
-        },
-        {
-          "name": "삼호"
-        },
-        {
-          "name": "독천"
-        },
-        {
-          "name": "성전"
-        },
-        {
-          "name": "강진"
-        },
-        {
-          "name": "장흥"
-        },
-        {
-          "name": "배산"
-        },
-        {
-          "name": "보성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28,
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808024803106",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -1189,6 +1104,61 @@
       ]
     },
     "routeId": "808024803106",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8024",
+    "arrivalTerminalId": "8034",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "독천"
+        },
+        {
+          "name": "해남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808024806204",
     "pattern": {
       "type": "everyday"
     }
