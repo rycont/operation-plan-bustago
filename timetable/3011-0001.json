@@ -104,6 +104,7 @@
       120
     ],
     "operator": [
+      "대성고속",
       "대성티앤이"
     ],
     "departureTime": {
@@ -153,6 +154,7 @@
       120
     ],
     "operator": [
+      "대성고속",
       "대성티앤이"
     ],
     "departureTime": {
@@ -290,14 +292,21 @@
     },
     "routeId": "303011000101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
     "departureTerminalId": "3011",
     "arrivalTerminalId": "0001",
     "durationInMinutes": [
-      120
+      0
     ],
     "operator": [
       "(주)경기고속"
@@ -321,6 +330,9 @@
     "stops": [
       [
         {
+          "name": "세명대"
+        },
+        {
           "name": "제천"
         },
         {
@@ -337,16 +349,9 @@
         "시외우등"
       ]
     },
-    "routeId": "303011000101",
+    "routeId": "303191000101",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        2,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -356,6 +361,7 @@
       120
     ],
     "operator": [
+      "대성고속",
       "대성티앤이"
     ],
     "departureTime": {
@@ -454,6 +460,7 @@
       120
     ],
     "operator": [
+      "대성고속",
       "대성티앤이"
     ],
     "departureTime": {
@@ -542,116 +549,14 @@
     },
     "routeId": "303011000101",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3011",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15800
-      ],
-      "초등생": [
-        7900
-      ],
-      "중고생": [
-        12600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "제천"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303011000101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        2,
-        5
       ]
-    }
-  },
-  {
-    "departureTerminalId": "3011",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15800
-      ],
-      "초등생": [
-        7900
-      ],
-      "중고생": [
-        12600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "세명대"
-        },
-        {
-          "name": "제천"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303191000101",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -802,6 +707,117 @@
     "routeId": "303011000101",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3011",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15800
+      ],
+      "초등생": [
+        7900
+      ],
+      "중고생": [
+        12600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "제천"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303011000101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3011",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15800
+      ],
+      "초등생": [
+        7900
+      ],
+      "중고생": [
+        12600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "제천"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303011000101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
     }
   }
 ]
