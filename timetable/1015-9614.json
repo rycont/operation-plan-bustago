@@ -61,61 +61,6 @@
       300
     ],
     "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        36300
-      ],
-      "초등생": [
-        18200
-      ],
-      "중고생": [
-        29000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302960104",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1015",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      300
-    ],
-    "operator": [
       "㈜아성고속",
       "㈜천마고속"
     ],
@@ -228,11 +173,11 @@
       300
     ],
     "operator": [
-      "(주)경기고속"
+      "㈜아성고속"
     ],
     "departureTime": {
-      "hour": 15,
-      "minute": 25
+      "hour": 17,
+      "minute": 15
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -283,11 +228,73 @@
       300
     ],
     "operator": [
-      "㈜아성고속"
+      "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 17,
-      "minute": 15
+      "hour": 15,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        36300
+      ],
+      "초등생": [
+        18200
+      ],
+      "중고생": [
+        29000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302960104",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1015",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 25
     },
     "isTemporaryRoute": false,
     "fare": {
