@@ -63,16 +63,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -139,16 +130,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -215,16 +197,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -291,16 +264,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -367,16 +331,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -443,16 +398,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3
-      ],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -519,16 +465,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -595,16 +532,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -671,16 +599,62 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1817",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 7
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
       ],
-      "irregularDays": [
-        6
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
       ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평택"
+        },
+        {
+          "name": "평택대"
+        },
+        {
+          "name": "용이동"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101035000404",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
@@ -747,16 +721,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -823,16 +788,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -899,16 +855,62 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1817",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 37
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
       ],
-      "irregularDays": [
-        5,
-        6
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
       ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평택"
+        },
+        {
+          "name": "평택대"
+        },
+        {
+          "name": "용이동"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101035000404",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
@@ -975,16 +977,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1051,16 +1044,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1127,16 +1111,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1203,16 +1178,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3
-      ],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1279,144 +1245,7 @@
     },
     "routeId": "101052000406",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1817",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 7
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5200
-      ],
-      "초등생": [
-        2600
-      ],
-      "중고생": [
-        3600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "평택"
-        },
-        {
-          "name": "평택대"
-        },
-        {
-          "name": "용이동"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101035000404",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1817",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 37
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5200
-      ],
-      "초등생": [
-        2600
-      ],
-      "중고생": [
-        3600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "평택"
-        },
-        {
-          "name": "평택대"
-        },
-        {
-          "name": "용이동"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101035000404",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        6
-      ]
+      "type": "everyday"
     }
   }
 ]
