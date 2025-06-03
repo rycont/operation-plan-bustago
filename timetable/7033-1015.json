@@ -9,6 +9,55 @@
       "(유)호남고속"
     ],
     "departureTime": {
+      "hour": 8,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        22700
+      ],
+      "초등생": [
+        11400
+      ],
+      "중고생": [
+        18200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707033101501",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "7033",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
       "hour": 10,
       "minute": 35
     },
@@ -243,55 +292,6 @@
       ],
       "busClass": [
         "일반"
-      ]
-    },
-    "routeId": "707033101501",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7033",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22700
-      ],
-      "초등생": [
-        11400
-      ],
-      "중고생": [
-        18200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "전주"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
       ]
     },
     "routeId": "707033101501",
