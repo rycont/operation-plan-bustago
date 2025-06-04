@@ -336,5 +336,64 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "2028",
+    "arrivalTerminalId": "9001",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31400
+      ],
+      "초등생": [
+        15700
+      ],
+      "중고생": [
+        25100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "홍천"
+        },
+        {
+          "name": "원주"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202037900102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3
+      ]
+    }
   }
 ]
