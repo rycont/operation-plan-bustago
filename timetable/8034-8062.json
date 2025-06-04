@@ -392,5 +392,60 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8034",
+    "arrivalTerminalId": "8062",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7000
+      ],
+      "초등생": [
+        3500
+      ],
+      "중고생": [
+        5600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "독천"
+        },
+        {
+          "name": "해남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808034806201",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4
+      ]
+    }
   }
 ]
