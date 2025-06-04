@@ -6,78 +6,6 @@
       0
     ],
     "operator": [
-      "영암고속㈜"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17500
-      ],
-      "초등생": [
-        8800
-      ],
-      "중고생": [
-        15800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "고한사북공영"
-        },
-        {
-          "name": "태백"
-        },
-        {
-          "name": "호산"
-        },
-        {
-          "name": "울진"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202049900101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5054",
-    "arrivalTerminalId": "5071",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "㈜아성고속"
     ],
     "departureTime": {
@@ -160,6 +88,67 @@
       0
     ],
     "operator": [
+      "영암고속㈜"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17500
+      ],
+      "초등생": [
+        8800
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "호산"
+        },
+        {
+          "name": "울진"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202049900101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5054",
+    "arrivalTerminalId": "5071",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "㈜아성고속"
     ],
     "departureTime": {
@@ -211,18 +200,7 @@
     },
     "routeId": "202051960102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -283,18 +261,7 @@
     },
     "routeId": "202051960102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -355,18 +322,62 @@
     },
     "routeId": "202049900101",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        6,
-        7
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5054",
+    "arrivalTerminalId": "5071",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17500
       ],
-      "irregularDays": [
-        1,
-        5
+      "초등생": [
+        8800
+      ],
+      "중고생": [
+        15800
       ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "울진"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202051900103",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
@@ -426,72 +437,6 @@
       ]
     },
     "routeId": "202049900102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5054",
-    "arrivalTerminalId": "5071",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17500
-      ],
-      "초등생": [
-        8800
-      ],
-      "중고생": [
-        15800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "울진"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202051900103",
     "pattern": {
       "type": "everyday"
     }
