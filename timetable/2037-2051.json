@@ -51,7 +51,14 @@
     },
     "routeId": "202037201501",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -320,7 +327,14 @@
     },
     "routeId": "202037201501",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -644,7 +658,14 @@
     },
     "routeId": "202037201501",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -980,6 +1001,61 @@
     "routeId": "202037201503",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2037",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17300
+      ],
+      "초등생": [
+        8700
+      ],
+      "중고생": [
+        13800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202037205103",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        3
+      ]
     }
   }
 ]
