@@ -58,64 +58,6 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 9,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14700
-      ],
-      "초등생": [
-        7400
-      ],
-      "중고생": [
-        10300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성남"
-        },
-        {
-          "name": "제천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101010301101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1010",
-    "arrivalTerminalId": "3011",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
       "hour": 10,
       "minute": 50
     },
@@ -265,6 +207,55 @@
     "departureTime": {
       "hour": 20,
       "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14700
+      ],
+      "초등생": [
+        7400
+      ],
+      "중고생": [
+        10300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남"
+        },
+        {
+          "name": "제천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101010301101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1010",
+    "arrivalTerminalId": "3011",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
