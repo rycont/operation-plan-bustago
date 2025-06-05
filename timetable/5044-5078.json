@@ -3,85 +3,6 @@
     "departureTerminalId": "5044",
     "arrivalTerminalId": "5078",
     "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아리무진"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4800
-      ],
-      "초등생": [
-        2400
-      ],
-      "중고생": [
-        4300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "영덕"
-        },
-        {
-          "name": "영해"
-        },
-        {
-          "name": "후포"
-        },
-        {
-          "name": "평해"
-        },
-        {
-          "name": "울진"
-        },
-        {
-          "name": "삼척"
-        },
-        {
-          "name": "동해"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "929201201909",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5044",
-    "arrivalTerminalId": "5078",
-    "durationInMinutes": [
       40
     ],
     "operator": [
@@ -160,7 +81,18 @@
     },
     "routeId": "505044505401",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -251,7 +183,18 @@
     },
     "routeId": "505044513801",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -335,6 +278,96 @@
       ]
     },
     "routeId": "505044505401",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5044",
+    "arrivalTerminalId": "5078",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아리무진"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4800
+      ],
+      "초등생": [
+        2400
+      ],
+      "중고생": [
+        4300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "영덕"
+        },
+        {
+          "name": "영해"
+        },
+        {
+          "name": "후포"
+        },
+        {
+          "name": "평해"
+        },
+        {
+          "name": "울진"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "동해"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929201201909",
     "pattern": {
       "type": "everyday"
     }
@@ -421,7 +454,18 @@
     },
     "routeId": "505044505401",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -506,7 +550,18 @@
     },
     "routeId": "505044505401",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -591,7 +646,18 @@
     },
     "routeId": "505044505401",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -682,7 +748,18 @@
     },
     "routeId": "505044513801",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -767,7 +844,18 @@
     },
     "routeId": "505044505401",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -852,7 +940,18 @@
     },
     "routeId": "505044505401",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -937,7 +1036,18 @@
     },
     "routeId": "505044505401",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1028,7 +1138,18 @@
     },
     "routeId": "505044513801",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1113,7 +1234,18 @@
     },
     "routeId": "505044505401",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1198,7 +1330,18 @@
     },
     "routeId": "505044505401",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        6,
+        7
+      ]
     }
   }
 ]
