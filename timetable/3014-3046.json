@@ -133,7 +133,7 @@
     },
     "routeId": "303014000410",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -203,7 +203,7 @@
     },
     "routeId": "303014000401",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -331,7 +331,7 @@
     },
     "routeId": "303014000410",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -401,7 +401,7 @@
     },
     "routeId": "303014000401",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -529,7 +529,7 @@
     },
     "routeId": "303014000410",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -599,7 +599,7 @@
     },
     "routeId": "303014000401",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -669,7 +669,7 @@
     },
     "routeId": "303014000401",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -870,7 +870,7 @@
     },
     "routeId": "303014000401",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -940,7 +940,7 @@
     },
     "routeId": "303014000401",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -1071,7 +1071,7 @@
     },
     "routeId": "303014000401",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -1081,11 +1081,11 @@
       35
     ],
     "operator": [
-      "친선고속㈜"
+      "경일여객"
     ],
     "departureTime": {
       "hour": 9,
-      "minute": 45
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1111,7 +1111,13 @@
           "name": "광혜원"
         },
         {
-          "name": "대소"
+          "name": "두원공대"
+        },
+        {
+          "name": "죽산"
+        },
+        {
+          "name": "동서울"
         }
       ]
     ],
@@ -1124,7 +1130,7 @@
         "일반"
       ]
     },
-    "routeId": "303014306501",
+    "routeId": "303014000101",
     "pattern": {
       "type": "unknown"
     }
@@ -1262,6 +1268,58 @@
       ]
     },
     "routeId": "303014930201",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3014",
+    "arrivalTerminalId": "3046",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진천"
+        },
+        {
+          "name": "광혜원"
+        },
+        {
+          "name": "대소"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303014306503",
     "pattern": {
       "type": "unknown"
     }
@@ -1602,7 +1660,7 @@
     "departureTerminalId": "3014",
     "arrivalTerminalId": "3046",
     "durationInMinutes": [
-      35
+      0
     ],
     "operator": [
       "친선고속㈜"
@@ -1629,9 +1687,6 @@
           "name": "진천"
         },
         {
-          "name": "이월"
-        },
-        {
           "name": "광혜원"
         },
         {
@@ -1651,7 +1706,7 @@
         "일반"
       ]
     },
-    "routeId": "303014307401",
+    "routeId": "303014307403",
     "pattern": {
       "type": "unknown"
     }
@@ -2397,6 +2452,61 @@
     "departureTerminalId": "3014",
     "arrivalTerminalId": "3046",
     "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진천"
+        },
+        {
+          "name": "광혜원"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "삼성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303014307403",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3014",
+    "arrivalTerminalId": "3046",
+    "durationInMinutes": [
       35
     ],
     "operator": [
@@ -2450,64 +2560,6 @@
       ]
     },
     "routeId": "303014000101",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3014",
-    "arrivalTerminalId": "3046",
-    "durationInMinutes": [
-      35
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "이월"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "삼성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014307401",
     "pattern": {
       "type": "unknown"
     }
@@ -2857,6 +2909,76 @@
       "경일여객"
     ],
     "departureTime": {
+      "hour": 16,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진천"
+        },
+        {
+          "name": "이월"
+        },
+        {
+          "name": "광혜원"
+        },
+        {
+          "name": "두원공대"
+        },
+        {
+          "name": "죽산"
+        },
+        {
+          "name": "백암"
+        },
+        {
+          "name": "좌전"
+        },
+        {
+          "name": "양지"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303014000401",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3014",
+    "arrivalTerminalId": "3046",
+    "durationInMinutes": [
+      35
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
       "hour": 17,
       "minute": 5
     },
@@ -3052,14 +3174,14 @@
     "departureTerminalId": "3014",
     "arrivalTerminalId": "3046",
     "durationInMinutes": [
-      35
+      0
     ],
     "operator": [
       "친선고속㈜"
     ],
     "departureTime": {
       "hour": 17,
-      "minute": 50
+      "minute": 45
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -3077,9 +3199,6 @@
       [
         {
           "name": "진천"
-        },
-        {
-          "name": "이월"
         },
         {
           "name": "광혜원"
@@ -3101,7 +3220,7 @@
         "일반"
       ]
     },
-    "routeId": "303014307401",
+    "routeId": "303014307403",
     "pattern": {
       "type": "unknown"
     }
@@ -3451,7 +3570,7 @@
     "departureTerminalId": "3014",
     "arrivalTerminalId": "3046",
     "durationInMinutes": [
-      35
+      0
     ],
     "operator": [
       "친선고속㈜"
@@ -3478,9 +3597,6 @@
           "name": "진천"
         },
         {
-          "name": "이월"
-        },
-        {
           "name": "광혜원"
         },
         {
@@ -3500,7 +3616,7 @@
         "일반"
       ]
     },
-    "routeId": "303014307401",
+    "routeId": "303014307403",
     "pattern": {
       "type": "unknown"
     }
@@ -3632,409 +3748,6 @@
       ]
     },
     "routeId": "303014000401",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3014",
-    "arrivalTerminalId": "3046",
-    "durationInMinutes": [
-      35
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "이월"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "두원공대"
-        },
-        {
-          "name": "죽산"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014000101",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3014",
-    "arrivalTerminalId": "3046",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "대소"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014306503",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3014",
-    "arrivalTerminalId": "3046",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "삼성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014307403",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3014",
-    "arrivalTerminalId": "3046",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "삼성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014307403",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3014",
-    "arrivalTerminalId": "3046",
-    "durationInMinutes": [
-      35
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "이월"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "두원공대"
-        },
-        {
-          "name": "죽산"
-        },
-        {
-          "name": "백암"
-        },
-        {
-          "name": "좌전"
-        },
-        {
-          "name": "양지"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014000401",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3014",
-    "arrivalTerminalId": "3046",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "삼성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014307403",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3014",
-    "arrivalTerminalId": "3046",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "삼성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014307403",
     "pattern": {
       "type": "unknown"
     }
@@ -4854,6 +4567,58 @@
       ]
     },
     "routeId": "303014000410",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3014",
+    "arrivalTerminalId": "3046",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진천"
+        },
+        {
+          "name": "광혜원"
+        },
+        {
+          "name": "대소"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303014306503",
     "pattern": {
       "type": "unknown"
     }
