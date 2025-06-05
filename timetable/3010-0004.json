@@ -120,6 +120,61 @@
       "경일여객"
     ],
     "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10800
+      ],
+      "초등생": [
+        5400
+      ],
+      "중고생": [
+        8600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "음성"
+        },
+        {
+          "name": "무극"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303010000401",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3010",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
       "hour": 9,
       "minute": 20
     },
@@ -341,6 +396,61 @@
       "경일여객"
     ],
     "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10800
+      ],
+      "초등생": [
+        5400
+      ],
+      "중고생": [
+        8600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "음성"
+        },
+        {
+          "name": "무극"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303010000401",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3010",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
       "hour": 16,
       "minute": 20
     },
@@ -384,61 +494,6 @@
     "routeId": "303010000401",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3010",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10800
-      ],
-      "초등생": [
-        5400
-      ],
-      "중고생": [
-        8600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "음성"
-        },
-        {
-          "name": "무극"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303010000401",
-    "pattern": {
-      "type": "unknown"
     }
   },
   {
@@ -561,7 +616,7 @@
       "경일여객"
     ],
     "departureTime": {
-      "hour": 8,
+      "hour": 17,
       "minute": 20
     },
     "isTemporaryRoute": false,
@@ -603,62 +658,10 @@
     },
     "routeId": "303010000401",
     "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3010",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10800
-      ],
-      "초등생": [
-        5400
-      ],
-      "중고생": [
-        8600
+      "type": "specific-day",
+      "days": [
+        5
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "음성"
-        },
-        {
-          "name": "무극"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303010000401",
-    "pattern": {
-      "type": "unknown"
     }
   }
 ]
