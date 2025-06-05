@@ -45,16 +45,166 @@
     },
     "routeId": "101028101502",
     "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1028",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6200
+      ],
+      "초등생": [
+        3100
+      ],
+      "중고생": [
+        4300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "이천"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101028101502",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1028",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6200
+      ],
+      "초등생": [
+        3100
+      ],
+      "중고생": [
+        4300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "이천"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101028101502",
+    "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         7
       ],
       "irregularDays": [
-        1,
-        2,
-        3,
-        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1028",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6200
+      ],
+      "초등생": [
+        3100
+      ],
+      "중고생": [
+        4300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "이천"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101028101502",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        5,
         6
       ]
     }
@@ -108,187 +258,13 @@
     },
     "routeId": "101028100706",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1028",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6200
-      ],
-      "초등생": [
-        3100
-      ],
-      "중고생": [
-        4300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "이천"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101028101502",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1028",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6200
-      ],
-      "초등생": [
-        3100
-      ],
-      "중고생": [
-        4300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "이천"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101028101502",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1028",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6200
-      ],
-      "초등생": [
-        3100
-      ],
-      "중고생": [
-        4300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "이천"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101028101502",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
+        5
       ]
     }
   }
