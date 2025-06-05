@@ -741,12 +741,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
         6
       ],
       "irregularDays": [
         2,
         3,
+        4,
         5,
         7
       ]
@@ -810,12 +810,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
         6
       ],
       "irregularDays": [
         2,
         3,
+        4,
         5,
         7
       ]
@@ -879,12 +879,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
         6
       ],
       "irregularDays": [
         2,
         3,
+        4,
         5,
         7
       ]
@@ -1463,6 +1463,134 @@
         3,
         5,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8109",
+    "arrivalTerminalId": "8014",
+    "durationInMinutes": [
+      28
+    ],
+    "operator": [
+      "㈜동광고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2000
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "문화동"
+        },
+        {
+          "name": "담양"
+        },
+        {
+          "name": "금성"
+        },
+        {
+          "name": "금과"
+        },
+        {
+          "name": "순창"
+        },
+        {
+          "name": "적성"
+        },
+        {
+          "name": "남원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808109701002",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8109",
+    "arrivalTerminalId": "8014",
+    "durationInMinutes": [
+      28
+    ],
+    "operator": [
+      "㈜동광고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2000
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "문화동"
+        },
+        {
+          "name": "담양"
+        },
+        {
+          "name": "금성"
+        },
+        {
+          "name": "금과"
+        },
+        {
+          "name": "순창"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808109702001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4
       ]
     }
   }
