@@ -137,6 +137,70 @@
       "(주)경기고속"
     ],
     "departureTime": {
+      "hour": 10,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19600
+      ],
+      "초등생": [
+        9800
+      ],
+      "중고생": [
+        13700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구인사"
+        },
+        {
+          "name": "영춘"
+        },
+        {
+          "name": "사평리"
+        },
+        {
+          "name": "단양"
+        },
+        {
+          "name": "단양상진"
+        },
+        {
+          "name": "매포"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303002000104",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3023",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
       "hour": 11,
       "minute": 35
     },
@@ -203,6 +267,70 @@
     "departureTime": {
       "hour": 13,
       "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19600
+      ],
+      "초등생": [
+        9800
+      ],
+      "중고생": [
+        13700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구인사"
+        },
+        {
+          "name": "영춘"
+        },
+        {
+          "name": "사평리"
+        },
+        {
+          "name": "단양"
+        },
+        {
+          "name": "단양상진"
+        },
+        {
+          "name": "매포"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303002000104",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3023",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 35
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -393,134 +521,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19600
-      ],
-      "초등생": [
-        9800
-      ],
-      "중고생": [
-        13700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "구인사"
-        },
-        {
-          "name": "영춘"
-        },
-        {
-          "name": "사평리"
-        },
-        {
-          "name": "단양"
-        },
-        {
-          "name": "단양상진"
-        },
-        {
-          "name": "매포"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303002000104",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3023",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19600
-      ],
-      "초등생": [
-        9800
-      ],
-      "중고생": [
-        13700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "구인사"
-        },
-        {
-          "name": "영춘"
-        },
-        {
-          "name": "사평리"
-        },
-        {
-          "name": "단양"
-        },
-        {
-          "name": "단양상진"
-        },
-        {
-          "name": "매포"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303002000104",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3023",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 18,
       "minute": 35
     },
@@ -572,14 +572,7 @@
     },
     "routeId": "303002000104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   }
 ]
