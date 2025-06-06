@@ -1046,7 +1046,12 @@
     },
     "routeId": "000004301401",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1333,6 +1338,64 @@
     "departureTerminalId": "0004",
     "arrivalTerminalId": "1019",
     "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3700
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "양지"
+        },
+        {
+          "name": "좌전"
+        },
+        {
+          "name": "백암"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000004112201",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "1019",
+    "durationInMinutes": [
       40
     ],
     "operator": [
@@ -1467,6 +1530,64 @@
     "routeId": "000004301401",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "1019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3700
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "양지"
+        },
+        {
+          "name": "좌전"
+        },
+        {
+          "name": "백암"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000004112201",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   },
   {
@@ -2103,122 +2224,6 @@
     "departureTerminalId": "0004",
     "arrivalTerminalId": "1019",
     "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3700
-      ],
-      "초등생": [
-        1900
-      ],
-      "중고생": [
-        2400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "양지"
-        },
-        {
-          "name": "좌전"
-        },
-        {
-          "name": "백암"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000004112201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "1019",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3700
-      ],
-      "초등생": [
-        1900
-      ],
-      "중고생": [
-        2400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "양지"
-        },
-        {
-          "name": "좌전"
-        },
-        {
-          "name": "백암"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000004112201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "1019",
-    "durationInMinutes": [
       40
     ],
     "operator": [
@@ -2284,10 +2289,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5
+        5,
+        6
       ],
       "irregularDays": [
-        6,
         7
       ]
     }
@@ -2505,9 +2510,11 @@
     },
     "routeId": "000004301401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
