@@ -10,67 +10,6 @@
     ],
     "departureTime": {
       "hour": 0,
-      "minute": 19
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        43200
-      ],
-      "초등생": [
-        21600
-      ],
-      "중고생": [
-        34600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "부산동부"
-        },
-        {
-          "name": "부산해운대(수도권)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄심야우등"
-      ]
-    },
-    "routeId": "101015900901",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1023",
-    "arrivalTerminalId": "9001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경남고속뉴부산"
-    ],
-    "departureTime": {
-      "hour": 0,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -191,7 +130,7 @@
     ],
     "departureTime": {
       "hour": 9,
-      "minute": 0
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -218,9 +157,6 @@
         },
         {
           "name": "부산동부"
-        },
-        {
-          "name": "부산해운대(수도권)"
         }
       ]
     ],
@@ -233,11 +169,12 @@
         "시외우등"
       ]
     },
-    "routeId": "101015900901",
+    "routeId": "101015900101",
     "pattern": {
       "type": "specific-day",
       "days": [
-        5
+        6,
+        7
       ]
     }
   },
@@ -533,65 +470,6 @@
     "routeId": "101015900901",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1023",
-    "arrivalTerminalId": "9001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경남고속뉴부산"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        33500
-      ],
-      "초등생": [
-        16800
-      ],
-      "중고생": [
-        26800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101015900101",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
     }
   }
 ]
