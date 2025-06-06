@@ -54,7 +54,7 @@
     },
     "routeId": "303014000102",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -85,6 +85,9 @@
     "stops": [
       [
         {
+          "name": "진천"
+        },
+        {
           "name": "충북혁신도시"
         },
         {
@@ -107,7 +110,7 @@
         "일반"
       ]
     },
-    "routeId": "303235000102",
+    "routeId": "303014000102",
     "pattern": {
       "type": "unknown"
     }
@@ -167,7 +170,7 @@
     },
     "routeId": "303014000102",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -222,7 +225,7 @@
     },
     "routeId": "303235000102",
     "pattern": {
-      "type": "even-odd"
+      "type": "unknown"
     }
   },
   {
@@ -237,64 +240,6 @@
     "departureTime": {
       "hour": 18,
       "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "충북혁신도시"
-        },
-        {
-          "name": "덕산"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014000102",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "3235",
-    "arrivalTerminalId": "3064",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 5
     },
     "isTemporaryRoute": false,
     "fare": {

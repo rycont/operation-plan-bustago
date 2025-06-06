@@ -64,6 +64,64 @@
       "대원고속"
     ],
     "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14100
+      ],
+      "초등생": [
+        7100
+      ],
+      "중고생": [
+        11300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평택"
+        },
+        {
+          "name": "성환"
+        },
+        {
+          "name": "천안"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101035703301",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1035",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
       "hour": 9,
       "minute": 30
     },
@@ -342,6 +400,64 @@
       "대원고속"
     ],
     "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14100
+      ],
+      "초등생": [
+        7100
+      ],
+      "중고생": [
+        11300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "평택"
+        },
+        {
+          "name": "성환"
+        },
+        {
+          "name": "천안"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101035703301",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1035",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
       "hour": 16,
       "minute": 10
     },
@@ -553,128 +669,6 @@
     "routeId": "101035703301",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1035",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14100
-      ],
-      "초등생": [
-        7100
-      ],
-      "중고생": [
-        11300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "평택"
-        },
-        {
-          "name": "성환"
-        },
-        {
-          "name": "천안"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101035703301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1035",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14100
-      ],
-      "초등생": [
-        7100
-      ],
-      "중고생": [
-        11300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "평택"
-        },
-        {
-          "name": "성환"
-        },
-        {
-          "name": "천안"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101035703301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
     }
   }
 ]

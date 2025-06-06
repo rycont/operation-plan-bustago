@@ -97,7 +97,14 @@
     },
     "routeId": "000001301102",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -385,6 +392,9 @@
         },
         {
           "name": "제천"
+        },
+        {
+          "name": "세명대"
         }
       ]
     ],
@@ -397,13 +407,9 @@
         "시외우등"
       ]
     },
-    "routeId": "000001301102",
+    "routeId": "000001319101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -452,7 +458,14 @@
     },
     "routeId": "000001301102",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -487,6 +500,9 @@
         },
         {
           "name": "제천"
+        },
+        {
+          "name": "세명대"
         }
       ]
     ],
@@ -499,13 +515,9 @@
         "시외우등"
       ]
     },
-    "routeId": "000001301102",
+    "routeId": "000001319101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -836,9 +848,6 @@
         },
         {
           "name": "제천"
-        },
-        {
-          "name": "세명대"
         }
       ]
     ],
@@ -851,9 +860,13 @@
         "시외우등"
       ]
     },
-    "routeId": "000001319101",
+    "routeId": "000001301102",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6
+      ]
     }
   },
   {
@@ -888,9 +901,6 @@
         },
         {
           "name": "제천"
-        },
-        {
-          "name": "세명대"
         }
       ]
     ],
@@ -903,9 +913,13 @@
         "시외우등"
       ]
     },
-    "routeId": "000001319101",
+    "routeId": "000001301102",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6
+      ]
     }
   }
 ]
