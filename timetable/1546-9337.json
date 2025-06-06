@@ -2408,10 +2408,12 @@
     },
     "routeId": "101041933706",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         5
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },

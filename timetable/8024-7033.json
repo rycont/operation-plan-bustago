@@ -10,7 +10,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 20
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -57,10 +57,7 @@
     },
     "routeId": "808024703321",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -659,67 +656,6 @@
       ],
       "busClass": [
         "시외우등"
-      ]
-    },
-    "routeId": "808024703321",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8024",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜대한고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15900
-      ],
-      "초등생": [
-        8000
-      ],
-      "중고생": [
-        12700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "목포"
-        },
-        {
-          "name": "고창"
-        },
-        {
-          "name": "흥덕"
-        },
-        {
-          "name": "효자(서부)"
-        },
-        {
-          "name": "완산동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
       ]
     },
     "routeId": "808024703321",
