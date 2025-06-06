@@ -10,74 +10,6 @@
       "㈜한양고속"
     ],
     "departureTime": {
-      "hour": 20,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8300
-      ],
-      "초등생": [
-        4200
-      ],
-      "중고생": [
-        6600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서산"
-        },
-        {
-          "name": "음암"
-        },
-        {
-          "name": "운산"
-        },
-        {
-          "name": "구룡"
-        },
-        {
-          "name": "당진"
-        },
-        {
-          "name": "기지시"
-        },
-        {
-          "name": "신평"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404010101501",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4006",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
       "hour": 7,
       "minute": 50
     },
@@ -142,11 +74,11 @@
       "fixedDays": [
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -226,11 +158,11 @@
       "fixedDays": [
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -310,11 +242,11 @@
       "fixedDays": [
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -394,11 +326,11 @@
       "fixedDays": [
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -478,11 +410,11 @@
       "fixedDays": [
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -562,11 +494,11 @@
       "fixedDays": [
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -646,11 +578,11 @@
       "fixedDays": [
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -730,11 +662,11 @@
       "fixedDays": [
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -814,11 +746,11 @@
       "fixedDays": [
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -898,11 +830,89 @@
       "fixedDays": [
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4006",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8300
+      ],
+      "초등생": [
+        4200
+      ],
+      "중고생": [
+        6600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404010101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        4,
         5,
+        6
+      ],
+      "irregularDays": [
+        1,
         7
       ]
     }
