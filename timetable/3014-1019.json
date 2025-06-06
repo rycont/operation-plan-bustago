@@ -765,6 +765,76 @@
     ],
     "departureTime": {
       "hour": 9,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        6300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진천"
+        },
+        {
+          "name": "이월"
+        },
+        {
+          "name": "광혜원"
+        },
+        {
+          "name": "두원공대"
+        },
+        {
+          "name": "죽산"
+        },
+        {
+          "name": "백암"
+        },
+        {
+          "name": "좌전"
+        },
+        {
+          "name": "양지"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303014000401",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3014",
+    "arrivalTerminalId": "1019",
+    "durationInMinutes": [
+      75
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 9,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -2215,76 +2285,6 @@
     "departureTime": {
       "hour": 20,
       "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7900
-      ],
-      "초등생": [
-        4000
-      ],
-      "중고생": [
-        6300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "이월"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "두원공대"
-        },
-        {
-          "name": "죽산"
-        },
-        {
-          "name": "백암"
-        },
-        {
-          "name": "좌전"
-        },
-        {
-          "name": "양지"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014000401",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3014",
-    "arrivalTerminalId": "1019",
-    "durationInMinutes": [
-      75
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 15
     },
     "isTemporaryRoute": false,
     "fare": {
