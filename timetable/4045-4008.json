@@ -66,12 +66,89 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        5,
-        6
+        5
       ],
       "irregularDays": [
         3,
         4,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4045",
+    "arrivalTerminalId": "4008",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서천"
+        },
+        {
+          "name": "홍산"
+        },
+        {
+          "name": "부여"
+        },
+        {
+          "name": "논산"
+        },
+        {
+          "name": "연산"
+        },
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "도마동"
+        },
+        {
+          "name": "대전서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404045950405",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5
+      ],
+      "irregularDays": [
+        3,
+        4,
+        6,
         7
       ]
     }
@@ -143,12 +220,12 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        5,
-        6
+        5
       ],
       "irregularDays": [
         3,
         4,
+        6,
         7
       ]
     }
@@ -219,83 +296,6 @@
       ]
     },
     "routeId": "404045950310",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5,
-        6
-      ],
-      "irregularDays": [
-        3,
-        4,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4045",
-    "arrivalTerminalId": "4008",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금남고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5800
-      ],
-      "초등생": [
-        2900
-      ],
-      "중고생": [
-        4600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서천"
-        },
-        {
-          "name": "홍산"
-        },
-        {
-          "name": "부여"
-        },
-        {
-          "name": "논산"
-        },
-        {
-          "name": "연산"
-        },
-        {
-          "name": "관저정류소"
-        },
-        {
-          "name": "도마동"
-        },
-        {
-          "name": "대전서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404045950405",
     "pattern": {
       "type": "irregular",
       "fixedDays": [
