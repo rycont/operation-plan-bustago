@@ -7,6 +7,7 @@
     ],
     "operator": [
       "㈜금남고속",
+      "㈜중부고속",
       "㈜충남고속",
       "㈜한양고속"
     ],
@@ -64,9 +65,7 @@
     ],
     "operator": [
       "㈜금남고속",
-      "㈜중부고속",
-      "㈜충남고속",
-      "㈜한양고속"
+      "㈜충남고속"
     ],
     "departureTime": {
       "hour": 8,
@@ -111,7 +110,11 @@
     },
     "routeId": "939337433306",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        7
+      ]
     }
   },
   {
@@ -123,6 +126,7 @@
     "operator": [
       "㈜금남고속",
       "㈜중부고속",
+      "㈜충남고속",
       "㈜한양고속"
     ],
     "departureTime": {
@@ -168,7 +172,11 @@
     },
     "routeId": "939337433307",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        7
+      ]
     }
   },
   {
@@ -283,7 +291,11 @@
     },
     "routeId": "939337433307",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        7
+      ]
     }
   },
   {
@@ -351,7 +363,7 @@
       0
     ],
     "operator": [
-      "㈜금남고속",
+      "㈜중부고속",
       "㈜충남고속",
       "㈜한양고속"
     ],
@@ -398,7 +410,11 @@
     },
     "routeId": "939337433306",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        7
+      ]
     }
   },
   {
@@ -468,6 +484,7 @@
     "operator": [
       "㈜금남고속",
       "㈜중부고속",
+      "㈜충남고속",
       "㈜한양고속"
     ],
     "departureTime": {
@@ -514,6 +531,264 @@
     "routeId": "939337433307",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "4333",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속",
+      "㈜중부고속",
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "천안아산역"
+        },
+        {
+          "name": "아산(온양)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337433306",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "4333",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속",
+      "㈜중부고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "천안"
+        },
+        {
+          "name": "아산(온양)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337433307",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "4333",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속",
+      "㈜중부고속",
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "천안"
+        },
+        {
+          "name": "아산(온양)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337433307",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "4333",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속",
+      "㈜중부고속",
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "천안아산역"
+        },
+        {
+          "name": "아산(온양)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337433306",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   }
 ]
