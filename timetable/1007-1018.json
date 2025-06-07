@@ -2054,11 +2054,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5
+        5,
+        7
       ],
       "irregularDays": [
-        6,
-        7
+        6
       ]
     }
   },
@@ -2116,11 +2116,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5
+        5,
+        7
       ],
       "irregularDays": [
-        6,
-        7
+        6
       ]
     }
   },
@@ -2176,11 +2176,13 @@
     },
     "routeId": "101007703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   }
