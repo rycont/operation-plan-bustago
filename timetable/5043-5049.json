@@ -3,6 +3,82 @@
     "departureTerminalId": "5043",
     "arrivalTerminalId": "5049",
     "durationInMinutes": [
+      35
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울진"
+        },
+        {
+          "name": "춘양"
+        },
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "상운"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "예천삼거리"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "구미"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505054501102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5043",
+    "arrivalTerminalId": "5049",
+    "durationInMinutes": [
       30
     ],
     "operator": [
@@ -72,16 +148,7 @@
     },
     "routeId": "505043501608",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        2,
-        4,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -147,91 +214,6 @@
       ]
     },
     "routeId": "505043500901",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        2,
-        4,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5043",
-    "arrivalTerminalId": "5049",
-    "durationInMinutes": [
-      35
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4400
-      ],
-      "초등생": [
-        2200
-      ],
-      "중고생": [
-        4000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "울진"
-        },
-        {
-          "name": "춘양"
-        },
-        {
-          "name": "봉화"
-        },
-        {
-          "name": "상운"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "신도청"
-        },
-        {
-          "name": "예천삼거리"
-        },
-        {
-          "name": "예천"
-        },
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "구미"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505054501102",
     "pattern": {
       "type": "everyday"
     }
@@ -336,16 +318,7 @@
     },
     "routeId": "505043501607",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        2,
-        4,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -412,16 +385,7 @@
     },
     "routeId": "505043500901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        2,
-        4,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -497,16 +461,7 @@
     },
     "routeId": "505043501608",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        2,
-        4,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -609,16 +564,7 @@
     },
     "routeId": "505043501607",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        2,
-        4,
-        6
-      ]
+      "type": "everyday"
     }
   }
 ]
