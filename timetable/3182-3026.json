@@ -903,69 +903,6 @@
     "departureTerminalId": "3182",
     "arrivalTerminalId": "3026",
     "durationInMinutes": [
-      10
-    ],
-    "operator": [
-      "서울고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "청주공항"
-        },
-        {
-          "name": "청주북부터미널"
-        },
-        {
-          "name": "대전복합"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303182950301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        4,
-        6
-      ],
-      "irregularDays": [
-        2,
-        3,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3182",
-    "arrivalTerminalId": "3026",
-    "durationInMinutes": [
       0
     ],
     "operator": [
@@ -1319,6 +1256,58 @@
       ]
     },
     "routeId": "303017401909",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3182",
+    "arrivalTerminalId": "3026",
+    "durationInMinutes": [
+      10
+    ],
+    "operator": [
+      "서울고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청주공항"
+        },
+        {
+          "name": "청주북부터미널"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303182950301",
     "pattern": {
       "type": "everyday"
     }
