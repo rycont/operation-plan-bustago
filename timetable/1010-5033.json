@@ -9,67 +9,6 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 9,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        24900
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        17400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성남"
-        },
-        {
-          "name": "문경"
-        },
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "상주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101010503301",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1010",
-    "arrivalTerminalId": "5033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
       "hour": 13,
       "minute": 0
     },
@@ -125,8 +64,8 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 16,
-      "minute": 30
+      "hour": 19,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -167,13 +106,7 @@
     },
     "routeId": "101010503301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -186,8 +119,63 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 19,
-      "minute": 40
+      "hour": 9,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24900
+      ],
+      "초등생": [
+        12500
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남"
+        },
+        {
+          "name": "문경"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "상주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101010503301",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1010",
+    "arrivalTerminalId": "5033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
