@@ -197,7 +197,18 @@
     },
     "routeId": "202025101203",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        3,
+        6
+      ]
     }
   },
   {
@@ -522,7 +533,7 @@
     "departureTerminalId": "3011",
     "arrivalTerminalId": "3034",
     "durationInMinutes": [
-      20
+      0
     ],
     "operator": [
       "친선고속㈜"
@@ -562,12 +573,6 @@
         },
         {
           "name": "충주"
-        },
-        {
-          "name": "청주대정류소"
-        },
-        {
-          "name": "청주"
         }
       ]
     ],
@@ -580,12 +585,9 @@
         "일반"
       ]
     },
-    "routeId": "303011301506",
+    "routeId": "303011301701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -761,67 +763,6 @@
       ]
     },
     "routeId": "303011301506",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3011",
-    "arrivalTerminalId": "3034",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
-      ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "제천"
-        },
-        {
-          "name": "봉양"
-        },
-        {
-          "name": "백운"
-        },
-        {
-          "name": "산척"
-        },
-        {
-          "name": "목행"
-        },
-        {
-          "name": "충주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303011301701",
     "pattern": {
       "type": "everyday"
     }
