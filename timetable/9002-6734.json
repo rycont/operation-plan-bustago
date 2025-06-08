@@ -8,12 +8,82 @@
     "operator": [
       "경원여객(자주)",
       "대한여객(자주)",
-      "부산교통㈜",
-      "신흥여객(자주)"
+      "부산교통㈜"
     ],
     "departureTime": {
       "hour": 6,
       "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "부산신평"
+        },
+        {
+          "name": "옥포"
+        },
+        {
+          "name": "한화오션남문"
+        },
+        {
+          "name": "장승포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909002645506",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6734",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)",
+      "대한여객(자주)",
+      "부산교통㈜",
+      "신흥여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -58,67 +128,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6734",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경원여객(자주)",
-      "대한여객(자주)",
-      "부산교통㈜"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9000
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
       ],
-      "초등생": [
-        4500
-      ],
-      "중고생": [
-        7200
+      "irregularDays": [
+        1,
+        4
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "부산신평"
-        },
-        {
-          "name": "옥포"
-        },
-        {
-          "name": "한화오션남문"
-        },
-        {
-          "name": "장승포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909002645506",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -179,7 +199,17 @@
     },
     "routeId": "909002645508",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -241,7 +271,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -303,7 +343,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -364,7 +414,17 @@
     },
     "routeId": "909002645508",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -376,8 +436,7 @@
     "operator": [
       "경원여객(자주)",
       "대한여객(자주)",
-      "부산교통㈜",
-      "신흥여객(자주)"
+      "부산교통㈜"
     ],
     "departureTime": {
       "hour": 12,
@@ -417,7 +476,6 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        44,
         45
       ],
       "busClass": [
@@ -426,7 +484,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -438,7 +506,8 @@
     "operator": [
       "경원여객(자주)",
       "대한여객(자주)",
-      "부산교통㈜"
+      "부산교통㈜",
+      "신흥여객(자주)"
     ],
     "departureTime": {
       "hour": 13,
@@ -478,6 +547,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        44,
         45
       ],
       "busClass": [
@@ -486,7 +556,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -547,7 +627,17 @@
     },
     "routeId": "909002645508",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -609,7 +699,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -671,7 +771,87 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6734",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)",
+      "대한여객(자주)",
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "부산신평"
+        },
+        {
+          "name": "옥포"
+        },
+        {
+          "name": "한화오션남문"
+        },
+        {
+          "name": "장승포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909002645506",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -687,7 +867,7 @@
       "신흥여객(자주)"
     ],
     "departureTime": {
-      "hour": 16,
+      "hour": 17,
       "minute": 0
     },
     "isTemporaryRoute": false,
@@ -733,7 +913,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -745,66 +935,7 @@
     "operator": [
       "경원여객(자주)",
       "대한여객(자주)",
-      "부산교통㈜"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9000
-      ],
-      "초등생": [
-        4500
-      ],
-      "중고생": [
-        7200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "부산신평"
-        },
-        {
-          "name": "옥포"
-        },
-        {
-          "name": "한화오션남문"
-        },
-        {
-          "name": "장승포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909002645506",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6734",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경원여객(자주)",
-      "대한여객(자주)",
+      "부산교통㈜",
       "신흥여객(자주)"
     ],
     "departureTime": {
@@ -854,7 +985,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -916,7 +1057,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -978,7 +1129,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -990,8 +1151,7 @@
     "operator": [
       "경원여객(자주)",
       "대한여객(자주)",
-      "부산교통㈜",
-      "신흥여객(자주)"
+      "부산교통㈜"
     ],
     "departureTime": {
       "hour": 21,
@@ -1031,7 +1191,6 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        44,
         45
       ],
       "busClass": [
@@ -1040,7 +1199,17 @@
     },
     "routeId": "909002645506",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -1098,7 +1267,17 @@
     },
     "routeId": "909002645507",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   }
 ]
