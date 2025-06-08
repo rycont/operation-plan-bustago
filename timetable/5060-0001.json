@@ -621,61 +621,6 @@
       130
     ],
     "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 26
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19000
-      ],
-      "초등생": [
-        9500
-      ],
-      "중고생": [
-        13300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "상주"
-        },
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505033000101",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5060",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      130
-    ],
-    "operator": [
       "(주)경기고속"
     ],
     "departureTime": {
@@ -780,11 +725,112 @@
       130
     ],
     "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19000
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        13300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505060000106",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5060",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      130
+    ],
+    "operator": [
       "(주)경기고속"
     ],
     "departureTime": {
       "hour": 13,
       "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19000
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        13300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "상주"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505033000101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5060",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      130
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 26
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1404,56 +1450,7 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19000
-      ],
-      "초등생": [
-        9500
-      ],
-      "중고생": [
-        13300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505060000106",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5060",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      130
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 14,
+      "hour": 12,
       "minute": 26
     },
     "isTemporaryRoute": false,
@@ -1492,7 +1489,10 @@
     },
     "routeId": "505033000101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5
+      ]
     }
   }
 ]
