@@ -9,84 +9,6 @@
       "강원고속㈜"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16300
-      ],
-      "초등생": [
-        8200
-      ],
-      "중고생": [
-        13000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "춘천"
-        },
-        {
-          "name": "강촌"
-        },
-        {
-          "name": "가평"
-        },
-        {
-          "name": "청평"
-        },
-        {
-          "name": "대성리"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "비산동"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202037930204",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1001",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
       "hour": 9,
       "minute": 30
     },
@@ -144,18 +66,7 @@
     },
     "routeId": "202037930204",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -225,18 +136,7 @@
     },
     "routeId": "202037930204",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -306,96 +206,7 @@
     },
     "routeId": "202037930204",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1001",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16300
-      ],
-      "초등생": [
-        8200
-      ],
-      "중고생": [
-        13000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "춘천"
-        },
-        {
-          "name": "강촌"
-        },
-        {
-          "name": "가평"
-        },
-        {
-          "name": "청평"
-        },
-        {
-          "name": "대성리"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "비산동"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202037930204",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -465,18 +276,7 @@
     },
     "routeId": "202037930204",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -546,18 +346,147 @@
     },
     "routeId": "202037930204",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        6,
-        7
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1001",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16300
       ],
-      "irregularDays": [
-        1,
-        5
+      "초등생": [
+        8200
+      ],
+      "중고생": [
+        13000
       ]
+    },
+    "stops": [
+      [
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "비산동"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202037930204",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1001",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16300
+      ],
+      "초등생": [
+        8200
+      ],
+      "중고생": [
+        13000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "비산동"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202037930204",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
