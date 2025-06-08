@@ -223,12 +223,9 @@
         "시외우등"
       ]
     },
-    "routeId": "939302400811",
+    "routeId": "939302400810",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -943,90 +940,6 @@
       0
     ],
     "operator": [
-      "㈜금남고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 24
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3000
-      ],
-      "초등생": [
-        1500
-      ],
-      "중고생": [
-        2400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "원주"
-        },
-        {
-          "name": "천안"
-        },
-        {
-          "name": "세종청사"
-        },
-        {
-          "name": "세종시"
-        },
-        {
-          "name": "공주"
-        },
-        {
-          "name": "계룡"
-        },
-        {
-          "name": "하마루"
-        },
-        {
-          "name": "상월"
-        },
-        {
-          "name": "노성"
-        },
-        {
-          "name": "논산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202028402303",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4318",
-    "arrivalTerminalId": "4003",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "㈜삼흥고속"
     ],
     "departureTime": {
@@ -1134,6 +1047,79 @@
       "㈜금남고속"
     ],
     "departureTime": {
+      "hour": 20,
+      "minute": 24
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3000
+      ],
+      "초등생": [
+        1500
+      ],
+      "중고생": [
+        2400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "원주"
+        },
+        {
+          "name": "천안"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "계룡"
+        },
+        {
+          "name": "하마루"
+        },
+        {
+          "name": "상월"
+        },
+        {
+          "name": "노성"
+        },
+        {
+          "name": "논산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202028402303",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4318",
+    "arrivalTerminalId": "4003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
       "hour": 8,
       "minute": 45
     },
@@ -1177,9 +1163,12 @@
         "시외우등"
       ]
     },
-    "routeId": "939302400810",
+    "routeId": "939302400811",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   }
 ]
