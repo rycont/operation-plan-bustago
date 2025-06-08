@@ -7,6 +7,7 @@
     ],
     "operator": [
       "㈜금남고속",
+      "㈜중부고속",
       "㈜충남고속",
       "㈜한양고속"
     ],
@@ -58,7 +59,9 @@
         1
       ],
       "irregularDays": [
+        2,
         3,
+        4,
         5,
         6,
         7
@@ -125,7 +128,9 @@
         1
       ],
       "irregularDays": [
+        2,
         3,
+        4,
         5,
         6,
         7
@@ -141,6 +146,7 @@
     "operator": [
       "㈜금남고속",
       "㈜중부고속",
+      "㈜충남고속",
       "㈜한양고속"
     ],
     "departureTime": {
@@ -191,7 +197,9 @@
         1
       ],
       "irregularDays": [
+        2,
         3,
+        4,
         5,
         6,
         7
@@ -206,6 +214,7 @@
     ],
     "operator": [
       "㈜금남고속",
+      "㈜중부고속",
       "㈜충남고속",
       "㈜한양고속"
     ],
@@ -257,7 +266,9 @@
         1
       ],
       "irregularDays": [
+        2,
         3,
+        4,
         5,
         6,
         7
@@ -271,8 +282,6 @@
       0
     ],
     "operator": [
-      "㈜금남고속",
-      "㈜중부고속",
       "㈜충남고속"
     ],
     "departureTime": {
@@ -318,15 +327,9 @@
     },
     "routeId": "404333933706",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1
-      ],
-      "irregularDays": [
-        3,
-        5,
-        6,
-        7
       ]
     }
   },
@@ -339,6 +342,7 @@
     "operator": [
       "㈜금남고속",
       "㈜중부고속",
+      "㈜충남고속",
       "㈜한양고속"
     ],
     "departureTime": {
@@ -389,7 +393,9 @@
         1
       ],
       "irregularDays": [
+        2,
         3,
+        4,
         5,
         6,
         7
@@ -403,9 +409,7 @@
       0
     ],
     "operator": [
-      "㈜금남고속",
       "㈜중부고속",
-      "㈜충남고속",
       "㈜한양고속"
     ],
     "departureTime": {
@@ -451,15 +455,9 @@
     },
     "routeId": "404333933706",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1
-      ],
-      "irregularDays": [
-        3,
-        5,
-        6,
-        7
       ]
     }
   },
@@ -470,6 +468,8 @@
       0
     ],
     "operator": [
+      "㈜금남고속",
+      "㈜중부고속",
       "㈜충남고속",
       "㈜한양고속"
     ],
@@ -521,7 +521,9 @@
         1
       ],
       "irregularDays": [
+        2,
         3,
+        4,
         5,
         6,
         7
@@ -588,11 +590,128 @@
         1
       ],
       "irregularDays": [
+        2,
         3,
+        4,
         5,
         6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "4333",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속",
+      "㈜중부고속",
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "아산(온양)"
+        },
+        {
+          "name": "천안"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404333933706",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4333",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속",
+      "㈜중부고속",
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21800
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "아산(온양)"
+        },
+        {
+          "name": "천안"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404333933706",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
