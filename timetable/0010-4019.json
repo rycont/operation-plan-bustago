@@ -7,8 +7,8 @@
     ],
     "operator": [
       "㈜금남고속",
-      "㈜충남고속",
-      "㈜한양고속"
+      "㈜중부고속",
+      "㈜충남고속"
     ],
     "departureTime": {
       "hour": 18,
@@ -53,7 +53,18 @@
     },
     "routeId": "939337401901",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -111,7 +122,18 @@
     },
     "routeId": "939337401901",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   }
 ]
