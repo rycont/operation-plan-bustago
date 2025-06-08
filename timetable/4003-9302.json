@@ -312,64 +312,6 @@
     "departureTerminalId": "4003",
     "arrivalTerminalId": "9302",
     "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜삼흥고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18800
-      ],
-      "초등생": [
-        9400
-      ],
-      "중고생": [
-        15000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부여"
-        },
-        {
-          "name": "공주"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "404008930203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4003",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
       142
     ],
     "operator": [
@@ -472,6 +414,58 @@
       ]
     },
     "routeId": "404003100701",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18800
+      ],
+      "초등생": [
+        9400
+      ],
+      "중고생": [
+        15000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부여"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404008930203",
     "pattern": {
       "type": "everyday"
     }
