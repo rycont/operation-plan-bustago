@@ -497,78 +497,6 @@
       0
     ],
     "operator": [
-      "㈜삼흥고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2500
-      ],
-      "초등생": [
-        1300
-      ],
-      "중고생": [
-        2000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "공주"
-        },
-        {
-          "name": "모란"
-        },
-        {
-          "name": "석송"
-        },
-        {
-          "name": "광정"
-        },
-        {
-          "name": "인풍"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404003401906",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4003",
-    "arrivalTerminalId": "4123",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "㈜금남고속"
     ],
     "departureTime": {
@@ -946,6 +874,67 @@
     "departureTime": {
       "hour": 21,
       "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2500
+      ],
+      "초등생": [
+        1300
+      ],
+      "중고생": [
+        2000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "공주"
+        },
+        {
+          "name": "모란"
+        },
+        {
+          "name": "석송"
+        },
+        {
+          "name": "광정"
+        },
+        {
+          "name": "인풍"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404003401906",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4003",
+    "arrivalTerminalId": "4123",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
