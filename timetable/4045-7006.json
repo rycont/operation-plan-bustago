@@ -156,6 +156,61 @@
     "departureTerminalId": "4045",
     "arrivalTerminalId": "7006",
     "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800,
+        1900
+      ],
+      "초등생": [
+        900,
+        1000
+      ],
+      "중고생": [
+        1400,
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서천"
+        },
+        {
+          "name": "장항"
+        },
+        {
+          "name": "군산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404045700602",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4045",
+    "arrivalTerminalId": "7006",
+    "durationInMinutes": [
       25
     ],
     "operator": [
@@ -307,61 +362,6 @@
       ]
     },
     "routeId": "404045700601",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4045",
-    "arrivalTerminalId": "7006",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "㈜금남고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1800,
-        1900
-      ],
-      "초등생": [
-        900,
-        1000
-      ],
-      "중고생": [
-        1400,
-        1500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서천"
-        },
-        {
-          "name": "장항"
-        },
-        {
-          "name": "군산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404045700602",
     "pattern": {
       "type": "everyday"
     }
