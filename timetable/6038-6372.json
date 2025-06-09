@@ -1,109 +1,5 @@
 [
   {
-    "departureTerminalId": "6042",
-    "arrivalTerminalId": "6372",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경원여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4300
-      ],
-      "초등생": [
-        2200
-      ],
-      "중고생": [
-        3400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주(경원)"
-        },
-        {
-          "name": "경상대(칠암)"
-        },
-        {
-          "name": "남양"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606042637201",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6816",
-    "arrivalTerminalId": "6372",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4300
-      ],
-      "초등생": [
-        2200
-      ],
-      "중고생": [
-        3400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주"
-        },
-        {
-          "name": "경상대(칠암)"
-        },
-        {
-          "name": "남양"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606816637201",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
     "departureTerminalId": "6414",
     "arrivalTerminalId": "6372",
     "durationInMinutes": [
@@ -156,13 +52,13 @@
     }
   },
   {
-    "departureTerminalId": "6048",
+    "departureTerminalId": "6042",
     "arrivalTerminalId": "6372",
     "durationInMinutes": [
       0
     ],
     "operator": [
-      "경전_동일"
+      "경원여객(자주)"
     ],
     "departureTime": {
       "hour": 23,
@@ -183,7 +79,7 @@
     "stops": [
       [
         {
-          "name": "진주(경전)"
+          "name": "진주(경원)"
         },
         {
           "name": "경상대(칠암)"
@@ -202,9 +98,9 @@
         "일반"
       ]
     },
-    "routeId": "606048637201",
+    "routeId": "606042637201",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   }
 ]
