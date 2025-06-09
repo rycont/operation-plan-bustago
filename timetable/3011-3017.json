@@ -94,8 +94,7 @@
       60
     ],
     "operator": [
-      "대성고속",
-      "대성티앤이"
+      "대성고속"
     ],
     "departureTime": {
       "hour": 13,
@@ -226,7 +225,7 @@
     "departureTerminalId": "3011",
     "arrivalTerminalId": "3017",
     "durationInMinutes": [
-      60
+      0
     ],
     "operator": [
       "친선고속㈜"
@@ -266,12 +265,6 @@
         },
         {
           "name": "충주"
-        },
-        {
-          "name": "청주대정류소"
-        },
-        {
-          "name": "청주"
         }
       ]
     ],
@@ -284,12 +277,9 @@
         "일반"
       ]
     },
-    "routeId": "303011301506",
+    "routeId": "303011301701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -355,67 +345,6 @@
       ]
     },
     "routeId": "303011301506",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3011",
-    "arrivalTerminalId": "3017",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "친선고속㈜"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6200
-      ],
-      "초등생": [
-        3100
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "제천"
-        },
-        {
-          "name": "봉양"
-        },
-        {
-          "name": "백운"
-        },
-        {
-          "name": "산척"
-        },
-        {
-          "name": "목행"
-        },
-        {
-          "name": "충주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303011301701",
     "pattern": {
       "type": "everyday"
     }
