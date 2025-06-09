@@ -259,12 +259,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        2500,
         3300
       ],
       "초등생": [
+        1300,
         1700
       ],
       "중고생": [
+        2000,
         2600
       ]
     },
@@ -293,10 +296,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        28,
+        40
       ],
       "busClass": [
-        "시외우등"
+        "시외우등",
+        "일반"
       ]
     },
     "routeId": "808059940105",
@@ -857,6 +862,70 @@
     "routeId": "808463802401",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8059",
+    "arrivalTerminalId": "8158",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2500
+      ],
+      "초등생": [
+        1300
+      ],
+      "중고생": [
+        2000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진도"
+        },
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808059940105",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
     }
   }
 ]
