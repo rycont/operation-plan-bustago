@@ -48,7 +48,18 @@
     },
     "routeId": "959518406001",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
     }
   },
   {
@@ -100,300 +111,18 @@
     },
     "routeId": "959518406001",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9518",
-    "arrivalTerminalId": "4060",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금남고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3600
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
       ],
-      "초등생": [
-        1800
-      ],
-      "중고생": [
-        2900
+      "irregularDays": [
+        3
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "관저정류소"
-        },
-        {
-          "name": "논산TG"
-        },
-        {
-          "name": "연무대"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "959518406001",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9518",
-    "arrivalTerminalId": "4060",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 28
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3600
-      ],
-      "초등생": [
-        1800
-      ],
-      "중고생": [
-        2900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "관저정류소"
-        },
-        {
-          "name": "양정"
-        },
-        {
-          "name": "연산"
-        },
-        {
-          "name": "인터넷고"
-        },
-        {
-          "name": "논산"
-        },
-        {
-          "name": "은진"
-        },
-        {
-          "name": "연무대"
-        },
-        {
-          "name": "신촌"
-        },
-        {
-          "name": "황화"
-        },
-        {
-          "name": "여산"
-        },
-        {
-          "name": "금마"
-        },
-        {
-          "name": "삼례"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "959518703301",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9518",
-    "arrivalTerminalId": "4060",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금남고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3600
-      ],
-      "초등생": [
-        1800
-      ],
-      "중고생": [
-        2900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "관저정류소"
-        },
-        {
-          "name": "논산TG"
-        },
-        {
-          "name": "연무대"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "959518406001",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9518",
-    "arrivalTerminalId": "4060",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금남고속"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3600
-      ],
-      "초등생": [
-        1800
-      ],
-      "중고생": [
-        2900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "관저정류소"
-        },
-        {
-          "name": "논산TG"
-        },
-        {
-          "name": "연무대"
-        },
-        {
-          "name": "은진"
-        },
-        {
-          "name": "논산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "959518402301",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9518",
-    "arrivalTerminalId": "4060",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3600
-      ],
-      "초등생": [
-        1800
-      ],
-      "중고생": [
-        2900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "관저정류소"
-        },
-        {
-          "name": "연무대"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "959518406002",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -475,7 +204,366 @@
     },
     "routeId": "959518703301",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4060",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3600
+      ],
+      "초등생": [
+        1800
+      ],
+      "중고생": [
+        2900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "논산TG"
+        },
+        {
+          "name": "연무대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959518406001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4060",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 28
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3600
+      ],
+      "초등생": [
+        1800
+      ],
+      "중고생": [
+        2900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "연산"
+        },
+        {
+          "name": "인터넷고"
+        },
+        {
+          "name": "논산"
+        },
+        {
+          "name": "은진"
+        },
+        {
+          "name": "연무대"
+        },
+        {
+          "name": "신촌"
+        },
+        {
+          "name": "황화"
+        },
+        {
+          "name": "여산"
+        },
+        {
+          "name": "금마"
+        },
+        {
+          "name": "삼례"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959518703301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4060",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3600
+      ],
+      "초등생": [
+        1800
+      ],
+      "중고생": [
+        2900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "논산TG"
+        },
+        {
+          "name": "연무대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959518406001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4060",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3600
+      ],
+      "초등생": [
+        1800
+      ],
+      "중고생": [
+        2900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "논산TG"
+        },
+        {
+          "name": "연무대"
+        },
+        {
+          "name": "은진"
+        },
+        {
+          "name": "논산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959518402301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9518",
+    "arrivalTerminalId": "4060",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3600
+      ],
+      "초등생": [
+        1800
+      ],
+      "중고생": [
+        2900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "관저정류소"
+        },
+        {
+          "name": "연무대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "959518406002",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
     }
   }
 ]
