@@ -292,5 +292,57 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "7018",
+    "arrivalTerminalId": "7084",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3700
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부안"
+        },
+        {
+          "name": "정읍"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707018708401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        3
+      ]
+    }
   }
 ]
