@@ -51,17 +51,7 @@
     },
     "routeId": "101028920102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -116,82 +106,7 @@
     },
     "routeId": "101028920102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1028",
-    "arrivalTerminalId": "9201",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27800
-      ],
-      "초등생": [
-        13900
-      ],
-      "중고생": [
-        19500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "이천"
-        },
-        {
-          "name": "여주"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "동대구"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101028920102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        4
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -246,17 +161,7 @@
     },
     "routeId": "101028920102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -311,17 +216,7 @@
     },
     "routeId": "101028920102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -376,17 +271,7 @@
     },
     "routeId": "101028920102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -441,17 +326,7 @@
     },
     "routeId": "101028920102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -506,17 +381,62 @@
     },
     "routeId": "101028920102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        4,
-        5,
-        6,
-        7
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1028",
+    "arrivalTerminalId": "9201",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27800
       ],
-      "irregularDays": [
-        1
+      "초등생": [
+        13900
+      ],
+      "중고생": [
+        19500
       ]
+    },
+    "stops": [
+      [
+        {
+          "name": "이천"
+        },
+        {
+          "name": "여주"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101028920102",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
