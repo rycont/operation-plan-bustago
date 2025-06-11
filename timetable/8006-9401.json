@@ -449,6 +449,61 @@
       "금호고속(주)"
     ],
     "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10900
+      ],
+      "초등생": [
+        5500
+      ],
+      "중고생": [
+        8700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "운암동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808019940102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8006",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
       "hour": 15,
       "minute": 40
     },
@@ -602,6 +657,65 @@
     "routeId": "808019940102",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8006",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 33
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13100
+      ],
+      "초등생": [
+        6600
+      ],
+      "중고생": [
+        10500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "운암동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "808019940102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        7
+      ]
     }
   },
   {
@@ -779,120 +893,6 @@
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 14,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10900
-      ],
-      "초등생": [
-        5500
-      ],
-      "중고생": [
-        8700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "운암동"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808019940102",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8006",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 33
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13100
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        10500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "운암동"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등"
-      ]
-    },
-    "routeId": "808019940102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8006",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
       "hour": 21,
       "minute": 15
     },
@@ -993,7 +993,8 @@
       "type": "specific-day",
       "days": [
         2,
-        3
+        3,
+        4
       ]
     }
   }
