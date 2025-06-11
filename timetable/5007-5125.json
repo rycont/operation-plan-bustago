@@ -54,7 +54,18 @@
     },
     "routeId": "505071500508",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6
+      ]
     }
   },
   {
@@ -112,471 +123,18 @@
     },
     "routeId": "505071500503",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "5125",
-    "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5500
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
       ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        5000
+      "irregularDays": [
+        1,
+        4,
+        6
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "진량"
-        },
-        {
-          "name": "영남대"
-        },
-        {
-          "name": "경산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505071500503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "5125",
-    "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5500
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "진량"
-        },
-        {
-          "name": "영남대"
-        },
-        {
-          "name": "경산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505071500503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "5125",
-    "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5500
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "진량"
-        },
-        {
-          "name": "영남대"
-        },
-        {
-          "name": "경산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505071500503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "5125",
-    "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5500
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "진량"
-        },
-        {
-          "name": "영남대"
-        },
-        {
-          "name": "경산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505071500503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "5125",
-    "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5500
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "진량"
-        },
-        {
-          "name": "영남대"
-        },
-        {
-          "name": "경산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505071500503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "5125",
-    "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5500
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "진량"
-        },
-        {
-          "name": "영남대"
-        },
-        {
-          "name": "경산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505071500503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "5125",
-    "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5500
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "진량"
-        },
-        {
-          "name": "영남대"
-        },
-        {
-          "name": "경산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505071500503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5007",
-    "arrivalTerminalId": "5125",
-    "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5500
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "진량"
-        },
-        {
-          "name": "영남대"
-        },
-        {
-          "name": "경산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505071500503",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -641,6 +199,144 @@
       ],
       "irregularDays": [
         1,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "5125",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5500
+      ],
+      "초등생": [
+        2800
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "진량"
+        },
+        {
+          "name": "영남대"
+        },
+        {
+          "name": "경산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505071500503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "5125",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5500
+      ],
+      "초등생": [
+        2800
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "진량"
+        },
+        {
+          "name": "영남대"
+        },
+        {
+          "name": "경산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505071500503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4,
         6
       ]
     }
@@ -721,6 +417,144 @@
       "㈜금아여행"
     ],
     "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5500
+      ],
+      "초등생": [
+        2800
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "진량"
+        },
+        {
+          "name": "영남대"
+        },
+        {
+          "name": "경산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505071500503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "5125",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5500
+      ],
+      "초등생": [
+        2800
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "진량"
+        },
+        {
+          "name": "영남대"
+        },
+        {
+          "name": "경산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505071500503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "5125",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
       "hour": 15,
       "minute": 45
     },
@@ -787,6 +621,144 @@
       "㈜금아여행"
     ],
     "departureTime": {
+      "hour": 16,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5500
+      ],
+      "초등생": [
+        2800
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "진량"
+        },
+        {
+          "name": "영남대"
+        },
+        {
+          "name": "경산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505071500503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "5125",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5500
+      ],
+      "초등생": [
+        2800
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "진량"
+        },
+        {
+          "name": "영남대"
+        },
+        {
+          "name": "경산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505071500503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "5125",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
       "hour": 18,
       "minute": 40
     },
@@ -839,6 +811,144 @@
       ],
       "irregularDays": [
         1,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "5125",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5500
+      ],
+      "초등생": [
+        2800
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "진량"
+        },
+        {
+          "name": "영남대"
+        },
+        {
+          "name": "경산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505071500503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5007",
+    "arrivalTerminalId": "5125",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5500
+      ],
+      "초등생": [
+        2800
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "진량"
+        },
+        {
+          "name": "영남대"
+        },
+        {
+          "name": "경산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505071500503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4,
         6
       ]
     }
