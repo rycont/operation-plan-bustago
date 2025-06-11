@@ -58,6 +58,55 @@
       0
     ],
     "operator": [
+      "화성고속(주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15800
+      ],
+      "초등생": [
+        7900
+      ],
+      "중고생": [
+        12600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "제천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001301102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "3011",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "(주)경기고속"
     ],
     "departureTime": {
@@ -336,9 +385,6 @@
         },
         {
           "name": "제천"
-        },
-        {
-          "name": "세명대"
         }
       ]
     ],
@@ -351,16 +397,62 @@
         "시외우등"
       ]
     },
-    "routeId": "000001319101",
+    "routeId": "000001301102",
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        7
+        5,
+        6
       ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "3011",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "화성고속(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15800
+      ],
+      "초등생": [
+        7900
+      ],
+      "중고생": [
+        12600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "제천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001301102",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
@@ -395,9 +487,6 @@
         },
         {
           "name": "제천"
-        },
-        {
-          "name": "세명대"
         }
       ]
     ],
@@ -410,15 +499,12 @@
         "시외우등"
       ]
     },
-    "routeId": "000001319101",
+    "routeId": "000001301102",
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        7
+        5,
+        6
       ]
     }
   },
@@ -725,55 +811,6 @@
       0
     ],
     "operator": [
-      "화성고속(주)"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15800
-      ],
-      "초등생": [
-        7900
-      ],
-      "중고생": [
-        12600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "제천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001301102",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "3011",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "(주)경기고속"
     ],
     "departureTime": {
@@ -799,59 +836,9 @@
         },
         {
           "name": "제천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001301102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "3011",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "화성고속(주)"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15800
-      ],
-      "초등생": [
-        7900
-      ],
-      "중고생": [
-        12600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
         },
         {
-          "name": "제천"
+          "name": "세명대"
         }
       ]
     ],
@@ -864,7 +851,7 @@
         "시외우등"
       ]
     },
-    "routeId": "000001301102",
+    "routeId": "000001319101",
     "pattern": {
       "type": "everyday"
     }
@@ -901,6 +888,9 @@
         },
         {
           "name": "제천"
+        },
+        {
+          "name": "세명대"
         }
       ]
     ],
@@ -913,13 +903,9 @@
         "시외우등"
       ]
     },
-    "routeId": "000001301102",
+    "routeId": "000001319101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
+      "type": "everyday"
     }
   }
 ]
