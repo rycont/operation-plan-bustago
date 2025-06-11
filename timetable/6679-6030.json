@@ -494,6 +494,70 @@
       0
     ],
     "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6500
+      ],
+      "초등생": [
+        3300
+      ],
+      "중고생": [
+        5200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "전도"
+        },
+        {
+          "name": "화개공용"
+        },
+        {
+          "name": "하동"
+        },
+        {
+          "name": "구례"
+        },
+        {
+          "name": "화엄사"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606679813801",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6679",
+    "arrivalTerminalId": "6030",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "영화여객(자주)"
     ],
     "departureTime": {
@@ -678,70 +742,6 @@
       ]
     },
     "routeId": "606039603003",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6679",
-    "arrivalTerminalId": "6030",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 43
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6500
-      ],
-      "초등생": [
-        3300
-      ],
-      "중고생": [
-        5200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주(개양)"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "전도"
-        },
-        {
-          "name": "화개공용"
-        },
-        {
-          "name": "하동"
-        },
-        {
-          "name": "구례"
-        },
-        {
-          "name": "화엄사"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606679813801",
     "pattern": {
       "type": "everyday"
     }
