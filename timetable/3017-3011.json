@@ -303,5 +303,69 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "3017",
+    "arrivalTerminalId": "3011",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6200
+      ],
+      "초등생": [
+        3100
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "충주"
+        },
+        {
+          "name": "목행"
+        },
+        {
+          "name": "산척"
+        },
+        {
+          "name": "평동"
+        },
+        {
+          "name": "봉양"
+        },
+        {
+          "name": "제천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303017301101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        3
+      ]
+    }
   }
 ]
