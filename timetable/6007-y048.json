@@ -1246,5 +1246,93 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y048",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1000
+      ],
+      "초등생": [
+        500
+      ],
+      "중고생": [
+        500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "도마"
+        },
+        {
+          "name": "진목"
+        },
+        {
+          "name": "문항"
+        },
+        {
+          "name": "남양"
+        },
+        {
+          "name": "문의"
+        },
+        {
+          "name": "왕지"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "진주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007y01006",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5
+      ]
+    }
   }
 ]

@@ -64,6 +64,61 @@
       "대원고속"
     ],
     "departureTime": {
+      "hour": 17,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        34200
+      ],
+      "초등생": [
+        17100
+      ],
+      "중고생": [
+        23900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101010801901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
       "hour": 15,
       "minute": 20
     },
@@ -111,61 +166,6 @@
         5,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        34200
-      ],
-      "초등생": [
-        17100
-      ],
-      "중고생": [
-        23900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성남"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "동광양(중마)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101010801901",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
