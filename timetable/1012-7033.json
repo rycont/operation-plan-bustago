@@ -405,5 +405,60 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20400
+      ],
+      "초등생": [
+        10200
+      ],
+      "중고생": [
+        16300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "완주혁신도시"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101012703304",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5
+      ]
+    }
   }
 ]
