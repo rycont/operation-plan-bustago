@@ -770,7 +770,14 @@
     },
     "routeId": "808109701002",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -990,7 +997,14 @@
     },
     "routeId": "808109701001",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1579,10 +1593,13 @@
     },
     "routeId": "808109701002",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         1,
-        3,
+        4,
         5,
         6
       ]
@@ -1634,10 +1651,13 @@
     },
     "routeId": "808109701001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         1,
-        3,
+        4,
         5,
         6
       ]
