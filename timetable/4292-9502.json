@@ -3,76 +3,6 @@
     "departureTerminalId": "4292",
     "arrivalTerminalId": "9502",
     "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금남고속",
-      "㈜중부고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 32
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2800
-      ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "세종청사"
-        },
-        {
-          "name": "세종시"
-        },
-        {
-          "name": "대전청사(선사유적)"
-        },
-        {
-          "name": "유성시외"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007950201",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4292",
-    "arrivalTerminalId": "9502",
-    "durationInMinutes": [
       20
     ],
     "operator": [
@@ -162,13 +92,13 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        45
+        0
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "404292950302",
+    "routeId": "404292950303",
     "pattern": {
       "type": "everyday"
     }
@@ -214,15 +144,85 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        0
+        45
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "404292950303",
+    "routeId": "404292950302",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4292",
+    "arrivalTerminalId": "9502",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속",
+      "㈜중부고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 32
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2800
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "대전청사(선사유적)"
+        },
+        {
+          "name": "유성시외"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007950201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        6
+      ]
     }
   }
 ]
