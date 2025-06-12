@@ -206,6 +206,62 @@
     ],
     "departureTime": {
       "hour": 14,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성환"
+        },
+        {
+          "name": "평택"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404011103501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4011",
+    "arrivalTerminalId": "1035",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 14,
       "minute": 50
     },
     "isTemporaryRoute": false,
@@ -450,106 +506,64 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 21,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성환"
-        },
-        {
-          "name": "평택"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404011103501",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4011",
-    "arrivalTerminalId": "1035",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성환"
-        },
-        {
-          "name": "평택"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404011103501",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4011",
-    "arrivalTerminalId": "1035",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
       "hour": 20,
       "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성환"
+        },
+        {
+          "name": "평택"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404011103501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4011",
+    "arrivalTerminalId": "1035",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 35
     },
     "isTemporaryRoute": false,
     "fare": {
