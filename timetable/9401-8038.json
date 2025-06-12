@@ -337,61 +337,6 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11000
-      ],
-      "초등생": [
-        5500
-      ],
-      "중고생": [
-        8800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "순천북부"
-        },
-        {
-          "name": "순천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "949401803803",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "8038",
-    "durationInMinutes": [
-      70
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 10,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -1210,7 +1155,15 @@
     },
     "routeId": "949401803803",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -1507,6 +1460,61 @@
       "금호고속(주)"
     ],
     "departureTime": {
+      "hour": 10,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11000
+      ],
+      "초등생": [
+        5500
+      ],
+      "중고생": [
+        8800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "순천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949401803803",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8038",
+    "durationInMinutes": [
+      70
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
       "hour": 15,
       "minute": 0
     },
@@ -1551,7 +1559,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1618,7 +1627,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        4
+        4,
+        5
       ]
     }
   }
