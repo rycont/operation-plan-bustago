@@ -65,65 +65,6 @@
     ],
     "departureTime": {
       "hour": 11,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "목포대"
-        },
-        {
-          "name": "청계"
-        },
-        {
-          "name": "무안"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808422940102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8422",
-    "arrivalTerminalId": "8025",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 11,
       "minute": 17
     },
     "isTemporaryRoute": false,
@@ -636,6 +577,65 @@
     "routeId": "808422940102",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8422",
+    "arrivalTerminalId": "8025",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포대"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808422940102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4,
+        5
+      ]
     }
   }
 ]
