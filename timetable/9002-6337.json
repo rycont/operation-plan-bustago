@@ -8,7 +8,8 @@
     "operator": [
       "경원여객(자주)",
       "대한여객(자주)",
-      "부산교통㈜"
+      "부산교통㈜",
+      "신흥여객(자주)"
     ],
     "departureTime": {
       "hour": 6,
@@ -48,6 +49,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        44,
         45
       ],
       "busClass": [
@@ -56,7 +58,18 @@
     },
     "routeId": "909002633703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -118,7 +131,18 @@
     },
     "routeId": "909002633703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -180,7 +204,18 @@
     },
     "routeId": "909002633703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -229,7 +264,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -284,182 +330,18 @@
     },
     "routeId": "909002633702",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6337",
-    "durationInMinutes": [
-      80
-    ],
-    "operator": [
-      "경원여객(자주)",
-      "대한여객(자주)",
-      "신흥여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9000
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
       ],
-      "초등생": [
-        4500
-      ],
-      "중고생": [
-        7200
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "거제(고현)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44,
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909002633701",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6337",
-    "durationInMinutes": [
-      80
-    ],
-    "operator": [
-      "경원여객(자주)",
-      "대한여객(자주)",
-      "신흥여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9000
-      ],
-      "초등생": [
-        4500
-      ],
-      "중고생": [
-        7200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "부산신평"
-        },
-        {
-          "name": "송정"
-        },
-        {
-          "name": "연초"
-        },
-        {
-          "name": "거제(고현)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44,
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909002633703",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6337",
-    "durationInMinutes": [
-      80
-    ],
-    "operator": [
-      "경원여객(자주)",
-      "대한여객(자주)",
-      "부산교통㈜",
-      "신흥여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9000
-      ],
-      "초등생": [
-        4500
-      ],
-      "중고생": [
-        7200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "부산신평"
-        },
-        {
-          "name": "송정"
-        },
-        {
-          "name": "연초"
-        },
-        {
-          "name": "거제(고현)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44,
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909002633703",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -473,8 +355,8 @@
       "대한여객(자주)"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 0
+      "hour": 8,
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -509,7 +391,227 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6337",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "경원여객(자주)",
+      "대한여객(자주)",
+      "부산교통㈜",
+      "신흥여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "부산신평"
+        },
+        {
+          "name": "송정"
+        },
+        {
+          "name": "연초"
+        },
+        {
+          "name": "거제(고현)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909002633703",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6337",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "경원여객(자주)",
+      "대한여객(자주)",
+      "부산교통㈜",
+      "신흥여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "부산신평"
+        },
+        {
+          "name": "송정"
+        },
+        {
+          "name": "연초"
+        },
+        {
+          "name": "거제(고현)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909002633703",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6337",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "경원여객(자주)",
+      "대한여객(자주)",
+      "신흥여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "거제(고현)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909002633701",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -570,7 +672,18 @@
     },
     "routeId": "909002633704",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -625,7 +738,18 @@
     },
     "routeId": "909002633702",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -687,7 +811,18 @@
     },
     "routeId": "909002633703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -739,7 +874,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -791,7 +937,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -852,7 +1009,18 @@
     },
     "routeId": "909002633704",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -904,7 +1072,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -915,8 +1094,7 @@
     ],
     "operator": [
       "경원여객(자주)",
-      "대한여객(자주)",
-      "신흥여객(자주)"
+      "대한여객(자주)"
     ],
     "departureTime": {
       "hour": 13,
@@ -947,7 +1125,6 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        44,
         45
       ],
       "busClass": [
@@ -956,7 +1133,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1008,7 +1196,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1063,7 +1262,18 @@
     },
     "routeId": "909002633702",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1075,7 +1285,8 @@
     "operator": [
       "경원여객(자주)",
       "대한여객(자주)",
-      "부산교통㈜"
+      "부산교통㈜",
+      "신흥여객(자주)"
     ],
     "departureTime": {
       "hour": 14,
@@ -1115,6 +1326,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        44,
         45
       ],
       "busClass": [
@@ -1123,7 +1335,18 @@
     },
     "routeId": "909002633703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1175,7 +1398,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1227,7 +1461,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1288,7 +1533,18 @@
     },
     "routeId": "909002633704",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1340,7 +1596,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1395,7 +1662,18 @@
     },
     "routeId": "909002633702",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1457,7 +1735,18 @@
     },
     "routeId": "909002633703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1509,7 +1798,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1564,7 +1864,18 @@
     },
     "routeId": "909002633702",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1626,7 +1937,18 @@
     },
     "routeId": "909002633703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1637,8 +1959,7 @@
     ],
     "operator": [
       "경원여객(자주)",
-      "대한여객(자주)",
-      "신흥여객(자주)"
+      "대한여객(자주)"
     ],
     "departureTime": {
       "hour": 17,
@@ -1669,7 +1990,6 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        44,
         45
       ],
       "busClass": [
@@ -1678,7 +1998,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1730,7 +2061,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1742,7 +2084,8 @@
     "operator": [
       "경원여객(자주)",
       "대한여객(자주)",
-      "부산교통㈜"
+      "부산교통㈜",
+      "신흥여객(자주)"
     ],
     "departureTime": {
       "hour": 18,
@@ -1782,6 +2125,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        44,
         45
       ],
       "busClass": [
@@ -1790,7 +2134,18 @@
     },
     "routeId": "909002633703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1851,7 +2206,18 @@
     },
     "routeId": "909002633704",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1903,7 +2269,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -1915,6 +2292,7 @@
     "operator": [
       "경원여객(자주)",
       "대한여객(자주)",
+      "부산교통㈜",
       "신흥여객(자주)"
     ],
     "departureTime": {
@@ -1964,7 +2342,18 @@
     },
     "routeId": "909002633703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -2019,7 +2408,18 @@
     },
     "routeId": "909002633702",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -2080,7 +2480,18 @@
     },
     "routeId": "909002633704",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -2142,7 +2553,18 @@
     },
     "routeId": "909002633703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -2194,7 +2616,18 @@
     },
     "routeId": "909002633701",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -2249,7 +2682,18 @@
     },
     "routeId": "909002633702",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        7
+      ]
     }
   }
 ]
