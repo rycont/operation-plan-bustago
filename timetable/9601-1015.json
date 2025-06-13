@@ -6,6 +6,68 @@
       300
     ],
     "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        38100
+      ],
+      "초등생": [
+        19100
+      ],
+      "중고생": [
+        30500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "969601930201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9601",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
       "㈜아성고속"
     ],
     "departureTime": {
@@ -219,68 +281,6 @@
     "routeId": "969601930201",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9601",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      300
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        38100
-      ],
-      "초등생": [
-        19100
-      ],
-      "중고생": [
-        30500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "울산"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "969601930201",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
     }
   }
 ]
