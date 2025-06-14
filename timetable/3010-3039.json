@@ -53,5 +53,65 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "3010",
+    "arrivalTerminalId": "3039",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 13
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2800
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "음성"
+        },
+        {
+          "name": "주덕"
+        },
+        {
+          "name": "충주대"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303010301705",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6
+      ]
+    }
   }
 ]
