@@ -106,7 +106,13 @@
     },
     "routeId": "101023940101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -174,8 +180,8 @@
       "㈜광신고속"
     ],
     "departureTime": {
-      "hour": 16,
-      "minute": 20
+      "hour": 17,
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -216,12 +222,7 @@
     },
     "routeId": "101023940101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -234,8 +235,8 @@
       "㈜광신고속"
     ],
     "departureTime": {
-      "hour": 17,
-      "minute": 50
+      "hour": 16,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
