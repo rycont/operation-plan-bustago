@@ -345,7 +345,7 @@
     ],
     "departureTime": {
       "hour": 6,
-      "minute": 50
+      "minute": 55
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -398,7 +398,11 @@
     },
     "routeId": "101186001005",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -412,140 +416,6 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "수원(동수원)"
-        },
-        {
-          "name": "한일타운"
-        },
-        {
-          "name": "인재개발원"
-        },
-        {
-          "name": "의왕"
-        },
-        {
-          "name": "호계사거리"
-        },
-        {
-          "name": "범계역(공항버스)"
-        },
-        {
-          "name": "관악역(공항)"
-        },
-        {
-          "name": "김포공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        31
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101186001005",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1547",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "수원(동수원)"
-        },
-        {
-          "name": "한일타운"
-        },
-        {
-          "name": "인재개발원"
-        },
-        {
-          "name": "의왕"
-        },
-        {
-          "name": "호계사거리"
-        },
-        {
-          "name": "범계역(공항버스)"
-        },
-        {
-          "name": "관악역(공항)"
-        },
-        {
-          "name": "김포공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        31
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101186001005",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1547",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "departureTime": {
-      "hour": 8,
       "minute": 25
     },
     "isTemporaryRoute": false,
@@ -599,7 +469,153 @@
     },
     "routeId": "101186001005",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1547",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원(동수원)"
+        },
+        {
+          "name": "한일타운"
+        },
+        {
+          "name": "인재개발원"
+        },
+        {
+          "name": "의왕"
+        },
+        {
+          "name": "호계사거리"
+        },
+        {
+          "name": "범계역(공항버스)"
+        },
+        {
+          "name": "관악역(공항)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        31
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101186001005",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1547",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원(동수원)"
+        },
+        {
+          "name": "한일타운"
+        },
+        {
+          "name": "인재개발원"
+        },
+        {
+          "name": "의왕"
+        },
+        {
+          "name": "호계사거리"
+        },
+        {
+          "name": "범계역(공항버스)"
+        },
+        {
+          "name": "관악역(공항)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        31
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101186001005",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -680,7 +696,7 @@
     ],
     "departureTime": {
       "hour": 9,
-      "minute": 35
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -733,7 +749,11 @@
     },
     "routeId": "101186001005",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -747,7 +767,7 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 10
+      "minute": 15
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -800,7 +820,11 @@
     },
     "routeId": "101186001005",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -1819,7 +1843,7 @@
     ],
     "departureTime": {
       "hour": 6,
-      "minute": 55
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1872,11 +1896,7 @@
     },
     "routeId": "101186001005",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1890,6 +1910,140 @@
     ],
     "departureTime": {
       "hour": 7,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원(동수원)"
+        },
+        {
+          "name": "한일타운"
+        },
+        {
+          "name": "인재개발원"
+        },
+        {
+          "name": "의왕"
+        },
+        {
+          "name": "호계사거리"
+        },
+        {
+          "name": "범계역(공항버스)"
+        },
+        {
+          "name": "관악역(공항)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        31
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101186001005",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1547",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원(동수원)"
+        },
+        {
+          "name": "한일타운"
+        },
+        {
+          "name": "인재개발원"
+        },
+        {
+          "name": "의왕"
+        },
+        {
+          "name": "호계사거리"
+        },
+        {
+          "name": "범계역(공항버스)"
+        },
+        {
+          "name": "관악역(공항)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        31
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101186001005",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1547",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "departureTime": {
+      "hour": 8,
       "minute": 25
     },
     "isTemporaryRoute": false,
@@ -1943,11 +2097,7 @@
     },
     "routeId": "101186001005",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1960,78 +2110,7 @@
       "경기공항리무진버스"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "수원(동수원)"
-        },
-        {
-          "name": "한일타운"
-        },
-        {
-          "name": "인재개발원"
-        },
-        {
-          "name": "의왕"
-        },
-        {
-          "name": "호계사거리"
-        },
-        {
-          "name": "범계역(공항버스)"
-        },
-        {
-          "name": "관악역(공항)"
-        },
-        {
-          "name": "김포공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        31
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101186001005",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1547",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "departureTime": {
-      "hour": 8,
+      "hour": 9,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -2085,82 +2164,7 @@
     },
     "routeId": "101186001005",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1547",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "수원(동수원)"
-        },
-        {
-          "name": "한일타운"
-        },
-        {
-          "name": "인재개발원"
-        },
-        {
-          "name": "의왕"
-        },
-        {
-          "name": "호계사거리"
-        },
-        {
-          "name": "범계역(공항버스)"
-        },
-        {
-          "name": "관악역(공항)"
-        },
-        {
-          "name": "김포공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        31
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101186001005",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -2174,7 +2178,7 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 15
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -2227,11 +2231,7 @@
     },
     "routeId": "101186001005",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   }
 ]

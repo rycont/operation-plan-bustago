@@ -27,6 +27,103 @@
     "stops": [
       [
         {
+          "name": "완도"
+        },
+        {
+          "name": "원동"
+        },
+        {
+          "name": "남창"
+        },
+        {
+          "name": "월송"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808050900209",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8051",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 2
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23400
+      ],
+      "초등생": [
+        11700
+      ],
+      "중고생": [
+        18700
+      ]
+    },
+    "stops": [
+      [
+        {
           "name": "원동"
         },
         {
@@ -203,182 +300,6 @@
     "stops": [
       [
         {
-          "name": "원동"
-        },
-        {
-          "name": "남창"
-        },
-        {
-          "name": "월송"
-        },
-        {
-          "name": "해남"
-        },
-        {
-          "name": "강진"
-        },
-        {
-          "name": "장흥"
-        },
-        {
-          "name": "배산"
-        },
-        {
-          "name": "보성"
-        },
-        {
-          "name": "예당"
-        },
-        {
-          "name": "조성"
-        },
-        {
-          "name": "벌교"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808051900201",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8051",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 52
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23400
-      ],
-      "초등생": [
-        11700
-      ],
-      "중고생": [
-        18700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "원동"
-        },
-        {
-          "name": "남창"
-        },
-        {
-          "name": "월송"
-        },
-        {
-          "name": "해남"
-        },
-        {
-          "name": "강진"
-        },
-        {
-          "name": "장흥"
-        },
-        {
-          "name": "배산"
-        },
-        {
-          "name": "보성"
-        },
-        {
-          "name": "예당"
-        },
-        {
-          "name": "조성"
-        },
-        {
-          "name": "벌교"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808051900201",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8051",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 2
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23400
-      ],
-      "초등생": [
-        11700
-      ],
-      "중고생": [
-        18700
-      ]
-    },
-    "stops": [
-      [
-        {
           "name": "완도"
         },
         {
@@ -439,9 +360,15 @@
     },
     "routeId": "808050900209",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
         7
       ]
     }
@@ -474,9 +401,6 @@
     "stops": [
       [
         {
-          "name": "완도"
-        },
-        {
           "name": "원동"
         },
         {
@@ -526,25 +450,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        40
+        0
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "808050900209",
+    "routeId": "808051900201",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        4,
-        5
-      ],
-      "irregularDays": [
-        1,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -639,13 +553,101 @@
       "fixedDays": [
         3,
         4,
-        5
+        5,
+        6
       ],
       "irregularDays": [
         1,
-        6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "8051",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 52
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23400
+      ],
+      "초등생": [
+        11700
+      ],
+      "중고생": [
+        18700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "원동"
+        },
+        {
+          "name": "남창"
+        },
+        {
+          "name": "월송"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808051900201",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
