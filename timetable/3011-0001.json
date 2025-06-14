@@ -341,14 +341,21 @@
     },
     "routeId": "303011000101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
     "departureTerminalId": "3011",
     "arrivalTerminalId": "0001",
     "durationInMinutes": [
-      0
+      120
     ],
     "operator": [
       "(주)경기고속"
@@ -372,9 +379,6 @@
     "stops": [
       [
         {
-          "name": "세명대"
-        },
-        {
           "name": "제천"
         },
         {
@@ -391,13 +395,13 @@
         "시외우등"
       ]
     },
-    "routeId": "303191000101",
+    "routeId": "303011000101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         4,
         5,
         6
@@ -648,7 +652,14 @@
     },
     "routeId": "303011000101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -697,10 +708,14 @@
     },
     "routeId": "303011000101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        4,
+        5
       ]
     }
   },
@@ -708,7 +723,7 @@
     "departureTerminalId": "3011",
     "arrivalTerminalId": "0001",
     "durationInMinutes": [
-      120
+      0
     ],
     "operator": [
       "(주)경기고속"
@@ -732,6 +747,9 @@
     "stops": [
       [
         {
+          "name": "세명대"
+        },
+        {
           "name": "제천"
         },
         {
@@ -748,12 +766,9 @@
         "시외우등"
       ]
     },
-    "routeId": "303011000101",
+    "routeId": "303191000101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
