@@ -10,6 +10,58 @@
     ],
     "departureTime": {
       "hour": 6,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303015000102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3015",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "서울고속"
+    ],
+    "departureTime": {
+      "hour": 6,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -104,8 +156,7 @@
       0
     ],
     "operator": [
-      "대성고속",
-      "대성티앤이"
+      "대성고속"
     ],
     "departureTime": {
       "hour": 7,
@@ -207,7 +258,7 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 20
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -242,16 +293,9 @@
     },
     "routeId": "303015000102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3,
-        4
+      "type": "specific-day",
+      "days": [
+        1
       ]
     }
   },
@@ -302,60 +346,6 @@
     "routeId": "303015000102",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3015",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "충북리무진㈜"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        7900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "청주"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303015000102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
     }
   },
   {
@@ -512,8 +502,7 @@
       0
     ],
     "operator": [
-      "대성고속",
-      "대성티앤이"
+      "대성고속"
     ],
     "departureTime": {
       "hour": 11,
@@ -758,8 +747,7 @@
       0
     ],
     "operator": [
-      "대성고속",
-      "대성티앤이"
+      "대성고속"
     ],
     "departureTime": {
       "hour": 13,
@@ -799,60 +787,6 @@
     "routeId": "303015000102",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3015",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        7900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "청주"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303015000102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
     }
   },
   {
@@ -935,8 +869,7 @@
       0
     ],
     "operator": [
-      "대성고속",
-      "대성티앤이"
+      "대성고속"
     ],
     "departureTime": {
       "hour": 14,
@@ -1074,60 +1007,6 @@
     "routeId": "303015000102",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3015",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "청주"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303015000102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
     }
   },
   {
@@ -1305,60 +1184,6 @@
       0
     ],
     "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        7900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "청주"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303015000102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3015",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "서울고속"
     ],
     "departureTime": {
@@ -1432,8 +1257,7 @@
       0
     ],
     "operator": [
-      "대성고속",
-      "대성티앤이"
+      "대성고속"
     ],
     "departureTime": {
       "hour": 18,
@@ -1681,8 +1505,8 @@
       "서울고속"
     ],
     "departureTime": {
-      "hour": 6,
-      "minute": 0
+      "hour": 8,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1717,9 +1541,16 @@
     },
     "routeId": "303015000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4
       ]
     }
   },
@@ -1730,11 +1561,109 @@
       0
     ],
     "operator": [
-      "서울고속"
+      "충북리무진㈜"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 30
+      "hour": 9,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        7900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303015000102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3015",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        7900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303015000102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3015",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1769,10 +1698,56 @@
     },
     "routeId": "303015000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3015",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        7900
       ]
+    },
+    "stops": [
+      [
+        {
+          "name": "청주"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303015000102",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
