@@ -149,73 +149,6 @@
       "㈜금아여행"
     ],
     "departureTime": {
-      "hour": 11,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12400
-      ],
-      "초등생": [
-        6200
-      ],
-      "중고생": [
-        9900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "속초"
-        },
-        {
-          "name": "병원"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동해"
-        },
-        {
-          "name": "삼척"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202019900128",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2019",
-    "arrivalTerminalId": "2671",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
       "hour": 12,
       "minute": 10
     },
@@ -276,15 +209,72 @@
     },
     "routeId": "202004900125",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2019",
+    "arrivalTerminalId": "2671",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
       ],
-      "irregularDays": [
-        1,
-        3,
-        4,
-        6,
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        9900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "병원"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동해"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019900128",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         7
       ]
     }

@@ -85,6 +85,73 @@
       0
     ],
     "operator": [
+      "㈜금아리무진"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        9800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "울진"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929201201907",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5054",
+    "arrivalTerminalId": "2671",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "㈜아성고속"
     ],
     "departureTime": {
@@ -136,18 +203,7 @@
     },
     "routeId": "969601205103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -207,84 +263,6 @@
       ]
     },
     "routeId": "969601205103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5054",
-    "arrivalTerminalId": "2671",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아리무진"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        9800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "울진"
-        },
-        {
-          "name": "삼척"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "929201201907",
     "pattern": {
       "type": "everyday"
     }
