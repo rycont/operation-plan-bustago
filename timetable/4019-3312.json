@@ -9,8 +9,8 @@
       "충북리무진㈜"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 40
+      "hour": 9,
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -57,12 +57,7 @@
     },
     "routeId": "404019331203",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -75,8 +70,69 @@
       "충북리무진㈜"
     ],
     "departureTime": {
-      "hour": 9,
-      "minute": 10
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7800
+      ],
+      "초등생": [
+        3900
+      ],
+      "중고생": [
+        6200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "천안"
+        },
+        {
+          "name": "병천"
+        },
+        {
+          "name": "덕성리"
+        },
+        {
+          "name": "사석"
+        },
+        {
+          "name": "진천"
+        },
+        {
+          "name": "충북혁신도시"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404019331203",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4019",
+    "arrivalTerminalId": "3312",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "충북리무진㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -184,12 +240,7 @@
     },
     "routeId": "404019331203",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -204,72 +255,6 @@
     "departureTime": {
       "hour": 15,
       "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7800
-      ],
-      "초등생": [
-        3900
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "천안"
-        },
-        {
-          "name": "병천"
-        },
-        {
-          "name": "덕성리"
-        },
-        {
-          "name": "사석"
-        },
-        {
-          "name": "진천"
-        },
-        {
-          "name": "충북혁신도시"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404019331203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4019",
-    "arrivalTerminalId": "3312",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "충북리무진㈜"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -377,12 +362,7 @@
     },
     "routeId": "404019331203",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   }
 ]
