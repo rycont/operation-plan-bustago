@@ -562,75 +562,6 @@
     ],
     "departureTime": {
       "hour": 12,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10300
-      ],
-      "초등생": [
-        5200
-      ],
-      "중고생": [
-        8200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "여천"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "벌교"
-        },
-        {
-          "name": "과역"
-        },
-        {
-          "name": "고흥"
-        },
-        {
-          "name": "녹동"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808042801106",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8042",
-    "arrivalTerminalId": "8004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜동방고속"
-    ],
-    "departureTime": {
-      "hour": 12,
       "minute": 57
     },
     "isTemporaryRoute": false,
@@ -1059,6 +990,67 @@
     "departureTime": {
       "hour": 21,
       "minute": 28
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10300
+      ],
+      "초등생": [
+        5200
+      ],
+      "중고생": [
+        8200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "여천"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "녹동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808042801106",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8042",
+    "arrivalTerminalId": "8004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
