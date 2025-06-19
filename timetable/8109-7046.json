@@ -589,7 +589,7 @@
     ],
     "departureTime": {
       "hour": 12,
-      "minute": 0
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -639,11 +639,7 @@
     },
     "routeId": "808109701002",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -656,8 +652,8 @@
       "㈜동광고속"
     ],
     "departureTime": {
-      "hour": 13,
-      "minute": 30
+      "hour": 14,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -701,73 +697,7 @@
     },
     "routeId": "808109702001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8109",
-    "arrivalTerminalId": "7046",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜동광고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2800
-      ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "문화동"
-        },
-        {
-          "name": "담양"
-        },
-        {
-          "name": "금성"
-        },
-        {
-          "name": "금과"
-        },
-        {
-          "name": "순창"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808109702001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1251,128 +1181,6 @@
       ],
       "busClass": [
         "심야고속"
-      ]
-    },
-    "routeId": "808109702001",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8109",
-    "arrivalTerminalId": "7046",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜동광고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2800
-      ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "문화동"
-        },
-        {
-          "name": "담양"
-        },
-        {
-          "name": "금성"
-        },
-        {
-          "name": "금과"
-        },
-        {
-          "name": "순창"
-        },
-        {
-          "name": "적성"
-        },
-        {
-          "name": "남원"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808109701002",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8109",
-    "arrivalTerminalId": "7046",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜동광고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2800
-      ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "문화동"
-        },
-        {
-          "name": "담양"
-        },
-        {
-          "name": "금성"
-        },
-        {
-          "name": "금과"
-        },
-        {
-          "name": "순창"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
       ]
     },
     "routeId": "808109702001",
