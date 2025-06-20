@@ -61,6 +61,65 @@
       "동해상사고속㈜"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25700
+      ],
+      "초등생": [
+        12900
+      ],
+      "중고생": [
+        20600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202034000102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        7
+      ],
+      "irregularDays": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2034",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      190
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
       "hour": 8,
       "minute": 20
     },
@@ -204,11 +263,13 @@
     },
     "routeId": "202034000102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
-        6,
         7
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },
@@ -430,6 +491,65 @@
       "동해상사고속㈜"
     ],
     "departureTime": {
+      "hour": 17,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25700
+      ],
+      "초등생": [
+        12900
+      ],
+      "중고생": [
+        20600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "주문진"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202034000102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        7
+      ],
+      "irregularDays": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2034",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      190
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
       "hour": 18,
       "minute": 45
     },
@@ -522,124 +642,6 @@
     "routeId": "202034000102",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2034",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      190
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25700
-      ],
-      "초등생": [
-        12900
-      ],
-      "중고생": [
-        20600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "주문진"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202034000102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2034",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      190
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25700
-      ],
-      "초등생": [
-        12900
-      ],
-      "중고생": [
-        20600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "주문진"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202034000102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
     }
   }
 ]
