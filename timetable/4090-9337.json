@@ -16,12 +16,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        21300,
         27700
       ],
       "초등생": [
+        10700,
         13900
       ],
       "중고생": [
+        17000,
         22200
       ]
     },
@@ -47,9 +50,11 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "시외우등",
         "프리미엄우등"
       ]
     },
@@ -137,12 +142,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        21300,
         27700
       ],
       "초등생": [
+        10700,
         13900
       ],
       "중고생": [
+        17000,
         22200
       ]
     },
@@ -168,9 +176,11 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "시외우등",
         "프리미엄우등"
       ]
     },
@@ -255,12 +265,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        21300,
         27700
       ],
       "초등생": [
+        10700,
         13900
       ],
       "중고생": [
+        17000,
         22200
       ]
     },
@@ -286,9 +299,11 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "시외우등",
         "프리미엄우등"
       ]
     },
@@ -354,6 +369,71 @@
     "routeId": "404024933701",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "4090",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      125
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21300
+      ],
+      "초등생": [
+        10700
+      ],
+      "중고생": [
+        17000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "보령"
+        },
+        {
+          "name": "홍성"
+        },
+        {
+          "name": "내포"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404024933701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5
+      ]
     }
   }
 ]

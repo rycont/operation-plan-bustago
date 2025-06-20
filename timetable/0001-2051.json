@@ -51,12 +51,7 @@
     },
     "routeId": "000001291401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -444,12 +439,7 @@
     },
     "routeId": "000001205102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -774,6 +764,58 @@
     "departureTerminalId": "0001",
     "arrivalTerminalId": "2051",
     "durationInMinutes": [
+      140
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        22300
+      ],
+      "초등생": [
+        11200
+      ],
+      "중고생": [
+        17800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "주문진"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001203401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
       170
     ],
     "operator": [
@@ -944,6 +986,64 @@
     "departureTime": {
       "hour": 13,
       "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        22300
+      ],
+      "초등생": [
+        11200
+      ],
+      "중고생": [
+        17800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "진부"
+        },
+        {
+          "name": "횡계공용"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001205102",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1253,12 +1353,7 @@
     },
     "routeId": "000001291401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1527,12 +1622,7 @@
     },
     "routeId": "000001205102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1795,12 +1885,7 @@
     },
     "routeId": "000001203401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1856,116 +1941,6 @@
       "days": [
         5
       ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2051",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22300
-      ],
-      "초등생": [
-        11200
-      ],
-      "중고생": [
-        17800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "주문진"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001203401",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2051",
-    "durationInMinutes": [
-      170
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22300
-      ],
-      "초등생": [
-        11200
-      ],
-      "중고생": [
-        17800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "장평"
-        },
-        {
-          "name": "진부"
-        },
-        {
-          "name": "횡계공용"
-        },
-        {
-          "name": "강릉"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001205102",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
