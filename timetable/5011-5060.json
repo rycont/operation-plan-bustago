@@ -40,89 +40,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         41
       ],
       "busClass": [
+        "시외우등",
         "일반"
       ]
     },
     "routeId": "505011506001",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "5060",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7700
-      ],
-      "초등생": [
-        3900
-      ],
-      "중고생": [
-        6900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "구미"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "예천"
-        },
-        {
-          "name": "예천삼거리"
-        },
-        {
-          "name": "신도청"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "상운"
-        },
-        {
-          "name": "봉화"
-        },
-        {
-          "name": "춘양"
-        },
-        {
-          "name": "울진"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505011505401",
     "pattern": {
       "type": "everyday"
     }
@@ -320,6 +246,82 @@
         3,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "5060",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7700
+      ],
+      "초등생": [
+        3900
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구미"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "예천삼거리"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "상운"
+        },
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "춘양"
+        },
+        {
+          "name": "울진"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505011505401",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
