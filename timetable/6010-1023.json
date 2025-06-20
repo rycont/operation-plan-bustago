@@ -54,7 +54,18 @@
     },
     "routeId": "606028101501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -112,7 +123,18 @@
     },
     "routeId": "606028101501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -170,7 +192,18 @@
     },
     "routeId": "606028101501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -228,7 +261,18 @@
     },
     "routeId": "606028101501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -286,7 +330,18 @@
     },
     "routeId": "606028101501",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -344,239 +399,18 @@
     },
     "routeId": "606028101501",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6010",
-    "arrivalTerminalId": "1023",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "천일여객㈜"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        32100
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
       ],
-      "초등생": [
-        16100
-      ],
-      "중고생": [
-        25700
+      "irregularDays": [
+        1
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "창원"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606028101501",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6010",
-    "arrivalTerminalId": "1023",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        32100
-      ],
-      "초등생": [
-        16100
-      ],
-      "중고생": [
-        25700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "창원"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606028101501",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6010",
-    "arrivalTerminalId": "1023",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "고려여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        32100
-      ],
-      "초등생": [
-        16100
-      ],
-      "중고생": [
-        25700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "창원"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606028101501",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6010",
-    "arrivalTerminalId": "1023",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경남고속뉴부산"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35300
-      ],
-      "초등생": [
-        17700
-      ],
-      "중고생": [
-        28200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "창원"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야우등1"
-      ]
-    },
-    "routeId": "606028101502",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -637,6 +471,282 @@
       "type": "specific-day",
       "days": [
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6010",
+    "arrivalTerminalId": "1023",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32100
+      ],
+      "초등생": [
+        16100
+      ],
+      "중고생": [
+        25700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "창원"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606028101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6010",
+    "arrivalTerminalId": "1023",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32100
+      ],
+      "초등생": [
+        16100
+      ],
+      "중고생": [
+        25700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "창원"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606028101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6010",
+    "arrivalTerminalId": "1023",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "고려여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32100
+      ],
+      "초등생": [
+        16100
+      ],
+      "중고생": [
+        25700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "창원"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606028101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6010",
+    "arrivalTerminalId": "1023",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35300
+      ],
+      "초등생": [
+        17700
+      ],
+      "중고생": [
+        28200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "창원"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "606028101502",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
       ]
     }
   }
