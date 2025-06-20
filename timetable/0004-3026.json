@@ -62,7 +62,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 0
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -100,10 +100,7 @@
     },
     "routeId": "000004302002",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1101,7 +1098,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 20
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1139,7 +1136,10 @@
     },
     "routeId": "000004302002",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   }
 ]
