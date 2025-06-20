@@ -256,12 +256,9 @@
         "시외우등"
       ]
     },
-    "routeId": "939302400811",
+    "routeId": "939302400810",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1179,7 +1176,18 @@
     },
     "routeId": "202028402303",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        3,
+        7
+      ]
     }
   },
   {
@@ -1394,9 +1402,12 @@
         "시외우등"
       ]
     },
-    "routeId": "939302400810",
+    "routeId": "939302400811",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   }
 ]

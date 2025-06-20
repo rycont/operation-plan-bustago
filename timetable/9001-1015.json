@@ -307,6 +307,72 @@
       "경남고속뉴부산"
     ],
     "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        40300
+      ],
+      "초등생": [
+        20200
+      ],
+      "중고생": [
+        32200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9001",
+    "arrivalTerminalId": "1015",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
       "hour": 18,
       "minute": 40
     },
@@ -411,69 +477,6 @@
     "routeId": "909009101502",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9001",
-    "arrivalTerminalId": "1015",
-    "durationInMinutes": [
-      300
-    ],
-    "operator": [
-      "경남고속뉴부산"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        40300
-      ],
-      "초등생": [
-        20200
-      ],
-      "중고생": [
-        32200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산동부"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909001101501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        3,
-        5,
-        6
-      ]
     }
   }
 ]
