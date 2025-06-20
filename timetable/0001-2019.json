@@ -182,12 +182,7 @@
     },
     "routeId": "000001201915",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -314,6 +309,55 @@
       ]
     },
     "routeId": "000001201918",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      130
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21300
+      ],
+      "초등생": [
+        10700
+      ],
+      "중고생": [
+        17000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001201901",
     "pattern": {
       "type": "everyday"
     }
@@ -747,6 +791,69 @@
     "routeId": "000001201901",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      150
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21300
+      ],
+      "초등생": [
+        10700
+      ],
+      "중고생": [
+        17000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001201915",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1798,6 +1905,55 @@
     "departureTerminalId": "0001",
     "arrivalTerminalId": "2019",
     "durationInMinutes": [
+      130
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21300
+      ],
+      "초등생": [
+        10700
+      ],
+      "중고생": [
+        17000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001201901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
       180
     ],
     "operator": [
@@ -2065,162 +2221,6 @@
       ]
     },
     "routeId": "000001201901",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2019",
-    "durationInMinutes": [
-      130
-    ],
-    "operator": [
-      "㈜금강고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        21300
-      ],
-      "초등생": [
-        10700
-      ],
-      "중고생": [
-        17000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001201901",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2019",
-    "durationInMinutes": [
-      130
-    ],
-    "operator": [
-      "㈜금강고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        21300
-      ],
-      "초등생": [
-        10700
-      ],
-      "중고생": [
-        17000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001201901",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2019",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        21300
-      ],
-      "초등생": [
-        10700
-      ],
-      "중고생": [
-        17000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "양양"
-        },
-        {
-          "name": "낙산"
-        },
-        {
-          "name": "물치"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001201915",
     "pattern": {
       "type": "everyday"
     }
