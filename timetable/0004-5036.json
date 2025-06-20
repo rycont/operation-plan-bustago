@@ -64,7 +64,7 @@
       "경전/동일"
     ],
     "departureTime": {
-      "hour": 17,
+      "hour": 14,
       "minute": 0
     },
     "isTemporaryRoute": false,
@@ -106,7 +106,14 @@
     },
     "routeId": "000004603301",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
     }
   },
   {
@@ -119,7 +126,7 @@
       "경전/동일"
     ],
     "departureTime": {
-      "hour": 14,
+      "hour": 17,
       "minute": 0
     },
     "isTemporaryRoute": false,

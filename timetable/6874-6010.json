@@ -1426,6 +1426,61 @@
       "대한여객(자주)"
     ],
     "departureTime": {
+      "hour": 18,
+      "minute": 56
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5800
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "마산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039601002",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6874",
+    "arrivalTerminalId": "6010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대한여객(자주)"
+    ],
+    "departureTime": {
       "hour": 19,
       "minute": 8
     },
@@ -1887,65 +1942,6 @@
     "routeId": "606039681902",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6874",
-    "arrivalTerminalId": "6010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대한여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 56
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5800
-      ],
-      "초등생": [
-        2900
-      ],
-      "중고생": [
-        4600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주부산교통"
-        },
-        {
-          "name": "경상대(칠암)"
-        },
-        {
-          "name": "진주(개양)"
-        },
-        {
-          "name": "마산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606039601002",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
     }
   }
 ]
