@@ -591,7 +591,7 @@
     ],
     "departureTime": {
       "hour": 16,
-      "minute": 10
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -629,13 +629,7 @@
     },
     "routeId": "808109800701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -858,58 +852,6 @@
     "departureTime": {
       "hour": 20,
       "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "문화동"
-        },
-        {
-          "name": "곡성"
-        },
-        {
-          "name": "구례"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808109800701",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8109",
-    "arrivalTerminalId": "8003",
-    "durationInMinutes": [
-      40
-    ],
-    "operator": [
-      "㈜동광고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
