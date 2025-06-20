@@ -6,11 +6,11 @@
       270
     ],
     "operator": [
-      "㈜동방고속"
+      "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 15,
-      "minute": 10
+      "hour": 8,
+      "minute": 45
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -48,7 +48,14 @@
     },
     "routeId": "939302800201",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
     }
   },
   {
@@ -58,11 +65,11 @@
       270
     ],
     "operator": [
-      "(주)경기고속"
+      "㈜동방고속"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 45
+      "hour": 15,
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {

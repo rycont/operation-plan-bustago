@@ -10,70 +10,6 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19900
-      ],
-      "초등생": [
-        10000
-      ],
-      "중고생": [
-        15900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "남악"
-        },
-        {
-          "name": "삼호"
-        },
-        {
-          "name": "우수영"
-        },
-        {
-          "name": "녹진"
-        },
-        {
-          "name": "진도"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "949401805912",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "8059",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 7,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -799,6 +735,74 @@
     "routeId": "949401805902",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8059",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15300
+      ],
+      "초등생": [
+        7700
+      ],
+      "중고생": [
+        12200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "진도"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401805912",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     }
   }
 ]
