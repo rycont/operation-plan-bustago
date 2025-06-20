@@ -3,149 +3,6 @@
     "departureTerminalId": "5043",
     "arrivalTerminalId": "5060",
     "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8300
-      ],
-      "초등생": [
-        4200
-      ],
-      "중고생": [
-        7500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안동"
-        },
-        {
-          "name": "신도청"
-        },
-        {
-          "name": "예천삼거리"
-        },
-        {
-          "name": "예천"
-        },
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "함창"
-        },
-        {
-          "name": "양정"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "경북대상주"
-        },
-        {
-          "name": "옥산"
-        },
-        {
-          "name": "김천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505043501608",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5043",
-    "arrivalTerminalId": "5060",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8300
-      ],
-      "초등생": [
-        4200
-      ],
-      "중고생": [
-        7500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안동"
-        },
-        {
-          "name": "신도청"
-        },
-        {
-          "name": "예천삼거리"
-        },
-        {
-          "name": "예천"
-        },
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "성주"
-        },
-        {
-          "name": "고령"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505043500901",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5043",
-    "arrivalTerminalId": "5060",
-    "durationInMinutes": [
       65
     ],
     "operator": [
@@ -216,6 +73,171 @@
     "routeId": "505054501102",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5043",
+    "arrivalTerminalId": "5060",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8300
+      ],
+      "초등생": [
+        4200
+      ],
+      "중고생": [
+        7500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안동"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "예천삼거리"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "함창"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "옥산"
+        },
+        {
+          "name": "김천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505043501608",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5043",
+    "arrivalTerminalId": "5060",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8300
+      ],
+      "초등생": [
+        4200
+      ],
+      "중고생": [
+        7500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안동"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "예천삼거리"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "성주"
+        },
+        {
+          "name": "고령"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505043500901",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6,
+        7
+      ]
     }
   },
   {
@@ -318,7 +340,18 @@
     },
     "routeId": "505043501607",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6,
+        7
+      ]
     }
   },
   {
@@ -385,7 +418,18 @@
     },
     "routeId": "505043500901",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6,
+        7
+      ]
     }
   },
   {
@@ -461,7 +505,18 @@
     },
     "routeId": "505043501608",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6,
+        7
+      ]
     }
   },
   {
@@ -564,7 +619,18 @@
     },
     "routeId": "505043501607",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5
+      ],
+      "irregularDays": [
+        1,
+        4,
+        6,
+        7
+      ]
     }
   }
 ]
