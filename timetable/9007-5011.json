@@ -57,7 +57,18 @@
     },
     "routeId": "909007501101",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -118,7 +129,18 @@
     },
     "routeId": "909007501101",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -179,7 +201,18 @@
     },
     "routeId": "909007501101",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -240,7 +273,85 @@
     },
     "routeId": "909007501101",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9007",
+    "arrivalTerminalId": "5011",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "해운대고속㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20800
+      ],
+      "초등생": [
+        10400
+      ],
+      "중고생": [
+        16600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909007501101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5
+      ]
     }
   }
 ]

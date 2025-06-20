@@ -51,7 +51,7 @@
     },
     "routeId": "505071802401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -106,7 +106,7 @@
     },
     "routeId": "505071802401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -121,6 +121,63 @@
     "departureTime": {
       "hour": 13,
       "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28100,
+        36500
+      ],
+      "초등생": [
+        14100,
+        18300
+      ],
+      "중고생": [
+        22500,
+        29200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "광주고속(전남)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21,
+        28
+      ],
+      "busClass": [
+        "시외우등",
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "505071940101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5006",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 15
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -213,7 +270,7 @@
     },
     "routeId": "505071802401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -268,7 +325,7 @@
     },
     "routeId": "505071802401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -283,58 +340,6 @@
     "departureTime": {
       "hour": 18,
       "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        28100
-      ],
-      "초등생": [
-        14100
-      ],
-      "중고생": [
-        22500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "광주고속(전남)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505071940101",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "5006",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 15
     },
     "isTemporaryRoute": false,
     "fare": {
