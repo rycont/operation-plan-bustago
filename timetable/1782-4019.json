@@ -107,6 +107,55 @@
       "대원고속"
     ],
     "departureTime": {
+      "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11000
+      ],
+      "초등생": [
+        5500
+      ],
+      "중고생": [
+        8800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고양종합터미널"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101782401901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1782",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      106
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
       "hour": 14,
       "minute": 0
     },
@@ -205,63 +254,6 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 11,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11000
-      ],
-      "초등생": [
-        5500
-      ],
-      "중고생": [
-        8800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "고양종합터미널"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101782401901",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1782",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      106
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
       "hour": 19,
       "minute": 0
     },
@@ -298,13 +290,229 @@
     },
     "routeId": "101782401901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1782",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      106
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14300
       ],
-      "irregularDays": [
-        1,
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고양종합터미널"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101782401901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1782",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      106
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14300
+      ],
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고양종합터미널"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101782401901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1782",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      106
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11000
+      ],
+      "초등생": [
+        5500
+      ],
+      "중고생": [
+        8800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고양종합터미널"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101782401901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1782",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      106
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11000
+      ],
+      "초등생": [
+        5500
+      ],
+      "중고생": [
+        8800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고양종합터미널"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101782401901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
         6
       ]
     }
