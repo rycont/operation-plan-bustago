@@ -51,11 +51,14 @@
     },
     "routeId": "101007703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         3,
         5,
-        6
+        7
       ]
     }
   },
@@ -105,10 +108,13 @@
     },
     "routeId": "101007703303",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
         6
+      ],
+      "irregularDays": [
+        5,
+        7
       ]
     }
   },
@@ -170,11 +176,14 @@
     },
     "routeId": "101007703305",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         3,
         5,
-        6
+        7
       ]
     }
   },
@@ -230,241 +239,14 @@
     },
     "routeId": "101007703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         3,
         5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        21200
-      ],
-      "초등생": [
-        10600
-      ],
-      "중고생": [
-        17000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101007703303",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        21200
-      ],
-      "초등생": [
-        10600
-      ],
-      "중고생": [
-        17000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "시흥"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101007703302",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25000
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        20000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007703301",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25000
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        20000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007703301",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
+        7
       ]
     }
   },
@@ -520,9 +302,254 @@
     },
     "routeId": "101007703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21200
+      ],
+      "초등생": [
+        10600
+      ],
+      "중고생": [
+        17000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101007703303",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        3,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21200
+      ],
+      "초등생": [
+        10600
+      ],
+      "중고생": [
+        17000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "시흥"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101007703302",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        3,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25000
+      ],
+      "초등생": [
+        12500
+      ],
+      "중고생": [
+        20000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007703301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        3,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25000
+      ],
+      "초등생": [
+        12500
+      ],
+      "중고생": [
+        20000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007703301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        5,
+        7
       ]
     }
   }
