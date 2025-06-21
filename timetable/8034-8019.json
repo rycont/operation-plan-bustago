@@ -57,7 +57,16 @@
     },
     "routeId": "808024900202",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -121,7 +130,16 @@
     },
     "routeId": "808059900203",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -209,7 +227,16 @@
     },
     "routeId": "808024900206",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -270,7 +297,16 @@
     },
     "routeId": "808024900202",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -334,7 +370,16 @@
     },
     "routeId": "808059900203",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -395,141 +440,16 @@
     },
     "routeId": "808024900202",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8034",
-    "arrivalTerminalId": "8019",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22000
-      ],
-      "초등생": [
-        11000
-      ],
-      "중고생": [
-        17600
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "목포"
-        },
-        {
-          "name": "삼호"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "양산"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산공업탑"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등"
-      ]
-    },
-    "routeId": "808024960108",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8034",
-    "arrivalTerminalId": "8019",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22000
-      ],
-      "초등생": [
-        11000
-      ],
-      "중고생": [
-        17600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "목포"
-        },
-        {
-          "name": "삼호"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "양산"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산공업탑"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등"
-      ]
-    },
-    "routeId": "808024960108",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
