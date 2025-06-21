@@ -216,13 +216,7 @@
     },
     "routeId": "707033102501",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -345,8 +339,8 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 18,
-      "minute": 40
+      "hour": 16,
+      "minute": 15
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -387,7 +381,12 @@
     },
     "routeId": "707033102501",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -400,8 +399,8 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 16,
-      "minute": 15
+      "hour": 18,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
