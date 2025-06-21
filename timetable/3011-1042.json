@@ -61,64 +61,6 @@
       110
     ],
     "operator": [
-      "친선고속㈜"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16300
-      ],
-      "초등생": [
-        8200
-      ],
-      "중고생": [
-        13000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "영월"
-        },
-        {
-          "name": "제천"
-        },
-        {
-          "name": "백운"
-        },
-        {
-          "name": "우만동"
-        },
-        {
-          "name": "수원터미널"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202025101203",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3011",
-    "arrivalTerminalId": "1042",
-    "durationInMinutes": [
-      110
-    ],
-    "operator": [
       "대원고속"
     ],
     "departureTime": {
@@ -330,6 +272,75 @@
     "routeId": "303011101205",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3011",
+    "arrivalTerminalId": "1042",
+    "durationInMinutes": [
+      110
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16300
+      ],
+      "초등생": [
+        8200
+      ],
+      "중고생": [
+        13000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영월"
+        },
+        {
+          "name": "제천"
+        },
+        {
+          "name": "백운"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202025101203",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        2,
+        7
+      ]
     }
   }
 ]
