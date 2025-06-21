@@ -75,7 +75,7 @@
     },
     "routeId": "505067920204",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -172,7 +172,77 @@
     },
     "routeId": "202039920208",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "5170",
+    "arrivalTerminalId": "5092",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        5800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "법전"
+        },
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "부대앞"
+        },
+        {
+          "name": "상운"
+        },
+        {
+          "name": "원천"
+        },
+        {
+          "name": "옹천"
+        },
+        {
+          "name": "안기동"
+        },
+        {
+          "name": "태화오거리"
+        },
+        {
+          "name": "안동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505170504301",
+    "pattern": {
+      "type": "unknown"
     }
   }
 ]

@@ -36,10 +36,7 @@
           "name": "사천"
         },
         {
-          "name": "합천"
-        },
-        {
-          "name": "대구서부"
+          "name": "서울남부"
         }
       ]
     ],
@@ -52,9 +49,12 @@
         "시외우등"
       ]
     },
-    "routeId": "606016920405",
+    "routeId": "606016000408",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5
+      ]
     }
   },
   {
@@ -68,7 +68,7 @@
     ],
     "departureTime": {
       "hour": 9,
-      "minute": 30
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -94,7 +94,10 @@
           "name": "사천"
         },
         {
-          "name": "서울남부"
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
         }
       ]
     ],
@@ -107,9 +110,18 @@
         "시외우등"
       ]
     },
-    "routeId": "606016000408",
+    "routeId": "606016920405",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -172,7 +184,16 @@
     },
     "routeId": "606016950304",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -230,7 +251,16 @@
     },
     "routeId": "606016920405",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -306,6 +336,69 @@
       "경전_동일"
     ],
     "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "항공청(경전)"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606016000408",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6016",
+    "arrivalTerminalId": "6919",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
       "hour": 17,
       "minute": 0
     },
@@ -351,64 +444,12 @@
     },
     "routeId": "606016000409",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6016",
-    "arrivalTerminalId": "6919",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "삼천포"
-        },
-        {
-          "name": "항공청(경전)"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606016000408",
-    "pattern": {
       "type": "specific-day",
       "days": [
-        5
+        1,
+        2,
+        3,
+        4
       ]
     }
   }

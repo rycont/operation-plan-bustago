@@ -75,7 +75,16 @@
     },
     "routeId": "808001804101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -142,7 +151,16 @@
     },
     "routeId": "808001803801",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -209,7 +227,16 @@
     },
     "routeId": "808001803801",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -297,7 +324,16 @@
     },
     "routeId": "808024900206",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -376,7 +412,16 @@
     },
     "routeId": "808001804101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -443,318 +488,16 @@
     },
     "routeId": "808001803801",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8001",
-    "arrivalTerminalId": "8056",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜광우고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2400
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1900
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강진"
-        },
-        {
-          "name": "장흥"
-        },
-        {
-          "name": "배산"
-        },
-        {
-          "name": "보성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808001803101",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8001",
-    "arrivalTerminalId": "8056",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2400
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강진"
-        },
-        {
-          "name": "장흥"
-        },
-        {
-          "name": "배산"
-        },
-        {
-          "name": "보성"
-        },
-        {
-          "name": "예당"
-        },
-        {
-          "name": "조성"
-        },
-        {
-          "name": "벌교"
-        },
-        {
-          "name": "순천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808001803801",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8001",
-    "arrivalTerminalId": "8056",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜광우고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2400
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강진"
-        },
-        {
-          "name": "장흥"
-        },
-        {
-          "name": "배산"
-        },
-        {
-          "name": "보성"
-        },
-        {
-          "name": "예당"
-        },
-        {
-          "name": "조성"
-        },
-        {
-          "name": "벌교"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "순천역"
-        },
-        {
-          "name": "덕양"
-        },
-        {
-          "name": "여천"
-        },
-        {
-          "name": "여수"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808001804101",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8001",
-    "arrivalTerminalId": "8056",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜광우고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2400
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강진"
-        },
-        {
-          "name": "장흥"
-        },
-        {
-          "name": "배산"
-        },
-        {
-          "name": "보성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808001803101",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8001",
-    "arrivalTerminalId": "8056",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜광우고속"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2400
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강진"
-        },
-        {
-          "name": "장흥"
-        },
-        {
-          "name": "배산"
-        },
-        {
-          "name": "보성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808001803101",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -845,16 +588,75 @@
     },
     "routeId": "808050900209",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         3,
         5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8001",
+    "arrivalTerminalId": "8056",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2400
       ],
-      "irregularDays": [
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808001803101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        4
+        3,
+        4,
+        5,
+        6,
+        7
       ]
     }
   },
@@ -946,16 +748,303 @@
     },
     "routeId": "808050900209",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         3,
         5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8001",
+    "arrivalTerminalId": "8056",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2400
       ],
-      "irregularDays": [
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808001803801",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        4
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8001",
+    "arrivalTerminalId": "8056",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2400
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "순천역"
+        },
+        {
+          "name": "덕양"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808001804101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8001",
+    "arrivalTerminalId": "8056",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2400
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808001803101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8001",
+    "arrivalTerminalId": "8056",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜광우고속"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2400
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808001803101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
       ]
     }
   },
