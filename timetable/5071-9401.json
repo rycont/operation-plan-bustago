@@ -125,13 +125,16 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        31000
+        31000,
+        40300
       ],
       "초등생": [
-        15500
+        15500,
+        20200
       ],
       "중고생": [
-        24800
+        24800,
+        32200
       ]
     },
     "stops": [
@@ -150,10 +153,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        21,
         28
       ],
       "busClass": [
-        "시외우등"
+        "시외우등",
+        "프리미엄우등"
       ]
     },
     "routeId": "505071940101",
@@ -172,61 +177,6 @@
     ],
     "departureTime": {
       "hour": 15,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        31000
-      ],
-      "초등생": [
-        15500
-      ],
-      "중고생": [
-        24800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주(고속터미널)"
-        },
-        {
-          "name": "광주고속(전남)"
-        },
-        {
-          "name": "목포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505071802401",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5071",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 18,
       "minute": 10
     },
     "isTemporaryRoute": false,
@@ -320,11 +270,68 @@
     },
     "routeId": "505071940101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        5
       ]
+    }
+  },
+  {
+    "departureTerminalId": "5071",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      250
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31000
+      ],
+      "초등생": [
+        15500
+      ],
+      "중고생": [
+        24800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주(고속터미널)"
+        },
+        {
+          "name": "광주고속(전남)"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071802401",
+    "pattern": {
+      "type": "everyday"
     }
   },
   {
