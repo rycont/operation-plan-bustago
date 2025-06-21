@@ -54,7 +54,14 @@
     },
     "routeId": "909009101502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
     }
   },
   {
@@ -116,7 +123,14 @@
     },
     "routeId": "909009101502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
     }
   },
   {
@@ -174,7 +188,14 @@
     },
     "routeId": "909009101502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
     }
   },
   {
@@ -236,7 +257,14 @@
     },
     "routeId": "909009101502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
     }
   },
   {
@@ -294,7 +322,75 @@
     },
     "routeId": "909009101502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9001",
+    "arrivalTerminalId": "1023",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33500
+      ],
+      "초등생": [
+        16800
+      ],
+      "중고생": [
+        26800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001101501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        5,
+        6
+      ]
     }
   },
   {
@@ -352,7 +448,14 @@
     },
     "routeId": "909009101502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
     }
   },
   {
@@ -410,62 +513,14 @@
     },
     "routeId": "909009101502",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9001",
-    "arrivalTerminalId": "1023",
-    "durationInMinutes": [
-      240
-    ],
-    "operator": [
-      "경남고속뉴부산"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        33500
-      ],
-      "초등생": [
-        16800
-      ],
-      "중고생": [
-        26800
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        5,
+        6
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산동부"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909001101501",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
