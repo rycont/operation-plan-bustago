@@ -9,91 +9,6 @@
       "공통"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1000
-      ],
-      "초등생": [
-        500
-      ],
-      "중고생": [
-        800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주부산교통"
-        },
-        {
-          "name": "원지"
-        },
-        {
-          "name": "단성"
-        },
-        {
-          "name": "배양"
-        },
-        {
-          "name": "도평"
-        },
-        {
-          "name": "소남"
-        },
-        {
-          "name": "관정"
-        },
-        {
-          "name": "남사"
-        },
-        {
-          "name": "구산"
-        },
-        {
-          "name": "입석"
-        },
-        {
-          "name": "용두"
-        },
-        {
-          "name": "진자"
-        },
-        {
-          "name": "운리"
-        },
-        {
-          "name": "청계리"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606039617203",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6282",
-    "arrivalTerminalId": "6162",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
       "hour": 6,
       "minute": 20
     },
@@ -187,7 +102,16 @@
     },
     "routeId": "606282622202",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -287,7 +211,16 @@
     },
     "routeId": "606282623301",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -393,7 +326,16 @@
     },
     "routeId": "606282622201",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -475,7 +417,16 @@
     },
     "routeId": "606282659101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -581,7 +532,16 @@
     },
     "routeId": "606282622201",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -681,7 +641,110 @@
     },
     "routeId": "606282623301",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6282",
+    "arrivalTerminalId": "6162",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1000
+      ],
+      "초등생": [
+        500
+      ],
+      "중고생": [
+        800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "단성"
+        },
+        {
+          "name": "배양"
+        },
+        {
+          "name": "도평"
+        },
+        {
+          "name": "소남"
+        },
+        {
+          "name": "관정"
+        },
+        {
+          "name": "남사"
+        },
+        {
+          "name": "구산"
+        },
+        {
+          "name": "입석"
+        },
+        {
+          "name": "용두"
+        },
+        {
+          "name": "진자"
+        },
+        {
+          "name": "운리"
+        },
+        {
+          "name": "청계리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606039617203",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -787,7 +850,16 @@
     },
     "routeId": "606282622201",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -887,7 +959,16 @@
     },
     "routeId": "606282623301",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -993,7 +1074,16 @@
     },
     "routeId": "606282622201",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1093,7 +1183,16 @@
     },
     "routeId": "606282623301",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1199,7 +1298,16 @@
     },
     "routeId": "606282622201",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1299,7 +1407,16 @@
     },
     "routeId": "606282623301",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1405,7 +1522,16 @@
     },
     "routeId": "606282622201",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1505,7 +1631,16 @@
     },
     "routeId": "606282623301",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1611,7 +1746,16 @@
     },
     "routeId": "606282622201",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1711,7 +1855,16 @@
     },
     "routeId": "606282623301",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1817,7 +1970,16 @@
     },
     "routeId": "606282622201",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1923,7 +2085,16 @@
     },
     "routeId": "606282622201",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -2014,7 +2185,16 @@
     },
     "routeId": "606282659102",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   }
 ]
