@@ -16,12 +16,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        21300,
         27700
       ],
       "초등생": [
+        10700,
         13900
       ],
       "중고생": [
+        17000,
         22200
       ]
     },
@@ -41,22 +44,27 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        28,
+        40
       ],
       "busClass": [
-        "시외우등"
+        "시외우등",
+        "일반"
       ]
     },
     "routeId": "202051100701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -115,14 +123,17 @@
     },
     "routeId": "202051100701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -176,14 +187,17 @@
     },
     "routeId": "202051100701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -237,14 +251,17 @@
     },
     "routeId": "202051100701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -265,12 +282,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        21300,
         27700
       ],
       "초등생": [
+        10700,
         13900
       ],
       "중고생": [
+        17000,
         22200
       ]
     },
@@ -290,22 +310,27 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        28,
+        40
       ],
       "busClass": [
-        "시외우등"
+        "시외우등",
+        "일반"
       ]
     },
     "routeId": "202051100701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   }
