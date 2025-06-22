@@ -102,7 +102,7 @@
     },
     "routeId": "606687900202",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -208,7 +208,7 @@
     },
     "routeId": "606687900202",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -305,7 +305,7 @@
     },
     "routeId": "606233900201",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   },
   {
@@ -411,7 +411,62 @@
     },
     "routeId": "606687900202",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "6681",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산,영화"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14300
+      ],
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "덕산(농협)"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "진주부산교통"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606681900201",
+    "pattern": {
+      "type": "unknown"
     }
   }
 ]

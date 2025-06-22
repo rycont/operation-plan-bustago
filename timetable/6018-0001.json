@@ -48,7 +48,16 @@
     },
     "routeId": "909009000105",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -100,7 +109,15 @@
     },
     "routeId": "909009000105",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -156,7 +173,15 @@
     },
     "routeId": "909009000105",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -208,7 +233,15 @@
     },
     "routeId": "909009000105",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -264,7 +297,15 @@
     },
     "routeId": "909009000105",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -316,7 +357,15 @@
     },
     "routeId": "909009000105",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -368,7 +417,15 @@
     },
     "routeId": "909009000105",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -420,7 +477,15 @@
     },
     "routeId": "909009000105",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -472,7 +537,70 @@
     },
     "routeId": "909009000105",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6018",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      250
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        36800
+      ],
+      "초등생": [
+        18400
+      ],
+      "중고생": [
+        29400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대(수도권)"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909009000105",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   }
 ]

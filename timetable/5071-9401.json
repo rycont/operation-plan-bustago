@@ -51,7 +51,15 @@
     },
     "routeId": "505071802401",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -106,7 +114,15 @@
     },
     "routeId": "505071802401",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -125,16 +141,13 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        31000,
-        40300
+        31000
       ],
       "초등생": [
-        15500,
-        20200
+        15500
       ],
       "중고생": [
-        24800,
-        32200
+        24800
       ]
     },
     "stops": [
@@ -153,17 +166,78 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         28
       ],
       "busClass": [
-        "시외우등",
-        "프리미엄우등"
+        "시외우등"
       ]
     },
     "routeId": "505071940101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5071",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      250
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31000
+      ],
+      "초등생": [
+        15500
+      ],
+      "중고생": [
+        24800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "광주고속(전남)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071940101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -218,64 +292,14 @@
     },
     "routeId": "505071802401",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5071",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        31000
-      ],
-      "초등생": [
-        15500
-      ],
-      "중고생": [
-        24800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "광주고속(전남)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505071940101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        4,
+        5,
+        6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -331,7 +355,15 @@
     },
     "routeId": "505071802401",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -344,8 +376,8 @@
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 13,
-      "minute": 30
+      "hour": 17,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -385,7 +417,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6
+        5,
+        7
       ]
     }
   }
