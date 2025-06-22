@@ -54,7 +54,16 @@
     },
     "routeId": "000004645507",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -106,7 +115,16 @@
     },
     "routeId": "000004602901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -158,7 +176,16 @@
     },
     "routeId": "000004602901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -210,7 +237,16 @@
     },
     "routeId": "000004602901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -229,16 +265,13 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        26300,
-        34200
+        26300
       ],
       "초등생": [
-        13200,
-        17100
+        13200
       ],
       "중고생": [
-        21000,
-        27400
+        21000
       ]
     },
     "stops": [
@@ -260,13 +293,21 @@
         28
       ],
       "busClass": [
-        "시외우등",
         "일반"
       ]
     },
     "routeId": "000004602901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -318,7 +359,16 @@
     },
     "routeId": "000004602901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -370,7 +420,16 @@
     },
     "routeId": "000004602901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -422,7 +481,16 @@
     },
     "routeId": "000004602901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -474,7 +542,16 @@
     },
     "routeId": "000004602901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -526,7 +603,16 @@
     },
     "routeId": "000004602901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -584,69 +670,15 @@
     },
     "routeId": "000004645507",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "6002",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경원여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        41100,
-        44500
-      ],
-      "초등생": [
-        20600,
-        22300
-      ],
-      "중고생": [
-        32900,
-        35600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "고성"
-        },
-        {
-          "name": "통영터미널"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등",
-        "프리미엄우등(주말)"
-      ]
-    },
-    "routeId": "000004602901",
-    "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         2,
         3,
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   }

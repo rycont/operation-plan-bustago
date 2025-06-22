@@ -9,8 +9,8 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 30
+      "hour": 7,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -30,9 +30,6 @@
           "name": "서울남부"
         },
         {
-          "name": "죽전(경전)"
-        },
-        {
           "name": "사천"
         },
         {
@@ -43,9 +40,6 @@
         },
         {
           "name": "용현"
-        },
-        {
-          "name": "사천(케이블카)"
         },
         {
           "name": "삼천포"
@@ -61,11 +55,11 @@
         "시외우등"
       ]
     },
-    "routeId": "000004601617",
+    "routeId": "000004601616",
     "pattern": {
       "type": "specific-day",
       "days": [
-        7
+        6
       ]
     }
   },
@@ -193,7 +187,14 @@
     },
     "routeId": "000004601616",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     }
   },
   {
@@ -254,7 +255,13 @@
     },
     "routeId": "000004601616",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ]
     }
   },
   {
@@ -267,8 +274,8 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 0
+      "hour": 8,
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -288,6 +295,9 @@
           "name": "서울남부"
         },
         {
+          "name": "죽전(경전)"
+        },
+        {
           "name": "사천"
         },
         {
@@ -298,6 +308,9 @@
         },
         {
           "name": "용현"
+        },
+        {
+          "name": "사천(케이블카)"
         },
         {
           "name": "삼천포"
@@ -313,11 +326,11 @@
         "시외우등"
       ]
     },
-    "routeId": "000004601616",
+    "routeId": "000004601617",
     "pattern": {
       "type": "specific-day",
       "days": [
-        6
+        7
       ]
     }
   }
