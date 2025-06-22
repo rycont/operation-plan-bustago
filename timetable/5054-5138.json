@@ -57,7 +57,16 @@
     },
     "routeId": "505054000101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -118,7 +127,16 @@
     },
     "routeId": "505054000101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -179,78 +197,15 @@
     },
     "routeId": "505054000101",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5054",
-    "arrivalTerminalId": "5138",
-    "durationInMinutes": [
-      23
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산동부"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "울진"
-        },
-        {
-          "name": "부구"
-        },
-        {
-          "name": "태백"
-        },
-        {
-          "name": "고한사북공영"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909001204903",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4,
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        1,
-        6
       ]
     }
   },
@@ -306,7 +261,16 @@
     },
     "routeId": "505054000110",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -367,7 +331,84 @@
     },
     "routeId": "505054000101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5054",
+    "arrivalTerminalId": "5138",
+    "durationInMinutes": [
+      23
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "울진"
+        },
+        {
+          "name": "부구"
+        },
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909001204903",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   }
 ]

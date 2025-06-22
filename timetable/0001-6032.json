@@ -54,14 +54,16 @@
     },
     "routeId": "000001626401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -121,14 +123,16 @@
     },
     "routeId": "000001626401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -188,14 +192,16 @@
     },
     "routeId": "000001626401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -255,14 +261,16 @@
     },
     "routeId": "000001603201",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -322,14 +330,16 @@
     },
     "routeId": "000001626401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -389,14 +399,16 @@
     },
     "routeId": "000001603201",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -456,14 +468,16 @@
     },
     "routeId": "000001626401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -523,14 +537,16 @@
     },
     "routeId": "000001626401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -590,14 +606,16 @@
     },
     "routeId": "000001626401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -657,14 +675,157 @@
     },
     "routeId": "000001603201",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "6032",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜함양지리산고속"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35200
+      ],
+      "초등생": [
+        17600
+      ],
+      "중고생": [
+        28200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "뱀사골"
+        },
+        {
+          "name": "달궁"
+        },
+        {
+          "name": "노고단(성삼재)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "000001825505",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "6032",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "㈜함양지리산고속"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        56700
+      ],
+      "초등생": [
+        22900
+      ],
+      "중고생": [
+        36600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "함양"
+        },
+        {
+          "name": "인월"
+        },
+        {
+          "name": "마천"
+        },
+        {
+          "name": "백무동"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄심야우등"
+      ]
+    },
+    "routeId": "000001626401",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
         7
       ]
     }
@@ -737,76 +898,6 @@
     "departureTerminalId": "0001",
     "arrivalTerminalId": "6032",
     "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜함양지리산고속"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35200
-      ],
-      "초등생": [
-        17600
-      ],
-      "중고생": [
-        28200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "함양"
-        },
-        {
-          "name": "인월"
-        },
-        {
-          "name": "뱀사골"
-        },
-        {
-          "name": "달궁"
-        },
-        {
-          "name": "노고단(성삼재)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야우등1"
-      ]
-    },
-    "routeId": "000001825505",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "6032",
-    "durationInMinutes": [
       180
     ],
     "operator": [
@@ -861,73 +952,6 @@
       "type": "specific-day",
       "days": [
         5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "6032",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "㈜함양지리산고속"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        56700
-      ],
-      "초등생": [
-        22900
-      ],
-      "중고생": [
-        36600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "함양"
-        },
-        {
-          "name": "인월"
-        },
-        {
-          "name": "마천"
-        },
-        {
-          "name": "백무동"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄심야우등"
-      ]
-    },
-    "routeId": "000001626401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
       ]
     }
   }

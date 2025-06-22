@@ -54,7 +54,15 @@
     },
     "routeId": "10b115001001",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -112,7 +120,15 @@
     },
     "routeId": "10b115001001",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -170,7 +186,15 @@
     },
     "routeId": "10b115001001",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -228,71 +252,14 @@
     },
     "routeId": "10b115001001",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "1999",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "군포(부곡)"
-        },
-        {
-          "name": "군포(산본)"
-        },
-        {
-          "name": "범계역(공항버스)"
-        },
-        {
-          "name": "안양역(공항)"
-        },
-        {
-          "name": "김포공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        31
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "10b115001001",
-    "pattern": {
       "type": "specific-day",
       "days": [
         2,
         3,
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   }

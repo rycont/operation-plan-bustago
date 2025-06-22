@@ -54,123 +54,16 @@
     },
     "routeId": "101027203903",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2028",
-    "arrivalTerminalId": "2039",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "화성고속(주)"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23800
-      ],
-      "초등생": [
-        11900
-      ],
-      "중고생": [
-        19000
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "의정부"
-        },
-        {
-          "name": "원주"
-        },
-        {
-          "name": "제천"
-        },
-        {
-          "name": "고한사북공영"
-        },
-        {
-          "name": "태백"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101027203903",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2028",
-    "arrivalTerminalId": "2039",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "화성고속(주)"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 57
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23800
-      ],
-      "초등생": [
-        11900
-      ],
-      "중고생": [
-        19000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "의정부"
-        },
-        {
-          "name": "원주"
-        },
-        {
-          "name": "제천"
-        },
-        {
-          "name": "고한사북공영"
-        },
-        {
-          "name": "태백"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101027203903",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -225,7 +118,14 @@
     },
     "routeId": "101782203901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -286,7 +186,82 @@
     },
     "routeId": "202028203924",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2028",
+    "arrivalTerminalId": "2039",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "화성고속(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23800
+      ],
+      "초등생": [
+        11900
+      ],
+      "중고생": [
+        19000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "의정부"
+        },
+        {
+          "name": "원주"
+        },
+        {
+          "name": "제천"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "태백"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101027203903",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -341,7 +316,14 @@
     },
     "routeId": "101782203901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -396,7 +378,14 @@
     },
     "routeId": "101782203901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -457,7 +446,82 @@
     },
     "routeId": "202028203924",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2028",
+    "arrivalTerminalId": "2039",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "화성고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 57
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23800
+      ],
+      "초등생": [
+        11900
+      ],
+      "중고생": [
+        19000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "의정부"
+        },
+        {
+          "name": "원주"
+        },
+        {
+          "name": "제천"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "태백"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101027203903",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -512,7 +576,14 @@
     },
     "routeId": "101782203901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ]
     }
   }
 ]

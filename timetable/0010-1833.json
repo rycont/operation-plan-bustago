@@ -60,7 +60,15 @@
     },
     "routeId": "000010b14502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -121,7 +129,15 @@
     },
     "routeId": "000010102301",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -185,7 +201,15 @@
     },
     "routeId": "000010b14502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -249,7 +273,15 @@
     },
     "routeId": "000010b14502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -310,7 +342,15 @@
     },
     "routeId": "000010102301",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -374,7 +414,15 @@
     },
     "routeId": "000010b14502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -438,7 +486,15 @@
     },
     "routeId": "000010b14502",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -499,7 +555,15 @@
     },
     "routeId": "000010102301",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -563,140 +627,14 @@
     },
     "routeId": "000010b14502",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0010",
-    "arrivalTerminalId": "1833",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9700
-      ],
-      "초등생": [
-        4900
-      ],
-      "중고생": [
-        6800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "동탄(예당마을)"
-        },
-        {
-          "name": "롯데시네마병점상가"
-        },
-        {
-          "name": "죽미마을입구"
-        },
-        {
-          "name": "오산대역후문"
-        },
-        {
-          "name": "오산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000010102301",
-    "pattern": {
       "type": "specific-day",
       "days": [
         2,
         3,
         4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0010",
-    "arrivalTerminalId": "1833",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9700
-      ],
-      "초등생": [
-        4900
-      ],
-      "중고생": [
-        6800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "동탄(예당마을)"
-        },
-        {
-          "name": "롯데시네마병점상가"
-        },
-        {
-          "name": "죽미마을입구"
-        },
-        {
-          "name": "오산대역후문"
-        },
-        {
-          "name": "오산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000010102301",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        2,
-        3,
-        4,
-        5
+        5,
+        6,
+        7
       ]
     }
   }
