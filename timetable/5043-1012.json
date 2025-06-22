@@ -9,70 +9,6 @@
       "경북고속"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27500
-      ],
-      "초등생": [
-        13800
-      ],
-      "중고생": [
-        19300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안동"
-        },
-        {
-          "name": "영주"
-        },
-        {
-          "name": "영주(풍기)"
-        },
-        {
-          "name": "우만동"
-        },
-        {
-          "name": "수원터미널"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505043101208",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5043",
-    "arrivalTerminalId": "1012",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
       "hour": 9,
       "minute": 25
     },
@@ -121,12 +57,223 @@
     },
     "routeId": "505259101203",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5043",
+    "arrivalTerminalId": "1012",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27500
+      ],
+      "초등생": [
+        13800
+      ],
+      "중고생": [
+        19300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "영주"
+        },
+        {
+          "name": "영주(풍기)"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505259101203",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5043",
+    "arrivalTerminalId": "1012",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27500
+      ],
+      "초등생": [
+        13800
+      ],
+      "중고생": [
+        19300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "안동"
+        },
+        {
+          "name": "영주"
+        },
+        {
+          "name": "영주(풍기)"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505259101203",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5043",
+    "arrivalTerminalId": "1012",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27500
+      ],
+      "초등생": [
+        13800
+      ],
+      "중고생": [
+        19300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안동"
+        },
+        {
+          "name": "영주"
+        },
+        {
+          "name": "영주(풍기)"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505043101208",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
         5,
         6,
         7
@@ -190,77 +337,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        3,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5043",
-    "arrivalTerminalId": "1012",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27500
-      ],
-      "초등생": [
-        13800
-      ],
-      "중고생": [
-        19300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "신도청"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "영주"
-        },
-        {
-          "name": "영주(풍기)"
-        },
-        {
-          "name": "우만동"
-        },
-        {
-          "name": "수원터미널"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505259101203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
         1,
-        2,
         3,
-        4,
         5,
         6,
         7
@@ -324,6 +402,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         3,
         5,
         6,
@@ -388,77 +467,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        3,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5043",
-    "arrivalTerminalId": "1012",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27500
-      ],
-      "초등생": [
-        13800
-      ],
-      "중고생": [
-        19300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "신도청"
-        },
-        {
-          "name": "안동"
-        },
-        {
-          "name": "영주"
-        },
-        {
-          "name": "영주(풍기)"
-        },
-        {
-          "name": "우만동"
-        },
-        {
-          "name": "수원터미널"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505259101203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
         1,
-        2,
         3,
-        4,
         5,
         6,
         7
@@ -522,6 +532,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         3,
         5,
         6,
@@ -586,6 +597,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         3,
         5,
         6,
