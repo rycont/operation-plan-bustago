@@ -57,7 +57,16 @@
     },
     "routeId": "707106000402",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -118,68 +127,16 @@
     },
     "routeId": "707106000402",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "7334",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 26
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15000
-      ],
-      "초등생": [
-        7500
-      ],
-      "중고생": [
-        12000
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "우석대"
-        },
-        {
-          "name": "삼례"
-        },
-        {
-          "name": "삼봉지구"
-        },
-        {
-          "name": "둔산공원"
-        },
-        {
-          "name": "서울(대학생)"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        31
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "707106000402",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -240,7 +197,13 @@
     },
     "routeId": "707106000402",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -301,7 +264,83 @@
     },
     "routeId": "707106000402",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7334",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 26
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15000
+      ],
+      "초등생": [
+        7500
+      ],
+      "중고생": [
+        12000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "우석대"
+        },
+        {
+          "name": "삼례"
+        },
+        {
+          "name": "삼봉지구"
+        },
+        {
+          "name": "둔산공원"
+        },
+        {
+          "name": "서울(대학생)"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        31
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707106000402",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -362,7 +401,13 @@
     },
     "routeId": "707106000402",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        4,
+        5,
+        6,
+        7
+      ]
     }
   }
 ]

@@ -66,7 +66,16 @@
     },
     "routeId": "000001507803",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -127,7 +136,16 @@
     },
     "routeId": "000001505403",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -194,7 +212,16 @@
     },
     "routeId": "000001505401",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -255,7 +282,16 @@
     },
     "routeId": "000001505403",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -325,7 +361,16 @@
     },
     "routeId": "000001507803",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -392,7 +437,16 @@
     },
     "routeId": "000001505401",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -459,7 +513,86 @@
     },
     "routeId": "000001505401",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "5062",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 57
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        36400
+      ],
+      "초등생": [
+        18200
+      ],
+      "중고생": [
+        29100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "임원"
+        },
+        {
+          "name": "호산"
+        },
+        {
+          "name": "부구"
+        },
+        {
+          "name": "죽변"
+        },
+        {
+          "name": "울진"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001505401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   }
 ]
