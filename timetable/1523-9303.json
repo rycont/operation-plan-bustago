@@ -57,7 +57,17 @@
     },
     "routeId": "101028933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -121,7 +131,17 @@
     },
     "routeId": "101021933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -182,7 +202,17 @@
     },
     "routeId": "101028933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -246,7 +276,17 @@
     },
     "routeId": "101021933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -310,7 +350,17 @@
     },
     "routeId": "101021933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -371,7 +421,17 @@
     },
     "routeId": "101028933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -432,7 +492,17 @@
     },
     "routeId": "101028933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -493,7 +563,17 @@
     },
     "routeId": "101028933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -554,7 +634,17 @@
     },
     "routeId": "101028933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -615,7 +705,17 @@
     },
     "routeId": "101028933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -676,7 +776,17 @@
     },
     "routeId": "101028933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -740,7 +850,17 @@
     },
     "routeId": "101021933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -801,7 +921,81 @@
     },
     "routeId": "101028933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1523",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20100
+      ],
+      "초등생": [
+        10100
+      ],
+      "중고생": [
+        16100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "이천"
+        },
+        {
+          "name": "도예촌삼거리"
+        },
+        {
+          "name": "한국관광대"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101028933703",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   },
   {
@@ -862,7 +1056,17 @@
     },
     "routeId": "101028933703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   }
 ]
