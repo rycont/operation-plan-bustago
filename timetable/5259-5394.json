@@ -69,89 +69,17 @@
     },
     "routeId": "505259501603",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5259",
-    "arrivalTerminalId": "5394",
-    "durationInMinutes": [
-      14
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안동"
-        },
-        {
-          "name": "신도청"
-        },
-        {
-          "name": "예천삼거리"
-        },
-        {
-          "name": "예천"
-        },
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "성주"
-        },
-        {
-          "name": "고령"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505043500901",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        2,
-        4,
-        5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -228,15 +156,17 @@
     },
     "routeId": "505054501102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -337,89 +267,17 @@
     },
     "routeId": "505259501601",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5259",
-    "arrivalTerminalId": "5394",
-    "durationInMinutes": [
-      14
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안동"
-        },
-        {
-          "name": "신도청"
-        },
-        {
-          "name": "예천삼거리"
-        },
-        {
-          "name": "예천"
-        },
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "성주"
-        },
-        {
-          "name": "고령"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505043500901",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        2,
-        4,
-        5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -493,15 +351,17 @@
     },
     "routeId": "505259501603",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -602,11 +462,163 @@
     },
     "routeId": "505259501601",
     "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5259",
+    "arrivalTerminalId": "5394",
+    "durationInMinutes": [
+      14
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안동"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "예천삼거리"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "성주"
+        },
+        {
+          "name": "고령"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505043500901",
+    "pattern": {
       "type": "specific-day",
       "days": [
         1,
         2,
-        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5259",
+    "arrivalTerminalId": "5394",
+    "durationInMinutes": [
+      14
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안동"
+        },
+        {
+          "name": "신도청"
+        },
+        {
+          "name": "예천삼거리"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "성주"
+        },
+        {
+          "name": "고령"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505043500901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
         4,
         5,
         6,
