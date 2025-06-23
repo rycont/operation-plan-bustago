@@ -6,99 +6,6 @@
       0
     ],
     "operator": [
-      "㈜동방고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 23
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6300
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "나로도"
-        },
-        {
-          "name": "백양"
-        },
-        {
-          "name": "남성(고흥군)"
-        },
-        {
-          "name": "도화"
-        },
-        {
-          "name": "포두"
-        },
-        {
-          "name": "고흥"
-        },
-        {
-          "name": "과역"
-        },
-        {
-          "name": "벌교"
-        },
-        {
-          "name": "곡천"
-        },
-        {
-          "name": "화순"
-        },
-        {
-          "name": "소태"
-        },
-        {
-          "name": "학동"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808008940102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8004",
-    "arrivalTerminalId": "8244",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "㈜광우고속"
     ],
     "departureTime": {
@@ -159,9 +66,12 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -236,9 +146,12 @@
     },
     "routeId": "808011940112",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -313,9 +226,12 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -390,9 +306,12 @@
     },
     "routeId": "808011940112",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -467,9 +386,12 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -544,9 +466,12 @@
     },
     "routeId": "808011940112",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -621,13 +546,109 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8004",
+    "arrivalTerminalId": "8244",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 23
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6300
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "나로도"
+        },
+        {
+          "name": "백양"
+        },
+        {
+          "name": "남성(고흥군)"
+        },
+        {
+          "name": "도화"
+        },
+        {
+          "name": "포두"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "곡천"
+        },
+        {
+          "name": "화순"
+        },
+        {
+          "name": "소태"
+        },
+        {
+          "name": "학동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808008940102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6
       ]
     }
   },
@@ -698,9 +719,12 @@
     },
     "routeId": "808011940112",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -775,9 +799,12 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -852,9 +879,12 @@
     },
     "routeId": "808011940112",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -929,9 +959,12 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -1006,9 +1039,12 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -1083,9 +1119,12 @@
     },
     "routeId": "808011940112",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -1160,9 +1199,12 @@
     },
     "routeId": "808011940112",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -1237,9 +1279,12 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -1314,9 +1359,12 @@
     },
     "routeId": "808011940112",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -1391,9 +1439,12 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -1468,9 +1519,12 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
@@ -1545,9 +1599,12 @@
     },
     "routeId": "808011940113",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
