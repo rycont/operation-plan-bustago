@@ -9,61 +9,6 @@
       "새서울고속"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "청주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000004301501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "3015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
       "hour": 8,
       "minute": 20
     },
@@ -102,10 +47,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -162,10 +107,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -222,10 +167,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -282,10 +227,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -342,10 +287,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -441,10 +386,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -501,10 +446,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -561,10 +506,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -639,10 +584,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -699,10 +644,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -759,10 +704,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -858,10 +803,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -918,10 +863,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         5,
         6
       ]
@@ -975,10 +920,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1053,10 +998,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1113,10 +1058,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1173,14 +1118,69 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
         5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000004301501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         6
       ]
     }

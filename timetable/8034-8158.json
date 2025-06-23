@@ -59,15 +59,83 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
         5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8034",
+    "arrivalTerminalId": "8158",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4300
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "진도"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401805912",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        7
       ]
     }
   },
@@ -131,10 +199,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -209,10 +277,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -284,10 +352,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -356,10 +424,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -428,10 +496,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -500,10 +568,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -572,10 +640,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -644,10 +712,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -716,10 +784,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -788,80 +856,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
         5,
         6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8034",
-    "arrivalTerminalId": "8158",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4300
-      ],
-      "초등생": [
-        2200
-      ],
-      "중고생": [
-        3400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "남악"
-        },
-        {
-          "name": "삼호"
-        },
-        {
-          "name": "우수영"
-        },
-        {
-          "name": "녹진"
-        },
-        {
-          "name": "진도"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "949401805912",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        7
       ]
     }
   }

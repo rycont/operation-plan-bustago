@@ -54,15 +54,78 @@
     },
     "routeId": "303017100708",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3017",
+    "arrivalTerminalId": "1007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13400
+      ],
+      "초등생": [
+        6700
+      ],
+      "중고생": [
+        10700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "충주"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "부천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303017100708",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
       ]
     }
   },
@@ -126,7 +189,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3,
         4,
