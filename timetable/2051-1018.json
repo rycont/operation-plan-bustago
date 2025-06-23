@@ -16,12 +16,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        19100,
         24800
       ],
       "초등생": [
+        9600,
         12400
       ],
       "중고생": [
+        15300,
         19800
       ]
     },
@@ -41,15 +44,25 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        28,
+        40
       ],
       "busClass": [
-        "시외우등"
+        "시외우등",
+        "일반"
       ]
     },
     "routeId": "202051100701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -102,7 +115,15 @@
     },
     "routeId": "202051100701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -155,7 +176,15 @@
     },
     "routeId": "202051100701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -208,7 +237,15 @@
     },
     "routeId": "202051100701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -261,7 +298,15 @@
     },
     "routeId": "202051100701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   }
 ]
