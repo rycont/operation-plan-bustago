@@ -51,15 +51,17 @@
     },
     "routeId": "000004301001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -115,15 +117,17 @@
     },
     "routeId": "000004301001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -179,15 +183,17 @@
     },
     "routeId": "000004301001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -243,15 +249,17 @@
     },
     "routeId": "000004301001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -307,11 +315,13 @@
     },
     "routeId": "000004301001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        5,
+        6
       ]
     }
   },
@@ -367,15 +377,17 @@
     },
     "routeId": "000004301001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -431,15 +443,17 @@
     },
     "routeId": "000004301001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -495,271 +509,17 @@
     },
     "routeId": "000004301001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "3010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10800
-      ],
-      "초등생": [
-        5400
-      ],
-      "중고생": [
-        8600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "무극"
-        },
-        {
-          "name": "음성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000004301001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "3010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10800
-      ],
-      "초등생": [
-        5400
-      ],
-      "중고생": [
-        8600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "무극"
-        },
-        {
-          "name": "음성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000004301001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "3010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대성고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10800
-      ],
-      "초등생": [
-        5400
-      ],
-      "중고생": [
-        8600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "무극"
-        },
-        {
-          "name": "음성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000004301001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "3010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10800
-      ],
-      "초등생": [
-        5400
-      ],
-      "중고생": [
-        8600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "무극"
-        },
-        {
-          "name": "음성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000004301001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -818,6 +578,270 @@
       "type": "specific-day",
       "days": [
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "3010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10800
+      ],
+      "초등생": [
+        5400
+      ],
+      "중고생": [
+        8600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "무극"
+        },
+        {
+          "name": "음성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000004301001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "3010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10800
+      ],
+      "초등생": [
+        5400
+      ],
+      "중고생": [
+        8600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "무극"
+        },
+        {
+          "name": "음성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000004301001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "3010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10800
+      ],
+      "초등생": [
+        5400
+      ],
+      "중고생": [
+        8600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "무극"
+        },
+        {
+          "name": "음성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000004301001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "3010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10800
+      ],
+      "초등생": [
+        5400
+      ],
+      "중고생": [
+        8600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "무극"
+        },
+        {
+          "name": "음성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000004301001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
       ]
     }
   }
