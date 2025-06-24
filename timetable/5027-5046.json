@@ -56,79 +56,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5027",
-    "arrivalTerminalId": "5046",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2500
-      ],
-      "초등생": [
-        1300
-      ],
-      "중고생": [
-        2300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "춘양"
-        },
-        {
-          "name": "법전"
-        },
-        {
-          "name": "봉화"
-        },
-        {
-          "name": "영주"
-        },
-        {
-          "name": "대구북부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505067920203",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -189,13 +120,85 @@
     },
     "routeId": "505027504601",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
         4,
         5,
         6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5027",
+    "arrivalTerminalId": "5046",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2500
+      ],
+      "초등생": [
+        1300
+      ],
+      "중고생": [
+        2300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "춘양"
+        },
+        {
+          "name": "법전"
+        },
+        {
+          "name": "봉화"
+        },
+        {
+          "name": "영주"
+        },
+        {
+          "name": "대구북부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505067920203",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6
       ]
     }
   }
