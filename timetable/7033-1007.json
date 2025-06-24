@@ -51,9 +51,11 @@
     },
     "routeId": "707033100701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         6,
         7
       ]
@@ -114,9 +116,11 @@
     },
     "routeId": "707033100704",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         4,
@@ -175,9 +179,11 @@
     },
     "routeId": "707033100702",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         4,
@@ -239,66 +245,14 @@
     },
     "routeId": "707033100701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "7033",
-    "arrivalTerminalId": "1007",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25000
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        20000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "전주"
-        },
-        {
-          "name": "부천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "707033100703",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
         5,
         6,
         7
@@ -351,9 +305,11 @@
     },
     "routeId": "707033100703",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         4,
@@ -415,9 +371,11 @@
     },
     "routeId": "707033100701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         4,
@@ -479,9 +437,11 @@
     },
     "routeId": "707033100701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         6,
         7
       ]
@@ -539,12 +499,68 @@
     },
     "routeId": "707033100701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7033",
+    "arrivalTerminalId": "1007",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25000
+      ],
+      "초등생": [
+        12500
+      ],
+      "중고생": [
+        20000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "부천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707033100703",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         5,
         6,
         7
