@@ -51,10 +51,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -113,10 +113,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6
       ],
       "irregularDays": [
-        2,
         3,
         4
       ]
@@ -183,11 +183,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -249,11 +249,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -314,11 +314,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4
       ]
@@ -381,10 +381,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -452,11 +452,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -518,11 +518,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -581,10 +581,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6
       ],
       "irregularDays": [
-        2,
         3,
         4
       ]
@@ -597,7 +597,7 @@
       0
     ],
     "operator": [
-      "부산교통㈜"
+      "경원여객(자주)"
     ],
     "departureTime": {
       "hour": 9,
@@ -606,13 +606,13 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        0
+        2400
       ],
       "초등생": [
-        0
+        1200
       ],
       "중고생": [
-        0
+        1900
       ]
     },
     "stops": [
@@ -621,32 +621,41 @@
           "name": "삼천포"
         },
         {
+          "name": "용현"
+        },
+        {
           "name": "사천"
         },
         {
-          "name": "양산"
+          "name": "사천공항"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
         }
       ]
     ],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        41
+        45
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "606016601801",
+    "routeId": "606016602802",
     "pattern": {
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -711,11 +720,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -777,83 +786,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6016",
-    "arrivalTerminalId": "6014",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경원여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2400
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "삼천포"
-        },
-        {
-          "name": "용현"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "사천공항"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "창원"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606016602802",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
         3,
         4,
         5
@@ -915,11 +852,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4
       ]
@@ -980,11 +917,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -1052,77 +989,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6016",
-    "arrivalTerminalId": "6014",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3300
-      ],
-      "초등생": [
-        1700
-      ],
-      "중고생": [
-        2600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "삼천포"
-        },
-        {
-          "name": "용현"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606016900201",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
         3,
         4,
         5
@@ -1183,12 +1054,78 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
         3,
         4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6016",
+    "arrivalTerminalId": "6014",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "용현"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606016900201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5
       ]
     }
   },
@@ -1253,11 +1190,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -1319,11 +1256,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -1384,10 +1321,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
         3,
         4
       ]
@@ -1448,11 +1385,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -1520,11 +1457,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -1586,11 +1523,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -1660,11 +1597,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -1725,75 +1662,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
         3,
         4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6016",
-    "arrivalTerminalId": "6014",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "부산교통㈜"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "삼천포"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "양산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606016601801",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4,
-        5
       ]
     }
   },
@@ -1852,11 +1726,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -1921,11 +1795,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -1987,11 +1861,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -2059,11 +1933,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -2127,10 +2001,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
         3,
         4
       ]
@@ -2191,11 +2065,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -2263,11 +2137,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -2329,11 +2203,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -2401,11 +2275,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -2467,11 +2341,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -2530,11 +2404,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4
       ]
@@ -2595,11 +2469,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -2667,11 +2541,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -2729,6 +2603,132 @@
       ]
     },
     "routeId": "606016900201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6016",
+    "arrivalTerminalId": "6014",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "양산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606016601801",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6016",
+    "arrivalTerminalId": "6014",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "양산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606016601801",
     "pattern": {
       "type": "irregular",
       "fixedDays": [

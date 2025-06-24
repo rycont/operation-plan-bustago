@@ -1582,69 +1582,6 @@
     ],
     "departureTime": {
       "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15400
-      ],
-      "초등생": [
-        7700
-      ],
-      "중고생": [
-        12300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "여수"
-        },
-        {
-          "name": "여천"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808041940103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8042",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      93
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 17,
       "minute": 10
     },
     "isTemporaryRoute": false,
@@ -2077,6 +2014,68 @@
       ],
       "irregularDays": [
         2,
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8042",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      93
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15400
+      ],
+      "초등생": [
+        7700
+      ],
+      "중고생": [
+        12300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "여수"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808041940103",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6
+      ],
+      "irregularDays": [
         3,
         4,
         5,
