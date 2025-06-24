@@ -51,10 +51,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -116,10 +116,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         7
@@ -180,10 +181,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         7
@@ -244,10 +246,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         7
@@ -330,10 +333,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -413,10 +416,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         7
@@ -477,10 +481,221 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "5060",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "문경"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071301702",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "5060",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "점촌"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001506002",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "5060",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "점촌"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909001506002",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2
+      ],
+      "irregularDays": [
+        3,
         4,
         5,
         7
@@ -560,213 +775,7 @@
       ],
       "irregularDays": [
         2,
-        4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "5060",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        8900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "구미주공"
-        },
-        {
-          "name": "구미공단"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "문경"
-        },
-        {
-          "name": "충주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505071301702",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
-        4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "5060",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        8900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산동부"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "점촌"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909001506002",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
-        4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "5060",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        8900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산동부"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "점촌"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909001506002",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
+        3,
         4,
         5,
         7
