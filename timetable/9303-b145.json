@@ -75,11 +75,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -163,11 +163,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -251,11 +251,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -339,11 +339,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -427,11 +427,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -515,11 +515,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -603,11 +603,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -691,15 +691,97 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "b145",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "용남고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16800
+      ],
+      "초등생": [
+        8400
+      ],
+      "중고생": [
+        11800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "병점중심상가"
+        },
+        {
+          "name": "동탄(모아미래도)"
+        },
+        {
+          "name": "동탄(능동마을)"
+        },
+        {
+          "name": "동탄(다은마을)"
+        },
+        {
+          "name": "동탄(신라스테이호텔)"
+        },
+        {
+          "name": "동탄(라마다호텔)"
+        },
+        {
+          "name": "동탄역(롯데캐슬)"
+        },
+        {
+          "name": "동탄(호수부영3차)"
+        },
+        {
+          "name": "동탄(자이파밀리에)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337b14502",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        5,
+        7
       ]
     }
   },
@@ -779,15 +861,97 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "b145",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "용남고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16800
+      ],
+      "초등생": [
+        8400
+      ],
+      "중고생": [
+        11800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "병점중심상가"
+        },
+        {
+          "name": "동탄(모아미래도)"
+        },
+        {
+          "name": "동탄(능동마을)"
+        },
+        {
+          "name": "동탄(다은마을)"
+        },
+        {
+          "name": "동탄(신라스테이호텔)"
+        },
+        {
+          "name": "동탄(라마다호텔)"
+        },
+        {
+          "name": "동탄역(롯데캐슬)"
+        },
+        {
+          "name": "동탄(호수부영3차)"
+        },
+        {
+          "name": "동탄(자이파밀리에)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337b14502",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        5,
+        7
       ]
     }
   },
@@ -865,11 +1029,12 @@
     },
     "routeId": "939337b14502",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
-        3,
         4,
         6,
         7
@@ -952,11 +1117,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -1038,94 +1203,12 @@
     },
     "routeId": "939337b14502",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "b145",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "용남고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16800
-      ],
-      "초등생": [
-        8400
-      ],
-      "중고생": [
-        11800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "병점중심상가"
-        },
-        {
-          "name": "동탄(모아미래도)"
-        },
-        {
-          "name": "동탄(능동마을)"
-        },
-        {
-          "name": "동탄(다은마을)"
-        },
-        {
-          "name": "동탄(신라스테이호텔)"
-        },
-        {
-          "name": "동탄(라마다호텔)"
-        },
-        {
-          "name": "동탄역(롯데캐슬)"
-        },
-        {
-          "name": "동탄(호수부영3차)"
-        },
-        {
-          "name": "동탄(자이파밀리에)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337b14502",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
         4,
         6,
         7
@@ -1208,11 +1291,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -1296,11 +1379,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -1384,11 +1467,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -1472,11 +1555,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -1560,11 +1643,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -1648,11 +1731,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -1736,11 +1819,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -1824,11 +1907,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -1912,15 +1995,97 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "b145",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "용남고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16800
+      ],
+      "초등생": [
+        8400
+      ],
+      "중고생": [
+        11800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "병점중심상가"
+        },
+        {
+          "name": "동탄(모아미래도)"
+        },
+        {
+          "name": "동탄(능동마을)"
+        },
+        {
+          "name": "동탄(다은마을)"
+        },
+        {
+          "name": "동탄(신라스테이호텔)"
+        },
+        {
+          "name": "동탄(라마다호텔)"
+        },
+        {
+          "name": "동탄역(롯데캐슬)"
+        },
+        {
+          "name": "동탄(호수부영3차)"
+        },
+        {
+          "name": "동탄(자이파밀리에)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337b14502",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        5,
+        7
       ]
     }
   },
@@ -1998,11 +2163,12 @@
     },
     "routeId": "939337b14502",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
-        3,
         4,
         6,
         7
@@ -2085,11 +2251,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -2171,94 +2337,12 @@
     },
     "routeId": "939337b14502",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "b145",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "용남고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16800
-      ],
-      "초등생": [
-        8400
-      ],
-      "중고생": [
-        11800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "병점중심상가"
-        },
-        {
-          "name": "동탄(모아미래도)"
-        },
-        {
-          "name": "동탄(능동마을)"
-        },
-        {
-          "name": "동탄(다은마을)"
-        },
-        {
-          "name": "동탄(신라스테이호텔)"
-        },
-        {
-          "name": "동탄(라마다호텔)"
-        },
-        {
-          "name": "동탄역(롯데캐슬)"
-        },
-        {
-          "name": "동탄(호수부영3차)"
-        },
-        {
-          "name": "동탄(자이파밀리에)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337b14502",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
         4,
         6,
         7
@@ -2341,11 +2425,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -2429,11 +2513,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -2517,11 +2601,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -2605,11 +2689,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -2693,11 +2777,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -2781,11 +2865,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -2869,11 +2953,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -2957,11 +3041,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         7
       ],
       "irregularDays": [
         1,
-        2,
         3,
         4,
         5,
@@ -2979,7 +3063,7 @@
       "용남고속"
     ],
     "departureTime": {
-      "hour": 10,
+      "hour": 14,
       "minute": 5
     },
     "isTemporaryRoute": false,
@@ -3044,8 +3128,10 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        3,
-        5,
+        1,
+        2,
+        4,
+        6,
         7
       ]
     }
@@ -3060,8 +3146,8 @@
       "용남고속"
     ],
     "departureTime": {
-      "hour": 11,
-      "minute": 15
+      "hour": 20,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -3125,8 +3211,10 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        3,
-        5,
+        1,
+        2,
+        4,
+        6,
         7
       ]
     }
@@ -3206,6 +3294,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        3,
         5,
         7
       ]
@@ -3222,86 +3311,6 @@
     ],
     "departureTime": {
       "hour": 16,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16800
-      ],
-      "초등생": [
-        8400
-      ],
-      "중고생": [
-        11800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "병점중심상가"
-        },
-        {
-          "name": "동탄(모아미래도)"
-        },
-        {
-          "name": "동탄(능동마을)"
-        },
-        {
-          "name": "동탄(다은마을)"
-        },
-        {
-          "name": "동탄(신라스테이호텔)"
-        },
-        {
-          "name": "동탄(라마다호텔)"
-        },
-        {
-          "name": "동탄역(롯데캐슬)"
-        },
-        {
-          "name": "동탄(호수부영3차)"
-        },
-        {
-          "name": "동탄(자이파밀리에)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337b14502",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "b145",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "용남고속"
-    ],
-    "departureTime": {
-      "hour": 17,
       "minute": 55
     },
     "isTemporaryRoute": false,
@@ -3447,6 +3456,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        3,
         5,
         7
       ]
