@@ -60,10 +60,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -132,10 +133,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -216,10 +218,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -288,10 +291,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -372,10 +376,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -453,94 +458,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4010",
-    "arrivalTerminalId": "4031",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태안"
-        },
-        {
-          "name": "어송"
-        },
-        {
-          "name": "서산"
-        },
-        {
-          "name": "음암"
-        },
-        {
-          "name": "운산"
-        },
-        {
-          "name": "구룡"
-        },
-        {
-          "name": "당진"
-        },
-        {
-          "name": "기지시"
-        },
-        {
-          "name": "신평"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404021101501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -621,14 +543,91 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -693,94 +692,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4010",
-    "arrivalTerminalId": "4031",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태안"
-        },
-        {
-          "name": "어송"
-        },
-        {
-          "name": "서산"
-        },
-        {
-          "name": "음암"
-        },
-        {
-          "name": "운산"
-        },
-        {
-          "name": "구룡"
-        },
-        {
-          "name": "당진"
-        },
-        {
-          "name": "기지시"
-        },
-        {
-          "name": "신평"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "404021101501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -861,10 +777,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -942,10 +859,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -1026,10 +944,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -1098,94 +1017,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4010",
-    "arrivalTerminalId": "4031",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태안"
-        },
-        {
-          "name": "어송"
-        },
-        {
-          "name": "서산"
-        },
-        {
-          "name": "음암"
-        },
-        {
-          "name": "운산"
-        },
-        {
-          "name": "구룡"
-        },
-        {
-          "name": "당진"
-        },
-        {
-          "name": "기지시"
-        },
-        {
-          "name": "신평"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404021101501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -1266,10 +1102,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -1338,14 +1175,91 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -1428,94 +1342,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4010",
-    "arrivalTerminalId": "4031",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태안"
-        },
-        {
-          "name": "어송"
-        },
-        {
-          "name": "서산"
-        },
-        {
-          "name": "음암"
-        },
-        {
-          "name": "운산"
-        },
-        {
-          "name": "구룡"
-        },
-        {
-          "name": "당진"
-        },
-        {
-          "name": "기지시"
-        },
-        {
-          "name": "신평"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "404021101501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -1597,10 +1428,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -1681,10 +1512,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -1753,10 +1585,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -1837,10 +1670,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -1921,10 +1755,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -2002,10 +1837,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -2074,10 +1910,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -2092,12 +1929,11 @@
       0
     ],
     "operator": [
-      "㈜충남고속",
       "㈜한양고속"
     ],
     "departureTime": {
       "hour": 16,
-      "minute": 0
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -2148,24 +1984,17 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        45
+        28
       ],
       "busClass": [
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "404021101501",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -2242,94 +2071,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4010",
-    "arrivalTerminalId": "4031",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태안"
-        },
-        {
-          "name": "어송"
-        },
-        {
-          "name": "서산"
-        },
-        {
-          "name": "음암"
-        },
-        {
-          "name": "운산"
-        },
-        {
-          "name": "구룡"
-        },
-        {
-          "name": "당진"
-        },
-        {
-          "name": "기지시"
-        },
-        {
-          "name": "신평"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "404021101501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -2398,10 +2144,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        2
       ],
       "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,
@@ -2488,10 +2235,928 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
+        2
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      69
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "고양종합터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021178203",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "성남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404010101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      69
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4400
+      ],
+      "초등생": [
+        2200
+      ],
+      "중고생": [
+        3500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "고양종합터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021178203",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404021101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         1
       ],
       "irregularDays": [
         2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404021101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404021101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "4031",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태안"
+        },
+        {
+          "name": "어송"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "음암"
+        },
+        {
+          "name": "운산"
+        },
+        {
+          "name": "구룡"
+        },
+        {
+          "name": "당진"
+        },
+        {
+          "name": "기지시"
+        },
+        {
+          "name": "신평"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404021101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
         4,
         5,
         6,
@@ -2576,333 +3241,7 @@
       ],
       "irregularDays": [
         2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4010",
-    "arrivalTerminalId": "4031",
-    "durationInMinutes": [
-      69
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4400
-      ],
-      "초등생": [
-        2200
-      ],
-      "중고생": [
-        3500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태안"
-        },
-        {
-          "name": "어송"
-        },
-        {
-          "name": "서산"
-        },
-        {
-          "name": "음암"
-        },
-        {
-          "name": "운산"
-        },
-        {
-          "name": "구룡"
-        },
-        {
-          "name": "당진"
-        },
-        {
-          "name": "기지시"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "고양종합터미널"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "404021178203",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4010",
-    "arrivalTerminalId": "4031",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4400
-      ],
-      "초등생": [
-        2200
-      ],
-      "중고생": [
-        3500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태안"
-        },
-        {
-          "name": "어송"
-        },
-        {
-          "name": "서산"
-        },
-        {
-          "name": "음암"
-        },
-        {
-          "name": "운산"
-        },
-        {
-          "name": "구룡"
-        },
-        {
-          "name": "당진"
-        },
-        {
-          "name": "기지시"
-        },
-        {
-          "name": "성남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "404021101001",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4010",
-    "arrivalTerminalId": "4031",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서산"
-        },
-        {
-          "name": "음암"
-        },
-        {
-          "name": "운산"
-        },
-        {
-          "name": "구룡"
-        },
-        {
-          "name": "당진"
-        },
-        {
-          "name": "기지시"
-        },
-        {
-          "name": "신평"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404010101501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4010",
-    "arrivalTerminalId": "4031",
-    "durationInMinutes": [
-      69
-    ],
-    "operator": [
-      "㈜충남고속",
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4400
-      ],
-      "초등생": [
-        2200
-      ],
-      "중고생": [
-        3500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태안"
-        },
-        {
-          "name": "어송"
-        },
-        {
-          "name": "서산"
-        },
-        {
-          "name": "음암"
-        },
-        {
-          "name": "운산"
-        },
-        {
-          "name": "구룡"
-        },
-        {
-          "name": "당진"
-        },
-        {
-          "name": "기지시"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "고양종합터미널"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "404021178203",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
+        3,
         4,
         5,
         6,

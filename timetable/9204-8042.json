@@ -65,10 +65,282 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9204",
+    "arrivalTerminalId": "8042",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31700
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201804101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9204",
+    "arrivalTerminalId": "8042",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41500
+      ],
+      "초등생": [
+        20800
+      ],
+      "중고생": [
+        33200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "929204804107",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9204",
+    "arrivalTerminalId": "8042",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41500
+      ],
+      "초등생": [
+        20800
+      ],
+      "중고생": [
+        33200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "929201804101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9204",
+    "arrivalTerminalId": "8042",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31700,
+        41500
+      ],
+      "초등생": [
+        15900,
+        20800
+      ],
+      "중고생": [
+        25400,
+        33200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21,
+        28
+      ],
+      "busClass": [
+        "시외우등",
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "929204804101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
         2,
+        7
+      ],
+      "irregularDays": [
         3,
         4,
         5,
@@ -165,83 +437,6 @@
     "departureTime": {
       "hour": 14,
       "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        31700,
-        41500
-      ],
-      "초등생": [
-        15900,
-        20800
-      ],
-      "중고생": [
-        25400,
-        33200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대구서부"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "여천"
-        },
-        {
-          "name": "여수"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21,
-        28
-      ],
-      "busClass": [
-        "시외우등",
-        "프리미엄우등"
-      ]
-    },
-    "routeId": "929204804101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9204",
-    "arrivalTerminalId": "8042",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
