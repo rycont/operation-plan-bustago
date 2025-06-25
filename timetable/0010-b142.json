@@ -9,8 +9,72 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 0
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11900
+      ],
+      "초등생": [
+        6000
+      ],
+      "중고생": [
+        8300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "롯데시네마병점상가"
+        },
+        {
+          "name": "죽미마을입구"
+        },
+        {
+          "name": "오산대역후문"
+        },
+        {
+          "name": "오산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000010102301",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0010",
+    "arrivalTerminalId": "b142",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -60,10 +124,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         5,
         6
@@ -80,8 +144,72 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 13,
-      "minute": 20
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11900
+      ],
+      "초등생": [
+        6000
+      ],
+      "중고생": [
+        8300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "동탄(예당마을)"
+        },
+        {
+          "name": "롯데시네마병점상가"
+        },
+        {
+          "name": "죽미마을입구"
+        },
+        {
+          "name": "오산대역후문"
+        },
+        {
+          "name": "오산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000010102301",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0010",
+    "arrivalTerminalId": "b142",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
