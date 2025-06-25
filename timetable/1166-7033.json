@@ -9,65 +9,6 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19700
-      ],
-      "초등생": [
-        9900
-      ],
-      "중고생": [
-        15800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101025703301",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1166",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
       "hour": 9,
       "minute": 50
     },
@@ -110,9 +51,11 @@
     },
     "routeId": "101025703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         5,
@@ -172,9 +115,11 @@
     },
     "routeId": "101025703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         5,
@@ -234,9 +179,11 @@
     },
     "routeId": "101025703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         5,
@@ -296,71 +243,13 @@
     },
     "routeId": "101025703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1166",
-    "arrivalTerminalId": "7033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19700
-      ],
-      "초등생": [
-        9900
-      ],
-      "중고생": [
-        15800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "전주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101025703301",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
         5,
         6
       ]
@@ -418,9 +307,11 @@
     },
     "routeId": "101025703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         5,
@@ -480,11 +371,136 @@
     },
     "routeId": "101025703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1166",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19700
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025703301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1166",
+    "arrivalTerminalId": "7033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19700
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        15800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025703301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         5,
         6
       ]
