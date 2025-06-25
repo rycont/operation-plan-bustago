@@ -9,72 +9,6 @@
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        44400
-      ],
-      "초등생": [
-        22200
-      ],
-      "중고생": [
-        35500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "영광"
-        },
-        {
-          "name": "목포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337802401",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9337",
-    "arrivalTerminalId": "8024",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
       "hour": 9,
       "minute": 35
     },
@@ -119,10 +53,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -182,10 +116,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -245,10 +179,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -308,10 +242,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -371,11 +305,76 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9337",
+    "arrivalTerminalId": "8024",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        44400
+      ],
+      "초등생": [
+        22200
+      ],
+      "중고생": [
+        35500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "영광"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337802401",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        7
+      ],
+      "irregularDays": [
         3,
         4,
         5,
