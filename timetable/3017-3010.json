@@ -63,10 +63,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -141,10 +141,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -216,10 +216,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -291,10 +291,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -369,10 +369,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -444,10 +444,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -528,10 +528,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -606,10 +606,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -681,10 +681,160 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3017",
+    "arrivalTerminalId": "3010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 39
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3700
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "충주"
+        },
+        {
+          "name": "주덕"
+        },
+        {
+          "name": "비산리"
+        },
+        {
+          "name": "음성"
+        },
+        {
+          "name": "보천"
+        },
+        {
+          "name": "도안"
+        },
+        {
+          "name": "증평"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303017301301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
         2,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3017",
+    "arrivalTerminalId": "3010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 23
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3700
+      ],
+      "초등생": [
+        1900
+      ],
+      "중고생": [
+        3000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "충주"
+        },
+        {
+          "name": "주덕"
+        },
+        {
+          "name": "비산리"
+        },
+        {
+          "name": "음성"
+        },
+        {
+          "name": "보천"
+        },
+        {
+          "name": "도안"
+        },
+        {
+          "name": "증평"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303017301301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        7
+      ],
+      "irregularDays": [
         3,
         4,
         5,
@@ -759,156 +909,6 @@
         7
       ],
       "irregularDays": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3017",
-    "arrivalTerminalId": "3010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 39
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3700
-      ],
-      "초등생": [
-        1900
-      ],
-      "중고생": [
-        3000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "충주"
-        },
-        {
-          "name": "주덕"
-        },
-        {
-          "name": "비산리"
-        },
-        {
-          "name": "음성"
-        },
-        {
-          "name": "보천"
-        },
-        {
-          "name": "도안"
-        },
-        {
-          "name": "증평"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303017301301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3017",
-    "arrivalTerminalId": "3010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 23
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3700
-      ],
-      "초등생": [
-        1900
-      ],
-      "중고생": [
-        3000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "충주"
-        },
-        {
-          "name": "주덕"
-        },
-        {
-          "name": "비산리"
-        },
-        {
-          "name": "음성"
-        },
-        {
-          "name": "보천"
-        },
-        {
-          "name": "도안"
-        },
-        {
-          "name": "증평"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303017301301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4,
         5,
         6
       ]
