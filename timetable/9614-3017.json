@@ -58,19 +58,19 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         41
       ],
       "busClass": [
+        "시외우등",
         "일반"
       ]
     },
     "routeId": "969601301709",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4,
