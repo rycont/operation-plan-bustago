@@ -62,7 +62,10 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1
+        1,
+        2,
+        3,
+        4
       ]
     }
   },
@@ -129,7 +132,10 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1
+        1,
+        2,
+        3,
+        4
       ]
     }
   },
@@ -194,11 +200,14 @@
     },
     "routeId": "969601804104",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
         3,
+        4,
         5,
         6,
         7
@@ -265,8 +274,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        2,
-        3
+        2
       ]
     }
   },
@@ -330,8 +338,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        2,
-        3
+        2
       ]
     }
   }

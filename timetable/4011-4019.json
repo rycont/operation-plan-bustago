@@ -45,56 +45,15 @@
     },
     "routeId": "404011401901",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4011",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성환"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404011401901",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -143,7 +102,15 @@
     },
     "routeId": "404011401901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -192,7 +159,15 @@
     },
     "routeId": "404011401901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -241,7 +216,15 @@
     },
     "routeId": "404011401901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -290,7 +273,15 @@
     },
     "routeId": "404011401901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -339,56 +330,15 @@
     },
     "routeId": "404011401901",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "4011",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성환"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "404011401901",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -437,7 +387,15 @@
     },
     "routeId": "404011401901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -486,7 +444,15 @@
     },
     "routeId": "404011401901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -535,7 +501,15 @@
     },
     "routeId": "404011401901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -584,7 +558,123 @@
     },
     "routeId": "404011401901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4011",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성환"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404011401901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4011",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성환"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "404011401901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        5,
+        7
+      ]
     }
   }
 ]
