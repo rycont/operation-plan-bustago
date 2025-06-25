@@ -58,10 +58,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -73,10 +73,9 @@
     "departureTerminalId": "4319",
     "arrivalTerminalId": "9337",
     "durationInMinutes": [
-      0
+      115
     ],
     "operator": [
-      "㈜충남고속",
       "㈜한양고속"
     ],
     "departureTime": {
@@ -107,9 +106,6 @@
           "name": "내포"
         },
         {
-          "name": "김포공항"
-        },
-        {
           "name": "인천공항"
         },
         {
@@ -126,19 +122,11 @@
         "시외우등"
       ]
     },
-    "routeId": "404024933702",
+    "routeId": "404024933701",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4,
-        5,
-        6
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -201,10 +189,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -271,10 +259,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -341,10 +329,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -407,6 +395,79 @@
       ]
     },
     "routeId": "404024933701",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4319",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속",
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19500
+      ],
+      "초등생": [
+        9800
+      ],
+      "중고생": [
+        15600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "보령"
+        },
+        {
+          "name": "홍성"
+        },
+        {
+          "name": "내포"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404024933702",
     "pattern": {
       "type": "irregular",
       "fixedDays": [
