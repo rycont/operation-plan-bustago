@@ -15,6 +15,74 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        25400
+      ],
+      "초등생": [
+        12700
+      ],
+      "중고생": [
+        20300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "여수"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808041920102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "9201",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
         32300
       ],
       "초등생": [
@@ -64,73 +132,6 @@
       "days": [
         2,
         4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "9201",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25400
-      ],
-      "초등생": [
-        12700
-      ],
-      "중고생": [
-        20300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "여수"
-        },
-        {
-          "name": "여천"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "대구서부"
-        },
-        {
-          "name": "동대구"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808041920102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3
       ]
     }
   }
