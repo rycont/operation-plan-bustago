@@ -67,11 +67,12 @@
       "fixedDays": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "irregularDays": [
-        4,
         5,
+        6,
         7
       ]
     }
@@ -142,10 +143,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -225,11 +226,12 @@
       "fixedDays": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "irregularDays": [
-        4,
         5,
+        6,
         7
       ]
     }
@@ -297,10 +299,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -375,79 +377,12 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2019",
-    "arrivalTerminalId": "9001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        49900
-      ],
-      "초등생": [
-        25000
-      ],
-      "중고생": [
-        39900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "속초"
-        },
-        {
-          "name": "병원"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동해"
-        },
-        {
-          "name": "삼척"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202019900128",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
       ]
     }
   },
@@ -518,6 +453,73 @@
       "type": "specific-day",
       "days": [
         5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2019",
+    "arrivalTerminalId": "9001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        49900
+      ],
+      "초등생": [
+        25000
+      ],
+      "중고생": [
+        39900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "병원"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동해"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019900128",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
       ]
     }
   }
