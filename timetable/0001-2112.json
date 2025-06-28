@@ -80,10 +80,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -170,10 +170,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -260,10 +260,75 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2112",
+    "durationInMinutes": [
+      133
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20200
+      ],
+      "초등생": [
+        10100
+      ],
+      "중고생": [
+        16200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001201915",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         5,
         6
       ]
@@ -356,10 +421,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -446,10 +511,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -536,10 +601,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -605,10 +670,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -695,10 +760,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -765,71 +830,6 @@
         7
       ],
       "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2112",
-    "durationInMinutes": [
-      133
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        20200
-      ],
-      "초등생": [
-        10100
-      ],
-      "중고생": [
-        16200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "양양"
-        },
-        {
-          "name": "낙산"
-        },
-        {
-          "name": "물치"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001201915",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        5,
         6
       ]
     }

@@ -52,11 +52,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -114,11 +114,11 @@
       "type": "irregular",
       "fixedDays": [
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -177,11 +177,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -239,11 +239,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        4
       ],
       "irregularDays": [
         3,
-        4,
         5
       ]
     }
@@ -301,11 +301,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -364,11 +364,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -427,11 +427,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -490,11 +490,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -553,11 +553,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -616,11 +616,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -679,11 +679,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -742,11 +742,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -805,11 +805,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -868,11 +868,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -931,11 +931,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -994,11 +994,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -1057,11 +1057,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -1077,8 +1077,8 @@
       "새서울고속"
     ],
     "departureTime": {
-      "hour": 18,
-      "minute": 40
+      "hour": 19,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1113,16 +1113,9 @@
     },
     "routeId": "000004302001",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        7
-      ],
-      "irregularDays": [
-        3,
-        4,
-        6
+      "type": "specific-day",
+      "days": [
+        5
       ]
     }
   },
@@ -1179,11 +1172,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -1242,11 +1235,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -1305,11 +1298,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -1368,11 +1361,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -1431,12 +1424,71 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "3020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "청주대정류소"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000004302001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "irregularDays": [
+        3,
         6
       ]
     }
@@ -1603,58 +1655,6 @@
       "type": "specific-day",
       "days": [
         1
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "3020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "청주대정류소"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000004302001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
       ]
     }
   }
