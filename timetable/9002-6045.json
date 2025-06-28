@@ -54,10 +54,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -123,10 +123,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -189,10 +189,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -255,10 +255,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -321,10 +321,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -387,10 +387,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -456,10 +456,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -522,10 +522,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -588,10 +588,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -654,10 +654,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -720,10 +720,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -789,10 +789,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -855,10 +855,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
@@ -918,14 +918,130 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        3
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6045",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6045",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "천일여객㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "남지"
+        },
+        {
+          "name": "창녕"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002920401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
       ]
     }
   }
