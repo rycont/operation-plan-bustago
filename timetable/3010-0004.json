@@ -65,13 +65,14 @@
     },
     "routeId": "303010000401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
         3,
         4,
-        5,
         6,
         7
       ]
@@ -143,13 +144,14 @@
     },
     "routeId": "303010000401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
         3,
         4,
-        5,
         6,
         7
       ]
@@ -221,13 +223,14 @@
     },
     "routeId": "303010000401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
         3,
         4,
-        5,
         6,
         7
       ]
@@ -299,13 +302,14 @@
     },
     "routeId": "303010000401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
         3,
         4,
-        5,
         6,
         7
       ]
@@ -377,13 +381,14 @@
     },
     "routeId": "303010000401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
         3,
         4,
-        5,
         6,
         7
       ]
@@ -455,13 +460,14 @@
     },
     "routeId": "303010000401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
         3,
         4,
-        5,
         6,
         7
       ]
@@ -533,13 +539,14 @@
     },
     "routeId": "303010000401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
         3,
         4,
-        5,
         6,
         7
       ]
@@ -611,13 +618,14 @@
     },
     "routeId": "303010000401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
         3,
         4,
-        5,
         6,
         7
       ]
@@ -689,13 +697,14 @@
     },
     "routeId": "303010000401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
         1,
-        2,
         3,
         4,
-        5,
         6,
         7
       ]
@@ -727,6 +736,20 @@
       ]
     },
     "stops": [
+      [
+        {
+          "name": "음성"
+        },
+        {
+          "name": "금왕(무극)"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "서울남부"
+        }
+      ],
       [
         {
           "name": "음성"
@@ -791,7 +814,7 @@
           "name": "음성"
         },
         {
-          "name": "무극"
+          "name": "금왕(무극)"
         },
         {
           "name": "대소"
@@ -799,52 +822,7 @@
         {
           "name": "서울남부"
         }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
       ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303010000401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3010",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10800
-      ],
-      "초등생": [
-        5400
-      ],
-      "중고생": [
-        8600
-      ]
-    },
-    "stops": [
       [
         {
           "name": "음성"
@@ -873,7 +851,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        5
+        6,
+        7
       ]
     }
   }
