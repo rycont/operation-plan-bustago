@@ -76,11 +76,11 @@
       "fixedDays": [
         1,
         2,
+        3,
         6,
         7
       ],
       "irregularDays": [
-        3,
         4,
         5
       ]
@@ -151,11 +151,11 @@
       "fixedDays": [
         1,
         2,
+        3,
         6,
         7
       ],
       "irregularDays": [
-        3,
         4,
         5
       ]
@@ -238,12 +238,232 @@
       "fixedDays": [
         1,
         2,
+        3,
         6,
         7
       ],
       "irregularDays": [
-        3,
         4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2019",
+    "arrivalTerminalId": "5071",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        38900
+      ],
+      "초등생": [
+        19500
+      ],
+      "중고생": [
+        31100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202019900129",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2019",
+    "arrivalTerminalId": "5071",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        47600
+      ],
+      "초등생": [
+        23800
+      ],
+      "중고생": [
+        38100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야고속"
+      ]
+    },
+    "routeId": "202019900125",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2019",
+    "arrivalTerminalId": "5071",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        47600
+      ],
+      "초등생": [
+        23800
+      ],
+      "중고생": [
+        38100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야고속"
+      ]
+    },
+    "routeId": "202019900125",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         5
       ]
     }
@@ -322,163 +542,12 @@
       "fixedDays": [
         1,
         2,
+        3,
         6,
         7
       ],
       "irregularDays": [
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2019",
-    "arrivalTerminalId": "5071",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원여객"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 43
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        38900
-      ],
-      "초등생": [
-        19500
-      ],
-      "중고생": [
-        31100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "속초"
-        },
-        {
-          "name": "물치"
-        },
-        {
-          "name": "낙산"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202019900129",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2019",
-    "arrivalTerminalId": "5071",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 22,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        47600
-      ],
-      "초등생": [
-        23800
-      ],
-      "중고생": [
-        38100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "속초"
-        },
-        {
-          "name": "물치"
-        },
-        {
-          "name": "낙산"
-        },
-        {
-          "name": "양양"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야고속"
-      ]
-    },
-    "routeId": "202019900125",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5
+        4
       ]
     }
   },
@@ -546,76 +615,6 @@
       "type": "specific-day",
       "days": [
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2019",
-    "arrivalTerminalId": "5071",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        47600
-      ],
-      "초등생": [
-        23800
-      ],
-      "중고생": [
-        38100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "속초"
-        },
-        {
-          "name": "물치"
-        },
-        {
-          "name": "낙산"
-        },
-        {
-          "name": "양양"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야고속"
-      ]
-    },
-    "routeId": "202019900125",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
       ]
     }
   }
