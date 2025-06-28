@@ -56,10 +56,72 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1010",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        38000
+      ],
+      "초등생": [
+        19000
+      ],
+      "중고생": [
+        26600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101010801901",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         5,
         6
       ]
@@ -122,69 +184,7 @@
         1,
         2,
         3,
-        7
-      ],
-      "irregularDays": [
         4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1010",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        38000
-      ],
-      "초등생": [
-        19000
-      ],
-      "중고생": [
-        26600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성남"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "동광양(중마)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101010801901",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
         7
       ],
       "irregularDays": [
