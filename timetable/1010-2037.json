@@ -54,11 +54,11 @@
         2,
         3,
         4,
+        6,
         7
       ],
       "irregularDays": [
-        5,
-        6
+        5
       ]
     }
   },
@@ -117,11 +117,11 @@
         2,
         3,
         4,
+        6,
         7
       ],
       "irregularDays": [
-        5,
-        6
+        5
       ]
     }
   },
@@ -180,11 +180,11 @@
         2,
         3,
         4,
+        6,
         7
       ],
       "irregularDays": [
-        5,
-        6
+        5
       ]
     }
   },
@@ -243,11 +243,11 @@
         2,
         3,
         4,
+        6,
         7
       ],
       "irregularDays": [
-        5,
-        6
+        5
       ]
     }
   },
@@ -306,11 +306,67 @@
         2,
         3,
         4,
+        6,
         7
       ],
       "irregularDays": [
-        5,
-        6
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1010",
+    "arrivalTerminalId": "2037",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11700
+      ],
+      "초등생": [
+        5900
+      ],
+      "중고생": [
+        9400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "춘천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101010203701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
       ]
     }
   },
@@ -369,11 +425,11 @@
         2,
         3,
         4,
+        6,
         7
       ],
       "irregularDays": [
-        5,
-        6
+        5
       ]
     }
   },
@@ -432,69 +488,11 @@
         2,
         3,
         4,
+        6,
         7
       ],
       "irregularDays": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1010",
-    "arrivalTerminalId": "2037",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11700
-      ],
-      "초등생": [
-        5900
-      ],
-      "중고생": [
-        9400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성남"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "춘천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101010203701",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        6
+        5
       ]
     }
   }

@@ -47,12 +47,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        3,
         7
       ],
       "irregularDays": [
         1,
         2,
-        3,
         4,
         5,
         6
@@ -107,71 +107,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        3,
         7
       ],
       "irregularDays": [
         1,
         2,
-        3,
         4,
         5,
         6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3011",
-    "arrivalTerminalId": "1010",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14700
-      ],
-      "초등생": [
-        7400
-      ],
-      "중고생": [
-        11800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "제천"
-        },
-        {
-          "name": "성남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303011101001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
       ]
     }
   },
@@ -223,12 +167,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        3,
         7
       ],
       "irregularDays": [
         1,
         2,
-        3,
         4,
         5,
         6
@@ -283,12 +227,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        3,
         7
       ],
       "irregularDays": [
         1,
         2,
-        3,
         4,
         5,
         6
@@ -343,15 +287,73 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        3,
         7
       ],
       "irregularDays": [
         1,
         2,
-        3,
         4,
         5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3011",
+    "arrivalTerminalId": "1010",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14700
+      ],
+      "초등생": [
+        7400
+      ],
+      "중고생": [
+        11800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "제천"
+        },
+        {
+          "name": "성남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303011101001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5
       ]
     }
   }
