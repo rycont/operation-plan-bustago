@@ -60,17 +60,14 @@
     },
     "routeId": "949407806202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -147,17 +144,14 @@
     },
     "routeId": "949407805003",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -213,17 +207,14 @@
     },
     "routeId": "949407805007",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -303,17 +294,14 @@
     },
     "routeId": "949407805901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -387,17 +375,14 @@
     },
     "routeId": "949407816402",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -477,92 +462,14 @@
     },
     "routeId": "949407805901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9407",
-    "arrivalTerminalId": "8062",
-    "durationInMinutes": [
-      85
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13300
-      ],
-      "초등생": [
-        6700
-      ],
-      "중고생": [
-        10600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주진월동"
-        },
-        {
-          "name": "나주"
-        },
-        {
-          "name": "영산포"
-        },
-        {
-          "name": "신북"
-        },
-        {
-          "name": "영암"
-        },
-        {
-          "name": "성전"
-        },
-        {
-          "name": "해남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "949407806202",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3
-      ],
-      "irregularDays": [
-        4,
-        5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -641,6 +548,78 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9407",
+    "arrivalTerminalId": "8062",
+    "durationInMinutes": [
+      85
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13300
+      ],
+      "초등생": [
+        6700
+      ],
+      "중고생": [
+        10600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주진월동"
+        },
+        {
+          "name": "나주"
+        },
+        {
+          "name": "영산포"
+        },
+        {
+          "name": "신북"
+        },
+        {
+          "name": "영암"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "해남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949407806202",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
         5,
         6
       ]
