@@ -11,91 +11,6 @@
       "친선고속㈜"
     ],
     "departureTime": {
-      "hour": 6,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5200
-      ],
-      "초등생": [
-        2600
-      ],
-      "중고생": [
-        4200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "서수원"
-        },
-        {
-          "name": "수원터미널"
-        },
-        {
-          "name": "우만동"
-        },
-        {
-          "name": "죽산"
-        },
-        {
-          "name": "두원공대"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "이월"
-        },
-        {
-          "name": "진천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40,
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "939302301403",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "1008",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "경일여객",
-      "대원고속",
-      "친선고속㈜"
-    ],
-    "departureTime": {
       "hour": 8,
       "minute": 30
     },
@@ -157,11 +72,12 @@
     },
     "routeId": "939302301403",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
-        3,
         4,
         5,
         6,
@@ -248,9 +164,11 @@
     },
     "routeId": "939302505405",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         4,
@@ -333,12 +251,13 @@
     },
     "routeId": "939302301403",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
-        4,
         5,
         6,
         7
@@ -418,95 +337,11 @@
     },
     "routeId": "939302301403",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "1008",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "경일여객",
-      "대원고속",
-      "친선고속㈜"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5200
+      "type": "irregular",
+      "fixedDays": [
+        1
       ],
-      "초등생": [
-        2600
-      ],
-      "중고생": [
-        4200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "서수원"
-        },
-        {
-          "name": "수원터미널"
-        },
-        {
-          "name": "우만동"
-        },
-        {
-          "name": "죽산"
-        },
-        {
-          "name": "두원공대"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "이월"
-        },
-        {
-          "name": "진천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40,
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "939302301403",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
+      "irregularDays": [
         3,
         4,
         5,
@@ -588,13 +423,186 @@
     },
     "routeId": "939302301403",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "1008",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "경일여객",
+      "대원고속",
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        4200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "서수원"
+        },
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "죽산"
+        },
+        {
+          "name": "두원공대"
+        },
+        {
+          "name": "광혜원"
+        },
+        {
+          "name": "이월"
+        },
+        {
+          "name": "진천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40,
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302301403",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         4,
-        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "1008",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "경일여객",
+      "대원고속",
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        4200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "서수원"
+        },
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "죽산"
+        },
+        {
+          "name": "두원공대"
+        },
+        {
+          "name": "광혜원"
+        },
+        {
+          "name": "이월"
+        },
+        {
+          "name": "진천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40,
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302301403",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
         6,
         7
       ]
