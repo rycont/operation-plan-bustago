@@ -83,12 +83,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -176,12 +176,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -269,12 +269,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -362,12 +362,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -455,12 +455,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -548,12 +548,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -641,73 +641,11 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6679",
-    "arrivalTerminalId": "6007",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 3
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주(개양)"
-        },
-        {
-          "name": "남해"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "미조"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606679632401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
         5
       ]
     }
@@ -796,12 +734,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -889,12 +827,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -982,12 +920,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -1075,12 +1013,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -1168,12 +1106,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -1261,12 +1199,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -1369,12 +1307,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -1462,12 +1400,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -1527,13 +1465,13 @@
       "fixedDays": [
         1,
         2,
-        4
+        4,
+        6,
+        7
       ],
       "irregularDays": [
         3,
-        5,
-        6,
-        7
+        5
       ]
     }
   },
@@ -1621,12 +1559,12 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -1714,12 +1652,74 @@
         1,
         2,
         4,
+        6,
         7
       ],
       "irregularDays": [
         3,
-        5,
-        6
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6679",
+    "arrivalTerminalId": "6007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 3
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "남해"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "미조"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606679632401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     }
   }

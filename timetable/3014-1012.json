@@ -149,6 +149,76 @@
       "공통"
     ],
     "departureTime": {
+      "hour": 11,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        7900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진천"
+        },
+        {
+          "name": "이월"
+        },
+        {
+          "name": "광혜원"
+        },
+        {
+          "name": "두원공대"
+        },
+        {
+          "name": "죽산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "서수원"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303014930201",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3014",
+    "arrivalTerminalId": "1012",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
       "hour": 13,
       "minute": 30
     },
@@ -291,76 +361,6 @@
     "departureTime": {
       "hour": 18,
       "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        7900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진천"
-        },
-        {
-          "name": "이월"
-        },
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "두원공대"
-        },
-        {
-          "name": "죽산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "서수원"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303014930201",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3014",
-    "arrivalTerminalId": "1012",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {

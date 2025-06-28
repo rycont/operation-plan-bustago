@@ -121,12 +121,12 @@
         1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -187,12 +187,12 @@
         1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -253,12 +253,12 @@
         1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -424,12 +424,12 @@
         1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -490,12 +490,96 @@
         1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         4,
-        5,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "5033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500,
+        5800
+      ],
+      "초등생": [
+        2300,
+        2900
+      ],
+      "중고생": [
+        3600,
+        4600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울산"
+        },
+        {
+          "name": "태화로타리"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "문경"
+        },
+        {
+          "name": "수안보"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28,
+        41
+      ],
+      "busClass": [
+        "시외우등",
+        "일반"
+      ]
+    },
+    "routeId": "969601301709",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
         7
+      ],
+      "irregularDays": [
+        2,
+        3
       ]
     }
   },
@@ -571,12 +655,12 @@
         1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -637,12 +721,12 @@
         1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -703,91 +787,12 @@
         1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "5033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대성고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "울산"
-        },
-        {
-          "name": "태화로타리"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "문경"
-        },
-        {
-          "name": "수안보"
-        },
-        {
-          "name": "충주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "969601301709",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6
-      ],
-      "irregularDays": [
-        2,
-        3,
-        7
+        5
       ]
     }
   }
