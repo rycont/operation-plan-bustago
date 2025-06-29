@@ -1127,6 +1127,67 @@
     ],
     "departureTime": {
       "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "목포대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401842204",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8061",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -1254,6 +1315,67 @@
       "irregularDays": [
         5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8061",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "함평"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "목포대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401842204",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
       ]
     }
   },
@@ -1401,128 +1523,6 @@
       "irregularDays": [
         5,
         6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "8061",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "함평"
-        },
-        {
-          "name": "무안"
-        },
-        {
-          "name": "청계"
-        },
-        {
-          "name": "목포대"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "949401842204",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "8061",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "함평"
-        },
-        {
-          "name": "무안"
-        },
-        {
-          "name": "청계"
-        },
-        {
-          "name": "목포대"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "949401842204",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
       ]
     }
   }

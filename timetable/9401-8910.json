@@ -9,6 +9,64 @@
       "금호고속(주)"
     ],
     "departureTime": {
+      "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11000
+      ],
+      "초등생": [
+        5500
+      ],
+      "중고생": [
+        8800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "순천신대지구(CGV)"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "여수"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949401804114",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8910",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
       "hour": 6,
       "minute": 30
     },
@@ -53,14 +111,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        7
+        1
       ],
       "irregularDays": [
         2,
         3,
         4,
-        6
+        6,
+        7
       ]
     }
   },
@@ -118,14 +176,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        7
+        1
       ],
       "irregularDays": [
         2,
         3,
         4,
-        6
+        6,
+        7
       ]
     }
   },
@@ -183,14 +241,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        7
+        1
       ],
       "irregularDays": [
         2,
         3,
         4,
-        6
+        6,
+        7
       ]
     }
   },
@@ -248,14 +306,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        7
+        1
       ],
       "irregularDays": [
         2,
         3,
         4,
-        6
+        6,
+        7
       ]
     }
   },
@@ -313,14 +371,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        7
+        1
       ],
       "irregularDays": [
         2,
         3,
         4,
-        6
+        6,
+        7
       ]
     }
   },
@@ -378,14 +436,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        7
+        1
       ],
       "irregularDays": [
         2,
         3,
         4,
-        6
+        6,
+        7
       ]
     }
   },
@@ -441,12 +499,10 @@
     },
     "routeId": "949401804114",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   }

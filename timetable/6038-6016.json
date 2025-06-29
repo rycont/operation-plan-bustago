@@ -1,68 +1,5 @@
 [
   {
-    "departureTerminalId": "6042",
-    "arrivalTerminalId": "6016",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4800
-      ],
-      "초등생": [
-        2400
-      ],
-      "중고생": [
-        3800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주(경원)"
-        },
-        {
-          "name": "경상대(칠암)"
-        },
-        {
-          "name": "삼천포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606042601601",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3
-      ],
-      "irregularDays": [
-        1,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
     "departureTerminalId": "6048",
     "arrivalTerminalId": "6016",
     "durationInMinutes": [
@@ -634,6 +571,69 @@
     "routeId": "606816601601",
     "pattern": {
       "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6016",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4800
+      ],
+      "초등생": [
+        2400
+      ],
+      "중고생": [
+        3800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "삼천포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042601601",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   }
 ]
