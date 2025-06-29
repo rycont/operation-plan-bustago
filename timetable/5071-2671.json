@@ -58,13 +58,13 @@
       "fixedDays": [
         2,
         3,
-        7
+        4
       ],
       "irregularDays": [
         1,
-        4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -127,13 +127,13 @@
       "fixedDays": [
         2,
         3,
-        7
+        4
       ],
       "irregularDays": [
         1,
-        4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -217,13 +217,13 @@
       "fixedDays": [
         2,
         3,
-        7
+        4
       ],
       "irregularDays": [
         1,
-        4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -289,13 +289,13 @@
       "fixedDays": [
         2,
         3,
-        7
+        4
       ],
       "irregularDays": [
         1,
-        4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -361,13 +361,13 @@
       "fixedDays": [
         2,
         3,
-        7
+        4
       ],
       "irregularDays": [
         1,
-        4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -439,85 +439,13 @@
       "fixedDays": [
         2,
         3,
-        7
+        4
       ],
       "irregularDays": [
         1,
-        4,
         5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5071",
-    "arrivalTerminalId": "2671",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜천마고속"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27300
-      ],
-      "초등생": [
-        13700
-      ],
-      "중고생": [
-        21800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "삼척"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "강릉"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "929201205102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+        6,
         7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
       ]
     }
   },
@@ -579,6 +507,73 @@
       "type": "specific-day",
       "days": [
         5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5071",
+    "arrivalTerminalId": "2671",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27300
+      ],
+      "초등생": [
+        13700
+      ],
+      "중고생": [
+        21800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929201205102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4
       ]
     }
   }

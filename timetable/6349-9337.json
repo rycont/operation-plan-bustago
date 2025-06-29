@@ -54,18 +54,7 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -123,18 +112,7 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -192,18 +170,7 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -261,16 +228,66 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6349",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대성고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42400
       ],
-      "irregularDays": [
-        3,
-        4,
-        5,
-        6,
+      "초등생": [
+        21200
+      ],
+      "중고생": [
+        33900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "고현거제도"
+        },
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "개양"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항T2"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606003933701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         7
       ]
     }
@@ -330,18 +347,7 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -399,18 +405,7 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -468,12 +463,17 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     }
   },

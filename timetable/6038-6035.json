@@ -74,75 +74,12 @@
         1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6042",
-    "arrivalTerminalId": "6035",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경원여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        850
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주(경원)"
-        },
-        {
-          "name": "경상대(칠암)"
-        },
-        {
-          "name": "화개공용"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606042603501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -248,6 +185,69 @@
     "routeId": "606816603501",
     "pattern": {
       "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "6042",
+    "arrivalTerminalId": "6035",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        850
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경원)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "화개공용"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606042603501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4,
+        5
+      ]
     }
   }
 ]

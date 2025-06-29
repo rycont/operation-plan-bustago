@@ -56,15 +56,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        7
       ],
       "irregularDays": [
         1,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -125,15 +125,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        7
       ],
       "irregularDays": [
         1,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -194,15 +194,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        7
       ],
       "irregularDays": [
         1,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -263,15 +263,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        7
       ],
       "irregularDays": [
         1,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -332,15 +332,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        7
       ],
       "irregularDays": [
         1,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -401,15 +401,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        7
       ],
       "irregularDays": [
         1,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -470,15 +470,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        7
       ],
       "irregularDays": [
         1,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -539,15 +539,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        7
       ],
       "irregularDays": [
         1,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -608,15 +608,84 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        7
       ],
       "irregularDays": [
         1,
         3,
         4,
         5,
-        6,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8062",
+    "arrivalTerminalId": "8050",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "해남"
+        },
+        {
+          "name": "월송"
+        },
+        {
+          "name": "남창"
+        },
+        {
+          "name": "원동"
+        },
+        {
+          "name": "완도"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808062805003",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
         7
+      ],
+      "irregularDays": [
+        1,
+        3,
+        4,
+        5,
+        6
       ]
     }
   },
@@ -685,75 +754,6 @@
         4,
         5,
         6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8062",
-    "arrivalTerminalId": "8050",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6700
-      ],
-      "초등생": [
-        3400
-      ],
-      "중고생": [
-        5400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "해남"
-        },
-        {
-          "name": "월송"
-        },
-        {
-          "name": "남창"
-        },
-        {
-          "name": "원동"
-        },
-        {
-          "name": "완도"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808062805003",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2
-      ],
-      "irregularDays": [
-        1,
-        3,
-        4,
-        5,
-        6,
-        7
       ]
     }
   }
