@@ -63,15 +63,17 @@
     },
     "routeId": "939337104705",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
+      "type": "irregular",
+      "fixedDays": [
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
       ]
     }
   },
@@ -139,15 +141,17 @@
     },
     "routeId": "939337104705",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
+      "type": "irregular",
+      "fixedDays": [
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
       ]
     }
   },
@@ -215,15 +219,17 @@
     },
     "routeId": "939337104705",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
+      "type": "irregular",
+      "fixedDays": [
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
       ]
     }
   },
@@ -238,7 +244,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 25
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -296,92 +302,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "1940",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "사당역"
-        },
-        {
-          "name": "남태령역"
-        },
-        {
-          "name": "과천주공8.9단지"
-        },
-        {
-          "name": "정부과천청사"
-        },
-        {
-          "name": "과천푸르지오"
-        },
-        {
-          "name": "경기도광주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337104704",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -452,15 +373,17 @@
     },
     "routeId": "939337104704",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
+      "type": "irregular",
+      "fixedDays": [
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
       ]
     }
   },
@@ -474,560 +397,7 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 11,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "사당역"
-        },
-        {
-          "name": "남태령역"
-        },
-        {
-          "name": "과천주공8.9단지"
-        },
-        {
-          "name": "정부과천청사"
-        },
-        {
-          "name": "과천푸르지오"
-        },
-        {
-          "name": "경기도광주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337104704",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "1940",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "사당역"
-        },
-        {
-          "name": "남태령역"
-        },
-        {
-          "name": "과천주공8.9단지"
-        },
-        {
-          "name": "정부과천청사"
-        },
-        {
-          "name": "과천푸르지오"
-        },
-        {
-          "name": "경기도광주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337104704",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "1940",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "사당역"
-        },
-        {
-          "name": "남태령역"
-        },
-        {
-          "name": "과천주공8.9단지"
-        },
-        {
-          "name": "정부과천청사"
-        },
-        {
-          "name": "과천푸르지오"
-        },
-        {
-          "name": "경기도광주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337104704",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "1940",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "사당역"
-        },
-        {
-          "name": "남태령역"
-        },
-        {
-          "name": "과천주공8.9단지"
-        },
-        {
-          "name": "정부과천청사"
-        },
-        {
-          "name": "과천푸르지오"
-        },
-        {
-          "name": "경기도광주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337104704",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "1940",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "사당역"
-        },
-        {
-          "name": "남태령역"
-        },
-        {
-          "name": "과천주공8.9단지"
-        },
-        {
-          "name": "정부과천청사"
-        },
-        {
-          "name": "과천푸르지오"
-        },
-        {
-          "name": "경기도광주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337104704",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "1940",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "사당역"
-        },
-        {
-          "name": "남태령역"
-        },
-        {
-          "name": "과천주공8.9단지"
-        },
-        {
-          "name": "정부과천청사"
-        },
-        {
-          "name": "과천푸르지오"
-        },
-        {
-          "name": "경기도광주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337104704",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "1940",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "사당역"
-        },
-        {
-          "name": "남태령역"
-        },
-        {
-          "name": "과천주공8.9단지"
-        },
-        {
-          "name": "정부과천청사"
-        },
-        {
-          "name": "과천푸르지오"
-        },
-        {
-          "name": "경기도광주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337104704",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "1940",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 20,
+      "hour": 10,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -1086,13 +456,591 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
       ]
     }
   },
@@ -1163,13 +1111,972 @@
     },
     "routeId": "939337104704",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14600
+      ],
+      "초등생": [
+        7300
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14600
+      ],
+      "초등생": [
+        7300
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         4,
         5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "1940",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "사당역"
+        },
+        {
+          "name": "남태령역"
+        },
+        {
+          "name": "과천주공8.9단지"
+        },
+        {
+          "name": "정부과천청사"
+        },
+        {
+          "name": "과천푸르지오"
+        },
+        {
+          "name": "경기도광주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337104704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
         6
       ]
     }
@@ -1241,15 +2148,17 @@
     },
     "routeId": "939337104704",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1320,15 +2229,17 @@
     },
     "routeId": "939337104704",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        6
       ]
     }
   }
