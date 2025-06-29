@@ -56,80 +56,13 @@
       "fixedDays": [
         1,
         4,
+        6,
         7
       ],
       "irregularDays": [
         2,
         3,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "2051",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "(주)경기고속",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27700
-      ],
-      "초등생": [
-        13900
-      ],
-      "중고생": [
-        22200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "강릉"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007205104",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        4,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -190,13 +123,13 @@
       "fixedDays": [
         1,
         4,
+        6,
         7
       ],
       "irregularDays": [
         2,
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -217,15 +150,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        21300,
         27700
       ],
       "초등생": [
-        10700,
         13900
       ],
       "중고생": [
-        17000,
         22200
       ]
     },
@@ -248,12 +178,10 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        40
+        28
       ],
       "busClass": [
-        "시외우등",
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "101007205104",
@@ -262,13 +190,13 @@
       "fixedDays": [
         1,
         4,
+        6,
         7
       ],
       "irregularDays": [
         2,
         3,
-        5,
-        6
+        5
       ]
     }
   },
@@ -329,13 +257,80 @@
       "fixedDays": [
         1,
         4,
+        6,
         7
       ],
       "irregularDays": [
         2,
         3,
-        5,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27700
+      ],
+      "초등생": [
+        13900
+      ],
+      "중고생": [
+        22200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007205104",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
         6
+      ],
+      "irregularDays": [
+        2,
+        3,
+        5,
+        7
       ]
     }
   }

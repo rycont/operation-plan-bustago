@@ -9,81 +9,6 @@
       "㈜충남고속"
     ],
     "departureTime": {
-      "hour": 18,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18100
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        14500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부여"
-        },
-        {
-          "name": "청양"
-        },
-        {
-          "name": "운곡"
-        },
-        {
-          "name": "신양"
-        },
-        {
-          "name": "예산"
-        },
-        {
-          "name": "신례원"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "404008930207",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3
-      ],
-      "irregularDays": [
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4096",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜충남고속"
-    ],
-    "departureTime": {
       "hour": 9,
       "minute": 0
     },
@@ -142,12 +67,12 @@
       "fixedDays": [
         1,
         2,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -219,12 +144,87 @@
       "fixedDays": [
         1,
         2,
-        3
+        3,
+        7
+      ],
+      "irregularDays": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4096",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18100
+      ],
+      "초등생": [
+        9100
+      ],
+      "중고생": [
+        14500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부여"
+        },
+        {
+          "name": "청양"
+        },
+        {
+          "name": "운곡"
+        },
+        {
+          "name": "신양"
+        },
+        {
+          "name": "예산"
+        },
+        {
+          "name": "신례원"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404008930207",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        7
       ],
       "irregularDays": [
         4,
         5,
-        7
+        6
       ]
     }
   }
