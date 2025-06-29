@@ -59,14 +59,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -131,14 +131,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -203,14 +203,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -275,14 +275,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -347,85 +347,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "0014",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "장지역"
-        },
-        {
-          "name": "가락시장"
-        },
-        {
-          "name": "잠실역(중앙)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "939302000102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5
       ]
     }
   },
@@ -489,14 +419,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -561,14 +491,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -633,14 +563,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -705,14 +635,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -777,14 +707,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -849,14 +779,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -872,6 +802,510 @@
     ],
     "departureTime": {
       "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "장지역"
+        },
+        {
+          "name": "가락시장"
+        },
+        {
+          "name": "잠실역(중앙)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302000102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "0014",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "장지역"
+        },
+        {
+          "name": "가락시장"
+        },
+        {
+          "name": "잠실역(중앙)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302000102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "0014",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "장지역"
+        },
+        {
+          "name": "가락시장"
+        },
+        {
+          "name": "잠실역(중앙)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302000102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "0014",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "장지역"
+        },
+        {
+          "name": "가락시장"
+        },
+        {
+          "name": "잠실역(중앙)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302000102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "0014",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "장지역"
+        },
+        {
+          "name": "가락시장"
+        },
+        {
+          "name": "잠실역(중앙)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302000102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "0014",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "장지역"
+        },
+        {
+          "name": "가락시장"
+        },
+        {
+          "name": "잠실역(중앙)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302000102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "0014",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "장지역"
+        },
+        {
+          "name": "가락시장"
+        },
+        {
+          "name": "잠실역(중앙)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302000102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "0014",
+    "durationInMinutes": [
+      50
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
       "minute": 10
     },
     "isTemporaryRoute": false,
@@ -942,150 +1376,6 @@
     ],
     "departureTime": {
       "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "장지역"
-        },
-        {
-          "name": "가락시장"
-        },
-        {
-          "name": "잠실역(중앙)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "939302000102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "0014",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "장지역"
-        },
-        {
-          "name": "가락시장"
-        },
-        {
-          "name": "잠실역(중앙)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "939302000102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "0014",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 15,
       "minute": 10
     },
     "isTemporaryRoute": false,
@@ -1141,225 +1431,7 @@
         1,
         2,
         4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "0014",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "장지역"
-        },
-        {
-          "name": "가락시장"
-        },
-        {
-          "name": "잠실역(중앙)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "939302000102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "0014",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "장지역"
-        },
-        {
-          "name": "가락시장"
-        },
-        {
-          "name": "잠실역(중앙)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "939302000102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "0014",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "장지역"
-        },
-        {
-          "name": "가락시장"
-        },
-        {
-          "name": "잠실역(중앙)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "939302000102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
+        5
       ]
     }
   },
@@ -1430,78 +1502,6 @@
         2,
         4,
         5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "0014",
-    "durationInMinutes": [
-      50
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "장지역"
-        },
-        {
-          "name": "가락시장"
-        },
-        {
-          "name": "잠실역(중앙)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "939302000102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
       ]
     }
   }
