@@ -3,6 +3,72 @@
     "departureTerminalId": "1023",
     "arrivalTerminalId": "9601",
     "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33100
+      ],
+      "초등생": [
+        16600
+      ],
+      "중고생": [
+        26500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101012960104",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1023",
+    "arrivalTerminalId": "9601",
+    "durationInMinutes": [
       0
     ],
     "operator": [
@@ -56,72 +122,6 @@
       ]
     },
     "routeId": "101007960106",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1023",
-    "arrivalTerminalId": "9601",
-    "durationInMinutes": [
-      240
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        33100
-      ],
-      "초등생": [
-        16600
-      ],
-      "중고생": [
-        26500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "수원터미널"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101012960104",
     "pattern": {
       "type": "irregular",
       "fixedDays": [

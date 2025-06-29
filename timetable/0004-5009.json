@@ -75,6 +75,67 @@
       "경전/동일"
     ],
     "departureTime": {
+      "hour": 14,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39000
+      ],
+      "초등생": [
+        19500
+      ],
+      "중고생": [
+        32200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "성주"
+        },
+        {
+          "name": "고령"
+        },
+        {
+          "name": "합천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "000004603301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "5009",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전/동일"
+    ],
+    "departureTime": {
       "hour": 17,
       "minute": 0
     },
@@ -128,67 +189,6 @@
       ],
       "irregularDays": [
         5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "5009",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전/동일"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        39000
-      ],
-      "초등생": [
-        19500
-      ],
-      "중고생": [
-        32200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "성주"
-        },
-        {
-          "name": "고령"
-        },
-        {
-          "name": "합천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등"
-      ]
-    },
-    "routeId": "000004603301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   }
