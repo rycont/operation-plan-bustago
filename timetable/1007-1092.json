@@ -61,14 +61,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -128,14 +128,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -194,14 +194,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -260,14 +260,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -331,15 +331,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        7
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -404,14 +404,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -479,14 +479,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -546,14 +546,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -618,14 +618,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -681,11 +681,13 @@
     },
     "routeId": "101007201906",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        5,
+        6
       ]
     }
   },
@@ -750,81 +752,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "1092",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3100
-      ],
-      "초등생": [
-        1600
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "강릉"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007205104",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3
-      ],
-      "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -886,14 +821,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -958,14 +893,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1024,86 +959,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "1092",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3100
-      ],
-      "초등생": [
-        1600
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "고천"
-        },
-        {
-          "name": "문막"
-        },
-        {
-          "name": "원주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007202802",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3
-      ],
-      "irregularDays": [
-        2,
-        4,
-        5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1163,14 +1026,148 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "1092",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3100
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "고천"
+        },
+        {
+          "name": "문막"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007202802",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
         7
+      ],
+      "irregularDays": [
+        2,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1007",
+    "arrivalTerminalId": "1092",
+    "durationInMinutes": [
+      35
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3100
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "전주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007703301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        7
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },
@@ -1235,14 +1232,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1302,14 +1299,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1375,14 +1372,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1441,14 +1438,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1512,15 +1509,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        3,
+        7
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1582,14 +1579,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1654,14 +1651,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1721,14 +1718,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1793,14 +1790,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1859,14 +1856,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1931,14 +1928,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1998,14 +1995,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -2061,11 +2058,13 @@
     },
     "routeId": "101007703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        5,
+        6
       ]
     }
   },
@@ -2130,14 +2129,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -2197,14 +2196,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -2266,14 +2265,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -2338,14 +2337,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -2353,14 +2352,15 @@
     "departureTerminalId": "1007",
     "arrivalTerminalId": "1092",
     "durationInMinutes": [
-      35
+      0
     ],
     "operator": [
+      "(주)경기고속",
       "대원고속"
     ],
     "departureTime": {
-      "hour": 12,
-      "minute": 0
+      "hour": 10,
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -2386,7 +2386,7 @@
           "name": "호계동"
         },
         {
-          "name": "전주"
+          "name": "강릉"
         }
       ]
     ],
@@ -2399,13 +2399,17 @@
         "시외우등"
       ]
     },
-    "routeId": "101007703301",
+    "routeId": "101007205104",
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        3
       ],
       "irregularDays": [
+        2,
+        4,
+        5,
         6,
         7
       ]

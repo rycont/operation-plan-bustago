@@ -9,6 +9,67 @@
       "대원고속"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        38000
+      ],
+      "초등생": [
+        19000
+      ],
+      "중고생": [
+        30400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "성남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808019101001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "1010",
+    "durationInMinutes": [
+      250
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
       "hour": 9,
       "minute": 0
     },
@@ -124,67 +185,6 @@
         3,
         4,
         6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "1010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        38000
-      ],
-      "초등생": [
-        19000
-      ],
-      "중고생": [
-        30400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "성남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808019101001",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
         7
       ],
       "irregularDays": [
