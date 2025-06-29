@@ -59,12 +59,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -134,12 +134,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -206,12 +206,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -272,12 +272,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -341,12 +341,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -416,12 +416,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -485,12 +485,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -554,12 +554,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -623,12 +623,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -695,12 +695,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -770,12 +770,12 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -842,12 +842,74 @@
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8422",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "무안"
+        },
+        {
+          "name": "청계"
+        },
+        {
+          "name": "목포대"
+        },
+        {
+          "name": "목포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401802405",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
       ]
     }
   },
@@ -970,70 +1032,6 @@
       "type": "specific-day",
       "days": [
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "8422",
-    "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7400
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "무안"
-        },
-        {
-          "name": "청계"
-        },
-        {
-          "name": "목포대"
-        },
-        {
-          "name": "목포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "949401802405",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   }
