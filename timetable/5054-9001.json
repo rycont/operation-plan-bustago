@@ -57,11 +57,13 @@
     },
     "routeId": "202049900101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         1,
         2,
-        3,
         4,
         5,
         6,
@@ -127,12 +129,75 @@
     },
     "routeId": "202049900101",
     "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5054",
+    "arrivalTerminalId": "9001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27700
+      ],
+      "초등생": [
+        13900
+      ],
+      "중고생": [
+        22200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "울진"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202051900103",
+    "pattern": {
       "type": "specific-day",
       "days": [
         1,
-        2,
-        3,
-        4,
         5,
         6,
         7
@@ -197,73 +262,14 @@
     },
     "routeId": "202049900102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
         1,
         2,
-        3,
         4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5054",
-    "arrivalTerminalId": "9001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27700
-      ],
-      "초등생": [
-        13900
-      ],
-      "중고생": [
-        22200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "울진"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202051900103",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
         5,
         6,
         7
