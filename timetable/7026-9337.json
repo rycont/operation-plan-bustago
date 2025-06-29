@@ -6,6 +6,136 @@
       0
     ],
     "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 0,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        50000
+      ],
+      "초등생": [
+        25000
+      ],
+      "중고생": [
+        40000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "익산"
+        },
+        {
+          "name": "대야"
+        },
+        {
+          "name": "군산"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄심야우등"
+      ]
+    },
+    "routeId": "707026933703",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7026",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
+      "hour": 0,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        41700
+      ],
+      "초등생": [
+        20900
+      ],
+      "중고생": [
+        33400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "익산"
+        },
+        {
+          "name": "대야"
+        },
+        {
+          "name": "군산"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "707026933703",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7026",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "㈜전북고속"
     ],
     "departureTime": {
@@ -15,13 +145,16 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        41700
+        41700,
+        50000
       ],
       "초등생": [
-        20900
+        20900,
+        25000
       ],
       "중고생": [
-        33400
+        33400,
+        40000
       ]
     },
     "stops": [
@@ -46,10 +179,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        21,
         28
       ],
       "busClass": [
-        "심야우등1"
+        "심야우등1",
+        "프리미엄심야우등"
       ]
     },
     "routeId": "707026933703",
@@ -57,10 +192,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -126,10 +261,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -195,10 +330,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -264,10 +399,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -333,10 +468,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -402,10 +537,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -471,10 +606,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -540,10 +675,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -609,10 +744,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -678,10 +813,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -747,10 +882,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -816,10 +951,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -885,10 +1020,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -954,10 +1089,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -1023,10 +1158,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,

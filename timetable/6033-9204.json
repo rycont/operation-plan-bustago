@@ -49,11 +49,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -118,11 +118,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -179,11 +179,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -239,12 +239,132 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6033",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606016920402",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6033",
+    "arrivalTerminalId": "9204",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7400
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606016920402",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         6
       ]
     }
@@ -299,11 +419,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -368,11 +488,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -428,11 +548,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -489,11 +609,11 @@
       "fixedDays": [
         1,
         2,
+        4,
         7
       ],
       "irregularDays": [
         3,
-        4,
         5,
         6
       ]
@@ -573,68 +693,6 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 13,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7400
-      ],
-      "초등생": [
-        3700
-      ],
-      "중고생": [
-        5900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "삼천포"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "합천"
-        },
-        {
-          "name": "대구서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606016920402",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6033",
-    "arrivalTerminalId": "9204",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
       "hour": 19,
       "minute": 50
     },
@@ -683,64 +741,6 @@
       ],
       "irregularDays": [
         5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6033",
-    "arrivalTerminalId": "9204",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7400
-      ],
-      "초등생": [
-        3700
-      ],
-      "중고생": [
-        5900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "삼천포"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "합천"
-        },
-        {
-          "name": "대구서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606016920402",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
       ]
     }
   }
