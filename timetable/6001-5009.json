@@ -542,87 +542,6 @@
     "departureTerminalId": "6001",
     "arrivalTerminalId": "5009",
     "durationInMinutes": [
-      55
-    ],
-    "operator": [
-      "신흥여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5100
-      ],
-      "초등생": [
-        2600
-      ],
-      "중고생": [
-        4100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "거창"
-        },
-        {
-          "name": "권빈"
-        },
-        {
-          "name": "묘산"
-        },
-        {
-          "name": "분기"
-        },
-        {
-          "name": "귀원"
-        },
-        {
-          "name": "고령"
-        },
-        {
-          "name": "현풍"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "창원"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606001602802",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6001",
-    "arrivalTerminalId": "5009",
-    "durationInMinutes": [
       50
     ],
     "operator": [
@@ -749,6 +668,87 @@
       "irregularDays": [
         4,
         5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6001",
+    "arrivalTerminalId": "5009",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "신흥여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5100
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        4100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "거창"
+        },
+        {
+          "name": "권빈"
+        },
+        {
+          "name": "묘산"
+        },
+        {
+          "name": "분기"
+        },
+        {
+          "name": "귀원"
+        },
+        {
+          "name": "고령"
+        },
+        {
+          "name": "현풍"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606001602802",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        4,
+        5,
+        7
       ]
     }
   }
