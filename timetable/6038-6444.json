@@ -81,14 +81,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -174,14 +174,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -267,14 +267,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -360,14 +360,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -453,14 +453,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -546,14 +546,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -639,14 +639,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -732,14 +732,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -825,14 +825,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -918,14 +918,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1011,14 +1011,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1104,14 +1104,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1197,14 +1197,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1305,14 +1305,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1398,14 +1398,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1491,14 +1491,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1584,15 +1584,67 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
+    }
+  },
+  {
+    "departureTerminalId": "6048",
+    "arrivalTerminalId": "6444",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주(경전)"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "대치"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606048644401",
+    "pattern": {
+      "type": "unknown"
     }
   },
   {
@@ -1647,67 +1699,15 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2
+        2,
+        7
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
-    }
-  },
-  {
-    "departureTerminalId": "6048",
-    "arrivalTerminalId": "6444",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주(경전)"
-        },
-        {
-          "name": "경상대(칠암)"
-        },
-        {
-          "name": "대치"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606048644401",
-    "pattern": {
-      "type": "unknown"
     }
   },
   {
