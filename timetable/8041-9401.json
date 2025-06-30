@@ -245,6 +245,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         7
       ]
     }
@@ -390,62 +391,6 @@
       "irregularDays": [
         3,
         5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8041",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      105
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16800
-      ],
-      "초등생": [
-        8400
-      ],
-      "중고생": [
-        13400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "여수"
-        },
-        {
-          "name": "여천"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808041940103",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
       ]
     }
   },
@@ -2142,6 +2087,62 @@
       "금호고속(주)"
     ],
     "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16800
+      ],
+      "초등생": [
+        8400
+      ],
+      "중고생": [
+        13400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "여수"
+        },
+        {
+          "name": "여천"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808041940103",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8041",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      105
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
       "hour": 16,
       "minute": 50
     },
@@ -2181,11 +2182,9 @@
     },
     "routeId": "808041940103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         4,
         6,
