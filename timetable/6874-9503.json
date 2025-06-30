@@ -61,11 +61,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4
       ],
       "irregularDays": [
-        1,
         3,
         5,
         6,
@@ -135,73 +135,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4
       ],
       "irregularDays": [
-        1,
         3,
         5,
         6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6874",
-    "arrivalTerminalId": "9503",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19300
-      ],
-      "초등생": [
-        9700
-      ],
-      "중고생": [
-        15400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "진주"
-        },
-        {
-          "name": "경상대(칠암)"
-        },
-        {
-          "name": "진주(개양)"
-        },
-        {
-          "name": "대전복합"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606414950303",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
         7
       ]
     }
@@ -268,11 +209,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4
       ],
       "irregularDays": [
-        1,
         3,
         5,
         6,
@@ -342,11 +283,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4
       ],
       "irregularDays": [
-        1,
         3,
         5,
         6,
@@ -416,14 +357,73 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4
       ],
       "irregularDays": [
-        1,
         3,
         5,
         6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6874",
+    "arrivalTerminalId": "9503",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19300
+      ],
+      "초등생": [
+        9700
+      ],
+      "중고생": [
+        15400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "진주"
+        },
+        {
+          "name": "경상대(칠암)"
+        },
+        {
+          "name": "진주(개양)"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606414950303",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
         7
       ]
     }
