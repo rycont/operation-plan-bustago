@@ -9,19 +9,19 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 9,
-      "minute": 10
+      "hour": 8,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        43700
+        33600
       ],
       "초등생": [
-        21900
+        16800
       ],
       "중고생": [
-        35000
+        26900
       ]
     },
     "stops": [
@@ -39,6 +39,9 @@
           "name": "사천사남"
         },
         {
+          "name": "항공청(경전)"
+        },
+        {
           "name": "용현"
         },
         {
@@ -52,21 +55,17 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        28
       ],
       "busClass": [
-        "프리미엄우등"
+        "시외우등"
       ]
     },
-    "routeId": "000004601613",
+    "routeId": "000004601617",
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        6
+        7
       ]
     }
   },
@@ -229,6 +228,151 @@
     ],
     "departureTime": {
       "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        43700
+      ],
+      "초등생": [
+        21900
+      ],
+      "중고생": [
+        35000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "죽전(경전)"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "사천사남"
+        },
+        {
+          "name": "용현"
+        },
+        {
+          "name": "사천(케이블카)"
+        },
+        {
+          "name": "삼천포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "000004601613",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1852",
+    "arrivalTerminalId": "6016",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        43700
+      ],
+      "초등생": [
+        21900
+      ],
+      "중고생": [
+        35000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "죽전(경전)"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "사천사남"
+        },
+        {
+          "name": "용현"
+        },
+        {
+          "name": "사천(케이블카)"
+        },
+        {
+          "name": "삼천포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "000004601613",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1852",
+    "arrivalTerminalId": "6016",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 16,
       "minute": 10
     },
     "isTemporaryRoute": false,
@@ -362,80 +506,6 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        43700
-      ],
-      "초등생": [
-        21900
-      ],
-      "중고생": [
-        35000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "죽전(경전)"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "사천사남"
-        },
-        {
-          "name": "용현"
-        },
-        {
-          "name": "사천(케이블카)"
-        },
-        {
-          "name": "삼천포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등"
-      ]
-    },
-    "routeId": "000004601613",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1852",
-    "arrivalTerminalId": "6016",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
       "hour": 12,
       "minute": 10
     },
@@ -493,76 +563,6 @@
         2,
         3,
         4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1852",
-    "arrivalTerminalId": "6016",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        33600
-      ],
-      "초등생": [
-        16800
-      ],
-      "중고생": [
-        26900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "죽전(경전)"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "사천사남"
-        },
-        {
-          "name": "항공청(경전)"
-        },
-        {
-          "name": "용현"
-        },
-        {
-          "name": "사천(케이블카)"
-        },
-        {
-          "name": "삼천포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000004601617",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
       ]
     }
   }
