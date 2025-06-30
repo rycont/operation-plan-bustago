@@ -72,62 +72,6 @@
       "경북고속"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        29100
-      ],
-      "초등생": [
-        14600
-      ],
-      "중고생": [
-        23300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성남"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "동대구"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101010920101",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1010",
-    "arrivalTerminalId": "9201",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
       "hour": 12,
       "minute": 20
     },
@@ -191,8 +135,71 @@
       "경북고속"
     ],
     "departureTime": {
-      "hour": 15,
-      "minute": 20
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29100
+      ],
+      "초등생": [
+        14600
+      ],
+      "중고생": [
+        23300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101010920101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1010",
+    "arrivalTerminalId": "9201",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -247,8 +254,8 @@
       "경북고속"
     ],
     "departureTime": {
-      "hour": 18,
-      "minute": 40
+      "hour": 15,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -286,17 +293,10 @@
     },
     "routeId": "101010920101",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
+      "type": "specific-day",
+      "days": [
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   }

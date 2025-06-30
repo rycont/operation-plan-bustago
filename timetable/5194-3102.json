@@ -9,65 +9,6 @@
       "충북리무진㈜"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6800
-      ],
-      "초등생": [
-        3400
-      ],
-      "중고생": [
-        5400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "경북대상주"
-        },
-        {
-          "name": "남청주"
-        },
-        {
-          "name": "청주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505194301501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5194",
-    "arrivalTerminalId": "3102",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "충북리무진㈜"
-    ],
-    "departureTime": {
       "hour": 16,
       "minute": 10
     },
@@ -117,6 +58,65 @@
       ],
       "irregularDays": [
         4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5194",
+    "arrivalTerminalId": "3102",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "충북리무진㈜"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6800
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505194301501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
         5
       ]
     }

@@ -72,66 +72,6 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 14,
-      "minute": 46
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        48500
-      ],
-      "초등생": [
-        24300
-      ],
-      "중고생": [
-        38800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "마산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202051601002",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2051",
-    "arrivalTerminalId": "6010",
-    "durationInMinutes": [
-      310
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
       "hour": 16,
       "minute": 30
     },
@@ -181,6 +121,66 @@
         7
       ],
       "irregularDays": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2051",
+    "arrivalTerminalId": "6010",
+    "durationInMinutes": [
+      310
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 46
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        48500
+      ],
+      "초등생": [
+        24300
+      ],
+      "중고생": [
+        38800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "마산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202051601002",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
         6
       ]
     }
