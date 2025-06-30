@@ -54,11 +54,13 @@
     },
     "routeId": "505043301503",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        5,
+        6
       ]
     }
   },
@@ -120,14 +122,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        3
+        3,
+        7
       ],
       "irregularDays": [
         1,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -186,11 +188,13 @@
     },
     "routeId": "505043301503",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        5,
+        6
       ]
     }
   }
