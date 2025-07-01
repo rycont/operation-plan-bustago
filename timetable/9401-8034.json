@@ -9,78 +9,6 @@
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11600
-      ],
-      "초등생": [
-        5800
-      ],
-      "중고생": [
-        9300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        },
-        {
-          "name": "남악"
-        },
-        {
-          "name": "삼호"
-        },
-        {
-          "name": "우수영"
-        },
-        {
-          "name": "녹진"
-        },
-        {
-          "name": "진도"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "949401805912",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9401",
-    "arrivalTerminalId": "8034",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
       "hour": 8,
       "minute": 10
     },
@@ -953,6 +881,78 @@
         7
       ],
       "irregularDays": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8034",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11600
+      ],
+      "초등생": [
+        5800
+      ],
+      "중고생": [
+        9300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "삼호"
+        },
+        {
+          "name": "우수영"
+        },
+        {
+          "name": "녹진"
+        },
+        {
+          "name": "진도"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949401805912",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
         4,
         5
       ]
