@@ -56,10 +56,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -84,13 +84,16 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        5500
+        5500,
+        7200
       ],
       "초등생": [
-        2800
+        2800,
+        3600
       ],
       "중고생": [
-        4400
+        4400,
+        5800
       ]
     },
     "stops": [
@@ -115,9 +118,11 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         41
       ],
       "busClass": [
+        "시외우등",
         "일반"
       ]
     },
@@ -125,10 +130,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
