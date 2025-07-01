@@ -66,67 +66,6 @@
       0
     ],
     "operator": [
-      "㈜아성고속",
-      "㈜천마고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10800
-      ],
-      "초등생": [
-        5400
-      ],
-      "중고생": [
-        8600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "영천"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505047900101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5047",
-    "arrivalTerminalId": "9001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "㈜아성고속"
     ],
     "departureTime": {
@@ -427,6 +366,67 @@
       0
     ],
     "operator": [
+      "㈜아성고속",
+      "㈜천마고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10800
+      ],
+      "초등생": [
+        5400
+      ],
+      "중고생": [
+        8600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영천"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505047900101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5047",
+    "arrivalTerminalId": "9001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "공통"
     ],
     "departureTime": {
@@ -471,7 +471,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3,
         7
@@ -529,7 +528,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3,
         7
