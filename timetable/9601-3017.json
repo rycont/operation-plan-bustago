@@ -15,13 +15,16 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        31400
+        31400,
+        40800
       ],
       "초등생": [
-        15700
+        15700,
+        20400
       ],
       "중고생": [
-        25100
+        25100,
+        32600
       ]
     },
     "stops": [
@@ -58,23 +61,18 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        41
+        28
       ],
       "busClass": [
-        "시외우등",
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "969601301709",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
+        7
       ]
     }
   }
