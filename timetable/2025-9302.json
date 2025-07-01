@@ -207,68 +207,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 14,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25500
-      ],
-      "초등생": [
-        12800
-      ],
-      "중고생": [
-        20400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태백"
-        },
-        {
-          "name": "고한사북공영"
-        },
-        {
-          "name": "영월"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202039930202",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2025",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 18,
       "minute": 20
     },
@@ -320,6 +258,68 @@
         2,
         3,
         4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2025",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25500
+      ],
+      "초등생": [
+        12800
+      ],
+      "중고생": [
+        20400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "영월"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202039930202",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         5,
         7
       ]

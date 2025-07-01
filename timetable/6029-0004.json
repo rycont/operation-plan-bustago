@@ -50,12 +50,76 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6029",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        45100,
+        48900
+      ],
+      "초등생": [
+        22600,
+        24500
+      ],
+      "중고생": [
+        36100,
+        39100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "통영터미널"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등",
+        "프리미엄우등(주말)"
+      ]
+    },
+    "routeId": "606029000401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         1,
+        2,
+        3,
         4,
         5,
         6
@@ -117,12 +181,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
-        1,
         4,
         5,
         6
@@ -180,12 +244,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
-        1,
         4,
         5,
         6
@@ -243,12 +307,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
-        1,
         4,
         5,
         6
@@ -306,12 +370,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
-        1,
         4,
         5,
         6
@@ -375,12 +439,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
-        1,
         4,
         5,
         6
@@ -438,12 +502,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
-        1,
         4,
         5,
         6
@@ -501,12 +565,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
-        1,
         4,
         5,
         6
@@ -564,12 +628,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
-        1,
         4,
         5,
         6
@@ -627,12 +691,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
-        1,
         4,
         5,
         6
@@ -699,75 +763,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         7
       ],
       "irregularDays": [
-        1,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6029",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      240
-    ],
-    "operator": [
-      "경원여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        45100,
-        48900
-      ],
-      "초등생": [
-        22600,
-        24500
-      ],
-      "중고생": [
-        36100,
-        39100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "통영터미널"
-        },
-        {
-          "name": "고성"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등",
-        "프리미엄우등(주말)"
-      ]
-    },
-    "routeId": "606029000401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        2,
-        3,
         4,
         5,
         6
