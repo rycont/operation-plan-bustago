@@ -135,66 +135,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3200
-      ],
-      "초등생": [
-        1600
-      ],
-      "중고생": [
-        2600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "하남"
-        },
-        {
-          "name": "경기도광주"
-        },
-        {
-          "name": "대전복합"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101051950301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6
-      ],
-      "irregularDays": [
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1051",
-    "arrivalTerminalId": "1047",
-    "durationInMinutes": [
-      27
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 13,
       "minute": 25
     },
@@ -306,6 +246,66 @@
       ],
       "irregularDays": [
         4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1051",
+    "arrivalTerminalId": "1047",
+    "durationInMinutes": [
+      27
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3200
+      ],
+      "초등생": [
+        1600
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "하남"
+        },
+        {
+          "name": "경기도광주"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101051950301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6
+      ],
+      "irregularDays": [
         5,
         7
       ]
