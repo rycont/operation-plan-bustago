@@ -165,81 +165,6 @@
       "강원고속㈜"
     ],
     "departureTime": {
-      "hour": 11,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16600
-      ],
-      "초등생": [
-        8300
-      ],
-      "중고생": [
-        13300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "대성리"
-        },
-        {
-          "name": "청평"
-        },
-        {
-          "name": "가평"
-        },
-        {
-          "name": "강촌"
-        },
-        {
-          "name": "춘천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302203705",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1092",
-    "arrivalTerminalId": "2037",
-    "durationInMinutes": [
-      107
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
       "hour": 13,
       "minute": 40
     },
@@ -460,6 +385,81 @@
       "irregularDays": [
         3,
         4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1092",
+    "arrivalTerminalId": "2037",
+    "durationInMinutes": [
+      107
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16600
+      ],
+      "초등생": [
+        8300
+      ],
+      "중고생": [
+        13300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "춘천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302203705",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
         5
       ]
     }
