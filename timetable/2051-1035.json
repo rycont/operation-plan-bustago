@@ -53,11 +53,11 @@
         1,
         2,
         3,
+        4,
         6,
         7
       ],
       "irregularDays": [
-        4,
         5
       ]
     }
@@ -116,11 +116,11 @@
         1,
         2,
         3,
+        4,
         6,
         7
       ],
       "irregularDays": [
-        4,
         5
       ]
     }
@@ -179,11 +179,71 @@
         1,
         2,
         3,
+        4,
         6,
         7
       ],
       "irregularDays": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2051",
+    "arrivalTerminalId": "1035",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        26600
+      ],
+      "초등생": [
+        13300
+      ],
+      "중고생": [
+        21300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "평택"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202051103502",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         4,
+        6,
+        7
+      ],
+      "irregularDays": [
         5
       ]
     }
@@ -304,66 +364,6 @@
         7
       ],
       "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2051",
-    "arrivalTerminalId": "1035",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        26600
-      ],
-      "초등생": [
-        13300
-      ],
-      "중고생": [
-        21300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "평택"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202051103502",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
         5
       ]
     }
