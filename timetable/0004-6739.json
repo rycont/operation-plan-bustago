@@ -60,15 +60,13 @@
     },
     "routeId": "000004601613",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
+        4,
         6
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
@@ -133,13 +131,11 @@
     },
     "routeId": "000004601613",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4
       ]
     }
@@ -210,10 +206,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5
       ]
     }
