@@ -74,15 +74,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -152,15 +152,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -236,6 +236,9 @@
         1,
         2,
         3,
+        4,
+        5,
+        6,
         7
       ]
     }
@@ -301,17 +304,9 @@
     },
     "routeId": "909002801102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
       ]
     }
   }
