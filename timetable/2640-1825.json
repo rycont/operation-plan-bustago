@@ -72,17 +72,15 @@
     },
     "routeId": "202640000103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -159,17 +157,15 @@
     },
     "routeId": "202640000103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -246,17 +242,97 @@
     },
     "routeId": "202640000103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
         5,
+        6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "1825",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
       ],
-      "irregularDays": [
-        6
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        7000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "기본구간"
+        },
+        {
+          "name": "광덕고개"
+        },
+        {
+          "name": "백운동"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "이동"
+        },
+        {
+          "name": "일동"
+        },
+        {
+          "name": "운악산휴게소"
+        },
+        {
+          "name": "소학리"
+        },
+        {
+          "name": "내촌(포천)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640000103",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        5,
+        6,
+        7
       ]
     }
   },
@@ -333,17 +409,15 @@
     },
     "routeId": "202640000103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -420,17 +494,15 @@
     },
     "routeId": "202640000103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -507,17 +579,15 @@
     },
     "routeId": "202640000103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -594,17 +664,15 @@
     },
     "routeId": "202640000103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -681,536 +749,15 @@
     },
     "routeId": "202640000103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2640",
-    "arrivalTerminalId": "1825",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        7000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "사창리"
-        },
-        {
-          "name": "기본구간"
-        },
-        {
-          "name": "광덕고개"
-        },
-        {
-          "name": "백운동"
-        },
-        {
-          "name": "도평리"
-        },
-        {
-          "name": "이동"
-        },
-        {
-          "name": "일동"
-        },
-        {
-          "name": "운악산휴게소"
-        },
-        {
-          "name": "소학리"
-        },
-        {
-          "name": "내촌(포천)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202640000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2640",
-    "arrivalTerminalId": "1825",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        7000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "사창리"
-        },
-        {
-          "name": "기본구간"
-        },
-        {
-          "name": "광덕고개"
-        },
-        {
-          "name": "백운동"
-        },
-        {
-          "name": "도평리"
-        },
-        {
-          "name": "이동"
-        },
-        {
-          "name": "일동"
-        },
-        {
-          "name": "운악산휴게소"
-        },
-        {
-          "name": "소학리"
-        },
-        {
-          "name": "내촌(포천)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202640000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2640",
-    "arrivalTerminalId": "1825",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        7000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "사창리"
-        },
-        {
-          "name": "기본구간"
-        },
-        {
-          "name": "광덕고개"
-        },
-        {
-          "name": "백운동"
-        },
-        {
-          "name": "도평리"
-        },
-        {
-          "name": "이동"
-        },
-        {
-          "name": "일동"
-        },
-        {
-          "name": "운악산휴게소"
-        },
-        {
-          "name": "소학리"
-        },
-        {
-          "name": "내촌(포천)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202640000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2640",
-    "arrivalTerminalId": "1825",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        7000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "사창리"
-        },
-        {
-          "name": "기본구간"
-        },
-        {
-          "name": "광덕고개"
-        },
-        {
-          "name": "백운동"
-        },
-        {
-          "name": "도평리"
-        },
-        {
-          "name": "이동"
-        },
-        {
-          "name": "일동"
-        },
-        {
-          "name": "운악산휴게소"
-        },
-        {
-          "name": "소학리"
-        },
-        {
-          "name": "내촌(포천)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202640000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2640",
-    "arrivalTerminalId": "1825",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        7000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "사창리"
-        },
-        {
-          "name": "기본구간"
-        },
-        {
-          "name": "광덕고개"
-        },
-        {
-          "name": "백운동"
-        },
-        {
-          "name": "도평리"
-        },
-        {
-          "name": "이동"
-        },
-        {
-          "name": "일동"
-        },
-        {
-          "name": "운악산휴게소"
-        },
-        {
-          "name": "소학리"
-        },
-        {
-          "name": "내촌(포천)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202640000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2640",
-    "arrivalTerminalId": "1825",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        7000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "사창리"
-        },
-        {
-          "name": "기본구간"
-        },
-        {
-          "name": "광덕고개"
-        },
-        {
-          "name": "백운동"
-        },
-        {
-          "name": "도평리"
-        },
-        {
-          "name": "이동"
-        },
-        {
-          "name": "일동"
-        },
-        {
-          "name": "운악산휴게소"
-        },
-        {
-          "name": "소학리"
-        },
-        {
-          "name": "내촌(포천)"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202640000103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -1287,14 +834,437 @@
     },
     "routeId": "202640000103",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5,
+        6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "1825",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
       ],
-      "irregularDays": [
-        6
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        7000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "기본구간"
+        },
+        {
+          "name": "광덕고개"
+        },
+        {
+          "name": "백운동"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "이동"
+        },
+        {
+          "name": "일동"
+        },
+        {
+          "name": "운악산휴게소"
+        },
+        {
+          "name": "소학리"
+        },
+        {
+          "name": "내촌(포천)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640000103",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "1825",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
+      ],
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        7000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "기본구간"
+        },
+        {
+          "name": "광덕고개"
+        },
+        {
+          "name": "백운동"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "이동"
+        },
+        {
+          "name": "일동"
+        },
+        {
+          "name": "운악산휴게소"
+        },
+        {
+          "name": "소학리"
+        },
+        {
+          "name": "내촌(포천)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640000103",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "1825",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
+      ],
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        7000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "기본구간"
+        },
+        {
+          "name": "광덕고개"
+        },
+        {
+          "name": "백운동"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "이동"
+        },
+        {
+          "name": "일동"
+        },
+        {
+          "name": "운악산휴게소"
+        },
+        {
+          "name": "소학리"
+        },
+        {
+          "name": "내촌(포천)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640000103",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "1825",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
+      ],
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        7000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "기본구간"
+        },
+        {
+          "name": "광덕고개"
+        },
+        {
+          "name": "백운동"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "이동"
+        },
+        {
+          "name": "일동"
+        },
+        {
+          "name": "운악산휴게소"
+        },
+        {
+          "name": "소학리"
+        },
+        {
+          "name": "내촌(포천)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640000103",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2640",
+    "arrivalTerminalId": "1825",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
+      ],
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        7000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "사창리"
+        },
+        {
+          "name": "기본구간"
+        },
+        {
+          "name": "광덕고개"
+        },
+        {
+          "name": "백운동"
+        },
+        {
+          "name": "도평리"
+        },
+        {
+          "name": "이동"
+        },
+        {
+          "name": "일동"
+        },
+        {
+          "name": "운악산휴게소"
+        },
+        {
+          "name": "소학리"
+        },
+        {
+          "name": "내촌(포천)"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202640000103",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
       ]
     }
   }
