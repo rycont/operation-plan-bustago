@@ -7,7 +7,8 @@
     ],
     "operator": [
       "경원여객(자주)",
-      "대한여객(자주)"
+      "대한여객(자주)",
+      "신흥여객(자주)"
     ],
     "departureTime": {
       "hour": 9,
@@ -48,6 +49,7 @@
     "extra": {
       "seatsAmount": [
         41,
+        44,
         45
       ],
       "busClass": [
@@ -56,14 +58,17 @@
     },
     "routeId": "909002645508",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
-        6,
-        7
+        5
       ]
     }
   },
@@ -126,14 +131,17 @@
     },
     "routeId": "909002645508",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
-        6,
-        7
+        5
       ]
     }
   },
@@ -196,14 +204,17 @@
     },
     "routeId": "909002645508",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
-        6,
-        7
+        5
       ]
     }
   }

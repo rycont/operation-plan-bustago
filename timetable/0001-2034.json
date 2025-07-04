@@ -54,18 +54,7 @@
     },
     "routeId": "000001254802",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -117,18 +106,7 @@
     },
     "routeId": "000001203403",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -183,18 +161,7 @@
     },
     "routeId": "000001291401",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -249,18 +216,7 @@
     },
     "routeId": "000001291401",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -312,18 +268,7 @@
     },
     "routeId": "000001203403",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -375,16 +320,60 @@
     },
     "routeId": "000001203401",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2034",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 28
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25700
       ],
-      "irregularDays": [
-        4,
+      "초등생": [
+        12900
+      ],
+      "중고생": [
+        20600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "주문진"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001203401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         5
       ]
     }
@@ -438,17 +427,63 @@
     },
     "routeId": "000001203403",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2034",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25700
+      ],
+      "초등생": [
+        12900
+      ],
+      "중고생": [
+        20600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "주문진"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001203401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        4,
-        5
       ]
     }
   },
@@ -504,18 +539,7 @@
     },
     "routeId": "000001254801",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -570,18 +594,7 @@
     },
     "routeId": "000001291401",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -636,18 +649,7 @@
     },
     "routeId": "000001291401",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -699,18 +701,7 @@
     },
     "routeId": "000001203401",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -762,18 +753,7 @@
     },
     "routeId": "000001203401",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -950,120 +930,6 @@
         1,
         6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2034",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25700
-      ],
-      "초등생": [
-        12900
-      ],
-      "중고생": [
-        20600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "주문진"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001203401",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2034",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 28
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25700
-      ],
-      "초등생": [
-        12900
-      ],
-      "중고생": [
-        20600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "주문진"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001203401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
       ]
     }
   }
