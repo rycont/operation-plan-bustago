@@ -50,15 +50,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
-        6,
+        5,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -113,15 +113,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
-        6,
+        5,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -176,15 +176,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
-        6,
+        5,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -239,15 +239,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
-        6,
+        5,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -302,14 +302,69 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
-        6,
+        5,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4010",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 38
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23700
       ],
-      "irregularDays": [
+      "초등생": [
+        11900
+      ],
+      "중고생": [
+        19000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "당진"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404006940102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         5
       ]
     }
@@ -365,11 +420,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6,
-        7
+        6
       ],
       "irregularDays": [
-        5
+        5,
+        7
       ]
     }
   }
