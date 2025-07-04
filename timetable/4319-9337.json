@@ -55,14 +55,17 @@
     },
     "routeId": "404024933701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        7
+        6
       ]
     }
   },
@@ -129,6 +132,7 @@
         3,
         4,
         5,
+        6,
         7
       ]
     }
@@ -189,14 +193,17 @@
     },
     "routeId": "404024933701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        7
+        6
       ]
     }
   },
@@ -256,14 +263,17 @@
     },
     "routeId": "404024933701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        7
+        6
       ]
     }
   },
@@ -323,14 +333,17 @@
     },
     "routeId": "404024933701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        7
+        6
       ]
     }
   },
@@ -390,13 +403,80 @@
     },
     "routeId": "404024933701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4319",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜한양고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19500
+      ],
+      "초등생": [
+        9800
+      ],
+      "중고생": [
+        15600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "보령"
+        },
+        {
+          "name": "홍성"
+        },
+        {
+          "name": "내포"
+        },
+        {
+          "name": "김포공항"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404024933702",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         7
       ]
     }
