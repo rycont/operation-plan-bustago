@@ -48,17 +48,15 @@
     },
     "routeId": "101051950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
-        7
-      ],
-      "irregularDays": [
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -111,143 +109,15 @@
     },
     "routeId": "101051950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
-        7
-      ],
-      "irregularDays": [
         4,
         5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1051",
-    "arrivalTerminalId": "9503",
-    "durationInMinutes": [
-      130
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17800
-      ],
-      "초등생": [
-        8900
-      ],
-      "중고생": [
-        12500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "하남"
-        },
-        {
-          "name": "경기도광주"
-        },
-        {
-          "name": "대전복합"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101051950301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
+        6,
         7
-      ],
-      "irregularDays": [
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1051",
-    "arrivalTerminalId": "9503",
-    "durationInMinutes": [
-      130
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17800
-      ],
-      "초등생": [
-        8900
-      ],
-      "중고생": [
-        12500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "하남"
-        },
-        {
-          "name": "경기도광주"
-        },
-        {
-          "name": "대전복합"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101051950301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5,
-        6
       ]
     }
   },
@@ -300,14 +170,134 @@
     },
     "routeId": "101051950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        7
-      ],
-      "irregularDays": [
         5,
-        6
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1051",
+    "arrivalTerminalId": "9503",
+    "durationInMinutes": [
+      130
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17800
+      ],
+      "초등생": [
+        8900
+      ],
+      "중고생": [
+        12500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "하남"
+        },
+        {
+          "name": "경기도광주"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101051950301",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1051",
+    "arrivalTerminalId": "9503",
+    "durationInMinutes": [
+      130
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17800
+      ],
+      "초등생": [
+        8900
+      ],
+      "중고생": [
+        12500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "하남"
+        },
+        {
+          "name": "경기도광주"
+        },
+        {
+          "name": "대전복합"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101051950301",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
       ]
     }
   },
@@ -360,14 +350,12 @@
     },
     "routeId": "101051950301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        7
-      ],
-      "irregularDays": [
         5,
-        6
+        6,
+        7
       ]
     }
   }
