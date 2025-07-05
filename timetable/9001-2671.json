@@ -54,7 +54,13 @@
     },
     "routeId": "909001201905",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        4,
+        6,
+        7
+      ]
     }
   },
   {
@@ -112,7 +118,6 @@
       "type": "specific-day",
       "days": [
         1,
-        5,
         6,
         7
       ]
@@ -179,7 +184,13 @@
     },
     "routeId": "909001200402",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        4,
+        6,
+        7
+      ]
     }
   },
   {
@@ -237,7 +248,6 @@
       "type": "specific-day",
       "days": [
         1,
-        5,
         6,
         7
       ]
@@ -295,67 +305,12 @@
     },
     "routeId": "909001205103",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9001",
-    "arrivalTerminalId": "2671",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 22,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        44900
-      ],
-      "초등생": [
-        22500
-      ],
-      "중고생": [
-        35900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산동부"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야고속"
-      ]
-    },
-    "routeId": "909001201908",
-    "pattern": {
       "type": "specific-day",
       "days": [
-        5
+        1,
+        4,
+        6,
+        7
       ]
     }
   },
@@ -414,7 +369,13 @@
     },
     "routeId": "909001201908",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        4,
+        6,
+        7
+      ]
     }
   },
   {
@@ -468,9 +429,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        6,
-        7
+        4
       ]
     }
   }

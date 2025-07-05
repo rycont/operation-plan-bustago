@@ -3,8 +3,7 @@
     "departureTerminalId": "1782",
     "arrivalTerminalId": "2062",
     "durationInMinutes": [
-      155,
-      165
+      155
     ],
     "operator": [
       "㈜금강고속"
@@ -61,13 +60,13 @@
     },
     "routeId": "101782201906",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
-        2,
-        3,
         4,
-        6,
         7
       ]
     }
