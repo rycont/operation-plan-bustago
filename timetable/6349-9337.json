@@ -54,7 +54,14 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -112,7 +119,14 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -170,7 +184,14 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -228,7 +249,14 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -289,8 +317,7 @@
       "type": "specific-day",
       "days": [
         1,
-        2,
-        3,
+        6,
         7
       ]
     }
@@ -350,7 +377,14 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -410,9 +444,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3
+        1
       ]
     }
   },
@@ -471,7 +503,14 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
     }
   },
   {
@@ -529,17 +568,11 @@
     },
     "routeId": "606003933701",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2,
-        3,
         6,
         7
-      ],
-      "irregularDays": [
-        4,
-        5
       ]
     }
   },
@@ -600,8 +633,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        4,
-        5
+        2,
+        3
       ]
     }
   }

@@ -45,15 +45,10 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
       ]
@@ -105,15 +100,10 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
       ]
@@ -165,15 +155,10 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
       ]
@@ -225,15 +210,10 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
       ]
@@ -285,15 +265,10 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
       ]
@@ -345,15 +320,10 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
       ]
@@ -405,15 +375,10 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
       ]
@@ -465,15 +430,10 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
       ]
@@ -525,15 +485,10 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
       ]
@@ -585,15 +540,10 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
       ]
@@ -645,17 +595,118 @@
     },
     "routeId": "303013001901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5,
+        2,
         6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3013",
+    "arrivalTerminalId": "0019",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10100
+      ],
+      "초등생": [
+        5100
+      ],
+      "중고생": [
+        8100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "증평"
+        },
+        {
+          "name": "센트럴시티"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303013001901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3013",
+    "arrivalTerminalId": "0019",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10100
+      ],
+      "초등생": [
+        5100
+      ],
+      "중고생": [
+        8100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "증평"
+        },
+        {
+          "name": "센트럴시티"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303013001901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        6
       ]
     }
   }

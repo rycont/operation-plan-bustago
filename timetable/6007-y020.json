@@ -30,6 +30,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -37,9 +40,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -70,13 +70,15 @@
         "일반"
       ]
     },
-    "routeId": "606007900203",
+    "routeId": "606007900207",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -91,7 +93,7 @@
     ],
     "departureTime": {
       "hour": 6,
-      "minute": 20
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -138,82 +140,6 @@
           "name": "진교"
         },
         {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007900207",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
-      ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
           "name": "진주"
         }
       ]
@@ -227,100 +153,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "곤양"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "창원"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007y00804",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -403,7 +244,14 @@
     },
     "routeId": "606007y00807",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -437,6 +285,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -444,9 +295,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -477,13 +325,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -518,6 +368,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -525,9 +378,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -558,13 +408,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -599,6 +451,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -606,9 +461,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -639,13 +491,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -680,6 +534,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -687,9 +544,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -720,13 +574,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -761,6 +617,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -768,9 +627,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -801,94 +657,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007900203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -965,93 +742,13 @@
     },
     "routeId": "606007900207",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "곤양"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "창원"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007y00804",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -1134,7 +831,14 @@
     },
     "routeId": "606007y00807",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -1219,87 +923,13 @@
     },
     "routeId": "606007y01006",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007900203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -1376,7 +1006,14 @@
     },
     "routeId": "606007900207",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -1410,6 +1047,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -1417,9 +1057,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -1450,13 +1087,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -1491,6 +1130,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -1498,9 +1140,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -1531,13 +1170,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -1572,6 +1213,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -1579,9 +1223,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -1612,94 +1253,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007900203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -1776,93 +1338,13 @@
     },
     "routeId": "606007900207",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "곤양"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "창원"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007y00804",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -1945,7 +1427,14 @@
     },
     "routeId": "606007y00807",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -1979,6 +1468,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -1986,9 +1478,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -2019,13 +1508,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -2060,6 +1551,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -2067,9 +1561,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -2100,94 +1591,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007900203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -2264,7 +1676,14 @@
     },
     "routeId": "606007900207",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -2298,6 +1717,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -2305,9 +1727,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -2338,13 +1757,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -2379,6 +1800,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -2386,9 +1810,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -2419,100 +1840,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "곤양"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "창원"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007y00804",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -2595,87 +1931,13 @@
     },
     "routeId": "606007y00807",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007900203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -2752,7 +2014,14 @@
     },
     "routeId": "606007900207",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -2786,6 +2055,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -2793,9 +2065,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -2826,13 +2095,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -2867,6 +2138,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -2874,9 +2148,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -2907,94 +2178,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007900203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -3071,93 +2263,13 @@
     },
     "routeId": "606007900207",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "곤양"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "창원"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007y00804",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -3240,87 +2352,13 @@
     },
     "routeId": "606007y00807",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6007",
-    "arrivalTerminalId": "y020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2700
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
       ],
-      "초등생": [
-        1400
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "남해"
-        },
-        {
-          "name": "대사"
-        },
-        {
-          "name": "차면"
-        },
-        {
-          "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
-        },
-        {
-          "name": "대치"
-        },
-        {
-          "name": "상촌"
-        },
-        {
-          "name": "술상"
-        },
-        {
-          "name": "양포"
-        },
-        {
-          "name": "진교"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606007900203",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -3397,7 +2435,14 @@
     },
     "routeId": "606007900207",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   },
   {
@@ -3431,6 +2476,9 @@
           "name": "남해"
         },
         {
+          "name": "도마"
+        },
+        {
           "name": "대사"
         },
         {
@@ -3438,9 +2486,6 @@
         },
         {
           "name": "대교(월곡)"
-        },
-        {
-          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -3471,13 +2516,15 @@
         "일반"
       ]
     },
-    "routeId": "606007y01005",
+    "routeId": "606007y01007",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3,
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        6
       ]
     }
   },
@@ -3527,7 +2574,99 @@
     },
     "routeId": "606007y02001",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007900203",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
+      ]
     }
   },
   {
@@ -3561,9 +2700,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -3571,6 +2707,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -3601,19 +2740,102 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "곤양"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007y00804",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
       ]
     }
   },
@@ -3648,9 +2870,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -3658,6 +2877,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -3688,19 +2910,14 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
       ]
     }
   },
@@ -3735,9 +2952,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -3745,6 +2959,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -3775,19 +2992,14 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
       ]
     }
   },
@@ -3822,9 +3034,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -3832,6 +3041,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -3862,19 +3074,14 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
       ]
     }
   },
@@ -3909,9 +3116,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -3919,6 +3123,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -3949,19 +3156,14 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
       ]
     }
   },
@@ -3996,9 +3198,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4006,6 +3205,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4036,19 +3238,266 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007900203",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "곤양"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007y00804",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007900203",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
       ]
     }
   },
@@ -4083,9 +3532,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4093,6 +3539,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4123,19 +3572,14 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
       ]
     }
   },
@@ -4170,9 +3614,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4180,6 +3621,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4210,19 +3654,14 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
       ]
     }
   },
@@ -4257,9 +3696,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4267,6 +3703,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4297,19 +3736,184 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007900203",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "곤양"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007y00804",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
       ]
     }
   },
@@ -4344,9 +3948,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4354,6 +3955,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4384,19 +3988,14 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
       ]
     }
   },
@@ -4431,9 +4030,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4441,6 +4037,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4471,19 +4070,96 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007900203",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
       ]
     }
   },
@@ -4518,9 +4194,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4528,6 +4201,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4558,19 +4234,14 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
       ]
     }
   },
@@ -4605,9 +4276,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4615,6 +4283,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4645,19 +4316,184 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "곤양"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007y00804",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007900203",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
       ]
     }
   },
@@ -4692,9 +4528,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4702,6 +4535,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4732,19 +4568,14 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
       ]
     }
   },
@@ -4779,9 +4610,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4789,6 +4617,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4819,19 +4650,266 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007900203",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "곤양"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "창원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007y00804",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "대사"
+        },
+        {
+          "name": "차면"
+        },
+        {
+          "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007900203",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4,
+        6
       ]
     }
   },
@@ -4866,9 +4944,6 @@
           "name": "남해"
         },
         {
-          "name": "도마"
-        },
-        {
           "name": "대사"
         },
         {
@@ -4876,6 +4951,9 @@
         },
         {
           "name": "대교(월곡)"
+        },
+        {
+          "name": "대교(노량)"
         },
         {
           "name": "대치"
@@ -4906,19 +4984,101 @@
         "일반"
       ]
     },
-    "routeId": "606007y01007",
+    "routeId": "606007y01005",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6007",
+    "arrivalTerminalId": "y020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2700
+      ],
+      "초등생": [
+        1400
+      ],
+      "중고생": [
+        2200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "남해"
+        },
+        {
+          "name": "문항"
+        },
+        {
+          "name": "남양"
+        },
+        {
+          "name": "문의"
+        },
+        {
+          "name": "왕지"
+        },
+        {
+          "name": "수원늘"
+        },
+        {
+          "name": "노량관음포"
+        },
+        {
+          "name": "대치"
+        },
+        {
+          "name": "상촌"
+        },
+        {
+          "name": "술상"
+        },
+        {
+          "name": "양포"
+        },
+        {
+          "name": "진교"
+        },
+        {
+          "name": "진주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606007y01004",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
+        3,
+        4
       ]
     }
   }

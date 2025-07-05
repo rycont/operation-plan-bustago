@@ -55,9 +55,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -118,9 +115,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -181,9 +175,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -244,9 +235,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -310,9 +298,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -373,9 +358,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -439,9 +421,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -502,9 +481,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -568,9 +544,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -631,9 +604,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -694,9 +664,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -757,9 +724,64 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8109",
+    "arrivalTerminalId": "8003",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "㈜동광고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4500
+      ],
+      "초등생": [
+        2300
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "문화동"
+        },
+        {
+          "name": "곡성"
+        },
+        {
+          "name": "구례"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808109800701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        6,
         7
       ]
     }
@@ -820,9 +842,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -883,9 +902,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -946,9 +962,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
         7
       ]
     }
@@ -1009,70 +1022,6 @@
       "irregularDays": [
         1,
         2,
-        3,
-        4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8109",
-    "arrivalTerminalId": "8003",
-    "durationInMinutes": [
-      40
-    ],
-    "operator": [
-      "㈜동광고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        4500
-      ],
-      "초등생": [
-        2300
-      ],
-      "중고생": [
-        3600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "문화동"
-        },
-        {
-          "name": "곡성"
-        },
-        {
-          "name": "구례"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808109800701",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
         7
       ]
     }
