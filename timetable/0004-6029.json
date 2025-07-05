@@ -56,15 +56,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -119,15 +117,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -182,15 +178,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -247,15 +241,9 @@
     },
     "routeId": "000004602901",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        4,
-        5,
         6
       ]
     }
@@ -311,15 +299,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -378,15 +364,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -441,15 +425,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -504,15 +486,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -567,15 +547,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -630,15 +608,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -693,15 +669,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -762,15 +736,68 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 31
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        37600
+      ],
+      "초등생": [
+        18800
+      ],
+      "중고생": [
+        30100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000004602901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
       ]
     }
   }

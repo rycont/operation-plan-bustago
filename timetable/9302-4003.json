@@ -10,7 +10,7 @@
     ],
     "departureTime": {
       "hour": 6,
-      "minute": 40
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -52,18 +52,11 @@
         "시외우등"
       ]
     },
-    "routeId": "939302400810",
+    "routeId": "939302400811",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4
-      ],
-      "irregularDays": [
-        5,
-        6,
-        7
+      "type": "specific-day",
+      "days": [
+        1
       ]
     }
   },
@@ -116,14 +109,11 @@
     },
     "routeId": "101007400301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3,
-        4
-      ],
-      "irregularDays": [
+        6,
         7
       ]
     }
@@ -177,15 +167,10 @@
     },
     "routeId": "939302400809",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3,
-        4
-      ],
-      "irregularDays": [
-        5,
         6,
         7
       ]
@@ -237,15 +222,10 @@
     },
     "routeId": "939302400301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3,
-        4
-      ],
-      "irregularDays": [
-        5,
         6,
         7
       ]
@@ -300,15 +280,10 @@
     },
     "routeId": "939302400809",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3,
-        4
-      ],
-      "irregularDays": [
-        5,
         6,
         7
       ]
@@ -360,15 +335,10 @@
     },
     "routeId": "939302400301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3,
-        4
-      ],
-      "irregularDays": [
-        5,
         6,
         7
       ]
@@ -423,15 +393,10 @@
     },
     "routeId": "939302400809",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3,
-        4
-      ],
-      "irregularDays": [
-        5,
         6,
         7
       ]
@@ -489,78 +454,12 @@
     },
     "routeId": "939302400303",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "irregularDays": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "4003",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금남고속"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18800
-      ],
-      "초등생": [
-        9400
-      ],
-      "중고생": [
-        15000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "세종청사"
-        },
-        {
-          "name": "세종시"
-        },
-        {
-          "name": "공주"
-        },
-        {
-          "name": "부여"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302400811",
-    "pattern": {
       "type": "specific-day",
       "days": [
-        1
+        1,
+        2,
+        6,
+        7
       ]
     }
   },
@@ -613,12 +512,72 @@
     },
     "routeId": "939302400809",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
+      "type": "specific-day",
+      "days": [
+        1,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "4003",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18800
       ],
-      "irregularDays": [
-        5,
+      "초등생": [
+        9400
+      ],
+      "중고생": [
+        15000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302400810",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2,
         6,
         7
       ]

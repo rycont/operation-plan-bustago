@@ -10,7 +10,7 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 10
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -57,10 +57,15 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        4,
-        5
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        6
       ]
     }
   },
@@ -127,7 +132,16 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -188,7 +202,16 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -255,7 +278,16 @@
     },
     "routeId": "949401824602",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -319,7 +351,16 @@
     },
     "routeId": "949401846301",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -380,7 +421,16 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -441,7 +491,16 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -502,7 +561,16 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -563,7 +631,16 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -624,7 +701,16 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -685,7 +771,16 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -746,7 +841,16 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -760,7 +864,7 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 30
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -807,17 +911,9 @@
     },
     "routeId": "949401805912",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4,
-        5
+      "type": "specific-day",
+      "days": [
+        6
       ]
     }
   }
