@@ -72,84 +72,15 @@
     },
     "routeId": "808008900202",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8002",
-    "arrivalTerminalId": "9002",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 31
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        31500
-      ],
-      "초등생": [
-        15800
-      ],
-      "중고생": [
-        25200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "녹동"
-        },
-        {
-          "name": "고흥"
-        },
-        {
-          "name": "과역"
-        },
-        {
-          "name": "벌교"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808011900203",
-    "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
-        7
+        2,
+        3
       ]
     }
   },
@@ -220,10 +151,82 @@
       "type": "specific-day",
       "days": [
         1,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8002",
+    "arrivalTerminalId": "9002",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 31
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31500
+      ],
+      "초등생": [
+        15800
+      ],
+      "중고생": [
+        25200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "녹동"
+        },
+        {
+          "name": "고흥"
+        },
+        {
+          "name": "과역"
+        },
+        {
+          "name": "벌교"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "부산서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808011900203",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         2,
         3,
-        4,
-        5,
         7
       ]
     }
@@ -289,16 +292,11 @@
     },
     "routeId": "808011900204",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        1,
+      "type": "specific-day",
+      "days": [
         2,
         3,
-        4,
-        5,
+        6,
         7
       ]
     }
