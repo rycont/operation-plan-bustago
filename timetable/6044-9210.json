@@ -66,14 +66,14 @@
     },
     "routeId": "606044920401",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        1,
+        3,
+        6
       ]
     }
   }
