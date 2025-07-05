@@ -50,15 +50,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
-        4,
         6,
         7
       ],
       "irregularDays": [
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -138,15 +136,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
-        4,
         6,
         7
       ],
       "irregularDays": [
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -201,15 +197,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
-        4,
         6,
         7
       ],
       "irregularDays": [
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -254,9 +248,11 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "시외우등",
         "프리미엄우등"
       ]
     },
@@ -264,15 +260,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
-        4,
         6,
         7
       ],
       "irregularDays": [
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -327,15 +321,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
-        4,
         6,
         7
       ],
       "irregularDays": [
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -390,15 +382,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
-        4,
         6,
         7
       ],
       "irregularDays": [
-        5
+        1,
+        2,
+        3
       ]
     }
   },
@@ -451,13 +441,10 @@
     },
     "routeId": "404006940102",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   }
