@@ -48,13 +48,11 @@
     },
     "routeId": "808047806201",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
         6,
@@ -123,13 +121,11 @@
     },
     "routeId": "808047805001",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
         6,
@@ -198,13 +194,11 @@
     },
     "routeId": "808047805903",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
         6,
@@ -270,13 +264,11 @@
     },
     "routeId": "808047816401",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
         6,
@@ -345,13 +337,11 @@
     },
     "routeId": "808047805001",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
         6,
@@ -420,76 +410,11 @@
     },
     "routeId": "808047805903",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8047",
-    "arrivalTerminalId": "8062",
-    "durationInMinutes": [
-      30
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 22,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5600
-      ],
-      "초등생": [
-        2800
-      ],
-      "중고생": [
-        4500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "영암"
-        },
-        {
-          "name": "성전"
-        },
-        {
-          "name": "해남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808047806201",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4,
         5,
         6,
@@ -562,6 +487,67 @@
       "days": [
         5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8047",
+    "arrivalTerminalId": "8062",
+    "durationInMinutes": [
+      30
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5600
+      ],
+      "초등생": [
+        2800
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영암"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "해남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808047806201",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
       ]
     }
   }

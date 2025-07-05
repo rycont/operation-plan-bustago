@@ -54,13 +54,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
+        1,
+        2,
+        3,
         4,
         5
       ]
@@ -121,80 +121,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         6,
         7
       ],
       "irregularDays": [
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2019",
-    "arrivalTerminalId": "1007",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        26300
-      ],
-      "초등생": [
-        13200
-      ],
-      "중고생": [
-        21000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "속초"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "안양(왕궁예식장)"
-        },
-        {
-          "name": "부천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202019100713",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
         1,
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
         5
       ]
@@ -258,6 +191,73 @@
         7
       ],
       "irregularDays": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2019",
+    "arrivalTerminalId": "1007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        26300
+      ],
+      "초등생": [
+        13200
+      ],
+      "중고생": [
+        21000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "안양(왕궁예식장)"
+        },
+        {
+          "name": "부천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202019100713",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
         5
       ]
     }
