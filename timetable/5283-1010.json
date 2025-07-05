@@ -51,117 +51,12 @@
     },
     "routeId": "505043101002",
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5283",
-    "arrivalTerminalId": "1010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18100
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        14500
+      "type": "specific-day",
+      "days": [
+        1,
+        6,
+        7
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안동"
-        },
-        {
-          "name": "영주"
-        },
-        {
-          "name": "영주(풍기)"
-        },
-        {
-          "name": "성남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505043101002",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "5283",
-    "arrivalTerminalId": "1010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18100
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        14500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안동"
-        },
-        {
-          "name": "영주"
-        },
-        {
-          "name": "영주(풍기)"
-        },
-        {
-          "name": "성남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505043101002",
-    "pattern": {
-      "type": "everyday"
     }
   },
   {
@@ -219,7 +114,6 @@
       "type": "specific-day",
       "days": [
         1,
-        5,
         6,
         7
       ]
@@ -280,7 +174,126 @@
       "type": "specific-day",
       "days": [
         1,
-        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5283",
+    "arrivalTerminalId": "1010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18100
+      ],
+      "초등생": [
+        9100
+      ],
+      "중고생": [
+        14500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안동"
+        },
+        {
+          "name": "영주"
+        },
+        {
+          "name": "영주(풍기)"
+        },
+        {
+          "name": "성남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505043101002",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5283",
+    "arrivalTerminalId": "1010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18100
+      ],
+      "초등생": [
+        9100
+      ],
+      "중고생": [
+        14500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안동"
+        },
+        {
+          "name": "영주"
+        },
+        {
+          "name": "영주(풍기)"
+        },
+        {
+          "name": "성남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505043101002",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
         6,
         7
       ]
@@ -340,7 +353,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        5,
         6,
         7
       ]
