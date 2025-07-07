@@ -54,16 +54,13 @@
     },
     "routeId": "909001201908",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        6
-      ],
-      "irregularDays": [
-        5,
+        6,
         7
       ]
     }
@@ -123,16 +120,13 @@
     },
     "routeId": "909001201905",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        6
-      ],
-      "irregularDays": [
-        5,
+        6,
         7
       ]
     }
@@ -213,16 +207,13 @@
     },
     "routeId": "929201201909",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        6
-      ],
-      "irregularDays": [
-        5,
+        6,
         7
       ]
     }
@@ -288,16 +279,13 @@
     },
     "routeId": "909001200409",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        6
-      ],
-      "irregularDays": [
-        5,
+        6,
         7
       ]
     }
@@ -366,78 +354,14 @@
     },
     "routeId": "929201201907",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        6
-      ],
-      "irregularDays": [
-        5,
+        6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5071",
-    "arrivalTerminalId": "2019",
-    "durationInMinutes": [
-      291
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        47600
-      ],
-      "초등생": [
-        23800
-      ],
-      "중고생": [
-        38100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산동부"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야고속"
-      ]
-    },
-    "routeId": "909001201908",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
       ]
     }
   }
