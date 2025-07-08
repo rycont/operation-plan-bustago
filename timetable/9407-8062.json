@@ -69,6 +69,7 @@
         2,
         3,
         4,
+        5,
         6
       ]
     }
@@ -155,6 +156,7 @@
         2,
         3,
         4,
+        5,
         6
       ]
     }
@@ -220,6 +222,7 @@
         2,
         3,
         4,
+        5,
         6
       ]
     }
@@ -309,6 +312,7 @@
         2,
         3,
         4,
+        5,
         6
       ]
     }
@@ -392,6 +396,7 @@
         2,
         3,
         4,
+        5,
         6
       ]
     }
@@ -481,80 +486,7 @@
         2,
         3,
         4,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9407",
-    "arrivalTerminalId": "8062",
-    "durationInMinutes": [
-      85
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13300
-      ],
-      "초등생": [
-        6700
-      ],
-      "중고생": [
-        10600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광주진월동"
-        },
-        {
-          "name": "나주"
-        },
-        {
-          "name": "영산포"
-        },
-        {
-          "name": "신북"
-        },
-        {
-          "name": "영암"
-        },
-        {
-          "name": "성전"
-        },
-        {
-          "name": "해남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "949407806202",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
+        5,
         6
       ]
     }
@@ -634,6 +566,82 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9407",
+    "arrivalTerminalId": "8062",
+    "durationInMinutes": [
+      85
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13300
+      ],
+      "초등생": [
+        6700
+      ],
+      "중고생": [
+        10600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주진월동"
+        },
+        {
+          "name": "나주"
+        },
+        {
+          "name": "영산포"
+        },
+        {
+          "name": "신북"
+        },
+        {
+          "name": "영암"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "해남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949407806202",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
         6
       ]
     }
