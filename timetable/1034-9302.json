@@ -9,6 +9,84 @@
       "강원고속㈜"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13400
+      ],
+      "초등생": [
+        6700
+      ],
+      "중고생": [
+        10700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "비산동"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202037930204",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1034",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
       "hour": 9,
       "minute": 45
     },
@@ -71,12 +149,12 @@
         2,
         3,
         4,
+        5,
         6,
         7
       ],
       "irregularDays": [
-        1,
-        5
+        1
       ]
     }
   },
@@ -152,12 +230,12 @@
         2,
         3,
         4,
+        5,
         6,
         7
       ],
       "irregularDays": [
-        1,
-        5
+        1
       ]
     }
   },
@@ -233,12 +311,90 @@
         2,
         3,
         4,
+        5,
         6,
         7
       ],
       "irregularDays": [
-        1,
-        5
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1034",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13400
+      ],
+      "초등생": [
+        6700
+      ],
+      "중고생": [
+        10700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "춘천"
+        },
+        {
+          "name": "강촌"
+        },
+        {
+          "name": "가평"
+        },
+        {
+          "name": "청평"
+        },
+        {
+          "name": "대성리"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "비산동"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202037930204",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -314,12 +470,12 @@
         2,
         3,
         4,
+        5,
         6,
         7
       ],
       "irregularDays": [
-        1,
-        5
+        1
       ]
     }
   },
@@ -395,168 +551,12 @@
         2,
         3,
         4,
+        5,
         6,
         7
       ],
       "irregularDays": [
-        1,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1034",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13400
-      ],
-      "초등생": [
-        6700
-      ],
-      "중고생": [
-        10700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "춘천"
-        },
-        {
-          "name": "강촌"
-        },
-        {
-          "name": "가평"
-        },
-        {
-          "name": "청평"
-        },
-        {
-          "name": "대성리"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "비산동"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202037930204",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1034",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13400
-      ],
-      "초등생": [
-        6700
-      ],
-      "중고생": [
-        10700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "춘천"
-        },
-        {
-          "name": "강촌"
-        },
-        {
-          "name": "가평"
-        },
-        {
-          "name": "청평"
-        },
-        {
-          "name": "대성리"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "비산동"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202037930204",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        5
+        1
       ]
     }
   }
