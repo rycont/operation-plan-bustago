@@ -54,10 +54,77 @@
     },
     "routeId": "505043301503",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         5,
-        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5049",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "충북리무진㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15700
+      ],
+      "초등생": [
+        7900
+      ],
+      "중고생": [
+        12600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안동"
+        },
+        {
+          "name": "예천"
+        },
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505043301503",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        5,
         7
       ]
     }
@@ -123,69 +190,6 @@
         2,
         3,
         4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5049",
-    "arrivalTerminalId": "3015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "충북리무진㈜"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15700
-      ],
-      "초등생": [
-        7900
-      ],
-      "중고생": [
-        12600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "안동"
-        },
-        {
-          "name": "예천"
-        },
-        {
-          "name": "경북대상주"
-        },
-        {
-          "name": "남청주"
-        },
-        {
-          "name": "청주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "505043301503",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
         5,
         6,
         7
