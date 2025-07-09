@@ -69,12 +69,16 @@
     },
     "routeId": "505071301701",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
+        3,
         4,
-        6,
+        5,
         7
       ]
     }
@@ -141,22 +145,24 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        41
+        28
       ],
       "busClass": [
-        "시외우등",
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "969601301709",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
+        3,
         4,
-        6,
+        5,
         7
       ]
     }
@@ -228,12 +234,16 @@
     },
     "routeId": "505071301702",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
+        3,
         4,
-        6,
+        5,
         7
       ]
     }

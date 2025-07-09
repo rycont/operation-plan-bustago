@@ -142,14 +142,16 @@
     },
     "routeId": "929201804101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -214,14 +216,16 @@
     },
     "routeId": "929204804107",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -292,14 +296,16 @@
     },
     "routeId": "929201804101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -397,16 +403,13 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        31700,
-        41500
+        31700
       ],
       "초등생": [
-        15900,
-        20800
+        15900
       ],
       "중고생": [
-        25400,
-        33200
+        25400
       ]
     },
     "stops": [
@@ -434,19 +437,16 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         28
       ],
       "busClass": [
-        "시외우등",
-        "프리미엄우등"
+        "시외우등"
       ]
     },
     "routeId": "929204804101",
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         7
       ]
     }
@@ -467,15 +467,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        31700,
         41500
       ],
       "초등생": [
-        15900,
         20800
       ],
       "중고생": [
-        25400,
         33200
       ]
     },
@@ -504,11 +501,9 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "시외우등",
         "프리미엄우등"
       ]
     },
@@ -516,7 +511,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         7
       ]
     }
