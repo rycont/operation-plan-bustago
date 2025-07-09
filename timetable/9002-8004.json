@@ -231,82 +231,17 @@
     },
     "routeId": "909002801101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "8004",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "㈜동방고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        28600
-      ],
-      "초등생": [
-        14300
-      ],
-      "중고생": [
-        22900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "섬진강"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "벌교"
-        },
-        {
-          "name": "과역"
-        },
-        {
-          "name": "고흥"
-        },
-        {
-          "name": "녹동"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909002801102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
       ]
     }
   }

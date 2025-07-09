@@ -9,6 +9,62 @@
       "㈜광신고속"
     ],
     "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42600
+      ],
+      "초등생": [
+        21300
+      ],
+      "중고생": [
+        34100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202051940101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2051",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "㈜광신고속"
+    ],
+    "departureTime": {
       "hour": 16,
       "minute": 40
     },
@@ -52,60 +108,10 @@
       ],
       "irregularDays": [
         1,
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2051",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      300
-    ],
-    "operator": [
-      "㈜광신고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        42600
-      ],
-      "초등생": [
-        21300
-      ],
-      "중고생": [
-        34100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202051940101",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
+        2,
+        3,
+        4,
+        5
       ]
     }
   }

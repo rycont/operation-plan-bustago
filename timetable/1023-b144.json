@@ -57,14 +57,16 @@
     },
     "routeId": "101023001001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -199,143 +201,17 @@
     },
     "routeId": "101023001001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1023",
-    "arrivalTerminalId": "b144",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 5,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2100
-      ],
-      "초등생": [
-        1100
-      ],
-      "중고생": [
-        1500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "오산"
-        },
-        {
-          "name": "오산대역후문"
-        },
-        {
-          "name": "죽미마을입구"
-        },
-        {
-          "name": "롯데시네마병점상가"
-        },
-        {
-          "name": "동탄(예당마을)"
-        },
-        {
-          "name": "김포공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101023001001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1023",
-    "arrivalTerminalId": "b144",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2100
-      ],
-      "초등생": [
-        1100
-      ],
-      "중고생": [
-        1500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "오산"
-        },
-        {
-          "name": "오산대역후문"
-        },
-        {
-          "name": "죽미마을입구"
-        },
-        {
-          "name": "롯데시네마병점상가"
-        },
-        {
-          "name": "동탄(예당마을)"
-        },
-        {
-          "name": "김포공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101023001001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
       ]
     }
   }

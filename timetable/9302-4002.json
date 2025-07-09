@@ -3,84 +3,6 @@
     "departureTerminalId": "9302",
     "arrivalTerminalId": "4002",
     "durationInMinutes": [
-      85
-    ],
-    "operator": [
-      "㈜충남고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10800
-      ],
-      "초등생": [
-        5400
-      ],
-      "중고생": [
-        8600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "신창"
-        },
-        {
-          "name": "신례원"
-        },
-        {
-          "name": "예산"
-        },
-        {
-          "name": "내포"
-        },
-        {
-          "name": "홍성"
-        },
-        {
-          "name": "광천"
-        },
-        {
-          "name": "보령"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "939302402405",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "4002",
-    "durationInMinutes": [
       0
     ],
     "operator": [
@@ -308,6 +230,84 @@
         3,
         4,
         5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "4002",
+    "durationInMinutes": [
+      85
+    ],
+    "operator": [
+      "㈜충남고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10800
+      ],
+      "초등생": [
+        5400
+      ],
+      "중고생": [
+        8600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "신창"
+        },
+        {
+          "name": "신례원"
+        },
+        {
+          "name": "예산"
+        },
+        {
+          "name": "내포"
+        },
+        {
+          "name": "홍성"
+        },
+        {
+          "name": "광천"
+        },
+        {
+          "name": "보령"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302402405",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
       ]
     }
   }
