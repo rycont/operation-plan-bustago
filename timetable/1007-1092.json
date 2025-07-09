@@ -2276,11 +2276,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6,
         7
       ],
       "irregularDays": [
-        1
+        1,
+        6
       ]
     }
   },
@@ -2336,10 +2336,12 @@
     },
     "routeId": "101007703301",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },
@@ -2350,7 +2352,6 @@
       0
     ],
     "operator": [
-      "(주)경기고속",
       "대원고속"
     ],
     "departureTime": {
@@ -2398,7 +2399,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         7
       ]
     }
