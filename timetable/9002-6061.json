@@ -77,14 +77,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
-        5
+        5,
+        6
       ],
       "irregularDays": [
         1,
-        6,
+        2,
         7
       ]
     }
@@ -167,14 +167,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
-        5
+        5,
+        6
       ],
       "irregularDays": [
         1,
-        6,
+        2,
         7
       ]
     }
@@ -257,15 +257,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
         3,
         4,
         5,
+        6,
         7
       ],
       "irregularDays": [
-        6
+        1,
+        2
       ]
     }
   },
@@ -347,15 +347,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
         3,
         4,
         5,
+        6,
         7
       ],
       "irregularDays": [
-        6
+        1,
+        2
       ]
     }
   },
@@ -437,14 +437,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
-        5
+        5,
+        6
       ],
       "irregularDays": [
         1,
-        6,
+        2,
         7
       ]
     }
@@ -527,14 +527,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
-        5
+        5,
+        6
       ],
       "irregularDays": [
         1,
-        6,
+        2,
         7
       ]
     }
@@ -617,15 +617,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
         3,
         4,
         5,
+        6,
         7
       ],
       "irregularDays": [
-        6
+        1,
+        2
       ]
     }
   },
@@ -707,15 +707,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
         3,
         4,
         5,
+        6,
         7
       ],
       "irregularDays": [
-        6
+        1,
+        2
       ]
     }
   },
@@ -794,7 +794,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         7
       ]
     }
@@ -874,167 +873,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6061",
-    "durationInMinutes": [
-      80
-    ],
-    "operator": [
-      "태영고속㈜"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        7000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "의령"
-        },
-        {
-          "name": "가례"
-        },
-        {
-          "name": "칠곡"
-        },
-        {
-          "name": "대의"
-        },
-        {
-          "name": "삼가"
-        },
-        {
-          "name": "쌍백"
-        },
-        {
-          "name": "대양"
-        },
-        {
-          "name": "합천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909002603301",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "6061",
-    "durationInMinutes": [
-      80
-    ],
-    "operator": [
-      "태영고속㈜"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8800
-      ],
-      "초등생": [
-        4400
-      ],
-      "중고생": [
-        7000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "의령"
-        },
-        {
-          "name": "가례"
-        },
-        {
-          "name": "칠곡"
-        },
-        {
-          "name": "대의"
-        },
-        {
-          "name": "삼가"
-        },
-        {
-          "name": "쌍백"
-        },
-        {
-          "name": "대양"
-        },
-        {
-          "name": "합천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "909002603301",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
         7
       ]
     }
@@ -1114,6 +952,164 @@
       ]
     },
     "routeId": "909002603302",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6061",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "태영고속㈜"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
+      ],
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        7000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "월촌"
+        },
+        {
+          "name": "정암"
+        },
+        {
+          "name": "의령"
+        },
+        {
+          "name": "가례"
+        },
+        {
+          "name": "칠곡"
+        },
+        {
+          "name": "대의"
+        },
+        {
+          "name": "삼가"
+        },
+        {
+          "name": "쌍백"
+        },
+        {
+          "name": "대양"
+        },
+        {
+          "name": "합천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909002603301",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "6061",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "태영고속㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8800
+      ],
+      "초등생": [
+        4400
+      ],
+      "중고생": [
+        7000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "월촌"
+        },
+        {
+          "name": "정암"
+        },
+        {
+          "name": "의령"
+        },
+        {
+          "name": "가례"
+        },
+        {
+          "name": "칠곡"
+        },
+        {
+          "name": "대의"
+        },
+        {
+          "name": "삼가"
+        },
+        {
+          "name": "쌍백"
+        },
+        {
+          "name": "대양"
+        },
+        {
+          "name": "합천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "909002603301",
     "pattern": {
       "type": "specific-day",
       "days": [
