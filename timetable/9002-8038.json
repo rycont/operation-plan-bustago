@@ -111,6 +111,68 @@
       "금호고속(주)"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19500
+      ],
+      "초등생": [
+        9800
+      ],
+      "중고생": [
+        15600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "순천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002803802",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "8038",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
       "hour": 8,
       "minute": 35
     },
@@ -908,14 +970,16 @@
     },
     "routeId": "909002801101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -1251,68 +1315,6 @@
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19500
-      ],
-      "초등생": [
-        9800
-      ],
-      "중고생": [
-        15600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "순천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909002803802",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "8038",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
       "hour": 22,
       "minute": 10
     },
@@ -1429,7 +1431,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         7
       ]
     }
@@ -1489,64 +1490,6 @@
       "type": "specific-day",
       "days": [
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "8038",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19500
-      ],
-      "초등생": [
-        9800
-      ],
-      "중고생": [
-        15600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "순천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909002803802",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
       ]
     }
   }

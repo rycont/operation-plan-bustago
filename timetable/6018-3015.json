@@ -9,63 +9,6 @@
       "해운대고속㈜"
     ],
     "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27200
-      ],
-      "초등생": [
-        13600
-      ],
-      "중고생": [
-        21800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산해운대"
-        },
-        {
-          "name": "양산"
-        },
-        {
-          "name": "청주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "909007301502",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6018",
-    "arrivalTerminalId": "3015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
       "hour": 8,
       "minute": 20
     },
@@ -105,9 +48,70 @@
     },
     "routeId": "909007301502",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6018",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "해운대고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27200
+      ],
+      "초등생": [
+        13600
+      ],
+      "중고생": [
+        21800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산해운대"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909007301502",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        5,
         7
       ]
     }
