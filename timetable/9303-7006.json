@@ -54,10 +54,16 @@
     },
     "routeId": "939337702602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
-        6,
+        2,
+        3,
+        4,
+        5,
         7
       ]
     }
@@ -119,12 +125,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -183,77 +192,86 @@
     },
     "routeId": "939337702602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "7006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29700
+      ],
+      "초등생": [
+        14900
+      ],
+      "중고생": [
+        23800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "군산"
+        },
+        {
+          "name": "대야"
+        },
+        {
+          "name": "익산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337702602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "7006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(유)호남고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        29700
-      ],
-      "초등생": [
-        14900
-      ],
-      "중고생": [
-        23800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "군산"
-        },
-        {
-          "name": "대야"
-        },
-        {
-          "name": "익산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337702602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -314,12 +332,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -380,12 +401,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -446,12 +470,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -512,12 +539,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -578,12 +608,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -644,12 +677,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -710,12 +746,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -776,12 +815,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -842,12 +884,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -908,12 +953,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -974,12 +1022,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -1040,12 +1091,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   },
@@ -1106,12 +1160,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        6
+        3,
+        4,
+        5
       ]
     }
   }

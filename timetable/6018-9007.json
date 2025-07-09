@@ -9,6 +9,59 @@
       "해운대고속㈜"
     ],
     "departureTime": {
+      "hour": 6,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5000
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "양산"
+        },
+        {
+          "name": "부산해운대"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606018900701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6018",
+    "arrivalTerminalId": "9007",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "해운대고속㈜"
+    ],
+    "departureTime": {
       "hour": 11,
       "minute": 10
     },
@@ -55,59 +108,6 @@
       ],
       "irregularDays": [
         1
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6018",
-    "arrivalTerminalId": "9007",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "해운대고속㈜"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5000
-      ],
-      "초등생": [
-        2500
-      ],
-      "중고생": [
-        4000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "양산"
-        },
-        {
-          "name": "부산해운대"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606018900701",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
       ]
     }
   },
@@ -268,7 +268,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         7
       ]
     }
@@ -321,7 +320,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         7
       ]
     }
@@ -374,7 +372,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         7
       ]
     }
@@ -427,7 +424,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         7
       ]
     }
@@ -480,7 +476,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         7
       ]
     }

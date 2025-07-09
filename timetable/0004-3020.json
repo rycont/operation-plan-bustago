@@ -198,65 +198,6 @@
     ],
     "departureTime": {
       "hour": 9,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "청주공항"
-        },
-        {
-          "name": "청주대정류소"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000004302004",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "3020",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 9,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -1075,8 +1016,8 @@
       "새서울고속"
     ],
     "departureTime": {
-      "hour": 19,
-      "minute": 0
+      "hour": 18,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1111,9 +1052,16 @@
     },
     "routeId": "000004302001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4
       ]
     }
   },
@@ -1442,8 +1390,67 @@
       "새서울고속"
     ],
     "departureTime": {
-      "hour": 18,
-      "minute": 40
+      "hour": 9,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12800
+      ],
+      "초등생": [
+        6400
+      ],
+      "중고생": [
+        10200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "청주공항"
+        },
+        {
+          "name": "청주대정류소"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000004302004",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "3020",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "새서울고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1478,16 +1485,9 @@
     },
     "routeId": "000004302001",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
+      "type": "specific-day",
+      "days": [
+        5
       ]
     }
   },
