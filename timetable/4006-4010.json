@@ -56,7 +56,9 @@
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -142,7 +144,9 @@
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -203,7 +207,9 @@
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -248,11 +254,9 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "시외우등",
         "프리미엄우등"
       ]
     },
@@ -266,7 +270,9 @@
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -327,7 +333,9 @@
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -388,7 +396,64 @@
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "4006",
+    "arrivalTerminalId": "4010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 3
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "당진"
+        },
+        {
+          "name": "서산"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "404006940102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5
       ]
     }
   },
@@ -441,10 +506,13 @@
     },
     "routeId": "404006940102",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   }

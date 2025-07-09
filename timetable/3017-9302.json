@@ -54,6 +54,7 @@
         2,
         3,
         4,
+        5,
         6
       ]
     }
@@ -113,6 +114,63 @@
         2,
         3,
         4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3017",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12600
+      ],
+      "초등생": [
+        6300
+      ],
+      "중고생": [
+        10100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "충주"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303017930205",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        5,
         6
       ]
     }
@@ -172,6 +230,7 @@
         2,
         3,
         4,
+        5,
         6
       ]
     }
@@ -231,61 +290,7 @@
         2,
         3,
         4,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3017",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12600
-      ],
-      "초등생": [
-        6300
-      ],
-      "중고생": [
-        10100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "충주"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303017930205",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
+        5,
         6
       ]
     }
@@ -341,6 +346,7 @@
         7
       ],
       "irregularDays": [
+        5,
         6
       ]
     }
