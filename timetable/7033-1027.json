@@ -9,8 +9,8 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 12,
-      "minute": 10
+      "hour": 8,
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -47,11 +47,65 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
+        6,
         7
       ],
       "irregularDays": [
-        6
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7033",
+    "arrivalTerminalId": "1027",
+    "durationInMinutes": [
+      190
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27100
+      ],
+      "초등생": [
+        13600
+      ],
+      "중고생": [
+        21700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "의정부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707033102701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
       ]
     }
   },
@@ -103,15 +157,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         4,
         5,
+        6,
         7
       ],
       "irregularDays": [
-        6
+        1,
+        2,
+        3
       ]
     }
   },
@@ -163,71 +217,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        2,
-        3,
         4,
         5,
+        6,
         7
       ],
       "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "7033",
-    "arrivalTerminalId": "1027",
-    "durationInMinutes": [
-      190
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27100
-      ],
-      "초등생": [
-        13600
-      ],
-      "중고생": [
-        21700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "전주"
-        },
-        {
-          "name": "의정부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "707033102701",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
         1,
-        7
-      ],
-      "irregularDays": [
-        6
+        2,
+        3
       ]
     }
   },
@@ -279,11 +277,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
+        6,
         7
       ],
       "irregularDays": [
-        6
+        1
       ]
     }
   }
