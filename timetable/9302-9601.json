@@ -6,6 +6,66 @@
       330
     ],
     "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42000
+      ],
+      "초등생": [
+        21000
+      ],
+      "중고생": [
+        29400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302960104",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "9601",
+    "durationInMinutes": [
+      330
+    ],
+    "operator": [
       "㈜아성고속",
       "㈜천마고속"
     ],
@@ -52,15 +112,13 @@
     },
     "routeId": "939302960104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        5
-      ],
-      "irregularDays": [
+        5,
         6,
         7
       ]
@@ -119,15 +177,13 @@
     },
     "routeId": "939302960104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        5
-      ],
-      "irregularDays": [
+        5,
         6,
         7
       ]
@@ -185,15 +241,13 @@
     },
     "routeId": "939302960104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
+        5,
         6,
         7
       ]
@@ -251,15 +305,13 @@
     },
     "routeId": "939302960104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        5
-      ],
-      "irregularDays": [
+        5,
         6,
         7
       ]
@@ -317,77 +369,13 @@
     },
     "routeId": "939302960104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        5
-      ],
-      "irregularDays": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "9601",
-    "durationInMinutes": [
-      330
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        42000
-      ],
-      "초등생": [
-        21000
-      ],
-      "중고생": [
-        29400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302960104",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
+        5,
         6,
         7
       ]

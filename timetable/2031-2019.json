@@ -53,6 +53,7 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
@@ -60,7 +61,88 @@
         2,
         3,
         4,
-        5,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2031",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 21
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "인제"
+        },
+        {
+          "name": "원통"
+        },
+        {
+          "name": "장수대"
+        },
+        {
+          "name": "한계령"
+        },
+        {
+          "name": "흘림골입구"
+        },
+        {
+          "name": "오색등산로"
+        },
+        {
+          "name": "오색"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001201918",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         6
       ]
     }
@@ -119,6 +201,7 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
@@ -126,8 +209,7 @@
         2,
         3,
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -185,6 +267,7 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
@@ -192,8 +275,7 @@
         2,
         3,
         4,
-        5,
-        6
+        5
       ]
     }
   }
