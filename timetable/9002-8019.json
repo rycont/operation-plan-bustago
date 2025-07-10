@@ -797,15 +797,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        17000,
         22100
       ],
       "초등생": [
-        8500,
         11100
       ],
       "중고생": [
-        13600,
         17700
       ]
     },
@@ -828,11 +825,9 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "시외우등",
         "프리미엄우등"
       ]
     },
@@ -1317,15 +1312,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
         3,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -1738,15 +1733,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        20400,
         26500
       ],
       "초등생": [
-        10200,
         13300
       ],
       "중고생": [
-        16300,
         21200
       ]
     },
@@ -1769,70 +1761,10 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "심야우등1",
         "프리미엄심야우등"
-      ]
-    },
-    "routeId": "909002803802",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9002",
-    "arrivalTerminalId": "8019",
-    "durationInMinutes": [
-      130
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17000
-      ],
-      "초등생": [
-        8500
-      ],
-      "중고생": [
-        13600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산서부"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "순천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
       ]
     },
     "routeId": "909002803802",
