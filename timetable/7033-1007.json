@@ -443,11 +443,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6,
         7
       ],
       "irregularDays": [
-        1
+        1,
+        6
       ]
     }
   },
@@ -505,11 +505,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6,
         7
       ],
       "irregularDays": [
-        1
+        1,
+        6
       ]
     }
   },
@@ -559,10 +559,12 @@
     },
     "routeId": "707033100703",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        6
       ]
     }
   }
