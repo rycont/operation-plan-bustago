@@ -127,15 +127,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
         3,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -416,70 +416,6 @@
         3,
         4,
         5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "4024",
-    "arrivalTerminalId": "9303",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜한양고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        29700
-      ],
-      "초등생": [
-        14900
-      ],
-      "중고생": [
-        23800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "보령"
-        },
-        {
-          "name": "홍성"
-        },
-        {
-          "name": "내포"
-        },
-        {
-          "name": "김포공항"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "404024933702",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
       ]
     }
   }
