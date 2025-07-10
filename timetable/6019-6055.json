@@ -389,7 +389,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6
+        6,
+        7
       ]
     }
   },
@@ -537,7 +538,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6
+        6,
+        7
       ]
     }
   },
@@ -1204,7 +1206,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6
+        6,
+        7
       ]
     }
   },
@@ -1286,7 +1289,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6
+        6,
+        7
       ]
     }
   },
@@ -1408,13 +1412,11 @@
     },
     "routeId": "606019900201",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
+        2,
+        7
       ]
     }
   },
@@ -1470,13 +1472,11 @@
     },
     "routeId": "606019900201",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
+        2,
+        7
       ]
     }
   },
@@ -1532,13 +1532,11 @@
     },
     "routeId": "606019900201",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
+        2,
+        7
       ]
     }
   },
@@ -1594,176 +1592,10 @@
     },
     "routeId": "606019900201",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6019",
-    "arrivalTerminalId": "6055",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전/동일"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        850
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "합천"
-        },
-        {
-          "name": "대양"
-        },
-        {
-          "name": "쌍백"
-        },
-        {
-          "name": "삼가"
-        },
-        {
-          "name": "대의"
-        },
-        {
-          "name": "칠곡"
-        },
-        {
-          "name": "가례"
-        },
-        {
-          "name": "의령"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "함안"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606033900209",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6019",
-    "arrivalTerminalId": "6055",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전/동일"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        850
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "합천"
-        },
-        {
-          "name": "대양"
-        },
-        {
-          "name": "쌍백"
-        },
-        {
-          "name": "삼가"
-        },
-        {
-          "name": "대의"
-        },
-        {
-          "name": "칠곡"
-        },
-        {
-          "name": "가례"
-        },
-        {
-          "name": "의령"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "함안"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606033900209",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
+        2,
         7
       ]
     }
