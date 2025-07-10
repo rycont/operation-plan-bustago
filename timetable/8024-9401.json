@@ -2721,7 +2721,8 @@
         2,
         3,
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -3007,12 +3008,10 @@
     },
     "routeId": "808024940127",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         7
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -3221,58 +3220,6 @@
       "type": "specific-day",
       "days": [
         6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8024",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      68
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9300
-      ],
-      "초등생": [
-        4700
-      ],
-      "중고생": [
-        7400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "목포"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808024940102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
       ]
     }
   }

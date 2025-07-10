@@ -201,72 +201,6 @@
       0
     ],
     "operator": [
-      "경원여객(자주)"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        45100,
-        48900
-      ],
-      "초등생": [
-        22600,
-        24500
-      ],
-      "중고생": [
-        36100,
-        39100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "서울남부"
-        },
-        {
-          "name": "고성"
-        },
-        {
-          "name": "통영터미널"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등",
-        "프리미엄우등(주말)"
-      ]
-    },
-    "routeId": "000004602901",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0004",
-    "arrivalTerminalId": "6029",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "대한여객(자주)"
     ],
     "departureTime": {
@@ -339,15 +273,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        28900,
         37600
       ],
       "초등생": [
-        14500,
         18800
       ],
       "중고생": [
-        23100,
         30100
       ]
     },
@@ -370,8 +301,7 @@
         28
       ],
       "busClass": [
-        "시외우등",
-        "일반"
+        "시외우등"
       ]
     },
     "routeId": "000004602901",
@@ -764,6 +694,72 @@
       "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0004",
+    "arrivalTerminalId": "6029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        45100,
+        48900
+      ],
+      "초등생": [
+        22600,
+        24500
+      ],
+      "중고생": [
+        36100,
+        39100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "서울남부"
+        },
+        {
+          "name": "고성"
+        },
+        {
+          "name": "통영터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등",
+        "프리미엄우등(주말)"
+      ]
+    },
+    "routeId": "000004602901",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
       ],
       "irregularDays": [
         1,
