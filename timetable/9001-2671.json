@@ -54,11 +54,16 @@
     },
     "routeId": "909001201905",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
+        2,
+        3,
         4,
-        6,
+        5,
         7
       ]
     }
@@ -115,10 +120,13 @@
     },
     "routeId": "909001205103",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
-        6,
+        5,
         7
       ]
     }
@@ -184,11 +192,16 @@
     },
     "routeId": "909001200402",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
+        2,
+        3,
         4,
-        6,
+        5,
         7
       ]
     }
@@ -245,10 +258,13 @@
     },
     "routeId": "909001205103",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
-        6,
+        5,
         7
       ]
     }
@@ -305,11 +321,16 @@
     },
     "routeId": "909001205103",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
+        2,
+        3,
         4,
-        6,
+        5,
         7
       ]
     }
@@ -369,11 +390,16 @@
     },
     "routeId": "909001201908",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
+        2,
+        3,
         4,
-        6,
+        5,
         7
       ]
     }
@@ -382,25 +408,25 @@
     "departureTerminalId": "9001",
     "arrivalTerminalId": "2671",
     "durationInMinutes": [
-      240
+      250
     ],
     "operator": [
-      "㈜천마고속"
+      "㈜금아여행"
     ],
     "departureTime": {
-      "hour": 12,
-      "minute": 0
+      "hour": 22,
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        37400
+        44900
       ],
       "초등생": [
-        18700
+        22500
       ],
       "중고생": [
-        29900
+        35900
       ]
     },
     "stops": [
@@ -409,10 +435,16 @@
           "name": "부산동부"
         },
         {
+          "name": "포항"
+        },
+        {
           "name": "동해공영"
         },
         {
           "name": "강릉"
+        },
+        {
+          "name": "속초"
         }
       ]
     ],
@@ -422,14 +454,14 @@
         28
       ],
       "busClass": [
-        "일반"
+        "심야고속"
       ]
     },
-    "routeId": "909001205102",
+    "routeId": "909001201908",
     "pattern": {
       "type": "specific-day",
       "days": [
-        4
+        5
       ]
     }
   }
