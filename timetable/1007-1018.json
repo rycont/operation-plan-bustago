@@ -2346,13 +2346,11 @@
     },
     "routeId": "101007703301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
-        6
+        6,
+        7
       ]
     }
   },
@@ -2408,69 +2406,9 @@
     },
     "routeId": "101007703301",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1007",
-    "arrivalTerminalId": "1018",
-    "durationInMinutes": [
-      30
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3100
-      ],
-      "초등생": [
-        1600
-      ],
-      "중고생": [
-        2200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "강릉"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007205104",
-    "pattern": {
       "type": "specific-day",
       "days": [
+        6,
         7
       ]
     }

@@ -54,15 +54,17 @@
     },
     "routeId": "707026933703",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -121,15 +123,17 @@
     },
     "routeId": "707026933703",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -149,15 +153,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        41700,
         50000
       ],
       "초등생": [
-        20900,
         25000
       ],
       "중고생": [
-        33400,
         40000
       ]
     },
@@ -183,11 +184,9 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "심야우등1",
         "프리미엄심야우등"
       ]
     },
