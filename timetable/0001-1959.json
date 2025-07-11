@@ -56,11 +56,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -125,11 +125,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -194,11 +194,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -257,11 +257,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -329,11 +329,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -398,11 +398,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -470,11 +470,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -533,11 +533,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -602,11 +602,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -665,11 +665,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -737,11 +737,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -806,11 +806,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -869,11 +869,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -932,11 +932,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1004,11 +1004,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1073,15 +1073,147 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
         5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "1959",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001930201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "1959",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "의왕TG"
+        },
+        {
+          "name": "당수동"
+        },
+        {
+          "name": "상록수"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
       ]
     }
   },
@@ -1142,11 +1274,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1214,11 +1346,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1277,11 +1409,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1349,11 +1481,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1418,11 +1550,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1481,11 +1613,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1553,11 +1685,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1616,11 +1748,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1685,11 +1817,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1757,11 +1889,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1826,11 +1958,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1889,11 +2021,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1961,11 +2093,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2030,11 +2162,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2093,11 +2225,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2165,11 +2297,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2234,11 +2366,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2297,11 +2429,143 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "1959",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "의왕TG"
+        },
+        {
+          "name": "당수동"
+        },
+        {
+          "name": "상록수"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "1959",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001930201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         4,
@@ -2369,11 +2633,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2438,11 +2702,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2510,11 +2774,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2573,11 +2837,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2642,11 +2906,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2705,11 +2969,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2777,11 +3041,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2846,11 +3110,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2918,11 +3182,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -2981,11 +3245,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3050,11 +3314,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3113,11 +3377,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3185,11 +3449,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3254,11 +3518,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3317,11 +3581,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3389,11 +3653,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3458,11 +3722,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3521,15 +3785,86 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
         5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "1959",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "의왕TG"
+        },
+        {
+          "name": "당수동"
+        },
+        {
+          "name": "상록수"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001101501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        7
       ]
     }
   },
@@ -3590,11 +3925,72 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "1959",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1700
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001930201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
         2,
         3,
         4,
@@ -3662,11 +4058,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3734,11 +4130,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3797,11 +4193,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -3866,395 +4262,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "1959",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001930201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "1959",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "의왕TG"
-        },
-        {
-          "name": "당수동"
-        },
-        {
-          "name": "상록수"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001101501",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "1959",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "의왕TG"
-        },
-        {
-          "name": "당수동"
-        },
-        {
-          "name": "상록수"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001101501",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "1959",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001930201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "1959",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "의왕TG"
-        },
-        {
-          "name": "당수동"
-        },
-        {
-          "name": "상록수"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001101501",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "1959",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1700
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001930201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
         2,
         3,
         4,
