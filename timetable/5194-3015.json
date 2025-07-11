@@ -9,8 +9,8 @@
       "충북리무진㈜"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 50
+      "hour": 12,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -50,9 +50,121 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        5,
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5194",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "충북리무진㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        6300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505194301501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5194",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "충북리무진㈜"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7900
+      ],
+      "초등생": [
+        4000
+      ],
+      "중고생": [
+        6300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "경북대상주"
+        },
+        {
+          "name": "남청주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "505194301501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -105,11 +217,13 @@
     },
     "routeId": "505194301501",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -168,7 +282,6 @@
         2,
         3,
         4,
-        5,
         6,
         7
       ]
