@@ -53,15 +53,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
-        2
+        2,
+        3,
+        4
       ]
     }
   },
@@ -119,15 +119,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
-        2
+        2,
+        3,
+        4
       ]
     }
   },
@@ -185,15 +185,81 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2025",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33200
+      ],
+      "초등생": [
+        16600
+      ],
+      "중고생": [
+        23200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "태백"
+        },
+        {
+          "name": "고한사북공영"
+        },
+        {
+          "name": "영월"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "202039930202",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         1,
-        2
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
       ]
     }
   },
@@ -254,72 +320,6 @@
         5,
         6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2025",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        33200
-      ],
-      "초등생": [
-        16600
-      ],
-      "중고생": [
-        23200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "태백"
-        },
-        {
-          "name": "고한사북공영"
-        },
-        {
-          "name": "영월"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등"
-      ]
-    },
-    "routeId": "202039930202",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2
       ]
     }
   }

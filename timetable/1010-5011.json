@@ -50,11 +50,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -113,11 +113,200 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         7
       ],
       "irregularDays": [
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1010",
+    "arrivalTerminalId": "5011",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23200
+      ],
+      "초등생": [
+        11600
+      ],
+      "중고생": [
+        18600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101010920101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         1,
+        5,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1010",
+    "arrivalTerminalId": "5011",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23200
+      ],
+      "초등생": [
+        11600
+      ],
+      "중고생": [
+        18600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "김해"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101010600602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1010",
+    "arrivalTerminalId": "5011",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23200
+      ],
+      "초등생": [
+        11600
+      ],
+      "중고생": [
+        18600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "성남"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101010920101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        7
+      ],
+      "irregularDays": [
         2,
         3,
         4,
@@ -193,132 +382,6 @@
       "경북고속"
     ],
     "departureTime": {
-      "hour": 12,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23200
-      ],
-      "초등생": [
-        11600
-      ],
-      "중고생": [
-        18600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성남"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "동대구"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101010920101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1010",
-    "arrivalTerminalId": "5011",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23200
-      ],
-      "초등생": [
-        11600
-      ],
-      "중고생": [
-        18600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성남"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "김해"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101010600602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1010",
-    "arrivalTerminalId": "5011",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
       "hour": 15,
       "minute": 20
     },
@@ -363,69 +426,6 @@
         7
       ],
       "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1010",
-    "arrivalTerminalId": "5011",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23200
-      ],
-      "초등생": [
-        11600
-      ],
-      "중고생": [
-        18600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "성남"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "동대구"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101010920101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
         6
       ]
     }

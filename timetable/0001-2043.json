@@ -68,11 +68,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -140,11 +140,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -212,11 +212,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -284,11 +284,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -362,11 +362,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -434,11 +434,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -506,11 +506,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -587,11 +587,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -665,11 +665,161 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2043",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32600
+      ],
+      "초등생": [
+        16300
+      ],
+      "중고생": [
+        26100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "장호"
+        },
+        {
+          "name": "임원"
+        },
+        {
+          "name": "호산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001204301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2043",
+    "durationInMinutes": [
+      205
+    ],
+    "operator": [
+      "강원여객"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39100
+      ],
+      "초등생": [
+        19600
+      ],
+      "중고생": [
+        31300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "삼척"
+        },
+        {
+          "name": "임원"
+        },
+        {
+          "name": "호산"
+        },
+        {
+          "name": "부구"
+        },
+        {
+          "name": "죽변"
+        },
+        {
+          "name": "울진"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "000001505401",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
         2,
         3,
         4,
@@ -744,156 +894,6 @@
       "type": "specific-day",
       "days": [
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2043",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        32600
-      ],
-      "초등생": [
-        16300
-      ],
-      "중고생": [
-        26100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "삼척"
-        },
-        {
-          "name": "장호"
-        },
-        {
-          "name": "임원"
-        },
-        {
-          "name": "호산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001204301",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2043",
-    "durationInMinutes": [
-      205
-    ],
-    "operator": [
-      "강원여객"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        39100
-      ],
-      "초등생": [
-        19600
-      ],
-      "중고생": [
-        31300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "삼척"
-        },
-        {
-          "name": "임원"
-        },
-        {
-          "name": "호산"
-        },
-        {
-          "name": "부구"
-        },
-        {
-          "name": "죽변"
-        },
-        {
-          "name": "울진"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등"
-      ]
-    },
-    "routeId": "000001505401",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5
       ]
     }
   }
