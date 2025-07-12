@@ -47,11 +47,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -70,7 +70,7 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 10
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -122,7 +122,59 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 20
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23400
+      ],
+      "초등생": [
+        11700
+      ],
+      "중고생": [
+        18700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "간성"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202001000102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2001",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
