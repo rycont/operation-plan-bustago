@@ -54,75 +54,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1018",
-    "arrivalTerminalId": "2019",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23500
-      ],
-      "초등생": [
-        11800
-      ],
-      "중고생": [
-        16500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부천"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101007201906",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
+        4,
+        5
       ]
     }
   },
@@ -181,15 +121,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -248,15 +188,77 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
-        4
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1018",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23500
+      ],
+      "초등생": [
+        11800
+      ],
+      "중고생": [
+        16500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부천"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101007201906",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   }
