@@ -51,11 +51,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -119,10 +119,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -181,7 +181,71 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "2028",
+    "durationInMinutes": [
+      140
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14900
+      ],
+      "초등생": [
+        7500
+      ],
+      "중고생": [
+        10400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "문막"
+        },
+        {
+          "name": "원주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302202801",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        3,
+        4,
+        5
       ]
     }
   },
@@ -237,11 +301,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -300,11 +364,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -363,11 +427,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -426,11 +490,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -489,11 +553,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -557,10 +621,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -619,7 +683,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1
+        1,
+        2
       ]
     }
   },
@@ -675,11 +740,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -738,11 +803,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -801,11 +866,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -864,11 +929,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -927,11 +992,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
         4,
         5
@@ -990,74 +1055,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "2028",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14900
-      ],
-      "초등생": [
-        7500
-      ],
-      "중고생": [
-        10400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "문막"
-        },
-        {
-          "name": "원주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302202801",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
         3,
         4,
         5
