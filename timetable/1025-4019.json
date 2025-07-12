@@ -62,15 +62,88 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      76
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "시청.용인대역"
+        },
+        {
+          "name": "강남대역"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101025401902",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
       ]
     }
   },
@@ -128,15 +201,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -203,15 +276,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -278,679 +351,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      76
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "명지대사거리"
-        },
-        {
-          "name": "시청.용인대역"
-        },
-        {
-          "name": "강남대역"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101025401902",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      76
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "명지대사거리"
-        },
-        {
-          "name": "시청.용인대역"
-        },
-        {
-          "name": "강남대역"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101025401902",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      76
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "명지대사거리"
-        },
-        {
-          "name": "시청.용인대역"
-        },
-        {
-          "name": "강남대역"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101025401902",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      76
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "명지대사거리"
-        },
-        {
-          "name": "시청.용인대역"
-        },
-        {
-          "name": "강남대역"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101025401902",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      76
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "명지대사거리"
-        },
-        {
-          "name": "시청.용인대역"
-        },
-        {
-          "name": "강남대역"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101025401902",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      80
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "천안"
-        },
-        {
-          "name": "아산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101025420202",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      76
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "명지대사거리"
-        },
-        {
-          "name": "시청.용인대역"
-        },
-        {
-          "name": "강남대역"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101025401902",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      76
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "명지대사거리"
-        },
-        {
-          "name": "시청.용인대역"
-        },
-        {
-          "name": "강남대역"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101025401902",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1025",
-    "arrivalTerminalId": "4019",
-    "durationInMinutes": [
-      76
-    ],
-    "operator": [
-      "합자회사 경남여객"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "용인"
-        },
-        {
-          "name": "명지대사거리"
-        },
-        {
-          "name": "시청.용인대역"
-        },
-        {
-          "name": "강남대역"
-        },
-        {
-          "name": "기흥역정류소"
-        },
-        {
-          "name": "신갈(용인)"
-        },
-        {
-          "name": "천안"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101025401902",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -1017,13 +426,238 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      76
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "시청.용인대역"
+        },
+        {
+          "name": "강남대역"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101025401902",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      76
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "시청.용인대역"
+        },
+        {
+          "name": "강남대역"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101025401902",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      76
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "시청.용인대역"
+        },
+        {
+          "name": "강남대역"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101025401902",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
       ]
     }
   },
@@ -1090,13 +724,229 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      76
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "시청.용인대역"
+        },
+        {
+          "name": "강남대역"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101025401902",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      76
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "시청.용인대역"
+        },
+        {
+          "name": "강남대역"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101025401902",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "천안"
+        },
+        {
+          "name": "아산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101025420202",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
       ]
     }
   },
@@ -1163,13 +1013,163 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      76
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "시청.용인대역"
+        },
+        {
+          "name": "강남대역"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101025401902",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1025",
+    "arrivalTerminalId": "4019",
+    "durationInMinutes": [
+      76
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "시청.용인대역"
+        },
+        {
+          "name": "강남대역"
+        },
+        {
+          "name": "기흥역정류소"
+        },
+        {
+          "name": "신갈(용인)"
+        },
+        {
+          "name": "천안"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101025401902",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
       ]
     }
   }
