@@ -9,6 +9,122 @@
       "㈜전북고속"
     ],
     "departureTime": {
+      "hour": 0,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32000
+      ],
+      "초등생": [
+        16000
+      ],
+      "중고생": [
+        25600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "완주혁신도시"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "707033933702",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7174",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "(유)호남고속"
+    ],
+    "departureTime": {
+      "hour": 0,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32000
+      ],
+      "초등생": [
+        16000
+      ],
+      "중고생": [
+        25600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "완주혁신도시"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "707033933702",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7174",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "㈜전북고속"
+    ],
+    "departureTime": {
       "hour": 6,
       "minute": 50
     },
@@ -55,13 +171,13 @@
       "fixedDays": [
         1,
         2,
-        6,
+        3,
         7
       ],
       "irregularDays": [
-        3,
         4,
-        5
+        5,
+        6
       ]
     }
   },
@@ -121,13 +237,13 @@
       "fixedDays": [
         1,
         2,
-        6,
+        3,
         7
       ],
       "irregularDays": [
-        3,
         4,
-        5
+        5,
+        6
       ]
     }
   }
