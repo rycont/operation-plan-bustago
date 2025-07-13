@@ -91,13 +91,13 @@
       "fixedDays": [
         1,
         2,
-        6,
+        3,
         7
       ],
       "irregularDays": [
-        3,
         4,
-        5
+        5,
+        6
       ]
     }
   },
@@ -193,13 +193,13 @@
       "fixedDays": [
         1,
         2,
-        6,
+        3,
         7
       ],
       "irregularDays": [
-        3,
         4,
-        5
+        5,
+        6
       ]
     }
   },
@@ -253,13 +253,13 @@
       "fixedDays": [
         1,
         2,
-        6,
+        3,
         7
       ],
       "irregularDays": [
-        3,
         4,
-        5
+        5,
+        6
       ]
     }
   },
@@ -351,10 +351,12 @@
     },
     "routeId": "808050900209",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        6
       ]
     }
   }

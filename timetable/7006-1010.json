@@ -9,66 +9,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23000
-      ],
-      "초등생": [
-        11500
-      ],
-      "중고생": [
-        18400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "군산"
-        },
-        {
-          "name": "성남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "707006101021",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "7006",
-    "arrivalTerminalId": "1010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 15,
       "minute": 10
     },
@@ -109,12 +49,72 @@
       "fixedDays": [
         1,
         2,
-        6,
+        3,
+        6
+      ],
+      "irregularDays": [
+        5,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7006",
+    "arrivalTerminalId": "1010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23000
+      ],
+      "초등생": [
+        11500
+      ],
+      "중고생": [
+        18400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "군산"
+        },
+        {
+          "name": "성남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707006101021",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        6
       ],
       "irregularDays": [
         3,
-        5
+        4,
+        5,
+        7
       ]
     }
   },
@@ -168,12 +168,12 @@
       "fixedDays": [
         1,
         2,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         4,
-        5
+        5,
+        7
       ]
     }
   }
