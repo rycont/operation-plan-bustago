@@ -65,6 +65,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
+        2,
         5,
         6,
         7
@@ -137,6 +139,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
+        2,
         5,
         6,
         7
@@ -209,84 +213,11 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9614",
-    "arrivalTerminalId": "6014",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "부산교통㈜"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13900
-      ],
-      "초등생": [
-        7000
-      ],
-      "중고생": [
-        11100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "울산"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "양산"
-        },
-        {
-          "name": "사천공항"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "용현"
-        },
-        {
-          "name": "삼천포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "969601601601",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
         1,
         2,
-        3,
-        4
+        5,
+        6,
+        7
       ]
     }
   },
@@ -356,9 +287,86 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
+        2,
         5,
         6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9614",
+    "arrivalTerminalId": "6014",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "부산교통㈜"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13900
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울산"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "양산"
+        },
+        {
+          "name": "사천공항"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "용현"
+        },
+        {
+          "name": "삼천포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "969601601601",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
       ]
     }
   },
@@ -423,16 +431,14 @@
     },
     "routeId": "969601601601",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
+        5,
+        6,
         7
       ]
     }
@@ -498,16 +504,13 @@
     },
     "routeId": "969601601601",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        5,
+        6,
         7
       ]
     }
@@ -573,16 +576,13 @@
     },
     "routeId": "969601601601",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        5,
+        6,
         7
       ]
     }
