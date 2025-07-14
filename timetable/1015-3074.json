@@ -65,12 +65,12 @@
         1,
         2,
         3,
-        7
+        4
       ],
       "irregularDays": [
-        4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -78,14 +78,14 @@
     "departureTerminalId": "1015",
     "arrivalTerminalId": "3074",
     "durationInMinutes": [
-      0
+      80
     ],
     "operator": [
       "친선고속㈜"
     ],
     "departureTime": {
-      "hour": 11,
-      "minute": 10
+      "hour": 10,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -111,6 +111,9 @@
           "name": "삼성"
         },
         {
+          "name": "대소"
+        },
+        {
           "name": "무극"
         },
         {
@@ -121,25 +124,17 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        40
+        41
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "101015301003",
+    "routeId": "101015301001",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        7
-      ],
-      "irregularDays": [
-        4,
-        5,
-        6
+      "type": "specific-day",
+      "days": [
+        4
       ]
     }
   },
@@ -206,12 +201,148 @@
         1,
         2,
         3,
+        4
+      ],
+      "irregularDays": [
+        5,
+        6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1015",
+    "arrivalTerminalId": "3074",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "일죽"
+        },
+        {
+          "name": "삼성"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "무극"
+        },
+        {
+          "name": "음성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "939302301001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1015",
+    "arrivalTerminalId": "3074",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "안산"
+        },
+        {
+          "name": "일죽"
+        },
+        {
+          "name": "삼성"
+        },
+        {
+          "name": "무극"
+        },
+        {
+          "name": "음성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101015301003",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3
       ],
       "irregularDays": [
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -280,13 +411,13 @@
       "fixedDays": [
         1,
         2,
-        3,
-        7
+        3
       ],
       "irregularDays": [
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   }
