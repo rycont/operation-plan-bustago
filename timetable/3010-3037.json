@@ -53,10 +53,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -119,10 +119,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -185,10 +185,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -248,10 +248,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -329,10 +329,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -349,7 +349,7 @@
     ],
     "departureTime": {
       "hour": 13,
-      "minute": 27
+      "minute": 25
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -387,17 +387,9 @@
     },
     "routeId": "303010301702",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
+      "type": "specific-day",
+      "days": [
+        4
       ]
     }
   },
@@ -488,10 +480,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -575,10 +567,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -653,10 +645,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -716,10 +708,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -812,10 +804,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -875,10 +867,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -938,10 +930,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -998,6 +990,69 @@
       ]
     },
     "routeId": "303010301701",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "irregularDays": [
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3010",
+    "arrivalTerminalId": "3037",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 27
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1900
+      ],
+      "초등생": [
+        1000
+      ],
+      "중고생": [
+        1500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "음성"
+        },
+        {
+          "name": "주덕"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303010301702",
     "pattern": {
       "type": "irregular",
       "fixedDays": [
