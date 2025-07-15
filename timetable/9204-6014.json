@@ -56,14 +56,137 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9204",
+    "arrivalTerminalId": "6014",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19600
+      ],
+      "초등생": [
+        9800
+      ],
+      "중고생": [
+        15700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "삼천포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929204601602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9204",
+    "arrivalTerminalId": "6014",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19600
+      ],
+      "초등생": [
+        9800
+      ],
+      "중고생": [
+        15700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구서부"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "삼천포"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929204601602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         5,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -125,135 +248,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9204",
-    "arrivalTerminalId": "6014",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19600
-      ],
-      "초등생": [
-        9800
-      ],
-      "중고생": [
-        15700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대구서부"
-        },
-        {
-          "name": "합천"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "삼천포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929204601602",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9204",
-    "arrivalTerminalId": "6014",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19600
-      ],
-      "초등생": [
-        9800
-      ],
-      "중고생": [
-        15700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대구서부"
-        },
-        {
-          "name": "합천"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "삼천포"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929204601602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        5,
+        1,
         7
       ]
     }
@@ -310,9 +312,11 @@
     },
     "routeId": "929204601603",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
         7
       ]
     }
