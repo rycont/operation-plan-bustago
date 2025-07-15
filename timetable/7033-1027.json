@@ -6,6 +6,62 @@
       190
     ],
     "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        27100
+      ],
+      "초등생": [
+        13600
+      ],
+      "중고생": [
+        21700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "의정부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707033102701",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7033",
+    "arrivalTerminalId": "1027",
+    "durationInMinutes": [
+      190
+    ],
+    "operator": [
       "(유)호남고속"
     ],
     "departureTime": {
@@ -49,11 +105,11 @@
       "fixedDays": [
         2,
         3,
-        4
+        4,
+        5
       ],
       "irregularDays": [
         1,
-        5,
         6,
         7
       ]
@@ -109,11 +165,11 @@
       "fixedDays": [
         2,
         3,
-        4
+        4,
+        5
       ],
       "irregularDays": [
         1,
-        5,
         6,
         7
       ]
@@ -222,60 +278,6 @@
       "type": "specific-day",
       "days": [
         1,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "7033",
-    "arrivalTerminalId": "1027",
-    "durationInMinutes": [
-      190
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27100
-      ],
-      "초등생": [
-        13600
-      ],
-      "중고생": [
-        21700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "전주"
-        },
-        {
-          "name": "의정부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "707033102701",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
         6,
         7
       ]

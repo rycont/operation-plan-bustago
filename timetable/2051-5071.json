@@ -53,14 +53,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
+        2,
         7
       ]
     }
@@ -125,14 +125,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
+        2,
         7
       ]
     }
@@ -212,14 +212,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
+        2,
         7
       ]
     }
@@ -284,14 +284,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
+        2,
         7
       ]
     }
@@ -359,14 +359,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
+        2,
         7
       ]
     }
@@ -446,14 +446,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
+        2,
         7
       ]
     }
@@ -530,14 +530,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
+        2,
         7
       ]
     }
@@ -602,14 +602,77 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2051",
+    "arrivalTerminalId": "5071",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31700
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "울진"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202051900103",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         5,
+        6
+      ],
+      "irregularDays": [
+        1,
         7
       ]
     }
@@ -680,77 +743,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2051",
-    "arrivalTerminalId": "5071",
-    "durationInMinutes": [
-      240
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        31700
-      ],
-      "초등생": [
-        15900
-      ],
-      "중고생": [
-        25400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "울진"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202051900103",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        1,
-        5,
+        2,
         7
       ]
     }
