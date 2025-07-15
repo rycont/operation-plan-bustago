@@ -53,11 +53,70 @@
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "5007",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33400
+      ],
+      "초등생": [
+        16700
+      ],
+      "중고생": [
+        26700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "포항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001507105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         5,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -116,11 +175,11 @@
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -179,11 +238,11 @@
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -243,11 +302,11 @@
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -307,11 +366,11 @@
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
         7
       ]
     }
@@ -371,70 +430,11 @@
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
         1,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "5007",
-    "durationInMinutes": [
-      240
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        33400
-      ],
-      "초등생": [
-        16700
-      ],
-      "중고생": [
-        26700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "포항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001507105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        5,
         7
       ]
     }
