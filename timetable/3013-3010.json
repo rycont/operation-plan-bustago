@@ -62,13 +62,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
+        1,
         5,
         7
       ]
@@ -117,6 +117,9 @@
           "name": "주덕"
         },
         {
+          "name": "충주교통대"
+        },
+        {
           "name": "충주"
         }
       ]
@@ -130,19 +133,11 @@
         "일반"
       ]
     },
-    "routeId": "303013301704",
+    "routeId": "303013301705",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
-        7
+      "type": "specific-day",
+      "days": [
+        4
       ]
     }
   },
@@ -224,13 +219,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
+        1,
         5,
         7
       ]
@@ -329,13 +324,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
+        1,
         5,
         7
       ]
@@ -425,13 +420,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
+        1,
         5,
         7
       ]
@@ -512,13 +507,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
+        1,
         5,
         7
       ]
@@ -617,13 +612,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
+        1,
         5,
         7
       ]
@@ -692,13 +687,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
+        1,
         5,
         7
       ]
@@ -767,12 +762,84 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "irregularDays": [
         1,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3013",
+    "arrivalTerminalId": "3010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "증평"
+        },
+        {
+          "name": "도안"
+        },
+        {
+          "name": "보천"
+        },
+        {
+          "name": "음성"
+        },
+        {
+          "name": "주덕"
+        },
+        {
+          "name": "충주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303013301704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         6
       ],
       "irregularDays": [
+        1,
         4,
         5,
         7
