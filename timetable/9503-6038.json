@@ -55,14 +55,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
-        5,
+        1,
         7
       ]
     }
@@ -135,14 +135,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
-        5,
+        1,
         7
       ]
     }
@@ -203,14 +203,69 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
-        5,
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9503",
+    "arrivalTerminalId": "6414",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19300
+      ],
+      "초등생": [
+        9700
+      ],
+      "중고생": [
+        15400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대전복합"
+        },
+        {
+          "name": "진주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959503641401",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -271,14 +326,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
-        5,
+        1,
         7
       ]
     }
@@ -357,14 +412,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
-        5,
+        1,
         7
       ]
     }
@@ -437,14 +492,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
-        5,
+        1,
         7
       ]
     }
@@ -505,14 +560,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
+        5,
         6
       ],
       "irregularDays": [
-        5,
+        1,
         7
       ]
     }
@@ -527,7 +582,7 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 13,
+      "hour": 21,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -565,8 +620,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        5,
-        7
+        5
       ]
     }
   },
@@ -775,58 +829,6 @@
       "type": "specific-day",
       "days": [
         6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9503",
-    "arrivalTerminalId": "6414",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19300
-      ],
-      "초등생": [
-        9700
-      ],
-      "중고생": [
-        15400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대전복합"
-        },
-        {
-          "name": "진주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "959503641401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
       ]
     }
   }
