@@ -56,15 +56,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        5,
+        7
       ]
     }
   },
@@ -120,15 +120,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        5,
+        7
       ]
     }
   },
@@ -186,15 +186,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        5,
+        7
       ]
     }
   },
@@ -246,15 +246,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        5,
+        7
       ]
     }
   },
@@ -312,15 +312,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        5,
+        7
       ]
     }
   },
@@ -378,15 +378,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        4,
-        5
+        1,
+        5,
+        7
       ]
     }
   },
@@ -444,9 +444,59 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        6,
-        7
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7033",
+    "arrivalTerminalId": "1007",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25000
+      ],
+      "초등생": [
+        12500
+      ],
+      "중고생": [
+        20000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "전주"
+        },
+        {
+          "name": "부천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "707033100703",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
       ]
     }
   },
@@ -504,62 +554,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "7033",
-    "arrivalTerminalId": "1007",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25000
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        20000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "전주"
-        },
-        {
-          "name": "부천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "707033100703",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
+        6
       ]
     }
   }
