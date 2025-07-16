@@ -56,14 +56,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -182,14 +182,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -257,14 +257,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -332,14 +332,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -461,14 +461,83 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9001",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      300
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        50300
+      ],
+      "초등생": [
+        25200
+      ],
+      "중고생": [
+        40200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야고속"
+      ]
+    },
+    "routeId": "909001201908",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
         7
       ]
     }
@@ -531,75 +600,6 @@
       "type": "specific-day",
       "days": [
         5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9001",
-    "arrivalTerminalId": "2051",
-    "durationInMinutes": [
-      300
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        50300
-      ],
-      "초등생": [
-        25200
-      ],
-      "중고생": [
-        40200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산동부"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야고속"
-      ]
-    },
-    "routeId": "909001201908",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
       ]
     }
   }

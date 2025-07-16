@@ -55,14 +55,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -123,14 +123,77 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -191,14 +254,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -259,14 +322,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -327,14 +390,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -395,825 +458,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜아성고속",
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11200
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        9000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
         2,
         3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8600
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40,
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜아성고속",
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11200
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        9000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜아성고속",
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11200
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        9000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜아성고속",
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11200
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        9000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8600
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40,
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜아성고속",
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11200
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        9000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜아성고속",
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11200
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        9000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8600
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40,
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜아성고속",
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11200
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        9000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜아성고속",
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11200
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        9000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "9614",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)",
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8600
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "용계"
-        },
-        {
-          "name": "울산신복"
-        },
-        {
-          "name": "울산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40,
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "929201960105",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
         7
       ]
     }
@@ -1288,6 +540,210 @@
       0
     ],
     "operator": [
+      "㈜아성고속",
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11200
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        9000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜아성고속",
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11200
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        9000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "금호고속(주)",
       "대원고속"
     ],
@@ -1340,6 +796,278 @@
         6
       ],
       "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜아성고속",
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11200
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        9000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜아성고속",
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11200
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        9000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜아성고속",
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11200
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        9000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
         7
       ]
     }
@@ -1414,6 +1142,210 @@
       0
     ],
     "operator": [
+      "㈜아성고속",
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11200
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        9000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8600
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40,
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜아성고속",
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11200
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        9000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "금호고속(주)",
       "대원고속"
     ],
@@ -1466,6 +1398,74 @@
         6
       ],
       "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "9614",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜아성고속",
+      "금호고속(주)",
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11200
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        9000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "용계"
+        },
+        {
+          "name": "울산신복"
+        },
+        {
+          "name": "울산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201960105",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
         7
       ]
     }
