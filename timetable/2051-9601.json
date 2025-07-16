@@ -61,12 +61,12 @@
       "fixedDays": [
         3,
         4,
-        5
+        5,
+        6
       ],
       "irregularDays": [
         1,
         2,
-        6,
         7
       ]
     }
@@ -133,12 +133,12 @@
       "fixedDays": [
         3,
         4,
-        5
+        5,
+        6
       ],
       "irregularDays": [
         1,
         2,
-        6,
         7
       ]
     }
@@ -192,9 +192,11 @@
     },
     "routeId": "202051960101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
