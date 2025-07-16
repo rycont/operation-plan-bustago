@@ -77,14 +77,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -167,14 +167,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -255,14 +255,16 @@
     },
     "routeId": "606033900209",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -343,14 +345,16 @@
     },
     "routeId": "606033900209",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -433,14 +437,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -523,14 +527,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         7
       ]
     }
@@ -611,14 +615,16 @@
     },
     "routeId": "606033900209",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
       ]
     }
@@ -699,247 +705,17 @@
     },
     "routeId": "606033900209",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6019",
-    "arrivalTerminalId": "9002",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "태영고속㈜"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7800
-      ],
-      "초등생": [
-        3900
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "의령"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606019900201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6019",
-    "arrivalTerminalId": "9002",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "태영고속㈜"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7800
-      ],
-      "초등생": [
-        3900
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "의령"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606019900201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6019",
-    "arrivalTerminalId": "9002",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "태영고속㈜"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7800
-      ],
-      "초등생": [
-        3900
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "의령"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606019900201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6019",
-    "arrivalTerminalId": "9002",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "태영고속㈜"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7800
-      ],
-      "초등생": [
-        3900
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "의령"
-        },
-        {
-          "name": "정암"
-        },
-        {
-          "name": "월촌"
-        },
-        {
-          "name": "부산서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606019900201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        2
       ]
     }
   }

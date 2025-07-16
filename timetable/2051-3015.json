@@ -10,6 +10,66 @@
       "서울고속"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25200
+      ],
+      "초등생": [
+        12600
+      ],
+      "중고생": [
+        20200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202051301501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        6
+      ],
+      "irregularDays": [
+        2,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2051",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "강원여객",
+      "서울고속"
+    ],
+    "departureTime": {
       "hour": 9,
       "minute": 20
     },
@@ -109,14 +169,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        5
+        5,
+        6
       ],
       "irregularDays": [
         1,
+        2,
         3,
-        4,
-        6
+        4
       ]
     }
   },
@@ -131,8 +191,8 @@
       "서울고속"
     ],
     "departureTime": {
-      "hour": 14,
-      "minute": 0
+      "hour": 16,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -170,12 +230,11 @@
       "type": "irregular",
       "fixedDays": [
         3,
-        4,
         6
       ],
       "irregularDays": [
-        1,
         2,
+        4,
         5,
         7
       ]
@@ -253,7 +312,7 @@
       "서울고속"
     ],
     "departureTime": {
-      "hour": 7,
+      "hour": 14,
       "minute": 0
     },
     "isTemporaryRoute": false,
@@ -291,73 +350,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
-        6
+        4
       ],
       "irregularDays": [
-        4,
+        1,
         5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2051",
-    "arrivalTerminalId": "3015",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "강원여객",
-      "서울고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25200
-      ],
-      "초등생": [
-        12600
-      ],
-      "중고생": [
-        20200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "청주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "202051301501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        6
-      ],
-      "irregularDays": [
-        4,
-        5,
+        6,
         7
       ]
     }
