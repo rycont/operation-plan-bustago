@@ -56,7 +56,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -64,6 +63,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -75,31 +75,61 @@
       0
     ],
     "operator": [
-      "경전_동일"
+      "금호고속(주)"
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 10
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        0
+        2500
       ],
       "초등생": [
-        0
+        1300
       ],
       "중고생": [
-        0
+        2000
       ]
     },
     "stops": [
       [
         {
-          "name": "여수"
+          "name": "완도"
         },
         {
-          "name": "여천"
+          "name": "원동"
+        },
+        {
+          "name": "남창"
+        },
+        {
+          "name": "월송"
+        },
+        {
+          "name": "해남"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "장흥"
+        },
+        {
+          "name": "배산"
+        },
+        {
+          "name": "보성"
+        },
+        {
+          "name": "예당"
+        },
+        {
+          "name": "조성"
+        },
+        {
+          "name": "벌교"
         },
         {
           "name": "순천"
@@ -111,33 +141,26 @@
           "name": "동광양(중마)"
         },
         {
-          "name": "대구서부"
-        },
-        {
-          "name": "동대구"
+          "name": "부산서부"
         }
       ]
     ],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        40
       ],
       "busClass": [
-        "프리미엄우등"
+        "일반"
       ]
     },
-    "routeId": "808041920101",
+    "routeId": "808050900209",
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        5
+        6
       ],
       "irregularDays": [
-        3,
-        4,
-        6,
         7
       ]
     }
@@ -208,7 +231,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -216,6 +238,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -286,7 +309,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -294,6 +316,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -355,7 +378,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -363,6 +385,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -454,7 +477,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -462,6 +484,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -523,7 +546,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -531,6 +553,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -625,7 +648,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -633,6 +655,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -727,7 +750,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -735,6 +757,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -746,61 +769,31 @@
       0
     ],
     "operator": [
-      "금호고속(주)"
+      "경전_동일"
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 50
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        2500
+        0
       ],
       "초등생": [
-        1300
+        0
       ],
       "중고생": [
-        2000
+        0
       ]
     },
     "stops": [
       [
         {
-          "name": "완도"
+          "name": "여수"
         },
         {
-          "name": "원동"
-        },
-        {
-          "name": "남창"
-        },
-        {
-          "name": "월송"
-        },
-        {
-          "name": "해남"
-        },
-        {
-          "name": "강진"
-        },
-        {
-          "name": "장흥"
-        },
-        {
-          "name": "배산"
-        },
-        {
-          "name": "보성"
-        },
-        {
-          "name": "예당"
-        },
-        {
-          "name": "조성"
-        },
-        {
-          "name": "벌교"
+          "name": "여천"
         },
         {
           "name": "순천"
@@ -812,26 +805,32 @@
           "name": "동광양(중마)"
         },
         {
-          "name": "부산서부"
+          "name": "대구서부"
+        },
+        {
+          "name": "동대구"
         }
       ]
     ],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        40
+        21
       ],
       "busClass": [
-        "일반"
+        "프리미엄우등"
       ]
     },
-    "routeId": "808050900209",
+    "routeId": "808041920101",
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6
+        5
       ],
       "irregularDays": [
+        2,
+        3,
+        4,
         7
       ]
     }

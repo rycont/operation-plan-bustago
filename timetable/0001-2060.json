@@ -74,7 +74,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -82,6 +81,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -155,7 +155,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -163,6 +162,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -242,7 +242,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -250,6 +249,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -329,7 +329,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -337,6 +336,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -407,7 +407,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -415,71 +414,8 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2060",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "㈜금강고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17700
-      ],
-      "초등생": [
-        8900
-      ],
-      "중고생": [
-        14200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "원통"
-        },
-        {
-          "name": "백담사입구"
-        },
-        {
-          "name": "장신리"
-        },
-        {
-          "name": "간성"
-        },
-        {
-          "name": "거진"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001200401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
       ]
     }
   },
@@ -546,7 +482,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -554,71 +489,8 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2060",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "㈜금강고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 19
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17700
-      ],
-      "초등생": [
-        8900
-      ],
-      "중고생": [
-        14200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "원통"
-        },
-        {
-          "name": "백담사입구"
-        },
-        {
-          "name": "장신리"
-        },
-        {
-          "name": "간성"
-        },
-        {
-          "name": "거진"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001200401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
       ]
     }
   },
@@ -688,7 +560,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -696,6 +567,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -775,7 +647,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -783,6 +654,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -865,7 +737,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -873,6 +744,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -937,7 +809,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -945,7 +816,136 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2060",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17700
+      ],
+      "초등생": [
+        8900
+      ],
+      "중고생": [
+        14200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "원통"
+        },
+        {
+          "name": "백담사입구"
+        },
+        {
+          "name": "장신리"
+        },
+        {
+          "name": "간성"
+        },
+        {
+          "name": "거진"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001200401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2060",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 19
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17700
+      ],
+      "초등생": [
+        8900
+      ],
+      "중고생": [
+        14200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "원통"
+        },
+        {
+          "name": "백담사입구"
+        },
+        {
+          "name": "장신리"
+        },
+        {
+          "name": "간성"
+        },
+        {
+          "name": "거진"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001200401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5
       ]
     }
   }
