@@ -50,13 +50,73 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
-        4
+        4,
+        5
       ],
       "irregularDays": [
         1,
-        5,
+        2,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5071",
+    "arrivalTerminalId": "1010",
+    "durationInMinutes": [
+      270
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        37600
+      ],
+      "초등생": [
+        18800
+      ],
+      "중고생": [
+        26300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "포항"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "성남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505071101001",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
+        1,
         6,
         7
       ]
@@ -111,69 +171,13 @@
     },
     "routeId": "505071101001",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        2,
+      "type": "irregular",
+      "fixedDays": [
         3,
         4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5071",
-    "arrivalTerminalId": "1010",
-    "durationInMinutes": [
-      270
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        37600
       ],
-      "초등생": [
-        18800
-      ],
-      "중고생": [
-        26300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "포항"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "성남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505071101001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        5,
-        6,
-        7
+      "irregularDays": [
+        2
       ]
     }
   }
