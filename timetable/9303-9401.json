@@ -52,13 +52,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -115,13 +115,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -178,13 +178,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -241,13 +241,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -304,13 +304,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -372,7 +372,8 @@
         2,
         3,
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -429,13 +430,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -492,13 +493,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -555,12 +556,68 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      230
+    ],
+    "operator": [
+      "㈜광신고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        49900
+      ],
+      "초등생": [
+        25000
+      ],
+      "중고생": [
+        49900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "939337940130",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
         7
       ]
     }
@@ -618,13 +675,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -681,13 +738,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -745,7 +802,8 @@
         6
       ],
       "irregularDays": [
-        1
+        1,
+        7
       ]
     }
   },
@@ -802,13 +860,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -865,13 +923,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -928,13 +986,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -991,12 +1049,67 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      230
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337940130",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         7
       ]
     }
@@ -1054,13 +1167,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1117,13 +1230,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1180,68 +1293,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      230
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        39900
-      ],
-      "초등생": [
-        20000
-      ],
-      "중고생": [
-        31900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337940130",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+        3
       ]
     }
   },
@@ -1298,13 +1356,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1361,13 +1419,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1424,68 +1482,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      230
-    ],
-    "operator": [
-      "㈜광신고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        49900
-      ],
-      "초등생": [
-        25000
-      ],
-      "중고생": [
-        49900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄우등"
-      ]
-    },
-    "routeId": "939337940130",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+        3
       ]
     }
   },
@@ -1542,13 +1545,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1605,13 +1608,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1668,13 +1671,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1731,13 +1734,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1794,13 +1797,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1857,13 +1860,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1920,13 +1923,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1983,13 +1986,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2046,13 +2049,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2109,13 +2112,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2172,13 +2175,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2235,13 +2238,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2298,13 +2301,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2361,13 +2364,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2424,13 +2427,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2487,13 +2490,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2550,13 +2553,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2613,13 +2616,13 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -2676,13 +2679,68 @@
       "fixedDays": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      230
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337940130",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
       ]
     }
   },
@@ -2696,8 +2754,8 @@
       "㈜광신고속"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 40
+      "hour": 14,
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -2737,7 +2795,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        5
+        6
       ]
     }
   },
