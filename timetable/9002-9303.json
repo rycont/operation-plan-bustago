@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "departureTerminalId": "9002",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      320
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        59300
+      ],
+      "초등생": [
+        29700
+      ],
+      "중고생": [
+        47400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "인천공항(T1)"
+        },
+        {
+          "name": "인천공항(T2)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "909002933701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  }
+]
