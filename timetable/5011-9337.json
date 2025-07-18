@@ -56,6 +56,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         7
       ]
     }
@@ -117,12 +118,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -186,6 +187,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         7
       ]
     }
@@ -244,12 +246,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -310,76 +312,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "9337",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 1,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        43000
-      ],
-      "초등생": [
-        21500
-      ],
-      "중고생": [
-        34400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대구북부"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "김천부곡(공항)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야우등1"
-      ]
-    },
-    "routeId": "929202933706",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
         1,
-        2,
-        3,
-        4
+        7
       ]
     }
   },
@@ -440,12 +374,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -506,12 +440,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -575,12 +509,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -638,6 +572,599 @@
       ]
     },
     "routeId": "505005933706",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35800
+      ],
+      "초등생": [
+        17900
+      ],
+      "중고생": [
+        28600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "김천부곡(공항)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202933706",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35800
+      ],
+      "초등생": [
+        17900
+      ],
+      "중고생": [
+        28600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "경산"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505005933706",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35800
+      ],
+      "초등생": [
+        17900
+      ],
+      "중고생": [
+        28600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202933705",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35800
+      ],
+      "초등생": [
+        17900
+      ],
+      "중고생": [
+        28600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산서부"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "인천공항(T1)"
+        },
+        {
+          "name": "인천공항(T2)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "909002933701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35800
+      ],
+      "초등생": [
+        17900
+      ],
+      "중고생": [
+        28600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "김천부곡(공항)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202933706",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35800
+      ],
+      "초등생": [
+        17900
+      ],
+      "중고생": [
+        28600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "경산"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505005933706",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35800
+      ],
+      "초등생": [
+        17900
+      ],
+      "중고생": [
+        28600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "상주"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929202933705",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경북고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35800
+      ],
+      "초등생": [
+        17900
+      ],
+      "중고생": [
+        28600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "경산"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505005933706",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 1,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        43000
+      ],
+      "초등생": [
+        21500
+      ],
+      "중고생": [
+        34400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "김천부곡(공항)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "929202933706",
     "pattern": {
       "type": "irregular",
       "fixedDays": [
@@ -707,411 +1234,6 @@
       ]
     },
     "routeId": "929202933705",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "9337",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35800
-      ],
-      "초등생": [
-        17900
-      ],
-      "중고생": [
-        28600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "경산"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505005933706",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "9337",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35800
-      ],
-      "초등생": [
-        17900
-      ],
-      "중고생": [
-        28600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대구북부"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929202933705",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "9337",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35800
-      ],
-      "초등생": [
-        17900
-      ],
-      "중고생": [
-        28600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대구북부"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "김천부곡(공항)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929202933706",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "9337",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35800
-      ],
-      "초등생": [
-        17900
-      ],
-      "중고생": [
-        28600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "경산"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505005933706",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "9337",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35800
-      ],
-      "초등생": [
-        17900
-      ],
-      "중고생": [
-        28600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대구북부"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "상주"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929202933705",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "9337",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경북고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        35800
-      ],
-      "초등생": [
-        17900
-      ],
-      "중고생": [
-        28600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "경산"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505005933706",
     "pattern": {
       "type": "irregular",
       "fixedDays": [
