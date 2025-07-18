@@ -56,13 +56,82 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6014",
+    "arrivalTerminalId": "6033",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12200
+      ],
+      "초등생": [
+        6100
+      ],
+      "중고생": [
+        9800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼천포"
+        },
+        {
+          "name": "항공청(경전)"
+        },
+        {
+          "name": "사천"
+        },
+        {
+          "name": "합천"
+        },
+        {
+          "name": "대구서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606016920405",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
         2,
         3
       ]
@@ -187,75 +256,6 @@
         5,
         6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6014",
-    "arrivalTerminalId": "6033",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12200
-      ],
-      "초등생": [
-        6100
-      ],
-      "중고생": [
-        9800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "삼천포"
-        },
-        {
-          "name": "항공청(경전)"
-        },
-        {
-          "name": "사천"
-        },
-        {
-          "name": "합천"
-        },
-        {
-          "name": "대구서부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606016920405",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
       ]
     }
   },
