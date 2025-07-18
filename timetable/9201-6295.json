@@ -47,12 +47,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -107,12 +107,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -167,12 +167,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -227,12 +227,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -287,12 +287,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -347,12 +347,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -407,12 +407,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -467,12 +467,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -527,12 +527,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -587,12 +587,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -647,12 +647,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -687,6 +687,9 @@
     "stops": [
       [
         {
+          "name": "구미"
+        },
+        {
           "name": "동대구"
         },
         {
@@ -703,19 +706,11 @@
         "시외우등"
       ]
     },
-    "routeId": "929201629501",
+    "routeId": "505011629502",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
+      "type": "specific-day",
+      "days": [
+        1
       ]
     }
   },
@@ -767,12 +762,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -827,12 +822,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -887,12 +882,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -947,12 +942,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -1007,12 +1002,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -1067,12 +1062,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -1127,12 +1122,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4
@@ -1151,6 +1146,553 @@
     "departureTime": {
       "hour": 14,
       "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "김해공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201629501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "김해공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201629501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구미"
+        },
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "김해공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505011629502",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "김해공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201629501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "김해공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201629501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "김해공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201629501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "김해공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201629501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "김해공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201629501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "김해공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201629501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동대구"
+        },
+        {
+          "name": "김해공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "929201629501",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9201",
+    "arrivalTerminalId": "6295",
+    "durationInMinutes": [
+      80
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1451,66 +1993,6 @@
     "departureTime": {
       "hour": 17,
       "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11100
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        8900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "김해공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929201629501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "6295",
-    "durationInMinutes": [
-      80
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1631,66 +2113,6 @@
     "departureTime": {
       "hour": 18,
       "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11100
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        8900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동대구"
-        },
-        {
-          "name": "김해공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "929201629501",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9201",
-    "arrivalTerminalId": "6295",
-    "durationInMinutes": [
-      80
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {

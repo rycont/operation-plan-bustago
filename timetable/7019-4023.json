@@ -74,15 +74,94 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "7019",
+    "arrivalTerminalId": "4023",
+    "durationInMinutes": [
+      40
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5600
+      ],
+      "초등생": [
+        2800
+      ],
+      "중고생": [
+        4500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "삼례"
+        },
+        {
+          "name": "금마"
+        },
+        {
+          "name": "여산"
+        },
+        {
+          "name": "황하"
+        },
+        {
+          "name": "신촌"
+        },
+        {
+          "name": "연무대"
+        },
+        {
+          "name": "은진"
+        },
+        {
+          "name": "논산"
+        },
+        {
+          "name": "양정"
+        },
+        {
+          "name": "연산"
+        },
+        {
+          "name": "대전서부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "707019950402",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
       ]
     }
   }
