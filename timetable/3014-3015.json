@@ -224,7 +224,7 @@
     ],
     "departureTime": {
       "hour": 11,
-      "minute": 0
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -628,6 +628,61 @@
       ]
     },
     "routeId": "303014301503",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "3014",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "친선고속㈜"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        4200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대소"
+        },
+        {
+          "name": "광혜원"
+        },
+        {
+          "name": "진천"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303065301505",
     "pattern": {
       "type": "unknown"
     }
