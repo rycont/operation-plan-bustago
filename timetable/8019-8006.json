@@ -53,15 +53,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -119,15 +119,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -185,15 +185,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -246,13 +246,11 @@
     },
     "routeId": "808019803803",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         6,
         7
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -310,15 +308,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -373,15 +371,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -439,15 +437,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -505,15 +503,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -568,15 +566,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -634,15 +632,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -697,15 +695,606 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        1,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
-        3
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "순천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808019803801",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      17
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "운암동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808019940102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      17
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "운암동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808019940102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      17
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "운암동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808019940102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      17
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "운암동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808019940102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      17
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "운암동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808019940102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      17
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "운암동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808019940102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      17
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        2300
+      ],
+      "초등생": [
+        1200
+      ],
+      "중고생": [
+        1800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "운암동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808019940102",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8019",
+    "arrivalTerminalId": "8006",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "순천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808019803803",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
       ]
     }
   },
@@ -766,270 +1355,6 @@
         5,
         6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜동방고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1800
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "순천북부"
-        },
-        {
-          "name": "순천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808019803801",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      17
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "운암동"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808019940102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      17
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "운암동"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808019940102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      17
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "운암동"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808019940102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
       ]
     }
   },
@@ -1102,270 +1427,6 @@
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 17,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "운암동"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808019940102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      17
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "운암동"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808019940102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      17
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "운암동"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808019940102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      17
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        2300
-      ],
-      "초등생": [
-        1200
-      ],
-      "중고생": [
-        1800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "운암동"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808019940102",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      17
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
       "hour": 21,
       "minute": 0
     },
@@ -1413,69 +1474,6 @@
         5,
         6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8019",
-    "arrivalTerminalId": "8006",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1800
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "순천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808019803803",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
       ]
     }
   }
