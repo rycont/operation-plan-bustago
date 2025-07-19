@@ -54,13 +54,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -150,70 +150,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "1023",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10400
-      ],
-      "초등생": [
-        5200
-      ],
-      "중고생": [
-        8300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "오산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302102302",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        4,
-        5,
-        6,
-        7
       ]
     }
   },
@@ -272,13 +216,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -341,13 +285,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -434,13 +378,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -500,13 +444,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -596,13 +540,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -662,14 +606,70 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "1023",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10400
+      ],
+      "초등생": [
+        5200
+      ],
+      "중고생": [
+        8300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "오산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302102302",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        4,
+        5,
+        6,
+        7
       ]
     }
   }

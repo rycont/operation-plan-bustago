@@ -30,6 +30,9 @@
           "name": "용인"
         },
         {
+          "name": "명지대사거리"
+        },
+        {
           "name": "어정역"
         },
         {
@@ -61,19 +64,11 @@
         "시외우등"
       ]
     },
-    "routeId": "101025933704",
+    "routeId": "101025933705",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -165,14 +160,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -207,6 +202,9 @@
           "name": "용인"
         },
         {
+          "name": "명지대사거리"
+        },
+        {
           "name": "어정역"
         },
         {
@@ -238,19 +236,11 @@
         "시외우등"
       ]
     },
-    "routeId": "101025933704",
+    "routeId": "101025933705",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -342,14 +332,87 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1187",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 5,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "어정역"
+        },
+        {
+          "name": "연원마을(구성역)"
+        },
+        {
+          "name": "죽전역,포은아트홀"
+        },
+        {
+          "name": "풍덕고교사거리"
+        },
+        {
+          "name": "수원광교박물관"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025933705",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -441,14 +504,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -540,14 +603,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -639,14 +702,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -738,14 +801,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -837,14 +900,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -936,14 +999,87 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1187",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "어정역"
+        },
+        {
+          "name": "연원마을(구성역)"
+        },
+        {
+          "name": "죽전역,포은아트홀"
+        },
+        {
+          "name": "풍덕고교사거리"
+        },
+        {
+          "name": "수원광교박물관"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025933705",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -1035,14 +1171,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1134,14 +1270,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1233,14 +1369,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1275,6 +1411,9 @@
           "name": "용인"
         },
         {
+          "name": "명지대사거리"
+        },
+        {
           "name": "어정역"
         },
         {
@@ -1306,19 +1445,11 @@
         "시외우등"
       ]
     },
-    "routeId": "101025933704",
+    "routeId": "101025933705",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -1410,14 +1541,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1452,6 +1583,9 @@
           "name": "용인"
         },
         {
+          "name": "명지대사거리"
+        },
+        {
           "name": "어정역"
         },
         {
@@ -1483,19 +1617,11 @@
         "시외우등"
       ]
     },
-    "routeId": "101025933704",
+    "routeId": "101025933705",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -1587,14 +1713,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1686,14 +1812,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1785,14 +1911,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1884,14 +2010,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1983,14 +2109,87 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1187",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "어정역"
+        },
+        {
+          "name": "연원마을(구성역)"
+        },
+        {
+          "name": "죽전역,포은아트홀"
+        },
+        {
+          "name": "풍덕고교사거리"
+        },
+        {
+          "name": "수원광교박물관"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025933705",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -2082,14 +2281,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -2181,14 +2380,87 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1187",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "명지대사거리"
+        },
+        {
+          "name": "어정역"
+        },
+        {
+          "name": "연원마을(구성역)"
+        },
+        {
+          "name": "죽전역,포은아트홀"
+        },
+        {
+          "name": "풍덕고교사거리"
+        },
+        {
+          "name": "수원광교박물관"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025933705",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -2280,14 +2552,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -2379,14 +2651,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -2478,14 +2750,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -2520,6 +2792,9 @@
           "name": "용인"
         },
         {
+          "name": "명지대사거리"
+        },
+        {
           "name": "어정역"
         },
         {
@@ -2551,19 +2826,11 @@
         "시외우등"
       ]
     },
-    "routeId": "101025933704",
+    "routeId": "101025933705",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -2655,14 +2922,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -2697,6 +2964,9 @@
           "name": "용인"
         },
         {
+          "name": "명지대사거리"
+        },
+        {
           "name": "어정역"
         },
         {
@@ -2728,19 +2998,11 @@
         "시외우등"
       ]
     },
-    "routeId": "101025933704",
+    "routeId": "101025933705",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4
+      "type": "specific-day",
+      "days": [
+        2
       ]
     }
   },
@@ -2832,14 +3094,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -2931,14 +3193,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -3030,14 +3292,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -3129,14 +3391,482 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1187",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 4,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "어정역"
+        },
+        {
+          "name": "연원마을(구성역)"
+        },
+        {
+          "name": "죽전역,포은아트홀"
+        },
+        {
+          "name": "풍덕고교사거리"
+        },
+        {
+          "name": "수원광교박물관"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025933704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
         2,
         3,
-        4
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1187",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 5,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "어정역"
+        },
+        {
+          "name": "연원마을(구성역)"
+        },
+        {
+          "name": "죽전역,포은아트홀"
+        },
+        {
+          "name": "풍덕고교사거리"
+        },
+        {
+          "name": "수원광교박물관"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025933704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1187",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "어정역"
+        },
+        {
+          "name": "연원마을(구성역)"
+        },
+        {
+          "name": "죽전역,포은아트홀"
+        },
+        {
+          "name": "풍덕고교사거리"
+        },
+        {
+          "name": "수원광교박물관"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025933704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1187",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "어정역"
+        },
+        {
+          "name": "연원마을(구성역)"
+        },
+        {
+          "name": "죽전역,포은아트홀"
+        },
+        {
+          "name": "풍덕고교사거리"
+        },
+        {
+          "name": "수원광교박물관"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025933704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1187",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "어정역"
+        },
+        {
+          "name": "연원마을(구성역)"
+        },
+        {
+          "name": "죽전역,포은아트홀"
+        },
+        {
+          "name": "풍덕고교사거리"
+        },
+        {
+          "name": "수원광교박물관"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025933704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1187",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        6900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "용인"
+        },
+        {
+          "name": "어정역"
+        },
+        {
+          "name": "연원마을(구성역)"
+        },
+        {
+          "name": "죽전역,포은아트홀"
+        },
+        {
+          "name": "풍덕고교사거리"
+        },
+        {
+          "name": "수원광교박물관"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101025933704",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5
       ]
     }
   }
