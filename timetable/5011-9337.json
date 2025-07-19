@@ -57,76 +57,8 @@
       "type": "specific-day",
       "days": [
         1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "5011",
-    "arrivalTerminalId": "9337",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "진안고속"
-    ],
-    "departureTime": {
-      "hour": 0,
-      "minute": 1
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        43000
-      ],
-      "초등생": [
-        21500
-      ],
-      "중고생": [
-        34400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대구북부"
-        },
-        {
-          "name": "구미"
-        },
-        {
-          "name": "김천부곡(공항)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "인천공항(제2터미널)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야우등1"
-      ]
-    },
-    "routeId": "929202933706",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
         2,
-        3,
-        4
+        7
       ]
     }
   },
@@ -188,6 +120,7 @@
       "type": "specific-day",
       "days": [
         1,
+        2,
         7
       ]
     }
@@ -247,14 +180,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -313,6 +246,7 @@
       "type": "specific-day",
       "days": [
         1,
+        2,
         7
       ]
     }
@@ -375,14 +309,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -441,14 +375,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -510,14 +444,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -576,14 +510,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -644,7 +578,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1
+        1,
+        2
       ]
     }
   },
@@ -703,14 +638,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -772,14 +707,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -837,7 +772,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1
+        1,
+        2
       ]
     }
   },
@@ -899,14 +835,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -965,14 +901,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1034,14 +970,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1100,14 +1036,83 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5,
+        2,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "5011",
+    "arrivalTerminalId": "9337",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "진안고속"
+    ],
+    "departureTime": {
+      "hour": 0,
+      "minute": 1
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        43000
+      ],
+      "초등생": [
+        21500
+      ],
+      "중고생": [
+        34400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대구북부"
+        },
+        {
+          "name": "구미"
+        },
+        {
+          "name": "김천부곡(공항)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등1"
+      ]
+    },
+    "routeId": "929202933706",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1168,7 +1173,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -1176,7 +1180,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1237,7 +1242,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -1245,7 +1249,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   }
