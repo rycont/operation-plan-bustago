@@ -47,13 +47,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -107,13 +107,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -167,13 +167,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -227,13 +227,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -287,13 +287,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -347,13 +347,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -407,13 +407,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -467,13 +467,193 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3013",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      93
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10100
+      ],
+      "초등생": [
+        5100
+      ],
+      "중고생": [
+        8100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "증평"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303013000101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
         1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3013",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      93
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10100
+      ],
+      "초등생": [
+        5100
+      ],
+      "중고생": [
+        8100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "증평"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303013000101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3013",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10100
+      ],
+      "초등생": [
+        5100
+      ],
+      "중고생": [
+        8100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "증평"
+        },
+        {
+          "name": "서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303013000104",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
         2,
         3
       ]
@@ -531,186 +711,6 @@
       ],
       "irregularDays": [
         6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3013",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      93
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10100
-      ],
-      "초등생": [
-        5100
-      ],
-      "중고생": [
-        8100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "증평"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303013000101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3013",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      93
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10100
-      ],
-      "초등생": [
-        5100
-      ],
-      "중고생": [
-        8100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "증평"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303013000101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3013",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10100
-      ],
-      "초등생": [
-        5100
-      ],
-      "중고생": [
-        8100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "증평"
-        },
-        {
-          "name": "서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303013000104",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
       ]
     }
   }
