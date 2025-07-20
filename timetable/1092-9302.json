@@ -9,64 +9,6 @@
       "강원고속㈜"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3300
-      ],
-      "초등생": [
-        1700
-      ],
-      "중고생": [
-        2300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101092930201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1092",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
       "hour": 10,
       "minute": 40
     },
@@ -109,14 +51,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -172,14 +114,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -235,72 +177,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1092",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "강원고속㈜"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        3300
-      ],
-      "초등생": [
-        1700
-      ],
-      "중고생": [
-        2300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "호계동"
-        },
-        {
-          "name": "안양"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101092930201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        5,
-        6,
-        7
+        3,
+        4,
+        5
       ]
     }
   },
@@ -356,14 +240,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -419,14 +303,134 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1092",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101092930201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1092",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "강원고속㈜"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3300
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "호계동"
+        },
+        {
+          "name": "안양"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101092930201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   }
