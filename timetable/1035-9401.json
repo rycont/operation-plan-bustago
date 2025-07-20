@@ -54,75 +54,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1035",
-    "arrivalTerminalId": "9401",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        24700
-      ],
-      "초등생": [
-        12400
-      ],
-      "중고생": [
-        19800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "오산"
-        },
-        {
-          "name": "송탄"
-        },
-        {
-          "name": "평택"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101023940101",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        5,
-        6,
-        7
+        3,
+        4,
+        5
       ]
     }
   },
@@ -181,14 +120,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -247,14 +186,77 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1035",
+    "arrivalTerminalId": "9401",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24700
+      ],
+      "초등생": [
+        12400
+      ],
+      "중고생": [
+        19800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "오산"
+        },
+        {
+          "name": "송탄"
+        },
+        {
+          "name": "평택"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101023940101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -310,11 +312,13 @@
     },
     "routeId": "101023940101",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   }
