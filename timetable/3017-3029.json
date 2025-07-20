@@ -63,14 +63,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -138,14 +138,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -213,14 +213,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -288,14 +288,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -363,84 +363,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3017",
-    "arrivalTerminalId": "3029",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 7
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6300
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        5000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "충주"
-        },
-        {
-          "name": "주덕"
-        },
-        {
-          "name": "비산리"
-        },
-        {
-          "name": "음성"
-        },
-        {
-          "name": "보천"
-        },
-        {
-          "name": "도안"
-        },
-        {
-          "name": "증평"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303017301301",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        5,
-        6,
-        7
+        3,
+        4,
+        5
       ]
     }
   },
@@ -508,14 +438,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -583,14 +513,86 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
-        5,
+        2,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3017",
+    "arrivalTerminalId": "3029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 7
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6300
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        5000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "충주"
+        },
+        {
+          "name": "주덕"
+        },
+        {
+          "name": "비산리"
+        },
+        {
+          "name": "음성"
+        },
+        {
+          "name": "보천"
+        },
+        {
+          "name": "도안"
+        },
+        {
+          "name": "증평"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303017301301",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   }
