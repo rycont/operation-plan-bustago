@@ -10,7 +10,7 @@
     ],
     "departureTime": {
       "hour": 6,
-      "minute": 30
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -52,11 +52,18 @@
         "시외우등"
       ]
     },
-    "routeId": "939302400811",
+    "routeId": "939302400810",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -112,13 +119,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3,
         4
       ]
     }
@@ -187,13 +194,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3,
         4
       ]
     }
@@ -250,13 +257,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3,
         4
       ]
     }
@@ -313,14 +320,75 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3,
         4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9302",
+    "arrivalTerminalId": "4008",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금남고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25900
+      ],
+      "초등생": [
+        13000
+      ],
+      "중고생": [
+        20700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천"
+        },
+        {
+          "name": "세종청사"
+        },
+        {
+          "name": "세종시"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939302400811",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
       ]
     }
   },
@@ -379,74 +447,6 @@
         5,
         6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9302",
-    "arrivalTerminalId": "4008",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜금남고속"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25900
-      ],
-      "초등생": [
-        13000
-      ],
-      "중고생": [
-        20700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천"
-        },
-        {
-          "name": "세종청사"
-        },
-        {
-          "name": "세종시"
-        },
-        {
-          "name": "공주"
-        },
-        {
-          "name": "부여"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939302400810",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4
       ]
     }
   }
