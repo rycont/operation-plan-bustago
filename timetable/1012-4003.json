@@ -62,11 +62,11 @@
         1,
         2,
         3,
+        4,
         6,
         7
       ],
       "irregularDays": [
-        4,
         5
       ]
     }
@@ -128,11 +128,11 @@
         1,
         2,
         3,
+        4,
         6,
         7
       ],
       "irregularDays": [
-        4,
         5
       ]
     }
@@ -194,71 +194,7 @@
         1,
         2,
         3,
-        6,
-        7
-      ],
-      "irregularDays": [
         4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1012",
-    "arrivalTerminalId": "4003",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "㈜삼흥고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15300
-      ],
-      "초등생": [
-        7700
-      ],
-      "중고생": [
-        12200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "수원터미널"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "공주"
-        },
-        {
-          "name": "부여"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "101012400806",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
         6,
         7
       ],
@@ -324,11 +260,11 @@
         1,
         2,
         3,
+        4,
         6,
         7
       ],
       "irregularDays": [
-        4,
         5
       ]
     }
@@ -396,11 +332,11 @@
         1,
         2,
         3,
+        4,
         6,
         7
       ],
       "irregularDays": [
-        4,
         5
       ]
     }
@@ -462,11 +398,75 @@
         1,
         2,
         3,
+        4,
         6,
         7
       ],
       "irregularDays": [
-        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1012",
+    "arrivalTerminalId": "4003",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "㈜삼흥고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15300
+      ],
+      "초등생": [
+        7700
+      ],
+      "중고생": [
+        12200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "공주"
+        },
+        {
+          "name": "부여"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101012400806",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "irregularDays": [
         5
       ]
     }
