@@ -9,6 +9,75 @@
       "공통"
     ],
     "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6600
+      ],
+      "초등생": [
+        3300
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "죽산"
+        },
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "서수원"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101039930201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1039",
+    "arrivalTerminalId": "1008",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
       "hour": 10,
       "minute": 40
     },
@@ -78,75 +147,6 @@
       "공통"
     ],
     "departureTime": {
-      "hour": 11,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6600
-      ],
-      "초등생": [
-        3300
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "죽산"
-        },
-        {
-          "name": "수원터미널"
-        },
-        {
-          "name": "서수원"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101039930201",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1039",
-    "arrivalTerminalId": "1008",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
       "hour": 14,
       "minute": 10
     },
@@ -195,13 +195,82 @@
       "type": "irregular",
       "fixedDays": [
         3,
+        4,
         6,
         7
       ],
       "irregularDays": [
         1,
         2,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1039",
+    "arrivalTerminalId": "1008",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6600
+      ],
+      "초등생": [
+        3300
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "죽산"
+        },
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "서수원"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101039930201",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
         4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
         5
       ]
     }
@@ -343,7 +412,7 @@
       "공통"
     ],
     "departureTime": {
-      "hour": 8,
+      "hour": 11,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -391,83 +460,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        2,
+        5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1039",
-    "arrivalTerminalId": "1008",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6600
-      ],
-      "초등생": [
-        3300
-      ],
-      "중고생": [
-        5300
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "죽산"
-        },
-        {
-          "name": "수원터미널"
-        },
-        {
-          "name": "서수원"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101039930201",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2,
-        3,
-        5
+        4
       ]
     }
   }
