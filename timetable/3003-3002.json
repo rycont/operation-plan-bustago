@@ -51,18 +51,7 @@
     },
     "routeId": "303003300202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -117,18 +106,7 @@
     },
     "routeId": "303003300202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -183,18 +161,7 @@
     },
     "routeId": "303003300202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -249,17 +216,67 @@
     },
     "routeId": "303003300202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3003",
+    "arrivalTerminalId": "3002",
+    "durationInMinutes": [
+      30
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5000
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        3500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "단양"
+        },
+        {
+          "name": "가곡"
+        },
+        {
+          "name": "영춘"
+        },
+        {
+          "name": "구인사"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303003300202",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         1,
-        2,
-        3,
-        4,
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -315,18 +332,7 @@
     },
     "routeId": "303003300202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -381,17 +387,67 @@
     },
     "routeId": "303003300202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3003",
+    "arrivalTerminalId": "3002",
+    "durationInMinutes": [
+      30
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5000
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        3500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "단양"
+        },
+        {
+          "name": "가곡"
+        },
+        {
+          "name": "영춘"
+        },
+        {
+          "name": "구인사"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303003300202",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         1,
-        2,
-        3,
-        4,
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -452,132 +508,6 @@
         1,
         6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3003",
-    "arrivalTerminalId": "3002",
-    "durationInMinutes": [
-      30
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5000
-      ],
-      "초등생": [
-        2500
-      ],
-      "중고생": [
-        3500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "단양"
-        },
-        {
-          "name": "가곡"
-        },
-        {
-          "name": "영춘"
-        },
-        {
-          "name": "구인사"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303003300202",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3003",
-    "arrivalTerminalId": "3002",
-    "durationInMinutes": [
-      30
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5000
-      ],
-      "초등생": [
-        2500
-      ],
-      "중고생": [
-        3500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "단양"
-        },
-        {
-          "name": "가곡"
-        },
-        {
-          "name": "영춘"
-        },
-        {
-          "name": "구인사"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303003300202",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   }

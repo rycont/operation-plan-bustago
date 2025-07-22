@@ -104,55 +104,6 @@
       0
     ],
     "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11100
-      ],
-      "초등생": [
-        5600
-      ],
-      "중고생": [
-        8900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "원주"
-        },
-        {
-          "name": "청주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "202028301503",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "2028",
-    "arrivalTerminalId": "3015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "서울고속"
     ],
     "departureTime": {
@@ -198,6 +149,55 @@
         6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "2028",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11100
+      ],
+      "초등생": [
+        5600
+      ],
+      "중고생": [
+        8900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "원주"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202028301503",
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
