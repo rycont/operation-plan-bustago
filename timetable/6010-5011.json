@@ -9,64 +9,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14400
-      ],
-      "초등생": [
-        7200
-      ],
-      "중고생": [
-        11500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "창원"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "구미주공"
-        },
-        {
-          "name": "구미공단"
-        },
-        {
-          "name": "구미"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606028501101",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "6010",
-    "arrivalTerminalId": "5011",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 12,
       "minute": 20
     },
@@ -171,6 +113,75 @@
     "routeId": "606028501101",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6010",
+    "arrivalTerminalId": "5011",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14400
+      ],
+      "초등생": [
+        7200
+      ],
+      "중고생": [
+        11500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "창원"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "구미주공"
+        },
+        {
+          "name": "구미공단"
+        },
+        {
+          "name": "구미"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606028501101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4
+      ]
     }
   },
   {
