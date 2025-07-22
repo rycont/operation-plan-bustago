@@ -48,7 +48,7 @@
     },
     "routeId": "303225000401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -100,7 +100,7 @@
     },
     "routeId": "303225000401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -152,7 +152,7 @@
     },
     "routeId": "303225000401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -204,7 +204,7 @@
     },
     "routeId": "303225000401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -256,7 +256,7 @@
     },
     "routeId": "303225000401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -308,7 +308,7 @@
     },
     "routeId": "303225000401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -322,6 +322,58 @@
     ],
     "departureTime": {
       "hour": 16,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9000
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "금왕(무극)"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303225000401",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3225",
+    "arrivalTerminalId": "0004",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 17,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -412,7 +464,7 @@
     },
     "routeId": "303225000401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -464,7 +516,7 @@
     },
     "routeId": "303225000401",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -530,58 +582,6 @@
     ],
     "departureTime": {
       "hour": 15,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9000
-      ],
-      "초등생": [
-        4500
-      ],
-      "중고생": [
-        7200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "금왕(무극)"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303225000401",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3225",
-    "arrivalTerminalId": "0004",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 17,
       "minute": 35
     },
     "isTemporaryRoute": false,

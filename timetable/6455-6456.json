@@ -63,70 +63,7 @@
     },
     "routeId": "606455601402",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6455",
-    "arrivalTerminalId": "6456",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 59
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        14500
-      ],
-      "초등생": [
-        7300
-      ],
-      "중고생": [
-        11600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "장승포"
-        },
-        {
-          "name": "사천공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "606455645601",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
+      "type": "everyday"
     }
   }
 ]
