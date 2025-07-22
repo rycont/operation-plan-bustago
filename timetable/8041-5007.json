@@ -51,17 +51,67 @@
     },
     "routeId": "808041507101",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8041",
+    "arrivalTerminalId": "5007",
+    "durationInMinutes": [
+      230
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32000
+      ],
+      "초등생": [
+        16000
+      ],
+      "중고생": [
+        25600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "여수"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "경주"
+        },
+        {
+          "name": "포항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "808041507101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         1,
-        2,
-        3,
-        4,
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -117,18 +167,7 @@
     },
     "routeId": "808041507101",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -183,81 +222,7 @@
     },
     "routeId": "808041507101",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8041",
-    "arrivalTerminalId": "5007",
-    "durationInMinutes": [
-      230
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        32000
-      ],
-      "초등생": [
-        16000
-      ],
-      "중고생": [
-        25600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "여수"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "경주"
-        },
-        {
-          "name": "포항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "808041507101",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   }
 ]
