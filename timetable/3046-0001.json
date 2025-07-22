@@ -51,7 +51,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -106,7 +106,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -161,7 +161,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -176,6 +176,61 @@
     "departureTime": {
       "hour": 9,
       "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8900
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광혜원"
+        },
+        {
+          "name": "두원공대"
+        },
+        {
+          "name": "죽산"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303046000101",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3046",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -271,7 +326,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -326,7 +381,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -381,7 +436,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -436,7 +491,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -491,7 +546,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -546,7 +601,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -601,7 +656,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -656,7 +711,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -711,7 +766,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   },
   {
@@ -766,62 +821,7 @@
     },
     "routeId": "303046000101",
     "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "3046",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8900
-      ],
-      "초등생": [
-        4500
-      ],
-      "중고생": [
-        7100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광혜원"
-        },
-        {
-          "name": "두원공대"
-        },
-        {
-          "name": "죽산"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303046000101",
-    "pattern": {
-      "type": "unknown"
+      "type": "everyday"
     }
   }
 ]
