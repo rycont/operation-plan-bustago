@@ -60,18 +60,7 @@
     },
     "routeId": "303002000104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -135,17 +124,76 @@
     },
     "routeId": "303002000104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3002",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25000
+      ],
+      "초등생": [
+        12500
+      ],
+      "중고생": [
+        17500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구인사"
+        },
+        {
+          "name": "영춘"
+        },
+        {
+          "name": "사평리"
+        },
+        {
+          "name": "단양"
+        },
+        {
+          "name": "단양상진"
+        },
+        {
+          "name": "매포"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303002000104",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         1,
-        2,
-        3,
-        4,
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -210,18 +258,7 @@
     },
     "routeId": "303002000104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -285,17 +322,76 @@
     },
     "routeId": "303002000104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3002",
+    "arrivalTerminalId": "0001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25000
+      ],
+      "초등생": [
+        12500
+      ],
+      "중고생": [
+        17500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "구인사"
+        },
+        {
+          "name": "영춘"
+        },
+        {
+          "name": "사평리"
+        },
+        {
+          "name": "단양"
+        },
+        {
+          "name": "단양상진"
+        },
+        {
+          "name": "매포"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "303002000104",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
         1,
-        2,
-        3,
-        4,
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -360,18 +456,7 @@
     },
     "routeId": "303002000104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -435,162 +520,7 @@
     },
     "routeId": "303002000104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3002",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25000
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        17500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "구인사"
-        },
-        {
-          "name": "영춘"
-        },
-        {
-          "name": "사평리"
-        },
-        {
-          "name": "단양"
-        },
-        {
-          "name": "단양상진"
-        },
-        {
-          "name": "매포"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303002000104",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3002",
-    "arrivalTerminalId": "0001",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25000
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        17500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "구인사"
-        },
-        {
-          "name": "영춘"
-        },
-        {
-          "name": "사평리"
-        },
-        {
-          "name": "단양"
-        },
-        {
-          "name": "단양상진"
-        },
-        {
-          "name": "매포"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "303002000104",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -654,13 +584,11 @@
     },
     "routeId": "303002000104",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   }
