@@ -52,12 +52,12 @@
       "fixedDays": [
         1,
         2,
+        3,
+        4,
         6,
         7
       ],
       "irregularDays": [
-        3,
-        4,
         5
       ]
     }
@@ -111,11 +111,9 @@
     },
     "routeId": "505071101001",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        2,
         3,
         4
       ]
