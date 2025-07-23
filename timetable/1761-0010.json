@@ -345,7 +345,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 22
+      "minute": 17
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -400,11 +400,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        5
+        6,
+        7
       ]
     }
   },
@@ -419,7 +416,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 52
+      "minute": 47
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -474,11 +471,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        5
+        6,
+        7
       ]
     }
   },
@@ -493,7 +487,7 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 32
+      "minute": 27
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -548,11 +542,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        5
+        6,
+        7
       ]
     }
   },
@@ -567,7 +558,7 @@
     ],
     "departureTime": {
       "hour": 9,
-      "minute": 12
+      "minute": 7
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -622,11 +613,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        5
+        6,
+        7
       ]
     }
   },
@@ -708,7 +696,7 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 7
+      "minute": 2
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -763,11 +751,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        5
+        6,
+        7
       ]
     }
   },
@@ -782,7 +767,7 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 42
+      "minute": 37
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -837,11 +822,8 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        5
+        6,
+        7
       ]
     }
   },
@@ -1861,7 +1843,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 17
+      "minute": 22
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1916,8 +1898,11 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
-        7
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     }
   },
@@ -1932,7 +1917,7 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 47
+      "minute": 52
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1987,8 +1972,11 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
-        7
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     }
   },
@@ -2003,7 +1991,7 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 27
+      "minute": 32
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -2058,8 +2046,11 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
-        7
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     }
   },
@@ -2074,6 +2065,80 @@
     ],
     "departureTime": {
       "hour": 9,
+      "minute": 12
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8500
+      ],
+      "초등생": [
+        4300
+      ],
+      "중고생": [
+        6000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원(동수원)"
+        },
+        {
+          "name": "한일타운"
+        },
+        {
+          "name": "인재개발원"
+        },
+        {
+          "name": "의왕"
+        },
+        {
+          "name": "호계사거리"
+        },
+        {
+          "name": "범계역(공항버스)"
+        },
+        {
+          "name": "관악역(공항)"
+        },
+        {
+          "name": "김포공항"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        31
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101186001005",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1761",
+    "arrivalTerminalId": "0010",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경기공항리무진버스"
+    ],
+    "departureTime": {
+      "hour": 10,
       "minute": 7
     },
     "isTemporaryRoute": false,
@@ -2129,8 +2194,11 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
-        7
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     }
   },
@@ -2145,7 +2213,7 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 2
+      "minute": 42
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -2200,79 +2268,11 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "1761",
-    "arrivalTerminalId": "0010",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경기공항리무진버스"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 37
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "수원(동수원)"
-        },
-        {
-          "name": "한일타운"
-        },
-        {
-          "name": "인재개발원"
-        },
-        {
-          "name": "의왕"
-        },
-        {
-          "name": "호계사거리"
-        },
-        {
-          "name": "범계역(공항버스)"
-        },
-        {
-          "name": "관악역(공항)"
-        },
-        {
-          "name": "김포공항"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        31
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101186001005",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     }
   }

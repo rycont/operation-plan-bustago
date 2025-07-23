@@ -119,6 +119,65 @@
       "대원고속"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7300
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "무극"
+        },
+        {
+          "name": "음성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001301001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "3065",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
       "hour": 8,
       "minute": 0
     },
@@ -287,68 +346,6 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 9,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7300
-      ],
-      "초등생": [
-        3700
-      ],
-      "중고생": [
-        5100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "무극"
-        },
-        {
-          "name": "음성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001301001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "3065",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
       "hour": 10,
       "minute": 0
     },
@@ -392,68 +389,6 @@
     "routeId": "000001301001",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "3065",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "대원고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7300
-      ],
-      "초등생": [
-        3700
-      ],
-      "중고생": [
-        5100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "무극"
-        },
-        {
-          "name": "음성"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001301001",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
     }
   },
   {
@@ -1410,7 +1345,7 @@
       "대원고속"
     ],
     "departureTime": {
-      "hour": 7,
+      "hour": 9,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -1444,7 +1379,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        40
+        28
       ],
       "busClass": [
         "일반"
@@ -1454,8 +1389,73 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
-        7
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "3065",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "대원고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7300
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        5100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "무극"
+        },
+        {
+          "name": "음성"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001301001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     }
   }

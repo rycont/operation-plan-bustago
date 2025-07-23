@@ -247,6 +247,64 @@
       "㈜금아여행"
     ],
     "departureTime": {
+      "hour": 23,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        59900
+      ],
+      "초등생": [
+        30000
+      ],
+      "중고생": [
+        47900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동부"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "속초"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야고속"
+      ]
+    },
+    "routeId": "909001201908",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9001",
+    "arrivalTerminalId": "2019",
+    "durationInMinutes": [
+      360
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
       "hour": 22,
       "minute": 30
     },
@@ -296,64 +354,6 @@
       "days": [
         5
       ]
-    }
-  },
-  {
-    "departureTerminalId": "9001",
-    "arrivalTerminalId": "2019",
-    "durationInMinutes": [
-      360
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        59900
-      ],
-      "초등생": [
-        30000
-      ],
-      "중고생": [
-        47900
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산동부"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "속초"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야고속"
-      ]
-    },
-    "routeId": "909001201908",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
