@@ -269,65 +269,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5700
-      ],
-      "초등생": [
-        2900
-      ],
-      "중고생": [
-        4000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001930201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 11,
       "minute": 20
     },
@@ -628,65 +569,6 @@
     "routeId": "000001930201",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        5700
-      ],
-      "초등생": [
-        2900
-      ],
-      "중고생": [
-        4000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "가천대"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "000001930201",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
     }
   },
   {
@@ -1011,8 +893,60 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 20,
-      "minute": 20
+      "hour": 21,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5700
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001930201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1070,8 +1004,8 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 21,
-      "minute": 0
+      "hour": 15,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1109,7 +1043,73 @@
     },
     "routeId": "000001930201",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5700
+      ],
+      "초등생": [
+        2900
+      ],
+      "중고생": [
+        4000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "가천대"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        40
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "000001930201",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     }
   }
 ]
