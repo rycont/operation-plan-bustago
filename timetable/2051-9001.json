@@ -3,6 +3,76 @@
     "departureTerminalId": "2051",
     "arrivalTerminalId": "9001",
     "durationInMinutes": [
+      330
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 0,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        50300
+      ],
+      "초등생": [
+        25200
+      ],
+      "중고생": [
+        40200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "물치"
+        },
+        {
+          "name": "낙산"
+        },
+        {
+          "name": "양양"
+        },
+        {
+          "name": "강릉"
+        },
+        {
+          "name": "동해공영"
+        },
+        {
+          "name": "포항"
+        },
+        {
+          "name": "부산동부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야고속"
+      ]
+    },
+    "routeId": "202019900125",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2051",
+    "arrivalTerminalId": "9001",
+    "durationInMinutes": [
       0
     ],
     "operator": [
@@ -569,76 +639,6 @@
       "type": "specific-day",
       "days": [
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "2051",
-    "arrivalTerminalId": "9001",
-    "durationInMinutes": [
-      330
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 0,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        50300
-      ],
-      "초등생": [
-        25200
-      ],
-      "중고생": [
-        40200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "속초"
-        },
-        {
-          "name": "물치"
-        },
-        {
-          "name": "낙산"
-        },
-        {
-          "name": "양양"
-        },
-        {
-          "name": "강릉"
-        },
-        {
-          "name": "동해공영"
-        },
-        {
-          "name": "포항"
-        },
-        {
-          "name": "부산동부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야고속"
-      ]
-    },
-    "routeId": "202019900125",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
       ]
     }
   }
