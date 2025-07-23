@@ -9,6 +9,65 @@
       "금호고속(주)"
     ],
     "departureTime": {
+      "hour": 19,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        5100
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "목포"
+        },
+        {
+          "name": "남악"
+        },
+        {
+          "name": "우산동(하남)"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808024940126",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8133",
+    "arrivalTerminalId": "9442",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
       "hour": 7,
       "minute": 35
     },
@@ -58,65 +117,6 @@
         3,
         4,
         5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8133",
-    "arrivalTerminalId": "9442",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        5100
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "목포"
-        },
-        {
-          "name": "남악"
-        },
-        {
-          "name": "우산동(하남)"
-        },
-        {
-          "name": "광주(유ㆍ스퀘어)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808024940126",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
       ]
     }
   }

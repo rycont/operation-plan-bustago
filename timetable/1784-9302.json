@@ -70,6 +70,67 @@
       "공통"
     ],
     "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12000
+      ],
+      "초등생": [
+        6000
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "두원공대"
+        },
+        {
+          "name": "죽산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "서수원"
+        },
+        {
+          "name": "안산"
+        },
+        {
+          "name": "인천"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "101784930201",
+    "pattern": {
+      "type": "unknown"
+    }
+  },
+  {
+    "departureTerminalId": "1784",
+    "arrivalTerminalId": "9302",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
       "hour": 11,
       "minute": 30
     },
@@ -193,67 +254,6 @@
     ],
     "departureTime": {
       "hour": 16,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12000
-      ],
-      "초등생": [
-        6000
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "두원공대"
-        },
-        {
-          "name": "죽산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "서수원"
-        },
-        {
-          "name": "안산"
-        },
-        {
-          "name": "인천"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "101784930201",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "1784",
-    "arrivalTerminalId": "9302",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
-      "hour": 10,
       "minute": 30
     },
     "isTemporaryRoute": false,
