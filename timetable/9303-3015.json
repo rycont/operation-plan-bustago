@@ -165,64 +165,6 @@
       "충북리무진㈜"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        23800
-      ],
-      "초등생": [
-        11900
-      ],
-      "중고생": [
-        19000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "인천공항(제2터미널)"
-        },
-        {
-          "name": "인천공항"
-        },
-        {
-          "name": "청주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "939337301506",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        1
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9303",
-    "arrivalTerminalId": "3015",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "충북리무진㈜"
-    ],
-    "departureTime": {
       "hour": 8,
       "minute": 10
     },
@@ -1511,6 +1453,64 @@
     "routeId": "939337301506",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9303",
+    "arrivalTerminalId": "3015",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "충북리무진㈜"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23800
+      ],
+      "초등생": [
+        11900
+      ],
+      "중고생": [
+        19000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "인천공항(제2터미널)"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "청주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "939337301506",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   }
 ]
