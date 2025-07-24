@@ -3,6 +3,62 @@
     "departureTerminalId": "9601",
     "arrivalTerminalId": "2671",
     "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "㈜금아여행"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        38000
+      ],
+      "초등생": [
+        19000
+      ],
+      "중고생": [
+        30400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "울산"
+        },
+        {
+          "name": "동해"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "969601205102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9601",
+    "arrivalTerminalId": "2671",
+    "durationInMinutes": [
       310
     ],
     "operator": [
@@ -119,62 +175,6 @@
     "routeId": "969601205103",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "9601",
-    "arrivalTerminalId": "2671",
-    "durationInMinutes": [
-      240
-    ],
-    "operator": [
-      "㈜금아여행"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        38000
-      ],
-      "초등생": [
-        19000
-      ],
-      "중고생": [
-        30400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "울산"
-        },
-        {
-          "name": "동해"
-        },
-        {
-          "name": "강릉"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "969601205102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
     }
   }
 ]
