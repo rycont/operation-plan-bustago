@@ -499,29 +499,26 @@
           "name": "원통"
         },
         {
-          "name": "인제"
-        },
-        {
-          "name": "신남"
-        },
-        {
           "name": "홍천"
         },
         {
-          "name": "의정부"
+          "name": "우만동"
+        },
+        {
+          "name": "수원"
         }
       ]
     ],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        41
+        28
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "202019102708",
+    "routeId": "202019101214",
     "pattern": {
       "type": "everyday"
     }
@@ -563,26 +560,29 @@
           "name": "원통"
         },
         {
+          "name": "인제"
+        },
+        {
+          "name": "신남"
+        },
+        {
           "name": "홍천"
         },
         {
-          "name": "우만동"
-        },
-        {
-          "name": "수원"
+          "name": "의정부"
         }
       ]
     ],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        41
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "202019101214",
+    "routeId": "202019102708",
     "pattern": {
       "type": "everyday"
     }
@@ -2151,6 +2151,70 @@
     ],
     "departureTime": {
       "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6600
+      ],
+      "초등생": [
+        3300
+      ],
+      "중고생": [
+        5300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "백담사입구"
+        },
+        {
+          "name": "원통"
+        },
+        {
+          "name": "홍천"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202019101214",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "2019",
+    "arrivalTerminalId": "2029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 16,
       "minute": 50
     },
     "isTemporaryRoute": false,
@@ -2370,6 +2434,61 @@
     "routeId": "202019102706",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2019",
+    "arrivalTerminalId": "2029",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "㈜금강고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "속초"
+        },
+        {
+          "name": "원통"
+        },
+        {
+          "name": "성남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "202019101001",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   },
   {
