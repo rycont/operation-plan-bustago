@@ -396,6 +396,61 @@
       "금호고속(주)"
     ],
     "departureTime": {
+      "hour": 21,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7100
+      ],
+      "초등생": [
+        3600
+      ],
+      "중고생": [
+        5700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "신북"
+        },
+        {
+          "name": "영암"
+        },
+        {
+          "name": "성전"
+        },
+        {
+          "name": "해남"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808040806201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8040",
+    "arrivalTerminalId": "8062",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
       "hour": 19,
       "minute": 25
     },
@@ -451,61 +506,6 @@
     "routeId": "808040805001",
     "pattern": {
       "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "8040",
-    "arrivalTerminalId": "8062",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7100
-      ],
-      "초등생": [
-        3600
-      ],
-      "중고생": [
-        5700
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "신북"
-        },
-        {
-          "name": "영암"
-        },
-        {
-          "name": "성전"
-        },
-        {
-          "name": "해남"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808040806201",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
