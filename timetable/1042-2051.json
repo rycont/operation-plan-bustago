@@ -118,26 +118,22 @@
       0
     ],
     "operator": [
-      "(주)경기고속",
-      "강원여객",
-      "대원고속",
-      "동해상사고속㈜",
-      "합자회사 경남여객"
+      "(주)경기고속"
     ],
     "departureTime": {
       "hour": 9,
-      "minute": 38
+      "minute": 37
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        21500
+        16500
       ],
       "초등생": [
-        10800
+        8300
       ],
       "중고생": [
-        17200
+        13200
       ]
     },
     "stops": [
@@ -156,15 +152,18 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        40
       ],
       "busClass": [
-        "시외우등"
+        "일반"
       ]
     },
     "routeId": "101012205107",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   },
   {
@@ -566,26 +565,22 @@
       0
     ],
     "operator": [
-      "(주)경기고속",
-      "강원여객",
-      "대원고속",
-      "동해상사고속㈜",
-      "합자회사 경남여객"
+      "(주)경기고속"
     ],
     "departureTime": {
       "hour": 17,
-      "minute": 38
+      "minute": 37
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        21500
+        16500
       ],
       "초등생": [
-        10800
+        8300
       ],
       "중고생": [
-        17200
+        13200
       ]
     },
     "stops": [
@@ -604,15 +599,18 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        40
       ],
       "busClass": [
-        "시외우등"
+        "일반"
       ]
     },
     "routeId": "101012205107",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   },
   {
@@ -669,6 +667,140 @@
     "routeId": "101012205107",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "1042",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "강원여객",
+      "대원고속",
+      "동해상사고속㈜",
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 38
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21500
+      ],
+      "초등생": [
+        10800
+      ],
+      "중고생": [
+        17200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101012205107",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "1042",
+    "arrivalTerminalId": "2051",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속",
+      "강원여객",
+      "대원고속",
+      "동해상사고속㈜",
+      "합자회사 경남여객"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 38
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21500
+      ],
+      "초등생": [
+        10800
+      ],
+      "중고생": [
+        17200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "수원터미널"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "101012205107",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   }
 ]
