@@ -362,69 +362,6 @@
       "동해상사고속㈜"
     ],
     "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18700
-      ],
-      "초등생": [
-        9400
-      ],
-      "중고생": [
-        15000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "동서울"
-        },
-        {
-          "name": "장평"
-        },
-        {
-          "name": "진부"
-        },
-        {
-          "name": "횡계공용"
-        },
-        {
-          "name": "강릉"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "000001205102",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "0001",
-    "arrivalTerminalId": "2036",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "동해상사고속㈜"
-    ],
-    "departureTime": {
       "hour": 16,
       "minute": 20
     },
@@ -650,6 +587,69 @@
     "routeId": "000001205102",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "0001",
+    "arrivalTerminalId": "2036",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "동해상사고속㈜"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18700
+      ],
+      "초등생": [
+        9400
+      ],
+      "중고생": [
+        15000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "동서울"
+        },
+        {
+          "name": "장평"
+        },
+        {
+          "name": "진부"
+        },
+        {
+          "name": "횡계공용"
+        },
+        {
+          "name": "강릉"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "000001205102",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
     }
   }
 ]
