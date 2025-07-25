@@ -405,59 +405,6 @@
     ],
     "departureTime": {
       "hour": 11,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1800
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광양"
-        },
-        {
-          "name": "동광양(중마)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808006801901",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "8006",
-    "arrivalTerminalId": "8019",
-    "durationInMinutes": [
-      17
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 11,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -494,60 +441,6 @@
     "routeId": "808006801901",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8006",
-    "arrivalTerminalId": "8019",
-    "durationInMinutes": [
-      17
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1800
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광양"
-        },
-        {
-          "name": "동광양(중마)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808006801901",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
     }
   },
   {
@@ -647,11 +540,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1105,11 +998,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1164,60 +1057,6 @@
     "routeId": "808006801901",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "8006",
-    "arrivalTerminalId": "8019",
-    "durationInMinutes": [
-      17
-    ],
-    "operator": [
-      "금호고속(주)"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1800
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "광양"
-        },
-        {
-          "name": "동광양(중마)"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808006801901",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
     }
   },
   {
@@ -1317,11 +1156,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -1388,8 +1227,57 @@
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 19,
-      "minute": 55
+      "hour": 20,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808006801901",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8006",
+    "arrivalTerminalId": "8019",
+    "durationInMinutes": [
+      17
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1441,8 +1329,8 @@
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 20,
-      "minute": 20
+      "hour": 12,
+      "minute": 35
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1477,7 +1365,119 @@
     },
     "routeId": "808006801901",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8006",
+    "arrivalTerminalId": "8019",
+    "durationInMinutes": [
+      17
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808006801901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "8006",
+    "arrivalTerminalId": "8019",
+    "durationInMinutes": [
+      17
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광양"
+        },
+        {
+          "name": "동광양(중마)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808006801901",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -1567,7 +1567,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3,
         4,
@@ -1665,7 +1664,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3,
         4,
@@ -1763,7 +1761,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3,
         4,
