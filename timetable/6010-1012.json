@@ -354,67 +354,6 @@
       240
     ],
     "operator": [
-      "경남고속뉴부산"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        34700
-      ],
-      "초등생": [
-        17400
-      ],
-      "중고생": [
-        27800
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "창원"
-        },
-        {
-          "name": "마산"
-        },
-        {
-          "name": "오산"
-        },
-        {
-          "name": "수원"
-        },
-        {
-          "name": "안산"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "606028101501",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "6010",
-    "arrivalTerminalId": "1012",
-    "durationInMinutes": [
-      240
-    ],
-    "operator": [
       "천일여객㈜"
     ],
     "departureTime": {
@@ -638,6 +577,67 @@
     "routeId": "606028101502",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "6010",
+    "arrivalTerminalId": "1012",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "경남고속뉴부산"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        34700
+      ],
+      "초등생": [
+        17400
+      ],
+      "중고생": [
+        27800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "창원"
+        },
+        {
+          "name": "마산"
+        },
+        {
+          "name": "오산"
+        },
+        {
+          "name": "수원"
+        },
+        {
+          "name": "안산"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "606028101501",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   }
 ]
