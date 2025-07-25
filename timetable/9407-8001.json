@@ -74,6 +74,65 @@
     ],
     "departureTime": {
       "hour": 7,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14000
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주진월동"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "전남인재개발원"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "949407846201",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9407",
+    "arrivalTerminalId": "8001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 7,
       "minute": 25
     },
     "isTemporaryRoute": false,
@@ -440,7 +499,7 @@
     ],
     "departureTime": {
       "hour": 14,
-      "minute": 35
+      "minute": 15
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -470,6 +529,12 @@
         },
         {
           "name": "고금"
+        },
+        {
+          "name": "약산"
+        },
+        {
+          "name": "당목"
         }
       ]
     ],
@@ -482,9 +547,12 @@
         "일반"
       ]
     },
-    "routeId": "949407823304",
+    "routeId": "949407823204",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   },
   {
@@ -790,19 +858,19 @@
       "금호고속(주)"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 15
+      "hour": 14,
+      "minute": 35
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        14000
+        10800
       ],
       "초등생": [
-        7000
+        5400
       ],
       "중고생": [
-        11200
+        8600
       ]
     },
     "stops": [
@@ -814,7 +882,13 @@
           "name": "강진"
         },
         {
-          "name": "전남인재개발원"
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
         }
       ]
     ],
@@ -824,18 +898,22 @@
         0
       ],
       "busClass": [
-        "시외우등"
+        "일반"
       ]
     },
-    "routeId": "949407846201",
+    "routeId": "949407823304",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
-        5
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
       ]
     }
   }

@@ -531,10 +531,66 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         4,
         5,
         6,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "6349",
+    "arrivalTerminalId": "9303",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경원여객(자주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        42400
+      ],
+      "초등생": [
+        21200
+      ],
+      "중고생": [
+        33900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "개양"
+        },
+        {
+          "name": "인천공항"
+        },
+        {
+          "name": "인천공항(제2터미널)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "606349933701",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
       ]
     }
   },
@@ -595,11 +651,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3
       ],
       "irregularDays": [
+        1,
         4,
         5,
         6,
