@@ -9,61 +9,6 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 6,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        16300
-      ],
-      "초등생": [
-        8200
-      ],
-      "중고생": [
-        11400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "점촌"
-        },
-        {
-          "name": "문경"
-        },
-        {
-          "name": "우만동"
-        },
-        {
-          "name": "수원터미널"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "505060101202",
-    "pattern": {
-      "type": "unknown"
-    }
-  },
-  {
-    "departureTerminalId": "5026",
-    "arrivalTerminalId": "1012",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "departureTime": {
       "hour": 8,
       "minute": 35
     },
@@ -119,8 +64,63 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 13,
+      "hour": 15,
       "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16300
+      ],
+      "초등생": [
+        8200
+      ],
+      "중고생": [
+        11400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "점촌"
+        },
+        {
+          "name": "문경"
+        },
+        {
+          "name": "우만동"
+        },
+        {
+          "name": "수원터미널"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "505060101202",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "5026",
+    "arrivalTerminalId": "1012",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -174,7 +174,7 @@
       "(주)경기고속"
     ],
     "departureTime": {
-      "hour": 15,
+      "hour": 13,
       "minute": 25
     },
     "isTemporaryRoute": false,
@@ -216,7 +216,7 @@
     },
     "routeId": "505060101202",
     "pattern": {
-      "type": "everyday"
+      "type": "unknown"
     }
   }
 ]
