@@ -894,11 +894,14 @@
     },
     "routeId": "202019000111",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         6,
         7
+      ],
+      "irregularDays": [
+        2
       ]
     }
   },

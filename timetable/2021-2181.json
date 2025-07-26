@@ -10,7 +10,7 @@
     ],
     "departureTime": {
       "hour": 12,
-      "minute": 20
+      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -113,6 +113,64 @@
     "routeId": "202021202601",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "2021",
+    "arrivalTerminalId": "2181",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1300
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "신철원"
+        },
+        {
+          "name": "문혜리"
+        },
+        {
+          "name": "지경리"
+        },
+        {
+          "name": "학사리"
+        },
+        {
+          "name": "와수리"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "202021202601",
+    "pattern": {
+      "type": "unknown"
     }
   },
   {

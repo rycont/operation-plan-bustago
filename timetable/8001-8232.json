@@ -181,5 +181,69 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "8001",
+    "arrivalTerminalId": "8232",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7800
+      ],
+      "초등생": [
+        3900
+      ],
+      "중고생": [
+        6200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "강진"
+        },
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        },
+        {
+          "name": "약산"
+        },
+        {
+          "name": "당목"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808001823202",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        2
+      ]
+    }
   }
 ]

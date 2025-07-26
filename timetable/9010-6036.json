@@ -9,63 +9,6 @@
       "공통"
     ],
     "departureTime": {
-      "hour": 0,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7000
-      ],
-      "초등생": [
-        3500
-      ],
-      "중고생": [
-        5600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "부산동래"
-        },
-        {
-          "name": "창원(남산)심야"
-        },
-        {
-          "name": "창원심야"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        0
-      ],
-      "busClass": [
-        "심야고속"
-      ]
-    },
-    "routeId": "909010602805",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9010",
-    "arrivalTerminalId": "6036",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "공통"
-    ],
-    "departureTime": {
       "hour": 6,
       "minute": 5
     },
@@ -2204,6 +2147,63 @@
     "routeId": "909010602803",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9010",
+    "arrivalTerminalId": "6036",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "공통"
+    ],
+    "departureTime": {
+      "hour": 0,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7000
+      ],
+      "초등생": [
+        3500
+      ],
+      "중고생": [
+        5600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "부산동래"
+        },
+        {
+          "name": "창원(남산)심야"
+        },
+        {
+          "name": "창원심야"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "심야고속"
+      ]
+    },
+    "routeId": "909010602805",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        6,
+        7
+      ]
     }
   },
   {
