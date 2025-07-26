@@ -227,13 +227,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -299,13 +299,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -611,65 +611,6 @@
       0
     ],
     "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1800
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "음성"
-        },
-        {
-          "name": "금왕(무극)"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303010000401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3010",
-    "arrivalTerminalId": "3225",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "(주)경기.대원고속"
     ],
     "departureTime": {
@@ -936,65 +877,6 @@
     "routeId": "303010000101",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "3010",
-    "arrivalTerminalId": "3225",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "(주)경기.대원고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1800
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "음성"
-        },
-        {
-          "name": "금왕(무극)"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "동서울"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        40
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303010000101",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
     }
   },
   {
@@ -1337,6 +1219,68 @@
       0
     ],
     "operator": [
+      "(주)경기.대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "음성"
+        },
+        {
+          "name": "금왕(무극)"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303010000101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3010",
+    "arrivalTerminalId": "3225",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "친선고속㈜"
     ],
     "departureTime": {
@@ -1448,13 +1392,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -1513,6 +1457,68 @@
     "routeId": "303010000101",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "3010",
+    "arrivalTerminalId": "3225",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "(주)경기.대원고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "음성"
+        },
+        {
+          "name": "금왕(무극)"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "동서울"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303010000101",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     }
   },
   {
@@ -1633,13 +1639,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -1997,65 +2003,6 @@
       0
     ],
     "operator": [
-      "경일여객"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        1800
-      ],
-      "초등생": [
-        900
-      ],
-      "중고생": [
-        1400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "음성"
-        },
-        {
-          "name": "금왕(무극)"
-        },
-        {
-          "name": "대소"
-        },
-        {
-          "name": "서울남부"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        41
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "303010000401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "3010",
-    "arrivalTerminalId": "3225",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
       "(주)경기.대원고속"
     ],
     "departureTime": {
@@ -2332,13 +2279,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -2571,11 +2518,11 @@
       0
     ],
     "operator": [
-      "(주)경기.대원고속"
+      "경일여객"
     ],
     "departureTime": {
-      "hour": 12,
-      "minute": 30
+      "hour": 8,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -2601,28 +2548,25 @@
           "name": "대소"
         },
         {
-          "name": "동서울"
+          "name": "서울남부"
         }
       ]
     ],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        41
       ],
       "busClass": [
         "일반"
       ]
     },
-    "routeId": "303010000101",
+    "routeId": "303010000401",
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        5
+        6,
+        7
       ]
     }
   },
@@ -2636,7 +2580,7 @@
       "(주)경기.대원고속"
     ],
     "departureTime": {
-      "hour": 13,
+      "hour": 10,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -2670,7 +2614,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        40
       ],
       "busClass": [
         "일반"
@@ -2680,11 +2624,67 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
-        2,
-        3,
-        4,
-        5
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "3010",
+    "arrivalTerminalId": "3225",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경일여객"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        1800
+      ],
+      "초등생": [
+        900
+      ],
+      "중고생": [
+        1400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "음성"
+        },
+        {
+          "name": "금왕(무극)"
+        },
+        {
+          "name": "대소"
+        },
+        {
+          "name": "서울남부"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        41
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "303010000401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
       ]
     }
   },
@@ -2809,7 +2809,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3
       ]
@@ -2872,7 +2871,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3
       ]
@@ -2938,7 +2936,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3
       ]
@@ -2998,7 +2995,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3
       ]
@@ -3067,7 +3063,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        1,
         2,
         3
       ]
