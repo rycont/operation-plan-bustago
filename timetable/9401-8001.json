@@ -428,7 +428,7 @@
     ],
     "departureTime": {
       "hour": 14,
-      "minute": 20
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -461,6 +461,12 @@
         },
         {
           "name": "고금"
+        },
+        {
+          "name": "약산"
+        },
+        {
+          "name": "당목"
         }
       ]
     ],
@@ -473,9 +479,12 @@
         "일반"
       ]
     },
-    "routeId": "949401823309",
+    "routeId": "949401823210",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   },
   {
@@ -775,6 +784,78 @@
       "금호고속(주)"
     ],
     "departureTime": {
+      "hour": 14,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        11700
+      ],
+      "초등생": [
+        5900
+      ],
+      "중고생": [
+        9400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        },
+        {
+          "name": "진월동"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949401823309",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9401",
+    "arrivalTerminalId": "8001",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
       "hour": 9,
       "minute": 45
     },
@@ -829,11 +910,9 @@
     },
     "routeId": "949401800110",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4,
