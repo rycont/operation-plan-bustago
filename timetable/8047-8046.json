@@ -742,7 +742,7 @@
     ],
     "departureTime": {
       "hour": 18,
-      "minute": 15
+      "minute": 25
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -789,7 +789,10 @@
     },
     "routeId": "808047940101",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   },
   {
@@ -973,6 +976,78 @@
     "routeId": "808047940101",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8047",
+    "arrivalTerminalId": "8046",
+    "durationInMinutes": [
+      25
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        3400
+      ],
+      "초등생": [
+        1700
+      ],
+      "중고생": [
+        2700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "영암"
+        },
+        {
+          "name": "신북"
+        },
+        {
+          "name": "영산포"
+        },
+        {
+          "name": "나주"
+        },
+        {
+          "name": "진월동"
+        },
+        {
+          "name": "광주(유ㆍ스퀘어)"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808047940101",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   }
 ]
