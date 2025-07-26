@@ -192,111 +192,6 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19300
-      ],
-      "초등생": [
-        9700
-      ],
-      "중고생": [
-        15400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대전복합"
-        },
-        {
-          "name": "진주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "959503641401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9503",
-    "arrivalTerminalId": "6414",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19300
-      ],
-      "초등생": [
-        9700
-      ],
-      "중고생": [
-        15400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "대전복합"
-        },
-        {
-          "name": "진주"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "시외우등"
-      ]
-    },
-    "routeId": "959503641401",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "9503",
-    "arrivalTerminalId": "6414",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "경전_동일"
-    ],
-    "departureTime": {
       "hour": 15,
       "minute": 0
     },
@@ -498,8 +393,118 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 19,
+      "hour": 20,
       "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21400,
+        27800
+      ],
+      "초등생": [
+        10700,
+        13900
+      ],
+      "중고생": [
+        17100,
+        22200
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대전복합"
+        },
+        {
+          "name": "원지"
+        },
+        {
+          "name": "진주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21,
+        28
+      ],
+      "busClass": [
+        "시외우등",
+        "프리미엄우등"
+      ]
+    },
+    "routeId": "959503641402",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "9503",
+    "arrivalTerminalId": "6414",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19300
+      ],
+      "초등생": [
+        9700
+      ],
+      "중고생": [
+        15400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "대전복합"
+        },
+        {
+          "name": "진주"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "시외우등"
+      ]
+    },
+    "routeId": "959503641401",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9503",
+    "arrivalTerminalId": "6414",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "경전_동일"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -550,31 +555,25 @@
       "경전_동일"
     ],
     "departureTime": {
-      "hour": 20,
+      "hour": 19,
       "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        21400,
-        27800
+        19300
       ],
       "초등생": [
-        10700,
-        13900
+        9700
       ],
       "중고생": [
-        17100,
-        22200
+        15400
       ]
     },
     "stops": [
       [
         {
           "name": "대전복합"
-        },
-        {
-          "name": "원지"
         },
         {
           "name": "진주"
@@ -584,17 +583,18 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         28
       ],
       "busClass": [
-        "시외우등",
-        "프리미엄우등"
+        "시외우등"
       ]
     },
-    "routeId": "959503641402",
+    "routeId": "959503641401",
     "pattern": {
-      "type": "everyday"
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   },
   {
