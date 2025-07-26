@@ -196,6 +196,73 @@
     ],
     "departureTime": {
       "hour": 14,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17100
+      ],
+      "초등생": [
+        8600
+      ],
+      "중고생": [
+        13700
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "광주진월동"
+        },
+        {
+          "name": "강진"
+        },
+        {
+          "name": "가우도"
+        },
+        {
+          "name": "마량"
+        },
+        {
+          "name": "고금"
+        },
+        {
+          "name": "약산"
+        },
+        {
+          "name": "당목"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        0
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "949407823204",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "9407",
+    "arrivalTerminalId": "8233",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
+      "금호고속(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -240,7 +307,18 @@
     },
     "routeId": "949407823304",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
     }
   }
 ]
