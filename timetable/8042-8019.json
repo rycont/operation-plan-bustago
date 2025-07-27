@@ -73,6 +73,73 @@
       0
     ],
     "operator": [
+      "㈜동방고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        0
+      ],
+      "초등생": [
+        0
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": "여천"
+        },
+        {
+          "name": "순천"
+        },
+        {
+          "name": "순천북부"
+        },
+        {
+          "name": "광양"
+        },
+        {
+          "name": "성황"
+        },
+        {
+          "name": "동광양(중마)"
+        },
+        {
+          "name": "도촌"
+        },
+        {
+          "name": "광영"
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "일반"
+      ]
+    },
+    "routeId": "808042812201",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "8042",
+    "arrivalTerminalId": "8019",
+    "durationInMinutes": [
+      0
+    ],
+    "operator": [
       "경전_동일"
     ],
     "departureTime": {
@@ -134,77 +201,9 @@
         5
       ],
       "irregularDays": [
-        2,
         6,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "8042",
-    "arrivalTerminalId": "8019",
-    "durationInMinutes": [
-      0
-    ],
-    "operator": [
-      "㈜동방고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        0
-      ],
-      "초등생": [
-        0
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": "여천"
-        },
-        {
-          "name": "순천"
-        },
-        {
-          "name": "순천북부"
-        },
-        {
-          "name": "광양"
-        },
-        {
-          "name": "성황"
-        },
-        {
-          "name": "동광양(중마)"
-        },
-        {
-          "name": "도촌"
-        },
-        {
-          "name": "광영"
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "일반"
-      ]
-    },
-    "routeId": "808042812201",
-    "pattern": {
-      "type": "everyday"
     }
   }
 ]
